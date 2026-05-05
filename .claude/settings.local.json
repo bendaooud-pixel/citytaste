@@ -9,7 +9,9 @@
       "Bash(npm_config_cache=/tmp/citytaste-npm-cache npx tsc *)",
       "Bash(git config *)",
       "Bash(gh ssh-key *)",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)"
     ]
   }
 }

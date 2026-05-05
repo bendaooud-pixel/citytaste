@@ -2,11 +2,13 @@ import { NextResponse } from "next/server";
 import { createServerClient } from "@/lib/supabase-server";
 import { cities, places } from "@/lib/data";
 
-// One-time seed endpoint — only available in development.
-// Visit http://localhost:3000/api/seed once after running the schema SQL.
-export async function GET() {
-  if (process.env.NODE_ENV !== "development") {
-    return NextResponse.json({ error: "Only available in development" }, { status: 403 });
+// One-time seed endpoint — protected by SEED_SECRET env var.
+// Call as: GET /api/seed?secret=<SEED_SECRET>
+export async function GET(req: Request) {
+  const secret = process.env.SEED_SECRET;
+  const provided = new URL(req.url).searchParams.get("secret");
+  if (!secret || provided !== secret) {
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
   const db = createServerClient();
