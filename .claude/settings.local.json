@@ -14,7 +14,10 @@
       "Bash(git push *)",
       "Bash(sed -i '' 's|photo-1552566626?w=800|photo-1552566626-52f8b828a9d0?w=800|g' /Users/admin/citytaste/lib/data.ts)",
       "Bash(sed -i '' 's|photo-1424847651672?w=800|photo-1424847651672-bf20a4b0982b?w=800|g' /Users/admin/citytaste/lib/data.ts)",
-      "Bash(sed -i '' 's|photo-1507003211169?w=800|photo-1507003211169-0664f3158647?w=800|g' /Users/admin/citytaste/lib/data.ts)"
+      "Bash(sed -i '' 's|photo-1507003211169?w=800|photo-1507003211169-0664f3158647?w=800|g' /Users/admin/citytaste/lib/data.ts)",
+      "Bash(sed -n '56,61p' /Users/admin/citytaste/lib/data.ts)",
+      "Bash(sed -n '120,125p' /Users/admin/citytaste/lib/data.ts)",
+      "Bash(sed -n '2580,2585p' /Users/admin/citytaste/lib/data.ts)"
     ]
   }
 }
