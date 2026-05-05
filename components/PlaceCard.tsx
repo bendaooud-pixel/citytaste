@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
+import { useState } from "react";
 import type { Place } from "@/lib/types";
 import { CATEGORIES } from "@/lib/types";
 import StarRating from "./StarRating";
@@ -15,6 +16,7 @@ const PRICE_LABEL = ["", "$", "$$", "$$$", "$$$$"];
 
 export default function PlaceCard({ place, compact = false }: PlaceCardProps) {
   const primaryCategory = CATEGORIES.find((c) => c.id === place.categories[0]);
+  const [imgError, setImgError] = useState(false);
 
   return (
     <Link
@@ -24,14 +26,22 @@ export default function PlaceCard({ place, compact = false }: PlaceCardProps) {
       <article className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5 border border-slate-100">
         {/* Image */}
         <div className="relative aspect-[4/3] overflow-hidden">
-          <Image
-            src={place.photos[0]}
-            alt={place.name}
-            fill
-            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-            className="object-cover transition-transform duration-500 group-hover:scale-105"
-            onError={(e) => { (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800&q=80'; }}
-          />
+          {imgError ? (
+            <div className="absolute inset-0 bg-gradient-to-br from-orange-400 to-rose-500 flex items-end p-4">
+              <span className="text-white font-semibold text-lg leading-tight drop-shadow">
+                {place.name}
+              </span>
+            </div>
+          ) : (
+            <Image
+              src={place.photos[0]}
+              alt={place.name}
+              fill
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+              className="object-cover transition-transform duration-500 group-hover:scale-105"
+              onError={() => setImgError(true)}
+            />
+          )}
 
           {/* Category badge */}
           {primaryCategory && (
