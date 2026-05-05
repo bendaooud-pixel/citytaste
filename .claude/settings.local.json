@@ -17,7 +17,9 @@
       "Bash(sed -i '' 's|photo-1507003211169?w=800|photo-1507003211169-0664f3158647?w=800|g' /Users/admin/citytaste/lib/data.ts)",
       "Bash(sed -n '56,61p' /Users/admin/citytaste/lib/data.ts)",
       "Bash(sed -n '120,125p' /Users/admin/citytaste/lib/data.ts)",
-      "Bash(sed -n '2580,2585p' /Users/admin/citytaste/lib/data.ts)"
+      "Bash(sed -n '2580,2585p' /Users/admin/citytaste/lib/data.ts)",
+      "WebSearch",
+      "WebFetch(domain:unsplash.com)"
     ]
   }
 }
