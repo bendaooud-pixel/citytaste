@@ -246,10 +246,10 @@ export const places: Place[] = [
     website: "https://holybelly.fr",
     googleMapsUrl: "https://maps.google.com/?q=Holybelly+Paris",
     photos: [
-      "https://images.unsplash.com/photo-1667118399331-c6d546acee11?w=800&q=80",
-      "https://images.unsplash.com/photo-1695298242998-6d0ad6a79a14?w=800&q=80",
-      "https://images.unsplash.com/photo-1700868136249-d0054d8c6736?w=800&q=80",
-    ],
+      "https://images.unsplash.com/photo-1613769049987-b31b641f25b1?w=800&q=80",
+      "https://images.unsplash.com/photo-1704545229893-4f1bb5ef16a1?w=800&q=80",
+      "https://images.unsplash.com/photo-1561467792-ba0b66ddfc83?w=800&q=80",
+        ],
     openingHours: {
       Monday: "Closed",
       Tuesday: "Closed",
@@ -377,10 +377,10 @@ export const places: Place[] = [
     menuUrl: "https://bigmammagroup.com/en/trattorias/pink-mamma",
     googleMapsUrl: "https://maps.google.com/?q=Pink+Mamma+Paris",
     photos: [
-      "https://images.unsplash.com/photo-1601379342258-6f1e994c575c?w=800&q=80",
-      "https://images.unsplash.com/photo-1577056923041-6f8628ea2302?w=800&q=80",
-      "https://images.unsplash.com/photo-1667118399331-c6d546acee11?w=800&q=80",
-    ],
+      "https://images.unsplash.com/photo-1776704983009-ab315838d4c1?w=800&q=80",
+      "https://images.unsplash.com/photo-1597063006180-846bc8a60d4f?w=800&q=80",
+      "https://images.unsplash.com/photo-1711666543018-3f9ec271c843?w=800&q=80",
+        ],
     openingHours: {
       Monday: "12:00 – 14:30 · 19:00 – 23:00",
       Tuesday: "12:00 – 14:30 · 19:00 – 23:00",
@@ -441,10 +441,10 @@ export const places: Place[] = [
     website: "https://www.angelina-paris.fr",
     googleMapsUrl: "https://maps.google.com/?q=Angelina+Paris",
     photos: [
-      "https://images.unsplash.com/photo-1726761700258-b41c3586d19f?w=800&q=80",
-      "https://images.unsplash.com/photo-1775327658475-eeb1c8fd2639?w=800&q=80",
-      "https://images.unsplash.com/photo-1679548651541-7aee0870528e?w=800&q=80",
-    ],
+      "https://images.unsplash.com/photo-1544609513-31d0bf0b8686?w=800&q=80",
+      "https://images.unsplash.com/photo-1601557030026-c608b229d364?w=800&q=80",
+      "https://images.unsplash.com/photo-1558909552-8fcf7c94b575?w=800&q=80",
+        ],
     openingHours: {
       Monday: "09:00 – 19:00",
       Tuesday: "09:00 – 19:00",
@@ -504,10 +504,10 @@ export const places: Place[] = [
     phone: "+33 1 42 72 36 26",
     googleMapsUrl: "https://maps.google.com/?q=Chez+Omar+Paris",
     photos: [
-      "https://images.unsplash.com/photo-1745246002591-e081600bbb18?w=800&q=80",
-      "https://images.unsplash.com/photo-1729968546810-2c1400212de3?w=800&q=80",
-      "https://images.unsplash.com/photo-1577056922988-2387f2cee50d?w=800&q=80",
-    ],
+      "https://images.unsplash.com/photo-1713089941197-0a4c8b3dfeca?w=800&q=80",
+      "https://images.unsplash.com/photo-1661083098412-054431ab7112?w=800&q=80",
+      "https://images.unsplash.com/photo-1541518763669-27fef04b14ea?w=800&q=80",
+        ],
     openingHours: {
       Monday: "Closed",
       Tuesday: "12:00 – 14:30 · 19:00 – 23:00",
@@ -567,10 +567,10 @@ export const places: Place[] = [
     website: "https://www.dupainetdesidees.com",
     googleMapsUrl: "https://maps.google.com/?q=Du+Pain+et+des+Idees+Paris",
     photos: [
-      "https://images.unsplash.com/photo-1726761700258-b41c3586d19f?w=800&q=80",
-      "https://images.unsplash.com/photo-1775327658475-eeb1c8fd2639?w=800&q=80",
-      "https://images.unsplash.com/photo-1588914683573-8addfd1eb58a?w=800&q=80",
-    ],
+      "https://images.unsplash.com/photo-1679673987713-54f809ce417d?w=800&q=80",
+      "https://images.unsplash.com/photo-1674770067314-296af21ad811?w=800&q=80",
+      "https://images.unsplash.com/photo-1599819055803-717bba43890f?w=800&q=80",
+        ],
     openingHours: {
       Monday: "Closed",
       Tuesday: "07:00 – 20:00",
@@ -757,10 +757,10 @@ export const places: Place[] = [
     website: "https://www.hardwaresociete.com",
     googleMapsUrl: "https://maps.google.com/?q=Hardware+Societe+Paris",
     photos: [
-      "https://images.unsplash.com/photo-1679548651541-7aee0870528e?w=800&q=80",
-      "https://images.unsplash.com/photo-1564216550945-b9aca66d0a10?w=800&q=80",
-      "https://images.unsplash.com/photo-1564327368817-705b5f1b1b11?w=800&q=80",
-    ],
+      "https://images.unsplash.com/photo-1560055932-927be486d086?w=800&q=80",
+      "https://images.unsplash.com/photo-1625128994129-37b49418b5d0?w=800&q=80",
+      "https://images.unsplash.com/photo-1651936485416-655be3ade939?w=800&q=80",
+        ],
     openingHours: {
       Monday: "09:00 – 16:00",
       Tuesday: "09:00 – 16:00",
@@ -1415,10 +1415,10 @@ export const places: Place[] = [
     entryPrice: "€17",
     duration: "1 hour",
     photos: [
-      "https://images.unsplash.com/photo-1661919210043-fd847a58522d?w=800&q=80",
-      "https://images.unsplash.com/photo-1504896287989-ff1fbde00199?w=800&q=80",
-      "https://images.unsplash.com/photo-1637851058613-95f0d41c3c2f?w=800&q=80",
-    ],
+      "https://images.unsplash.com/photo-1567187155374-cd9135b1f247?w=800&q=80",
+      "https://images.unsplash.com/photo-1663178460639-2620bf7b6412?w=800&q=80",
+      "https://images.unsplash.com/photo-1728725781837-2944067cdc55?w=800&q=80",
+        ],
     openingHours: {
       Monday: "10:00 – 22:30",
       Tuesday: "10:00 – 22:30",
@@ -1481,10 +1481,10 @@ export const places: Place[] = [
     entryPrice: "€150",
     duration: "3 hours",
     photos: [
-      "https://images.unsplash.com/photo-1611838637971-2b137f0ebfaf?w=800&q=80",
-      "https://images.unsplash.com/photo-1523039031846-6b3f39302cb8?w=800&q=80",
-      "https://images.unsplash.com/photo-1723290082651-fbfa92d926ee?w=800&q=80",
-    ],
+      "https://images.unsplash.com/photo-1603231810788-59af7355e6cc?w=800&q=80",
+      "https://images.unsplash.com/photo-1692786180150-bfa735cc2181?w=800&q=80",
+      "https://images.unsplash.com/photo-1566331551467-0dc72cc80ec0?w=800&q=80",
+        ],
     openingHours: {
       Monday: "09:00 – 18:00",
       Tuesday: "09:00 – 18:00",
@@ -1547,10 +1547,10 @@ export const places: Place[] = [
     entryPrice: "€45",
     duration: "2 hours",
     photos: [
-      "https://images.unsplash.com/photo-1637851058613-95f0d41c3c2f?w=800&q=80",
-      "https://images.unsplash.com/photo-1729968546810-2c1400212de3?w=800&q=80",
-      "https://images.unsplash.com/photo-1679548651541-7aee0870528e?w=800&q=80",
-    ],
+      "https://images.unsplash.com/photo-1734490037300-6ff9ffd4ed13?w=800&q=80",
+      "https://images.unsplash.com/photo-1698063126115-7ba800c43289?w=800&q=80",
+      "https://images.unsplash.com/photo-1765850258622-9d9afa7cf4e2?w=800&q=80",
+        ],
     openingHours: {
       Monday: "18:00 – 22:00",
       Tuesday: "18:00 – 22:00",
@@ -1613,10 +1613,10 @@ export const places: Place[] = [
     entryPrice: "€35",
     duration: "3 hours",
     photos: [
-      "https://images.unsplash.com/photo-1661919210043-fd847a58522d?w=800&q=80",
-      "https://images.unsplash.com/photo-1504896287989-ff1fbde00199?w=800&q=80",
-      "https://images.unsplash.com/photo-1478391679764-b2d8b3cd1e94?w=800&q=80",
-    ],
+      "https://images.unsplash.com/photo-1554459876-b294389e9214?w=800&q=80",
+      "https://images.unsplash.com/photo-1719610197369-4fb770d34508?w=800&q=80",
+      "https://images.unsplash.com/photo-1660492040797-18a4fa553510?w=800&q=80",
+        ],
     openingHours: {
       Monday: "10:00 – 18:00",
       Tuesday: "10:00 – 18:00",
@@ -1679,10 +1679,10 @@ export const places: Place[] = [
     entryPrice: "€20",
     duration: "1 hour",
     photos: [
-      "https://images.unsplash.com/photo-1679548651541-7aee0870528e?w=800&q=80",
-      "https://images.unsplash.com/photo-1564327368817-705b5f1b1b11?w=800&q=80",
-      "https://images.unsplash.com/photo-1601034693303-8f8848f3ffa1?w=800&q=80",
-    ],
+      "https://images.unsplash.com/photo-1775210727378-7b0e9a50b660?w=800&q=80",
+      "https://images.unsplash.com/photo-1775380900469-702ebec74801?w=800&q=80",
+      "https://images.unsplash.com/photo-1759794108525-94ff060da692?w=800&q=80",
+        ],
     openingHours: {
       Monday: "09:00 – 18:00",
       Tuesday: "09:00 – 18:00",
@@ -2000,10 +2000,10 @@ export const places: Place[] = [
     menuUrl: "https://www.elbarriadreaming.com/en/tickets",
     googleMapsUrl: "https://maps.google.com/?q=Tickets+Barcelona",
     photos: [
-      "https://images.unsplash.com/photo-1656423521731-9665583f100c?w=800&q=80",
-      "https://images.unsplash.com/photo-1755407060090-36811ba059fe?w=800&q=80",
-      "https://images.unsplash.com/photo-1745246002591-e081600bbb18?w=800&q=80",
-    ],
+      "https://images.unsplash.com/photo-1755705515056-2def7b03c6bb?w=800&q=80",
+      "https://images.unsplash.com/photo-1673706530246-4c1d8b141748?w=800&q=80",
+      "https://images.unsplash.com/photo-1664994464799-c8f643d712f6?w=800&q=80",
+        ],
     openingHours: {
       Monday: "Closed",
       Tuesday: "Closed",
@@ -2064,10 +2064,10 @@ export const places: Place[] = [
     phone: "+34 93 319 70 03",
     googleMapsUrl: "https://maps.google.com/?q=El+Xampanyet+Barcelona",
     photos: [
-      "https://images.unsplash.com/photo-1729968546810-2c1400212de3?w=800&q=80",
-      "https://images.unsplash.com/photo-1714425342554-84ebb62349f0?w=800&q=80",
-      "https://images.unsplash.com/photo-1656423521731-9665583f100c?w=800&q=80",
-    ],
+      "https://images.unsplash.com/photo-1491333078588-55b6733c7de6?w=800&q=80",
+      "https://images.unsplash.com/photo-1695910016906-99a1ae19802f?w=800&q=80",
+      "https://images.unsplash.com/photo-1649082236294-94468ba45741?w=800&q=80",
+        ],
     openingHours: {
       Monday: "Closed",
       Tuesday: "12:00 – 15:30 · 19:00 – 23:00",
@@ -2193,10 +2193,10 @@ export const places: Place[] = [
     menuUrl: "https://www.disfrutarbarcelona.com",
     googleMapsUrl: "https://maps.google.com/?q=Disfrutar+Barcelona",
     photos: [
-      "https://images.unsplash.com/photo-1650964807311-970cb88d347c?w=800&q=80",
-      "https://images.unsplash.com/photo-1650964802649-ef992b574b8c?w=800&q=80",
-      "https://images.unsplash.com/photo-1577056922988-2387f2cee50d?w=800&q=80",
-    ],
+      "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+      "https://images.unsplash.com/photo-1676471926534-d5c9771909fa?w=800&q=80",
+      "https://images.unsplash.com/photo-1616671285410-2a676a9a433d?w=800&q=80",
+        ],
     openingHours: {
       Monday: "Closed",
       Tuesday: "13:00 – 15:00 · 20:30 – 22:00",
@@ -2322,10 +2322,10 @@ export const places: Place[] = [
     phone: "+34 93 442 31 42",
     googleMapsUrl: "https://maps.google.com/?q=Quimet+Quimet+Barcelona",
     photos: [
-      "https://images.unsplash.com/photo-1714425342554-84ebb62349f0?w=800&q=80",
-      "https://images.unsplash.com/photo-1650964794396-9b9efaccd585?w=800&q=80",
-      "https://images.unsplash.com/photo-1729968546810-2c1400212de3?w=800&q=80",
-    ],
+      "https://images.unsplash.com/photo-1665949503309-185a69b420fe?w=800&q=80",
+      "https://images.unsplash.com/photo-1681024752780-832ccc44a2b4?w=800&q=80",
+      "https://images.unsplash.com/photo-1683744129656-5e8666fa4e7f?w=800&q=80",
+        ],
     openingHours: {
       Monday: "Closed",
       Tuesday: "12:00 – 16:00 · 19:00 – 22:30",
@@ -2387,10 +2387,10 @@ export const places: Place[] = [
     menuUrl: "https://www.parkingpizza.com",
     googleMapsUrl: "https://maps.google.com/?q=Parking+Pizza+Barcelona",
     photos: [
-      "https://images.unsplash.com/photo-1601379342258-6f1e994c575c?w=800&q=80",
-      "https://images.unsplash.com/photo-1656423521731-9665583f100c?w=800&q=80",
-      "https://images.unsplash.com/photo-1745246002591-e081600bbb18?w=800&q=80",
-    ],
+      "https://images.unsplash.com/photo-1564936281403-f92f66f89ee0?w=800&q=80",
+      "https://images.unsplash.com/photo-1564936281659-ba4f75a41956?w=800&q=80",
+      "https://images.unsplash.com/photo-1651978595438-980213ca6d3d?w=800&q=80",
+        ],
     openingHours: {
       Monday: "13:00 – 16:00 · 20:30 – 23:30",
       Tuesday: "13:00 – 16:00 · 20:30 – 23:30",
@@ -2642,10 +2642,10 @@ export const places: Place[] = [
     website: "https://elnacionalbcn.com",
     googleMapsUrl: "https://maps.google.com/?q=El+Nacional+Barcelona",
     photos: [
-      "https://images.unsplash.com/photo-1656423521731-9665583f100c?w=800&q=80",
-      "https://images.unsplash.com/photo-1755407060090-36811ba059fe?w=800&q=80",
-      "https://images.unsplash.com/photo-1650964807311-970cb88d347c?w=800&q=80",
-    ],
+      "https://images.unsplash.com/photo-1752605158021-6ca2665f6acc?w=800&q=80",
+      "https://images.unsplash.com/photo-1711089550883-659fe38f32b2?w=800&q=80",
+      "https://images.unsplash.com/photo-1644144979169-b1e85ca74332?w=800&q=80",
+        ],
     openingHours: {
       Monday: "12:00 – 01:00",
       Tuesday: "12:00 – 01:00",
@@ -2684,10 +2684,10 @@ export const places: Place[] = [
     lng: 2.161,
     googleMapsUrl: "https://maps.google.com/?q=Bodega+Sepulveda+Barcelona",
     photos: [
-      "https://images.unsplash.com/photo-1679548651541-7aee0870528e?w=800&q=80",
-      "https://images.unsplash.com/photo-1564216550945-b9aca66d0a10?w=800&q=80",
-      "https://images.unsplash.com/photo-1714425342554-84ebb62349f0?w=800&q=80",
-    ],
+      "https://images.unsplash.com/photo-1660815312825-ce72440ecaf2?w=800&q=80",
+      "https://images.unsplash.com/photo-1660815312835-7fedfcd472b4?w=800&q=80",
+      "https://images.unsplash.com/photo-1660815312836-4d774f5408b5?w=800&q=80",
+        ],
     openingHours: {
       Monday: "Closed",
       Tuesday: "19:00 – 23:30",
@@ -2726,10 +2726,10 @@ export const places: Place[] = [
     lng: 2.1755,
     googleMapsUrl: "https://maps.google.com/?q=Satans+Coffee+Corner+Barcelona",
     photos: [
-      "https://images.unsplash.com/photo-1564216550945-b9aca66d0a10?w=800&q=80",
-      "https://images.unsplash.com/photo-1564327368817-705b5f1b1b11?w=800&q=80",
-      "https://images.unsplash.com/photo-1679548651541-7aee0870528e?w=800&q=80",
-    ],
+      "https://images.unsplash.com/photo-1661724354845-1cdd1a69a93d?w=800&q=80",
+      "https://images.unsplash.com/photo-1653564164451-17e2dfa4b4dc?w=800&q=80",
+      "https://images.unsplash.com/photo-1653564164324-aacc17e09e38?w=800&q=80",
+        ],
     openingHours: {
       Monday: "09:00 – 18:00",
       Tuesday: "09:00 – 18:00",
@@ -3170,10 +3170,10 @@ export const places: Place[] = [
     entryPrice: "€20",
     duration: "1 hour",
     photos: [
-      "https://images.unsplash.com/photo-1654986589374-46fc6e485013?w=800&q=80",
-      "https://images.unsplash.com/photo-1557137848-12de044c6f84?w=800&q=80",
-      "https://images.unsplash.com/photo-1707952189186-8694f03529f7?w=800&q=80",
-    ],
+      "https://images.unsplash.com/photo-1617178851416-16180c2dddd6?w=800&q=80",
+      "https://images.unsplash.com/photo-1669401904292-d61be9953607?w=800&q=80",
+      "https://images.unsplash.com/photo-1655926580382-a2c24dbb50a4?w=800&q=80",
+        ],
     openingHours: {
       Monday: "09:30 – 15:30",
       Tuesday: "09:30 – 15:30",
@@ -3214,10 +3214,10 @@ export const places: Place[] = [
     entryPrice: "Free",
     duration: "2–3 hours",
     photos: [
-      "https://images.unsplash.com/photo-1503917988258-f87a78e3c995?w=800&q=80",
-      "https://images.unsplash.com/photo-1555425748-f780612e5634?w=800&q=80",
-      "https://images.unsplash.com/photo-1478391679764-b2d8b3cd1e94?w=800&q=80",
-    ],
+      "https://images.unsplash.com/photo-1562861844-763c4ae2e696?w=800&q=80",
+      "https://images.unsplash.com/photo-1703885195425-ec7ebec8746f?w=800&q=80",
+      "https://images.unsplash.com/photo-1688397160949-239083d9bc61?w=800&q=80",
+        ],
     openingHours: {
       Monday: "Open 24 hours",
       Tuesday: "Open 24 hours",
@@ -3258,10 +3258,10 @@ export const places: Place[] = [
     entryPrice: "Free",
     duration: "2–3 hours",
     photos: [
-      "https://images.unsplash.com/photo-1661919210043-fd847a58522d?w=800&q=80",
-      "https://images.unsplash.com/photo-1504896287989-ff1fbde00199?w=800&q=80",
-      "https://images.unsplash.com/photo-1630219694734-fe47ab76b15e?w=800&q=80",
-    ],
+      "https://images.unsplash.com/photo-1610213989414-acc5773ba2c6?w=800&q=80",
+      "https://images.unsplash.com/photo-1599484233778-5bdc6b69bbe3?w=800&q=80",
+      "https://images.unsplash.com/photo-1628541289614-b70c327da0bf?w=800&q=80",
+        ],
     openingHours: {
       Monday: "Open 24 hours",
       Tuesday: "Open 24 hours",
@@ -3304,10 +3304,10 @@ export const places: Place[] = [
     entryPrice: "€35",
     duration: "2 hours",
     photos: [
-      "https://images.unsplash.com/photo-1651940774004-c1b6e2f6de6a?w=800&q=80",
-      "https://images.unsplash.com/photo-1697730286026-467814876960?w=800&q=80",
-      "https://images.unsplash.com/photo-1735920777178-6e63dfb43874?w=800&q=80",
-    ],
+      "https://images.unsplash.com/photo-1585170236738-aadfce97f025?w=800&q=80",
+      "https://images.unsplash.com/photo-1595030044556-acfaa61edc0f?w=800&q=80",
+      "https://images.unsplash.com/photo-1544366981-53db834f982a?w=800&q=80",
+        ],
     openingHours: {
       Monday: "09:30 – 18:30",
       Tuesday: "09:30 – 18:30",
@@ -3482,10 +3482,10 @@ export const places: Place[] = [
     entryPrice: "Free",
     duration: "2 hours",
     photos: [
-      "https://images.unsplash.com/photo-1686529961855-c625b95d0c45?w=800&q=80",
-      "https://images.unsplash.com/photo-1587454333260-0e5a9df45293?w=800&q=80",
-      "https://images.unsplash.com/photo-1614635455025-7d7380e4e407?w=800&q=80",
-    ],
+      "https://images.unsplash.com/photo-1597668900045-b9283c0de174?w=800&q=80",
+      "https://images.unsplash.com/photo-1623503664086-475867ec20b3?w=800&q=80",
+      "https://images.unsplash.com/photo-1600078307129-97e9d51d19cc?w=800&q=80",
+        ],
     openingHours: {
       Monday: "Closed",
       Tuesday: "Closed",
