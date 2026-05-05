@@ -13,7 +13,6 @@ export default function Navbar() {
     { href: "/cities/barcelona", label: "Barcelona" },
     { href: "/blog", label: "Blog" },
     { href: "/favorites", label: "Favourites" },
-    { href: "/admin", label: "Admin" },
   ];
 
   return (
