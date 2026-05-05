@@ -19,7 +19,9 @@
       "Bash(sed -n '120,125p' /Users/admin/citytaste/lib/data.ts)",
       "Bash(sed -n '2580,2585p' /Users/admin/citytaste/lib/data.ts)",
       "WebSearch",
-      "WebFetch(domain:unsplash.com)"
+      "WebFetch(domain:unsplash.com)",
+      "Bash(awk '/name:/{name=$0; line=NR} /photos:/{print NR\": \"name}')",
+      "Bash(python3 *)"
     ]
   }
 }
