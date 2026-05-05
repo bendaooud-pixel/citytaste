@@ -57,19 +57,31 @@ CREATE TABLE IF NOT EXISTS public.places (
 ALTER TABLE public.cities ENABLE ROW LEVEL SECURITY;
 ALTER TABLE public.places ENABLE ROW LEVEL SECURITY;
 
--- Allow anyone to read (public guide)
-CREATE POLICY "public_read_cities" ON public.cities
-  FOR SELECT USING (true);
+-- Drop first so this script is safe to re-run
+DROP POLICY IF EXISTS "public_read_cities" ON public.cities;
+DROP POLICY IF EXISTS "anon_write_cities"  ON public.cities;
+DROP POLICY IF EXISTS "cities_select"      ON public.cities;
+DROP POLICY IF EXISTS "cities_insert"      ON public.cities;
+DROP POLICY IF EXISTS "cities_update"      ON public.cities;
+DROP POLICY IF EXISTS "cities_delete"      ON public.cities;
 
-CREATE POLICY "public_read_places" ON public.places
-  FOR SELECT USING (true);
+DROP POLICY IF EXISTS "public_read_places" ON public.places;
+DROP POLICY IF EXISTS "anon_write_places"  ON public.places;
+DROP POLICY IF EXISTS "places_select"      ON public.places;
+DROP POLICY IF EXISTS "places_insert"      ON public.places;
+DROP POLICY IF EXISTS "places_update"      ON public.places;
+DROP POLICY IF EXISTS "places_delete"      ON public.places;
 
--- Allow all write operations (add auth here when ready)
-CREATE POLICY "anon_write_cities" ON public.cities
-  FOR ALL USING (true) WITH CHECK (true);
+-- Fully open (no auth yet — restrict per-role when auth is added)
+CREATE POLICY "cities_select" ON public.cities FOR SELECT USING (true);
+CREATE POLICY "cities_insert" ON public.cities FOR INSERT WITH CHECK (true);
+CREATE POLICY "cities_update" ON public.cities FOR UPDATE USING (true);
+CREATE POLICY "cities_delete" ON public.cities FOR DELETE USING (true);
 
-CREATE POLICY "anon_write_places" ON public.places
-  FOR ALL USING (true) WITH CHECK (true);
+CREATE POLICY "places_select" ON public.places FOR SELECT USING (true);
+CREATE POLICY "places_insert" ON public.places FOR INSERT WITH CHECK (true);
+CREATE POLICY "places_update" ON public.places FOR UPDATE USING (true);
+CREATE POLICY "places_delete" ON public.places FOR DELETE USING (true);
 
 -- ── Indexes ─────────────────────────────────────────────────
 CREATE INDEX IF NOT EXISTS places_city_slug_idx ON public.places(city_slug);

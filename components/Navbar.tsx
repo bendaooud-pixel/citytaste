@@ -11,6 +11,7 @@ export default function Navbar() {
     { href: "/", label: "Home" },
     { href: "/cities/paris", label: "Paris" },
     { href: "/cities/barcelona", label: "Barcelona" },
+    { href: "/blog", label: "Blog" },
     { href: "/favorites", label: "Favourites" },
     { href: "/admin", label: "Admin" },
   ];
