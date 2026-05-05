@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
+import BlogImage from "@/components/ui/BlogImage";
 import { getAllArticles, getArticleBySlug } from "@/lib/blogData";
 
 interface Props {
@@ -135,17 +136,7 @@ export default async function BlogArticlePage({ params }: Props) {
                 className="bg-white rounded-2xl overflow-hidden shadow-sm flex flex-col sm:flex-row"
               >
                 <div className="relative sm:w-48 h-48 sm:h-auto flex-shrink-0">
-                  <Image
-                    src={place.image}
-                    alt={place.name}
-                    fill
-                    className="object-cover"
-                    sizes="(max-width: 640px) 100vw, 192px"
-                    onError={(e) => {
-                      (e.target as HTMLImageElement).src =
-                        "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800&q=80";
-                    }}
-                  />
+                  <BlogImage src={place.image} alt={place.name} />
                 </div>
                 <div className="p-5 flex flex-col justify-between flex-1">
                   <div>
