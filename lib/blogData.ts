@@ -732,6 +732,57 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "placeSlug": undefined
       }
     ]
+  },
+  {
+    "title": "Best Pasta in Rome 2025",
+    "slug": "best-pasta-rome",
+    "city": "Rome",
+    "citySlug": "rome",
+    "category": "Restaurants",
+    "coverImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=1200&q=80",
+    "publishedAt": "2026-05-06",
+    "readingTime": 6,
+    "metaDescription": "Discover the best pasta in Rome 2025: from silky cacio e pepe to crispy guanciale carbonara at the Eternal City's most beloved trattorias and osterias.",
+    "intro": "Rome runs on pasta. From smoky carbonara to peppery cacio e pepe, the city's four classic primi are religion here, and 2025 is shaping up to be a banner year for both old-guard trattorias and a new wave of pasta makers honoring tradition with modern finesse.",
+    "body": "Roman pasta is built on humble ingredients elevated by technique and time. Guanciale crisped to a glassy snap, Pecorino Romano grated into clouds, black pepper toasted until floral, and starchy pasta water emulsified with patient wrist work — these are the pillars of cucina romana. The four pillars — carbonara, cacio e pepe, gricia, and amatriciana — read like a single recipe with variations, each one a study in how three or four ingredients can become something transcendent. Rigatoni, tonnarelli, and spaghettoni are the preferred shapes, their grooves and heft built to grip every drop of sauce.\n\nThe scene in 2025 is thrillingly varied. Trastevere and Testaccio still anchor the traditionalist crowd, where decades-old family-run trattorias serve plates that taste exactly as they did in your nonna's dreams. Meanwhile, a younger generation of chefs in Prati, Pigneto, and Monti are sourcing heritage grains, dry-aging guanciale in-house, and fermenting their own pecorino brines. The result is a city where you can eat a perfectly orthodox carbonara at lunch and an experimental pasta tasting menu by dinner — both equally Roman in spirit. Reservations have become essential, especially for weekend dinners; the best spots fill up weeks in advance.\n\nWhat truly sets Roman pasta apart is the ritual of eating it. A proper plate arrives steaming, dressed at the last moment, and is meant to be devoured immediately — no Instagram-worthy delays. Pair it with a carafe of crisp Frascati or a glass of Cesanese, finish with a wedge of crostata, and you understand why Romans guard their pasta traditions so fiercely. Whether you're chasing the perfect carbonara, hunting for hand-rolled tonnarelli, or simply looking for a neighborhood spot to call your own, the four restaurants below represent the very best of what Rome's pasta scene has to offer right now. Bring an appetite, leave your low-carb intentions at home, and prepare to understand pasta in a way you never have before.",
+    "places": [
+      {
+        "name": "Roscioli Salumeria con Cucina",
+        "description": "An iconic deli-restaurant near Campo de' Fiori serving what many call Rome's definitive carbonara, made with 24-month Pecorino and crispy guanciale. The intimate dining room and curated wine list make every meal feel like a celebration.",
+        "address": "Via dei Giubbonari, 21, 00186 Roma RM",
+        "rating": 4.7,
+        "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=800&q=80",
+        "citySlug": "rome",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Felice a Testaccio",
+        "description": "A Testaccio institution since 1936, famous for its theatrical tableside tossing of tonnarelli cacio e pepe. The pasta is silky, peppery perfection, and the rigatoni all'amatriciana is equally beloved.",
+        "address": "Via Mastro Giorgio, 29, 00153 Roma RM",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1548940740-204726a19be3?w=800&q=80",
+        "citySlug": "rome",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Da Enzo al 29",
+        "description": "A pocket-sized trattoria in Trastevere that has earned cult status for its uncompromising classics and ingredients sourced from small Lazio producers. Expect a queue, but the carbonara and gricia are worth every minute.",
+        "address": "Via dei Vascellari, 29, 00153 Roma RM",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1481931098730-318b6f776db0?w=800&q=80",
+        "citySlug": "rome",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Armando al Pantheon",
+        "description": "A family-run gem just steps from the Pantheon, run by the Gargioli family for three generations. Their cacio e pepe and rigatoni con la pajata are textbook examples of cucina romana done with quiet mastery.",
+        "address": "Salita de' Crescenzi, 31, 00186 Roma RM",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1556761223-4c4282c73f77?w=800&q=80",
+        "citySlug": "rome",
+        "placeSlug": undefined
+      }
+    ]
   }
 ];
 
