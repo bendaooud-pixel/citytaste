@@ -1,0 +1,23 @@
+name: Submit Sitemap
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  ping:
+    name: Ping Google & Bing
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Google
+        run: |
+          curl -sf "https://www.google.com/ping?sitemap=https://www.citytaste.co/sitemap.xml" \
+            && echo "Google pinged successfully" \
+            || echo "Google ping failed (non-fatal)"
+
+      - name: Ping Bing
+        run: |
+          curl -sf "https://www.bing.com/ping?sitemap=https://www.citytaste.co/sitemap.xml" \
+            && echo "Bing pinged successfully" \
+            || echo "Bing ping failed (non-fatal)"
