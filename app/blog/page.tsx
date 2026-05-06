@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
@@ -28,6 +30,7 @@ const CATEGORY_COLORS: Record<string, string> = {
 
 export default function BlogPage() {
   const articles = getAllArticles();
+  console.log(`[BlogPage] Total articles: ${articles.length}`);
   const [featured, ...rest] = articles;
 
   return (
