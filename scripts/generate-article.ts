@@ -106,11 +106,13 @@ Requirements:
 - All place names and addresses must be real and accurate
 - Return pure JSON only`;
 
+  console.log(`  → model: claude-opus-4-7, max_tokens: 2048`);
   const message = await client.messages.create({
     model: "claude-opus-4-7",
     max_tokens: 2048,
     messages: [{ role: "user", content: prompt }],
   });
+  console.log(`  → stop_reason: ${message.stop_reason}, usage: ${JSON.stringify(message.usage)}`);
 
   const text = message.content[0].type === "text" ? message.content[0].text : "";
 
@@ -149,10 +151,21 @@ function injectArticle(filePath: string, articleJson: string): void {
 // ─── Main ────────────────────────────────────────────────────────────────────
 
 async function main() {
+  console.log("=== generate-article.ts starting ===");
+  console.log(`Node version: ${process.version}`);
+  console.log(`Working directory: ${process.cwd()}`);
+  console.log(`ANTHROPIC_API_KEY set: ${!!process.env.ANTHROPIC_API_KEY}`);
+  if (process.env.ANTHROPIC_API_KEY) {
+    console.log(`ANTHROPIC_API_KEY length: ${process.env.ANTHROPIC_API_KEY.length}`);
+    console.log(`ANTHROPIC_API_KEY prefix: ${process.env.ANTHROPIC_API_KEY.slice(0, 7)}...`);
+  }
+
   const dataPath = join(process.cwd(), "lib", "blogData.ts");
+  console.log(`\nData file path: ${dataPath}`);
 
   const existingSlugs = getExistingSlugs(dataPath);
   console.log(`Existing articles: ${existingSlugs.length}`);
+  console.log(`Existing slugs: ${existingSlugs.join(", ")}`);
 
   const topic = pickTopic(existingSlugs);
   if (!topic) {
@@ -160,18 +173,27 @@ async function main() {
     process.exit(0);
   }
 
-  console.log(`Generating: "${topic.title}" (${topic.slug})`);
+  console.log(`\nSelected topic: "${topic.title}" (${topic.slug})`);
+  console.log(`City: ${topic.city} | Category: ${topic.category}`);
 
+  console.log("\nCalling Anthropic API...");
   const raw = await generateArticle(topic);
+  console.log(`API response received (${raw.length} chars)`);
+  console.log(`Response preview: ${raw.slice(0, 200)}...`);
 
-  // Validate it's parseable before writing
-  JSON.parse(raw); // throws if invalid
+  console.log("\nParsing JSON response...");
+  const parsed = JSON.parse(raw);
+  console.log(`Parsed article title: ${parsed.title}`);
+  console.log(`Places count: ${parsed.places?.length ?? 0}`);
 
+  console.log("\nInjecting into blogData.ts...");
   injectArticle(dataPath, raw);
-  console.log(`✓ Article injected into lib/blogData.ts`);
+  console.log(`✓ Article "${topic.title}" injected into lib/blogData.ts`);
+  console.log("=== Done ===");
 }
 
 main().catch((err) => {
-  console.error("Fatal:", err.message);
+  console.error("Fatal error:", err.message);
+  console.error("Stack:", err.stack);
   process.exit(1);
 });
