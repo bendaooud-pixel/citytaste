@@ -75,8 +75,36 @@ export default function CityPage({ params }: { params: Promise<{ slug: string }>
     return obj;
   }, [allPlaces]);
 
+  const BASE = "https://www.citytaste.co";
+
+  const cityJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "TouristDestination",
+    name: city.name,
+    description: city.description,
+    image: city.image,
+    url: `${BASE}/cities/${city.slug}`,
+    touristType: { "@type": "Audience", audienceType: "Food lovers and travellers" },
+    includesAttraction: allPlaces.slice(0, 12).map((p) => ({
+      "@type": "TouristAttraction",
+      name: p.name,
+      url: `${BASE}/cities/${p.citySlug}/places/${p.slug}`,
+    })),
+  };
+
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: BASE },
+      { "@type": "ListItem", position: 2, name: city.name, item: `${BASE}/cities/${city.slug}` },
+    ],
+  };
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(cityJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <Navbar />
       <main className="flex-1">
         {/* ── City Hero ── */}

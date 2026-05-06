@@ -52,27 +52,69 @@ export default async function PlaceDetailPage({ params }: Props) {
     .filter((p) => p.id !== place.id && p.categories.some((c) => place.categories.includes(c)))
     .slice(0, 3);
 
-  // JSON-LD structured data
-  const jsonLd = {
+  const BASE = "https://www.citytaste.co";
+
+  function placeSchemaType(categories: string[]): string {
+    if (categories.some((c) => ["monuments", "museums", "activities"].includes(c))) return "TouristAttraction";
+    if (categories.includes("markets")) return "ShoppingCenter";
+    if (categories.some((c) => ["cafes", "brunch"].includes(c))) return "CafeOrCoffeeShop";
+    if (categories.some((c) => ["patisseries", "desserts"].includes(c))) return "Bakery";
+    if (categories.includes("bars")) return "BarOrPub";
+    return "Restaurant";
+  }
+
+  const PRICE_RANGE = ["", "€", "€€", "€€€", "€€€€"];
+
+  const placeJsonLd = {
     "@context": "https://schema.org",
-    "@type": "Restaurant",
+    "@type": placeSchemaType(place.categories),
     name: place.name,
-    address: { "@type": "PostalAddress", streetAddress: place.address },
-    telephone: place.phone,
-    url: place.website,
+    description: place.description,
+    image: place.photos,
+    url: `${BASE}/cities/${place.citySlug}/places/${place.slug}`,
+    ...(place.website && { sameAs: place.website }),
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: place.address,
+      addressLocality: city.name,
+      addressCountry: city.country,
+    },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: place.lat,
+      longitude: place.lng,
+    },
+    ...(place.phone && { telephone: place.phone }),
+    priceRange: PRICE_RANGE[place.priceLevel],
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: place.rating,
+      bestRating: 5,
       reviewCount: place.reviewCount,
     },
+    review: place.reviews.map((r) => ({
+      "@type": "Review",
+      author: { "@type": "Person", name: r.author },
+      reviewRating: { "@type": "Rating", ratingValue: r.rating, bestRating: 5 },
+      reviewBody: r.text,
+      datePublished: r.date,
+    })),
+  };
+
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: BASE },
+      { "@type": "ListItem", position: 2, name: city.name, item: `${BASE}/cities/${city.slug}` },
+      { "@type": "ListItem", position: 3, name: place.name, item: `${BASE}/cities/${place.citySlug}/places/${place.slug}` },
+    ],
   };
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(placeJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <Navbar />
       <main className="flex-1 bg-brand-cream">
         {/* Breadcrumb */}
