@@ -535,7 +535,7 @@ What to try if you can only order one thing: the croissant is the acid test of a
     citySlug: "paris",
     category: "Sightseeing",
     coverImage:
-      "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?w=800&q=80",
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800&q=80",
     publishedAt: "2025-02-05",
     readingTime: 6,
     metaDescription:
@@ -595,7 +595,7 @@ One practical note: the tourist density around Paris's top monuments is real, an
         address: "20 Rue d'Artois, 75008 Paris",
         rating: 4.4,
         image:
-          "https://images.unsplash.com/photo-1431274172761-fcdab704f457?w=800&q=80",
+          "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=800&q=80",
         citySlug: "paris",
       },
     ],
