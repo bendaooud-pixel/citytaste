@@ -1,4 +1,5 @@
 "use client";
+import { useState } from "react";
 import Image from "next/image";
 
 const FALLBACK =
@@ -7,19 +8,21 @@ const FALLBACK =
 interface BlogImageProps {
   src: string;
   alt: string;
+  className?: string;
+  sizes?: string;
 }
 
-export default function BlogImage({ src, alt }: BlogImageProps) {
+export default function BlogImage({ src, alt, className = "object-cover", sizes }: BlogImageProps) {
+  const [imgSrc, setImgSrc] = useState(src);
+
   return (
     <Image
-      src={src}
+      src={imgSrc}
       alt={alt}
       fill
-      className="object-cover"
-      sizes="(max-width: 640px) 100vw, 192px"
-      onError={(e) => {
-        (e.target as HTMLImageElement).src = FALLBACK;
-      }}
+      className={className}
+      sizes={sizes ?? "(max-width: 640px) 100vw, 192px"}
+      onError={() => setImgSrc(FALLBACK)}
     />
   );
 }

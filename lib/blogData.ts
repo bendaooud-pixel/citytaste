@@ -555,7 +555,7 @@ One practical note: the tourist density around Paris's top monuments is real, an
         address: "17 Place du Trocadéro, 75016 Paris",
         rating: 4.4,
         image:
-          "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=800&q=80",
+          "https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?w=800&q=80",
         citySlug: "paris",
       },
       {
@@ -565,7 +565,7 @@ One practical note: the tourist density around Paris's top monuments is real, an
         address: "93 Rue de Rivoli, 75001 Paris",
         rating: 4.5,
         image:
-          "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?w=800&q=80",
+          "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=800&q=80",
         citySlug: "paris",
       },
       {
@@ -575,7 +575,7 @@ One practical note: the tourist density around Paris's top monuments is real, an
         address: "3 Boulevard du Palais, 75001 Paris",
         rating: 4.3,
         image:
-          "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=800&q=80",
+          "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800&q=80",
         citySlug: "paris",
       },
       {
@@ -585,7 +585,7 @@ One practical note: the tourist density around Paris's top monuments is real, an
         address: "125 Rue Saint-Honoré, 75001 Paris",
         rating: 4.6,
         image:
-          "https://images.unsplash.com/photo-1551966775-a4ddc8df052b?w=800&q=80",
+          "https://images.unsplash.com/photo-1594818379496-da1e345b0ded?w=800&q=80",
         citySlug: "paris",
       },
       {
@@ -595,7 +595,7 @@ One practical note: the tourist density around Paris's top monuments is real, an
         address: "20 Rue d'Artois, 75008 Paris",
         rating: 4.4,
         image:
-          "https://images.unsplash.com/photo-1478391679764-b2d8b3cd1e94?w=800&q=80",
+          "https://images.unsplash.com/photo-1431274172761-fcdab704f457?w=800&q=80",
         citySlug: "paris",
       },
     ],
