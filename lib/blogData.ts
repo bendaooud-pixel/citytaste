@@ -702,7 +702,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "rating": 4.7,
         "image": "https://images.unsplash.com/photo-1516100882582-96c3a05fe590?w=800&q=80",
         "citySlug": "rome",
-        "placeSlug": null
+        "placeSlug": undefined
       },
       {
         "name": "Felice a Testaccio",
@@ -711,7 +711,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "rating": 4.6,
         "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=800&q=80",
         "citySlug": "rome",
-        "placeSlug": null
+        "placeSlug": undefined
       },
       {
         "name": "Da Enzo al 29",
@@ -720,7 +720,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "rating": 4.6,
         "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
         "citySlug": "rome",
-        "placeSlug": null
+        "placeSlug": undefined
       },
       {
         "name": "Armando al Pantheon",
@@ -729,7 +729,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "rating": 4.5,
         "image": "https://images.unsplash.com/photo-1481931098730-318b6f776db0?w=800&q=80",
         "citySlug": "rome",
-        "placeSlug": null
+        "placeSlug": undefined
       }
     ]
   }

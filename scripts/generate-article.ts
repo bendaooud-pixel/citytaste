@@ -135,6 +135,7 @@ function injectArticle(filePath: string, articleJson: string): void {
   // Pretty-print the article as a TS-compatible object (JSON is valid TS)
   const parsed = JSON.parse(articleJson);
   const formatted = JSON.stringify(parsed, null, 2)
+    .replace(/"placeSlug": null/g, '"placeSlug": undefined')
     .split("\n")
     .map((line) => "  " + line)   // indent 2 spaces to match file style
     .join("\n");
