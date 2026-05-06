@@ -6,6 +6,7 @@ import { useState } from "react";
 const CITIES = [
   { label: "🇫🇷 Paris", href: "/cities/paris" },
   { label: "🇪🇸 Barcelona", href: "/cities/barcelona" },
+  { label: "🇮🇹 Rome", href: "/cities/rome" },
 ];
 
 export default function Navbar() {
