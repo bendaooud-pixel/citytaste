@@ -140,8 +140,10 @@ function injectArticle(filePath: string, articleJson: string): void {
     .map((line) => "  " + line)   // indent 2 spaces to match file style
     .join("\n");
 
+  // Use a single comma — strip any trailing comma already present before the marker
+  const before = content.slice(0, insertionIndex).replace(/,\s*$/, "");
   const updated =
-    content.slice(0, insertionIndex) +
+    before +
     ",\n" +
     formatted +
     content.slice(insertionIndex);

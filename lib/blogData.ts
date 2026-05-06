@@ -681,7 +681,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         citySlug: "barcelona",
       },
     ],
-  },,
+  },
   {
     "title": "Best Pasta in Rome 2025",
     "slug": "best-pasta-rome",
