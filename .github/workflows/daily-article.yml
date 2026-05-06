@@ -1,0 +1,51 @@
+name: Daily Blog Article
+
+on:
+  schedule:
+    - cron: "0 7 * * *"   # 07:00 UTC every day
+  workflow_dispatch:        # allow manual trigger from GitHub UI
+
+jobs:
+  generate:
+    name: Generate & Publish Article
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write       # needed to push the commit
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate article
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: npx tsx scripts/generate-article.ts
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name  "CityTaste Bot"
+          git config user.email "bot@citytaste.co"
+          git add lib/blogData.ts
+          if git diff --cached --quiet; then
+            echo "No new article generated — nothing to commit."
+          else
+            TITLE=$(node -e "
+              const fs = require('fs');
+              const src = fs.readFileSync('lib/blogData.ts','utf8');
+              const m = src.match(/title:\s*\"([^\"]+)\"/g);
+              console.log(m[m.length-1].replace(/title:\s*\"|\"$/g,''));
+            ")
+            git commit -m "content: $TITLE"
+            git push
+          fi
