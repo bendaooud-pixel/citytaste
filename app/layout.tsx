@@ -22,6 +22,9 @@ export const metadata: Metadata = {
   description:
     "Your guide to the best restaurants, cafés and food spots in the world's greatest cities. Curated picks for every taste and budget.",
   keywords: ["restaurants", "cafés", "food guide", "travel", "Paris", "Barcelona"],
+  verification: {
+    google: "bAdWgCdwPszPBtcVYnJI04_kD_kRitX7aYsfLzpTaXw",
+  },
   openGraph: {
     siteName: "CityTaste",
     type: "website",
