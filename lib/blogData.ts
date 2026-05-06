@@ -535,7 +535,7 @@ What to try if you can only order one thing: the croissant is the acid test of a
     citySlug: "paris",
     category: "Sightseeing",
     coverImage:
-      "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?w=1200&q=80",
+      "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?w=800&q=80",
     publishedAt: "2025-02-05",
     readingTime: 6,
     metaDescription:
