@@ -6,6 +6,7 @@ import { places } from "@/lib/data";
 import { CATEGORIES } from "@/lib/types";
 import FavoriteButton from "@/components/FavoriteButton";
 import StarRating from "@/components/StarRating";
+import Navbar from "@/components/Navbar";
 
 const RED = "#E63946";
 
@@ -107,54 +108,7 @@ export default function HomePage() {
       </div>
 
       {/* ── Navbar ── */}
-      <nav className="bg-white border-b border-gray-100 sticky top-0 z-50 shadow-sm">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="relative flex items-center justify-between h-16">
-            {/* Left: store buttons */}
-            <div className="flex items-center gap-2">
-              <a
-                href="#"
-                className="hidden sm:flex items-center gap-1.5 border border-gray-200 rounded-lg px-3 py-1.5 text-xs font-semibold text-gray-700 hover:border-gray-400 transition-colors"
-              >
-                <AppleIcon />
-                App Store
-              </a>
-              <a
-                href="#"
-                className="hidden sm:flex items-center gap-1.5 border border-gray-200 rounded-lg px-3 py-1.5 text-xs font-semibold text-gray-700 hover:border-gray-400 transition-colors"
-              >
-                <GooglePlayIcon />
-                Google Play
-              </a>
-            </div>
-
-            {/* Center: logo */}
-            <Link
-              href="/"
-              className="absolute left-1/2 -translate-x-1/2 flex items-center gap-2"
-            >
-              <span className="text-2xl">🍽️</span>
-              <span className="text-xl font-black text-gray-900 tracking-tight">
-                City<span style={{ color: RED }}>Taste</span>
-              </span>
-            </Link>
-
-            {/* Right: cart + login */}
-            <div className="flex items-center gap-2">
-              <button className="p-2 rounded-lg text-gray-500 hover:bg-gray-100 transition-colors">
-                <CartIcon />
-              </button>
-              <Link
-                href="/favorites"
-                style={{ backgroundColor: RED }}
-                className="hidden sm:block text-white text-xs font-semibold px-4 py-2 rounded-lg hover:opacity-90 transition-opacity"
-              >
-                Login
-              </Link>
-            </div>
-          </div>
-        </div>
-      </nav>
+      <Navbar />
 
       {/* ── Hero ── */}
       <section className="relative flex items-center justify-center overflow-hidden"
@@ -586,14 +540,6 @@ function GooglePlayIcon() {
   return (
     <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
       <path d="M3.18 23.76c.34.19.74.19 1.09 0l10.65-6.15-2.29-2.29-9.45 8.44zM.3 1.67C.11 2.02 0 2.43 0 2.88v18.24c0 .45.11.86.3 1.21l.07.07 10.22-10.22v-.24L.37 1.6.3 1.67zM20.94 10.1l-2.88-1.66-2.57 2.57 2.57 2.57 2.9-1.67c.83-.48.83-1.26-.02-1.81zM4.27.24L14.92 6.39l-2.29 2.29L3.18.24c.35-.2.75-.2 1.09 0z" />
-    </svg>
-  );
-}
-
-function CartIcon() {
-  return (
-    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
     </svg>
   );
 }
