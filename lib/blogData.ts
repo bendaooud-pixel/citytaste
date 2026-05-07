@@ -783,6 +783,57 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "placeSlug": undefined
       }
     ]
+  },
+  {
+    "title": "Best Pasta in Rome 2025",
+    "slug": "best-pasta-rome",
+    "city": "Rome",
+    "citySlug": "rome",
+    "category": "Restaurants",
+    "coverImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=1200&q=80",
+    "publishedAt": "2026-05-07",
+    "readingTime": 6,
+    "metaDescription": "Discover the best pasta in Rome 2025: legendary trattorias serving cacio e pepe, carbonara, and amatriciana the way Romans have loved them for generations.",
+    "intro": "Rome doesn't just serve pasta — it elevates it to a quiet, daily ritual. From smoky guanciale-laced carbonara to the silken pull of cacio e pepe, the Eternal City's noodle traditions remain gloriously unshaken in 2025.",
+    "body": "To eat pasta in Rome is to taste centuries of pragmatism turned into poetry. The city's four pillars — carbonara, cacio e pepe, amatriciana, and gricia — share a common DNA of pecorino romano, black pepper, and cured pork, yet each trattoria coaxes them into something singular. In the cobbled lanes of Trastevere, marble-topped tables still groan under tonnarelli twirled tableside in hollowed wheels of cheese, while in Testaccio, the old slaughterhouse quarter, butchers' offcuts continue to inspire some of the most soulful sauces in Italy.\n\nWhat makes 2025 a particularly thrilling year for Roman pasta is the balance the city has struck between reverence and quiet reinvention. A new generation of chefs has taken over family kitchens, sourcing heritage grains from Lazio's Tuscia hills and aging their guanciale longer for deeper, almost nutty richness. Yet the soul remains stubbornly old-school: hand-rolled rigatoni with the tooth to grip a sauce, eggs from the Castelli Romani so orange they stain the spoon, and pepper cracked at the moment of plating so its perfume hits you before the fork does. Reservations have become essential at the icons, but the reward is a meal that feels both timeless and urgent.\n\nBeyond the classics, look for seasonal flourishes that mark the Roman calendar — spring's pasta with carciofi alla romana, summer's bright tonnarelli with zucchini blossoms, autumn's earthy chestnut tagliatelle. The best meals often happen at lunch, when sunlight slants across paper-covered tables and a quartino of Frascati costs less than a cappuccino in Piazza Navona. Wherever you sit, watch how Romans eat: slowly, attentively, with a kind of relaxed devotion. Pasta here isn't a course — it's the point. The four addresses below are the ones I send friends to first, the trattorias and osterie where every twirl of the fork tells you exactly why this city has been feeding pilgrims, poets, and emperors for nearly three thousand years.",
+    "places": [
+      {
+        "name": "Felice a Testaccio",
+        "description": "The temple of tonnarelli cacio e pepe, theatrically tossed tableside until the pepper-flecked strands gleam. A Testaccio institution since 1936 with a waiting list that proves the hype is earned.",
+        "address": "Via Mastro Giorgio, 29, 00153 Roma RM",
+        "rating": 4.7,
+        "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=800&q=80",
+        "citySlug": "rome",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Roscioli",
+        "description": "A salumeria-wine bar hybrid where the carbonara has reached near-mythic status thanks to obsessively sourced guanciale and golden Paolo Parisi eggs. Book weeks ahead for the intimate back room.",
+        "address": "Via dei Giubbonari, 21, 00186 Roma RM",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
+        "citySlug": "rome",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Da Enzo al 29",
+        "description": "A pocket-sized Trastevere trattoria with checkered tablecloths and a fiercely loyal following. The rigatoni all'amatriciana — sweet-tart tomato, crisp guanciale, sharp pecorino — is the platonic ideal.",
+        "address": "Via dei Vascellari, 29, 00153 Roma RM",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=800&q=80",
+        "citySlug": "rome",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Armando al Pantheon",
+        "description": "A family-run classic just steps from the Pantheon, defying its tourist-zone address with serious cooking. Their gricia is a masterclass: glossy, peppery, and impossibly comforting.",
+        "address": "Salita dei Crescenzi, 31, 00186 Roma RM",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1589227365533-cee630bd59bd?w=800&q=80",
+        "citySlug": "rome",
+        "placeSlug": undefined
+      }
+    ]
   }
 ];
 
