@@ -834,6 +834,57 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "placeSlug": undefined
       }
     ]
+  },
+  {
+    "title": "Best Pasta in Rome 2025",
+    "slug": "best-pasta-rome",
+    "city": "Rome",
+    "citySlug": "rome",
+    "category": "Restaurants",
+    "coverImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=1200&q=80",
+    "publishedAt": "2026-05-08",
+    "readingTime": 6,
+    "metaDescription": "Discover the best pasta in Rome 2025 — from silky cacio e pepe to peppery carbonara at the Eternal City's most beloved trattorias and modern kitchens.",
+    "intro": "Rome runs on pasta. From smoky guanciale-laced carbonara to glossy ribbons of cacio e pepe, the city's four cardinal pastas — carbonara, cacio e pepe, amatriciana, and gricia — define a culinary identity older than the cobblestones beneath your feet. These are the kitchens turning out the most unforgettable plates in 2025.",
+    "body": "Pasta in Rome is less a dish than a doctrine. The pillars are sacred — guanciale never pancetta, pecorino romano never parmigiano, black pepper toasted until it perfumes the entire kitchen — and the best trattorias treat these rules with the reverence of liturgy. Step into a tiled dining room in Testaccio or Trastevere at lunchtime and you'll see waiters tossing tonnarelli tableside in wheels of cheese, the steam curling up toward sepia photographs of grandmothers who probably wrote the recipe. The pasta itself, often hand-cut that morning, has a toothsome bite that bottled brands simply cannot replicate.\n\nWhat makes the 2025 scene exciting is how Rome's pasta culture is evolving without abandoning its soul. A new generation of chefs is sourcing heritage grains from Lazio farms, fermenting their own guanciale, and reviving forgotten shapes like fieno di Canepina and rigatoni alla zozzona. Yet the soul-warming classics remain untouchable — a perfect carbonara is still a study in restraint, four ingredients negotiating creaminess without a drop of cream, the egg yolk emulsifying with starchy pasta water into liquid gold. Sit at a marble-topped table with a glass of Frascati and you understand why Romans rarely stray from their neighborhood favorites.\n\nBeyond the icons, look for amatriciana that balances tomato's sweetness with guanciale's funk, and gricia — carbonara's eggless older sibling — which separates the great kitchens from the merely good. The dining room buzz is loud, the wine pours generous, and the bread is for sopping up sauce, never for buttering. Whether you're chasing a quiet lunch in Monti or a long, late dinner in Prati, these four spots represent the soul of Roman pasta right now: rooted in tradition, sharpened by craft, and absolutely worth the queue.",
+    "places": [
+      {
+        "name": "Roscioli",
+        "description": "A salumeria-meets-restaurant where the carbonara has reached cult status, made with Tuscan egg yolks and 24-month aged pecorino. Book weeks ahead for the intimate marble-counter dining room.",
+        "address": "Via dei Giubbonari 21, 00186 Roma RM",
+        "rating": 4.7,
+        "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=800&q=80",
+        "citySlug": "rome",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Da Felice a Testaccio",
+        "description": "The Testaccio institution where waiters toss tonnarelli cacio e pepe tableside with theatrical flourish. Family-run since 1936 and still the gold standard for the four Roman classics.",
+        "address": "Via Mastro Giorgio 29, 00153 Roma RM",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1481931098730-318b6f776db0?w=800&q=80",
+        "citySlug": "rome",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Armando al Pantheon",
+        "description": "A tiny, wood-paneled trattoria steps from the Pantheon, run by the Gargioli family for three generations. Their gricia and amatriciana are textbook examples of Roman restraint and depth.",
+        "address": "Salita de' Crescenzi 31, 00186 Roma RM",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
+        "citySlug": "rome",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Trattoria Pennestri",
+        "description": "An Ostiense favorite blending tradition with modern technique, where the rigatoni alla zozzona — a glorious mash-up of carbonara and amatriciana — has become a pilgrimage dish.",
+        "address": "Via Giovanni da Empoli 5, 00154 Roma RM",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1546549032-9571cd6b27df?w=800&q=80",
+        "citySlug": "rome",
+        "placeSlug": undefined
+      }
+    ]
   }
 ];
 
