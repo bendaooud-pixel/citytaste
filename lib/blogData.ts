@@ -936,6 +936,57 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "placeSlug": undefined
       }
     ]
+  },
+  {
+    "title": "Best Pasta in Rome 2025",
+    "slug": "best-pasta-rome",
+    "city": "Rome",
+    "citySlug": "rome",
+    "category": "Restaurants",
+    "coverImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=1200&q=80",
+    "publishedAt": "2026-05-10",
+    "readingTime": 6,
+    "metaDescription": "Discover Rome's best pasta in 2025, from creamy cacio e pepe to silky carbonara at four iconic trattorias every food lover must visit.",
+    "intro": "Rome runs on pasta. From smoky guanciale-laced carbonara to glossy cacio e pepe twirled tableside, the Eternal City turns simple ingredients into something close to magic. These four trattorias prove why Rome remains the undisputed capital of pasta in 2025.",
+    "body": "Roman pasta is built on a holy trinity of pecorino romano, guanciale, and freshly cracked black pepper, but each kitchen interprets the canon a little differently. At its best, a plate of tonnarelli cacio e pepe arrives glossy and emulsified, the cheese clinging to each strand without a hint of clumping. Carbonara, when done right, is silky rather than scrambled, the egg yolks tempered against rendered guanciale fat until they cloak the rigatoni in golden cream. Amatriciana brings tomato into the mix, its tang cutting through the salty pork and sharp cheese, while gricia, the elder ancestor of them all, strips everything back to pasta, pepper, pork, and pecorino.\n\nThe trattorias listed below have spent decades perfecting these dishes, and the lines outside their doors testify to their staying power. Some sit tucked in the cobbled alleys of Trastevere, where ivy climbs the walls and grandmothers still roll dough in the back. Others hide in Testaccio, the working-class neighborhood that gave birth to so much of Roman cuisine, anchored by the old slaughterhouse where offal cuts shaped the city's most beloved recipes. What unites them is a stubborn devotion to tradition: no cream in the carbonara, no garlic in the cacio e pepe, no shortcuts ever.\n\nReservations are essential at all four, especially on weekends, and lunch is often the smarter bet if you want to linger over a carafe of Frascati without feeling rushed. Expect handwritten menus, paper tablecloths, and waiters who have seen it all. Order the house pasta, a glass of something local, and a simple puntarelle salad to cut the richness. Save room for a slice of crostata or, better yet, a tartufo nero around the corner at Tre Scalini. This is Rome on a fork, the kind of meal that explains why travelers keep coming back, year after year, plate after plate.",
+    "places": [
+      {
+        "name": "Da Enzo al 29",
+        "description": "A tiny Trastevere trattoria with a cult following, beloved for its perfect carbonara and rigatoni all'amatriciana. Expect a wait, but every minute pays off in flavor.",
+        "address": "Via dei Vascellari, 29, 00153 Roma RM",
+        "rating": 4.7,
+        "image": "https://images.unsplash.com/photo-1473093226795-af9932fe5856?w=800&q=80",
+        "citySlug": "rome",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Roscioli Salumeria con Cucina",
+        "description": "Part deli, part wine bar, part temple to Roman pasta, where the carbonara is famously made with three types of pork. The room hums with energy and the cellar runs deep.",
+        "address": "Via dei Giubbonari, 21, 00186 Roma RM",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1546549032-9571cd6b27df?w=800&q=80",
+        "citySlug": "rome",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Felice a Testaccio",
+        "description": "A Testaccio institution since 1936, where the tonnarelli cacio e pepe is tossed tableside into a glossy, peppery wonder. Booking ahead is non-negotiable.",
+        "address": "Via Mastro Giorgio, 29, 00153 Roma RM",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1481931098730-318b6f776db0?w=800&q=80",
+        "citySlug": "rome",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Armando al Pantheon",
+        "description": "A family-run gem just steps from the Pantheon, serving classic Roman pasta in an unfussy dining room since 1961. The gricia and abbacchio are quietly perfect.",
+        "address": "Salita dei Crescenzi, 31, 00186 Roma RM",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1516685304081-de7947d419d5?w=800&q=80",
+        "citySlug": "rome",
+        "placeSlug": undefined
+      }
+    ]
   }
 ];
 
