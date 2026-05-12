@@ -1038,6 +1038,57 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "placeSlug": undefined
       }
     ]
+  },
+  {
+    "title": "Best Pasta in Rome 2025",
+    "slug": "best-pasta-rome",
+    "city": "Rome",
+    "citySlug": "rome",
+    "category": "Restaurants",
+    "coverImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=1200&q=80",
+    "publishedAt": "2026-05-12",
+    "readingTime": 6,
+    "metaDescription": "Discover the best pasta in Rome 2025: from creamy cacio e pepe to crispy carbonara, our guide to the city's most unforgettable trattorias and tasting rooms.",
+    "intro": "Rome lives and breathes pasta. From smoky carbonara in cobbled Trastevere alleys to silky cacio e pepe served in Testaccio's old slaughterhouse district, the Eternal City turns four simple ingredients into edible poetry. Here are the four spots redefining Roman pasta in 2025.",
+    "body": "There's a particular alchemy that happens in a Roman kitchen when guanciale hits a hot pan. The fat renders, the pepper blooms, and within minutes a humble bowl of spaghetti becomes a love letter to centuries of tradition. Rome's pasta scene in 2025 is a fascinating tension between fierce preservation and quiet innovation — old-school trattorias still tossing tonnarelli in copper pans alongside young chefs reimagining amatriciana with heritage tomatoes and house-cured pork jowl. What unites them all is an unshakable devotion to the cinque paste: carbonara, cacio e pepe, amatriciana, gricia, and the often-overlooked pasta alla Norcina.\n\nThe best meals tend to happen far from the Trevi Fountain crowds. Walk into a Testaccio trattoria around 1 p.m. and you'll see Roman regulars in suits twirling rigatoni with the same focused reverence reserved for religious ceremony. Order the carbonara and watch as the server tilts the bowl, revealing that perfect glossy emulsion — egg yolk, pecorino, and rendered guanciale fat clinging to each ridge of pasta. No cream, ever. The pepper should crackle audibly between your molars. In 2025, several chefs are pushing the form: aged pecorino from small Lazio producers, hand-cranked bronze-die pasta drying on wooden racks, even smoked egg yolks for a deeper umami punch.\n\nBeyond the classics, Rome's pasta renaissance includes wild-boar pappardelle from Roman countryside game, sea urchin spaghettoni reflecting the city's overlooked Tyrrhenian coastline, and tonnarelli cacio e pepe finished tableside inside a wheel of Parmigiano. The wine lists are getting smarter too — natural Frascati, mineral Cesanese, and orange wines from Lazio's volcanic hills now share menus with grandmother's house red. Whether you're after a 12-euro plate at a checkered-tablecloth institution or a tasting menu pasta course at a Michelin-starred dining room, these four restaurants represent the very best of what Roman pasta can be right now.",
+    "places": [
+      {
+        "name": "Roscioli",
+        "description": "A legendary salumeria and restaurant where the carbonara has near-mythical status, made with 24-month Riserva pecorino and house-cured guanciale. Book weeks ahead — this is arguably Rome's most coveted pasta table.",
+        "address": "Via dei Giubbonari, 21, 00186 Roma RM",
+        "rating": 4.7,
+        "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=800&q=80",
+        "citySlug": "rome",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Felice a Testaccio",
+        "description": "The tableside tossing of tonnarelli cacio e pepe here is pure theater, and the result is the creamiest, most pepper-forward version in the city. A Testaccio institution since 1936, still run by the Trivelloni family.",
+        "address": "Via Mastro Giorgio, 29, 00153 Roma RM",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
+        "citySlug": "rome",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Armando al Pantheon",
+        "description": "Tucked behind the Pantheon, this tiny family-run trattoria has been serving textbook Roman classics since 1961. The gricia and the abbacchio brodettato are reason enough to plan your trip around a reservation.",
+        "address": "Salita dei Crescenzi, 31, 00186 Roma RM",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1481931098730-318b6f776db0?w=800&q=80",
+        "citySlug": "rome",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Trattoria Da Cesare al Casaletto",
+        "description": "Worth the tram ride out of the center for what many critics call the best amatriciana in Rome — tangy, glossy, and singing with smoky guanciale. The fried starters and natural wine list are equally exceptional.",
+        "address": "Via del Casaletto, 45, 00151 Roma RM",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1546549032-9571cd6b27df?w=800&q=80",
+        "citySlug": "rome",
+        "placeSlug": undefined
+      }
+    ]
   }
 ];
 
