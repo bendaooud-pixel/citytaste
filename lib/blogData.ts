@@ -1089,6 +1089,66 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "placeSlug": undefined
       }
     ]
+  },
+  {
+    "title": "Best Hidden Bistros in Le Marais Paris",
+    "slug": "hidden-bistros-marais-paris",
+    "city": "Paris",
+    "citySlug": "paris",
+    "category": "Restaurants",
+    "coverImage": "https://images.unsplash.com/photo-1502301103665-0b95cc738daf?w=1200&q=80",
+    "publishedAt": "2026-05-13",
+    "readingTime": 6,
+    "metaDescription": "Discover Le Marais' best hidden bistros — cozy Parisian secrets serving unforgettable meals down cobblestone alleys and behind unmarked doors.",
+    "intro": "On my third evening in Le Marais, I got beautifully lost. I had followed the scent of browned butter and rosemary down a rue so narrow my shoulders nearly grazed the limestone walls — and that's when I learned the secret of this neighborhood: the best meals in Paris hide behind doors that don't want to be found. What follows is the map I wish someone had pressed into my hand that night.",
+    "body": "Le Marais wears two faces. By day, it belongs to the museum crowd and the boutique shoppers, all carrying tote bags and Berthillon cones. But after the golden hour, when the Place des Vosges empties and the lamps flicker on along Rue des Rosiers, the neighborhood exhales — and the real Marais reveals itself in a quieter rhythm of clinking glasses and rising laughter behind frosted windows. The bistros here aren't the ones with sandwich boards on the sidewalk; they're the ones where the menu is handwritten on butcher paper and the waiter remembers your wine before he remembers your name.\n\nWhat makes a Marais bistro hidden isn't always geography — sometimes it's just discretion. A faded green facade. A single bulb above an unmarked door. Inside, the air is thick with the perfume of confit shallots, the snap of a baguette crust, the sweet-iron tang of a rare entrecôte resting under a knob of melting Bordelaise. Tables are close enough that you'll absorb your neighbor's conversation along with their wine list recommendations, and the host's pour-over of a chilled Beaujolais will somehow feel like an act of generosity rather than commerce. These aren't restaurants chasing Michelin stars — they're rooms holding onto something older and more stubborn: the conviction that a good meal should slow time down.\n\nA few practical notes from a season of wandering: reservations matter more than ever, especially Thursday through Saturday, and most of these places book a week out for prime hours. Aim for the 7:30 seating if you want the soft electric hum of a half-full room, or the 9:30 if you prefer the boisterous late crowd of locals who've finally clocked out. Order the daily special — it's where the chef's mood and the morning's market collide. And when you finish, don't rush. Linger over a tarte fine and a digestif, watch the candle wax pool on the zinc bar, and let the Marais do what it does best: make you feel, just briefly, like you live here.",
+    "places": [
+      {
+        "name": "Chez Janou",
+        "description": "Tucked on a quiet corner near Place des Vosges, Chez Janou feels like a Provençal daydream stitched into Paris — sun-yellow walls, dried lavender, and over 80 varieties of pastis lining the bar. The terrace is the kind of place where two-hour lunches become four-hour afternoons. Order the legendary mousse au chocolat, ladled tableside from a vat the size of a small bathtub.",
+        "address": "2 Rue Roger Verlomme, 75003 Paris",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Robert et Louise",
+        "description": "Step into this 17th-century stone room and you're greeted by a roaring open fire where steaks are seared on a grill that hasn't changed in fifty years. The atmosphere is rustic, smoky, gloriously unfussy — wooden benches, candle wax, and the murmur of regulars. The côte de boeuf for two, charred outside and rosy within, is the only thing to order.",
+        "address": "64 Rue Vieille du Temple, 75003 Paris",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Breizh Café",
+        "description": "Buried on Rue Vieille du Temple, this Breton outpost rewrites what you thought a crêpe could be — buckwheat galettes so lacy and crisp they shatter under the fork, paired with farmhouse ciders served in earthenware bowls. The room is small, wood-paneled, and almost monastically calm. Order the Complète with Bordier butter and a runny Cancale egg.",
+        "address": "109 Rue Vieille du Temple, 75003 Paris",
+        "rating": 4.4,
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Le Mary Celeste",
+        "description": "A horseshoe-shaped zinc bar, low golden light, and a small-plates menu that swings between French, Asian, and coastal seafood — Le Mary Celeste is where the neighborhood's chefs come on their nights off. The crowd buzzes, the cocktails are inventive, and the oysters arrive on crushed ice with house mignonette. Don't miss the seasonal ceviche and the truffle deviled eggs.",
+        "address": "1 Rue Commines, 75003 Paris",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Café des Musées",
+        "description": "A textbook Parisian bistro hiding in plain sight — checkered floors, mirrored walls, chalkboard menu, and waiters in long white aprons who move like they've been doing this for decades. The kitchen takes classics seriously without taking them too solemnly. Come for the steak tartare hand-cut to order, or the slow-cooked bourguignon that tastes like someone's grandmother is still in charge.",
+        "address": "49 Rue de Turenne, 75003 Paris",
+        "rating": 4.4,
+        "image": "https://images.unsplash.com/photo-1600891964092-4316c288032e?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      }
+    ]
   }
 ];
 
