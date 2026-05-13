@@ -1,0 +1,186 @@
+name: Share Article on Social Media
+
+on:
+  workflow_run:
+    workflows: ["Daily Blog Article"]
+    types: [completed]
+  workflow_dispatch:
+
+jobs:
+  share:
+    name: Reddit & Pinterest
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+
+    steps:
+      - name: Checkout latest main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Extract latest article metadata
+        run: |
+          cat > /tmp/extract.ts << 'TSEOF'
+          import { getAllArticles } from "./lib/blogData";
+          import { writeFileSync } from "fs";
+          const a = getAllArticles()[0];
+          if (!a) { console.error("No articles found"); process.exit(1); }
+          writeFileSync("/tmp/article.json", JSON.stringify({
+            slug:            a.slug,
+            title:           a.title,
+            intro:           a.intro.replace(/\n/g, " "),
+            citySlug:        a.citySlug,
+            coverImage:      a.coverImage,
+            metaDescription: a.metaDescription,
+          }));
+          TSEOF
+          npx tsx /tmp/extract.ts
+          echo "=== Article to share ===" && cat /tmp/article.json
+
+      # ── Reddit ──────────────────────────────────────────────────────────────
+      - name: Post to Reddit
+        continue-on-error: true
+        env:
+          REDDIT_CLIENT_ID:     ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+          REDDIT_USERNAME:      ${{ secrets.REDDIT_USERNAME }}
+          REDDIT_PASSWORD:      ${{ secrets.REDDIT_PASSWORD }}
+        run: |
+          if [ -z "$REDDIT_CLIENT_ID" ]; then
+            echo "⚠️  Reddit secrets not configured — skipping"
+            exit 0
+          fi
+
+          # Obtain OAuth token (password flow)
+          TOKEN=$(curl -sf -X POST \
+            -H "User-Agent: CityTasteBot/1.0 (by /u/$REDDIT_USERNAME)" \
+            -u "$REDDIT_CLIENT_ID:$REDDIT_CLIENT_SECRET" \
+            --data-urlencode "grant_type=password" \
+            --data-urlencode "username=$REDDIT_USERNAME" \
+            --data-urlencode "password=$REDDIT_PASSWORD" \
+            https://www.reddit.com/api/v1/access_token \
+            | jq -r '.access_token // empty')
+
+          if [ -z "$TOKEN" ]; then
+            echo "❌ Reddit authentication failed"
+            exit 0
+          fi
+          echo "✅ Reddit token obtained"
+
+          SLUG=$(jq -r '.slug'    /tmp/article.json)
+          TITLE=$(jq -r '.title'  /tmp/article.json)
+          INTRO=$(jq -r '.intro'  /tmp/article.json)
+          CITY=$(jq -r '.citySlug' /tmp/article.json)
+          LINK="https://www.citytaste.co/blog/$SLUG"
+          BODY="${INTRO}
+
+          🔗 Full guide: ${LINK}"
+
+          # City-specific subreddit + shared travel subreddits
+          case $CITY in
+            paris)     SUBS="paris travel solotravel" ;;
+            barcelona) SUBS="barcelona travel solotravel" ;;
+            rome)      SUBS="rome travel solotravel" ;;
+            *)         SUBS="travel solotravel" ;;
+          esac
+
+          for SUB in $SUBS; do
+            echo "→ Posting to r/$SUB..."
+            RES=$(curl -s -X POST \
+              -H "Authorization: bearer $TOKEN" \
+              -H "User-Agent: CityTasteBot/1.0 (by /u/$REDDIT_USERNAME)" \
+              --data-urlencode "sr=$SUB" \
+              --data-urlencode "kind=self" \
+              --data-urlencode "title=$TITLE" \
+              --data-urlencode "text=$BODY" \
+              --data-urlencode "resubmit=true" \
+              https://oauth.reddit.com/api/submit)
+            URL=$(echo "$RES" | jq -r '.json.data.url // empty')
+            ERR=$(echo "$RES" | jq -r '.json.errors[0][1] // empty')
+            if [ -n "$URL" ]; then
+              echo "  ✅ Posted: $URL"
+            else
+              echo "  ⚠️  ${ERR:-unknown error}"
+            fi
+            sleep 12   # Reddit rate-limit: 1 post per ~10s
+          done
+
+      # ── Pinterest ────────────────────────────────────────────────────────────
+      - name: Post to Pinterest
+        continue-on-error: true
+        env:
+          PINTEREST_ACCESS_TOKEN: ${{ secrets.PINTEREST_ACCESS_TOKEN }}
+        run: |
+          if [ -z "$PINTEREST_ACCESS_TOKEN" ]; then
+            echo "⚠️  Pinterest secret not configured — skipping"
+            exit 0
+          fi
+
+          SLUG=$(jq -r '.slug'            /tmp/article.json)
+          TITLE=$(jq -r '.title'          /tmp/article.json)
+          COVER=$(jq -r '.coverImage'     /tmp/article.json)
+          META=$(jq -r '.metaDescription' /tmp/article.json)
+          LINK="https://www.citytaste.co/blog/$SLUG"
+
+          # Find board by name
+          BOARD_ID=$(curl -sf \
+            -H "Authorization: Bearer $PINTEREST_ACCESS_TOKEN" \
+            "https://api.pinterest.com/v5/boards?page_size=25" \
+            | jq -r '.items[]? | select(.name == "CityTaste Food Guide") | .id // empty')
+
+          # Create board if not found
+          if [ -z "$BOARD_ID" ]; then
+            echo "Board not found — creating 'CityTaste Food Guide'..."
+            BOARD_ID=$(curl -sf -X POST \
+              -H "Authorization: Bearer $PINTEREST_ACCESS_TOKEN" \
+              -H "Content-Type: application/json" \
+              -d '{"name":"CityTaste Food Guide","description":"Curated food guides for Paris, Barcelona and Rome — restaurants, cafés, markets and hidden gems.","privacy":"PUBLIC"}' \
+              https://api.pinterest.com/v5/boards \
+              | jq -r '.id // empty')
+            echo "Created board: $BOARD_ID"
+          fi
+
+          if [ -z "$BOARD_ID" ] || [ "$BOARD_ID" = "null" ]; then
+            echo "❌ Could not find or create Pinterest board — skipping"
+            exit 0
+          fi
+
+          echo "→ Creating pin on board $BOARD_ID..."
+
+          # Build payload with proper JSON escaping via jq
+          PAYLOAD=$(jq -n \
+            --arg board_id "$BOARD_ID" \
+            --arg title    "$TITLE" \
+            --arg desc     "$META — $LINK" \
+            --arg link     "$LINK" \
+            --arg cover    "$COVER" \
+            '{
+              board_id:    $board_id,
+              title:       $title,
+              description: $desc,
+              link:        $link,
+              media_source: { source_type: "image_url", url: $cover }
+            }')
+
+          RES=$(curl -sf -X POST \
+            -H "Authorization: Bearer $PINTEREST_ACCESS_TOKEN" \
+            -H "Content-Type: application/json" \
+            -d "$PAYLOAD" \
+            https://api.pinterest.com/v5/pins)
+
+          PIN_ID=$(echo "$RES" | jq -r '.id // empty')
+          if [ -n "$PIN_ID" ]; then
+            echo "✅ Pin created: $PIN_ID"
+          else
+            echo "⚠️  $(echo "$RES" | jq -r '.message // "unknown error"')"
+          fi
