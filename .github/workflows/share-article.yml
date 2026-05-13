@@ -30,21 +30,20 @@ jobs:
 
       - name: Extract latest article metadata
         run: |
-          cat > /tmp/extract.ts << 'TSEOF'
-          import { getAllArticles } from "./lib/blogData";
-          import { writeFileSync } from "fs";
-          const a = getAllArticles()[0];
-          if (!a) { console.error("No articles found"); process.exit(1); }
-          writeFileSync("/tmp/article.json", JSON.stringify({
-            slug:            a.slug,
-            title:           a.title,
-            intro:           a.intro.replace(/\n/g, " "),
-            citySlug:        a.citySlug,
-            coverImage:      a.coverImage,
-            metaDescription: a.metaDescription,
-          }));
-          TSEOF
-          npx tsx /tmp/extract.ts
+          npx tsx -e "
+            import { getAllArticles } from './lib/blogData';
+            import { writeFileSync } from 'fs';
+            const a = getAllArticles()[0];
+            if (!a) { console.error('No articles found'); process.exit(1); }
+            writeFileSync('/tmp/article.json', JSON.stringify({
+              slug:            a.slug,
+              title:           a.title,
+              intro:           a.intro.replace(/\n/g, ' '),
+              citySlug:        a.citySlug,
+              coverImage:      a.coverImage,
+              metaDescription: a.metaDescription,
+            }));
+          "
           echo "=== Article to share ===" && cat /tmp/article.json
 
       # ── Reddit ──────────────────────────────────────────────────────────────
