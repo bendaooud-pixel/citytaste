@@ -174,7 +174,7 @@ export default function HomePage() {
       <div className="relative z-20 max-w-2xl mx-auto px-4 -mt-14">
         <div className="bg-white rounded-2xl shadow-2xl border border-gray-100 px-6 py-6 grid grid-cols-3 divide-x divide-gray-100">
           {[
-            { icon: "📍", value: "2", label: "Cities Available" },
+            { icon: "📍", value: "3", label: "Cities Available" },
             { icon: "🍽️", value: "40+", label: "Places Listed" },
             { icon: "⭐", value: "4.8", label: "Average Rating" },
           ].map(({ icon, value, label }) => (
