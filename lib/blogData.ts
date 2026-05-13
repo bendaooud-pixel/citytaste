@@ -1149,6 +1149,66 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "placeSlug": undefined
       }
     ]
+  },
+  {
+    "title": "Top 5 Natural Wine Bars in Paris 2025",
+    "slug": "natural-wine-bars-paris",
+    "city": "Paris",
+    "citySlug": "paris",
+    "category": "Bars",
+    "coverImage": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=1200&q=80",
+    "publishedAt": "2026-05-13",
+    "readingTime": 6,
+    "metaDescription": "Discover Paris's best natural wine bars in 2025 — funky pours, candlelit rooms, and unforgettable bites from the 11th to Pigalle.",
+    "intro": "It started with a glass of cloudy Chenin in a basement near République, poured by a tattooed sommelier who shrugged when I asked what it was. 'Just drink it,' she said. That single, unfiltered sip — wild, briny, almost alive — rewired my understanding of Parisian wine culture. In 2025, the city's natural wine scene isn't a trend; it's the heartbeat of how Paris drinks, eats, and gathers after dark.",
+    "body": "Natural wine in Paris has always been about feeling — that slight lean over a zinc bar, candlelight catching the amber glow of an orange wine from the Jura, the faint scent of charcuterie and yeast hanging in the air. The new wave of bars à vins naturels skips the pretension entirely. Walk into any of them on a Tuesday night and you'll find a crowd of regulars, neighborhood cooks just off shift, and curious travelers, all leaning toward the same small chalkboard menu. Bottles arrive at the table dusty and unannounced, often poured by the very person who imported them from a tiny domaine in the Loire or Roussillon.\n\nWhat makes the 2025 scene different is the food. Where once a bar à vins meant a plate of saucisson and butter, today's spots are kitchen-driven, with chefs who match unfiltered glouglou wines to lacto-fermented vegetables, raw scallop with smoked cream, or wood-fired sourdough draped in cured duck. The smell hits before the door even closes behind you: caramelized onions, lees, woodsmoke, citrus zest. Order a glass of pét-nat — slightly cloudy, mischievously fizzy — and you'll understand why Parisians have all but abandoned the polished cocktail bar in favor of these rough-edged, joyful rooms.\n\nA tip from a local: arrive early, around 6:30 p.m., before the after-work tide rolls in. Most natural wine bars in Paris don't take reservations, and the best seats — those at the counter, where you can talk to the staff and watch glasses get filled with bottles you've never heard of — disappear fast. Bring cash for tips, an open mind for funky flavors, and don't be shy about asking for 'quelque chose de bizarre.' That's the password. From the buzzing alleys of the 11th arrondissement to a sleepy corner of Pigalle, here are the five natural wine bars defining how Paris drinks right now.",
+    "places": [
+      {
+        "name": "Le Verre Volé",
+        "description": "This Canal Saint-Martin institution still sets the bar for natural wine in Paris, with bottles lining every wall like a living library. The room is loud, warm, and smells faintly of garlic and grilled bread. Order the boudin noir with apple — it pairs heroically with a chilled glass of Gamay.",
+        "address": "67 Rue de Lancry, 75010 Paris",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1567072379576-a8b6c5d5cfc8?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Septime La Cave",
+        "description": "The little sibling of Bertrand Grébaut's celebrated restaurant feels like a Parisian secret, even when it's packed. Stand at the marble counter with a glass of skin-contact Savagnin and nibble on cured mackerel or aged comté. The lighting is soft, the crowd impossibly chic, the vibe blissfully unhurried.",
+        "address": "3 Rue Basfroi, 75011 Paris",
+        "rating": 4.7,
+        "image": "https://images.unsplash.com/photo-1528823872057-9c018a7a7553?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "La Buvette",
+        "description": "Camille Fourmont's tiny jewel-box bar in the 11th glows like a lantern at night, with marble shelves stacked with goat cheeses and rare bottles. The white beans drowned in olive oil and lemon zest are legendary — order them with a glass of something orange and slightly oxidative. Expect to fall in love with the room before your second sip.",
+        "address": "67 Rue Saint-Maur, 75011 Paris",
+        "rating": 4.7,
+        "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Aux Deux Amis",
+        "description": "A scuffed, neon-lit corner café by day that transforms into one of the rowdiest natural wine bars in Paris by night. The crowd spills onto Rue Oberkampf, glasses of pét-nat in hand, while inside the kitchen sends out beef tartare and razor clams in green sauce. It's chaotic, garlicky, and completely irresistible.",
+        "address": "45 Rue Oberkampf, 75011 Paris",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1543007630-9710e4a00a20?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Le Bon Georges",
+        "description": "Tucked into a quiet street near Pigalle, this bistro-meets-wine-bar champions tiny-production vignerons with a list that reads like a love letter to the French countryside. The room smells of butter and roasting bones; the steak frites is one of the best in Paris. Ask owner Benoît for a recommendation and brace yourself for something gloriously unexpected.",
+        "address": "45 Rue Saint-Georges, 75009 Paris",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1525268323446-0505b6fe7778?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      }
+    ]
   }
 ];
 
