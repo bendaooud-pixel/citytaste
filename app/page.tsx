@@ -76,7 +76,7 @@ const FOOTER_LINKS = {
   Cities: [
     { label: "🇫🇷 Paris", href: "/cities/paris" },
     { label: "🇪🇸 Barcelona", href: "/cities/barcelona" },
-    { label: "🇮🇹 Rome — soon", href: "#" },
+    { label: "🇮🇹 Rome", href: "/cities/rome" },
     { label: "🇯🇵 Tokyo — soon", href: "#" },
   ],
 };
@@ -104,7 +104,7 @@ export default function HomePage() {
         style={{ backgroundColor: RED }}
         className="text-white text-center py-2.5 px-4 text-sm font-medium tracking-wide"
       >
-        Discover the best food &amp; places in Paris and Barcelona
+        Discover the best food &amp; places in Paris, Barcelona and Rome
       </div>
 
       {/* ── Navbar ── */}
@@ -155,7 +155,7 @@ export default function HomePage() {
               <svg className="w-4 h-4 flex-shrink-0" style={{ color: RED }} fill="currentColor" viewBox="0 0 24 24">
                 <path fillRule="evenodd" d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-2.003 3.5-4.697 3.5-8.027A8.25 8.25 0 006 8.25c0 3.33 1.556 6.024 3.5 8.028a19.583 19.583 0 002.684 2.28 16.975 16.975 0 001.143.743zM12 10.5a2.25 2.25 0 100-4.5 2.25 2.25 0 000 4.5z" clipRule="evenodd" />
               </svg>
-              Paris, Barcelona
+              Paris, Barcelona, Rome
             </div>
             <button
               style={{ backgroundColor: RED }}
@@ -326,6 +326,13 @@ export default function HomePage() {
               >
                 Explore Barcelona
               </Link>
+              <Link
+                href="/cities/rome"
+                className="font-bold px-6 py-3 rounded-xl text-sm border-2 transition-colors hover:bg-red-50"
+                style={{ borderColor: RED, color: RED }}
+              >
+                Explore Rome
+              </Link>
             </div>
           </div>
 
@@ -421,7 +428,7 @@ export default function HomePage() {
             {[
               { name: "🇫🇷 Paris", href: "/cities/paris", live: true },
               { name: "🇪🇸 Barcelona", href: "/cities/barcelona", live: true },
-              { name: "🇮🇹 Rome", href: "#", live: false },
+              { name: "🇮🇹 Rome", href: "/cities/rome", live: true },
               { name: "🇯🇵 Tokyo", href: "#", live: false },
               { name: "🇺🇸 New York", href: "#", live: false },
             ].map(({ name, href, live }) => (
