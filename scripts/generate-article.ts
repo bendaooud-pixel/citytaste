@@ -265,13 +265,17 @@ Rules:
 - metaDescription must be under 155 characters
 - Return pure JSON only`;
 
-  console.log(`  → model: claude-opus-4-7, max_tokens: 4000`);
+  console.log(`  → model: claude-opus-4-7, max_tokens: 8000`);
   const message = await client.messages.create({
     model: "claude-opus-4-7",
-    max_tokens: 4000,
+    max_tokens: 8000,
     messages: [{ role: "user", content: prompt }],
   });
   console.log(`  → stop_reason: ${message.stop_reason}, usage: ${JSON.stringify(message.usage)}`);
+
+  if (message.stop_reason === "max_tokens") {
+    throw new Error("Response truncated (max_tokens reached) — article too long to fit in one pass");
+  }
 
   const text = message.content[0].type === "text" ? message.content[0].text : "";
   return text.replace(/^```(?:json)?\n?/m, "").replace(/\n?```$/m, "").trim();
