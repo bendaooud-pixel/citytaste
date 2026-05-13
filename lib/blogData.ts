@@ -1209,6 +1209,66 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "placeSlug": undefined
       }
     ]
+  },
+  {
+    "title": "Best Street Food in Paris Under €5",
+    "slug": "street-food-paris-under-5",
+    "city": "Paris",
+    "citySlug": "paris",
+    "category": "Street Food",
+    "coverImage": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=1200&q=80",
+    "publishedAt": "2026-05-13",
+    "readingTime": 8,
+    "metaDescription": "Discover the best street food in Paris under €5 — crepes, falafel, banh mi and bakery gems loved by locals, foodies and budget travelers.",
+    "intro": "Paris has a reputation for being expensive, but eat like a local and you'll find some of the best bites in the city cost less than a metro ticket and a coffee combined. From flaky pastries grabbed on the way to the Marais to falafel pitas eaten standing on Rue des Rosiers, this guide is for tourists, couples and food lovers who'd rather skip the white tablecloths. Budget around €4–€5 per stop, and you can easily turn an afternoon walk into a full-on tasting tour.",
+    "body": "## Why Paris Is Secretly a Street Food City\n\nForget the cliché of three-course bistro lunches. Most Parisians eat fast and well — a baguette sandwich on a bench, a galette folded into paper, a slice of pizza on the way to the métro. Done right, street food in Paris under 5 euros is not a compromise; it's the real local rhythm.\n\nThis guide focuses on five places that consistently deliver. They're not hidden secrets — locals know them, queues form — but they earn their reputation.\n\n## Quick Comparison Table\n\n| Place | Price | Best For | Google Rating | Atmosphere |\n|-------|-------|----------|---------------|------------|\n| L'As du Fallafel | €–€€ | Foodies, couples | 4.5 | Buzzing Marais classic |\n| Du Pain et des Idées | € | Solo travelers, pastry lovers | 4.6 | Old-school boulangerie |\n| Breizh Café (takeaway) | €€ | Couples, casual lunch | 4.4 | Modern Breton crêperie |\n| Chez Alain Miam Miam | € | Budget travelers, foodies | 4.7 | Market stall energy |\n| Pink Mamma Pizza Slice / Big Mamma street counters | €€ | Quick bite, tourists | 4.3 | Italian street vibe |\n\n## 1. L'As du Fallafel — The Marais Institution\n\nIf you've heard one name for cheap eats in Paris, it's this one. The falafel pita at L'As du Fallafel comes overstuffed with hot chickpea balls, fried eggplant, cabbage, harissa and tahini, all for around €8 if you sit, but **€6–€7 at the takeaway window** — and the smaller portion or hummus pita can drop close to €5.\n\nRue des Rosiers itself is half the experience: pedestrian, lined with vintage shops, packed on Sundays.\n\n**Pros:** Generous portions, fast queue, vegetarian-friendly.\n**Cons:** Closed Saturdays, sauce will end up on your shirt.\n**Best time:** Weekday around 2 pm, after the lunch rush.\n\n## 2. Du Pain et des Idées — Boulangerie Worth the Detour\n\nNear Canal Saint-Martin, this 19th-century bakery is the kind of place where you point at things you can't pronounce and walk out happy. The **escargot pistache-chocolat** sits around €4.50, and a slice of their *pavé* bread costs even less.\n\nThe interior — painted ceilings, mirrored counters — feels untouched since 1875. There's no seating, so people eat on the canal banks a few minutes away.\n\n**Pros:** Outstanding viennoiserie, photogenic shop.\n**Cons:** Closed weekends, can sell out by 4 pm.\n**Best for:** Solo wanderers and couples doing a slow morning.\n\n## 3. Breizh Café Takeaway — Crêpes Done Properly\n\nThe sit-down restaurant is a splurge, but Breizh Café runs takeaway windows where a simple butter-sugar or ham-and-cheese galette runs around €4–€5. Buckwheat batter, real Bordier butter, no shortcuts.\n\nGrab one on Rue Vieille du Temple and walk toward Place des Vosges. It's a small thing, but eating a hot galette while crossing the Marais on a grey afternoon is genuinely one of the better Paris memories you can buy for under five euros.\n\n**Pros:** Quality ingredients, quick service.\n**Cons:** Lines on weekends, sweet crêpes are smaller than you'd expect.\n\n## 4. Chez Alain Miam Miam — Marché des Enfants Rouges\n\nInside Paris's oldest covered market, Alain hand-builds enormous galette sandwiches with cheese, ham, mushrooms and herbs. The full sandwich is closer to €10, but his **half portion or simple cheese galette stays under €5**, and watching him work the pan is part of the show.\n\nThe market itself is worth wandering — Moroccan, Italian, Japanese stalls all under one roof.\n\n**Pros:** Atmosphere, generous fillings, friendly chef.\n**Cons:** Slow service (he chats with everyone), closed Mondays.\n**Best time:** Tuesday or Thursday around noon.\n\n## 5. Pizza by the Slice near Rue Montorgueil\n\nRue Montorgueil is the easiest food street in central Paris — pedestrian, lined with traiteurs, cheese shops and Italian counters. Several spots sell hot square slices for **€3.50–€4.50**. Quality varies, so look for places with a visible oven and a steady local queue.\n\nPair it with a €2 espresso at a counter bar and you've eaten lunch for under €7.\n\n**Pros:** Central, walkable, easy for picky eaters.\n**Cons:** Touristy in summer, slices reheated rather than fresh after 3 pm.\n\n## Local Tips\n\n- **Eat standing up.** In most bakeries, prices on the menu are lower *au comptoir* (at the counter) than seated.\n- **Avoid 1 pm sharp.** That's when office workers descend. Push lunch to 2 pm.\n- **Sunday strategy:** Many bakeries close. The Marais and Rue Montorgueil stay alive.\n- **Carry coins.** Smaller stalls sometimes balk at card payments under €10.\n- **Walk between stops.** The Marais, Canal Saint-Martin and Montorgueil are all under 25 minutes apart on foot.\n\n## FAQ\n\n**Is street food in Paris really under €5?**\nYes, if you stick to bakery items, half portions, falgrab counters and slices. Full sit-down meals will cost more.\n\n**What's the most iconic Paris street food?**\nThe jambon-beurre baguette and the Nutella crêpe — both easily under €5.\n\n**Where's the best area for cheap eats?**\nThe Marais (4th), around Canal Saint-Martin (10th) and Rue Montorgueil (2nd).\n\n**Is it safe to eat from street stalls in Paris?**\nGenerally yes. Hygiene standards are strict and most \"street food\" is actually counter food from established shops.\n\n## Final Take\n\nFor **couples**, do a Marais loop: Breizh Café galette, then L'As du Fallafel. For **solo travelers and pastry lovers**, head straight to Du Pain et des Idées. **Budget travelers** get the most mileage at Marché des Enfants Rouges, and **first-time tourists** will feel most at home grabbing a slice on Rue Montorgueil. None of it is fancy — and that's exactly the point.",
+    "places": [
+      {
+        "name": "L'As du Fallafel",
+        "description": "A Marais institution that's been feeding the falafel-pita crowd for decades. The takeaway window moves fast and portions are huge. Expect a queue, but it almost always moves quicker than it looks.",
+        "address": "34 Rue des Rosiers, 75004 Paris, France",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1593504049359-74330189a345?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Du Pain et des Idées",
+        "description": "A historic boulangerie near Canal Saint-Martin with painted ceilings and a cult following for its escargot pastries. Everything is hand-shaped and the smell hits you from the street. No seating, which is half the charm.",
+        "address": "34 Rue Yves Toudic, 75010 Paris, France",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Breizh Café",
+        "description": "Modern Breton crêperie taken seriously, with proper buckwheat galettes and real Bordier butter. The takeaway counter offers simple versions at honest prices. Best eaten walking, while it's still hot.",
+        "address": "109 Rue Vieille du Temple, 75003 Paris, France",
+        "rating": 4.4,
+        "image": "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Chez Alain Miam Miam",
+        "description": "A tiny stall inside Marché des Enfants Rouges where Alain builds galette sandwiches one at a time. He chats, slices cheese, flips the pan — it's a show. Worth the wait if you're not in a rush.",
+        "address": "Marché des Enfants Rouges, 39 Rue de Bretagne, 75003 Paris, France",
+        "rating": 4.7,
+        "image": "https://images.unsplash.com/photo-1565299543923-37dd37887442?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Rue Montorgueil",
+        "description": "A pedestrian food street lined with bakeries, cheese shops and Italian counters selling pizza by the slice. Quality varies stall to stall, so follow the local lunch crowd. Easy to combine several cheap bites in one walk.",
+        "address": "Rue Montorgueil, 75002 Paris, France",
+        "rating": 4.3,
+        "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      }
+    ]
   }
 ];
 
