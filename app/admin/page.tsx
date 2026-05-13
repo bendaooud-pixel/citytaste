@@ -1,5 +1,6 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { cities as initialCities, places as initialPlaces } from "@/lib/data";
@@ -8,6 +9,13 @@ import { CATEGORIES } from "@/lib/types";
 
 type Tab = "cities" | "places";
 type Modal = { type: "city" | "place"; data?: City | Place } | null;
+type ImgStatus = "idle" | "loading" | "ok" | "error";
+
+interface PhotoModal {
+  place: Place;
+  urls: [string, string, string];
+  statuses: [ImgStatus, ImgStatus, ImgStatus];
+}
 
 const PRICE_LABEL = ["", "$", "$$", "$$$", "$$$$"];
 
@@ -18,12 +26,21 @@ export default function AdminPage() {
   const [modal, setModal] = useState<Modal>(null);
   const [search, setSearch] = useState("");
   const [cityFilter, setCityFilter] = useState("all");
+  const [photoModal, setPhotoModal] = useState<PhotoModal | null>(null);
+  const [toast, setToast] = useState<string | null>(null);
+  const [testUrl, setTestUrl] = useState("");
+  const [testStatus, setTestStatus] = useState<ImgStatus>("idle");
 
   // ── City form state ──
   const [cityForm, setCityForm] = useState<Partial<City>>({});
 
   // ── Place form state ──
   const [placeForm, setPlaceForm] = useState<Partial<Place>>({});
+
+  const showToast = (msg: string) => {
+    setToast(msg);
+    setTimeout(() => setToast(null), 3000);
+  };
 
   const openCityModal = (city?: City) => {
     setCityForm(city ?? {});
@@ -34,6 +51,59 @@ export default function AdminPage() {
     setPlaceForm(place ?? {});
     setModal({ type: "place", data: place });
   };
+
+  const openPhotoModal = (place: Place) => {
+    const photos = place.photos ?? [];
+    setPhotoModal({
+      place,
+      urls: [photos[0] ?? "", photos[1] ?? "", photos[2] ?? ""] as [string, string, string],
+      statuses: ["idle", "idle", "idle"],
+    });
+    setTestUrl("");
+    setTestStatus("idle");
+  };
+
+  const testPhotoUrl = (index: number) => {
+    if (!photoModal) return;
+    const url = photoModal.urls[index];
+    if (!url.trim()) return;
+    setPhotoModal((pm) => pm ? {
+      ...pm,
+      statuses: pm.statuses.map((s, i) => i === index ? "loading" : s) as [ImgStatus, ImgStatus, ImgStatus],
+    } : null);
+    const img = new window.Image();
+    img.onload = () => setPhotoModal((pm) => pm ? {
+      ...pm,
+      statuses: pm.statuses.map((s, i) => i === index ? "ok" : s) as [ImgStatus, ImgStatus, ImgStatus],
+    } : null);
+    img.onerror = () => setPhotoModal((pm) => pm ? {
+      ...pm,
+      statuses: pm.statuses.map((s, i) => i === index ? "error" : s) as [ImgStatus, ImgStatus, ImgStatus],
+    } : null);
+    img.src = url;
+  };
+
+  const savePhotos = () => {
+    if (!photoModal) return;
+    const validUrls = photoModal.urls.filter((u) => u.trim() !== "");
+    if (validUrls.length === 0) return;
+    setPlaces((prev) =>
+      prev.map((p) => p.id === photoModal.place.id ? { ...p, photos: validUrls } : p)
+    );
+    setPhotoModal(null);
+    showToast(`✓ Photos updated for ${photoModal.place.name}`);
+  };
+
+  // Test any URL
+  useEffect(() => {
+    if (!testUrl.trim()) { setTestStatus("idle"); return; }
+    setTestStatus("loading");
+    const img = new window.Image();
+    const url = testUrl;
+    img.onload = () => { if (testUrl === url) setTestStatus("ok"); };
+    img.onerror = () => { if (testUrl === url) setTestStatus("error"); };
+    img.src = url;
+  }, [testUrl]);
 
   const saveCity = () => {
     if (!cityForm.name) return;
@@ -262,7 +332,22 @@ export default function AdminPage() {
                   <tbody className="divide-y divide-slate-50">
                     {filteredPlaces.map((place) => (
                       <tr key={place.id} className="hover:bg-slate-50/50 transition-colors">
-                        <td className="px-5 py-3.5 font-medium text-slate-800">{place.name}</td>
+                        <td className="px-5 py-3.5">
+                          <div className="flex items-center gap-3">
+                            {place.photos?.[0] && (
+                              <div className="relative w-9 h-9 rounded-lg overflow-hidden flex-shrink-0 bg-slate-100">
+                                <Image
+                                  src={place.photos[0]}
+                                  alt={place.name}
+                                  fill
+                                  className="object-cover"
+                                  sizes="36px"
+                                />
+                              </div>
+                            )}
+                            <span className="font-medium text-slate-800">{place.name}</span>
+                          </div>
+                        </td>
                         <td className="px-5 py-3.5 text-slate-600 capitalize">{place.citySlug}</td>
                         <td className="px-5 py-3.5">
                           <div className="flex flex-wrap gap-1">
@@ -282,6 +367,12 @@ export default function AdminPage() {
                         <td className="px-5 py-3.5 text-slate-600">{PRICE_LABEL[place.priceLevel]}</td>
                         <td className="px-5 py-3.5 text-right">
                           <div className="flex items-center justify-end gap-2">
+                            <button
+                              onClick={() => openPhotoModal(place)}
+                              className="text-xs bg-violet-50 hover:bg-violet-100 text-violet-600 px-3 py-1.5 rounded-lg transition-colors font-medium"
+                            >
+                              🖼 Photos
+                            </button>
                             <button
                               onClick={() => openPlaceModal(place)}
                               className="text-xs bg-slate-100 hover:bg-slate-200 text-slate-700 px-3 py-1.5 rounded-lg transition-colors font-medium"
@@ -306,7 +397,7 @@ export default function AdminPage() {
         </div>
       </main>
 
-      {/* ── Modals ── */}
+      {/* ── Edit/Add Modal ── */}
       {modal && (
         <div
           className="fixed inset-0 z-50 bg-black/60 flex items-center justify-center p-4 backdrop-blur-sm"
@@ -461,6 +552,151 @@ export default function AdminPage() {
               </button>
             </div>
           </div>
+        </div>
+      )}
+
+      {/* ── Photo Management Modal ── */}
+      {photoModal && (
+        <div
+          className="fixed inset-0 z-50 bg-black/60 flex items-center justify-center p-4 backdrop-blur-sm"
+          onClick={() => setPhotoModal(null)}
+        >
+          <div
+            className="bg-white rounded-2xl w-full max-w-xl max-h-[90vh] overflow-y-auto shadow-2xl"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {/* Header */}
+            <div className="flex items-center justify-between p-6 border-b border-slate-100">
+              <div>
+                <h2 className="text-lg font-bold text-slate-900">Edit Photos</h2>
+                <p className="text-sm text-slate-500 mt-0.5">{photoModal.place.name}</p>
+              </div>
+              <button
+                onClick={() => setPhotoModal(null)}
+                className="text-slate-400 hover:text-slate-600 w-8 h-8 flex items-center justify-center rounded-lg hover:bg-slate-100"
+              >
+                ✕
+              </button>
+            </div>
+
+            <div className="p-6 space-y-5">
+              {/* Photo rows */}
+              {([0, 1, 2] as const).map((i) => (
+                <div key={i} className="space-y-2">
+                  <label className="block text-xs font-semibold text-slate-500 uppercase tracking-wide">
+                    Photo {i + 1}
+                  </label>
+                  <div className="flex gap-3 items-start">
+                    {/* Thumbnail */}
+                    <div className="relative w-20 h-20 rounded-xl overflow-hidden bg-slate-100 flex-shrink-0 border border-slate-200">
+                      {photoModal.urls[i] && photoModal.statuses[i] !== "error" ? (
+                        <Image
+                          src={photoModal.urls[i]}
+                          alt={`Photo ${i + 1}`}
+                          fill
+                          className="object-cover"
+                          sizes="80px"
+                          unoptimized
+                        />
+                      ) : (
+                        <div className="w-full h-full flex items-center justify-center text-slate-300 text-2xl">
+                          {photoModal.statuses[i] === "error" ? "🚫" : "🖼"}
+                        </div>
+                      )}
+                    </div>
+
+                    {/* Input + controls */}
+                    <div className="flex-1 space-y-2">
+                      <input
+                        type="text"
+                        value={photoModal.urls[i]}
+                        onChange={(e) => {
+                          const val = e.target.value;
+                          setPhotoModal((pm) => pm ? {
+                            ...pm,
+                            urls: pm.urls.map((u, idx) => idx === i ? val : u) as [string, string, string],
+                            statuses: pm.statuses.map((s, idx) => idx === i ? "idle" : s) as [ImgStatus, ImgStatus, ImgStatus],
+                          } : null);
+                        }}
+                        placeholder="https://images.unsplash.com/photo-..."
+                        className="w-full text-xs border border-slate-200 rounded-xl px-3 py-2 focus:outline-none focus:ring-2 focus:ring-violet-400/40 focus:border-violet-400 placeholder:text-slate-300"
+                      />
+                      <div className="flex items-center gap-2">
+                        <button
+                          onClick={() => testPhotoUrl(i)}
+                          disabled={!photoModal.urls[i].trim()}
+                          className="text-xs bg-violet-50 hover:bg-violet-100 text-violet-600 px-3 py-1.5 rounded-lg transition-colors font-medium disabled:opacity-40 disabled:cursor-not-allowed"
+                        >
+                          Preview
+                        </button>
+                        <span className="text-sm">
+                          {photoModal.statuses[i] === "loading" && (
+                            <span className="text-slate-400 animate-pulse">Testing…</span>
+                          )}
+                          {photoModal.statuses[i] === "ok" && (
+                            <span className="text-emerald-600 font-semibold">✅ Working</span>
+                          )}
+                          {photoModal.statuses[i] === "error" && (
+                            <span className="text-red-500 font-semibold">❌ Broken</span>
+                          )}
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              ))}
+
+              {/* Divider */}
+              <div className="border-t border-slate-100 pt-5">
+                <p className="text-xs font-semibold text-slate-500 uppercase tracking-wide mb-3">
+                  Test any URL
+                </p>
+                <div className="flex gap-2 items-center">
+                  <input
+                    type="text"
+                    value={testUrl}
+                    onChange={(e) => setTestUrl(e.target.value)}
+                    placeholder="Paste any image URL to test…"
+                    className="flex-1 text-xs border border-slate-200 rounded-xl px-3 py-2 focus:outline-none focus:ring-2 focus:ring-orange-400/40 placeholder:text-slate-300"
+                  />
+                  <span className="text-xl w-7 text-center flex-shrink-0">
+                    {testStatus === "idle" && ""}
+                    {testStatus === "loading" && <span className="text-slate-300 animate-pulse text-sm">…</span>}
+                    {testStatus === "ok" && "✅"}
+                    {testStatus === "error" && "❌"}
+                  </span>
+                </div>
+                {testStatus === "ok" && testUrl && (
+                  <div className="mt-3 relative h-32 rounded-xl overflow-hidden border border-slate-200">
+                    <Image src={testUrl} alt="Test preview" fill className="object-cover" sizes="520px" unoptimized />
+                  </div>
+                )}
+              </div>
+            </div>
+
+            {/* Footer */}
+            <div className="flex items-center justify-end gap-3 p-6 border-t border-slate-100">
+              <button
+                onClick={() => setPhotoModal(null)}
+                className="px-5 py-2.5 rounded-xl border border-slate-200 text-sm font-medium text-slate-600 hover:bg-slate-50 transition-colors"
+              >
+                Cancel
+              </button>
+              <button
+                onClick={savePhotos}
+                className="px-5 py-2.5 rounded-xl bg-violet-600 hover:bg-violet-700 text-white text-sm font-semibold transition-colors shadow-sm"
+              >
+                Save Photos
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* ── Toast ── */}
+      {toast && (
+        <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-[60] bg-slate-900 text-white text-sm font-medium px-5 py-3 rounded-2xl shadow-xl flex items-center gap-2 animate-fade-in">
+          {toast}
         </div>
       )}
 
