@@ -156,51 +156,119 @@ Rules: slug must be lowercase-hyphenated, unique, never in the list above. Retur
 async function generateArticle(client: Anthropic, topic: Topic): Promise<string> {
   const today = new Date().toISOString().split("T")[0];
 
-  const prompt = `You are an expert food and travel writer for CityTaste magazine. Write a vivid, personal, and engaging blog article about: "${topic.title}"
-City: ${topic.city} | Category: ${topic.category}
+  const prompt = `You are an expert travel writer and local city guide writing for a modern travel platform called CityTaste.
+Your goal is NOT to create generic AI content.
+Your goal is to create articles that feel:
+- human
+- authentic
+- experience-based
+- SEO optimized
+- useful for travelers
 
-Use a unique angle or story hook in the intro. Include insider tips, sensory language (taste, smell, atmosphere), and vary the writing style — sometimes poetic, sometimes practical.
+WRITING STYLE:
+- Natural and modern
+- Short and clean paragraphs
+- Avoid robotic or repetitive sentences
+- Add small realistic observations
+- Sound like someone who actually visited the place
+- Do NOT overuse words like "amazing", "delicious", "must-visit"
 
-Return ONLY a valid JSON object with exactly this structure (no markdown fences, no extra text):
+VERY IMPORTANT:
+The article must NOT feel AI-generated.
+It should feel like a premium travel magazine mixed with local recommendations.
+
+ARTICLE STRUCTURE:
+1. Engaging introduction
+   - Describe the vibe of the neighborhood
+   - Mention who this guide is for
+   - Mention average budget if relevant
+
+2. Quick comparison table
+   Include: Place name, Price range, Best for, Google rating, Atmosphere
+
+3. Detailed sections for each place
+   For every location include:
+   - What makes it special
+   - Atmosphere and design
+   - Best time to visit
+   - Type of people who would enjoy it
+   - Honest pros and cons
+   - Nearby attractions or streets
+   - Realistic details that feel human
+
+4. Local tips section
+   Examples:
+   - Best time to avoid crowds
+   - What locals usually order
+   - Reservation advice
+   - Areas to walk nearby
+
+5. FAQ section optimized for SEO
+
+6. Conclusion
+   Summarize best choice depending on: budget, couples, tourists, locals, instagrammable places
+
+SEO RULES:
+- Use the main keyword naturally
+- Add semantic keywords
+- Avoid keyword stuffing
+- Create strong headings (H2/H3)
+- Optimize for Google Discover and Pinterest traffic
+
+IMPORTANT:
+- Do not invent fake experiences
+- Do not sound promotional
+- Do not repeat the same sentence structures
+- Do not make every place sound perfect
+
+TONE: Modern, premium, local, trustworthy.
+
+Now write a complete article about: ${topic.title}
+Target city: ${topic.city}
+Main keyword: ${topic.slug.replace(/-/g, " ")}
+Target audience: tourists, food lovers, couples, budget travelers
+
+Return ONLY valid JSON in this exact format (no markdown fences, no extra text):
 {
   "title": "${topic.title}",
   "slug": "${topic.slug}",
   "city": "${topic.city}",
   "citySlug": "${topic.citySlug}",
   "category": "${topic.category}",
-  "coverImage": "<a real Unsplash photo URL matching the article topic — format: https://images.unsplash.com/photo-TIMESTAMP-RANDOMHASH?w=1200&q=80>",
+  "coverImage": "https://images.unsplash.com/photo-XXXXXXXXXXX?w=1200&q=80",
   "publishedAt": "${today}",
-  "readingTime": <number 5-8>,
+  "readingTime": 8,
   "metaDescription": "<compelling SEO description under 155 characters>",
-  "intro": "<3-4 sentence engaging intro with a unique hook or personal angle>",
-  "body": "<3 rich paragraphs separated by \\n\\n, ~500 words total, evocative food writing with sensory detail>",
+  "intro": "<engaging 3-4 sentence intro describing the neighborhood vibe and who the guide is for>",
+  "body": "<full article body: comparison table in markdown, detailed place sections with H2/H3 headings, local tips, FAQ, and conclusion — separated by \\n\\n, 800-1000 words total>",
   "places": [
     {
       "name": "<real place name in ${topic.city}>",
-      "description": "<3 sentence description with sensory detail, atmosphere, and a must-order dish>",
+      "description": "<3 sentence description: atmosphere, what makes it special, honest observation>",
       "address": "<real full street address>",
-      "rating": <4.3 to 4.9>,
-      "image": "<a real Unsplash photo URL relevant to this specific place — format: https://images.unsplash.com/photo-TIMESTAMP-RANDOMHASH?w=800&q=80>",
+      "rating": 4.7,
+      "image": "https://images.unsplash.com/photo-XXXXXXXXXXX?w=800&q=80",
+      "priceRange": "€€",
+      "bestFor": "<couples / solo travelers / foodies / budget travelers>",
+      "atmosphere": "<one evocative phrase>",
+      "tip": "<one insider tip a local would give>",
       "citySlug": "${topic.citySlug}",
       "placeSlug": null
     }
   ]
 }
 
-Requirements:
-- Include exactly 5 places, all real well-known establishments in ${topic.city}
-- Every image URL (cover + all places) must use a DIFFERENT Unsplash photo ID — no repeats
-- Each photo ID must be a real Unsplash photo ID (format: photo-DIGITS-ALPHANUMERIC)
-- Photo IDs must be relevant to the place type (restaurant interior, food, street scene, etc.)
-- Body must be rich prose — no bullet points, no headers
+Rules:
+- Include exactly 5 real, well-known places in ${topic.city} with accurate addresses
+- Every image URL must use a DIFFERENT real Unsplash photo ID — no repeats across cover + all places
+- Replace every XXXXXXXXXXX with a real Unsplash photo ID (format: photo-DIGITS-ALPHANUMERIC)
 - metaDescription must be under 155 characters
-- All place names and addresses must be real and accurate
 - Return pure JSON only`;
 
-  console.log(`  → model: claude-opus-4-7, max_tokens: 3000`);
+  console.log(`  → model: claude-opus-4-7, max_tokens: 4000`);
   const message = await client.messages.create({
     model: "claude-opus-4-7",
-    max_tokens: 3000,
+    max_tokens: 4000,
     messages: [{ role: "user", content: prompt }],
   });
   console.log(`  → stop_reason: ${message.stop_reason}, usage: ${JSON.stringify(message.usage)}`);
@@ -221,6 +289,15 @@ function injectArticle(filePath: string, articleJson: string): void {
   }
 
   const parsed = JSON.parse(articleJson);
+
+  // Strip extra place fields not in BlogPlace type
+  const PLACE_KEYS = new Set(["name", "description", "address", "rating", "image", "citySlug", "placeSlug"]);
+  if (Array.isArray(parsed.places)) {
+    parsed.places = parsed.places.map((p: Record<string, unknown>) =>
+      Object.fromEntries(Object.entries(p).filter(([k]) => PLACE_KEYS.has(k)))
+    );
+  }
+
   const formatted = JSON.stringify(parsed, null, 2)
     .replace(/"placeSlug": null/g, '"placeSlug": undefined')
     .split("\n")
