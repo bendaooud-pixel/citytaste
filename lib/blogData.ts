@@ -1269,6 +1269,66 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "placeSlug": undefined
       }
     ]
+  },
+  {
+    "title": "Most Beautiful Café Terraces in Paris",
+    "slug": "cafe-terraces-paris",
+    "city": "Paris",
+    "citySlug": "paris",
+    "category": "Cafés",
+    "coverImage": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=1200&q=80",
+    "publishedAt": "2026-05-14",
+    "readingTime": 8,
+    "metaDescription": "Discover the most beautiful café terraces in Paris — from Saint-Germain classics to hidden rooftops loved by locals and couples.",
+    "intro": "Paris doesn't really happen indoors. It happens on terraces — those rattan chairs lined up under awnings, espresso cups clinking next to glasses of natural wine, conversations drifting into the street. This guide is for travelers, couples, and food lovers who want to slow down and watch the city like Parisians do. Expect to spend between €4 for an espresso and €18 for a cocktail, depending on the arrondissement.",
+    "body": "## Why Paris Café Terraces Feel Different\n\nThere's a reason UNESCO recognized the Parisian bistro terrace as cultural heritage. It's not about the coffee (which, honestly, is often average). It's about the ritual — sitting facing the street, never the wall, watching the city move.\n\nThe best terraces aren't always the most famous ones. Some of the prettiest are tucked behind churches or on rooftops most tourists walk past.\n\n## Quick Comparison\n\n| Café | Price | Best For | Rating | Atmosphere |\n|------|-------|----------|--------|------------|\n| Café de Flore | €€€ | Couples, classics | 4.3 | Literary, iconic |\n| Les Deux Magots | €€€ | Tourists, history | 4.4 | Old Paris elegance |\n| Café Kitsuné Palais Royal | €€ | Foodies, design lovers | 4.4 | Minimal, chic |\n| Le Consulat | €€ | Instagram, couples | 4.2 | Montmartre charm |\n| Café Charlot | €€ | Locals, brunch | 4.2 | Marais cool |\n\n## Café de Flore — Saint-Germain-des-Prés\n\nThe green awning on Boulevard Saint-Germain has barely changed since Sartre and de Beauvoir argued at the corner table. The terrace faces the boulevard directly, which is the entire point — you came to be seen, and to see.\n\n### Atmosphere\nWhite-jacketed waiters, marble tables, regulars reading Le Monde. It feels theatrical because it is.\n\n### Best time\nWeekday mornings around 9am. The light hits the terrace softly and you'll skip the tourist queue.\n\n**Pros:** Unbeatable people-watching, genuine old-Paris feel.\n**Cons:** Coffee is €6 and the food is overpriced for what it is.\n\nWalk five minutes to Église Saint-Sulpice afterwards.\n\n## Les Deux Magots — Saint-Germain-des-Prés\n\nDirectly across from Café de Flore, and the rivalry is real. The terrace here wraps around the corner and faces the Saint-Germain church, which is the better view in my opinion.\n\n### Who it's for\nFirst-time visitors who want the postcard experience without apologizing for it. Order the hot chocolate — it actually lives up to the hype.\n\n**Pros:** Iconic view, attentive service.\n**Cons:** Heavily touristic after 11am.\n\n## Café Kitsuné — Palais Royal\n\nTucked inside the arcades of the Jardin du Palais Royal, this tiny café spills out onto one of the most photogenic courtyards in Paris. The terrace is small — maybe ten chairs — but the setting does the work.\n\n### Atmosphere\nJapanese-French minimalism. Matcha lattes, perfectly pulled espressos, a quieter crowd than Saint-Germain.\n\n### Best time\nLate afternoon, when the sun cuts through the columns. Avoid Saturday — Parisians have figured this place out too.\n\n**Pros:** The location is unbeatable, coffee is genuinely good.\n**Cons:** Seating is limited and there's no real food menu.\n\nThe Buren columns are a two-minute walk.\n\n## Le Consulat — Montmartre\n\nThe pink-shuttered café at the corner of Rue Norvins is probably the most photographed terrace in Paris. Touristy? Absolutely. But on a quiet morning before the crowds climb up from Abbesses, it still has something.\n\n### Honest take\nThe food is forgettable and the prices reflect the location. Come for one coffee, take your photo, then walk to Place du Tertre or down to Rue des Abbesses for a better meal.\n\n**Pros:** Storybook setting, classic Montmartre.\n**Cons:** Average food, packed by 11am.\n\n## Café Charlot — Le Marais\n\nOn the corner of Rue de Bretagne, Charlot is where the Marais crowd lands for late brunches and early apéros. The terrace stretches along two sides of the building, red awning, wicker chairs, the whole thing.\n\n### Who it's for\nLocals who actually live here, plus visitors who want to feel part of the neighborhood rather than watching it.\n\n**Pros:** Reliable food, great for people-watching the Marais crowd.\n**Cons:** Service can be slow on weekends.\n\nMarché des Enfants Rouges is right next door — go before or after.\n\n## Local Tips\n\n- **Order at the bar** if you want the cheaper menu price. Terrace seats cost more in most cafés — it's printed on the menu.\n- **Avoid Sundays at Le Consulat and Café de Flore** unless you enjoy queues.\n- **Locals order** un café (espresso) or un noisette (espresso with a dash of milk), not lattes.\n- **No reservations** at most terraces — just show up and wait for a table to turn.\n- **Best walking loop:** Saint-Sulpice → Café de Flore → Les Deux Magots → Rue de Buci for dinner.\n\n## FAQ\n\n**What is the most famous café terrace in Paris?**\nCafé de Flore and Les Deux Magots in Saint-Germain-des-Prés are the two most iconic, sitting across from each other on Boulevard Saint-Germain.\n\n**Are Paris café terraces expensive?**\nThey can be. Expect €4–6 for an espresso on a terrace versus €2–3 at the bar inside. Tourist areas charge more.\n\n**Can you sit on a Paris café terrace without ordering food?**\nYes — a single coffee is enough to hold your table for an hour or more. That's the Parisian way.\n\n**When is the best season for café terraces in Paris?**\nLate April through October. Most terraces have heaters and glass walls in winter, but spring is when the city really comes alive outside.\n\n## Final Take\n\nFor couples, **Café Kitsuné** at Palais Royal wins on atmosphere. For the classic Paris experience, you can't skip **Café de Flore**. Budget travelers should head to **Café Charlot** and order at the bar. And if you only have one morning in Montmartre, **Le Consulat** is worth a single espresso — just don't expect a meal to remember.",
+    "places": [
+      {
+        "name": "Café de Flore",
+        "description": "The most literary terrace in Paris, with green awnings and white-jacketed waiters who've worked here for decades. The coffee is overpriced but the people-watching is unmatched. Come early to actually get a table on the boulevard side.",
+        "address": "172 Boulevard Saint-Germain, 75006 Paris",
+        "rating": 4.3,
+        "image": "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Les Deux Magots",
+        "description": "Café de Flore's eternal rival, with a wraparound terrace facing Église Saint-Germain-des-Prés. The hot chocolate is genuinely worth ordering. Touristy but still atmospheric if you come before noon.",
+        "address": "6 Place Saint-Germain des Prés, 75006 Paris",
+        "rating": 4.4,
+        "image": "https://images.unsplash.com/photo-1453614512568-c4024d13c247?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Café Kitsuné Palais Royal",
+        "description": "A tiny Japanese-French café tucked under the arcades of the Palais Royal gardens. The terrace only fits a handful of tables but the setting is one of the prettiest in central Paris. Coffee here is actually excellent.",
+        "address": "51 Galerie de Montpensier, 75001 Paris",
+        "rating": 4.4,
+        "image": "https://images.unsplash.com/photo-1497636577773-f1231844b336?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Le Consulat",
+        "description": "The pink-shuttered Montmartre corner you've seen on Instagram a hundred times. The food is forgettable and prices reflect the postcard view, but the terrace still has charm before the crowds arrive. Treat it as a coffee stop, not a meal.",
+        "address": "18 Rue Norvins, 75018 Paris",
+        "rating": 4.2,
+        "image": "https://images.unsplash.com/photo-1431274172761-fca41d930114?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Café Charlot",
+        "description": "A Marais institution on the corner of Rue de Bretagne with a generous red-awning terrace. Locals come for long weekend brunches and early evening drinks. The food is solid, the crowd is stylish, and the location is perfect for exploring the neighborhood.",
+        "address": "38 Rue de Bretagne, 75003 Paris",
+        "rating": 4.2,
+        "image": "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      }
+    ]
   }
 ];
 
