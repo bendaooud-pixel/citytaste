@@ -1329,6 +1329,66 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "placeSlug": undefined
       }
     ]
+  },
+  {
+    "title": "Best Japanese Restaurants in Paris",
+    "slug": "japanese-restaurants-paris",
+    "city": "Paris",
+    "citySlug": "paris",
+    "category": "Restaurants",
+    "coverImage": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=1200&q=80",
+    "publishedAt": "2026-05-14",
+    "readingTime": 8,
+    "metaDescription": "Discover the best Japanese restaurants in Paris — from Rue Sainte-Anne ramen spots to hidden sushi counters loved by locals and food enthusiasts.",
+    "intro": "Paris and Japan share a quiet love affair that goes back decades. Around Rue Sainte-Anne, Opéra and the smaller streets of the 2nd arrondissement, you'll find an entire micro-Tokyo where ramen shops, izakayas and discreet omakase counters sit side by side. This guide is for tourists, couples and food lovers looking for something more memorable than a brasserie — with options for every budget, from a €15 ramen bowl to a €120 tasting menu.",
+    "body": "## Why Paris Has Such a Strong Japanese Food Scene\n\nThe Japanese community settled around Opéra in the 1970s and slowly turned Rue Sainte-Anne into the city's unofficial Little Tokyo. Today, the quality is genuinely high — many chefs trained in Tokyo or Osaka, and ingredients are flown in weekly. You'll wait in line for the best ramen, but it's usually worth it.\n\nExpect to spend around €15–25 for a casual ramen lunch, €40–70 for a proper izakaya dinner, and €100+ for sushi omakase.\n\n## Quick Comparison Table\n\n| Restaurant | Price | Best For | Rating | Atmosphere |\n|---|---|---|---|---|\n| Kodawari Ramen Tsukiji | €€ | Foodies, solo travelers | 4.5 | Tokyo fish market replica |\n| Sanukiya | € | Budget travelers | 4.4 | Casual udon canteen |\n| Higuma | € | Tourists, quick meals | 4.3 | No-frills, fast, smoky |\n| Aki | €€ | Couples, foodies | 4.5 | Cozy izakaya warmth |\n| Jin | €€€€ | Special occasions | 4.7 | Refined sushi counter |\n\n## The Restaurants Worth Your Time\n\n### Kodawari Ramen Tsukiji — A Tokyo Fish Market in the 6th\n\nStepping into Kodawari Tsukiji feels like walking onto a film set. The team rebuilt a slice of Tokyo's old Tsukiji market inside — fake fish stalls, hanging lanterns, vintage signs. It's theatrical but never tacky. The seafood-based ramen is rich without being heavy, and the chashu is genuinely good. Come right at opening (around 11:45 am) or expect a 30-minute wait.\n\n**Best for:** Solo travelers, anyone curious about ramen done seriously.\n**Downside:** Tables are tight and it gets loud at peak hours.\n\n### Sanukiya — Udon Done Right\n\nIf ramen feels too rich, Sanukiya on Rue Sainte-Anne is the move. Thick, chewy sanuki-style udon noodles, made fresh daily. The tempura is light and crisp — locals usually order the curry udon or the cold bukkake udon in summer. Lunch hits €12–15, which is rare value in central Paris.\n\n**Best for:** Budget travelers and lunch breaks between sightseeing.\n**Downside:** Often a queue, no reservations.\n\n### Higuma — The Old-School Classic\n\nHiguma has been on Rue Sainte-Anne forever, and the open kitchen with chefs flipping gyoza behind a counter is part of the charm. It's not refined and it's not trying to be. The set menu (gyoza + ramen + rice) is filling and cheap. Expect smoke, speed, and a bit of chaos.\n\n**Best for:** Tourists who want an authentic, unfussy first ramen.\n**Downside:** Service is rushed — this isn't a place to linger.\n\n### Aki — The Couples' Pick\n\nA few doors down from Higuma, Aki is warmer and more intimate. It leans izakaya: grilled skewers, okonomiyaki, sake by the carafe. The okonomiyaki here is one of the best in Paris — properly fluffy, with that sweet-savory sauce. Dim lighting, wooden interior, easy to spend two hours here.\n\n**Best for:** Couples and small groups wanting a relaxed dinner.\n**Downside:** Reservations strongly recommended, especially Friday and Saturday.\n\n### Jin — Sushi at Its Most Serious\n\nJin holds a Michelin star and it shows. Chef Takuya Watanabe works behind a small counter in the 1st arrondissement, serving omakase with fish flown in from Japan. Each piece is built deliberately — sometimes with a brush of soy, sometimes with yuzu zest. The tasting menu starts around €145 at lunch and climbs from there.\n\n**Best for:** Anniversaries, milestone dinners, sushi obsessives.\n**Downside:** Pricey, and you'll need to book weeks ahead.\n\n## Local Tips\n\n- **Avoid the 12:30–1:30 pm rush** on Rue Sainte-Anne. Either arrive at opening or after 2 pm.\n- **Locals order the tsukemen** at Kodawari when it's cold — dipping noodles, deeper flavor.\n- **Cash isn't always king** — most places take card, but smaller spots like Higuma prefer cash for small bills.\n- **Walk Rue Sainte-Anne end to end** before choosing. You'll spot grocery stores, matcha cafés and pastry shops worth a detour.\n- **Sunday closures are common** — always check before heading over.\n\n## FAQ\n\n**Where is the Japanese district in Paris?**\nAround Rue Sainte-Anne, between Opéra and Pyramides metro stations, in the 1st and 2nd arrondissements.\n\n**Which is the best ramen in Paris?**\nKodawari Tsukiji and its sister Kodawari Yokochō are widely considered the top ramen spots, with Higuma as the old-school favorite.\n\n**Are Japanese restaurants in Paris expensive?**\nNot necessarily. A great ramen runs €15–20. Sushi omakase, however, can reach €150+.\n\n**Do I need to book in advance?**\nFor Jin, yes — weeks ahead. For Aki, a few days. Ramen spots are walk-in only.\n\n**Is Rue Sainte-Anne worth visiting just for the food?**\nAbsolutely. It's one of the most concentrated and authentic Japanese food streets in Europe.\n\n## Final Take\n\nIf you're traveling on a budget, Sanukiya and Higuma deliver the most for the price. Couples should head to Aki for a slow, candlelit evening. Foodies hunting the best bowl will love Kodawari Tsukiji's theatrical setting. And for a once-in-a-trip splurge, Jin is the sushi experience worth saving up for. Whichever you pick, you're getting a side of Paris most visitors never bother to find.",
+    "places": [
+      {
+        "name": "Kodawari Ramen Tsukiji",
+        "description": "A ramen shop styled like Tokyo's old Tsukiji fish market, complete with lanterns and faux stalls. The seafood-based broth is genuinely excellent and the staging is more fun than gimmicky. Expect a queue at peak hours.",
+        "address": "12 Rue de Richelieu, 75001 Paris, France",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1623341214825-9f4f963727da?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Sanukiya",
+        "description": "A casual udon canteen serving thick, hand-pulled sanuki noodles on Rue Sainte-Anne. The tempura is light and the curry udon is a winter favorite. Great value for central Paris.",
+        "address": "9 Rue d'Argenteuil, 75001 Paris, France",
+        "rating": 4.4,
+        "image": "https://images.unsplash.com/photo-1618841557871-b4664fbf0cb3?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Higuma",
+        "description": "A long-standing classic on Rue Sainte-Anne with an open kitchen and a steady stream of regulars. The set menu of gyoza, ramen and rice is cheap, filling and unapologetically old-school. Expect noise, smoke and quick service.",
+        "address": "32 bis Rue Sainte-Anne, 75001 Paris, France",
+        "rating": 4.3,
+        "image": "https://images.unsplash.com/photo-1557872943-16a5ac26437e?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Aki",
+        "description": "An intimate izakaya known for its fluffy okonomiyaki and warm wooden interior. The grilled skewers and sake list make it a strong pick for a relaxed dinner. Reservations are strongly recommended on weekends.",
+        "address": "11 bis Rue Sainte-Anne, 75001 Paris, France",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1580822184713-fc5400e7fe10?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Jin",
+        "description": "A Michelin-starred sushi counter in the 1st arrondissement where Chef Takuya Watanabe builds each piece with precision. Fish is flown in from Japan and the omakase is paced like a quiet ceremony. Not cheap, but unforgettable.",
+        "address": "6 Rue de la Sourdière, 75001 Paris, France",
+        "rating": 4.7,
+        "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      }
+    ]
   }
 ];
 
