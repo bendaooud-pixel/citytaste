@@ -1389,6 +1389,66 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "placeSlug": undefined
       }
     ]
+  },
+  {
+    "title": "Top Vegan Restaurants in Paris 2025",
+    "slug": "vegan-restaurants-paris",
+    "city": "Paris",
+    "citySlug": "paris",
+    "category": "Restaurants",
+    "coverImage": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=1200&q=80",
+    "publishedAt": "2026-05-15",
+    "readingTime": 8,
+    "metaDescription": "Discover the best vegan restaurants in Paris 2025 — from cozy bistros to plant-based fine dining, with local tips and honest reviews.",
+    "intro": "Paris isn't the first city that comes to mind when you think 'vegan capital', but the scene has quietly exploded in the last few years. From plant-based bistros in the Marais to refined tasting menus near Saint-Germain, there's now a real range for travelers, couples, and food lovers on a budget. This guide is for anyone who wants to eat well in Paris without compromising — expect to spend anywhere from €15 for a lunch bowl to €90 for a full vegan tasting experience.",
+    "body": "## Vegan Restaurants in Paris at a Glance\n\n| Restaurant | Price | Best For | Rating | Atmosphere |\n|---|---|---|---|---|\n| ONA (sister spot) / Le Potager du Marais | €€ | Couples, foodies | 4.5 | Cozy bistro |\n| Wild & The Moon | € | Budget travelers | 4.3 | Bright, healthy café |\n| Abattoir Végétal | €€ | Brunch lovers | 4.4 | Industrial-chic |\n| 42 Degrés | €€€ | Special occasions | 4.6 | Raw, refined |\n| Hank Vegan Burger | € | Quick eats | 4.4 | Casual, fast |\n\n## Le Potager du Marais\n\nTucked on a narrow street near the Centre Pompidou, Le Potager du Marais has been doing vegan French classics long before it was trendy. It's small — maybe 20 seats — and the tables are close enough that you'll overhear your neighbor's conversation, which is part of the charm.\n\nThe menu leans traditional: bourguignon made with seitan, vegan tartiflette, crème brûlée that genuinely works. It's the kind of place where you taste familiar French flavors in unfamiliar form.\n\n**Best time to visit:** Weekday evenings around 7pm before the rush.\n**Pros:** Authentic French dishes, friendly service.\n**Cons:** Tight space, reservations essential.\n**Nearby:** Walk over to Rue des Rosiers or the Pompidou afterward.\n\n## Wild & The Moon\n\nWild & The Moon has multiple locations across Paris, but the one on Rue Charlot in the Marais is the one I'd point a first-timer to. It's bright, plant-filled, and built for the morning crowd grabbing cold-pressed juices and matcha bowls before work.\n\nThe food is organic, mostly raw or lightly cooked, and clearly designed for people who care about ingredients. Prices are reasonable for Paris — a hearty bowl runs around €13-15.\n\n**Best for:** Solo travelers, quick healthy lunch, takeaway.\n**Pros:** Fast, fresh, consistent quality.\n**Cons:** Not a romantic dinner spot — more of a daytime place.\n\n## Abattoir Végétal\n\nIn the 18th arrondissement, near Montmartre, Abattoir Végétal is a brunch destination people actually plan their Sundays around. The space is open, with raw wood, hanging plants, and that slightly noisy hum of a packed weekend room.\n\nThe weekend brunch is the highlight — pancakes, scrambled tofu, sourdough toasts done properly. Expect to wait 20-30 minutes on Saturdays if you don't reserve.\n\n**Best time:** Weekday lunch if you hate crowds, Sunday brunch if you don't mind them.\n**Pros:** Generous portions, great coffee.\n**Cons:** Service can slow down when it's busy.\n**Nearby:** Walk up to Sacré-Cœur or wander Rue des Abbesses.\n\n## 42 Degrés\n\nThis is the splurge pick. 42 Degrés is one of the only fine-dining raw vegan restaurants in Paris, and the tasting menu is a genuine event — multiple courses, wine pairings, the works. It sits in the 9th arrondissement, not far from Galeries Lafayette.\n\nThe concept (nothing heated above 42°C) sounds gimmicky on paper, but the execution is precise. Dishes are layered, textured, and beautifully plated. Not cheap — expect €70-100 per person with drinks.\n\n**Best for:** Couples, anniversaries, food obsessives.\n**Pros:** Inventive, unforgettable plating.\n**Cons:** Pricey; portions are refined, not filling.\n\n## Hank Vegan Burger\n\nFor the budget travelers and quick-lunch crowd, Hank in the 3rd arrondissement is reliable. Burgers are around €12, fries are good, and the queue moves fast. It's not fine dining — it's exactly what it claims to be.\n\nThe space is small and casual, mostly takeaway-friendly. Grab one and walk five minutes to Square du Temple to eat outside in warmer months.\n\n**Best for:** Lunch, families, anyone craving comfort food.\n**Pros:** Affordable, filling, central.\n**Cons:** Limited seating inside.\n\n## Local Tips\n\n- **Reserve ahead** for Le Potager du Marais and 42 Degrés — both are small and book up days in advance.\n- **Avoid the 1-3pm lunch rush** if you want a quieter experience. Parisians eat late.\n- Most vegan spots cluster in the **Marais (3rd/4th)** and **Montmartre (18th)**. Plan walks accordingly.\n- Wild & The Moon is great for **breakfast takeaway** before a long day of sightseeing.\n- Many places close on Sundays or Mondays — always check ahead.\n\n## FAQ\n\n**Is Paris vegan-friendly in 2025?**\nMuch more than five years ago. Most neighborhoods now have at least one fully vegan spot, and many traditional cafés offer plant-based options.\n\n**What's the average price for a vegan meal in Paris?**\nLunch runs €12-18, dinner €25-40, and tasting menus can reach €80-100.\n\n**Which area has the most vegan restaurants?**\nThe Marais (3rd and 4th arrondissements) has the highest concentration, followed by Montmartre.\n\n**Do I need to book in advance?**\nFor smaller spots like Le Potager du Marais and 42 Degrés, yes. Casual places like Hank and Wild & The Moon take walk-ins.\n\n## Final Thoughts\n\nIf you're traveling as a **couple**, book 42 Degrés for a memorable night or Le Potager du Marais for something cozier. **Budget travelers** should head to Hank or Wild & The Moon. **Brunch lovers** can't go wrong with Abattoir Végétal. Paris has finally caught up — and eating vegan here no longer means compromising on the experience.",
+    "places": [
+      {
+        "name": "Le Potager du Marais",
+        "description": "A tiny vegan bistro serving plant-based versions of French classics in the heart of the Marais. The space is intimate and slightly cramped, but the food more than makes up for it. Reservations are essential, especially on weekends.",
+        "address": "26 Rue Saint-Paul, 75004 Paris, France",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Wild & The Moon",
+        "description": "A bright, plant-filled café serving organic juices, bowls, and pastries. Perfect for a quick healthy lunch or grab-and-go breakfast before sightseeing. Multiple locations, but Rue Charlot has the best vibe.",
+        "address": "55 Rue Charlot, 75003 Paris, France",
+        "rating": 4.3,
+        "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Abattoir Végétal",
+        "description": "A spacious vegan brunch spot in Montmartre with industrial design and serious weekend crowds. Generous portions, great coffee, and the kind of menu that converts skeptics. Best visited mid-week to avoid the rush.",
+        "address": "61 Rue Ramey, 75018 Paris, France",
+        "rating": 4.4,
+        "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "42 Degrés",
+        "description": "A refined raw vegan restaurant offering an inventive tasting menu near Galeries Lafayette. Every plate is carefully designed and full of texture. Pricey but worth it for a special evening out.",
+        "address": "109 Rue du Faubourg Poissonnière, 75009 Paris, France",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Hank Vegan Burger",
+        "description": "A small, casual burger joint in the Marais doing reliable vegan comfort food. Lines move fast and the burgers genuinely satisfy. A solid lunch stop if you're exploring the area on foot.",
+        "address": "55 Rue des Archives, 75003 Paris, France",
+        "rating": 4.4,
+        "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      }
+    ]
   }
 ];
 
