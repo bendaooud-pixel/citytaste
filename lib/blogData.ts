@@ -1449,6 +1449,66 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "placeSlug": undefined
       }
     ]
+  },
+  {
+    "title": "Best Late Night Food in Paris",
+    "slug": "late-night-food-paris",
+    "city": "Paris",
+    "citySlug": "paris",
+    "category": "Nightlife",
+    "coverImage": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=1200&q=80",
+    "publishedAt": "2026-05-16",
+    "readingTime": 8,
+    "metaDescription": "Where to eat late night in Paris: bistros, brasseries and onion soup spots open after midnight, picked for couples, foodies and budget travelers.",
+    "intro": "Paris doesn't really shut down at midnight — it just shifts gears. Once the dinner crowd clears out, the city quietly opens a second door: smoky brasseries near Les Halles, all-night bistros in Pigalle, and tiny counters where cab drivers and night-shift cooks share a table. This guide is for travelers who land late, couples wandering home from a bar, and food lovers who refuse to settle for hotel snacks.",
+    "body": "## Late Night Food in Paris: Quick Comparison\n\n| Place | Price | Best for | Rating | Atmosphere |\n|-------|-------|----------|--------|------------|\n| Au Pied de Cochon | €€€ | Classic brasserie experience | 4.3 | Old-school, lively, 24/7 |\n| Le Tambour | €€ | Night owls & solo travelers | 4.2 | Quirky, smoky, locals only |\n| Chez Denise (La Tour de Montlhéry) | €€€ | Foodies who love red meat | 4.5 | Loud, tightly packed, joyful |\n| L'As du Fallafel | € | Budget travelers | 4.5 | Casual takeaway, busy street |\n| Café Charbon | €€ | Couples & late drinks | 4.2 | Belle Époque, low light |\n\n## Au Pied de Cochon — The 24-Hour Brasserie Near Les Halles\n\nOpen non-stop since 1947, Au Pied de Cochon is the obvious answer when it's 3 AM and you want something proper. The onion soup gratinée is the order most tables go for, and yes, it's as rich as you'd hope after a long night.\n\nThe room feels theatrical — red banquettes, white tablecloths, waiters in long aprons moving fast. It's touristy, no point pretending otherwise, but the kitchen still takes itself seriously.\n\n**Best time to visit:** between 1 AM and 4 AM, when the energy peaks and the dinner crowd is long gone. Couples and curious travelers tend to love it. Downside: prices climb quickly if you add wine and oysters.\n\nNearby: Église Saint-Eustache and the Westfield Forum des Halles are just a short walk away.\n\n## Le Tambour — A Pigalle-Style Bistro Hidden in the 2nd\n\nLe Tambour looks like a bistro built out of flea-market finds: old metro signs, mismatched chairs, a bar that never seems to close. Kitchen runs until around 5 AM, which is rare even in Paris.\n\nThe menu is unfussy — steak frites, confit de canard, omelets. Nothing reinvented, everything dependable. The crowd is a mix of regulars, chefs after service, and a few lost tourists who clearly weren't expecting the noise.\n\nGo if you want a real late-night Paris bistro feel. Skip it if you need quiet, or if you're not comfortable with cigarette smoke drifting in from the terrace.\n\n## Chez Denise (La Tour de Montlhéry) — Where Cooks Eat After Work\n\nThis is the kind of place Anthony Bourdain talked about and that Parisians still keep coming back to. Open until around 5 AM most nights, Chez Denise serves enormous portions of beef, marrow bones, and country pâté.\n\nTables are pushed together, the lighting is yellow, and the waiters somehow remember everyone. Reservations are essential — even at 1 AM on a Tuesday.\n\nNot the spot for light eaters or anyone avoiding red meat. But if you want a meal that feels like a slice of 1970s Paris, it's hard to beat.\n\nNearby: Rue Montorgueil, perfect for an early-morning walk after dinner.\n\n## L'As du Fallafel — The Marais After Midnight\n\nOpen later than most casual spots in the Marais (until around 1 AM, later on weekends), L'As du Fallafel is where you go when you want to spend ten euros and feel completely satisfied. The pita is stuffed almost too generously — eggplant, cabbage, hummus, harissa.\n\nThe queue moves fast. Eat standing on Rue des Rosiers, or take it toward Place des Vosges if it's not raining.\n\nIdeal for budget travelers and solo wanderers. Cons: it's not open through the deep hours, so plan ahead.\n\n## Café Charbon — Late Drinks and Plates in Oberkampf\n\nCafé Charbon is technically a café, but the kitchen serves until late and the bar runs past 2 AM most nights. The Belle Époque interior — high ceilings, antique mirrors, warm bulbs — makes it one of the more atmospheric late spots in the 11th.\n\nCouples come here for a glass of wine and a charcuterie board after a concert at Nouveau Casino next door. It gets loud on weekends, so weeknights feel more intimate.\n\nNearby streets: Rue Oberkampf and Rue Saint-Maur, full of small bars worth exploring.\n\n## Local Tips for Eating Late in Paris\n\n- **Reserve when you can.** Even at midnight, places like Chez Denise fill up.\n- **Metro stops around 1:15 AM** on weeknights. Plan a Noctilien bus or a short walk.\n- **Locals usually order** onion soup, steak tartare, or a simple omelet — not elaborate dishes — after midnight.\n- **Avoid Champs-Élysées late-night spots.** Most are tourist traps with inflated prices.\n- **Cash still helps** at some older bistros, especially after 2 AM.\n\n## FAQ: Late Night Food in Paris\n\n**What time do restaurants close in Paris?**\nMost kitchens close around 10:30–11 PM. For anything later, head to brasseries near Les Halles, Pigalle, or Oberkampf.\n\n**Is Paris safe to walk at night for food?**\nThe central arrondissements (1st, 2nd, 3rd, 4th, 11th) are generally safe and well-lit until late. Stay aware around Châtelet and Gare du Nord.\n\n**Where can I eat after 2 AM in Paris?**\nAu Pied de Cochon (24/7), Le Tambour, and Chez Denise are the most reliable options.\n\n**Are there cheap late-night options?**\nYes — L'As du Fallafel, kebab shops on Rue Saint-Denis, and bakeries that open around 5 AM.\n\n## Final Thoughts\n\nFor couples, **Café Charbon** offers the most romantic late atmosphere. For foodies, **Chez Denise** is unmatched. Tourists wanting the full Paris brasserie show should head straight to **Au Pied de Cochon**. Budget travelers can't go wrong with **L'As du Fallafel**, and night owls will feel at home at **Le Tambour**. Whichever you choose, late-night Paris rewards anyone willing to stay up a little longer than the guidebooks suggest.",
+    "places": [
+      {
+        "name": "Au Pied de Cochon",
+        "description": "A 24-hour brasserie that has been feeding night owls near Les Halles since 1947. Famous for its onion soup and pig trotters, it has the kind of red-banquette theatrics that still feel genuine. Touristy, yes, but the kitchen hasn't slipped.",
+        "address": "6 Rue Coquillière, 75001 Paris, France",
+        "rating": 4.3,
+        "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Le Tambour",
+        "description": "A flea-market style bistro in the 2nd that keeps its kitchen open until around 5 AM. Expect steak frites, confit de canard, and a crowd of chefs and regulars. Loud, smoky on the terrace, and unmistakably local.",
+        "address": "41 Rue Montmartre, 75002 Paris, France",
+        "rating": 4.2,
+        "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Chez Denise (La Tour de Montlhéry)",
+        "description": "A tightly packed Les Halles institution where waiters remember faces and portions are enormous. Beef, marrow bones, and country pâté dominate the menu, served until around 5 AM. The kind of place Parisian cooks come to after their own shifts.",
+        "address": "5 Rue des Prouvaires, 75001 Paris, France",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "L'As du Fallafel",
+        "description": "The Marais classic that fills pita bread to bursting with eggplant, hummus, and harissa. Open later than most casual spots on Rue des Rosiers, with a queue that moves surprisingly fast. Cheap, filling, and consistently good.",
+        "address": "34 Rue des Rosiers, 75004 Paris, France",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1547592180-85f173990554?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Café Charbon",
+        "description": "A Belle Époque café-bar in Oberkampf with antique mirrors, warm lighting, and a kitchen that runs late. Couples come here for charcuterie and wine after concerts next door. Weeknights are quieter and noticeably more romantic.",
+        "address": "109 Rue Oberkampf, 75011 Paris, France",
+        "rating": 4.2,
+        "image": "https://images.unsplash.com/photo-1525268323446-0505b6fe7778?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      }
+    ]
   }
 ];
 
