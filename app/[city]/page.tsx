@@ -5,10 +5,10 @@ import CityPageClient from "./CityPageClient";
 
 const BASE = "https://www.citytaste.co";
 
-type Props = { params: Promise<{ slug: string }> };
+type Props = { params: Promise<{ city: string }> };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { slug } = await params;
+  const { city: slug } = await params;
   const city = getCityBySlug(slug);
   if (!city) return {};
 
@@ -19,12 +19,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Best Restaurants & Cafés in ${city.name} — ${city.placeCount}+ Curated Spots`,
     description: `Discover the best restaurants, cafés and hidden gems in ${city.name}. ${city.placeCount}+ curated places with interactive map, reviews and local tips — updated regularly.`,
-    alternates: { canonical: `${BASE}/cities/${slug}` },
+    alternates: { canonical: `${BASE}/${slug}` },
     openGraph: {
       title: `Best Restaurants & Cafés in ${city.name}`,
       description: `Discover ${city.placeCount}+ curated restaurants, cafés and attractions in ${city.name}.`,
       type: "website",
-      url: `${BASE}/cities/${slug}`,
+      url: `${BASE}/${slug}`,
       images: [{ url: ogImage, width: 1200, height: 630, alt: `Best places to eat in ${city.name}` }],
     },
     twitter: {
@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function CityPage({ params }: Props) {
-  const { slug } = await params;
+  const { city: slug } = await params;
   const city = getCityBySlug(slug);
   if (!city) notFound();
 
@@ -49,12 +49,12 @@ export default async function CityPage({ params }: Props) {
     name: city.name,
     description: city.description,
     image: city.image,
-    url: `${BASE}/cities/${city.slug}`,
+    url: `${BASE}/${city.slug}`,
     touristType: { "@type": "Audience", audienceType: "Food lovers and travellers" },
     includesAttraction: places.slice(0, 12).map((p) => ({
       "@type": "TouristAttraction",
       name: p.name,
-      url: `${BASE}/cities/${p.citySlug}/places/${p.slug}`,
+      url: `${BASE}/${p.citySlug}/${p.slug}`,
     })),
   };
 
@@ -63,7 +63,7 @@ export default async function CityPage({ params }: Props) {
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home",     item: BASE },
-      { "@type": "ListItem", position: 2, name: city.name,  item: `${BASE}/cities/${city.slug}` },
+      { "@type": "ListItem", position: 2, name: city.name,  item: `${BASE}/${city.slug}` },
     ],
   };
 
@@ -79,7 +79,7 @@ export default async function CityPage({ params }: Props) {
       item: {
         "@type": "Restaurant",
         name: p.name,
-        url: `${BASE}/cities/${p.citySlug}/places/${p.slug}`,
+        url: `${BASE}/${p.citySlug}/${p.slug}`,
         aggregateRating: {
           "@type": "AggregateRating",
           ratingValue: p.rating,

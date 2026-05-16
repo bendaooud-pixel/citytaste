@@ -74,9 +74,9 @@ const FOOTER_LINKS = {
     { label: "Cookies", href: "#" },
   ],
   Cities: [
-    { label: "🇫🇷 Paris", href: "/cities/paris" },
-    { label: "🇪🇸 Barcelona", href: "/cities/barcelona" },
-    { label: "🇮🇹 Rome", href: "/cities/rome" },
+    { label: "🇫🇷 Paris", href: "/paris" },
+    { label: "🇪🇸 Barcelona", href: "/barcelona" },
+    { label: "🇮🇹 Rome", href: "/rome" },
     { label: "🇯🇵 Tokyo — soon", href: "#" },
   ],
 };
@@ -218,7 +218,7 @@ export default function HomePage() {
             return (
               <Link
                 key={place.id}
-                href={`/cities/${place.citySlug}/places/${place.slug}`}
+                href={`/${place.citySlug}/${place.slug}`}
                 className="group block"
               >
                 <div className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100">
@@ -278,7 +278,7 @@ export default function HomePage() {
 
         <div className="text-center mt-10">
           <Link
-            href="/cities/paris"
+            href="/paris"
             className="inline-flex items-center gap-2 font-bold text-sm px-7 py-3 rounded-xl border-2 transition-all hover:text-white hover:opacity-90"
             style={{ borderColor: RED, color: RED }}
             onMouseEnter={(e) => { (e.currentTarget as HTMLElement).style.backgroundColor = RED; }}
@@ -313,21 +313,21 @@ export default function HomePage() {
             </p>
             <div className="flex flex-wrap gap-3">
               <Link
-                href="/cities/paris"
+                href="/paris"
                 style={{ backgroundColor: RED }}
                 className="text-white font-bold px-6 py-3 rounded-xl text-sm hover:opacity-90 transition-opacity"
               >
                 Explore Paris
               </Link>
               <Link
-                href="/cities/barcelona"
+                href="/barcelona"
                 className="font-bold px-6 py-3 rounded-xl text-sm border-2 transition-colors hover:bg-red-50"
                 style={{ borderColor: RED, color: RED }}
               >
                 Explore Barcelona
               </Link>
               <Link
-                href="/cities/rome"
+                href="/rome"
                 className="font-bold px-6 py-3 rounded-xl text-sm border-2 transition-colors hover:bg-red-50"
                 style={{ borderColor: RED, color: RED }}
               >
@@ -392,7 +392,7 @@ export default function HomePage() {
             {CATEGORIES.map((cat) => (
               <Link
                 key={cat.id}
-                href={`/cities/paris?category=${cat.id}`}
+                href={`/paris?category=${cat.id}`}
                 className="flex-shrink-0 snap-start group"
               >
                 <div className="flex flex-col items-center w-36">
@@ -426,9 +426,9 @@ export default function HomePage() {
           </p>
           <div className="flex flex-wrap justify-center items-center gap-8 sm:gap-14">
             {[
-              { name: "🇫🇷 Paris", href: "/cities/paris", live: true },
-              { name: "🇪🇸 Barcelona", href: "/cities/barcelona", live: true },
-              { name: "🇮🇹 Rome", href: "/cities/rome", live: true },
+              { name: "🇫🇷 Paris", href: "/paris", live: true },
+              { name: "🇪🇸 Barcelona", href: "/barcelona", live: true },
+              { name: "🇮🇹 Rome", href: "/rome", live: true },
               { name: "🇯🇵 Tokyo", href: "#", live: false },
               { name: "🇺🇸 New York", href: "#", live: false },
             ].map(({ name, href, live }) => (

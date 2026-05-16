@@ -15,32 +15,42 @@ import MapClient from "@/components/MapClient";
 const PRICE_LABEL = ["", "$", "$$", "$$$", "$$$$"];
 const DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 
-type Props = { params: Promise<{ slug: string; placeSlug: string }> };
+const BASE = "https://www.citytaste.co";
+
+type Props = { params: Promise<{ city: string; place: string }> };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { slug, placeSlug } = await params;
+  const { city: citySlug, place: placeSlug } = await params;
   const [place, city] = await Promise.all([
-    dbGetPlaceBySlug(slug, placeSlug),
-    dbGetCityBySlug(slug),
+    dbGetPlaceBySlug(citySlug, placeSlug),
+    dbGetCityBySlug(citySlug),
   ]);
   if (!place || !city) return {};
   return {
     title: `${place.name}, ${city.name}`,
     description: place.description,
+    alternates: { canonical: `${BASE}/${citySlug}/${placeSlug}` },
     openGraph: {
       title: `${place.name} — ${city.name} | CityTaste`,
       description: place.description,
-      images: [{ url: place.photos[0] }],
+      url: `${BASE}/${citySlug}/${placeSlug}`,
+      images: [{ url: place.photos[0], width: 1200, height: 630 }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${place.name} — ${city.name}`,
+      description: place.description,
+      images: [place.photos[0]],
     },
   };
 }
 
 export default async function PlaceDetailPage({ params }: Props) {
-  const { slug, placeSlug } = await params;
+  const { city: citySlug, place: placeSlug } = await params;
   const [place, city, allCityPlaces] = await Promise.all([
-    dbGetPlaceBySlug(slug, placeSlug),
-    dbGetCityBySlug(slug),
-    dbGetPlacesByCity(slug),
+    dbGetPlaceBySlug(citySlug, placeSlug),
+    dbGetCityBySlug(citySlug),
+    dbGetPlacesByCity(citySlug),
   ]);
   if (!place || !city) notFound();
 
@@ -51,8 +61,6 @@ export default async function PlaceDetailPage({ params }: Props) {
   const relatedPlaces = allCityPlaces
     .filter((p) => p.id !== place.id && p.categories.some((c) => place.categories.includes(c)))
     .slice(0, 3);
-
-  const BASE = "https://www.citytaste.co";
 
   function placeSchemaType(categories: string[]): string {
     if (categories.some((c) => ["monuments", "museums", "activities"].includes(c))) return "TouristAttraction";
@@ -71,7 +79,7 @@ export default async function PlaceDetailPage({ params }: Props) {
     name: place.name,
     description: place.description,
     image: place.photos,
-    url: `${BASE}/cities/${place.citySlug}/places/${place.slug}`,
+    url: `${BASE}/${place.citySlug}/${place.slug}`,
     ...(place.website && { sameAs: place.website }),
     address: {
       "@type": "PostalAddress",
@@ -105,9 +113,9 @@ export default async function PlaceDetailPage({ params }: Props) {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: BASE },
-      { "@type": "ListItem", position: 2, name: city.name, item: `${BASE}/cities/${city.slug}` },
-      { "@type": "ListItem", position: 3, name: place.name, item: `${BASE}/cities/${place.citySlug}/places/${place.slug}` },
+      { "@type": "ListItem", position: 1, name: "Home",       item: BASE },
+      { "@type": "ListItem", position: 2, name: city.name,    item: `${BASE}/${city.slug}` },
+      { "@type": "ListItem", position: 3, name: place.name,   item: `${BASE}/${place.citySlug}/${place.slug}` },
     ],
   };
 
@@ -119,24 +127,22 @@ export default async function PlaceDetailPage({ params }: Props) {
       <main className="flex-1 bg-brand-cream">
         {/* Breadcrumb */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">
-          <nav className="flex items-center gap-2 text-sm text-slate-500 flex-wrap">
+          <nav aria-label="breadcrumb" className="flex items-center gap-2 text-sm text-slate-500 flex-wrap">
             <Link href="/" className="hover:text-brand-orange transition-colors">Home</Link>
-            <span>›</span>
-            <Link href={`/cities/${city.slug}`} className="hover:text-brand-orange transition-colors">{city.name}</Link>
-            <span>›</span>
-            <span className="text-slate-800 font-medium">{place.name}</span>
+            <span aria-hidden="true">›</span>
+            <Link href={`/${city.slug}`} className="hover:text-brand-orange transition-colors">{city.name}</Link>
+            <span aria-hidden="true">›</span>
+            <span className="text-slate-800 font-medium" aria-current="page">{place.name}</span>
           </nav>
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          {/* Desktop: 2-col layout */}
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_380px] gap-8">
             {/* ── Left column ── */}
             <div className="space-y-8">
               {/* Header */}
               <div className="flex items-start justify-between gap-4">
                 <div>
-                  {/* Category badges */}
                   <div className="flex flex-wrap gap-2 mb-3">
                     {place.categories.map((catId) => {
                       const cat = CATEGORIES.find((c) => c.id === catId);
@@ -177,25 +183,20 @@ export default async function PlaceDetailPage({ params }: Props) {
                     </span>
                   </div>
                 </div>
-
                 <div className="flex items-center gap-2 shrink-0">
                   <FavoriteButton placeId={place.id} />
                 </div>
               </div>
 
-              {/* Photo gallery */}
               <PhotoGallery photos={place.photos} name={place.name} />
 
-              {/* Description */}
               <div className="bg-white rounded-2xl p-6 shadow-sm border border-slate-100">
                 <h2 className="font-semibold text-slate-800 mb-3">About</h2>
                 <p className="text-slate-600 leading-relaxed">{place.description}</p>
               </div>
 
-              {/* AI Review Summary */}
               <ReviewSummary summary={place.reviewSummary} placeName={place.name} />
 
-              {/* Reviews */}
               <div className="bg-white rounded-2xl p-6 shadow-sm border border-slate-100">
                 <h2 className="font-semibold text-slate-800 mb-5 flex items-center gap-2">
                   Guest Reviews
@@ -225,10 +226,8 @@ export default async function PlaceDetailPage({ params }: Props) {
 
             {/* ── Right column ── */}
             <aside className="space-y-6 lg:sticky lg:top-24 lg:self-start">
-              {/* Info card */}
               <div className="bg-white rounded-2xl p-6 shadow-sm border border-slate-100 space-y-4">
                 <h2 className="font-semibold text-slate-800">Info & Contact</h2>
-
                 <div className="space-y-3 text-sm">
                   <div className="flex gap-3">
                     <span className="text-lg shrink-0">📍</span>
@@ -237,7 +236,6 @@ export default async function PlaceDetailPage({ params }: Props) {
                       <p className="text-slate-500">{place.neighborhood}, {city.name}</p>
                     </div>
                   </div>
-
                   {place.phone && (
                     <div className="flex gap-3 items-center">
                       <span className="text-lg shrink-0">📞</span>
@@ -246,21 +244,15 @@ export default async function PlaceDetailPage({ params }: Props) {
                       </a>
                     </div>
                   )}
-
                   {place.website && (
                     <div className="flex gap-3 items-center">
                       <span className="text-lg shrink-0">🌐</span>
-                      <a
-                        href={place.website}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-orange-500 hover:underline font-medium truncate"
-                      >
+                      <a href={place.website} target="_blank" rel="noopener noreferrer"
+                        className="text-orange-500 hover:underline font-medium truncate">
                         Official website
                       </a>
                     </div>
                   )}
-
                   <div className="flex gap-3">
                     <span className="text-lg shrink-0">💰</span>
                     <div>
@@ -271,8 +263,6 @@ export default async function PlaceDetailPage({ params }: Props) {
                     </div>
                   </div>
                 </div>
-
-                {/* Feature badges */}
                 <div className="pt-2 flex flex-wrap gap-2 border-t border-slate-100">
                   {place.hasTerrace && <span className="text-xs bg-green-50 text-green-700 px-2.5 py-1 rounded-full border border-green-100 font-medium">🌿 Terrace</span>}
                   {place.isFamilyFriendly && <span className="text-xs bg-blue-50 text-blue-700 px-2.5 py-1 rounded-full border border-blue-100 font-medium">👨‍👩‍👧 Family</span>}
@@ -281,29 +271,19 @@ export default async function PlaceDetailPage({ params }: Props) {
                 </div>
               </div>
 
-              {/* Action buttons */}
               <div className="flex flex-col gap-3">
-                <a
-                  href={place.googleMapsUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center justify-center gap-2 w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3.5 rounded-2xl transition-colors shadow-md shadow-orange-200 active:scale-[0.98]"
-                >
+                <a href={place.googleMapsUrl} target="_blank" rel="noopener noreferrer"
+                  className="flex items-center justify-center gap-2 w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3.5 rounded-2xl transition-colors shadow-md shadow-orange-200 active:scale-[0.98]">
                   <span>📍</span> Open in Google Maps
                 </a>
                 {place.menuUrl && (
-                  <a
-                    href={place.menuUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center justify-center gap-2 w-full bg-white hover:bg-slate-50 text-slate-800 font-semibold py-3.5 rounded-2xl transition-colors border border-slate-200 shadow-sm active:scale-[0.98]"
-                  >
+                  <a href={place.menuUrl} target="_blank" rel="noopener noreferrer"
+                    className="flex items-center justify-center gap-2 w-full bg-white hover:bg-slate-50 text-slate-800 font-semibold py-3.5 rounded-2xl transition-colors border border-slate-200 shadow-sm active:scale-[0.98]">
                     <span>📋</span> View Menu
                   </a>
                 )}
               </div>
 
-              {/* Opening Hours */}
               <div className="bg-white rounded-2xl p-6 shadow-sm border border-slate-100">
                 <h2 className="font-semibold text-slate-800 mb-4">Opening Hours</h2>
                 <div className="space-y-2">
@@ -311,24 +291,12 @@ export default async function PlaceDetailPage({ params }: Props) {
                     const hours = place.openingHours[day];
                     const isToday = day === today;
                     return (
-                      <div
-                        key={day}
-                        className={`flex justify-between items-center text-sm py-1.5 px-2 rounded-lg ${
-                          isToday ? "bg-orange-50 font-semibold" : ""
-                        }`}
-                      >
+                      <div key={day}
+                        className={`flex justify-between items-center text-sm py-1.5 px-2 rounded-lg ${isToday ? "bg-orange-50 font-semibold" : ""}`}>
                         <span className={isToday ? "text-orange-700" : "text-slate-600"}>
                           {isToday && "▸ "}{day}
                         </span>
-                        <span
-                          className={
-                            hours === "Closed"
-                              ? "text-red-400 font-medium"
-                              : isToday
-                              ? "text-orange-700"
-                              : "text-slate-800"
-                          }
-                        >
+                        <span className={hours === "Closed" ? "text-red-400 font-medium" : isToday ? "text-orange-700" : "text-slate-800"}>
                           {hours}
                         </span>
                       </div>
@@ -337,7 +305,6 @@ export default async function PlaceDetailPage({ params }: Props) {
                 </div>
               </div>
 
-              {/* Map */}
               <div className="h-56 rounded-2xl overflow-hidden shadow-sm">
                 <MapClient
                   places={[place]}
@@ -350,13 +317,9 @@ export default async function PlaceDetailPage({ params }: Props) {
             </aside>
           </div>
 
-          {/* Related places */}
           {relatedPlaces.length > 0 && (
             <section className="mt-14">
-              <h2
-                className="text-2xl font-bold text-slate-900 mb-6"
-                style={{ fontFamily: "var(--font-playfair)" }}
-              >
+              <h2 className="text-2xl font-bold text-slate-900 mb-6" style={{ fontFamily: "var(--font-playfair)" }}>
                 You might also like
               </h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">

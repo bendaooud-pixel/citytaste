@@ -60,13 +60,13 @@ export default function FavoritesPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
               <Link
-                href="/cities/paris"
+                href="/paris"
                 className="flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white font-semibold px-6 py-3 rounded-xl transition-colors shadow-md shadow-orange-200"
               >
                 🇫🇷 Explore Paris
               </Link>
               <Link
-                href="/cities/barcelona"
+                href="/barcelona"
                 className="flex items-center gap-2 bg-white hover:bg-slate-50 text-slate-800 font-semibold px-6 py-3 rounded-xl transition-colors border border-slate-200 shadow-sm"
               >
                 🇪🇸 Explore Barcelona

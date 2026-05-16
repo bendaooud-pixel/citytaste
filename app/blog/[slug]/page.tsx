@@ -177,7 +177,7 @@ export default async function BlogArticlePage({ params }: Props) {
             <span>{article.readingTime} min read</span>
             <span>{article.places.length} places featured</span>
             <Link
-              href={`/cities/${article.citySlug}`}
+              href={`/${article.citySlug}`}
               className="ml-auto text-orange-500 hover:text-orange-600 font-medium text-xs border border-orange-200 px-3 py-1 rounded-full transition-colors"
             >
               Explore {article.city} →
@@ -241,7 +241,7 @@ export default async function BlogArticlePage({ params }: Props) {
                   </div>
                   {place.placeSlug ? (
                     <Link
-                      href={`/cities/${place.citySlug}/places/${place.placeSlug}`}
+                      href={`/${place.citySlug}/${place.placeSlug}`}
                       className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-[#F97316] hover:text-orange-600 transition-colors"
                     >
                       View full profile on CityTaste
@@ -251,7 +251,7 @@ export default async function BlogArticlePage({ params }: Props) {
                     </Link>
                   ) : (
                     <Link
-                      href={`/cities/${place.citySlug}`}
+                      href={`/${place.citySlug}`}
                       className="mt-4 inline-flex items-center gap-2 text-xs text-slate-400 hover:text-orange-500 transition-colors"
                     >
                       Browse all {article.city} spots →
@@ -274,7 +274,7 @@ export default async function BlogArticlePage({ params }: Props) {
               Browse all restaurants, cafés and attractions with reviews, maps and filters.
             </p>
             <Link
-              href={`/cities/${article.citySlug}`}
+              href={`/${article.citySlug}`}
               className="inline-flex items-center gap-2 bg-[#F97316] hover:bg-orange-600 text-white font-semibold px-6 py-3 rounded-xl transition-colors"
             >
               Explore {article.city}

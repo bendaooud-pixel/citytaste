@@ -25,16 +25,16 @@ export default function Footer() {
             <h3 className="text-white font-semibold mb-4">Cities</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/cities/paris" className="hover:text-white transition-colors">
+                <Link href="/paris" className="hover:text-white transition-colors">
                   🇫🇷 Paris
                 </Link>
               </li>
               <li>
-                <Link href="/cities/barcelona" className="hover:text-white transition-colors">
+                <Link href="/barcelona" className="hover:text-white transition-colors">
                   🇪🇸 Barcelona
                 </Link>
               </li>
-              <li className="text-slate-600 cursor-default">🇮🇹 Rome — coming soon</li>
+              <li><Link href="/rome" className="hover:text-white transition-colors">🇮🇹 Rome</Link></li>
               <li className="text-slate-600 cursor-default">🇯🇵 Tokyo — coming soon</li>
             </ul>
           </div>

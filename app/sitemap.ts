@@ -15,14 +15,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
   const cityRoutes: MetadataRoute.Sitemap = cities.map((city) => ({
-    url: `${BASE_URL}/cities/${city.slug}`,
+    url: `${BASE_URL}/${city.slug}`,
     lastModified: SITE_UPDATED,
     changeFrequency: "weekly",
     priority: 0.9,
   }));
 
   const placeRoutes: MetadataRoute.Sitemap = places.map((place) => ({
-    url: `${BASE_URL}/cities/${place.citySlug}/places/${place.slug}`,
+    url: `${BASE_URL}/${place.citySlug}/${place.slug}`,
     lastModified: SITE_UPDATED,
     changeFrequency: "monthly",
     priority: 0.7,

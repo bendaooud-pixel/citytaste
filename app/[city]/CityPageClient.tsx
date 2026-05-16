@@ -40,7 +40,6 @@ export default function CityPageClient({ city, places: allPlaces }: Props) {
 
   const filtered = useMemo(() => {
     let result = allPlaces;
-
     if (filters.category !== "all") {
       result = result.filter((p) => p.categories.includes(filters.category as Category));
     }
@@ -51,7 +50,6 @@ export default function CityPageClient({ city, places: allPlaces }: Props) {
     if (filters.halal) result = result.filter((p) => p.isHalal);
     if (filters.family) result = result.filter((p) => p.isFamilyFriendly);
     if (filters.terrace) result = result.filter((p) => p.hasTerrace);
-
     return [...result].sort((a, b) => {
       if (filters.sortBy === "rating") return b.rating - a.rating;
       if (filters.sortBy === "reviews") return b.reviewCount - a.reviewCount;
@@ -147,14 +145,12 @@ export default function CityPageClient({ city, places: allPlaces }: Props) {
             <span className="ml-auto text-sm text-slate-500">{filtered.length} spots</span>
           </div>
 
-          {/* Mobile filter drawer */}
           {showFilters && (
             <div className="md:hidden mb-6">
               <FilterBar filters={filters} onChange={setFilters} resultCount={filtered.length} />
             </div>
           )}
 
-          {/* Mobile map */}
           {showMap && (
             <div className="md:hidden mb-6 h-80 rounded-2xl overflow-hidden shadow-lg">
               <Map places={filtered} center={city.coordinates} zoom={13} />
@@ -166,7 +162,6 @@ export default function CityPageClient({ city, places: allPlaces }: Props) {
             <aside className="sticky top-32 self-start">
               <FilterBar filters={filters} onChange={setFilters} resultCount={filtered.length} />
             </aside>
-
             <section aria-label="Places">
               {filtered.length > 0 ? (
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
@@ -187,7 +182,6 @@ export default function CityPageClient({ city, places: allPlaces }: Props) {
                 </div>
               )}
             </section>
-
             <aside className="sticky top-32 self-start h-[600px] rounded-2xl overflow-hidden shadow-lg">
               <Map places={filtered} center={city.coordinates} zoom={13} />
             </aside>

@@ -4,9 +4,9 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 
 const CITIES = [
-  { label: "🇫🇷 Paris", href: "/cities/paris" },
-  { label: "🇪🇸 Barcelona", href: "/cities/barcelona" },
-  { label: "🇮🇹 Rome", href: "/cities/rome" },
+  { label: "🇫🇷 Paris", href: "/paris" },
+  { label: "🇪🇸 Barcelona", href: "/barcelona" },
+  { label: "🇮🇹 Rome", href: "/rome" },
 ];
 
 export default function Navbar() {
@@ -67,7 +67,7 @@ export default function Navbar() {
             >
               <button
                 className={`flex items-center gap-1 px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
-                  pathname.startsWith("/cities")
+                  CITIES.some((c) => pathname.startsWith(c.href))
                     ? "bg-[#E63946] text-white"
                     : "text-slate-600 hover:text-slate-900 hover:bg-slate-100"
                 }`}
@@ -145,7 +145,7 @@ export default function Navbar() {
             <button
               onClick={() => setMobileCitiesOpen(!mobileCitiesOpen)}
               className={`w-full flex items-center justify-between px-4 py-2.5 rounded-lg text-sm font-medium transition-colors ${
-                pathname.startsWith("/cities")
+                CITIES.some((c) => pathname.startsWith(c.href))
                   ? "bg-[#E63946] text-white"
                   : "text-slate-600 hover:bg-slate-50"
               }`}

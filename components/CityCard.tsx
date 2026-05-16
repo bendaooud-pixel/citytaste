@@ -8,7 +8,7 @@ interface CityCardProps {
 
 export default function CityCard({ city }: CityCardProps) {
   return (
-    <Link href={`/cities/${city.slug}`} className="group block">
+    <Link href={`/${city.slug}`} className="group block">
       <article className="relative overflow-hidden rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
         {/* Image */}
         <div className="relative aspect-[4/3] overflow-hidden">

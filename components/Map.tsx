@@ -57,7 +57,7 @@ export default function Map({ places, center, zoom = 13, singlePlace = false, ac
               <p style="font-weight:700;color:#1e293b;font-size:14px;margin:0 0 4px">${place.name}</p>
               <p style="font-size:12px;color:#f97316;margin:0 0 6px;font-weight:600">★ ${place.rating} · ${"$".repeat(place.priceLevel)}</p>
               <p style="font-size:11px;color:#64748b;margin:0 0 8px">${place.neighborhood}</p>
-              <a href="/cities/${place.citySlug}/places/${place.slug}"
+              <a href="/${place.citySlug}/${place.slug}"
                  style="display:inline-block;background:#f97316;color:white;font-size:11px;font-weight:600;
                         padding:4px 10px;border-radius:6px;text-decoration:none">
                 View details →

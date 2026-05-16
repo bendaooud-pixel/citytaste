@@ -20,7 +20,7 @@ export default function PlaceCard({ place, compact = false }: PlaceCardProps) {
 
   return (
     <Link
-      href={`/cities/${place.citySlug}/places/${place.slug}`}
+      href={`/${place.citySlug}/${place.slug}`}
       className="group block"
     >
       <article className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5 border border-slate-100">
