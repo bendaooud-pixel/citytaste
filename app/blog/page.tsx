@@ -5,15 +5,24 @@ import Link from "next/link";
 import Image from "next/image";
 import { getAllArticles } from "@/lib/blogData";
 
+const BASE = "https://www.citytaste.co";
+
 export const metadata: Metadata = {
-  title: "Blog — CityTaste Food Guides",
+  title: "Food Guides & City Stories — CityTaste Blog",
   description:
-    "In-depth food guides for Paris and Barcelona: best cafés, halal restaurants, patisseries, brunch spots, rooftop bars, and more.",
+    "In-depth food guides for Paris, Barcelona and Rome. Discover the best cafés, restaurants, bistros, brunch spots, rooftop bars and hidden gems.",
+  alternates: { canonical: `${BASE}/blog` },
   openGraph: {
-    title: "Blog — CityTaste Food Guides",
+    title: "Food Guides & City Stories — CityTaste Blog",
     description:
-      "In-depth food guides for Paris and Barcelona.",
+      "In-depth food guides for Paris, Barcelona and Rome — updated daily.",
     type: "website",
+    url: `${BASE}/blog`,
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Food Guides & City Stories — CityTaste Blog",
+    description: "In-depth food guides for Paris, Barcelona and Rome — updated daily.",
   },
 };
 
@@ -30,11 +39,27 @@ const CATEGORY_COLORS: Record<string, string> = {
 
 export default function BlogPage() {
   const articles = getAllArticles();
-  console.log(`[BlogPage] Total articles: ${articles.length}`);
   const [featured, ...rest] = articles;
 
+  const collectionJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: "CityTaste Food Guides & City Stories",
+    description: "In-depth food guides for Paris, Barcelona and Rome.",
+    url: `${BASE}/blog`,
+    hasPart: articles.slice(0, 10).map((a) => ({
+      "@type": "Article",
+      headline: a.title,
+      url: `${BASE}/blog/${a.slug}`,
+      datePublished: a.publishedAt,
+      image: a.coverImage,
+    })),
+  };
+
   return (
-    <main className="min-h-screen bg-[#FFF8F0]">
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionJsonLd) }} />
+      <main className="min-h-screen bg-[#FFF8F0]">
       {/* Hero */}
       <section className="bg-[#1E293B] text-white py-16 px-4">
         <div className="max-w-5xl mx-auto text-center">
@@ -162,6 +187,7 @@ export default function BlogPage() {
           ))}
         </div>
       </div>
-    </main>
+      </main>
+    </>
   );
 }

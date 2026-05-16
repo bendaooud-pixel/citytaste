@@ -14,20 +14,46 @@ const playfair = Playfair_Display({
   display: "swap",
 });
 
+const BASE = "https://www.citytaste.co";
+const OG_IMAGE = "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=1200&q=80";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(BASE),
   title: {
-    default: "CityTaste — Discover the World's Best Restaurants & Cafés",
+    default: "CityTaste — Best Restaurants & Cafés in Paris, Barcelona & Rome",
     template: "%s | CityTaste",
   },
   description:
-    "Your guide to the best restaurants, cafés and food spots in the world's greatest cities. Curated picks for every taste and budget.",
-  keywords: ["restaurants", "cafés", "food guide", "travel", "Paris", "Barcelona"],
+    "Discover the best restaurants, cafés, bistros and hidden food gems in Paris, Barcelona and Rome. Curated by locals — with maps, reviews and insider tips.",
+  keywords: [
+    "restaurants Paris", "cafés Barcelona", "food guide Rome",
+    "best bistros Paris", "where to eat Europe", "travel food guide",
+    "hidden restaurants Europe", "local food tips",
+  ],
+  authors: [{ name: "CityTaste", url: BASE }],
+  creator: "CityTaste",
+  publisher: "CityTaste",
   verification: {
     google: "bAdWgCdwPszPBtcVYnJI04_kD_kRitX7aYsfLzpTaXw",
   },
   openGraph: {
     siteName: "CityTaste",
     type: "website",
+    locale: "en_US",
+    url: BASE,
+    title: "CityTaste — Best Restaurants & Cafés in Paris, Barcelona & Rome",
+    description:
+      "Discover the best restaurants, cafés and hidden food gems in Paris, Barcelona and Rome.",
+    images: [{ url: OG_IMAGE, width: 1200, height: 630, alt: "CityTaste — Best Restaurants in Europe" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@citytaste",
+    creator: "@citytaste",
+    title: "CityTaste — Best Restaurants & Cafés in Paris, Barcelona & Rome",
+    description:
+      "Discover the best restaurants, cafés and hidden food gems in Paris, Barcelona and Rome.",
+    images: [OG_IMAGE],
   },
 };
 
