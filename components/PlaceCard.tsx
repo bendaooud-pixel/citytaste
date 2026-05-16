@@ -13,6 +13,7 @@ interface PlaceCardProps {
 }
 
 const PRICE_LABEL = ["", "$", "$$", "$$$", "$$$$"];
+const FALLBACK_PHOTO = "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80";
 
 export default function PlaceCard({ place, compact = false }: PlaceCardProps) {
   const primaryCategory = CATEGORIES.find((c) => c.id === place.categories[0]);
@@ -34,7 +35,7 @@ export default function PlaceCard({ place, compact = false }: PlaceCardProps) {
             </div>
           ) : (
             <Image
-              src={place.photos[0]}
+              src={place.photos[0] ?? FALLBACK_PHOTO}
               alt={place.name}
               fill
               sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
