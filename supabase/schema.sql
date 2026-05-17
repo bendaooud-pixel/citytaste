@@ -50,6 +50,8 @@ CREATE TABLE IF NOT EXISTS public.places (
   duration           TEXT,
   featured           BOOLEAN DEFAULT false,
   ratings            JSONB,
+  thefork_url        TEXT,
+  getyourguide_url   TEXT,
   created_at         TIMESTAMPTZ DEFAULT now(),
   UNIQUE(city_slug, slug)
 );

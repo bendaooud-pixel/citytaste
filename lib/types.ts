@@ -100,6 +100,8 @@ export interface Place {
     tripadvisor: number;
     michelin: 0 | 1 | 2 | 3;
   };
+  theforkUrl?: string;
+  getYourGuideUrl?: string;
 }
 
 export interface FilterState {

@@ -67,6 +67,8 @@ export async function GET(req: Request) {
     duration: p.duration ?? null,
     featured: p.featured ?? false,
     ratings: p.ratings ?? null,
+    thefork_url: p.theforkUrl ?? null,
+    getyourguide_url: p.getYourGuideUrl ?? null,
   }));
 
   const { error: placeError } = await db

@@ -13,6 +13,7 @@ import PlaceCard from "@/components/PlaceCard";
 import MapClient from "@/components/MapClient";
 import RatingsBar from "@/components/ui/RatingsBar";
 import PlaceBadge from "@/components/ui/PlaceBadge";
+import BookingButtons from "@/components/ui/BookingButtons";
 import { getBadges } from "@/lib/badges";
 
 const PRICE_LABEL = ["", "$", "$$", "$$$", "$$$$"];
@@ -295,12 +296,11 @@ export default async function PlaceDetailPage({ params }: Props) {
                   className="flex items-center justify-center gap-2 w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3.5 rounded-2xl transition-colors shadow-md shadow-orange-200 active:scale-[0.98]">
                   <span>📍</span> Open in Google Maps
                 </a>
-                {place.menuUrl && (
-                  <a href={place.menuUrl} target="_blank" rel="noopener noreferrer"
-                    className="flex items-center justify-center gap-2 w-full bg-white hover:bg-slate-50 text-slate-800 font-semibold py-3.5 rounded-2xl transition-colors border border-slate-200 shadow-sm active:scale-[0.98]">
-                    <span>📋</span> View Menu
-                  </a>
-                )}
+                <BookingButtons
+                  theforkUrl={place.theforkUrl}
+                  getYourGuideUrl={place.getYourGuideUrl}
+                  menuUrl={place.menuUrl}
+                />
               </div>
 
               <div className="bg-white rounded-2xl p-6 shadow-sm border border-slate-100">
