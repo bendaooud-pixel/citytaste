@@ -1509,6 +1509,66 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "placeSlug": undefined
       }
     ]
+  },
+  {
+    "title": "Montmartre's Quiet Food Spots Locals Actually Use",
+    "slug": "montmartre-food-hidden-gems",
+    "city": "Paris",
+    "citySlug": "paris",
+    "category": "Restaurants",
+    "coverImage": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=1200&q=80",
+    "publishedAt": "2026-05-17",
+    "readingTime": 8,
+    "metaDescription": "Skip the Place du Tertre tourist traps. Five Montmartre restaurants where Parisians actually eat, with dishes, prices and honest tips.",
+    "intro": "It's a Tuesday in February, raining sideways on Rue Lepic, and the line outside the crêpe stand near Place du Tertre is still twelve people deep. None of them are French. Montmartre has two food scenes running in parallel: the one selling €18 onion soup to coach tours, and the one tucked three streets over where the butcher knows the chef by name. This guide is for travelers who want the second one — small rooms, real cooking, mid-range prices, and the kind of meal you'll still talk about in October.",
+    "body": "## Why Paris for Montmartre food hidden gems\n\nMontmartre sits on a hill in the 18th arrondissement, and the higher you climb past Abbesses, the better the food gets and the fewer souvenir shops you see. Expect to spend €25-45 per person at lunch, €40-70 at dinner. Spring and early autumn are best — winter is moody but many smaller places close for two weeks in February.\n\n| Place | Price | Best For | Vibe |\n|-------|-------|----------|------|\n| Le Coq Rico | €€€ | Roast chicken obsessives | Bright, slightly formal |\n| Bouillon Pigalle | € | Budget classics | Loud, fast, no booking |\n| Le Relais Gascon | €€ | Giant salads, late lunch | Casual, two floors |\n| La Mascotte | €€€ | Seafood, old-school Paris | Brasserie, 1889 tiles |\n| Hardware Société | €€ | Brunch done properly | Aussie-French, sunny room |\n\n## Detailed Reviews\n\n### 1. Le Coq Rico\n\nAntoine Westermann turned a whole building on Rue Lepic into a temple for poultry, and the result is less gimmicky than it sounds. You order a bird — Bresse hen, guinea fowl, Challans duck — and it arrives carved, with the carcass brought out separately so nothing is wasted. The dining room is calm and well-lit, which in Montmartre is rarer than it should be.\n\nThe **whole roast chicken for two** runs around €98 and yes, that's a lot for chicken, but you'll understand by the second bite.\n\n**Best for:** A proper dinner that isn't trying to be trendy\n**Local tip:** Sit at the counter if you're solo — they do a half-bird option there that isn't on the main menu.\n\n### 2. Bouillon Pigalle\n\nThis is the cheap Paris bistro experience everyone keeps promising you and rarely delivers. Starters from €2.50, mains under €13, and the wait outside can hit 45 minutes at 8pm on a Saturday. No reservations, ever — they're firm about it.\n\nThe **œuf mayo** is €1.90 and genuinely good. Skip the desserts and walk five minutes for ice cream instead.\n\n**Best for:** Travelers watching the budget who still want the white-tablecloth feel\n**Local tip:** Show up at 11:45am or 2:30pm to walk straight in. The 7-9pm window is brutal.\n\n### 3. Le Relais Gascon\n\nA two-floor place on Rue des Abbesses that's been doing the same enormous garlic-potato-topped salads for decades. The **salade Gasconne** with warm potatoes, garlic, and gizzards is the move — confit de canard works too if salads feel wrong for dinner. Expect around €16-22 for a main.\n\nIt's not refined, the wine list is short, and the upstairs room feels a bit cramped. But it's open late, the staff are quick, and you'll leave full enough to skip breakfast.\n\n**Best for:** A late lunch after walking the hill\n**Local tip:** Ask for a table downstairs — the upstairs gets warm in summer and the music is louder.\n\n### 4. La Mascotte\n\nOpen since 1889 on the corner of Rue des Abbesses and Rue des Martyrs, this is where the neighborhood old guard goes for oysters and choucroute. The tiled floor, the brass, the slightly grumpy waiters in long aprons — none of it is staged.\n\nThe **plateau de fruits de mer** is the order, around €45 for a solid selection. Lunch menus from €28 are better value than dinner if you're price-sensitive.\n\n**Best for:** A long Sunday lunch with someone you actually want to talk to\n**Local tip:** Reserve the terrace in summer but don't bother in winter — the inside is the whole point.\n\n### 5. Hardware Société\n\nA Melbourne import on Rue des Trois Frères, right under Sacré-Cœur, which on paper should be a disaster — and isn't. The brunch is genuinely well-executed: poached eggs that aren't rubbery, proper flat whites, and a **baked eggs in tomato** dish that's worth the €17.\n\nWeekend mornings are a scrum. The room is small, sunlight pours in, and they won't take reservations for groups under four.\n\n**Best for:** Brunch travelers who've had enough of dry croissants\n**Local tip:** Go Tuesday or Wednesday around 10am — same menu, no wait, and you'll still beat the Sacré-Cœur crowds afterwards.\n\n## Local Tips for Montmartre food hidden gems\n\n- Avoid anywhere on Place du Tertre. Photos of plastic menus in five languages are a red flag — walk three streets downhill instead.\n- For dinner reservations, book 4-7 days ahead for Coq Rico and La Mascotte. The others are walk-in or short notice.\n- Order the house wine by the pichet (carafe) — €8-14 and almost always decent. Bottle lists at small Montmartre places are marked up hard.\n- Combine lunch at Le Relais Gascon with a walk down Rue Lepic to Café des Deux Moulins (the Amélie one) — fine for a coffee, mediocre for food.\n\n## FAQ\n\n### Q: Is Montmartre worth eating in or should I go elsewhere?\nA: It's worth it if you stay off the main tourist streets. The blocks around Rue des Abbesses, Rue des Martyrs, and lower Rue Lepic have more good restaurants per square meter than most arrondissements. Place du Tertre, on the other hand, you can confidently skip.\n\n### Q: How much should I budget for dinner in Montmartre?\nA: Plan €30-45 per person at a place like Le Relais Gascon or Hardware Société, €60-80 at La Mascotte or Le Coq Rico with wine. Bouillon Pigalle can land you under €20 including a glass of wine, which is rare in central Paris.\n\n### Q: Where should I eat in Montmartre as a solo traveler?\nA: Bouillon Pigalle has communal-feeling tables and zero awkwardness about eating alone. Le Coq Rico's counter is the best high-end option for one. Avoid the brasseries on Place du Tertre — you'll get the worst table and the slowest service.\n\n## The Verdict\n\n**Best for couples:** La Mascotte, especially a corner banquette on a Sunday at 1pm.\n**Best for budget:** Bouillon Pigalle, no contest — just commit to the off-peak timing.\n**Best for first-timers:** Le Relais Gascon hits the classic Paris bistro register without the markup.\n**Best for locals (or feeling like one):** Le Coq Rico for a real meal, Hardware Société for a midweek brunch when the neighborhood is quiet.",
+    "places": [
+      {
+        "name": "Le Coq Rico",
+        "description": "A bright, slightly formal dining room dedicated almost entirely to poultry, run by chef Antoine Westermann. The whole roast birds — Bresse hen, Challans duck, guinea fowl — are carved tableside and served with their jus, with the carcass brought out for nibbling. It's expensive for chicken, but the sourcing and execution justify it.",
+        "address": "98 Rue Lepic, 75018 Paris",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1592417817038-d13fd7342605?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Bouillon Pigalle",
+        "description": "Loud, fast, and packed from open to close, this is the modern reboot of the classic Paris bouillon. Starters from €2.50 and mains under €13 mean you can eat a three-course French meal for the price of a sandwich elsewhere. The trade-off is no reservations and a queue that can hit 45 minutes at peak times.",
+        "address": "22 Boulevard de Clichy, 75018 Paris",
+        "rating": 4.2,
+        "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Le Relais Gascon",
+        "description": "A two-floor neighborhood spot on Rue des Abbesses serving Gascon classics with no pretension. The signature is an enormous warm salad topped with sautéed garlic potatoes — order the Gasconne with gizzards. Décor is dated and the upstairs gets warm in summer, but portions are generous and service is quick.",
+        "address": "6 Rue des Abbesses, 75018 Paris",
+        "rating": 4.3,
+        "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "La Mascotte",
+        "description": "A brasserie open since 1889 with original tiles, brass details, and waiters in long white aprons who've worked there longer than most chefs have been cooking. The seafood platter and choucroute are the standout orders — old-school cooking with no reinvention. Dinner is pricey; the lunch menu from €28 is a better deal.",
+        "address": "52 Rue des Abbesses, 75018 Paris",
+        "rating": 4.3,
+        "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Hardware Société",
+        "description": "An Australian-run café tucked on a stepped street below Sacré-Cœur, serving the city's most consistent brunch. The baked eggs in tomato sauce and the flat whites are both better than they need to be given the location. The room is small and weekends are chaotic — go midweek.",
+        "address": "10 Rue Lamarck, 75018 Paris",
+        "rating": 4.4,
+        "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      }
+    ]
   }
 ];
 
