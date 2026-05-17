@@ -94,6 +94,12 @@ export interface Place {
   /** Typical visit duration e.g. "1–2 hours" */
   duration?: string;
   featured?: boolean;
+  /** Multi-source ratings. michelin: 0 = none, 1–3 = stars */
+  ratings?: {
+    google: number;
+    tripadvisor: number;
+    michelin: 0 | 1 | 2 | 3;
+  };
 }
 
 export interface FilterState {

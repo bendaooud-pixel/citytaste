@@ -11,6 +11,7 @@ import StarRating from "@/components/StarRating";
 import FavoriteButton from "@/components/FavoriteButton";
 import PlaceCard from "@/components/PlaceCard";
 import MapClient from "@/components/MapClient";
+import RatingsBar from "@/components/ui/RatingsBar";
 
 const PRICE_LABEL = ["", "$", "$$", "$$$", "$$$$"];
 const DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
@@ -182,6 +183,12 @@ export default async function PlaceDetailPage({ params }: Props) {
                       {isOpen ? "● Open now" : "● Closed"}
                     </span>
                   </div>
+
+                  {place.ratings && (
+                    <div className="mt-3">
+                      <RatingsBar ratings={place.ratings} variant="full" />
+                    </div>
+                  )}
                 </div>
                 <div className="flex items-center gap-2 shrink-0">
                   <FavoriteButton placeId={place.id} />

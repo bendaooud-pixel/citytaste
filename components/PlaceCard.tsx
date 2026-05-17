@@ -6,6 +6,7 @@ import type { Place } from "@/lib/types";
 import { CATEGORIES } from "@/lib/types";
 import StarRating from "./StarRating";
 import FavoriteButton from "./FavoriteButton";
+import RatingsBar from "./ui/RatingsBar";
 
 interface PlaceCardProps {
   place: Place;
@@ -91,6 +92,9 @@ export default function PlaceCard({ place, compact = false }: PlaceCardProps) {
             <span className="text-slate-500 text-xs">
               {place.rating} ({place.reviewCount.toLocaleString()})
             </span>
+            {place.ratings && (
+              <RatingsBar ratings={place.ratings} variant="compact" />
+            )}
           </div>
 
           {!compact && (
