@@ -66,6 +66,7 @@ export async function GET(req: Request) {
     entry_price: p.entryPrice ?? null,
     duration: p.duration ?? null,
     featured: p.featured ?? false,
+    ratings: p.ratings ?? null,
   }));
 
   const { error: placeError } = await db

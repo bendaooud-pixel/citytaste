@@ -49,6 +49,7 @@ CREATE TABLE IF NOT EXISTS public.places (
   entry_price        TEXT,
   duration           TEXT,
   featured           BOOLEAN DEFAULT false,
+  ratings            JSONB,
   created_at         TIMESTAMPTZ DEFAULT now(),
   UNIQUE(city_slug, slug)
 );

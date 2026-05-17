@@ -9,8 +9,15 @@ import {
   getPlaceBySlug as staticPlace,
   getPlacesByCity as staticPlaces,
   getFeaturedPlaces as staticFeatured,
+  places as staticPlacesData,
 } from "./data";
 import type { City, Place, Review } from "./types";
+
+// O(1) lookup so rowToPlace can fall back to static ratings when the
+// Supabase row predates the ratings column.
+const staticRatingsMap = new Map(
+  staticPlacesData.map((p) => [`${p.citySlug}|${p.slug}`, p.ratings])
+);
 
 // ── Row → Type mappers ───────────────────────────────────────────────────────
 
@@ -62,6 +69,11 @@ function rowToPlace(row: Record<string, unknown>): Place {
     entryPrice: (row.entry_price as string) ?? undefined,
     duration: (row.duration as string) ?? undefined,
     featured: (row.featured as boolean) ?? false,
+    // Use DB value when column exists; fall back to static data so ratings
+    // show even before the Supabase migration + re-seed has been run.
+    ratings:
+      (row.ratings as Place["ratings"] | null) ??
+      staticRatingsMap.get(`${row.city_slug as string}|${row.slug as string}`),
   };
 }
 
@@ -166,6 +178,7 @@ export async function dbUpsertPlace(place: Place): Promise<{ error: string | nul
       entry_price: place.entryPrice ?? null,
       duration: place.duration ?? null,
       featured: place.featured ?? false,
+      ratings: place.ratings ?? null,
     };
     const { error } = await db.from("places").upsert(row, { onConflict: "id" });
     return { error: error?.message ?? null };
