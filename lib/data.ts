@@ -327,7 +327,7 @@ export const places: Place[] = [
     googleMapsUrl: "https://maps.google.com/?q=Le+Jules+Verne+Eiffel+Tower+Paris",
     photos: [
       "https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?w=800&q=80",
-      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800&q=80",
+      "https://images.unsplash.com/photo-1774799560672-151b971fd336?w=800&q=80",
       "https://images.unsplash.com/photo-1570097703229-b195d6dd291f?w=800&q=80",
     ],
     openingHours: {
@@ -3587,7 +3587,7 @@ export const places: Place[] = [
     phone: "+39 06 3509 2152",
     website: "https://romecavalieri.com/la-pergola",
     googleMapsUrl: "https://maps.google.com/?q=La+Pergola+Rome",
-    photos: [],
+    photos: ["https://images.unsplash.com/photo-1596627116790-af6f46dddbda?w=800&q=80", "https://images.unsplash.com/photo-1596627118111-5b6c7890bc1b?w=800&q=80", "https://images.unsplash.com/photo-1618929923088-b14c2848a0de?w=800&q=80"],
     openingHours: {
       Monday: "Closed",
       Tuesday: "19:30 – 23:00",
@@ -3627,7 +3627,7 @@ export const places: Place[] = [
     phone: "+39 06 687 5287",
     website: "https://www.salumeriaroscioli.com",
     googleMapsUrl: "https://maps.google.com/?q=Roscioli+Rome",
-    photos: [],
+    photos: ["https://images.unsplash.com/photo-1606141396269-fd018eb08d80?w=800&q=80", "https://images.unsplash.com/photo-1606230749281-a3305ca0feac?w=800&q=80", "https://images.unsplash.com/photo-1609229199689-dfe21c8f342e?w=800&q=80"],
     openingHours: {
       Monday: "12:30 – 15:00 · 19:30 – 23:00",
       Tuesday: "12:30 – 15:00 · 19:30 – 23:00",
@@ -3666,7 +3666,7 @@ export const places: Place[] = [
     lng: 12.4806,
     phone: "+39 06 581 2260",
     googleMapsUrl: "https://maps.google.com/?q=Da+Enzo+al+29+Rome",
-    photos: [],
+    photos: ["https://images.unsplash.com/photo-1609767768775-30f9e0319f97?w=800&q=80", "https://images.unsplash.com/photo-1609767784528-e086c49d0860?w=800&q=80", "https://images.unsplash.com/photo-1616362406547-1c556ceb4d80?w=800&q=80"],
     openingHours: {
       Monday: "12:30 – 15:00 · 19:30 – 22:30",
       Tuesday: "12:30 – 15:00 · 19:30 – 22:30",
@@ -3704,7 +3704,7 @@ export const places: Place[] = [
     lng: 12.4555,
     phone: "+39 06 3974 5416",
     googleMapsUrl: "https://maps.google.com/?q=Pizzarium+Rome",
-    photos: [],
+    photos: ["https://images.unsplash.com/photo-1616362434905-02ee87df771d?w=800&q=80", "https://images.unsplash.com/photo-1616363306182-778dcf76a476?w=800&q=80", "https://images.unsplash.com/photo-1654873982275-afb3324085e3?w=800&q=80"],
     openingHours: {
       Monday: "11:00 – 22:00",
       Tuesday: "11:00 – 22:00",
@@ -3741,7 +3741,7 @@ export const places: Place[] = [
     lat: 41.8888,
     lng: 12.4815,
     googleMapsUrl: "https://maps.google.com/?q=Suppli+Roma+Trastevere",
-    photos: [],
+    photos: ["https://images.unsplash.com/photo-1698103182772-de33f15d7000?w=800&q=80", "https://images.unsplash.com/photo-1705626407173-3f225a98cfd6?w=800&q=80", "https://images.unsplash.com/photo-1705626742223-6c389b2f173f?w=800&q=80"],
     openingHours: {
       Monday: "12:00 – 22:00",
       Tuesday: "12:00 – 22:00",
@@ -3781,7 +3781,7 @@ export const places: Place[] = [
     lng: 12.4762,
     website: "https://www.santeustachio.it",
     googleMapsUrl: "https://maps.google.com/?q=Sant+Eustachio+il+Caffe+Rome",
-    photos: [],
+    photos: ["https://images.unsplash.com/photo-1428550443830-190057dc8098?w=800&q=80", "https://images.unsplash.com/photo-1508088405209-fbd63b6a4f50?w=800&q=80", "https://images.unsplash.com/photo-1545418314-7ce0b9b53901?w=800&q=80"],
     openingHours: {
       Monday: "07:30 – 13:00",
       Tuesday: "07:30 – 13:00",
@@ -3820,7 +3820,7 @@ export const places: Place[] = [
     lng: 12.4816,
     website: "https://www.anticocaffegreco.eu",
     googleMapsUrl: "https://maps.google.com/?q=Caffe+Greco+Rome",
-    photos: [],
+    photos: ["https://images.unsplash.com/photo-1548270311-3a9e56a480ff?w=800&q=80", "https://images.unsplash.com/photo-1550254804-3c9bf594a0a5?w=800&q=80", "https://images.unsplash.com/photo-1553742198-6eea5ac42a24?w=800&q=80"],
     openingHours: {
       Monday: "09:00 – 21:00",
       Tuesday: "09:00 – 21:00",
@@ -3858,7 +3858,7 @@ export const places: Place[] = [
     lng: 12.4769,
     website: "https://www.tazzadorocoffeeshop.com",
     googleMapsUrl: "https://maps.google.com/?q=Tazza+d+Oro+Rome",
-    photos: [],
+    photos: ["https://images.unsplash.com/photo-1558416167-29269886c836?w=800&q=80", "https://images.unsplash.com/photo-1592866668685-3cff6e90130d?w=800&q=80", "https://images.unsplash.com/photo-1596952954288-16862d37405b?w=800&q=80"],
     openingHours: {
       Monday: "07:00 – 20:00",
       Tuesday: "07:00 – 20:00",
@@ -3896,7 +3896,7 @@ export const places: Place[] = [
     lng: 12.4759,
     website: "https://www.rosciolicaffe.com",
     googleMapsUrl: "https://maps.google.com/?q=Roscioli+Caffe+Rome",
-    photos: [],
+    photos: ["https://images.unsplash.com/photo-1607681034592-10e8936ebbff?w=800&q=80", "https://images.unsplash.com/photo-1639999780234-1254d1b96fde?w=800&q=80", "https://images.unsplash.com/photo-1655933143757-cb624d6ba031?w=800&q=80"],
     openingHours: {
       Monday: "07:30 – 23:00",
       Tuesday: "07:30 – 23:00",
@@ -3933,7 +3933,7 @@ export const places: Place[] = [
     lat: 41.9088,
     lng: 12.4641,
     googleMapsUrl: "https://maps.google.com/?q=Sciascia+Caffe+Rome",
-    photos: [],
+    photos: ["https://images.unsplash.com/photo-1685644291576-ea3d97fb0a67?w=800&q=80", "https://images.unsplash.com/photo-1694612949165-cbb6397e60b5?w=800&q=80", "https://images.unsplash.com/photo-1705952285570-113e76f63fb0?w=800&q=80"],
     openingHours: {
       Monday: "07:00 – 20:00",
       Tuesday: "07:00 – 20:00",
@@ -3973,7 +3973,7 @@ export const places: Place[] = [
     lng: 12.5127,
     website: "https://www.pasticceriaregoli.com",
     googleMapsUrl: "https://maps.google.com/?q=Pasticceria+Regoli+Rome",
-    photos: [],
+    photos: ["https://images.unsplash.com/photo-1483695028939-5bb13f8648b0?w=800&q=80", "https://images.unsplash.com/photo-1571157577110-493b325fdd3d?w=800&q=80", "https://images.unsplash.com/photo-1582796064100-db4cdf9a6e64?w=800&q=80"],
     openingHours: {
       Monday: "Closed",
       Tuesday: "08:00 – 20:00",
@@ -4010,7 +4010,7 @@ export const places: Place[] = [
     lat: 41.8881,
     lng: 12.4698,
     googleMapsUrl: "https://maps.google.com/?q=Biscottificio+Innocenti+Rome",
-    photos: [],
+    photos: ["https://images.unsplash.com/photo-1588346686945-89b156098bde?w=800&q=80", "https://images.unsplash.com/photo-1591538001662-0d5a25234305?w=800&q=80", "https://images.unsplash.com/photo-1604908464937-12bf0fa8d4b6?w=800&q=80"],
     openingHours: {
       Monday: "Closed",
       Tuesday: "08:00 – 19:30",
@@ -4047,7 +4047,7 @@ export const places: Place[] = [
     lat: 41.8835,
     lng: 12.4754,
     googleMapsUrl: "https://maps.google.com/?q=Pasticceria+Barberini+Rome",
-    photos: [],
+    photos: ["https://images.unsplash.com/photo-1604908552986-eb22824b2150?w=800&q=80", "https://images.unsplash.com/photo-1687006030308-b8c67720c096?w=800&q=80", "https://images.unsplash.com/photo-1693483640461-267d788b6148?w=800&q=80"],
     openingHours: {
       Monday: "Closed",
       Tuesday: "07:30 – 19:30",
@@ -4084,7 +4084,7 @@ export const places: Place[] = [
     lat: 41.8855,
     lng: 12.4757,
     googleMapsUrl: "https://maps.google.com/?q=Il+Maritozzaro+Rome",
-    photos: [],
+    photos: ["https://images.unsplash.com/photo-1695643912249-d697e81b8371?w=800&q=80", "https://images.unsplash.com/photo-1707866751067-90ec06237129?w=800&q=80", "https://images.unsplash.com/photo-1738824921940-02639f908ff0?w=800&q=80"],
     openingHours: {
       Monday: "Closed",
       Tuesday: "Closed",
@@ -4121,7 +4121,7 @@ export const places: Place[] = [
     lat: 41.8832,
     lng: 12.4760,
     googleMapsUrl: "https://maps.google.com/?q=Pasticceria+Linari+Rome",
-    photos: [],
+    photos: ["https://images.unsplash.com/photo-1771332945763-ae7545c4964d?w=800&q=80", "https://images.unsplash.com/photo-1771332961830-9c845f368b60?w=800&q=80", "https://images.unsplash.com/photo-1773027270919-8714e0af1172?w=800&q=80"],
     openingHours: {
       Monday: "07:00 – 20:00",
       Tuesday: "07:00 – 20:00",
@@ -4161,7 +4161,7 @@ export const places: Place[] = [
     lng: 12.4922,
     website: "https://www.colosseo.it",
     googleMapsUrl: "https://maps.google.com/?q=Colosseum+Rome",
-    photos: [],
+    photos: ["https://images.unsplash.com/photo-1509024644558-2f56ce76c490?w=800&q=80", "https://images.unsplash.com/photo-1537799943037-f5da89a65689?w=800&q=80", "https://images.unsplash.com/photo-1555992828-35627f3b373f?w=800&q=80"],
     openingHours: {
       Monday: "09:00 – 19:00",
       Tuesday: "09:00 – 19:00",
@@ -4200,7 +4200,7 @@ export const places: Place[] = [
     lng: 12.4536,
     website: "https://www.museivaticani.va",
     googleMapsUrl: "https://maps.google.com/?q=Vatican+Museums+Rome",
-    photos: [],
+    photos: ["https://images.unsplash.com/photo-1526255623073-e260b1281e09?w=800&q=80", "https://images.unsplash.com/photo-1536419598693-94435e7f9757?w=800&q=80", "https://images.unsplash.com/photo-1616878031885-694d927f224d?w=800&q=80"],
     openingHours: {
       Monday: "09:00 – 18:00",
       Tuesday: "09:00 – 18:00",
@@ -4237,7 +4237,7 @@ export const places: Place[] = [
     lat: 41.9009,
     lng: 12.4833,
     googleMapsUrl: "https://maps.google.com/?q=Trevi+Fountain+Rome",
-    photos: [],
+    photos: ["https://images.unsplash.com/photo-1565854713475-6e297773a53f?w=800&q=80", "https://images.unsplash.com/photo-1568487603824-55297fea19f4?w=800&q=80", "https://images.unsplash.com/photo-1573070917718-b2e58e77055a?w=800&q=80"],
     openingHours: {
       Monday: "Open 24h",
       Tuesday: "Open 24h",
@@ -4275,7 +4275,7 @@ export const places: Place[] = [
     lng: 12.4769,
     website: "https://www.pantheonroma.com",
     googleMapsUrl: "https://maps.google.com/?q=Pantheon+Rome",
-    photos: [],
+    photos: ["https://images.unsplash.com/photo-1578952548894-594c41585716?w=800&q=80", "https://images.unsplash.com/photo-1581274050302-581149d3b4c5?w=800&q=80", "https://images.unsplash.com/photo-1614354987493-a010f414d0d1?w=800&q=80"],
     openingHours: {
       Monday: "09:00 – 19:00",
       Tuesday: "09:00 – 19:00",
@@ -4313,7 +4313,7 @@ export const places: Place[] = [
     lng: 12.4921,
     website: "https://www.galleriaborghese.it",
     googleMapsUrl: "https://maps.google.com/?q=Borghese+Gallery+Rome",
-    photos: [],
+    photos: ["https://images.unsplash.com/photo-1552432010-6a42a36dc127?w=800&q=80", "https://images.unsplash.com/photo-1617452171508-5a66544a9bbb?w=800&q=80", "https://images.unsplash.com/photo-1628521366396-401d3db3949c?w=800&q=80"],
     openingHours: {
       Monday: "Closed",
       Tuesday: "09:00 – 17:00",
@@ -4353,7 +4353,7 @@ export const places: Place[] = [
     lng: 12.4923,
     website: "https://www.romeonvespa.com",
     googleMapsUrl: "https://maps.google.com/?q=Vespa+Tour+Rome",
-    photos: [],
+    photos: ["https://images.unsplash.com/photo-1529108083258-dc5eb1a89f4c?w=800&q=80", "https://images.unsplash.com/photo-1590232107998-96aec6b81ae6?w=800&q=80", "https://images.unsplash.com/photo-1594923206637-101ef1614eb5?w=800&q=80"],
     openingHours: {
       Monday: "09:00 – 18:00",
       Tuesday: "09:00 – 18:00",
@@ -4391,7 +4391,7 @@ export const places: Place[] = [
     lng: 12.4712,
     website: "https://www.cookingclassrome.com",
     googleMapsUrl: "https://maps.google.com/?q=Roman+Cooking+Class+Rome",
-    photos: [],
+    photos: ["https://images.unsplash.com/photo-1604741836988-152c0fe62e06?w=800&q=80", "https://images.unsplash.com/photo-1613241811774-f75736a131bd?w=800&q=80", "https://images.unsplash.com/photo-1619357957081-966ac4119b70?w=800&q=80"],
     openingHours: {
       Monday: "10:00 – 18:00",
       Tuesday: "10:00 – 18:00",
@@ -4429,7 +4429,7 @@ export const places: Place[] = [
     lng: 12.4709,
     website: "https://www.battellidiroma.it",
     googleMapsUrl: "https://maps.google.com/?q=Tiber+River+Cruise+Rome",
-    photos: [],
+    photos: ["https://images.unsplash.com/photo-1518309542094-645272814997?w=800&q=80", "https://images.unsplash.com/photo-1534533632875-2477db97088d?w=800&q=80", "https://images.unsplash.com/photo-1548787060-36a662d4d04a?w=800&q=80"],
     openingHours: {
       Monday: "10:00 – 20:00",
       Tuesday: "10:00 – 20:00",
@@ -4467,7 +4467,7 @@ export const places: Place[] = [
     lng: 12.4808,
     website: "https://www.pastamakingrome.com",
     googleMapsUrl: "https://maps.google.com/?q=Pasta+Making+Class+Rome",
-    photos: [],
+    photos: ["https://images.unsplash.com/photo-1558384041-dc2d20aacae6?w=800&q=80", "https://images.unsplash.com/photo-1564174358404-b7e3cf13a2a0?w=800&q=80", "https://images.unsplash.com/photo-1585483657449-dc8df01d076c?w=800&q=80"],
     openingHours: {
       Monday: "10:00 – 16:00",
       Tuesday: "10:00 – 16:00",
@@ -4505,7 +4505,7 @@ export const places: Place[] = [
     lng: 12.4731,
     website: "https://www.romeghoststours.com",
     googleMapsUrl: "https://maps.google.com/?q=Ghost+Tour+Piazza+Navona+Rome",
-    photos: [],
+    photos: ["https://images.unsplash.com/photo-1589628782365-2d527992ab9a?w=800&q=80", "https://images.unsplash.com/photo-1598351327582-6be2f6459739?w=800&q=80", "https://images.unsplash.com/photo-1600065621664-4ee5d519b38e?w=800&q=80"],
     openingHours: {
       Monday: "Closed",
       Tuesday: "Closed",
@@ -4544,7 +4544,7 @@ export const places: Place[] = [
     lat: 41.8949,
     lng: 12.4723,
     googleMapsUrl: "https://maps.google.com/?q=Campo+de+Fiori+Market+Rome",
-    photos: [],
+    photos: ["https://images.unsplash.com/photo-1705626904017-ca05d98ce611?w=800&q=80", "https://images.unsplash.com/photo-1705627064492-e34ce0ab5af8?w=800&q=80", "https://images.unsplash.com/photo-1753086421294-6c521ce8e4ef?w=800&q=80"],
     openingHours: {
       Monday: "08:00 – 14:00",
       Tuesday: "08:00 – 14:00",
@@ -4581,7 +4581,7 @@ export const places: Place[] = [
     lat: 41.8843,
     lng: 12.4737,
     googleMapsUrl: "https://maps.google.com/?q=Porta+Portese+Market+Rome",
-    photos: [],
+    photos: ["https://images.unsplash.com/photo-1583422095309-55daabc9cc78?w=800&q=80", "https://images.unsplash.com/photo-1633452073821-b12ead098464?w=800&q=80", "https://images.unsplash.com/photo-1659265791062-9e3deb7d9c96?w=800&q=80"],
     openingHours: {
       Monday: "Closed",
       Tuesday: "Closed",
@@ -4618,7 +4618,7 @@ export const places: Place[] = [
     lat: 41.8837,
     lng: 12.4741,
     googleMapsUrl: "https://maps.google.com/?q=Testaccio+Market+Rome",
-    photos: [],
+    photos: ["https://images.unsplash.com/photo-1662406652046-77ce0294592f?w=800&q=80", "https://images.unsplash.com/photo-1663875661698-fd1efd89bf0b?w=800&q=80", "https://images.unsplash.com/photo-1673944850245-554cb389bdbc?w=800&q=80"],
     openingHours: {
       Monday: "07:00 – 15:00",
       Tuesday: "07:00 – 15:00",
@@ -4655,7 +4655,7 @@ export const places: Place[] = [
     lat: 41.9118,
     lng: 12.4562,
     googleMapsUrl: "https://maps.google.com/?q=Mercato+Trionfale+Rome",
-    photos: [],
+    photos: ["https://images.unsplash.com/photo-1693402600996-e0ee263fff6f?w=800&q=80", "https://images.unsplash.com/photo-1713513281533-99a6f7ab0d92?w=800&q=80", "https://images.unsplash.com/photo-1732616381902-668e7ea211c7?w=800&q=80"],
     openingHours: {
       Monday: "07:00 – 14:00",
       Tuesday: "07:00 – 14:00",
@@ -4692,7 +4692,7 @@ export const places: Place[] = [
     lat: 41.8956,
     lng: 12.5022,
     googleMapsUrl: "https://maps.google.com/?q=Mercato+Piazza+Vittorio+Rome",
-    photos: [],
+    photos: ["https://images.unsplash.com/photo-1640307112649-01bfc4c77a77?w=800&q=80", "https://images.unsplash.com/photo-1648859350185-5ce878061c16?w=800&q=80", "https://images.unsplash.com/photo-1672780096057-11be0d3e1a17?w=800&q=80"],
     openingHours: {
       Monday: "07:00 – 15:00",
       Tuesday: "07:00 – 15:00",
