@@ -12,6 +12,8 @@ import FavoriteButton from "@/components/FavoriteButton";
 import PlaceCard from "@/components/PlaceCard";
 import MapClient from "@/components/MapClient";
 import RatingsBar from "@/components/ui/RatingsBar";
+import PlaceBadge from "@/components/ui/PlaceBadge";
+import { getBadges } from "@/lib/badges";
 
 const PRICE_LABEL = ["", "$", "$$", "$$$", "$$$$"];
 const DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
@@ -62,6 +64,8 @@ export default async function PlaceDetailPage({ params }: Props) {
   const relatedPlaces = allCityPlaces
     .filter((p) => p.id !== place.id && p.categories.some((c) => place.categories.includes(c)))
     .slice(0, 3);
+
+  const badges = getBadges(place);
 
   function placeSchemaType(categories: string[]): string {
     if (categories.some((c) => ["monuments", "museums", "activities"].includes(c))) return "TouristAttraction";
@@ -187,6 +191,14 @@ export default async function PlaceDetailPage({ params }: Props) {
                   {place.ratings && (
                     <div className="mt-3">
                       <RatingsBar ratings={place.ratings} variant="full" />
+                    </div>
+                  )}
+
+                  {badges.length > 0 && (
+                    <div className="mt-3 flex flex-wrap gap-2">
+                      {badges.map((b) => (
+                        <PlaceBadge key={b.id} badge={b} size="md" />
+                      ))}
                     </div>
                   )}
                 </div>

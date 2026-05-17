@@ -7,6 +7,8 @@ import { CATEGORIES } from "@/lib/types";
 import StarRating from "./StarRating";
 import FavoriteButton from "./FavoriteButton";
 import RatingsBar from "./ui/RatingsBar";
+import PlaceBadge from "./ui/PlaceBadge";
+import { getBadges } from "@/lib/badges";
 
 interface PlaceCardProps {
   place: Place;
@@ -19,6 +21,7 @@ const FALLBACK_PHOTO = "https://images.unsplash.com/photo-1414235077428-338989a2
 export default function PlaceCard({ place, compact = false }: PlaceCardProps) {
   const primaryCategory = CATEGORIES.find((c) => c.id === place.categories[0]);
   const [imgError, setImgError] = useState(false);
+  const badges = getBadges(place);
 
   return (
     <Link
@@ -86,6 +89,14 @@ export default function PlaceCard({ place, compact = false }: PlaceCardProps) {
               {PRICE_LABEL[place.priceLevel]}
             </span>
           </div>
+
+          {badges.length > 0 && (
+            <div className="mt-1.5 flex flex-wrap gap-1">
+              {badges.slice(0, 2).map((b) => (
+                <PlaceBadge key={b.id} badge={b} size="sm" />
+              ))}
+            </div>
+          )}
 
           <div className="mt-1.5 flex items-center gap-2 flex-wrap">
             <StarRating rating={place.rating} size="sm" />
