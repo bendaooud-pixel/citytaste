@@ -7,6 +7,7 @@ import { CATEGORIES } from "@/lib/types";
 import FavoriteButton from "@/components/FavoriteButton";
 import StarRating from "@/components/StarRating";
 import Navbar from "@/components/Navbar";
+import NearMe from "@/components/NearMe";
 
 const RED = "#E63946";
 
@@ -164,6 +165,9 @@ export default function HomePage() {
               Search
             </button>
           </div>
+
+          {/* Near Me secondary CTA */}
+          <NearMe />
         </div>
 
         {/* Bottom white fade */}
