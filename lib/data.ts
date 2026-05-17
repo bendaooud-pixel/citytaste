@@ -2013,7 +2013,11 @@ export const places: Place[] = [
     website: "https://www.elbarriadreaming.com/en/tickets",
     menuUrl: "https://www.elbarriadreaming.com/en/tickets",
     googleMapsUrl: "https://maps.google.com/?q=Tickets+Barcelona",
-    photos: [],
+    photos: [
+      "https://images.unsplash.com/photo-1680449049533-69586f3ced53?w=800&q=80",
+      "https://images.unsplash.com/photo-1704304343016-338b2e050a6f?w=800&q=80",
+      "https://images.unsplash.com/photo-1724300573441-eda431828d72?w=800&q=80",
+    ],
     openingHours: {
       Monday: "Closed",
       Tuesday: "Closed",
@@ -2073,7 +2077,11 @@ export const places: Place[] = [
     lng: 2.1818,
     phone: "+34 93 319 70 03",
     googleMapsUrl: "https://maps.google.com/?q=El+Xampanyet+Barcelona",
-    photos: [],
+    photos: [
+      "https://images.unsplash.com/photo-1692274073394-6ebd6a68d535?w=800&q=80",
+      "https://images.unsplash.com/photo-1762702318989-6f770ae9190f?w=800&q=80",
+      "https://images.unsplash.com/photo-1730043396901-b775da384e9a?w=800&q=80",
+    ],
     openingHours: {
       Monday: "Closed",
       Tuesday: "12:00 – 15:30 · 19:00 – 23:00",
@@ -2133,7 +2141,11 @@ export const places: Place[] = [
     lng: 2.1636,
     website: "https://federalcafe.es",
     googleMapsUrl: "https://maps.google.com/?q=Federal+Cafe+Barcelona",
-    photos: [],
+    photos: [
+      "https://images.unsplash.com/photo-1614822282964-18d729930cb4?w=800&q=80",
+      "https://images.unsplash.com/photo-1691690575331-a513ceafe4e9?w=800&q=80",
+      "https://images.unsplash.com/photo-1664192578366-523c01b7ce43?w=800&q=80",
+    ],
     openingHours: {
       Monday: "08:00 – 17:00",
       Tuesday: "08:00 – 17:00",
@@ -2194,7 +2206,11 @@ export const places: Place[] = [
     website: "https://www.disfrutarbarcelona.com",
     menuUrl: "https://www.disfrutarbarcelona.com",
     googleMapsUrl: "https://maps.google.com/?q=Disfrutar+Barcelona",
-    photos: [],
+    photos: [
+      "https://images.unsplash.com/photo-1587422023429-24edff4116a5?w=800&q=80",
+      "https://images.unsplash.com/photo-1639756152470-23cc9e7598b3?w=800&q=80",
+      "https://images.unsplash.com/photo-1652117524850-33f12e2444b2?w=800&q=80",
+    ],
     openingHours: {
       Monday: "Closed",
       Tuesday: "13:00 – 15:00 · 20:30 – 22:00",
@@ -2256,7 +2272,11 @@ export const places: Place[] = [
     website: "https://www.barcanete.com",
     menuUrl: "https://www.barcanete.com",
     googleMapsUrl: "https://maps.google.com/?q=Bar+Canete+Barcelona",
-    photos: [],
+    photos: [
+      "https://images.unsplash.com/photo-1629407119384-d42320c3e576?w=800&q=80",
+      "https://images.unsplash.com/photo-1621494548002-bfc916172ead?w=800&q=80",
+      "https://images.unsplash.com/photo-1574966740793-953ad374e8fe?w=800&q=80",
+    ],
     openingHours: {
       Monday: "13:00 – 16:00 · 20:30 – 00:00",
       Tuesday: "13:00 – 16:00 · 20:30 – 00:00",
@@ -2315,7 +2335,11 @@ export const places: Place[] = [
     lng: 2.169,
     phone: "+34 93 442 31 42",
     googleMapsUrl: "https://maps.google.com/?q=Quimet+Quimet+Barcelona",
-    photos: [],
+    photos: [
+      "https://images.unsplash.com/photo-1701943514588-d7e3bfd4f6a7?w=800&q=80",
+      "https://images.unsplash.com/photo-1676476520241-94ef50a315cc?w=800&q=80",
+      "https://images.unsplash.com/photo-1681808293763-7da363e479fe?w=800&q=80",
+    ],
     openingHours: {
       Monday: "Closed",
       Tuesday: "12:00 – 16:00 · 19:00 – 22:30",
@@ -2376,7 +2400,11 @@ export const places: Place[] = [
     website: "https://www.parkingpizza.com",
     menuUrl: "https://www.parkingpizza.com",
     googleMapsUrl: "https://maps.google.com/?q=Parking+Pizza+Barcelona",
-    photos: [],
+    photos: [
+      "https://images.unsplash.com/photo-1656711776904-993edf967bbf?w=800&q=80",
+      "https://images.unsplash.com/photo-1574966740637-12c84035a4f2?w=800&q=80",
+      "https://images.unsplash.com/photo-1656711781745-ba68661d06b7?w=800&q=80",
+    ],
     openingHours: {
       Monday: "13:00 – 16:00 · 20:30 – 23:30",
       Tuesday: "13:00 – 16:00 · 20:30 – 23:30",
@@ -2435,7 +2463,11 @@ export const places: Place[] = [
     lng: 2.1707,
     phone: "+34 93 441 20 14",
     googleMapsUrl: "https://maps.google.com/?q=Al-Andalus+Barcelona",
-    photos: [],
+    photos: [
+      "https://images.unsplash.com/photo-1584959370147-fcdd784b2e45?w=800&q=80",
+      "https://images.unsplash.com/photo-1621853476878-b42ae4930faf?w=800&q=80",
+      "https://images.unsplash.com/photo-1641485139299-7e9c1a0b43e9?w=800&q=80",
+    ],
     openingHours: {
       Monday: "12:00 – 23:30",
       Tuesday: "12:00 – 23:30",
@@ -2495,7 +2527,11 @@ export const places: Place[] = [
     phone: "+34 93 221 50 12",
     website: "https://www.restaurantcansole.com",
     googleMapsUrl: "https://maps.google.com/?q=Can+Sole+Barcelona",
-    photos: [],
+    photos: [
+      "https://images.unsplash.com/photo-1613614068282-b147f697cbff?w=800&q=80",
+      "https://images.unsplash.com/photo-1537029064159-7726fabb5cd7?w=800&q=80",
+      "https://images.unsplash.com/photo-1609086460188-f33e3dd4de2a?w=800&q=80",
+    ],
     openingHours: {
       Monday: "Closed",
       Tuesday: "13:30 – 16:00 · 20:30 – 23:00",
@@ -2555,7 +2591,11 @@ export const places: Place[] = [
     lng: 2.1787,
     phone: "+34 93 268 30 03",
     googleMapsUrl: "https://maps.google.com/?q=Bar+del+Pla+Barcelona",
-    photos: [],
+    photos: [
+      "https://images.unsplash.com/photo-1571775300630-e9fca81d6e34?w=800&q=80",
+      "https://images.unsplash.com/photo-1631614184214-cb0f8f6ed50e?w=800&q=80",
+      "https://images.unsplash.com/photo-1478391679764-b2d8b3cd1e94?w=800&q=80",
+    ],
     openingHours: {
       Monday: "11:00 – 23:00",
       Tuesday: "11:00 – 23:00",
@@ -2615,7 +2655,11 @@ export const places: Place[] = [
     lng: 2.165,
     website: "https://elnacionalbcn.com",
     googleMapsUrl: "https://maps.google.com/?q=El+Nacional+Barcelona",
-    photos: [],
+    photos: [
+      "https://images.unsplash.com/photo-1648278669211-759b963a6aa1?w=800&q=80",
+      "https://images.unsplash.com/photo-1641536618779-b10c232ec2b2?w=800&q=80",
+      "https://images.unsplash.com/photo-1473976345543-9ffc928e648d?w=800&q=80",
+    ],
     openingHours: {
       Monday: "12:00 – 01:00",
       Tuesday: "12:00 – 01:00",
@@ -2653,7 +2697,11 @@ export const places: Place[] = [
     lat: 41.379,
     lng: 2.161,
     googleMapsUrl: "https://maps.google.com/?q=Bodega+Sepulveda+Barcelona",
-    photos: [],
+    photos: [
+      "https://images.unsplash.com/photo-1665413811870-5b29a250f64a?w=800&q=80",
+      "https://images.unsplash.com/photo-1565483276060-e6730c0cc6a1?w=800&q=80",
+      "https://images.unsplash.com/photo-1539657523674-fbd149b04c13?w=800&q=80",
+    ],
     openingHours: {
       Monday: "Closed",
       Tuesday: "19:00 – 23:30",
@@ -2691,7 +2739,11 @@ export const places: Place[] = [
     lat: 41.3831,
     lng: 2.1755,
     googleMapsUrl: "https://maps.google.com/?q=Satans+Coffee+Corner+Barcelona",
-    photos: [],
+    photos: [
+      "https://images.unsplash.com/photo-1664192578360-efe86141fdf6?w=800&q=80",
+      "https://images.unsplash.com/photo-1657359949410-b7f9cb2ad7de?w=800&q=80",
+      "https://images.unsplash.com/photo-1567961131501-7d91cd7e4bc3?w=800&q=80",
+    ],
     openingHours: {
       Monday: "09:00 – 18:00",
       Tuesday: "09:00 – 18:00",
@@ -2730,7 +2782,11 @@ export const places: Place[] = [
     lng: 2.1846,
     website: "https://www.hofmann-bcn.com",
     googleMapsUrl: "https://maps.google.com/?q=Hofmann+Pastisseria+Barcelona",
-    photos: [],
+    photos: [
+      "https://images.unsplash.com/photo-1567961153372-ef0892acef8c?w=800&q=80",
+      "https://images.unsplash.com/photo-1654684784349-085f73f572f3?w=800&q=80",
+      "https://images.unsplash.com/photo-1722545391557-b7fa47e908ff?w=800&q=80",
+    ],
     openingHours: {
       Monday: "09:00 – 14:30",
       Tuesday: "09:00 – 14:30",
@@ -2769,7 +2825,11 @@ export const places: Place[] = [
     lng: 2.1706,
     website: "https://www.escriva.es",
     googleMapsUrl: "https://maps.google.com/?q=Escriva+Barcelona",
-    photos: [],
+    photos: [
+      "https://images.unsplash.com/photo-1619120993519-eb2a4bdc7bb7?w=800&q=80",
+      "https://images.unsplash.com/photo-1657359949378-4f58fe232b83?w=800&q=80",
+      "https://images.unsplash.com/photo-1746990044742-08b766124011?w=800&q=80",
+    ],
     openingHours: {
       Monday: "09:00 – 21:00",
       Tuesday: "09:00 – 21:00",
@@ -2808,7 +2868,11 @@ export const places: Place[] = [
     lng: 2.1415,
     website: "https://www.oriolbalaguer.com",
     googleMapsUrl: "https://maps.google.com/?q=Oriol+Balaguer+Barcelona",
-    photos: [],
+    photos: [
+      "https://images.unsplash.com/photo-1657359949362-7c244eebb9a1?w=800&q=80",
+      "https://images.unsplash.com/photo-1657359949380-b86f49be511a?w=800&q=80",
+      "https://images.unsplash.com/photo-1722432459114-ce25a622f9dd?w=800&q=80",
+    ],
     openingHours: {
       Monday: "09:00 – 14:00",
       Tuesday: "09:00 – 14:00 · 16:30 – 20:00",
@@ -2847,7 +2911,11 @@ export const places: Place[] = [
     lng: 2.1824,
     website: "https://www.bubo.ws",
     googleMapsUrl: "https://maps.google.com/?q=Bubo+Barcelona",
-    photos: [],
+    photos: [
+      "https://images.unsplash.com/photo-1587043211963-0352f1528f6a?w=800&q=80",
+      "https://images.unsplash.com/photo-1722863380905-539ae092fc5f?w=800&q=80",
+      "https://images.unsplash.com/photo-1711554283287-c80f8abedecd?w=800&q=80",
+    ],
     openingHours: {
       Monday: "10:00 – 20:30",
       Tuesday: "10:00 – 20:30",
@@ -2885,7 +2953,11 @@ export const places: Place[] = [
     lat: 41.3826,
     lng: 2.1762,
     googleMapsUrl: "https://maps.google.com/?q=La+Colmena+Barcelona",
-    photos: [],
+    photos: [
+      "https://images.unsplash.com/photo-1562861844-763c4ae2e696?w=800&q=80",
+      "https://images.unsplash.com/photo-1650822554329-6afb33a837b4?w=800&q=80",
+      "https://images.unsplash.com/photo-1567437890326-0084ea9d99e9?w=800&q=80",
+    ],
     openingHours: {
       Monday: "09:00 – 21:00",
       Tuesday: "09:00 – 21:00",
@@ -2927,7 +2999,11 @@ export const places: Place[] = [
     googleMapsUrl: "https://maps.google.com/?q=Sagrada+Familia+Barcelona",
     entryPrice: "€26",
     duration: "2–3 hours",
-    photos: [],
+    photos: [
+      "https://images.unsplash.com/photo-1630219694734-fe47ab76b15e?w=800&q=80",
+      "https://images.unsplash.com/photo-1579282240050-352db0a14c21?w=800&q=80",
+      "https://images.unsplash.com/photo-1728249960363-13079cc2c6f6?w=800&q=80",
+    ],
     openingHours: {
       Monday: "09:00 – 18:00",
       Tuesday: "09:00 – 18:00",
@@ -2969,7 +3045,11 @@ export const places: Place[] = [
     googleMapsUrl: "https://maps.google.com/?q=Park+Guell+Barcelona",
     entryPrice: "€10",
     duration: "1–2 hours",
-    photos: [],
+    photos: [
+      "https://images.unsplash.com/photo-1608753527764-81065db0f78b?w=800&q=80",
+      "https://images.unsplash.com/photo-1614635522466-148d1548a52e?w=800&q=80",
+      "https://images.unsplash.com/photo-1739532827391-45e14eed59c3?w=800&q=80",
+    ],
     openingHours: {
       Monday: "09:30 – 19:30",
       Tuesday: "09:30 – 19:30",
@@ -3011,7 +3091,11 @@ export const places: Place[] = [
     googleMapsUrl: "https://maps.google.com/?q=Casa+Batllo+Barcelona",
     entryPrice: "€35",
     duration: "1–2 hours",
-    photos: [],
+    photos: [
+      "https://images.unsplash.com/photo-1644144975580-d67a386f97ef?w=800&q=80",
+      "https://images.unsplash.com/photo-1650964827770-421afa7960ac?w=800&q=80",
+      "https://images.unsplash.com/photo-1701601268259-4b4b5a6c8f90?w=800&q=80",
+    ],
     openingHours: {
       Monday: "09:00 – 21:00",
       Tuesday: "09:00 – 21:00",
@@ -3053,7 +3137,11 @@ export const places: Place[] = [
     googleMapsUrl: "https://maps.google.com/?q=La+Pedrera+Barcelona",
     entryPrice: "€25",
     duration: "1–2 hours",
-    photos: [],
+    photos: [
+      "https://images.unsplash.com/photo-1568921097010-b59ee67056df?w=800&q=80",
+      "https://images.unsplash.com/photo-1722432488621-d09c906321ee?w=800&q=80",
+      "https://images.unsplash.com/photo-1696756073275-baf7145bcc07?w=800&q=80",
+    ],
     openingHours: {
       Monday: "09:00 – 20:30",
       Tuesday: "09:00 – 20:30",
@@ -3095,7 +3183,11 @@ export const places: Place[] = [
     googleMapsUrl: "https://maps.google.com/?q=Palau+de+la+Musica+Barcelona",
     entryPrice: "€20",
     duration: "1 hour",
-    photos: [],
+    photos: [
+      "https://images.unsplash.com/photo-1741304787559-a392853b613b?w=800&q=80",
+      "https://images.unsplash.com/photo-1746989620048-a9cb1b7b693d?w=800&q=80",
+      "https://images.unsplash.com/photo-1558442240-6b455d590e15?w=800&q=80",
+    ],
     openingHours: {
       Monday: "09:30 – 15:30",
       Tuesday: "09:30 – 15:30",
@@ -3135,7 +3227,11 @@ export const places: Place[] = [
     googleMapsUrl: "https://maps.google.com/?q=Gothic+Quarter+Barcelona",
     entryPrice: "Free",
     duration: "2–3 hours",
-    photos: [],
+    photos: [
+      "https://images.unsplash.com/photo-1639148238531-c123a3074815?w=800&q=80",
+      "https://images.unsplash.com/photo-1705024368852-310bcbff1edc?w=800&q=80",
+      "https://images.unsplash.com/photo-1639148238467-4f10593d624b?w=800&q=80",
+    ],
     openingHours: {
       Monday: "Open 24 hours",
       Tuesday: "Open 24 hours",
@@ -3175,7 +3271,11 @@ export const places: Place[] = [
     googleMapsUrl: "https://maps.google.com/?q=Barceloneta+Beach+Barcelona",
     entryPrice: "Free",
     duration: "2–3 hours",
-    photos: [],
+    photos: [
+      "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=800&q=80",
+      "https://images.unsplash.com/photo-1434648957308-5e6a859697e8?w=800&q=80",
+      "https://images.unsplash.com/photo-1629217855633-79a6925d6c47?w=800&q=80",
+    ],
     openingHours: {
       Monday: "Open 24 hours",
       Tuesday: "Open 24 hours",
@@ -3217,7 +3317,11 @@ export const places: Place[] = [
     googleMapsUrl: "https://maps.google.com/?q=Camp+Nou+Barcelona",
     entryPrice: "€35",
     duration: "2 hours",
-    photos: [],
+    photos: [
+      "https://images.unsplash.com/photo-1556816214-fda351e4a7fb?w=800&q=80",
+      "https://images.unsplash.com/photo-1679391029864-d46f366a456b?w=800&q=80",
+      "https://images.unsplash.com/photo-1556764420-e37ef4cdfa5c?w=800&q=80",
+    ],
     openingHours: {
       Monday: "09:30 – 18:30",
       Tuesday: "09:30 – 18:30",
@@ -3258,7 +3362,11 @@ export const places: Place[] = [
     googleMapsUrl: "https://maps.google.com/?q=La+Boqueria+Barcelona",
     entryPrice: "Free",
     duration: "1–2 hours",
-    photos: [],
+    photos: [
+      "https://images.unsplash.com/photo-1589470288084-ecad61835772?w=800&q=80",
+      "https://images.unsplash.com/photo-1644144978822-c97cd4eafe4f?w=800&q=80",
+      "https://images.unsplash.com/photo-1601670754121-8a2295f37000?w=800&q=80",
+    ],
     openingHours: {
       Monday: "08:00 – 20:30",
       Tuesday: "08:00 – 20:30",
@@ -3298,7 +3406,11 @@ export const places: Place[] = [
     googleMapsUrl: "https://maps.google.com/?q=Mercat+Santa+Caterina+Barcelona",
     entryPrice: "Free",
     duration: "1 hour",
-    photos: [],
+    photos: [
+      "https://images.unsplash.com/photo-1614635455025-7d7380e4e407?w=800&q=80",
+      "https://images.unsplash.com/photo-1752605158021-6ca2665f6acc?w=800&q=80",
+      "https://images.unsplash.com/photo-1711089550883-659fe38f32b2?w=800&q=80",
+    ],
     openingHours: {
       Monday: "07:30 – 14:30",
       Tuesday: "07:30 – 14:30",
@@ -3338,7 +3450,11 @@ export const places: Place[] = [
     googleMapsUrl: "https://maps.google.com/?q=El+Born+Market+Barcelona",
     entryPrice: "Free",
     duration: "1 hour",
-    photos: [],
+    photos: [
+      "https://images.unsplash.com/photo-1629819610723-5b4d872625fb?w=800&q=80",
+      "https://images.unsplash.com/photo-1736591281890-b8069995f621?w=800&q=80",
+      "https://images.unsplash.com/photo-1547398847-19d7560a6257?w=800&q=80",
+    ],
     openingHours: {
       Monday: "10:00 – 20:00",
       Tuesday: "10:00 – 20:00",
@@ -3379,7 +3495,11 @@ export const places: Place[] = [
     googleMapsUrl: "https://maps.google.com/?q=Encants+Flea+Market+Barcelona",
     entryPrice: "Free",
     duration: "2 hours",
-    photos: [],
+    photos: [
+      "https://images.unsplash.com/photo-1644144979169-b1e85ca74332?w=800&q=80",
+      "https://images.unsplash.com/photo-1629819611752-7beebf73e35b?w=800&q=80",
+      "https://images.unsplash.com/photo-1629819154025-6bd21ec99f80?w=800&q=80",
+    ],
     openingHours: {
       Monday: "Closed",
       Tuesday: "Closed",
@@ -3419,7 +3539,11 @@ export const places: Place[] = [
     googleMapsUrl: "https://maps.google.com/?q=Mercat+Abaceria+Barcelona",
     entryPrice: "Free",
     duration: "1 hour",
-    photos: [],
+    photos: [
+      "https://images.unsplash.com/photo-1705500473449-539f7ee4e7bf?w=800&q=80",
+      "https://images.unsplash.com/photo-1629819609556-a4fc5f89fd2f?w=800&q=80",
+      "https://images.unsplash.com/photo-1614635454419-36aa631da264?w=800&q=80",
+    ],
     openingHours: {
       Monday: "Closed",
       Tuesday: "Closed",
