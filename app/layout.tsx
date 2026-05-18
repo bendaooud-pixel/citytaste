@@ -20,6 +20,14 @@ const OG_IMAGE = "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE),
+  icons: {
+    icon: [
+      { url: "/icon", type: "image/png", sizes: "32x32" },
+    ],
+    apple: [
+      { url: "/apple-icon", type: "image/png", sizes: "180x180" },
+    ],
+  },
   title: {
     default: "CityTaste — Best Restaurants & Cafés in Paris, Barcelona & Rome",
     template: "%s | CityTaste",
