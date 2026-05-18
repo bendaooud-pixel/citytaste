@@ -10,6 +10,7 @@ import Footer from "@/components/Footer";
 import PlaceCard from "@/components/PlaceCard";
 import CategoryTabs from "@/components/CategoryTabs";
 import FilterBar from "@/components/FilterBar";
+import { useLocale } from "@/lib/i18n";
 
 const Map = dynamic(() => import("@/components/Map"), {
   ssr: false,
@@ -26,6 +27,7 @@ interface Props {
 }
 
 export default function CityPageClient({ city, places: allPlaces }: Props) {
+  const { t } = useLocale();
   const [filters, setFilters] = useState<FilterState>({
     category: "all",
     minRating: 0,
@@ -84,7 +86,7 @@ export default function CityPageClient({ city, places: allPlaces }: Props) {
           <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent" />
           <div className="absolute inset-0 flex flex-col justify-end p-6 md:p-10 max-w-7xl mx-auto w-full">
             <nav aria-label="breadcrumb" className="flex items-center gap-2 text-white/70 text-sm mb-4">
-              <Link href="/" className="hover:text-white transition-colors">Home</Link>
+              <Link href="/" className="hover:text-white transition-colors">{t("city.home")}</Link>
               <span aria-hidden="true">›</span>
               <span className="text-white font-medium" aria-current="page">{city.name}</span>
             </nav>
@@ -103,7 +105,7 @@ export default function CityPageClient({ city, places: allPlaces }: Props) {
               </div>
               <div className="hidden sm:flex flex-col items-end gap-2">
                 <span className="bg-white/20 backdrop-blur-sm text-white text-sm font-semibold px-4 py-2 rounded-full border border-white/30">
-                  {allPlaces.length} curated spots
+                  {allPlaces.length} {t("labels.curatedSpots")}
                 </span>
               </div>
             </div>
@@ -130,7 +132,7 @@ export default function CityPageClient({ city, places: allPlaces }: Props) {
               className={`flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-medium border transition-colors
                 ${showFilters ? "bg-orange-500 text-white border-orange-500" : "bg-white border-slate-200 text-slate-700"}`}
             >
-              ⚙️ Filters
+              ⚙️ {t("city.filters")}
               {(filters.minRating > 0 || filters.maxPrice < 4 || filters.halal || filters.family || filters.terrace) && (
                 <span className="bg-orange-500 text-white text-xs w-4 h-4 rounded-full flex items-center justify-center">!</span>
               )}
@@ -140,9 +142,9 @@ export default function CityPageClient({ city, places: allPlaces }: Props) {
               className={`flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-medium border transition-colors
                 ${showMap ? "bg-orange-500 text-white border-orange-500" : "bg-white border-slate-200 text-slate-700"}`}
             >
-              🗺️ {showMap ? "List" : "Map"}
+              🗺️ {showMap ? t("city.list") : t("city.map")}
             </button>
-            <span className="ml-auto text-sm text-slate-500">{filtered.length} spots</span>
+            <span className="ml-auto text-sm text-slate-500">{filtered.length} {t("labels.spots")}</span>
           </div>
 
           {showFilters && (
@@ -172,12 +174,12 @@ export default function CityPageClient({ city, places: allPlaces }: Props) {
               ) : (
                 <div className="flex flex-col items-center justify-center py-20 text-center">
                   <p className="text-5xl mb-4">🍽️</p>
-                  <p className="text-slate-600 font-medium mb-2">No places match your filters</p>
+                  <p className="text-slate-600 font-medium mb-2">{t("city.noPlaces")}</p>
                   <button
                     onClick={() => setFilters({ category: "all", minRating: 0, maxPrice: 4, halal: false, family: false, terrace: false, sortBy: "rating" })}
                     className="text-sm text-orange-500 hover:underline"
                   >
-                    Clear all filters
+                    {t("buttons.clearFilters")}
                   </button>
                 </div>
               )}
@@ -198,7 +200,7 @@ export default function CityPageClient({ city, places: allPlaces }: Props) {
             ) : (
               <div className="text-center py-16">
                 <p className="text-4xl mb-3">🍽️</p>
-                <p className="text-slate-500">No places match your filters</p>
+                <p className="text-slate-500">{t("city.noPlacesMobile")}</p>
               </div>
             )}
           </div>

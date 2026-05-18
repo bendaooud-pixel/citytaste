@@ -9,6 +9,7 @@ import FavoriteButton from "./FavoriteButton";
 import RatingsBar from "./ui/RatingsBar";
 import PlaceBadge from "./ui/PlaceBadge";
 import { getBadges } from "@/lib/badges";
+import { useLocale } from "@/lib/i18n";
 
 interface PlaceCardProps {
   place: Place;
@@ -19,6 +20,7 @@ const PRICE_LABEL = ["", "$", "$$", "$$$", "$$$$"];
 const FALLBACK_PHOTO = "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80";
 
 export default function PlaceCard({ place, compact = false }: PlaceCardProps) {
+  const { t } = useLocale();
   const primaryCategory = CATEGORIES.find((c) => c.id === place.categories[0]);
   const [imgError, setImgError] = useState(false);
   const badges = getBadges(place);
@@ -52,7 +54,7 @@ export default function PlaceCard({ place, compact = false }: PlaceCardProps) {
           {primaryCategory && (
             <div className="absolute top-3 left-3">
               <span className="bg-white/90 backdrop-blur-sm text-slate-700 text-xs font-semibold px-2.5 py-1 rounded-full shadow-sm">
-                {primaryCategory.emoji} {primaryCategory.label}
+                {primaryCategory.emoji} {t("categories." + place.categories[0])}
               </span>
             </div>
           )}
@@ -73,7 +75,7 @@ export default function PlaceCard({ place, compact = false }: PlaceCardProps) {
           {place.isHalal && (
             <div className="absolute bottom-3 left-3">
               <span className="bg-emerald-500 text-white text-xs font-semibold px-2 py-0.5 rounded-full">
-                🌙 Halal
+                🌙 {t("labels.halal")}
               </span>
             </div>
           )}
@@ -119,17 +121,17 @@ export default function PlaceCard({ place, compact = false }: PlaceCardProps) {
               <div className="mt-3 flex flex-wrap gap-1.5">
                 {place.isFamilyFriendly && (
                   <span className="text-xs bg-blue-50 text-blue-700 px-2 py-0.5 rounded-full border border-blue-100">
-                    👨‍👩‍👧 Family
+                    👨‍👩‍👧 {t("labels.family")}
                   </span>
                 )}
                 {place.hasTerrace && (
                   <span className="text-xs bg-green-50 text-green-700 px-2 py-0.5 rounded-full border border-green-100">
-                    🌿 Terrace
+                    🌿 {t("labels.terrace")}
                   </span>
                 )}
                 {place.categories.includes("romantic") && (
                   <span className="text-xs bg-rose-50 text-rose-700 px-2 py-0.5 rounded-full border border-rose-100">
-                    💑 Romantic
+                    💑 {t("labels.romantic")}
                   </span>
                 )}
               </div>

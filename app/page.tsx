@@ -8,6 +8,7 @@ import FavoriteButton from "@/components/FavoriteButton";
 import StarRating from "@/components/StarRating";
 import Navbar from "@/components/Navbar";
 import NearMe from "@/components/NearMe";
+import { useLocale } from "@/lib/i18n";
 
 const RED = "#E63946";
 
@@ -83,6 +84,7 @@ const FOOTER_LINKS = {
 };
 
 export default function HomePage() {
+  const { t } = useLocale();
   const [search, setSearch] = useState("");
   const carouselRef = useRef<HTMLDivElement>(null);
 
@@ -105,7 +107,7 @@ export default function HomePage() {
         style={{ backgroundColor: RED }}
         className="text-white text-center py-2.5 px-4 text-sm font-medium tracking-wide"
       >
-        Discover the best food &amp; places in Paris, Barcelona and Rome
+        {t("home.announcement")}
       </div>
 
       {/* ── Navbar ── */}
@@ -131,11 +133,10 @@ export default function HomePage() {
             className="text-4xl sm:text-6xl md:text-7xl font-black uppercase leading-none tracking-tight mb-6"
             style={{ textShadow: "0 2px 20px rgba(0,0,0,0.4)" }}
           >
-            DISCOVER THE BEST<br />
-            <span style={{ color: RED }}>FOOD</span> IN EVERY CITY
+            {t("home.heroTitle")}
           </h1>
           <p className="text-white/70 text-base sm:text-lg md:text-xl mb-10 max-w-xl mx-auto leading-relaxed">
-            Your ultimate guide to restaurants, cafés, monuments and hidden gems
+            {t("home.heroSubtitle")}
           </p>
 
           {/* Search bar */}
@@ -146,7 +147,7 @@ export default function HomePage() {
               </svg>
               <input
                 type="text"
-                placeholder="Cuisine type, restaurant name…"
+                placeholder={t("home.searchPlaceholder")}
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
                 className="flex-1 text-sm text-gray-900 placeholder-gray-400 focus:outline-none bg-transparent"
@@ -156,13 +157,13 @@ export default function HomePage() {
               <svg className="w-4 h-4 flex-shrink-0" style={{ color: RED }} fill="currentColor" viewBox="0 0 24 24">
                 <path fillRule="evenodd" d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-2.003 3.5-4.697 3.5-8.027A8.25 8.25 0 006 8.25c0 3.33 1.556 6.024 3.5 8.028a19.583 19.583 0 002.684 2.28 16.975 16.975 0 001.143.743zM12 10.5a2.25 2.25 0 100-4.5 2.25 2.25 0 000 4.5z" clipRule="evenodd" />
               </svg>
-              Paris, Barcelona, Rome
+              {t("home.locationHint")}
             </div>
             <button
               style={{ backgroundColor: RED }}
               className="text-white font-bold px-8 py-3 text-sm hover:opacity-90 transition-opacity"
             >
-              Search
+              {t("buttons.search")}
             </button>
           </div>
 
@@ -175,7 +176,7 @@ export default function HomePage() {
               href="/plan"
               className="flex items-center gap-2 text-white/90 hover:text-white text-sm font-semibold py-2.5 px-6 rounded-xl border border-white/30 hover:border-white/60 bg-white/10 hover:bg-white/20 backdrop-blur-sm transition-all active:scale-[0.98]"
             >
-              ✨ Plan My Trip with AI
+              ✨ {t("buttons.planTrip")}
             </Link>
           </div>
         </div>
@@ -188,11 +189,11 @@ export default function HomePage() {
       <div className="relative z-20 max-w-2xl mx-auto px-4 -mt-14">
         <div className="bg-white rounded-2xl shadow-2xl border border-gray-100 px-6 py-6 grid grid-cols-3 divide-x divide-gray-100">
           {[
-            { icon: "📍", value: "3", label: "Cities Available" },
-            { icon: "🍽️", value: "40+", label: "Places Listed" },
-            { icon: "⭐", value: "4.8", label: "Average Rating" },
-          ].map(({ icon, value, label }) => (
-            <div key={label} className="text-center px-4">
+            { icon: "📍", value: "3", labelKey: "home.citiesAvailable" },
+            { icon: "🍽️", value: "40+", labelKey: "home.placesListed" },
+            { icon: "⭐", value: "4.8", labelKey: "home.avgRating" },
+          ].map(({ icon, value, labelKey }) => (
+            <div key={labelKey} className="text-center px-4">
               <div
                 className="w-10 h-10 rounded-full flex items-center justify-center text-lg mx-auto mb-2"
                 style={{ backgroundColor: "#FEE2E2" }}
@@ -202,7 +203,7 @@ export default function HomePage() {
               <div className="text-2xl font-black" style={{ color: RED }}>
                 {value}
               </div>
-              <div className="text-gray-400 text-xs mt-0.5 font-medium">{label}</div>
+              <div className="text-gray-400 text-xs mt-0.5 font-medium">{t(labelKey)}</div>
             </div>
           ))}
         </div>
@@ -212,7 +213,7 @@ export default function HomePage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-16">
         <div className="flex items-center justify-between mb-8">
           <h2 className="text-2xl md:text-3xl font-black text-gray-900">
-            Explore <span style={{ color: RED }}>Places</span>
+            {t("home.explorePlaces")}
           </h2>
           <button
             className="flex items-center gap-1.5 text-sm font-semibold transition-opacity hover:opacity-70"
@@ -221,7 +222,7 @@ export default function HomePage() {
             <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
               <path fillRule="evenodd" d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-2.003 3.5-4.697 3.5-8.027A8.25 8.25 0 006 8.25c0 3.33 1.556 6.024 3.5 8.028a19.583 19.583 0 002.684 2.28 16.975 16.975 0 001.143.743zM12 10.5a2.25 2.25 0 100-4.5 2.25 2.25 0 000 4.5z" clipRule="evenodd" />
             </svg>
-            Add location
+            {t("home.addLocation")}
           </button>
         </div>
 
@@ -298,7 +299,7 @@ export default function HomePage() {
             onMouseEnter={(e) => { (e.currentTarget as HTMLElement).style.backgroundColor = RED; }}
             onMouseLeave={(e) => { (e.currentTarget as HTMLElement).style.backgroundColor = ""; }}
           >
-            View all places
+            {t("home.viewAllPlaces")}
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
@@ -314,16 +315,13 @@ export default function HomePage() {
               className="text-xs font-bold uppercase tracking-widest mb-3"
               style={{ color: RED }}
             >
-              Always available
+              {t("home.alwaysAvailable")}
             </p>
             <h2 className="text-3xl md:text-4xl font-black text-gray-900 mb-4 leading-tight">
-              Get Your Guide{" "}
-              <span style={{ color: RED }}>24/7</span>
+              {t("home.getYourGuide247")}
             </h2>
             <p className="text-gray-500 leading-relaxed mb-8 max-w-md text-[15px]">
-              Access our curated food guides anytime, anywhere. Save your favourite
-              spots, check opening hours, get directions, and discover local tips —
-              all in one place.
+              {t("home.getYourGuideDesc")}
             </p>
             <div className="flex flex-wrap gap-3">
               <Link
@@ -331,21 +329,21 @@ export default function HomePage() {
                 style={{ backgroundColor: RED }}
                 className="text-white font-bold px-6 py-3 rounded-xl text-sm hover:opacity-90 transition-opacity"
               >
-                Explore Paris
+                {t("home.exploreParis")}
               </Link>
               <Link
                 href="/barcelona"
                 className="font-bold px-6 py-3 rounded-xl text-sm border-2 transition-colors hover:bg-red-50"
                 style={{ borderColor: RED, color: RED }}
               >
-                Explore Barcelona
+                {t("home.exploreBarcelona")}
               </Link>
               <Link
                 href="/rome"
                 className="font-bold px-6 py-3 rounded-xl text-sm border-2 transition-colors hover:bg-red-50"
                 style={{ borderColor: RED, color: RED }}
               >
-                Explore Rome
+                {t("home.exploreRome")}
               </Link>
             </div>
           </div>
@@ -380,7 +378,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto">
           <div className="flex items-center justify-between mb-10">
             <h2 className="text-2xl md:text-3xl font-black text-gray-900">
-              Browse by <span style={{ color: RED }}>Category</span>
+              {t("home.browseByCategory")}
             </h2>
             <div className="flex items-center gap-2">
               <button
@@ -436,7 +434,7 @@ export default function HomePage() {
       <section className="border-t border-b border-gray-100 bg-gray-50 py-10 px-4">
         <div className="max-w-5xl mx-auto">
           <p className="text-center text-xs font-bold uppercase tracking-widest text-gray-400 mb-7">
-            Featured Cities
+            {t("home.featuredCities")}
           </p>
           <div className="flex flex-wrap justify-center items-center gap-8 sm:gap-14">
             {[

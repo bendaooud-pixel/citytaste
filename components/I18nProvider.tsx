@@ -29,12 +29,13 @@ export default function I18nProvider({ children }: { children: ReactNode }) {
     if (saved && MESSAGES[saved]) setLocaleState(saved);
   }, []);
 
-  // Apply html lang + dir on locale change
+  // Apply html lang + dir on locale change; set cookie for server components
   useEffect(() => {
     const cfg = LOCALES.find((l) => l.id === locale);
     document.documentElement.lang = locale;
     document.documentElement.dir = cfg?.dir ?? "ltr";
     localStorage.setItem("citytaste-locale", locale);
+    document.cookie = `citytaste-locale=${locale}; path=/; max-age=31536000; SameSite=Lax`;
   }, [locale]);
 
   const t = useCallback(

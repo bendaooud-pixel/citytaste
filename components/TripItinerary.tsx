@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
+import { useLocale } from "@/lib/i18n";
 
 export interface ItineraryStop {
   time: string;
@@ -106,6 +107,12 @@ function StopCard({ stop, citySlug }: { stop: ItineraryStop; citySlug: string })
 }
 
 function DaySection({ day, citySlug }: { day: ItineraryDay; citySlug: string }) {
+  const { t } = useLocale();
+  const timeLabels = {
+    morning:   t("plan.morning"),
+    afternoon: t("plan.afternoon"),
+    evening:   t("plan.evening"),
+  };
   const segments: Array<"morning" | "afternoon" | "evening"> = ["morning", "afternoon", "evening"];
 
   return (
@@ -118,7 +125,7 @@ function DaySection({ day, citySlug }: { day: ItineraryDay; citySlug: string }) 
           <div key={seg} className={`rounded-2xl border ${cfg.border} ${cfg.bg} p-4`}>
             <h4 className="font-bold text-slate-700 text-sm mb-4 flex items-center gap-2">
               <span>{cfg.emoji}</span>
-              {cfg.label}
+              {timeLabels[seg]}
             </h4>
             <div className="space-y-3">
               {stops.map((stop, i) => (
@@ -138,6 +145,7 @@ interface Props {
 }
 
 export default function TripItinerary({ itinerary, onReset }: Props) {
+  const { t } = useLocale();
   const [activeDay, setActiveDay] = useState(0);
   const [saved, setSaved] = useState(false);
   const [copied, setCopied] = useState(false);
@@ -177,7 +185,7 @@ export default function TripItinerary({ itinerary, onReset }: Props) {
               Your {itinerary.days.length}-Day {itinerary.city} Itinerary
             </h2>
             <p className="text-slate-500 text-sm mt-0.5">
-              Budget: <span className="font-semibold text-slate-700">{itinerary.estimatedDailyBudget}</span>
+              {t("plan.estimatedBudget")}: <span className="font-semibold text-slate-700">{itinerary.estimatedDailyBudget}</span>
             </p>
           </div>
 
@@ -187,25 +195,25 @@ export default function TripItinerary({ itinerary, onReset }: Props) {
               onClick={saveTrip}
               className="flex items-center gap-1.5 text-xs font-semibold px-3 py-2 rounded-xl border border-slate-200 hover:bg-slate-50 transition-colors text-slate-700"
             >
-              {saved ? "✓ Saved!" : "💾 Save"}
+              {saved ? t("buttons.saved") : `💾 ${t("buttons.save")}`}
             </button>
             <button
               onClick={shareTrip}
               className="flex items-center gap-1.5 text-xs font-semibold px-3 py-2 rounded-xl border border-slate-200 hover:bg-slate-50 transition-colors text-slate-700"
             >
-              {copied ? "✓ Copied!" : "🔗 Share"}
+              {copied ? t("buttons.copied") : `🔗 ${t("buttons.share")}`}
             </button>
             <button
               onClick={printTrip}
               className="flex items-center gap-1.5 text-xs font-semibold px-3 py-2 rounded-xl border border-slate-200 hover:bg-slate-50 transition-colors text-slate-700"
             >
-              🖨️ Print
+              {t("buttons.print")}
             </button>
             <button
               onClick={onReset}
               className="flex items-center gap-1.5 text-xs font-semibold px-3 py-2 rounded-xl bg-slate-900 text-white hover:bg-slate-800 transition-colors"
             >
-              ↩ New Plan
+              {t("plan.newPlan")}
             </button>
           </div>
         </div>
@@ -224,7 +232,7 @@ export default function TripItinerary({ itinerary, onReset }: Props) {
                   : "bg-white border-slate-200 text-slate-700 hover:border-slate-400"
               }`}
             >
-              Day {d.day}
+              {t("plan.day")} {d.day}
             </button>
           ))}
         </div>
@@ -236,7 +244,7 @@ export default function TripItinerary({ itinerary, onReset }: Props) {
           <div>
             <div className="mb-4">
               <h3 className="text-lg font-black text-slate-900">
-                Day {currentDay.day} — {currentDay.theme}
+                {t("plan.day")} {currentDay.day} — {currentDay.theme}
               </h3>
             </div>
             <DaySection day={currentDay} citySlug={citySlug} />
@@ -249,7 +257,7 @@ export default function TripItinerary({ itinerary, onReset }: Props) {
         {itinerary.days.map((day) => (
           <div key={day.day}>
             <h3 className="text-lg font-black text-slate-900 mb-4">
-              Day {day.day} — {day.theme}
+              {t("plan.day")} {day.day} — {day.theme}
             </h3>
             <DaySection day={day} citySlug={citySlug} />
           </div>
@@ -259,7 +267,7 @@ export default function TripItinerary({ itinerary, onReset }: Props) {
       {/* Tips */}
       {itinerary.tips && itinerary.tips.length > 0 && (
         <div className="bg-slate-900 text-white rounded-2xl p-5">
-          <h3 className="font-black text-base mb-3">✈️ Local Tips</h3>
+          <h3 className="font-black text-base mb-3">{t("plan.localTips")}</h3>
           <ul className="space-y-2">
             {itinerary.tips.map((tip, i) => (
               <li key={i} className="flex gap-2 text-sm text-slate-300">

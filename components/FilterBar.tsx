@@ -1,5 +1,6 @@
 "use client";
 import type { FilterState } from "@/lib/types";
+import { useLocale } from "@/lib/i18n";
 
 interface FilterBarProps {
   filters: FilterState;
@@ -8,6 +9,7 @@ interface FilterBarProps {
 }
 
 export default function FilterBar({ filters, onChange, resultCount }: FilterBarProps) {
+  const { t } = useLocale();
   const update = (patch: Partial<FilterState>) =>
     onChange({ ...filters, ...patch });
 
@@ -21,9 +23,9 @@ export default function FilterBar({ filters, onChange, resultCount }: FilterBarP
   return (
     <div className="bg-white border border-slate-200 rounded-2xl p-4 shadow-sm">
       <div className="flex items-center justify-between mb-4">
-        <h3 className="font-semibold text-slate-800 text-sm">Filters</h3>
+        <h3 className="font-semibold text-slate-800 text-sm">{t("filters.title")}</h3>
         <div className="flex items-center gap-3">
-          <span className="text-xs text-slate-500">{resultCount} results</span>
+          <span className="text-xs text-slate-500">{resultCount} {t("labels.results")}</span>
           {hasActive && (
             <button
               onClick={() =>
@@ -31,7 +33,7 @@ export default function FilterBar({ filters, onChange, resultCount }: FilterBarP
               }
               className="text-xs text-brand-orange hover:underline font-medium"
             >
-              Clear all
+              {t("filters.clearAll")}
             </button>
           )}
         </div>
@@ -41,24 +43,24 @@ export default function FilterBar({ filters, onChange, resultCount }: FilterBarP
         {/* Sort */}
         <div>
           <label className="block text-xs font-medium text-slate-500 uppercase tracking-wide mb-2">
-            Sort by
+            {t("filters.sortBy")}
           </label>
           <select
             value={filters.sortBy}
             onChange={(e) => update({ sortBy: e.target.value as FilterState["sortBy"] })}
             className="w-full text-sm border border-slate-200 rounded-lg px-3 py-2 text-slate-700 bg-white focus:outline-none focus:ring-2 focus:ring-brand-orange/40 focus:border-brand-orange"
           >
-            <option value="rating">Top Rated</option>
-            <option value="reviews">Most Reviewed</option>
-            <option value="price-low">Price: Low to High</option>
-            <option value="price-high">Price: High to Low</option>
+            <option value="rating">{t("filters.topRated")}</option>
+            <option value="reviews">{t("filters.mostReviewed")}</option>
+            <option value="price-low">{t("filters.priceLow")}</option>
+            <option value="price-high">{t("filters.priceHigh")}</option>
           </select>
         </div>
 
         {/* Min rating */}
         <div>
           <label className="block text-xs font-medium text-slate-500 uppercase tracking-wide mb-2">
-            Minimum Rating
+            {t("filters.minRating")}
           </label>
           <div className="flex gap-2">
             {[0, 3, 3.5, 4, 4.5].map((r) => (
@@ -71,7 +73,7 @@ export default function FilterBar({ filters, onChange, resultCount }: FilterBarP
                     : "border-slate-200 text-slate-600 hover:border-brand-orange hover:text-brand-orange bg-white"
                   }`}
               >
-                {r === 0 ? "Any" : `${r}+`}
+                {r === 0 ? t("labels.any") : `${r}+`}
               </button>
             ))}
           </div>
@@ -80,7 +82,7 @@ export default function FilterBar({ filters, onChange, resultCount }: FilterBarP
         {/* Price */}
         <div>
           <label className="block text-xs font-medium text-slate-500 uppercase tracking-wide mb-2">
-            Max Price
+            {t("filters.maxPrice")}
           </label>
           <div className="flex gap-2">
             {[1, 2, 3, 4].map((p) => (
@@ -102,12 +104,12 @@ export default function FilterBar({ filters, onChange, resultCount }: FilterBarP
         {/* Toggles */}
         <div className="space-y-2">
           <label className="block text-xs font-medium text-slate-500 uppercase tracking-wide">
-            Dietary & Features
+            {t("filters.dietaryFeatures")}
           </label>
           {[
-            { key: "halal", label: "🌙 Halal certified" },
-            { key: "family", label: "👨‍👩‍👧 Family friendly" },
-            { key: "terrace", label: "🌿 Has terrace" },
+            { key: "halal",   label: t("filters.halalCertified") },
+            { key: "family",  label: t("filters.familyFriendly") },
+            { key: "terrace", label: t("filters.hasTerrace") },
           ].map(({ key, label }) => (
             <label key={key} className="flex items-center justify-between cursor-pointer group">
               <span className="text-sm text-slate-700 group-hover:text-slate-900">{label}</span>

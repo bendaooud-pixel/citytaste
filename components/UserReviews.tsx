@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import { supabase } from "@/lib/supabase";
+import { useLocale } from "@/lib/i18n";
 
 interface UserReview {
   id: string;
@@ -18,6 +19,7 @@ interface Props {
 }
 
 export default function UserReviews({ placeSlug }: Props) {
+  const { t } = useLocale();
   const [reviews, setReviews]       = useState<UserReview[]>([]);
   const [total, setTotal]           = useState(0);
   const [page, setPage]             = useState(1);
@@ -79,8 +81,8 @@ export default function UserReviews({ placeSlug }: Props) {
     return (
       <div className="bg-white rounded-2xl p-6 shadow-sm border border-slate-100 text-center py-10">
         <p className="text-4xl mb-2">📝</p>
-        <p className="font-semibold text-slate-700">No community reviews yet</p>
-        <p className="text-slate-400 text-sm mt-1">Be the first to share your experience below!</p>
+        <p className="font-semibold text-slate-700">{t("review.noReviews")}</p>
+        <p className="text-slate-400 text-sm mt-1">{t("review.beFirst")}</p>
       </div>
     );
   }
@@ -90,7 +92,7 @@ export default function UserReviews({ placeSlug }: Props) {
   return (
     <div className="bg-white rounded-2xl p-6 shadow-sm border border-slate-100">
       <h2 className="font-semibold text-slate-800 mb-5 flex items-center gap-2">
-        Community Reviews
+        {t("place.communityReviews")}
         <span className="text-xs bg-orange-100 text-orange-700 px-2.5 py-0.5 rounded-full font-bold">
           {total}
         </span>
@@ -131,7 +133,7 @@ export default function UserReviews({ placeSlug }: Props) {
 
                 {review.visit_date && (
                   <p className="text-xs text-slate-400 mb-1.5">
-                    Visited{" "}
+                    {t("review.visitedPrefix")}{" "}
                     {new Date(review.visit_date + "-01").toLocaleDateString("en-US", {
                       year: "numeric", month: "long",
                     })}
@@ -152,8 +154,8 @@ export default function UserReviews({ placeSlug }: Props) {
           className="mt-5 w-full py-2.5 rounded-xl border border-slate-200 text-sm font-semibold text-slate-600 hover:bg-slate-50 transition-colors disabled:opacity-50"
         >
           {loadingMore
-            ? "Loading…"
-            : `Load more (${total - reviews.length} remaining)`}
+            ? "…"
+            : `${t("buttons.loadMore")} (${total - reviews.length} ${t("labels.remaining")})`}
         </button>
       )}
     </div>

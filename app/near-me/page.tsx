@@ -5,6 +5,7 @@ import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import NearMeResultsMap from "@/components/NearMeResultsMap";
 import type { NearMePlace, NearMeResponse } from "@/app/api/near-me/route";
+import { useLocale } from "@/lib/i18n";
 
 // ── Haversine ─────────────────────────────────────────────────────────────────
 function haversineM(lat1: number, lng1: number, lat2: number, lng2: number) {
@@ -43,6 +44,7 @@ function GooglePlaceCard({
   place: NearMePlace;
   distM: number;
 }) {
+  const { t } = useLocale();
   const photoSrc = place.photoUrl ?? null;
 
   const mapsUrl = `https://www.google.com/maps/place/?q=place_id:${place.placeId}`;
@@ -75,7 +77,7 @@ function GooglePlaceCard({
                   : "bg-red-500 text-white"
               }`}
             >
-              {place.openNow ? "● Open Now" : "● Closed"}
+              {place.openNow ? `● ${t("labels.openNow")}` : `● ${t("labels.closed")}`}
             </span>
           </div>
         )}
@@ -83,7 +85,7 @@ function GooglePlaceCard({
         {/* Distance pill */}
         <div className="absolute bottom-3 right-3">
           <span className="bg-white/95 backdrop-blur-sm text-slate-700 text-xs font-bold px-2.5 py-1 rounded-full shadow-sm">
-            {fmtDist(distM)} · {fmtWalk(distM)} walk
+            {fmtDist(distM)} · {fmtWalk(distM)} {t("labels.walk")}
           </span>
         </div>
       </div>
@@ -124,7 +126,7 @@ function GooglePlaceCard({
             <svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24">
               <path fillRule="evenodd" d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-2.003 3.5-4.697 3.5-8.027A8.25 8.25 0 006 8.25c0 3.33 1.556 6.024 3.5 8.028a19.583 19.583 0 002.684 2.28 16.975 16.975 0 001.143.743zM12 10.5a2.25 2.25 0 100-4.5 2.25 2.25 0 000 4.5z" clipRule="evenodd" />
             </svg>
-            Open in Maps
+            {t("nearme.openInMaps")}
           </a>
           <a
             href={mapsUrl}
@@ -133,7 +135,7 @@ function GooglePlaceCard({
             className="flex items-center justify-center gap-1 bg-white hover:bg-slate-50 border border-slate-200 text-slate-700 text-xs font-semibold py-2.5 px-3 rounded-xl transition-colors active:scale-[0.98]"
             title="View on Google Maps"
           >
-            View Details
+            {t("nearme.viewDetails")}
           </a>
         </div>
       </div>
@@ -143,6 +145,7 @@ function GooglePlaceCard({
 
 // ── Inner content (uses useSearchParams → inside Suspense) ────────────────────
 function NearMeContent() {
+  const { t } = useLocale();
   const params = useSearchParams();
   const lat = parseFloat(params.get("lat") ?? "");
   const lng = parseFloat(params.get("lng") ?? "");
@@ -193,12 +196,10 @@ function NearMeContent() {
     return (
       <div className="text-center py-24">
         <p className="text-5xl mb-4">📍</p>
-        <h2 className="text-2xl font-black text-slate-900 mb-2">No location detected</h2>
-        <p className="text-slate-500 mb-8 max-w-xs mx-auto">
-          Go back to the homepage and tap &ldquo;Find places near me&rdquo;.
-        </p>
+        <h2 className="text-2xl font-black text-slate-900 mb-2">{t("nearme.noLocation")}</h2>
+        <p className="text-slate-500 mb-8 max-w-xs mx-auto">{t("nearme.noLocationDesc")}</p>
         <Link href="/" className="inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white font-bold px-6 py-3 rounded-xl transition-colors">
-          ← Back to Home
+          {t("buttons.backToHome")}
         </Link>
       </div>
     );
@@ -212,32 +213,32 @@ function NearMeContent() {
       {/* Header */}
       <div className="mb-6">
         <h1 className="text-2xl sm:text-3xl font-black text-slate-900 mb-1">
-          Near You{cityLabel !== "your location" ? ` in ${cityLabel}` : ""}
+          {cityLabel !== "your location" ? `${t("nearme.nearYouIn")} ${cityLabel}` : t("nearme.nearYou")}
         </h1>
         <p className="text-slate-500 text-sm">
           {neighborhoodLabel ? `${neighborhoodLabel} · ` : ""}
           {loading
-            ? "Searching…"
+            ? t("nearme.searching")
             : data
-            ? `${data.places.length} places within 1.5 km`
+            ? `${data.places.length} ${t("nearme.placesWithin")}`
             : ""}
         </p>
       </div>
 
       {/* Category tabs */}
       <div className="flex gap-2 mb-6 overflow-x-auto pb-1" style={{ scrollbarWidth: "none" }}>
-        {TYPES.map((t) => (
+        {TYPES.map((type) => (
           <button
-            key={t.id}
-            onClick={() => setSelectedType(t.id)}
+            key={type.id}
+            onClick={() => setSelectedType(type.id)}
             className={`flex-shrink-0 flex items-center gap-1.5 text-sm font-semibold px-4 py-2 rounded-full border transition-colors ${
-              selectedType === t.id
+              selectedType === type.id
                 ? "bg-slate-900 border-slate-900 text-white"
                 : "bg-white border-slate-200 text-slate-700 hover:border-slate-400"
             }`}
           >
-            <span>{t.emoji}</span>
-            {t.label}
+            <span>{type.emoji}</span>
+            {t(`nearme.types.${type.id}`)}
           </button>
         ))}
       </div>
@@ -276,8 +277,8 @@ function NearMeContent() {
           {data.places.length === 0 ? (
             <div className="text-center py-20 text-slate-400">
               <p className="text-4xl mb-3">🔍</p>
-              <p className="font-semibold text-slate-600">No places found nearby</p>
-              <p className="text-sm mt-1">Try a different category</p>
+              <p className="font-semibold text-slate-600">{t("nearme.noPlaces")}</p>
+              <p className="text-sm mt-1">{t("nearme.tryDifferent")}</p>
             </div>
           ) : (
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-start">
@@ -313,7 +314,8 @@ function NearMeContent() {
 }
 
 // ── Page ──────────────────────────────────────────────────────────────────────
-export default function NearMePage() {
+function NearMePageInner() {
+  const { t } = useLocale();
   return (
     <div className="min-h-screen bg-slate-50">
       <Navbar />
@@ -325,7 +327,7 @@ export default function NearMePage() {
                 <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
                 <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8H4z" />
               </svg>
-              <p className="text-sm font-medium">Finding places near you…</p>
+              <p className="text-sm font-medium">{t("nearme.gettingLocation")}</p>
             </div>
           }
         >
@@ -334,4 +336,8 @@ export default function NearMePage() {
       </main>
     </div>
   );
+}
+
+export default function NearMePage() {
+  return <NearMePageInner />;
 }

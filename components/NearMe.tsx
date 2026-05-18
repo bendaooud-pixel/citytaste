@@ -1,6 +1,7 @@
 "use client";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
+import { useLocale } from "@/lib/i18n";
 
 const TYPES = [
   { id: "restaurant", label: "Restaurants", emoji: "🍽️" },
@@ -12,9 +13,17 @@ const TYPES = [
 type PlaceType = (typeof TYPES)[number]["id"];
 
 export default function NearMe() {
+  const { t } = useLocale();
   const router = useRouter();
   const [step, setStep] = useState<"idle" | "pick" | "loading" | "error">("idle");
   const [selectedType, setSelectedType] = useState<PlaceType>("restaurant");
+
+  const typeLabels: Record<PlaceType, string> = {
+    restaurant: t("categories.restaurants"),
+    cafe: t("categories.cafes"),
+    bar: t("categories.bars"),
+    tourist_attraction: t("categories.monuments"),
+  };
 
   function requestLocation(type: PlaceType) {
     if (!("geolocation" in navigator)) {
@@ -43,7 +52,7 @@ export default function NearMe() {
           <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
             <path fillRule="evenodd" d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-2.003 3.5-4.697 3.5-8.027A8.25 8.25 0 006 8.25c0 3.33 1.556 6.024 3.5 8.028a19.583 19.583 0 002.684 2.28 16.975 16.975 0 001.143.743zM12 10.5a2.25 2.25 0 100-4.5 2.25 2.25 0 000 4.5z" clipRule="evenodd" />
           </svg>
-          Find places near me
+          {t("buttons.findNearMe")}
         </button>
       </div>
     );
@@ -52,7 +61,7 @@ export default function NearMe() {
   if (step === "pick") {
     return (
       <div className="flex flex-col items-center gap-3 mt-4">
-        <p className="text-white/70 text-xs font-medium uppercase tracking-widest">What are you looking for?</p>
+        <p className="text-white/70 text-xs font-medium uppercase tracking-widest">{t("nearme.lookingFor")}</p>
         <div className="flex flex-wrap justify-center gap-2">
           {TYPES.map((t) => (
             <button
@@ -65,7 +74,7 @@ export default function NearMe() {
               }`}
             >
               <span>{t.emoji}</span>
-              {t.label}
+              {typeLabels[t.id]}
             </button>
           ))}
         </div>
@@ -73,7 +82,7 @@ export default function NearMe() {
           onClick={() => setStep("idle")}
           className="text-white/40 hover:text-white/70 text-xs transition-colors"
         >
-          ✕ Cancel
+          {t("buttons.cancel")}
         </button>
       </div>
     );
@@ -87,7 +96,7 @@ export default function NearMe() {
             <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
             <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8H4z" />
           </svg>
-          Getting your location…
+          {t("nearme.gettingLocation")}
         </div>
       </div>
     );
@@ -97,13 +106,13 @@ export default function NearMe() {
   return (
     <div className="flex flex-col items-center gap-2 mt-4">
       <p className="text-red-300 text-xs text-center max-w-xs leading-snug">
-        Could not access your location. Please enable GPS and try again.
+        {t("nearme.locationError")}
       </p>
       <button
         onClick={() => setStep("idle")}
         className="text-white/60 hover:text-white text-xs underline transition-colors"
       >
-        Try again
+        {t("buttons.tryAgain")}
       </button>
     </div>
   );

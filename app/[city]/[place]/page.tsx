@@ -17,6 +17,7 @@ import BookingButtons from "@/components/ui/BookingButtons";
 import { getBadges } from "@/lib/badges";
 import UserReviews from "@/components/UserReviews";
 import ReviewForm from "@/components/ReviewForm";
+import { getTranslations } from "@/lib/getTranslations";
 
 const PRICE_LABEL = ["", "$", "$$", "$$$", "$$$$"];
 const DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
@@ -59,6 +60,8 @@ export default async function PlaceDetailPage({ params }: Props) {
     dbGetPlacesByCity(citySlug),
   ]);
   if (!place || !city) notFound();
+
+  const { t } = await getTranslations();
 
   const today = DAYS[new Date().getDay() === 0 ? 6 : new Date().getDay() - 1];
   const todayHours = place.openingHours[today];
@@ -136,7 +139,7 @@ export default async function PlaceDetailPage({ params }: Props) {
         {/* Breadcrumb */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">
           <nav aria-label="breadcrumb" className="flex items-center gap-2 text-sm text-slate-500 flex-wrap">
-            <Link href="/" className="hover:text-brand-orange transition-colors">Home</Link>
+            <Link href="/" className="hover:text-brand-orange transition-colors">{t("city.home")}</Link>
             <span aria-hidden="true">›</span>
             <Link href={`/${city.slug}`} className="hover:text-brand-orange transition-colors">{city.name}</Link>
             <span aria-hidden="true">›</span>
@@ -187,7 +190,7 @@ export default async function PlaceDetailPage({ params }: Props) {
                     <span className="font-semibold text-slate-700">{PRICE_LABEL[place.priceLevel]}</span>
                     <span className="text-slate-300">·</span>
                     <span className={`text-sm font-semibold ${isOpen ? "text-emerald-600" : "text-red-500"}`}>
-                      {isOpen ? "● Open now" : "● Closed"}
+                      {isOpen ? `● ${t("labels.openNow")}` : `● ${t("labels.closed")}`}
                     </span>
                   </div>
 
@@ -213,7 +216,7 @@ export default async function PlaceDetailPage({ params }: Props) {
               <PhotoGallery photos={place.photos} name={place.name} />
 
               <div className="bg-white rounded-2xl p-6 shadow-sm border border-slate-100">
-                <h2 className="font-semibold text-slate-800 mb-3">About</h2>
+                <h2 className="font-semibold text-slate-800 mb-3">{t("place.about")}</h2>
                 <p className="text-slate-600 leading-relaxed">{place.description}</p>
               </div>
 
@@ -221,7 +224,7 @@ export default async function PlaceDetailPage({ params }: Props) {
 
               <div className="bg-white rounded-2xl p-6 shadow-sm border border-slate-100">
                 <h2 className="font-semibold text-slate-800 mb-5 flex items-center gap-2">
-                  Guest Reviews
+                  {t("place.guestReviews")}
                   <span className="text-xs bg-slate-100 text-slate-600 px-2 py-0.5 rounded-full">
                     {place.reviewCount.toLocaleString()} total
                   </span>
@@ -251,7 +254,7 @@ export default async function PlaceDetailPage({ params }: Props) {
             {/* ── Right column ── */}
             <aside className="space-y-6 lg:sticky lg:top-24 lg:self-start">
               <div className="bg-white rounded-2xl p-6 shadow-sm border border-slate-100 space-y-4">
-                <h2 className="font-semibold text-slate-800">Info & Contact</h2>
+                <h2 className="font-semibold text-slate-800">{t("place.info")}</h2>
                 <div className="space-y-3 text-sm">
                   <div className="flex gap-3">
                     <span className="text-lg shrink-0">📍</span>
@@ -273,7 +276,7 @@ export default async function PlaceDetailPage({ params }: Props) {
                       <span className="text-lg shrink-0">🌐</span>
                       <a href={place.website} target="_blank" rel="noopener noreferrer"
                         className="text-orange-500 hover:underline font-medium truncate">
-                        Official website
+                        {t("place.officialWebsite")}
                       </a>
                     </div>
                   )}
@@ -282,23 +285,23 @@ export default async function PlaceDetailPage({ params }: Props) {
                     <div>
                       <p className="font-medium text-slate-800">{PRICE_LABEL[place.priceLevel]}</p>
                       <p className="text-slate-500">
-                        {["", "Budget-friendly", "Moderate", "Upscale", "Fine dining"][place.priceLevel]}
+                        {["", t("place.budgetFriendly"), t("place.moderate"), t("place.upscale"), t("place.fineDining")][place.priceLevel]}
                       </p>
                     </div>
                   </div>
                 </div>
                 <div className="pt-2 flex flex-wrap gap-2 border-t border-slate-100">
-                  {place.hasTerrace && <span className="text-xs bg-green-50 text-green-700 px-2.5 py-1 rounded-full border border-green-100 font-medium">🌿 Terrace</span>}
-                  {place.isFamilyFriendly && <span className="text-xs bg-blue-50 text-blue-700 px-2.5 py-1 rounded-full border border-blue-100 font-medium">👨‍👩‍👧 Family</span>}
-                  {place.isHalal && <span className="text-xs bg-emerald-50 text-emerald-700 px-2.5 py-1 rounded-full border border-emerald-100 font-medium">🌙 Halal</span>}
-                  {place.categories.includes("romantic") && <span className="text-xs bg-rose-50 text-rose-700 px-2.5 py-1 rounded-full border border-rose-100 font-medium">💑 Romantic</span>}
+                  {place.hasTerrace && <span className="text-xs bg-green-50 text-green-700 px-2.5 py-1 rounded-full border border-green-100 font-medium">🌿 {t("labels.terrace")}</span>}
+                  {place.isFamilyFriendly && <span className="text-xs bg-blue-50 text-blue-700 px-2.5 py-1 rounded-full border border-blue-100 font-medium">👨‍👩‍👧 {t("labels.family")}</span>}
+                  {place.isHalal && <span className="text-xs bg-emerald-50 text-emerald-700 px-2.5 py-1 rounded-full border border-emerald-100 font-medium">🌙 {t("labels.halal")}</span>}
+                  {place.categories.includes("romantic") && <span className="text-xs bg-rose-50 text-rose-700 px-2.5 py-1 rounded-full border border-rose-100 font-medium">💑 {t("labels.romantic")}</span>}
                 </div>
               </div>
 
               <div className="flex flex-col gap-3">
                 <a href={place.googleMapsUrl} target="_blank" rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3.5 rounded-2xl transition-colors shadow-md shadow-orange-200 active:scale-[0.98]">
-                  <span>📍</span> Open in Google Maps
+                  <span>📍</span> {t("buttons.openMaps")}
                 </a>
                 <BookingButtons
                   theforkUrl={place.theforkUrl}
@@ -308,7 +311,7 @@ export default async function PlaceDetailPage({ params }: Props) {
               </div>
 
               <div className="bg-white rounded-2xl p-6 shadow-sm border border-slate-100">
-                <h2 className="font-semibold text-slate-800 mb-4">Opening Hours</h2>
+                <h2 className="font-semibold text-slate-800 mb-4">{t("place.openingHours")}</h2>
                 <div className="space-y-2">
                   {DAYS.map((day) => {
                     const hours = place.openingHours[day];
@@ -343,7 +346,7 @@ export default async function PlaceDetailPage({ params }: Props) {
           {relatedPlaces.length > 0 && (
             <section className="mt-14">
               <h2 className="text-2xl font-bold text-slate-900 mb-6" style={{ fontFamily: "var(--font-playfair)" }}>
-                You might also like
+                {t("place.relatedPlaces")}
               </h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
                 {relatedPlaces.map((p) => (

@@ -21,7 +21,14 @@
       "WebSearch",
       "WebFetch(domain:unsplash.com)",
       "Bash(awk '/name:/{name=$0; line=NR} /photos:/{print NR\": \"name}')",
-      "Bash(python3 *)"
+      "Bash(python3 *)",
+      "Bash(gh run *)",
+      "Bash(gh secret *)",
+      "Bash(npx tsc *)",
+      "Bash(npm run *)",
+      "Bash(curl -s \"https://unsplash.com/s/photos/colosseum-rome-italy\")",
+      "Bash(grep -oP 'photo-\\\\d{10,13}-[a-f0-9]{8,12}')",
+      "Bash(xargs ls *)"
     ]
   }
 }

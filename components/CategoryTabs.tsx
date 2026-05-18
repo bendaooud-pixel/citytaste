@@ -1,6 +1,7 @@
 "use client";
 import { CATEGORIES } from "@/lib/types";
 import type { Category } from "@/lib/types";
+import { useLocale } from "@/lib/i18n";
 
 interface CategoryTabsProps {
   active: Category | "all";
@@ -9,8 +10,9 @@ interface CategoryTabsProps {
 }
 
 export default function CategoryTabs({ active, onChange, counts }: CategoryTabsProps) {
+  const { t } = useLocale();
   const all = [
-    { id: "all" as const, label: "All", emoji: "✨" },
+    { id: "all" as const, label: t("categories.all"), emoji: "✨" },
     ...CATEGORIES,
   ];
 
@@ -31,7 +33,7 @@ export default function CategoryTabs({ active, onChange, counts }: CategoryTabsP
                 }`}
             >
               <span>{cat.emoji}</span>
-              <span>{cat.label}</span>
+              <span>{cat.id === "all" ? cat.label : t("categories." + cat.id)}</span>
               {count !== undefined && (
                 <span
                   className={`text-xs rounded-full px-1.5 py-0.5 font-bold ${

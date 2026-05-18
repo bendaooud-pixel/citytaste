@@ -3,6 +3,7 @@ import { Suspense, useState, useCallback } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import Navbar from "@/components/Navbar";
 import TripItinerary, { type Itinerary } from "@/components/TripItinerary";
+import { useLocale } from "@/lib/i18n";
 
 const CITIES = [
   { id: "paris",     label: "🇫🇷 Paris" },
@@ -11,10 +12,10 @@ const CITIES = [
 ];
 
 const BUDGETS = [
-  { id: "30",  label: "€30 / day",  desc: "Budget" },
-  { id: "50",  label: "€50 / day",  desc: "Mid-range" },
-  { id: "100", label: "€100 / day", desc: "Comfortable" },
-  { id: "150", label: "€150+ / day", desc: "Luxury" },
+  { id: "30",  label: "€30 / day",  descKey: "plan.budgetBudget" },
+  { id: "50",  label: "€50 / day",  descKey: "plan.budgetMid" },
+  { id: "100", label: "€100 / day", descKey: "plan.budgetComfort" },
+  { id: "150", label: "€150+ / day", descKey: "plan.budgetLuxury" },
 ];
 
 const INTERESTS = [
@@ -36,6 +37,7 @@ const STYLES = [
 ];
 
 function PlanForm() {
+  const { t } = useLocale();
   const params = useSearchParams();
   const router = useRouter();
 
@@ -107,7 +109,7 @@ function PlanForm() {
     <div className="max-w-2xl mx-auto space-y-8">
       {/* City */}
       <div>
-        <label className="block text-sm font-bold text-slate-700 mb-3">Select City</label>
+        <label className="block text-sm font-bold text-slate-700 mb-3">{t("plan.selectCity")}</label>
         <div className="grid grid-cols-3 gap-3">
           {CITIES.map((c) => (
             <button
@@ -128,7 +130,7 @@ function PlanForm() {
       {/* Days */}
       <div>
         <label className="block text-sm font-bold text-slate-700 mb-3">
-          Number of Days — <span className="text-[#E63946]">{days} {days === 1 ? "day" : "days"}</span>
+          {t("plan.numberOfDays")} — <span className="text-[#E63946]">{days} {days === 1 ? t("plan.day") : t("plan.days")}</span>
         </label>
         <input
           type="range"
@@ -139,14 +141,14 @@ function PlanForm() {
           className="w-full accent-[#E63946]"
         />
         <div className="flex justify-between text-xs text-slate-400 mt-1">
-          <span>1 day</span>
-          <span>7 days</span>
+          <span>1 {t("plan.day")}</span>
+          <span>7 {t("plan.days")}</span>
         </div>
       </div>
 
       {/* Budget */}
       <div>
-        <label className="block text-sm font-bold text-slate-700 mb-3">Budget per Day</label>
+        <label className="block text-sm font-bold text-slate-700 mb-3">{t("plan.budget")}</label>
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
           {BUDGETS.map((b) => (
             <button
@@ -160,7 +162,7 @@ function PlanForm() {
             >
               <div className="font-bold text-sm">{b.label}</div>
               <div className={`text-xs mt-0.5 ${budget === b.id ? "text-white/80" : "text-slate-400"}`}>
-                {b.desc}
+                {t(b.descKey)}
               </div>
             </button>
           ))}
@@ -169,7 +171,7 @@ function PlanForm() {
 
       {/* Interests */}
       <div>
-        <label className="block text-sm font-bold text-slate-700 mb-3">Interests</label>
+        <label className="block text-sm font-bold text-slate-700 mb-3">{t("plan.interests")}</label>
         <div className="flex flex-wrap gap-2">
           {INTERESTS.map((i) => (
             <button
@@ -181,7 +183,7 @@ function PlanForm() {
                   : "bg-white border-slate-200 text-slate-700 hover:border-slate-400"
               }`}
             >
-              {i.emoji} {i.id}
+              {i.emoji} {t(`plan.interest${i.id.replace("é", "e").replace(/[^a-zA-Z]/g, "")}`)}
             </button>
           ))}
         </div>
@@ -189,7 +191,7 @@ function PlanForm() {
 
       {/* Travel style */}
       <div>
-        <label className="block text-sm font-bold text-slate-700 mb-3">Travel Style</label>
+        <label className="block text-sm font-bold text-slate-700 mb-3">{t("plan.travelStyle")}</label>
         <div className="grid grid-cols-4 gap-3">
           {STYLES.map((s) => (
             <button
@@ -202,7 +204,7 @@ function PlanForm() {
               }`}
             >
               <div className="text-xl mb-0.5">{s.emoji}</div>
-              <div className="text-xs font-bold">{s.id}</div>
+              <div className="text-xs font-bold">{t(`plan.style${s.id}`)}</div>
             </button>
           ))}
         </div>
@@ -232,27 +234,26 @@ function PlanForm() {
               <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
               <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8H4z" />
             </svg>
-            Generating your itinerary…
+            {t("plan.generating")}
           </>
         ) : (
-          <>✨ Plan My Trip</>
+          <>{t("plan.generate")}</>
         )}
       </button>
     </div>
   );
 }
 
-export default function PlanPage() {
+function PlanPageInner() {
+  const { t } = useLocale();
   return (
     <div className="min-h-screen bg-slate-50">
       <Navbar />
 
       {/* Hero */}
       <div className="bg-[#E63946] text-white py-12 px-4 text-center">
-        <h1 className="text-3xl sm:text-4xl font-black mb-2">✨ Plan My Trip</h1>
-        <p className="text-white/80 text-base max-w-md mx-auto">
-          AI-powered day-by-day itineraries built from our curated city guides
-        </p>
+        <h1 className="text-3xl sm:text-4xl font-black mb-2">✨ {t("plan.title")}</h1>
+        <p className="text-white/80 text-base max-w-md mx-auto">{t("plan.subtitle")}</p>
       </div>
 
       <main className="max-w-3xl mx-auto px-4 py-10 pb-20">
@@ -271,4 +272,8 @@ export default function PlanPage() {
       </main>
     </div>
   );
+}
+
+export default function PlanPage() {
+  return <PlanPageInner />;
 }
