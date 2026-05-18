@@ -79,6 +79,7 @@ const FOOTER_LINKS = {
     { label: "🇫🇷 Paris", href: "/paris" },
     { label: "🇪🇸 Barcelona", href: "/barcelona" },
     { label: "🇮🇹 Rome", href: "/rome" },
+    { label: "🇲🇦 Marrakech", href: "/marrakech" },
     { label: "🇯🇵 Tokyo — soon", href: "#" },
   ],
 };
@@ -189,8 +190,8 @@ export default function HomePage() {
       <div className="relative z-20 max-w-2xl mx-auto px-4 -mt-14">
         <div className="bg-white rounded-2xl shadow-2xl border border-gray-100 px-6 py-6 grid grid-cols-3 divide-x divide-gray-100">
           {[
-            { icon: "📍", value: "3", labelKey: "home.citiesAvailable" },
-            { icon: "🍽️", value: "40+", labelKey: "home.placesListed" },
+            { icon: "📍", value: "4", labelKey: "home.citiesAvailable" },
+            { icon: "🍽️", value: "150+", labelKey: "home.placesListed" },
             { icon: "⭐", value: "4.8", labelKey: "home.avgRating" },
           ].map(({ icon, value, labelKey }) => (
             <div key={labelKey} className="text-center px-4">
@@ -345,6 +346,13 @@ export default function HomePage() {
               >
                 {t("home.exploreRome")}
               </Link>
+              <Link
+                href="/marrakech"
+                className="font-bold px-6 py-3 rounded-xl text-sm border-2 transition-colors hover:bg-red-50"
+                style={{ borderColor: RED, color: RED }}
+              >
+                {t("home.exploreMarrakech")}
+              </Link>
             </div>
           </div>
 
@@ -441,6 +449,7 @@ export default function HomePage() {
               { name: "🇫🇷 Paris", href: "/paris", live: true },
               { name: "🇪🇸 Barcelona", href: "/barcelona", live: true },
               { name: "🇮🇹 Rome", href: "/rome", live: true },
+              { name: "🇲🇦 Marrakech", href: "/marrakech", live: true },
               { name: "🇯🇵 Tokyo", href: "#", live: false },
               { name: "🇺🇸 New York", href: "#", live: false },
             ].map(({ name, href, live }) => (

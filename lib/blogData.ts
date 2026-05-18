@@ -1569,6 +1569,186 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "placeSlug": undefined
       }
     ]
+  },
+  {
+    "title": "48 Hours Food Guide in Marrakech",
+    "slug": "48-hours-food-guide-marrakech",
+    "city": "Marrakech",
+    "citySlug": "marrakech",
+    "category": "Restaurants",
+    "coverImage": "https://images.unsplash.com/photo-1597212618440-806262de4f0b?w=1200&q=80",
+    "publishedAt": "2026-05-15",
+    "readingTime": 9,
+    "metaDescription": "The only 48-hour Marrakech food guide you need — from harira at dawn to rooftop cocktails at midnight, with exact addresses and honest tips.",
+    "intro": "Forty-eight hours in Marrakech is both too short and exactly right. Too short because the medina keeps revealing new layers the longer you stay. Exactly right because two days — done properly — will take you from a bowl of harira at a street canteen to dinner in a candlelit riad palace, via a rooftop at sunset, a hammam scrub, and at least three glasses of freshly squeezed orange juice. This guide is for travelers who want to eat like someone who lives here, not someone passing through.",
+    "body": "## Why Marrakech for a 48-hour food trip\n\nMarrakech operates on two food tracks: the medina, where everything from a dirham pastry to a €200 tasting menu exists within a ten-minute walk, and Gueliz, the French-built new city where Moroccan cooking meets European brasserie culture. The best 48-hour strategy is to eat almost entirely in the medina, with one Gueliz breakfast and one rooftop sunset drink outside the walls. Budget €40–80 per person per day depending on how many riads you eat in.\n\n| Place | Price | Best For | Vibe |\n|-------|-------|----------|------|\n| Hadj Mustapha | € | Morning harira | Local canteen, no frills |\n| Café des Épices | € | Rooftop lunch break | Souk views, slow pacing |\n| Nomad | €€ | Sunset dinner | Modern Moroccan, terrace |\n| Dar Yacout | €€€€ | Ceremonial feast | Palace, theatrical |\n| Jemaa el-Fna stalls | € | Late-night street food | Chaotic, unforgettable |\n\n## Detailed Reviews\n\n### 1. Hadj Mustapha\n\nStart day one here at 8am. The harira — Morocco's thick tomato, lentil and chickpea soup — arrives in a clay bowl with a wedge of lemon and a stack of msemen pancakes. The room is a canteen with plastic chairs and a TV showing Al Jazeera. You will be the only tourist.\n\nThe **harira and msemen** costs around €1.50 and is one of the best breakfasts in Africa.\n\n**Best for:** Anyone who wants to eat breakfast like a Marrakchi resident\n**Local tip:** Come before 9am — by 10am the msemen runs out.\n\n### 2. Café des Épices\n\nPosition yourself on the third-floor rooftop of Café des Épices for lunch after a morning in the souks. The view over Rahba Lakdima — the spice square — is exactly what Marrakech looks like in your imagination before you arrive. Order the tagine and a fresh juice and take your time.\n\nThe **chicken tagine with preserved lemon** is around €8 and is honest, well-spiced cooking.\n\n**Best for:** A medina lunch with views and no rush\n**Local tip:** The top floor fills up first — go straight upstairs when you arrive.\n\n### 3. Nomad\n\nFor evening dinner on day one, Nomad is the best-balanced option in the medina — the rooftop views, the contemporary Moroccan cooking and the pricing all work together. The lamb merguez with preserved lemon and the bastilla with almonds are the dishes to order.\n\nExpect around **€25–35 per person** including drinks.\n\n**Best for:** First dinner in Marrakech — good food, great views, accessible price\n**Local tip:** Reserve the rooftop table 24 hours ahead. Ground floor walk-ins are usually fine.\n\n### 4. Dar Yacout\n\nOn evening two, surrender to the theatrical dinner at Dar Yacout. It begins on the roof with an aperitif watching the Koutoubia minaret light up against the darkening sky, then descends through candlelit courtyards to a dining room lined with Moorish plasterwork. The feast — bastilla, three tagines, couscous, dessert — takes two hours.\n\n**€60–80 per person** for the full experience with wine.\n\n**Best for:** The definitive Marrakech palace dining experience\n**Local tip:** Book at least 3 days ahead. Request a table in the main courtyard room, not the annexe.\n\n### 5. Jemaa el-Fna at Night\n\nAfter dinner, walk to the square. By 9pm, 100 food stalls have replaced the daytime snake charmers — smoke rising from grills, vendors calling from every direction. Order merguez, kefta, snails, or just stand and watch. It's overwhelming and completely worth it.\n\nExpect to spend **€5–10** if you eat at the stalls.\n\n**Best for:** The full sensory overload of Marrakech at its most alive\n**Local tip:** Stall 14 and Stall 32 are consistently recommended by locals for their kefta. Avoid anyone who grabs your arm to pull you toward their stall.\n\n## Local Tips for 48-hour Marrakech food\n\n- Freshly squeezed orange juice from the Jemaa el-Fna vendors costs €0.60 and is genuinely extraordinary. Drink three.\n- Pâtisserie des Princes on Rue Bab Agnaou is the best pastry stop — chebakia and cornes de gazelle for almost nothing.\n- Avoid restaurants directly on Jemaa el-Fna itself. Walk one street back for the same dishes at half the price.\n- All the good medina restaurants require navigation through unmarked alleys. Download maps.me offline before you arrive.\n\n## FAQ\n\n### Q: Is it safe to eat street food at Jemaa el-Fna?\nA: Yes, with normal judgment. The high-turnover stalls with lots of locals eating are fine. Avoid anything that's been sitting out visibly. The orange juice and the freshly grilled kefta are universally safe.\n\n### Q: How much should I budget for food in Marrakech per day?\nA: €25–40 gets you excellent local food — harira breakfasts, souk lunches, a good dinner. €60–80 covers one riad restaurant dinner. €100+ is for palace experiences like Dar Yacout or La Mamounia brunch.\n\n### Q: Do Marrakech restaurants serve alcohol?\nA: Many riad restaurants and upscale places do; traditional local cafés and halal restaurants don't. Nomad, Le Salama and Café Arabe all serve wine and cocktails.\n\n## The Verdict\n\n**Best for couples:** Dar Yacout for the theatrical dinner, Le Jardin for a romantic garden lunch.\n**Best for budget:** Hadj Mustapha for breakfast, Café des Épices for lunch, Jemaa el-Fna stalls for dinner — full day under €20.\n**Best for first-timers:** Nomad hits every note — location, views, food quality and accessible price.\n**Best for locals (or feeling like one):** Hadj Mustapha at 8am, then the Rahba Lakdima spice market, then Café des Épices rooftop.",
+    "places": [
+      {
+        "name": "Hadj Mustapha",
+        "description": "The most famous harira and msemen spot in the medina — a no-frills local canteen where Marrakchi residents queue every morning. The thick soup and fresh pancakes cost almost nothing and taste better than anything in a tourist restaurant.",
+        "address": "Rue Riad Zitoun el Kedim, Medina, Marrakech",
+        "rating": 4.7,
+        "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
+        "citySlug": "marrakech",
+        "placeSlug": "hadj-mustapha"
+      },
+      {
+        "name": "Café des Épices",
+        "description": "A three-floor café overlooking the Rahba Lakdima spice market. The rooftop terrace has the best lunch views in the medina — tagines and fresh juices served without the tourist markup.",
+        "address": "75 Rahba Lakdima, Medina, Marrakech",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=800&q=80",
+        "citySlug": "marrakech",
+        "placeSlug": "cafe-des-epices"
+      },
+      {
+        "name": "Nomad",
+        "description": "A modern Moroccan restaurant with a rooftop terrace overlooking the medina. Dishes reinvent traditional recipes with contemporary technique — the bastilla with almonds and merguez with preserved lemon are both exceptional.",
+        "address": "1 Derb Aarjane, Rahba Lakdima, Medina, Marrakech",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+        "citySlug": "marrakech",
+        "placeSlug": "nomad"
+      },
+      {
+        "name": "Dar Yacout",
+        "description": "A legendary palace restaurant where dinner is a full theatrical production — rooftop aperitifs, candlelit salons, and a ceremonial procession of bastilla, tagines and couscous. The building is a 1930s riad of extraordinary beauty.",
+        "address": "79 Sidi Ahmed Soussi, Medina, Marrakech",
+        "rating": 4.7,
+        "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
+        "citySlug": "marrakech",
+        "placeSlug": "dar-yacout"
+      },
+      {
+        "name": "Jemaa el-Fna",
+        "description": "The UNESCO-listed square transforms into a vast open-air restaurant every evening — hundreds of food stalls, smoke from a hundred grills, vendors calling from every direction. One of the great street food spectacles on earth.",
+        "address": "Place Jemaa el-Fna, Medina, Marrakech",
+        "rating": 4.8,
+        "image": "https://images.unsplash.com/photo-1597212618440-806262de4f0b?w=800&q=80",
+        "citySlug": "marrakech",
+        "placeSlug": "jemaa-el-fna"
+      }
+    ]
+  },
+  {
+    "title": "Where to Eat Near Jemaa el-Fna",
+    "slug": "where-to-eat-jemaa-el-fna",
+    "city": "Marrakech",
+    "citySlug": "marrakech",
+    "category": "Restaurants",
+    "coverImage": "https://images.unsplash.com/photo-1539650116574-75c0c6d73f6e?w=1200&q=80",
+    "publishedAt": "2026-05-16",
+    "readingTime": 7,
+    "metaDescription": "Skip the tourist traps on Jemaa el-Fna — five restaurants within 10 minutes of the square where the food is actually good.",
+    "intro": "Every guidebook tells you to eat on Jemaa el-Fna. Most of them are right about the atmosphere and wrong about the food. The stalls are worth one visit for the spectacle. For a proper meal, you want the streets just behind the square — within five minutes of the evening noise but insulated from the most aggressive touts. These five places are all within ten minutes of Jemaa el-Fna and all serve food worth sitting down for.",
+    "body": "## Why eat near Jemaa el-Fna\n\nJemaa el-Fna sits at the southern edge of the medina souks — it's the geographic center of tourist Marrakech, which means the restaurants immediately surrounding it are mostly overpriced and mediocre. The good food is one to three streets back: small riad restaurants, local canteens and rooftops that have views without the tourist premium. Budget €10–40 depending on whether you're eating at a canteen or a riad.\n\n| Place | Price | Best For | Vibe |\n|-------|-------|----------|------|\n| Le Salama | €€€ | Rooftop views of the square | Elegant, cocktails available |\n| Pâtisserie des Princes | € | Post-dinner pastries | Counter service, very local |\n| Hadj Mustapha | € | Authentic harira breakfast | Canteen, early morning |\n| Terrasse des Épices | €€ | Lunch with medina views | Relaxed rooftop |\n| Riad Kniza Restaurant | €€€€ | Ceremonial Moroccan feast | Intimate palace dining |\n\n## Detailed Reviews\n\n### 1. Le Salama\n\nLe Salama is four floors of Moroccan opulence on Rue des Banques, 90 seconds from the square's northeast corner. The rooftop bar has an unobstructed view of Jemaa el-Fna and is the best seat in Marrakech for watching the evening transformation. The restaurant floors below serve refined Moroccan classics — the slow-cooked lamb shoulder and the chicken bastilla are both excellent.\n\n**Budget: €35–50 per person** for dinner with cocktails.\n\n**Best for:** Watching Jemaa el-Fna from above while eating a real meal\n**Local tip:** Arrive at the rooftop 45 minutes before sunset and order drinks. Move to a dinner table once it gets dark.\n\n### 2. Pâtisserie des Princes\n\nOn Rue Bab Agnaou, two minutes from the square, this is the most celebrated traditional patisserie in Marrakech. It's not a sit-down restaurant — you queue at the counter, point at the chebakia and cornes de gazelle, and pay almost nothing. The freshly squeezed orange juice here costs €0.70.\n\n**Pastries: €0.30–1.50 each.** Order six.\n\n**Best for:** Post-dinner pastries and juice before or after the evening square visit\n**Local tip:** Combine with a post-dinner walk around the dark medina streets — the neighbourhood changes completely at 10pm.\n\n### 3. Hadj Mustapha\n\nFive minutes southeast of the square. For breakfast, this is the most authentic experience you'll find near Jemaa el-Fna — harira soup, msemen pancakes and mint tea at a plastic table among residents going to work. Nothing for tourists, nothing pretending to be anything other than what it is.\n\n**Breakfast for two: under €5.**\n\n**Best for:** The real local breakfast experience near the square\n**Local tip:** Before 9am the msemen is still warm from the griddle. After 10am you may find it's gone.\n\n### 4. Terrasse des Épices\n\nA ten-minute walk north through the souks, Terrasse des Épices is above Souk Cherifia with rooftop views over the medina. The menu is simple — tagines, salads, fresh juices — and the pace is deliberately slow. An excellent lunch spot after a morning shopping for lanterns and leather goods.\n\n**Lunch: €12–18 per person.**\n\n**Best for:** A slow lunch break during souk exploration\n**Local tip:** The afternoon breeze on the top terrace makes it the coolest lunch spot in the medina in summer.\n\n### 5. Riad Kniza Restaurant\n\nThe most serious Moroccan food near Jemaa el-Fna, inside one of the city's finest riads near Bab Doukkala. The bastilla au pigeon is the dish that defines ceremonial Moroccan cooking — paper-thin pastry, spiced pigeon, almonds and icing sugar. A meal here is an occasion, not just dinner.\n\n**Dinner: €50–70 per person.**\n\n**Best for:** A proper ceremonial Moroccan meal for a special evening\n**Local tip:** Book three or four days ahead. Request the courtyard table — the fountain and carved plasterwork are part of the experience.\n\n## Local Tips for eating near Jemaa el-Fna\n\n- Walk away from anyone who approaches you on the square offering to show you a restaurant. The real good places don't need touts.\n- The orange juice vendors on Jemaa el-Fna are the exception to the tourist-trap rule — the juice is genuinely good and costs almost nothing.\n- For a cheap dinner, the medina streets running east off the square — Rue Riad Zitoun el Kedim — have local canteens with tagines for €4–6.\n- Eat dinner late by Moroccan standards — 8:30–9:30pm is when locals eat and when the square is at its most alive.\n\n## FAQ\n\n### Q: Is the food on Jemaa el-Fna safe to eat?\nA: The high-turnover stalls are fine — grilled meats, snails, fresh juice. Avoid anything that has been sitting out. The spectacle is worth experiencing once even if the food is not exceptional.\n\n### Q: What's the best restaurant with a view of Jemaa el-Fna?\nA: Le Salama on Rue des Banques has the best rooftop view of the square and the best food. It's worth the higher price for an evening when you want to watch the square from above.\n\n### Q: Are there halal restaurants near Jemaa el-Fna?\nA: The vast majority of restaurants in the medina are halal — Morocco is 99% Muslim and pork and alcohol are not the norm. Hadj Mustapha, Terrasse des Épices and the square stalls are all halal.\n\n## The Verdict\n\n**Best for couples:** Le Salama rooftop at sunset — order cocktails and watch the square transform.\n**Best for budget:** Jemaa el-Fna stalls for the spectacle, then Hadj Mustapha next morning for the best €1.50 breakfast in Africa.\n**Best for first-timers:** Le Salama for the view first, then walk down to the square after dinner.\n**Best for locals (or feeling like one):** Hadj Mustapha at 8am, Pâtisserie des Princes at night.",
+    "places": [
+      {
+        "name": "Le Salama",
+        "description": "Four floors of Moroccan elegance on Rue des Banques with a rooftop terrace overlooking Jemaa el-Fna. The view at sunset is exceptional; the slow-cooked lamb and bastilla are both worth ordering.",
+        "address": "40 Rue des Banques, Medina, Marrakech",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?w=800&q=80",
+        "citySlug": "marrakech",
+        "placeSlug": "le-salama"
+      },
+      {
+        "name": "Pâtisserie des Princes",
+        "description": "The most celebrated traditional patisserie in Marrakech — counter service only, queue at the glass case and point. Chebakia, cornes de gazelle and €0.70 fresh orange juice. Mandatory.",
+        "address": "32 Rue Bab Agnaou, Medina, Marrakech",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1558326567-98ae2405596b?w=800&q=80",
+        "citySlug": "marrakech",
+        "placeSlug": "patisserie-des-princes"
+      },
+      {
+        "name": "Hadj Mustapha",
+        "description": "The authentic local breakfast spot near Jemaa el-Fna — harira soup and msemen at a plastic table among residents going to work. The most genuine food experience you will find near the square.",
+        "address": "Rue Riad Zitoun el Kedim, Medina, Marrakech",
+        "rating": 4.7,
+        "image": "https://images.unsplash.com/photo-1562802378-063ec186a863?w=800&q=80",
+        "citySlug": "marrakech",
+        "placeSlug": "hadj-mustapha"
+      },
+      {
+        "name": "Terrasse des Épices",
+        "description": "A relaxed rooftop restaurant above Souk Cherifia serving simple Moroccan plates and fresh juices. The afternoon breeze and souk views make it the best slow lunch spot in the medina.",
+        "address": "15 Souk Cherifia, Sidi Abdelaziz, Medina, Marrakech",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
+        "citySlug": "marrakech",
+        "placeSlug": "terrasse-des-epices"
+      },
+      {
+        "name": "Riad Kniza Restaurant",
+        "description": "The most serious Moroccan cuisine near Jemaa el-Fna — ceremonial cooking inside one of the city's finest riads. The bastilla au pigeon is the benchmark dish for traditional Marrakchi hospitality.",
+        "address": "34 Derb l'Hotel, Bab Doukkala, Medina, Marrakech",
+        "rating": 4.9,
+        "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&q=80",
+        "citySlug": "marrakech",
+        "placeSlug": "riad-kniza-restaurant"
+      }
+    ]
+  },
+  {
+    "title": "Best Sunset Terraces in Marrakech",
+    "slug": "best-sunset-terraces-marrakech",
+    "city": "Marrakech",
+    "citySlug": "marrakech",
+    "category": "Bars",
+    "coverImage": "https://images.unsplash.com/photo-1568358877056-8ad1ab4ee4ec?w=1200&q=80",
+    "publishedAt": "2026-05-17",
+    "readingTime": 7,
+    "metaDescription": "Five sunset terraces in Marrakech ranked honestly — from the Koutoubia view at Kabana to the panoramic sweep at Es Saadi. With timings and honest prices.",
+    "intro": "Marrakech at sunset is one of the great travel experiences — the Koutoubia minaret silhouetted against an orange sky, the Atlas Mountains turning purple behind the palm groves, the calls to prayer layering across the medina from a dozen mosques. To see all of this you need to be on a rooftop. Not all rooftops are equal. These five are the best — with different views, different price points and different vibes.",
+    "body": "## Why Marrakech for sunset terraces\n\nMarrakech's geography — the walled medina surrounded by a flat palm grove with the Atlas Mountains 60km south — creates one of the most dramatic urban sunset panoramas in the world. The Koutoubia minaret is the focal point: every good rooftop in the medina has a line on it. The best arrive by 6pm in summer, 5pm in winter. Drinks typically run €8–15 a cocktail at the higher-end spots.\n\n| Place | Price | Best For | Vibe |\n|-------|-------|----------|------|\n| Sky Bar at Es Saadi | €€€ | Panoramic 360° views | Smart, DJ evenings |\n| Le Salama Rooftop | €€€ | Jemaa el-Fna at dusk | Elegant, cocktail-forward |\n| Kabana Rooftop | €€ | Koutoubia close-up | Casual, accessible |\n| Kosybar | €€ | Badi Palace and storks | Jazz nights, character |\n| Rooftop at Nomad | €€ | Medina roofscape | Relaxed, halal-friendly |\n\n## Detailed Reviews\n\n### 1. Sky Bar at Es Saadi\n\nThe highest rooftop bar in Marrakech, on top of the Es Saadi hotel in Hivernage. The 360° panorama takes in the Atlas Mountains to the south, the Koutoubia to the east and the Menara Gardens to the west — a sweep you cannot see from any single medina rooftop. The crowd dresses up and the cocktails are well-made if expensive.\n\n**Cocktails: €14–18.** Dress code enforced after 9pm.\n\n**Best for:** The widest panoramic view in Marrakech\n**Local tip:** Arrive 45 minutes before sunset and take a corner table. The mountain views disappear once the sky darkens.\n\n### 2. Le Salama Rooftop\n\nThe rooftop terrace at Le Salama on Rue des Banques is three floors above street level with a clear sightline over the rooftops to Jemaa el-Fna below and the Koutoubia beyond. Watching the square come alive from above — the food stalls assembling, the smoke rising — while drinking a Moroccan gin cocktail is one of the best moments Marrakech offers.\n\n**Cocktails: €10–14.** Dinner menu available if you stay.\n\n**Best for:** Watching Jemaa el-Fna transform at dusk from above\n**Local tip:** The southeast corner of the terrace has the best angle on the square. It fills fast — arrive early.\n\n### 3. Kabana Rooftop\n\nOn Rue de la Kasbah in the southern medina, Kabana is the most accessible rooftop for a Koutoubia view — the minaret is close enough to photograph without a telephoto lens and the crowd is relaxed. Less fashionable than Sky Bar but less expensive and less effort to reach from the medina.\n\n**Cocktails: €8–12.** Food menu runs until late.\n\n**Best for:** A relaxed Koutoubia sunset without formality or high prices\n**Local tip:** The terrace fills quickly after 5:30pm — walk-ins are fine before 5pm, after that it gets competitive for tables.\n\n### 4. Kosybar\n\nOn Place des Ferblantiers in the southern medina, Kosybar has a rooftop terrace overlooking the ruins of El Badi Palace — with real live storks nesting on the ancient walls. The storks make it unique. Jazz evenings run most Thursdays and the cocktails are good. A more characterful choice than the view-focused bars.\n\n**Cocktails: €9–13.** Jazz evenings from 8pm most Thursdays.\n\n**Best for:** Character and uniqueness — the stork-nested palace walls are unlike anything else\n**Local tip:** The Thursday jazz evenings draw a local crowd and are worth planning around. Arrive before 7pm for a table.\n\n### 5. Rooftop at Nomad\n\nThe most accessible rooftop in the central medina — halal-friendly (excellent mocktails), genuine medina roofscape views, and a kitchen that stays open so you can turn sunset drinks into dinner. The Atlas Mountains are visible on clear days. Less dramatic than Es Saadi but far more convenient for medina-based travelers.\n\n**Mocktails/soft drinks: €4–7. Dinner: €25–35.**\n\n**Best for:** A halal-friendly sunset spot with good food available\n**Local tip:** The northwest corner of the rooftop catches the last light. If you want the Atlas Mountain view, ask for a south-facing table.\n\n## Local Tips for Marrakech sunset terraces\n\n- Sunset in Marrakech falls between 6:30pm (winter) and 8:30pm (summer). Adjust your arrival time accordingly — Google the exact sunset time for your visit date.\n- Most terraces have a one-drink minimum or will push you off the table if you don't order. Budget for at least two drinks per person.\n- The Koutoubia minaret lights up at dusk — the illuminated minaret against the dark sky is the classic Marrakech evening image.\n- Rooftop terrace covers can appear suddenly in hot weather — request an open-air table explicitly when you arrive.\n\n## FAQ\n\n### Q: Which Marrakech rooftop has the best view of the Koutoubia?\nA: Kabana Rooftop is closest and most direct. Le Salama has a slightly more distant view but the combination with Jemaa el-Fna below is more dramatic.\n\n### Q: Do Marrakech rooftop bars require reservations?\nA: Sky Bar at Es Saadi is worth booking, especially Friday and Saturday evenings. The others are generally walk-in before 6pm — after that, arrival time determines whether you get a view table.\n\n### Q: Are there alcohol-free rooftop options in Marrakech?\nA: Nomad's rooftop is fully halal-friendly with excellent fresh juice and mocktail options. Terrasse des Épices also serves non-alcoholic drinks only.\n\n## The Verdict\n\n**Best for couples:** Le Salama rooftop at sunset with cocktails and the Jemaa el-Fna transformation below.\n**Best for budget:** Nomad rooftop — great views, honest prices, food available.\n**Best for first-timers:** Kabana Rooftop — Koutoubia view, central location, no formality.\n**Best for locals (or feeling like one):** Kosybar on a Thursday jazz evening — the stork palace setting and the local crowd are genuinely special.",
+    "places": [
+      {
+        "name": "Sky Bar at Es Saadi",
+        "description": "The highest rooftop in Marrakech with a 360° panorama spanning the Atlas Mountains, the Koutoubia minaret and the Menara Gardens. Smart crowd, well-made cocktails, dress code enforced.",
+        "address": "Rue Ibrahim El Mazini, Hivernage, Marrakech",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=800&q=80",
+        "citySlug": "marrakech",
+        "placeSlug": "sky-bar-es-saadi"
+      },
+      {
+        "name": "Le Salama",
+        "description": "A rooftop terrace on Rue des Banques with a sightline directly over Jemaa el-Fna — the view of the square assembling for the evening, from above, is one of the great Marrakech experiences.",
+        "address": "40 Rue des Banques, Medina, Marrakech",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
+        "citySlug": "marrakech",
+        "placeSlug": "le-salama"
+      },
+      {
+        "name": "Kabana Rooftop",
+        "description": "The most accessible Koutoubia-view rooftop in the southern medina — casual, reasonably priced, and close enough to the minaret to photograph it properly. Good cocktails and a food menu.",
+        "address": "65 Rue de la Kasbah, Medina, Marrakech",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1482632322416-818e7e3e58ce?w=800&q=80",
+        "citySlug": "marrakech",
+        "placeSlug": "kabana-rooftop"
+      },
+      {
+        "name": "Kosybar",
+        "description": "A rooftop café-bar on Place des Ferblantiers overlooking El Badi Palace ruins and the stork nests on the ancient walls. Thursday jazz evenings draw a local crowd. Cocktails are good.",
+        "address": "47 Place des Ferblantiers, Medina, Marrakech",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1453614512568-c4024d13c247?w=800&q=80",
+        "citySlug": "marrakech",
+        "placeSlug": "kosybar"
+      },
+      {
+        "name": "Rooftop at Nomad",
+        "description": "The best halal-friendly rooftop in the central medina — mocktails, medina roofscape views and a full dinner menu. Accessible, relaxed and one of the most honest value terraces in Marrakech.",
+        "address": "1 Derb Aarjane, Rahba Lakdima, Medina, Marrakech",
+        "rating": 4.7,
+        "image": "https://images.unsplash.com/photo-1543007631-283050bb3e8c?w=800&q=80",
+        "citySlug": "marrakech",
+        "placeSlug": "rooftop-nomad"
+      }
+    ]
   }
 ];
 

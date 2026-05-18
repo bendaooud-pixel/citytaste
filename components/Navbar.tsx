@@ -8,6 +8,7 @@ const CITIES = [
   { label: "🇫🇷 Paris",     href: "/paris" },
   { label: "🇪🇸 Barcelona", href: "/barcelona" },
   { label: "🇮🇹 Rome",      href: "/rome" },
+  { label: "🇲🇦 Marrakech", href: "/marrakech" },
 ];
 
 export default function Navbar() {

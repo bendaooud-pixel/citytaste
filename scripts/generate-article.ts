@@ -81,6 +81,18 @@ const TOPICS = [
   { slug: "lebanese-food-rome",                city: "Rome",      citySlug: "rome",      category: "Restaurants", title: "Top Lebanese Food in Rome" },
   { slug: "vegetarian-restaurants-rome",       city: "Rome",      citySlug: "rome",      category: "Restaurants", title: "Best Vegetarian Restaurants in Rome" },
   { slug: "hidden-gems-pigneto-rome",          city: "Rome",      citySlug: "rome",      category: "Restaurants", title: "Hidden Gems in Pigneto Neighbourhood Rome" },
+
+  // ── Marrakech (10) ──
+  { slug: "best-riads-eat-marrakech",          city: "Marrakech", citySlug: "marrakech", category: "Restaurants", title: "Best Riads to Eat in Marrakech" },
+  { slug: "top-rooftop-bars-marrakech",        city: "Marrakech", citySlug: "marrakech", category: "Bars",        title: "Top Rooftop Bars in Marrakech" },
+  { slug: "best-hammam-marrakech",             city: "Marrakech", citySlug: "marrakech", category: "Activities",  title: "Best Hammam Experiences in Marrakech" },
+  { slug: "hidden-restaurants-medina",         city: "Marrakech", citySlug: "marrakech", category: "Restaurants", title: "Hidden Restaurants in Marrakech Medina" },
+  { slug: "best-street-food-jemaa-el-fna",     city: "Marrakech", citySlug: "marrakech", category: "Street Food", title: "Best Street Food in Jemaa el-Fna" },
+  { slug: "marrakech-cafes-mint-tea",          city: "Marrakech", citySlug: "marrakech", category: "Cafés",       title: "Best Cafés for Mint Tea in Marrakech" },
+  { slug: "moroccan-cooking-classes",          city: "Marrakech", citySlug: "marrakech", category: "Activities",  title: "Best Moroccan Cooking Classes in Marrakech" },
+  { slug: "romantic-restaurants-marrakech",    city: "Marrakech", citySlug: "marrakech", category: "Romantic",    title: "Most Romantic Restaurants in Marrakech" },
+  { slug: "marrakech-souks-food-shopping",     city: "Marrakech", citySlug: "marrakech", category: "Markets",     title: "Best Souks for Food Shopping in Marrakech" },
+  { slug: "brunch-marrakech-best-spots",       city: "Marrakech", citySlug: "marrakech", category: "Brunch",      title: "Best Brunch Spots in Marrakech" },
 ];
 
 type Topic = typeof TOPICS[0];
