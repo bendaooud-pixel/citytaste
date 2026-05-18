@@ -1,33 +1,52 @@
 import { NextResponse } from "next/server";
 
-const GKEY = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY;
-const PLACES_BASE = "https://maps.googleapis.com/maps/api/place";
+const FSQ_KEY = process.env.FOURSQUARE_API_KEY;
+const FSQ_BASE = "https://api.foursquare.com/v3/places/search";
 
-// ── Types ────────────────────────────────────────────────────────────────────
-interface GNearbyResult {
-  place_id: string;
-  name: string;
-  vicinity: string;
-  geometry: { location: { lat: number; lng: number } };
-  rating?: number;
-  user_ratings_total?: number;
-  price_level?: number;
-  opening_hours?: { open_now: boolean };
-  photos?: { photo_reference: string }[];
-  types: string[];
+// ── Foursquare category IDs ───────────────────────────────────────────────────
+const CATEGORY_IDS: Record<string, string> = {
+  restaurant:          "13065", // Restaurant
+  cafe:                "13032", // Coffee Shop
+  bar:                 "13003", // Bar
+  tourist_attraction:  "16019", // Tourist Attraction
+};
+
+// ── Foursquare raw result shape ───────────────────────────────────────────────
+interface FsqPhoto {
+  prefix: string;
+  suffix: string;
+  width: number;
+  height: number;
 }
 
+interface FsqResult {
+  fsq_id: string;
+  name: string;
+  location: { formatted_address?: string; address?: string };
+  geocodes: { main: { latitude: number; longitude: number } };
+  rating?: number;           // 0–10
+  stats?: { total_ratings?: number };
+  price?: number;            // 1–4
+  hours?: { open_now?: boolean };
+  photos?: FsqPhoto[];
+  categories?: { name: string }[];
+}
+
+// ── Public types consumed by the page ─────────────────────────────────────────
 export interface NearMePlace {
   placeId: string;
   name: string;
   vicinity: string;
   lat: number;
   lng: number;
+  /** Rating on a 0–5 scale (converted from Foursquare's 0–10). */
   rating: number | null;
   userRatingsTotal: number;
+  /** 1–4, matching Foursquare's price tier. */
   priceLevel: number | null;
   openNow: boolean | null;
-  photoRef: string | null;
+  /** Direct CDN URL — no proxy needed (Foursquare photos are public). */
+  photoUrl: string | null;
   types: string[];
 }
 
@@ -37,31 +56,34 @@ export interface NearMeResponse {
   neighborhood: string;
 }
 
-// ── Reverse geocode: extract locality + sublocality from latlng ───────────────
+// ── Reverse geocode via Nominatim (free, no key needed) ───────────────────────
 async function reverseGeocode(lat: string, lng: string): Promise<{ cityName: string; neighborhood: string }> {
   try {
-    const url =
-      `${PLACES_BASE.replace("/place", "")}/geocode/json` +
-      `?latlng=${lat},${lng}&key=${GKEY}&result_type=locality|sublocality|neighborhood`;
-    const res = await fetch(url, { next: { revalidate: 0 } });
-    const data = await res.json();
-
-    let cityName = "";
-    let neighborhood = "";
-
-    for (const result of data.results ?? []) {
-      for (const component of result.address_components ?? []) {
-        if (!cityName && component.types.includes("locality")) cityName = component.long_name;
-        if (!neighborhood && component.types.includes("sublocality_level_1")) neighborhood = component.long_name;
-        if (!neighborhood && component.types.includes("neighborhood")) neighborhood = component.long_name;
+    const res = await fetch(
+      `https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lng}&format=json&zoom=12`,
+      {
+        headers: { "User-Agent": "CityTaste/1.0 (contact@citytaste.co)" },
+        next: { revalidate: 3600 },
       }
-      if (cityName) break;
-    }
-
-    return { cityName: cityName || "your location", neighborhood };
+    );
+    const data = await res.json();
+    const addr = data.address ?? {};
+    const cityName =
+      addr.city || addr.town || addr.village || addr.county || addr.state || "your location";
+    const neighborhood =
+      addr.suburb || addr.neighbourhood || addr.quarter || addr.district || "";
+    return { cityName, neighborhood };
   } catch {
     return { cityName: "your location", neighborhood: "" };
   }
+}
+
+// ── Build a Foursquare photo URL ───────────────────────────────────────────────
+function buildPhotoUrl(photo: FsqPhoto | undefined): string | null {
+  if (!photo) return null;
+  const w = Math.min(photo.width, 800);
+  const h = Math.round((w / photo.width) * photo.height);
+  return `${photo.prefix}${w}x${h}${photo.suffix}`;
 }
 
 // ── Route handler ─────────────────────────────────────────────────────────────
@@ -76,53 +98,59 @@ export async function GET(req: Request) {
     return NextResponse.json({ error: "lat and lng are required" }, { status: 400 });
   }
 
-  if (!GKEY) {
+  if (!FSQ_KEY) {
     return NextResponse.json(
-      { error: "NEXT_PUBLIC_GOOGLE_MAPS_API_KEY is not configured" },
+      { error: "FOURSQUARE_API_KEY is not configured in .env.local" },
       { status: 500 }
     );
   }
 
-  // Nearby Search + Reverse geocode in parallel
-  const nearbyUrl =
-    `${PLACES_BASE}/nearbysearch/json` +
-    `?location=${lat},${lng}&radius=${radius}&type=${type}&rankby=prominence&key=${GKEY}`;
+  const categoryId = CATEGORY_IDS[type] ?? CATEGORY_IDS.restaurant;
 
-  const [nearbyRes, geoResult] = await Promise.all([
-    fetch(nearbyUrl, { next: { revalidate: 0 } }),
+  const url =
+    `${FSQ_BASE}` +
+    `?ll=${lat},${lng}` +
+    `&radius=${radius}` +
+    `&categories=${categoryId}` +
+    `&limit=20` +
+    `&sort=RELEVANCE` +
+    `&fields=fsq_id,name,location,geocodes,rating,stats,photos,hours,price,categories`;
+
+  const [placesRes, geoResult] = await Promise.all([
+    fetch(url, {
+      headers: { Authorization: FSQ_KEY, Accept: "application/json" },
+      next: { revalidate: 0 },
+    }),
     reverseGeocode(lat, lng),
   ]);
 
-  const nearbyData = await nearbyRes.json();
-
-  if (nearbyData.status !== "OK" && nearbyData.status !== "ZERO_RESULTS") {
+  if (!placesRes.ok) {
+    const text = await placesRes.text();
     return NextResponse.json(
-      { error: `Google Places API: ${nearbyData.status}`, detail: nearbyData.error_message ?? null },
+      { error: `Foursquare API error ${placesRes.status}`, detail: text },
       { status: 502 }
     );
   }
 
-  const raw: GNearbyResult[] = nearbyData.results ?? [];
+  const data = await placesRes.json();
+  const raw: FsqResult[] = data.results ?? [];
 
-  const places: NearMePlace[] = raw.slice(0, 20).map((r) => ({
-    placeId: r.place_id,
+  const places: NearMePlace[] = raw.map((r) => ({
+    placeId: r.fsq_id,
     name: r.name,
-    vicinity: r.vicinity,
-    lat: r.geometry.location.lat,
-    lng: r.geometry.location.lng,
-    rating: r.rating ?? null,
-    userRatingsTotal: r.user_ratings_total ?? 0,
-    priceLevel: r.price_level ?? null,
-    openNow: r.opening_hours?.open_now ?? null,
-    photoRef: r.photos?.[0]?.photo_reference ?? null,
-    types: r.types ?? [],
+    vicinity: r.location?.formatted_address || r.location?.address || "",
+    lat: r.geocodes?.main?.latitude ?? 0,
+    lng: r.geocodes?.main?.longitude ?? 0,
+    // Foursquare rates 0–10; convert to 0–5 for display consistency
+    rating: r.rating != null ? parseFloat((r.rating / 2).toFixed(1)) : null,
+    userRatingsTotal: r.stats?.total_ratings ?? 0,
+    priceLevel: r.price ?? null,
+    openNow: r.hours?.open_now ?? null,
+    photoUrl: buildPhotoUrl(r.photos?.[0]),
+    types: r.categories?.map((c) => c.name) ?? [],
   }));
 
-  const response: NearMeResponse = {
-    places,
-    cityName: geoResult.cityName,
-    neighborhood: geoResult.neighborhood,
-  };
+  const response: NearMeResponse = { places, cityName: geoResult.cityName, neighborhood: geoResult.neighborhood };
 
   return NextResponse.json(response, {
     headers: { "Cache-Control": "no-store" },

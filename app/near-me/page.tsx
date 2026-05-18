@@ -43,9 +43,7 @@ function GooglePlaceCard({
   place: NearMePlace;
   distM: number;
 }) {
-  const photoSrc = place.photoRef
-    ? `/api/near-me/photo?ref=${encodeURIComponent(place.photoRef)}&maxwidth=600`
-    : null;
+  const photoSrc = place.photoUrl ?? null;
 
   const mapsUrl = `https://www.google.com/maps/place/?q=place_id:${place.placeId}`;
 
@@ -239,9 +237,9 @@ function NearMeContent() {
       {error && (
         <div className="bg-red-50 border border-red-200 text-red-700 rounded-xl p-4 mb-6 text-sm">
           <strong>Error:</strong> {error}
-          {error.includes("GOOGLE_MAPS_API_KEY") && (
+          {error.includes("FOURSQUARE_API_KEY") && (
             <p className="mt-1 text-xs text-red-500">
-              Add <code className="font-mono">NEXT_PUBLIC_GOOGLE_MAPS_API_KEY</code> to your <code>.env.local</code> file.
+              Add <code className="font-mono">FOURSQUARE_API_KEY</code> to your <code>.env.local</code> file.
             </p>
           )}
         </div>
