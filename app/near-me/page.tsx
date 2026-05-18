@@ -159,13 +159,22 @@ function NearMeContent() {
     if (!hasLocation) return;
     setLoading(true);
     setError(null);
+
     fetch(`/api/near-me?lat=${lat}&lng=${lng}&type=${selectedType}&radius=1500`)
-      .then((r) => r.json())
-      .then((d) => {
-        if (d.error) throw new Error(d.error);
-        setData(d);
+      .then(async (r) => {
+        const text = await r.text();
+        if (!text.trim()) throw new Error(`Empty response from server (HTTP ${r.status})`);
+        let d: NearMeResponse & { error?: string; detail?: string };
+        try {
+          d = JSON.parse(text);
+        } catch {
+          throw new Error(`Server returned non-JSON (HTTP ${r.status}): ${text.slice(0, 120)}`);
+        }
+        if (d.error) throw new Error(d.detail ? `${d.error} — ${d.detail}` : d.error);
+        return d;
       })
-      .catch((e) => setError(e.message))
+      .then((d) => setData(d))
+      .catch((e: Error) => setError(e.message))
       .finally(() => setLoading(false));
   }, [lat, lng, selectedType, hasLocation]);
 
