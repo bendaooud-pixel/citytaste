@@ -15,6 +15,8 @@ import RatingsBar from "@/components/ui/RatingsBar";
 import PlaceBadge from "@/components/ui/PlaceBadge";
 import BookingButtons from "@/components/ui/BookingButtons";
 import { getBadges } from "@/lib/badges";
+import UserReviews from "@/components/UserReviews";
+import ReviewForm from "@/components/ReviewForm";
 
 const PRICE_LABEL = ["", "$", "$$", "$$$", "$$$$"];
 const DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
@@ -242,6 +244,8 @@ export default async function PlaceDetailPage({ params }: Props) {
                   ))}
                 </div>
               </div>
+              <UserReviews placeSlug={placeSlug} />
+              <ReviewForm placeSlug={placeSlug} />
             </div>
 
             {/* ── Right column ── */}
