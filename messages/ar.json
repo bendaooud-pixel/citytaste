@@ -1,0 +1,106 @@
+{
+  "nav": {
+    "home": "الرئيسية",
+    "cities": "المدن",
+    "blog": "المدونة",
+    "plan": "خطط رحلتي"
+  },
+  "buttons": {
+    "viewMenu": "عرض القائمة",
+    "bookNow": "احجز الآن",
+    "reserve": "احجز",
+    "save": "حفظ",
+    "share": "مشاركة",
+    "openMaps": "فتح في الخرائط",
+    "loadMore": "تحميل المزيد",
+    "findNearMe": "البحث عن أماكن قريبة",
+    "planTrip": "خطط رحلتي بالذكاء الاصطناعي",
+    "search": "بحث",
+    "submit": "إرسال التقييم",
+    "newPlan": "خطة جديدة",
+    "print": "طباعة"
+  },
+  "labels": {
+    "openNow": "مفتوح الآن",
+    "closed": "مغلق",
+    "rating": "التقييم",
+    "price": "السعر",
+    "category": "الفئة",
+    "halal": "حلال",
+    "familyFriendly": "مناسب للعائلات",
+    "terrace": "تراس",
+    "romantic": "رومانسي",
+    "total": "إجمالي"
+  },
+  "home": {
+    "heroTitle": "اكتشف أفضل المطاعم في كل مدينة",
+    "heroSubtitle": "دليلك الشامل للمطاعم والمقاهي والمعالم السياحية والجواهر الخفية",
+    "searchPlaceholder": "نوع المطبخ، اسم المطعم…",
+    "locationHint": "باريس، برشلونة، روما"
+  },
+  "filters": {
+    "all": "الكل",
+    "sortBy": "ترتيب حسب",
+    "minRating": "أدنى تقييم",
+    "maxPrice": "أقصى سعر",
+    "apply": "تطبيق الفلاتر",
+    "reset": "إعادة تعيين"
+  },
+  "place": {
+    "openingHours": "ساعات العمل",
+    "guestReviews": "آراء الضيوف",
+    "communityReviews": "آراء المجتمع",
+    "location": "الموقع",
+    "about": "عن المكان",
+    "info": "المعلومات والتواصل",
+    "relatedPlaces": "قد يعجبك أيضًا",
+    "shareExperience": "شارك تجربتك",
+    "officialWebsite": "الموقع الرسمي"
+  },
+  "review": {
+    "yourName": "اسمك",
+    "yourReview": "تقييمك",
+    "visited": "متى زرت هذا المكان؟",
+    "optional": "اختياري",
+    "minChars": "20 حرفًا على الأقل",
+    "submitting": "جارٍ الإرسال…",
+    "successTitle": "شكرًا لتقييمك!",
+    "successBody": "تجربتك تساعد المسافرين الآخرين على اكتشاف أماكن رائعة.",
+    "writeAnother": "اكتب تقييمًا آخر",
+    "noReviews": "لا توجد تقييمات مجتمعية بعد",
+    "beFirst": "كن أول من يشارك تجربته!"
+  },
+  "categories": {
+    "restaurants": "مطاعم",
+    "cafes": "مقاهي",
+    "brunch": "برانش",
+    "halal": "حلال",
+    "cheap-eats": "أسعار معقولة",
+    "romantic": "رومانسي",
+    "family-friendly": "عائلي",
+    "patisseries": "حلويات فرنسية",
+    "monuments": "معالم سياحية",
+    "activities": "أنشطة",
+    "markets": "أسواق",
+    "desserts": "حلويات",
+    "bars": "بارات وأسطح",
+    "museums": "متاحف"
+  },
+  "plan": {
+    "title": "خطط رحلتي",
+    "subtitle": "برامج سياحية يومية مدعومة بالذكاء الاصطناعي من أدلة المدن المنتقاة",
+    "selectCity": "اختر المدينة",
+    "numberOfDays": "عدد الأيام",
+    "budget": "الميزانية اليومية",
+    "interests": "الاهتمامات",
+    "travelStyle": "أسلوب السفر",
+    "generate": "خطط رحلتي",
+    "generating": "جارٍ إنشاء البرنامج السياحي…",
+    "newPlan": "خطة جديدة",
+    "localTips": "نصائح محلية",
+    "day": "اليوم",
+    "morning": "الصباح",
+    "afternoon": "بعد الظهر",
+    "evening": "المساء"
+  }
+}

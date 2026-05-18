@@ -1,0 +1,106 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "cities": "Ciudades",
+    "blog": "Blog",
+    "plan": "Planear mi viaje"
+  },
+  "buttons": {
+    "viewMenu": "Ver menú",
+    "bookNow": "Reservar ahora",
+    "reserve": "Reservar",
+    "save": "Guardar",
+    "share": "Compartir",
+    "openMaps": "Abrir en Maps",
+    "loadMore": "Cargar más",
+    "findNearMe": "Encontrar lugares cercanos",
+    "planTrip": "Planear con IA",
+    "search": "Buscar",
+    "submit": "Enviar reseña",
+    "newPlan": "Nuevo plan",
+    "print": "Imprimir"
+  },
+  "labels": {
+    "openNow": "Abierto ahora",
+    "closed": "Cerrado",
+    "rating": "Valoración",
+    "price": "Precio",
+    "category": "Categoría",
+    "halal": "Halal",
+    "familyFriendly": "Apto para familias",
+    "terrace": "Terraza",
+    "romantic": "Romántico",
+    "total": "total"
+  },
+  "home": {
+    "heroTitle": "DESCUBRE LA MEJOR COMIDA EN CADA CIUDAD",
+    "heroSubtitle": "Tu guía definitiva de restaurantes, cafés, monumentos y joyas ocultas",
+    "searchPlaceholder": "Tipo de cocina, nombre del restaurante…",
+    "locationHint": "París, Barcelona, Roma"
+  },
+  "filters": {
+    "all": "Todos",
+    "sortBy": "Ordenar por",
+    "minRating": "Valoración mínima",
+    "maxPrice": "Precio máximo",
+    "apply": "Aplicar filtros",
+    "reset": "Restablecer"
+  },
+  "place": {
+    "openingHours": "Horario de apertura",
+    "guestReviews": "Reseñas de clientes",
+    "communityReviews": "Reseñas de la comunidad",
+    "location": "Ubicación",
+    "about": "Sobre el lugar",
+    "info": "Info y Contacto",
+    "relatedPlaces": "También te puede gustar",
+    "shareExperience": "Comparte tu experiencia",
+    "officialWebsite": "Sitio web oficial"
+  },
+  "review": {
+    "yourName": "Tu nombre",
+    "yourReview": "Tu reseña",
+    "visited": "¿Cuándo visitaste?",
+    "optional": "opcional",
+    "minChars": "Mínimo 20 caracteres",
+    "submitting": "Enviando…",
+    "successTitle": "¡Gracias por tu reseña!",
+    "successBody": "Tu experiencia ayuda a otros viajeros a descubrir grandes lugares.",
+    "writeAnother": "Escribir otra reseña",
+    "noReviews": "Aún no hay reseñas de la comunidad",
+    "beFirst": "¡Sé el primero en compartir tu experiencia!"
+  },
+  "categories": {
+    "restaurants": "Restaurantes",
+    "cafes": "Cafés",
+    "brunch": "Brunch",
+    "halal": "Halal",
+    "cheap-eats": "Económico",
+    "romantic": "Romántico",
+    "family-friendly": "Familiar",
+    "patisseries": "Pastelerías",
+    "monuments": "Monumentos",
+    "activities": "Actividades",
+    "markets": "Mercados",
+    "desserts": "Postres",
+    "bars": "Bares & Azoteas",
+    "museums": "Museos"
+  },
+  "plan": {
+    "title": "Planear mi viaje",
+    "subtitle": "Itinerarios día a día generados por IA con nuestras guías de ciudades",
+    "selectCity": "Seleccionar ciudad",
+    "numberOfDays": "Número de días",
+    "budget": "Presupuesto por día",
+    "interests": "Intereses",
+    "travelStyle": "Estilo de viaje",
+    "generate": "Planear mi viaje",
+    "generating": "Generando tu itinerario…",
+    "newPlan": "Nuevo plan",
+    "localTips": "Consejos locales",
+    "day": "Día",
+    "morning": "Mañana",
+    "afternoon": "Tarde",
+    "evening": "Noche"
+  }
+}

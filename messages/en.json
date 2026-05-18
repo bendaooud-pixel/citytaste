@@ -1,0 +1,106 @@
+{
+  "nav": {
+    "home": "Home",
+    "cities": "Cities",
+    "blog": "Blog",
+    "plan": "Plan My Trip"
+  },
+  "buttons": {
+    "viewMenu": "View Menu",
+    "bookNow": "Book Now",
+    "reserve": "Reserve",
+    "save": "Save",
+    "share": "Share",
+    "openMaps": "Open in Maps",
+    "loadMore": "Load more",
+    "findNearMe": "Find places near me",
+    "planTrip": "Plan My Trip with AI",
+    "search": "Search",
+    "submit": "Submit Review",
+    "newPlan": "New Plan",
+    "print": "Print"
+  },
+  "labels": {
+    "openNow": "Open Now",
+    "closed": "Closed",
+    "rating": "Rating",
+    "price": "Price",
+    "category": "Category",
+    "halal": "Halal",
+    "familyFriendly": "Family Friendly",
+    "terrace": "Terrace",
+    "romantic": "Romantic",
+    "total": "total"
+  },
+  "home": {
+    "heroTitle": "DISCOVER THE BEST FOOD IN EVERY CITY",
+    "heroSubtitle": "Your ultimate guide to restaurants, cafés, monuments and hidden gems",
+    "searchPlaceholder": "Cuisine type, restaurant name…",
+    "locationHint": "Paris, Barcelona, Rome"
+  },
+  "filters": {
+    "all": "All",
+    "sortBy": "Sort by",
+    "minRating": "Min rating",
+    "maxPrice": "Max price",
+    "apply": "Apply filters",
+    "reset": "Reset"
+  },
+  "place": {
+    "openingHours": "Opening Hours",
+    "guestReviews": "Guest Reviews",
+    "communityReviews": "Community Reviews",
+    "location": "Location",
+    "about": "About",
+    "info": "Info & Contact",
+    "relatedPlaces": "You might also like",
+    "shareExperience": "Share your experience",
+    "officialWebsite": "Official website"
+  },
+  "review": {
+    "yourName": "Your name",
+    "yourReview": "Your review",
+    "visited": "When did you visit?",
+    "optional": "optional",
+    "minChars": "Minimum 20 characters",
+    "submitting": "Submitting…",
+    "successTitle": "Thank you for your review!",
+    "successBody": "Your experience helps other travelers discover great places.",
+    "writeAnother": "Write another review",
+    "noReviews": "No community reviews yet",
+    "beFirst": "Be the first to share your experience below!"
+  },
+  "categories": {
+    "restaurants": "Restaurants",
+    "cafes": "Cafés",
+    "brunch": "Brunch",
+    "halal": "Halal",
+    "cheap-eats": "Cheap Eats",
+    "romantic": "Romantic",
+    "family-friendly": "Family",
+    "patisseries": "Pâtisseries",
+    "monuments": "Monuments",
+    "activities": "Activities",
+    "markets": "Markets",
+    "desserts": "Desserts",
+    "bars": "Bars & Rooftops",
+    "museums": "Museums"
+  },
+  "plan": {
+    "title": "Plan My Trip",
+    "subtitle": "AI-powered day-by-day itineraries built from our curated city guides",
+    "selectCity": "Select City",
+    "numberOfDays": "Number of Days",
+    "budget": "Budget per Day",
+    "interests": "Interests",
+    "travelStyle": "Travel Style",
+    "generate": "Plan My Trip",
+    "generating": "Generating your itinerary…",
+    "newPlan": "New Plan",
+    "localTips": "Local Tips",
+    "day": "Day",
+    "morning": "Morning",
+    "afternoon": "Afternoon",
+    "evening": "Evening"
+  }
+}
