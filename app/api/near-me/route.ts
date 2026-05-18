@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 
 const FSQ_KEY = process.env.FOURSQUARE_API_KEY;
-const FSQ_BASE = "https://api.foursquare.com/v3/places/search";
+const FSQ_BASE = "https://api.foursquare.com/v3/places/nearby";
 
 // ── Foursquare category IDs ───────────────────────────────────────────────────
 const CATEGORY_IDS: Record<string, string> = {
@@ -123,7 +123,6 @@ export async function GET(req: Request) {
       `&radius=${radius}` +
       `&categories=${categoryId}` +
       `&limit=20` +
-      `&sort=RELEVANCE` +
       `&fields=fsq_id,name,location,geocodes,rating,stats,photos,hours,price,categories`;
 
     const [placesRes, geoResult] = await Promise.all([
