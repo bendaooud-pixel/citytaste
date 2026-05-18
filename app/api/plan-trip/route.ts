@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import Anthropic from "@anthropic-ai/sdk";
+import Groq from "groq-sdk";
 import { places } from "@/lib/data";
 
 const BUDGET_LABEL: Record<string, string> = {
@@ -24,10 +24,10 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: "city and days are required" }, { status: 400 });
     }
 
-    const apiKey = process.env.ANTHROPIC_API_KEY;
+    const apiKey = process.env.GROQ_API_KEY;
     if (!apiKey) {
       return NextResponse.json(
-        { error: "ANTHROPIC_API_KEY is not configured. Add it to .env.local." },
+        { error: "GROQ_API_KEY is not configured. Add it to .env.local." },
         { status: 500 }
       );
     }
@@ -98,19 +98,17 @@ Rules:
 - Keep descriptions punchy and useful
 - Add 3-5 practical tips`;
 
-    const client = new Anthropic({ apiKey });
-    const msg = await client.messages.create({
-      model: "claude-sonnet-4-6",
+    const client = new Groq({ apiKey });
+    const completion = await client.chat.completions.create({
+      model: "llama-3.3-70b-versatile",
       max_tokens: 4096,
       messages: [{ role: "user", content: prompt }],
     });
 
-    const block = msg.content[0];
-    if (block.type !== "text") {
-      return NextResponse.json({ error: "Unexpected response from Claude" }, { status: 500 });
-    }
-
-    const raw = block.text.trim().replace(/^```(?:json)?\n?/, "").replace(/\n?```$/, "");
+    const raw = (completion.choices[0]?.message?.content ?? "")
+      .trim()
+      .replace(/^```(?:json)?\n?/, "")
+      .replace(/\n?```$/, "");
 
     let itinerary: unknown;
     try {
