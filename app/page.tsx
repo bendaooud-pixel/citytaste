@@ -168,6 +168,16 @@ export default function HomePage() {
 
           {/* Near Me secondary CTA */}
           <NearMe />
+
+          {/* Plan My Trip CTA */}
+          <div className="flex justify-center mt-3">
+            <Link
+              href="/plan"
+              className="flex items-center gap-2 text-white/90 hover:text-white text-sm font-semibold py-2.5 px-6 rounded-xl border border-white/30 hover:border-white/60 bg-white/10 hover:bg-white/20 backdrop-blur-sm transition-all active:scale-[0.98]"
+            >
+              ✨ Plan My Trip with AI
+            </Link>
+          </div>
         </div>
 
         {/* Bottom white fade */}

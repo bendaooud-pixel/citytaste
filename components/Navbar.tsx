@@ -59,6 +59,18 @@ export default function Navbar() {
               Blog
             </Link>
 
+            {/* Plan Trip */}
+            <Link
+              href="/plan"
+              className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
+                isActive("/plan")
+                  ? "bg-[#E63946] text-white"
+                  : "text-slate-600 hover:text-slate-900 hover:bg-slate-100"
+              }`}
+            >
+              ✨ Plan Trip
+            </Link>
+
             {/* Cities dropdown */}
             <div
               className="relative"
@@ -138,6 +150,16 @@ export default function Navbar() {
             }`}
           >
             Blog
+          </Link>
+
+          <Link
+            href="/plan"
+            onClick={() => setMobileOpen(false)}
+            className={`block px-4 py-2.5 rounded-lg text-sm font-medium transition-colors ${
+              isActive("/plan") ? "bg-[#E63946] text-white" : "text-slate-600 hover:bg-slate-50"
+            }`}
+          >
+            ✨ Plan Trip
           </Link>
 
           {/* Cities accordion */}
