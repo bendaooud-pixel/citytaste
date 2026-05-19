@@ -183,7 +183,7 @@ Look for the official ARGML or AVS certification logos displayed at the entrance
         address: "3 Rue Jouye-Rouve, 75020 Paris",
         rating: 4.3,
         image:
-          "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+          "https://images.unsplash.com/photo-1428550443830-190057dc8098?w=800&q=80",
         citySlug: "paris",
       },
     ],
@@ -235,7 +235,7 @@ Expect to queue on weekends at any of the addresses below. Go early (10:00–11:
         address: "Carrer del Parlament, 25, 08015 Barcelona",
         rating: 4.7,
         image:
-          "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=800&q=80",
+          "https://images.unsplash.com/photo-1431274172761-fcdab704f457?w=800&q=80",
         citySlug: "barcelona",
       },
       {
@@ -245,7 +245,7 @@ Expect to queue on weekends at any of the addresses below. Go early (10:00–11:
         address: "Carrer dels Banys Nous, 16, 08002 Barcelona",
         rating: 4.4,
         image:
-          "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?w=800&q=80",
+          "https://images.unsplash.com/photo-1434648957308-5e6a859697e8?w=800&q=80",
         citySlug: "barcelona",
       },
       {
@@ -255,7 +255,7 @@ Expect to queue on weekends at any of the addresses below. Go early (10:00–11:
         address: "Passatge Sert, 12, 08003 Barcelona",
         rating: 4.8,
         image:
-          "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800&q=80",
+          "https://images.unsplash.com/photo-1439393161192-32360eb753f1?w=800&q=80",
         citySlug: "barcelona",
       },
       {
@@ -319,7 +319,7 @@ Finally: the 10th, 11th, 13th, and 18th arrondissements consistently offer the b
         address: "7 Rue du Faubourg Montmartre, 75009 Paris",
         rating: 4.4,
         image:
-          "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+          "https://images.unsplash.com/photo-1440427810006-0e4109fd4abe?w=800&q=80",
         citySlug: "paris",
       },
       {
@@ -371,7 +371,7 @@ Finally: the 10th, 11th, 13th, and 18th arrondissements consistently offer the b
     citySlug: "paris",
     category: "Romantic",
     coverImage:
-      "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1200&q=80",
+      "https://images.unsplash.com/photo-1442512595132-0d0bdf1b4f4f?w=1200&q=80",
     publishedAt: "2025-01-28",
     readingTime: 6,
     metaDescription:
@@ -401,7 +401,7 @@ A note on booking: for any special occasion at the top addresses, book at least 
         address: "15 Quai de la Tournelle, 75005 Paris",
         rating: 4.7,
         image:
-          "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?w=800&q=80",
+          "https://images.unsplash.com/photo-1445116572660-236099ec97a0?w=800&q=80",
         citySlug: "paris",
       },
       {
@@ -411,7 +411,7 @@ A note on booking: for any special occasion at the top addresses, book at least 
         address: "80 Rue de Charonne, 75011 Paris",
         rating: 4.9,
         image:
-          "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80",
+          "https://images.unsplash.com/photo-1473976345543-9ffc928e648d?w=800&q=80",
         citySlug: "paris",
       },
       {
@@ -421,7 +421,7 @@ A note on booking: for any special occasion at the top addresses, book at least 
         address: "129 Avenue Parmentier, 75011 Paris",
         rating: 4.7,
         image:
-          "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+          "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=800&q=80",
         citySlug: "paris",
       },
       {
@@ -431,7 +431,7 @@ A note on booking: for any special occasion at the top addresses, book at least 
         address: "151 Boulevard Saint-Germain, 75006 Paris",
         rating: 4.4,
         image:
-          "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+          "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800&q=80",
         citySlug: "paris",
       },
       {
@@ -441,7 +441,7 @@ A note on booking: for any special occasion at the top addresses, book at least 
         address: "5 Rue du Nil, 75002 Paris",
         rating: 4.8,
         image:
-          "https://images.unsplash.com/photo-1546833998-877b37c2e5c6?w=800&q=80",
+          "https://images.unsplash.com/photo-1477414348463-c0eb7f1359b6?w=800&q=80",
         citySlug: "paris",
       },
     ],
@@ -453,7 +453,7 @@ A note on booking: for any special occasion at the top addresses, book at least 
     citySlug: "paris",
     category: "Patisseries",
     coverImage:
-      "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=1200&q=80",
+      "https://images.unsplash.com/photo-1478391679764-b2d8b3cd1e94?w=1200&q=80",
     publishedAt: "2025-03-25",
     readingTime: 7,
     metaDescription:
@@ -493,7 +493,7 @@ What to try if you can only order one thing: the croissant is the acid test of a
         address: "34 Rue Yves Toudic, 75010 Paris",
         rating: 4.9,
         image:
-          "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=800&q=80",
+          "https://images.unsplash.com/photo-1483695028939-5bb13f8648b0?w=800&q=80",
         citySlug: "paris",
       },
       {
@@ -523,7 +523,7 @@ What to try if you can only order one thing: the croissant is the acid test of a
         address: "23 Rue des Vinaigriers, 75010 Paris",
         rating: 4.8,
         image:
-          "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&q=80",
+          "https://images.unsplash.com/photo-1492136344046-866c85e0bf04?w=800&q=80",
         citySlug: "paris",
       },
     ],
@@ -575,7 +575,7 @@ One practical note: the tourist density around Paris's top monuments is real, an
         address: "3 Boulevard du Palais, 75001 Paris",
         rating: 4.3,
         image:
-          "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800&q=80",
+          "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800&q=80",
         citySlug: "paris",
       },
       {
@@ -595,7 +595,7 @@ One practical note: the tourist density around Paris's top monuments is real, an
         address: "20 Rue d'Artois, 75008 Paris",
         rating: 4.4,
         image:
-          "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=800&q=80",
+          "https://images.unsplash.com/photo-1503453776591-b4548af666a2?w=800&q=80",
         citySlug: "paris",
       },
     ],
@@ -739,7 +739,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
     "city": "Rome",
     "citySlug": "rome",
     "category": "Restaurants",
-    "coverImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=1200&q=80",
+    "coverImage": "https://images.unsplash.com/photo-1507048331197-7d4ac70811cf?w=1200&q=80",
     "publishedAt": "2026-05-06",
     "readingTime": 6,
     "metaDescription": "Discover the best pasta in Rome 2025: from silky cacio e pepe to crispy guanciale carbonara at the Eternal City's most beloved trattorias and osterias.",
@@ -751,7 +751,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "An iconic deli-restaurant near Campo de' Fiori serving what many call Rome's definitive carbonara, made with 24-month Pecorino and crispy guanciale. The intimate dining room and curated wine list make every meal feel like a celebration.",
         "address": "Via dei Giubbonari, 21, 00186 Roma RM",
         "rating": 4.7,
-        "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1507914372368-b2b085b925a1?w=800&q=80",
         "citySlug": "rome",
         "placeSlug": undefined
       },
@@ -769,7 +769,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "A pocket-sized trattoria in Trastevere that has earned cult status for its uncompromising classics and ingredients sourced from small Lazio producers. Expect a queue, but the carbonara and gricia are worth every minute.",
         "address": "Via dei Vascellari, 29, 00153 Roma RM",
         "rating": 4.6,
-        "image": "https://images.unsplash.com/photo-1481931098730-318b6f776db0?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1508088405209-fbd63b6a4f50?w=800&q=80",
         "citySlug": "rome",
         "placeSlug": undefined
       },
@@ -790,7 +790,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
     "city": "Rome",
     "citySlug": "rome",
     "category": "Restaurants",
-    "coverImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=1200&q=80",
+    "coverImage": "https://images.unsplash.com/photo-1509024644558-2f56ce76c490?w=1200&q=80",
     "publishedAt": "2026-05-07",
     "readingTime": 6,
     "metaDescription": "Discover the best pasta in Rome 2025: legendary trattorias serving cacio e pepe, carbonara, and amatriciana the way Romans have loved them for generations.",
@@ -802,7 +802,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "The temple of tonnarelli cacio e pepe, theatrically tossed tableside until the pepper-flecked strands gleam. A Testaccio institution since 1936 with a waiting list that proves the hype is earned.",
         "address": "Via Mastro Giorgio, 29, 00153 Roma RM",
         "rating": 4.7,
-        "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1516997121675-4c2d1684aa3e?w=800&q=80",
         "citySlug": "rome",
         "placeSlug": undefined
       },
@@ -811,7 +811,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "A salumeria-wine bar hybrid where the carbonara has reached near-mythic status thanks to obsessively sourced guanciale and golden Paolo Parisi eggs. Book weeks ahead for the intimate back room.",
         "address": "Via dei Giubbonari, 21, 00186 Roma RM",
         "rating": 4.6,
-        "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1518309542094-645272814997?w=800&q=80",
         "citySlug": "rome",
         "placeSlug": undefined
       },
@@ -841,7 +841,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
     "city": "Rome",
     "citySlug": "rome",
     "category": "Restaurants",
-    "coverImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=1200&q=80",
+    "coverImage": "https://images.unsplash.com/photo-1519996529931-28324d5a630e?w=1200&q=80",
     "publishedAt": "2026-05-08",
     "readingTime": 6,
     "metaDescription": "Discover the best pasta in Rome 2025 — from silky cacio e pepe to peppery carbonara at the Eternal City's most beloved trattorias and modern kitchens.",
@@ -853,7 +853,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "A salumeria-meets-restaurant where the carbonara has reached cult status, made with Tuscan egg yolks and 24-month aged pecorino. Book weeks ahead for the intimate marble-counter dining room.",
         "address": "Via dei Giubbonari 21, 00186 Roma RM",
         "rating": 4.7,
-        "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1521017432531-fbd92d768814?w=800&q=80",
         "citySlug": "rome",
         "placeSlug": undefined
       },
@@ -862,7 +862,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "The Testaccio institution where waiters toss tonnarelli cacio e pepe tableside with theatrical flourish. Family-run since 1936 and still the gold standard for the four Roman classics.",
         "address": "Via Mastro Giorgio 29, 00153 Roma RM",
         "rating": 4.6,
-        "image": "https://images.unsplash.com/photo-1481931098730-318b6f776db0?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=800&q=80",
         "citySlug": "rome",
         "placeSlug": undefined
       },
@@ -871,7 +871,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "A tiny, wood-paneled trattoria steps from the Pantheon, run by the Gargioli family for three generations. Their gricia and amatriciana are textbook examples of Roman restraint and depth.",
         "address": "Salita de' Crescenzi 31, 00186 Roma RM",
         "rating": 4.6,
-        "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=800&q=80",
         "citySlug": "rome",
         "placeSlug": undefined
       },
@@ -892,7 +892,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
     "city": "Rome",
     "citySlug": "rome",
     "category": "Restaurants",
-    "coverImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=1200&q=80",
+    "coverImage": "https://images.unsplash.com/photo-1524396309943-e03f5249f002?w=1200&q=80",
     "publishedAt": "2026-05-09",
     "readingTime": 6,
     "metaDescription": "Discover the best pasta in Rome 2025: four iconic trattorias serving unforgettable carbonara, cacio e pepe, amatriciana, and gricia in the Eternal City.",
@@ -913,7 +913,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "The Testaccio institution famous for its theatrical tableside tossing of tonnarelli cacio e pepe. Booking weeks in advance is essential, and the rigatoni alla gricia is equally unmissable.",
         "address": "Via Mastro Giorgio, 29, 00153 Roma RM",
         "rating": 4.6,
-        "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1526255623073-e260b1281e09?w=800&q=80",
         "citySlug": "rome",
         "placeSlug": undefined
       },
@@ -922,7 +922,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "A tiny, perpetually packed Trastevere trattoria pouring out plates of amatriciana and carbonara with old-school Roman swagger. Expect a queue and tightly packed tables — and food worth every minute.",
         "address": "Via dei Vascellari, 29, 00153 Roma RM",
         "rating": 4.6,
-        "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1526743904158-7a5c3f119c6d?w=800&q=80",
         "citySlug": "rome",
         "placeSlug": undefined
       },
@@ -931,7 +931,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "A family-run dining room steps from the Pantheon, serving classic Roman pasta since 1961. The tonnarelli cacio e pepe and abbacchio are textbook examples of the city's culinary canon.",
         "address": "Salita dei Crescenzi, 31, 00186 Roma RM",
         "rating": 4.6,
-        "image": "https://images.unsplash.com/photo-1481931098730-318b6f776db0?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1528975604071-b4dc52a2d18c?w=800&q=80",
         "citySlug": "rome",
         "placeSlug": undefined
       }
@@ -943,7 +943,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
     "city": "Rome",
     "citySlug": "rome",
     "category": "Restaurants",
-    "coverImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=1200&q=80",
+    "coverImage": "https://images.unsplash.com/photo-1529108083258-dc5eb1a89f4c?w=1200&q=80",
     "publishedAt": "2026-05-10",
     "readingTime": 6,
     "metaDescription": "Discover Rome's best pasta in 2025, from creamy cacio e pepe to silky carbonara at four iconic trattorias every food lover must visit.",
@@ -964,7 +964,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "Part deli, part wine bar, part temple to Roman pasta, where the carbonara is famously made with three types of pork. The room hums with energy and the cellar runs deep.",
         "address": "Via dei Giubbonari, 21, 00186 Roma RM",
         "rating": 4.6,
-        "image": "https://images.unsplash.com/photo-1546549032-9571cd6b27df?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1531594652722-292a43e752b4?w=800&q=80",
         "citySlug": "rome",
         "placeSlug": undefined
       },
@@ -973,7 +973,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "A Testaccio institution since 1936, where the tonnarelli cacio e pepe is tossed tableside into a glossy, peppery wonder. Booking ahead is non-negotiable.",
         "address": "Via Mastro Giorgio, 29, 00153 Roma RM",
         "rating": 4.5,
-        "image": "https://images.unsplash.com/photo-1481931098730-318b6f776db0?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1532081000137-2bd921a97119?w=800&q=80",
         "citySlug": "rome",
         "placeSlug": undefined
       },
@@ -994,7 +994,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
     "city": "Rome",
     "citySlug": "rome",
     "category": "Restaurants",
-    "coverImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=1200&q=80",
+    "coverImage": "https://images.unsplash.com/photo-1534483509719-3feaee7c30da?w=1200&q=80",
     "publishedAt": "2026-05-11",
     "readingTime": 6,
     "metaDescription": "Discover Rome's best pasta in 2025: from creamy cacio e pepe to silky carbonara at the city's most beloved trattorias and modern osterias.",
@@ -1006,7 +1006,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "A legendary salumeria-restaurant hybrid where the carbonara is widely considered Rome's finest, made with three types of pecorino and prized guanciale. The wine cellar below is equally remarkable.",
         "address": "Via dei Giubbonari, 21/22, 00186 Roma RM",
         "rating": 4.7,
-        "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1534533632875-2477db97088d?w=800&q=80",
         "citySlug": "rome",
         "placeSlug": undefined
       },
@@ -1015,7 +1015,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "An institution in Testaccio famous for its theatrical tableside tossing of tonnarelli cacio e pepe, finished with a flourish of cracked black pepper. Reservations are essential weeks in advance.",
         "address": "Via Mastro Giorgio, 29, 00153 Roma RM",
         "rating": 4.6,
-        "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1536419598693-94435e7f9757?w=800&q=80",
         "citySlug": "rome",
         "placeSlug": undefined
       },
@@ -1024,7 +1024,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "A tiny, fiercely traditional Trastevere trattoria where the amatriciana sings with sweet tomato and crisp guanciale. Expect a queue down the cobblestone street—it's worth every minute.",
         "address": "Via dei Vascellari, 29, 00153 Roma RM",
         "rating": 4.6,
-        "image": "https://images.unsplash.com/photo-1481931098730-318b6f776db0?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1536521728101-e6625ea331b7?w=800&q=80",
         "citySlug": "rome",
         "placeSlug": undefined
       },
@@ -1033,7 +1033,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "A family-run gem operating in the shadow of the Pantheon since 1961, serving impeccable gricia and rigatoni alla carbonara to politicians, locals, and lucky travelers alike.",
         "address": "Salita dei Crescenzi, 31, 00186 Roma RM",
         "rating": 4.5,
-        "image": "https://images.unsplash.com/photo-1546549032-9571cd6b27df?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1537029064159-7726fabb5cd7?w=800&q=80",
         "citySlug": "rome",
         "placeSlug": undefined
       }
@@ -1045,7 +1045,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
     "city": "Rome",
     "citySlug": "rome",
     "category": "Restaurants",
-    "coverImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=1200&q=80",
+    "coverImage": "https://images.unsplash.com/photo-1537799943037-f5da89a65689?w=1200&q=80",
     "publishedAt": "2026-05-12",
     "readingTime": 6,
     "metaDescription": "Discover the best pasta in Rome 2025: from creamy cacio e pepe to crispy carbonara, our guide to the city's most unforgettable trattorias and tasting rooms.",
@@ -1057,7 +1057,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "A legendary salumeria and restaurant where the carbonara has near-mythical status, made with 24-month Riserva pecorino and house-cured guanciale. Book weeks ahead — this is arguably Rome's most coveted pasta table.",
         "address": "Via dei Giubbonari, 21, 00186 Roma RM",
         "rating": 4.7,
-        "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?w=800&q=80",
         "citySlug": "rome",
         "placeSlug": undefined
       },
@@ -1066,7 +1066,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "The tableside tossing of tonnarelli cacio e pepe here is pure theater, and the result is the creamiest, most pepper-forward version in the city. A Testaccio institution since 1936, still run by the Trivelloni family.",
         "address": "Via Mastro Giorgio, 29, 00153 Roma RM",
         "rating": 4.6,
-        "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1539657523674-fbd149b04c13?w=800&q=80",
         "citySlug": "rome",
         "placeSlug": undefined
       },
@@ -1075,7 +1075,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "Tucked behind the Pantheon, this tiny family-run trattoria has been serving textbook Roman classics since 1961. The gricia and the abbacchio brodettato are reason enough to plan your trip around a reservation.",
         "address": "Salita dei Crescenzi, 31, 00186 Roma RM",
         "rating": 4.6,
-        "image": "https://images.unsplash.com/photo-1481931098730-318b6f776db0?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1540189549336-e6e99eb4b951?w=800&q=80",
         "citySlug": "rome",
         "placeSlug": undefined
       },
@@ -1084,7 +1084,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "Worth the tram ride out of the center for what many critics call the best amatriciana in Rome — tangy, glossy, and singing with smoky guanciale. The fried starters and natural wine list are equally exceptional.",
         "address": "Via del Casaletto, 45, 00151 Roma RM",
         "rating": 4.5,
-        "image": "https://images.unsplash.com/photo-1546549032-9571cd6b27df?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1541518763669-27fef04b14ea?w=800&q=80",
         "citySlug": "rome",
         "placeSlug": undefined
       }
@@ -1108,7 +1108,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "Tucked on a quiet corner near Place des Vosges, Chez Janou feels like a Provençal daydream stitched into Paris — sun-yellow walls, dried lavender, and over 80 varieties of pastis lining the bar. The terrace is the kind of place where two-hour lunches become four-hour afternoons. Order the legendary mousse au chocolat, ladled tableside from a vat the size of a small bathtub.",
         "address": "2 Rue Roger Verlomme, 75003 Paris",
         "rating": 4.5,
-        "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1541643600914-78b084683702?w=800&q=80",
         "citySlug": "paris",
         "placeSlug": undefined
       },
@@ -1117,7 +1117,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "Step into this 17th-century stone room and you're greeted by a roaring open fire where steaks are seared on a grill that hasn't changed in fifty years. The atmosphere is rustic, smoky, gloriously unfussy — wooden benches, candle wax, and the murmur of regulars. The côte de boeuf for two, charred outside and rosy within, is the only thing to order.",
         "address": "64 Rue Vieille du Temple, 75003 Paris",
         "rating": 4.6,
-        "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?w=800&q=80",
         "citySlug": "paris",
         "placeSlug": undefined
       },
@@ -1186,7 +1186,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "Camille Fourmont's tiny jewel-box bar in the 11th glows like a lantern at night, with marble shelves stacked with goat cheeses and rare bottles. The white beans drowned in olive oil and lemon zest are legendary — order them with a glass of something orange and slightly oxidative. Expect to fall in love with the room before your second sip.",
         "address": "67 Rue Saint-Maur, 75011 Paris",
         "rating": 4.7,
-        "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1545418314-7ce0b9b53901?w=800&q=80",
         "citySlug": "paris",
         "placeSlug": undefined
       },
@@ -1216,7 +1216,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
     "city": "Paris",
     "citySlug": "paris",
     "category": "Street Food",
-    "coverImage": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=1200&q=80",
+    "coverImage": "https://images.unsplash.com/photo-1547398847-19d7560a6257?w=1200&q=80",
     "publishedAt": "2026-05-13",
     "readingTime": 8,
     "metaDescription": "Discover the best street food in Paris under €5 — crepes, falafel, banh mi and bakery gems loved by locals, foodies and budget travelers.",
@@ -1237,7 +1237,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "A historic boulangerie near Canal Saint-Martin with painted ceilings and a cult following for its escargot pastries. Everything is hand-shaped and the smell hits you from the street. No seating, which is half the charm.",
         "address": "34 Rue Yves Toudic, 75010 Paris, France",
         "rating": 4.6,
-        "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1548270311-3a9e56a480ff?w=800&q=80",
         "citySlug": "paris",
         "placeSlug": undefined
       },
@@ -1246,7 +1246,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "Modern Breton crêperie taken seriously, with proper buckwheat galettes and real Bordier butter. The takeaway counter offers simple versions at honest prices. Best eaten walking, while it's still hot.",
         "address": "109 Rue Vieille du Temple, 75003 Paris, France",
         "rating": 4.4,
-        "image": "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1548787060-36a662d4d04a?w=800&q=80",
         "citySlug": "paris",
         "placeSlug": undefined
       },
@@ -1276,7 +1276,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
     "city": "Paris",
     "citySlug": "paris",
     "category": "Cafés",
-    "coverImage": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=1200&q=80",
+    "coverImage": "https://images.unsplash.com/photo-1550254804-3c9bf594a0a5?w=1200&q=80",
     "publishedAt": "2026-05-14",
     "readingTime": 8,
     "metaDescription": "Discover the most beautiful café terraces in Paris — from Saint-Germain classics to hidden rooftops loved by locals and couples.",
@@ -1288,7 +1288,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "The most literary terrace in Paris, with green awnings and white-jacketed waiters who've worked here for decades. The coffee is overpriced but the people-watching is unmatched. Come early to actually get a table on the boulevard side.",
         "address": "172 Boulevard Saint-Germain, 75006 Paris",
         "rating": 4.3,
-        "image": "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1551913902-c92207136625?w=800&q=80",
         "citySlug": "paris",
         "placeSlug": undefined
       },
@@ -1408,7 +1408,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "A tiny vegan bistro serving plant-based versions of French classics in the heart of the Marais. The space is intimate and slightly cramped, but the food more than makes up for it. Reservations are essential, especially on weekends.",
         "address": "26 Rue Saint-Paul, 75004 Paris, France",
         "rating": 4.5,
-        "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1552432010-6a42a36dc127?w=800&q=80",
         "citySlug": "paris",
         "placeSlug": undefined
       },
@@ -1417,7 +1417,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "A bright, plant-filled café serving organic juices, bowls, and pastries. Perfect for a quick healthy lunch or grab-and-go breakfast before sightseeing. Multiple locations, but Rue Charlot has the best vibe.",
         "address": "55 Rue Charlot, 75003 Paris, France",
         "rating": 4.3,
-        "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1553742198-6eea5ac42a24?w=800&q=80",
         "citySlug": "paris",
         "placeSlug": undefined
       },
@@ -1435,7 +1435,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "A refined raw vegan restaurant offering an inventive tasting menu near Galeries Lafayette. Every plate is carefully designed and full of texture. Pricey but worth it for a special evening out.",
         "address": "109 Rue du Faubourg Poissonnière, 75009 Paris, France",
         "rating": 4.6,
-        "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1554907984-15263bfd63bd?w=800&q=80",
         "citySlug": "paris",
         "placeSlug": undefined
       },
@@ -1456,7 +1456,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
     "city": "Paris",
     "citySlug": "paris",
     "category": "Nightlife",
-    "coverImage": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=1200&q=80",
+    "coverImage": "https://images.unsplash.com/photo-1555425748-f780612e5634?w=1200&q=80",
     "publishedAt": "2026-05-16",
     "readingTime": 8,
     "metaDescription": "Where to eat late night in Paris: bistros, brasseries and onion soup spots open after midnight, picked for couples, foodies and budget travelers.",
@@ -1468,7 +1468,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "A 24-hour brasserie that has been feeding night owls near Les Halles since 1947. Famous for its onion soup and pig trotters, it has the kind of red-banquette theatrics that still feel genuine. Touristy, yes, but the kitchen hasn't slipped.",
         "address": "6 Rue Coquillière, 75001 Paris, France",
         "rating": 4.3,
-        "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1555529771-122e5d9f2341?w=800&q=80",
         "citySlug": "paris",
         "placeSlug": undefined
       },
@@ -1477,7 +1477,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "A flea-market style bistro in the 2nd that keeps its kitchen open until around 5 AM. Expect steak frites, confit de canard, and a crowd of chefs and regulars. Loud, smoky on the terrace, and unmistakably local.",
         "address": "41 Rue Montmartre, 75002 Paris, France",
         "rating": 4.2,
-        "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1555992828-35627f3b373f?w=800&q=80",
         "citySlug": "paris",
         "placeSlug": undefined
       },
@@ -1486,7 +1486,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "A tightly packed Les Halles institution where waiters remember faces and portions are enormous. Beef, marrow bones, and country pâté dominate the menu, served until around 5 AM. The kind of place Parisian cooks come to after their own shifts.",
         "address": "5 Rue des Prouvaires, 75001 Paris, France",
         "rating": 4.5,
-        "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1556764420-e37ef4cdfa5c?w=800&q=80",
         "citySlug": "paris",
         "placeSlug": undefined
       },
@@ -1504,7 +1504,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "A Belle Époque café-bar in Oberkampf with antique mirrors, warm lighting, and a kitchen that runs late. Couples come here for charcuterie and wine after concerts next door. Weeknights are quieter and noticeably more romantic.",
         "address": "109 Rue Oberkampf, 75011 Paris, France",
         "rating": 4.2,
-        "image": "https://images.unsplash.com/photo-1525268323446-0505b6fe7778?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1556816214-fda351e4a7fb?w=800&q=80",
         "citySlug": "paris",
         "placeSlug": undefined
       }
@@ -1516,7 +1516,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
     "city": "Paris",
     "citySlug": "paris",
     "category": "Restaurants",
-    "coverImage": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=1200&q=80",
+    "coverImage": "https://images.unsplash.com/photo-1558384041-dc2d20aacae6?w=1200&q=80",
     "publishedAt": "2026-05-17",
     "readingTime": 8,
     "metaDescription": "Skip the Place du Tertre tourist traps. Five Montmartre restaurants where Parisians actually eat, with dishes, prices and honest tips.",
@@ -1537,7 +1537,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "Loud, fast, and packed from open to close, this is the modern reboot of the classic Paris bouillon. Starters from €2.50 and mains under €13 mean you can eat a three-course French meal for the price of a sandwich elsewhere. The trade-off is no reservations and a queue that can hit 45 minutes at peak times.",
         "address": "22 Boulevard de Clichy, 75018 Paris",
         "rating": 4.2,
-        "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1558416167-29269886c836?w=800&q=80",
         "citySlug": "paris",
         "placeSlug": undefined
       },
@@ -1546,7 +1546,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "A two-floor neighborhood spot on Rue des Abbesses serving Gascon classics with no pretension. The signature is an enormous warm salad topped with sautéed garlic potatoes — order the Gasconne with gizzards. Décor is dated and the upstairs gets warm in summer, but portions are generous and service is quick.",
         "address": "6 Rue des Abbesses, 75018 Paris",
         "rating": 4.3,
-        "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1558442240-6b455d590e15?w=800&q=80",
         "citySlug": "paris",
         "placeSlug": undefined
       },
@@ -1555,7 +1555,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "A brasserie open since 1889 with original tiles, brass details, and waiters in long white aprons who've worked there longer than most chefs have been cooking. The seafood platter and choucroute are the standout orders — old-school cooking with no reinvention. Dinner is pricey; the lunch menu from €28 is a better deal.",
         "address": "52 Rue des Abbesses, 75018 Paris",
         "rating": 4.3,
-        "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
         "citySlug": "paris",
         "placeSlug": undefined
       },
@@ -1564,7 +1564,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "An Australian-run café tucked on a stepped street below Sacré-Cœur, serving the city's most consistent brunch. The baked eggs in tomato sauce and the flat whites are both better than they need to be given the location. The room is small and weekends are chaotic — go midweek.",
         "address": "10 Rue Lamarck, 75018 Paris",
         "rating": 4.4,
-        "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1560053608-13721b16a167?w=800&q=80",
         "citySlug": "paris",
         "placeSlug": undefined
       }
@@ -1588,7 +1588,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "The most famous harira and msemen spot in the medina — a no-frills local canteen where Marrakchi residents queue every morning. The thick soup and fresh pancakes cost almost nothing and taste better than anything in a tourist restaurant.",
         "address": "Rue Riad Zitoun el Kedim, Medina, Marrakech",
         "rating": 4.7,
-        "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1562861844-763c4ae2e696?w=800&q=80",
         "citySlug": "marrakech",
         "placeSlug": "hadj-mustapha"
       },
@@ -1606,7 +1606,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "A modern Moroccan restaurant with a rooftop terrace overlooking the medina. Dishes reinvent traditional recipes with contemporary technique — the bastilla with almonds and merguez with preserved lemon are both exceptional.",
         "address": "1 Derb Aarjane, Rahba Lakdima, Medina, Marrakech",
         "rating": 4.6,
-        "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1564174358404-b7e3cf13a2a0?w=800&q=80",
         "citySlug": "marrakech",
         "placeSlug": "nomad"
       },
@@ -1615,7 +1615,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "A legendary palace restaurant where dinner is a full theatrical production — rooftop aperitifs, candlelit salons, and a ceremonial procession of bastilla, tagines and couscous. The building is a 1930s riad of extraordinary beauty.",
         "address": "79 Sidi Ahmed Soussi, Medina, Marrakech",
         "rating": 4.7,
-        "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1565099824688-e93eb20fe622?w=800&q=80",
         "citySlug": "marrakech",
         "placeSlug": "dar-yacout"
       },
@@ -1624,7 +1624,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "The UNESCO-listed square transforms into a vast open-air restaurant every evening — hundreds of food stalls, smoke from a hundred grills, vendors calling from every direction. One of the great street food spectacles on earth.",
         "address": "Place Jemaa el-Fna, Medina, Marrakech",
         "rating": 4.8,
-        "image": "https://images.unsplash.com/photo-1597212618440-806262de4f0b?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1565457211452-16f8e7062a0a?w=800&q=80",
         "citySlug": "marrakech",
         "placeSlug": "jemaa-el-fna"
       }
@@ -1675,7 +1675,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "A relaxed rooftop restaurant above Souk Cherifia serving simple Moroccan plates and fresh juices. The afternoon breeze and souk views make it the best slow lunch spot in the medina.",
         "address": "15 Souk Cherifia, Sidi Abdelaziz, Medina, Marrakech",
         "rating": 4.5,
-        "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1565483276060-e6730c0cc6a1?w=800&q=80",
         "citySlug": "marrakech",
         "placeSlug": "terrasse-des-epices"
       },
@@ -1708,7 +1708,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "The highest rooftop in Marrakech with a 360° panorama spanning the Atlas Mountains, the Koutoubia minaret and the Menara Gardens. Smart crowd, well-made cocktails, dress code enforced.",
         "address": "Rue Ibrahim El Mazini, Hivernage, Marrakech",
         "rating": 4.6,
-        "image": "https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1565854713475-6e297773a53f?w=800&q=80",
         "citySlug": "marrakech",
         "placeSlug": "sky-bar-es-saadi"
       },
@@ -1717,7 +1717,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "A rooftop terrace on Rue des Banques with a sightline directly over Jemaa el-Fna — the view of the square assembling for the evening, from above, is one of the great Marrakech experiences.",
         "address": "40 Rue des Banques, Medina, Marrakech",
         "rating": 4.6,
-        "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1565881606991-789a8dff9dbb?w=800&q=80",
         "citySlug": "marrakech",
         "placeSlug": "le-salama"
       },
@@ -1735,7 +1735,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "A rooftop café-bar on Place des Ferblantiers overlooking El Badi Palace ruins and the stork nests on the ancient walls. Thursday jazz evenings draw a local crowd. Cocktails are good.",
         "address": "47 Place des Ferblantiers, Medina, Marrakech",
         "rating": 4.5,
-        "image": "https://images.unsplash.com/photo-1453614512568-c4024d13c247?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1566127444979-b3d2b654e3d7?w=800&q=80",
         "citySlug": "marrakech",
         "placeSlug": "kosybar"
       },
