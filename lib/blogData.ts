@@ -1588,7 +1588,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "The most famous harira and msemen spot in the medina — a no-frills local canteen where Marrakchi residents queue every morning. The thick soup and fresh pancakes cost almost nothing and taste better than anything in a tourist restaurant.",
         "address": "Rue Riad Zitoun el Kedim, Medina, Marrakech",
         "rating": 4.7,
-        "image": "https://images.unsplash.com/photo-1562861844-763c4ae2e696?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1539650116574-75c0c6d73f6e?w=800&q=80",
         "citySlug": "marrakech",
         "placeSlug": "hadj-mustapha"
       },
@@ -1597,7 +1597,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "A three-floor café overlooking the Rahba Lakdima spice market. The rooftop terrace has the best lunch views in the medina — tagines and fresh juices served without the tourist markup.",
         "address": "75 Rahba Lakdima, Medina, Marrakech",
         "rating": 4.5,
-        "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1568358877056-8ad1ab4ee4ec?w=800&q=80",
         "citySlug": "marrakech",
         "placeSlug": "cafe-des-epices"
       },
@@ -1606,7 +1606,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "A modern Moroccan restaurant with a rooftop terrace overlooking the medina. Dishes reinvent traditional recipes with contemporary technique — the bastilla with almonds and merguez with preserved lemon are both exceptional.",
         "address": "1 Derb Aarjane, Rahba Lakdima, Medina, Marrakech",
         "rating": 4.6,
-        "image": "https://images.unsplash.com/photo-1564174358404-b7e3cf13a2a0?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
         "citySlug": "marrakech",
         "placeSlug": "nomad"
       },
@@ -1615,7 +1615,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "A legendary palace restaurant where dinner is a full theatrical production — rooftop aperitifs, candlelit salons, and a ceremonial procession of bastilla, tagines and couscous. The building is a 1930s riad of extraordinary beauty.",
         "address": "79 Sidi Ahmed Soussi, Medina, Marrakech",
         "rating": 4.7,
-        "image": "https://images.unsplash.com/photo-1565099824688-e93eb20fe622?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1560053608-13721b16a167?w=800&q=80",
         "citySlug": "marrakech",
         "placeSlug": "dar-yacout"
       },
@@ -1624,7 +1624,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "The UNESCO-listed square transforms into a vast open-air restaurant every evening — hundreds of food stalls, smoke from a hundred grills, vendors calling from every direction. One of the great street food spectacles on earth.",
         "address": "Place Jemaa el-Fna, Medina, Marrakech",
         "rating": 4.8,
-        "image": "https://images.unsplash.com/photo-1565457211452-16f8e7062a0a?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80",
         "citySlug": "marrakech",
         "placeSlug": "jemaa-el-fna"
       }
@@ -1648,7 +1648,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "Four floors of Moroccan elegance on Rue des Banques with a rooftop terrace overlooking Jemaa el-Fna. The view at sunset is exceptional; the slow-cooked lamb and bastilla are both worth ordering.",
         "address": "40 Rue des Banques, Medina, Marrakech",
         "rating": 4.6,
-        "image": "https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1597212618440-806262de4f0b?w=800&q=80",
         "citySlug": "marrakech",
         "placeSlug": "le-salama"
       },
@@ -1657,7 +1657,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "The most celebrated traditional patisserie in Marrakech — counter service only, queue at the glass case and point. Chebakia, cornes de gazelle and €0.70 fresh orange juice. Mandatory.",
         "address": "32 Rue Bab Agnaou, Medina, Marrakech",
         "rating": 4.6,
-        "image": "https://images.unsplash.com/photo-1558326567-98ae2405596b?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
         "citySlug": "marrakech",
         "placeSlug": "patisserie-des-princes"
       },
@@ -1666,7 +1666,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "The authentic local breakfast spot near Jemaa el-Fna — harira soup and msemen at a plastic table among residents going to work. The most genuine food experience you will find near the square.",
         "address": "Rue Riad Zitoun el Kedim, Medina, Marrakech",
         "rating": 4.7,
-        "image": "https://images.unsplash.com/photo-1562802378-063ec186a863?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?w=800&q=80",
         "citySlug": "marrakech",
         "placeSlug": "hadj-mustapha"
       },
@@ -1675,7 +1675,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "A relaxed rooftop restaurant above Souk Cherifia serving simple Moroccan plates and fresh juices. The afternoon breeze and souk views make it the best slow lunch spot in the medina.",
         "address": "15 Souk Cherifia, Sidi Abdelaziz, Medina, Marrakech",
         "rating": 4.5,
-        "image": "https://images.unsplash.com/photo-1565483276060-e6730c0cc6a1?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
         "citySlug": "marrakech",
         "placeSlug": "terrasse-des-epices"
       },
@@ -1684,7 +1684,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "The most serious Moroccan cuisine near Jemaa el-Fna — ceremonial cooking inside one of the city's finest riads. The bastilla au pigeon is the benchmark dish for traditional Marrakchi hospitality.",
         "address": "34 Derb l'Hotel, Bab Doukkala, Medina, Marrakech",
         "rating": 4.9,
-        "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
         "citySlug": "marrakech",
         "placeSlug": "riad-kniza-restaurant"
       }
@@ -1708,7 +1708,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "The highest rooftop in Marrakech with a 360° panorama spanning the Atlas Mountains, the Koutoubia minaret and the Menara Gardens. Smart crowd, well-made cocktails, dress code enforced.",
         "address": "Rue Ibrahim El Mazini, Hivernage, Marrakech",
         "rating": 4.6,
-        "image": "https://images.unsplash.com/photo-1565854713475-6e297773a53f?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1597212618440-806262de4f0b?w=800&q=80",
         "citySlug": "marrakech",
         "placeSlug": "sky-bar-es-saadi"
       },
@@ -1717,7 +1717,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "A rooftop terrace on Rue des Banques with a sightline directly over Jemaa el-Fna — the view of the square assembling for the evening, from above, is one of the great Marrakech experiences.",
         "address": "40 Rue des Banques, Medina, Marrakech",
         "rating": 4.6,
-        "image": "https://images.unsplash.com/photo-1565881606991-789a8dff9dbb?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=800&q=80",
         "citySlug": "marrakech",
         "placeSlug": "le-salama"
       },
@@ -1735,7 +1735,7 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "description": "A rooftop café-bar on Place des Ferblantiers overlooking El Badi Palace ruins and the stork nests on the ancient walls. Thursday jazz evenings draw a local crowd. Cocktails are good.",
         "address": "47 Place des Ferblantiers, Medina, Marrakech",
         "rating": 4.5,
-        "image": "https://images.unsplash.com/photo-1566127444979-b3d2b654e3d7?w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1516997121675-4c2d1684aa3e?w=800&q=80",
         "citySlug": "marrakech",
         "placeSlug": "kosybar"
       },
