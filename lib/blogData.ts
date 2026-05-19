@@ -1749,6 +1749,66 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "placeSlug": "rooftop-nomad"
       }
     ]
+  },
+  {
+    "title": "Best African Restaurants in Paris",
+    "slug": "african-restaurants-paris",
+    "city": "Paris",
+    "citySlug": "paris",
+    "category": "Restaurants",
+    "coverImage": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=1200&q=80",
+    "publishedAt": "2026-05-19",
+    "readingTime": 8,
+    "metaDescription": "Where to eat the best African food in Paris: Senegalese thieboudienne, Ethiopian injera, North African tagines and where Parisians actually book.",
+    "intro": "Paris eats West African food the way it eats couscous: weekly, without fanfare, often after midnight. The best plates aren't in the 1st arrondissement — they're up in Château Rouge, out in Belleville, or tucked behind a bus stop in the 11th. This guide is for travelers who'd rather queue for a steaming bowl of mafé than book another bistro. Five places, all real, all worth the métro ride.",
+    "body": "## Why Paris for African Restaurants\n\nParis has been cooking African food for over sixty years, and the map shows it: Senegalese kitchens in the 18th, Ethiopian dining rooms around République, Ivorian maquis in the 20th. Expect to spend €15–€35 per person, more if you order grilled fish. Go any season, but Sunday lunch is when the rooms fill with regulars and the kitchens hit their stride.\n\n| Place | Price | Best For | Vibe |\n|-------|-------|----------|------|\n| Le Petit Dakar | €€ | Senegalese classics | Warm, neighborhood |\n| Godjo | €€ | Ethiopian shared plates | Candlelit, date-night |\n| Waly Fay | €€€ | West African dinner out | Stylish, lively |\n| BMK Paris-Bamako | € | Quick Malian lunch | Canteen, casual |\n| Le 404 | €€€ | North African evening | Dim, packed, loud |\n\n## Detailed Reviews\n\n### 1. Le Petit Dakar\n\nThe Marais doesn't shout about this Senegalese dining room next to the Galerie 38 Saint-Paul, but it should. The room is small, the walls are red, and the **thieboudienne** (rice and fish in tomato broth) arrives in a heavy iron pot you'll want to scrape clean. Service can drag when the room is full — order a bissap while you wait and don't fight it.\n\n**Best for:** travelers who want a proper Senegalese meal without leaving central Paris\n**Local tip:** Friday lunch is when they serve the thieb at its best — the rice has had all morning to soak up the broth.\n\n### 2. Godjo\n\nGodjo has been doing Ethiopian food near rue Mouffetard since long before injera became a Pinterest object. You eat with your hands off a shared metal platter; the **vegetarian combo** for two is the easiest entry point and lets you taste five stews at once. The space is tight and the tables wobble, but the honey wine and the candlelight do most of the work.\n\n**Best for:** a low-key date or a vegetarian dinner that doesn't feel like a compromise\n**Local tip:** Book ahead for Saturday — there are maybe twelve tables and the regulars know it.\n\n### 3. Waly Fay\n\nA proper sit-down West African restaurant in the 11th, with low lighting, jazz on the speakers, and a crowd that mixes locals from the quartier with diaspora regulars. Order the **mafé** (peanut stew with beef) or the grilled dorade with attiéké — both have been on the menu for years and neither has slipped. It's the priciest place on this list and you can feel it on the bill, but the room earns it.\n\n**Best for:** a night out when you want African food served with wine and proper plates\n**Local tip:** Ask for a table at the back near the bar — the front tables get drafty when the door opens.\n\n### 4. BMK Paris-Bamako\n\nBMK started as a takeaway window in the 10th and grew into a small canteen near Gare du Nord. Plastic trays, Malian playlists, and a chalkboard menu that changes — but the **poulet yassa** and the **mafé** are always there, both around €12. It's loud at lunch, the seating is communal, and you'll be in and out in forty minutes.\n\n**Best for:** a fast, cheap, honest plate before a Eurostar or a long walk through the 10th\n**Local tip:** Skip the dessert and walk five minutes to rue du Faubourg-Saint-Denis for coffee instead.\n\n### 5. Le 404\n\nMourad Mazouz's North African restaurant has been packing the rue des Gravilliers since the late nineties, and it still feels like walking into someone's slightly theatrical Marrakech living room. The **lamb tagine with prunes and almonds** is the order; the couscous royale is fine but oversized. Reservations are essential, the music gets loud after 9pm, and the bill can climb fast if you let the waiter steer the wine.\n\n**Best for:** a group dinner with atmosphere, or a first night in Paris when you want something memorable\n**Local tip:** Sit upstairs if you can — the downstairs room is louder and the kitchen pass runs hot.\n\n## Local Tips for African Restaurants in Paris\n\n- Château Rouge (Métro line 4) is the densest African neighborhood in the city — come on a Saturday morning for the market, then eat lunch nearby.\n- Most Senegalese kitchens take time. If you're in a hurry, go to BMK; if you want to linger, go to Le Petit Dakar or Waly Fay.\n- Bissap (hibiscus) and ginger juice are usually homemade and much better than the wine list at the cheaper spots.\n- Combine a meal at Godjo with a walk down rue Mouffetard, and a meal at Waly Fay with a drink afterwards on rue Oberkampf.\n\n## FAQ\n\n### Q: Where is the best Senegalese food in Paris?\nA: Le Petit Dakar in the Marais and Waly Fay in the 11th are the two reference points, with Waly Fay being more polished and Le Petit Dakar more homestyle. For a cheaper Malian-Senegalese crossover, BMK near Gare du Nord does a solid yassa for under €15.\n\n### Q: Do I need to book ahead for these restaurants?\nA: Yes for Le 404, Godjo and Waly Fay, especially Thursday through Saturday — they're small or popular or both. Le Petit Dakar and BMK take walk-ins, though BMK at lunch can mean a ten-minute wait for a tray.\n\n### Q: What's the best African restaurant in Paris for a first-timer?\nA: Godjo, because Ethiopian shared platters are forgiving and fun to eat with hands, and the room is welcoming without being touristy. If you want something more familiar, the tagines at Le 404 are a safer entry point.\n\n## The Verdict\n\nBest for couples: **Godjo** — candlelight, shared plates, honey wine. Best for budget: **BMK Paris-Bamako** — a full Malian plate for €12 and out the door fast. Best for first-timers: **Le 404** — atmosphere does half the work and the tagines deliver. Best for locals: **Waly Fay**, where the regulars at the bar will outlast you.",
+    "places": [
+      {
+        "name": "Le Petit Dakar",
+        "description": "A small red-walled Senegalese dining room tucked next to a gallery in the Marais. The thieboudienne arrives in a heavy iron pot and the bissap is made in-house. Service can lag when the room fills up, but the food is the real thing.",
+        "address": "6 Rue Elzévir, 75003 Paris",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Godjo",
+        "description": "A candlelit Ethiopian restaurant near rue Mouffetard where you eat with your hands off shared metal platters. The vegetarian combo for two is the easiest way in and shows off five stews at once. Tables are tight and a little wobbly, which somehow adds to it.",
+        "address": "8 Rue de l'Arbalète, 75005 Paris",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1567337710282-00832b415979?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Waly Fay",
+        "description": "A stylish West African restaurant in the 11th with low light, jazz on the speakers and a loyal local crowd. The mafé and grilled dorade with attiéké have been on the menu for years and still deliver. It's the priciest spot here and you'll notice on the bill.",
+        "address": "6 Rue Godefroy Cavaignac, 75011 Paris",
+        "rating": 4.4,
+        "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "BMK Paris-Bamako",
+        "description": "A Malian canteen near Gare du Nord serving plastic-tray lunches under €15. The poulet yassa and mafé are always on, and the room runs on a fast, loud rhythm. Communal seating, no frills, and you're in and out in forty minutes.",
+        "address": "14 Rue de la Fidélité, 75010 Paris",
+        "rating": 4.3,
+        "image": "https://images.unsplash.com/photo-1547592180-85f173990554?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Le 404",
+        "description": "Mourad Mazouz's long-running North African restaurant in a 16th-century building on rue des Gravilliers. Lamb tagine with prunes is the dish to order; the room hums and the music climbs after 9pm. Reservations are essential and the wine list can run up the bill quickly.",
+        "address": "69 Rue des Gravilliers, 75003 Paris",
+        "rating": 4.4,
+        "image": "https://images.unsplash.com/photo-1535850452425-140ee4a8dbae?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      }
+    ]
   }
 ];
 
