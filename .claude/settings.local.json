@@ -28,7 +28,20 @@
       "Bash(npm run *)",
       "Bash(curl -s \"https://unsplash.com/s/photos/colosseum-rome-italy\")",
       "Bash(grep -oP 'photo-\\\\d{10,13}-[a-f0-9]{8,12}')",
-      "Bash(xargs ls *)"
+      "Bash(xargs ls *)",
+      "Bash(sed -n '185,210p' /Users/admin/citytaste/app/page.tsx)",
+      "Bash(sed -n '325,360p' /Users/admin/citytaste/app/page.tsx)",
+      "Bash(sed -n '435,455p' /Users/admin/citytaste/app/page.tsx)",
+      "Bash(sed -n '60,85p' /Users/admin/citytaste/messages/en.json)",
+      "Bash(sed -n '60,85p' /Users/admin/citytaste/messages/fr.json)",
+      "Bash(sed -n '60,85p' /Users/admin/citytaste/messages/es.json)",
+      "Bash(sed -n '60,85p' /Users/admin/citytaste/messages/ar.json)",
+      "Bash(node -e ' *)",
+      "Bash(git pull *)",
+      "Bash(grep -E \"\\(package\\\\.json|next\\\\.config|data\\\\.ts|\\\\.tsx?$\\)\")",
+      "Bash(grep *)",
+      "Bash(npx tsx *)",
+      "Bash(node *)"
     ]
   }
 }
