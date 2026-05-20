@@ -1809,6 +1809,66 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "placeSlug": undefined
       }
     ]
+  },
+  {
+    "title": "Top Cheese Shops in Paris",
+    "slug": "cheese-shops-paris",
+    "city": "Paris",
+    "citySlug": "paris",
+    "category": "Markets",
+    "coverImage": "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=1200&q=80",
+    "publishedAt": "2026-05-20",
+    "readingTime": 8,
+    "metaDescription": "The best fromageries in Paris, from Marie-Anne Cantin's aged Comté to Laurent Dubois' showstoppers. Real addresses, honest takes, what to actually buy.",
+    "intro": "Walk past any decent Parisian fromagerie around 11am on a Saturday and you'll smell it before you see it — that warm, barnyard funk drifting onto the sidewalk. Paris doesn't invent cheese, but it curates it better than anywhere else: cheesemongers here age their own wheels in basement caves and argue about humidity like sommeliers argue about vintages. This guide is for travelers who want to bring home a chunk of real Brie de Meaux instead of the rubber stuff at Charles de Gaulle. Five shops, all reachable on foot from central neighborhoods, all run by people who actually know their suppliers.",
+    "body": "## Why Paris for cheese shops paris\n\nParis has roughly 250 fromageries inside the périphérique, and the best ones double as affineurs — meaning they buy young cheese from farms and finish the aging in their own cellars. Expect to spend €25-50 for a generous selection of four or five cheeses. Spring and autumn are peak seasons because that's when raw-milk cheeses hit their stride.\n\n| Place | Price | Best For | Vibe |\n|-------|-------|----------|------|\n| Marie-Anne Cantin | €€€ | Classic French wheels | Old-school, formal |\n| Laurent Dubois | €€€€ | Showpiece cheeses | Refined, artistic |\n| Androuet | €€ | One-stop selection | Welcoming, central |\n| Fromagerie Beaufils | €€ | Neighborhood feel | Casual, friendly |\n| La Fromagerie Goncourt | €€€ | Natural wine pairing | Modern, hip |\n\n## Detailed Reviews\n\n### 1. Marie-Anne Cantin\n\nMarie-Anne took over from her father Christian in the 80s and still personally selects every wheel that comes through the door. The shop near the Eiffel Tower is small, slightly austere, and the staff don't suffer fools — but ask one genuine question about Saint-Nectaire and you'll get a 10-minute lecture. Her **Comté aged 30 months** is the benchmark by which I judge every other Comté. Prices are not cheap, but you're paying for cheeses that were turned by hand in her caves on rue de Lourmel.\n\n**Best for:** Travelers serious about traditional raw-milk cheese\n**Local tip:** Go on Tuesday or Friday morning when fresh deliveries arrive. Skip Saturday afternoons — it's a scrum.\n\n### 2. Laurent Dubois\n\nDubois is a Meilleur Ouvrier de France, which is roughly the cheese equivalent of a Michelin star, and his Maubert-Mutualité shop looks the part — glass cases, theatrical lighting, cheeses arranged like jewelry. He's known for stuffed and layered creations: think **Mont d'Or with truffles** or a Roquefort layered with fig paste. Some find this gimmicky; I find it delicious about 70% of the time. The classics are also faultless, especially the Brie de Meaux Dongé.\n\n**Best for:** Foodies who want a showpiece for a dinner party\n**Local tip:** The stuffed Fourme d'Ambert with Sauternes-soaked raisins travels well if you're flying out the same day.\n\n### 3. Androuet\n\nAndrouet has been around since 1909 and now operates several locations across the city — the one on rue Mouffetard is the most enjoyable to visit because the street itself is worth the trip. They're less obsessive than Cantin but more approachable, and their selection covers everything from goat cheeses to Swiss alpine wheels. The **Époisses** here is consistently at peak ripeness, which is harder to find than you'd think.\n\n**Best for:** First-timers who want range without intimidation\n**Local tip:** They'll vacuum-pack for travel — ask at the counter, no extra charge.\n\n### 4. Fromagerie Beaufils\n\nTucked into the 20th arrondissement, Beaufils feels like the neighborhood shop everyone wishes they had. The owners are chatty, the prices are 15-20% lower than the Left Bank fromageries, and the quality holds up. Their **Saint-Marcellin** is creamy enough to eat with a spoon and comes from a tiny producer in the Rhône-Alpes.\n\n**Best for:** Budget-conscious travelers staying in eastern Paris\n**Local tip:** Combine with a walk through Père Lachaise — the shop is a 12-minute stroll from the main gate.\n\n### 5. La Fromagerie Goncourt\n\nClément Brossault opened this place in the 11th in 2014 and immediately attracted the natural wine crowd. The space is minimalist, almost Scandinavian, and the selection leans toward small producers you won't see anywhere else. Try the **Tomme de Brebis** from the Pyrenees — it has a nutty, almost caramel finish that pairs absurdly well with a glass of Beaujolais.\n\n**Best for:** Travelers who also want a wine recommendation\n**Local tip:** Closed Mondays. The shop fills up fast on Saturday around noon when locals stock up for Sunday lunch.\n\n## Local Tips for cheese shops paris\n\n- Ask for cheese **à déguster ce soir** (to eat tonight) and the fromager will pick wheels at perfect ripeness rather than ones that need to sit\n- Bring a cooler bag if you're shop-hopping in summer — Paris cheese shops rarely give you ice\n- Don't buy more than 4-5 cheeses at once; the flavors blur on the palate and you'll waste the subtler ones\n- Rue Mouffetard, rue Cler, and rue des Martyrs are three market streets where you can hit a fromagerie, a wine shop, and a bakery within 200 meters\n\n## FAQ\n\n### Q: Can I bring cheese back to the US from Paris?\nA: Hard and semi-hard cheeses aged over 60 days are generally allowed in checked or carry-on luggage. Soft raw-milk cheeses like Camembert or Époisses are technically prohibited by the FDA — most travelers risk it with vacuum-packed pieces, but officially it's not permitted.\n\n### Q: How much should I budget for a good cheese tasting at home?\nA: For two people, €30-40 buys a serious spread — about 600g total across four cheeses. Add a baguette (€1.50) and a bottle of wine from a nearby caviste (€12-18) and you've got dinner.\n\n### Q: Which cheese shop is best if I only have time for one?\nA: If you want the most quintessentially Parisian experience, go to Marie-Anne Cantin. If you want variety and ease, Androuet on rue Mouffetard. If you're staying in the Marais or eastern Paris, La Fromagerie Goncourt is closer and equally excellent.\n\n## The Verdict\n\n**Best for couples:** La Fromagerie Goncourt — pair the cheese with a natural wine from next door and you've planned the evening. **Best for budget:** Fromagerie Beaufils delivers serious quality without the Left Bank markup. **Best for first-timers:** Androuet on rue Mouffetard is welcoming, central, and the staff speak English without making you feel like a tourist. **Best for locals (and the seriously obsessed):** Marie-Anne Cantin, full stop — nobody in Paris ages Comté better.",
+    "places": [
+      {
+        "name": "Marie-Anne Cantin",
+        "description": "A small, formal shop near the Eiffel Tower run by one of the most respected affineurs in France. Marie-Anne ages her own cheeses in cellars beneath the shop, and her 30-month Comté is a benchmark. The atmosphere can feel slightly intimidating for first-timers, but the quality justifies the prices.",
+        "address": "12 Rue du Champ de Mars, 75007 Paris, France",
+        "rating": 4.8,
+        "image": "https://images.unsplash.com/photo-1452195100486-9cc805987862?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Laurent Dubois",
+        "description": "A Meilleur Ouvrier de France-certified fromager whose Maubert shop looks like a cheese jewelry display. Specializes in elaborate stuffed and layered cheeses like Mont d'Or with truffles. Some creations veer into gimmick territory, but the classic selection is faultless.",
+        "address": "47 Ter Boulevard Saint-Germain, 75005 Paris, France",
+        "rating": 4.7,
+        "image": "https://images.unsplash.com/photo-1559561853-08451507cbe7?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Androuet",
+        "description": "An institution dating to 1909 with several Paris locations, the rue Mouffetard branch is the most enjoyable to visit. Strong on classics with consistently well-aged Époisses and Brie. Less obsessive than Cantin and more welcoming for travelers still finding their cheese vocabulary.",
+        "address": "134 Rue Mouffetard, 75005 Paris, France",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1486297678162-eb2a19b0a4ac?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Fromagerie Beaufils",
+        "description": "A chatty, unpretentious neighborhood shop in the 20th arrondissement with prices noticeably lower than the Left Bank competition. Their Saint-Marcellin from a small Rhône-Alpes producer is exceptionally creamy. The location is a hike from central tourist zones but worth combining with Père Lachaise.",
+        "address": "118 Rue de Belleville, 75020 Paris, France",
+        "rating": 4.7,
+        "image": "https://images.unsplash.com/photo-1505575967455-40e256f73376?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "La Fromagerie Goncourt",
+        "description": "A minimalist, modern fromagerie in the 11th arrondissement that draws the natural wine crowd. The selection leans toward small producers you won't find at bigger shops, including a remarkable Pyrenees Tomme de Brebis. Closed Mondays and packed on Saturday lunchtimes when locals stock up.",
+        "address": "1 Rue Abel Rabaud, 75011 Paris, France",
+        "rating": 4.8,
+        "image": "https://images.unsplash.com/photo-1543363136-3fdb62e11be9?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      }
+    ]
   }
 ];
 
