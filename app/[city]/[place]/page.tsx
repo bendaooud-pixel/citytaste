@@ -213,7 +213,7 @@ export default async function PlaceDetailPage({ params }: Props) {
                 </div>
               </div>
 
-              <PhotoGallery photos={place.photos} name={place.name} />
+              <PhotoGallery photos={place.photos} name={place.name} placeSlug={place.slug} citySlug={place.citySlug} />
 
               <div className="bg-white rounded-2xl p-6 shadow-sm border border-slate-100">
                 <h2 className="font-semibold text-slate-800 mb-3">{t("place.about")}</h2>

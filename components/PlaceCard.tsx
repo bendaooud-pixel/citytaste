@@ -1,13 +1,12 @@
 "use client";
 import Link from "next/link";
-import Image from "next/image";
-import { useState } from "react";
 import type { Place } from "@/lib/types";
 import { CATEGORIES } from "@/lib/types";
 import StarRating from "./StarRating";
 import FavoriteButton from "./FavoriteButton";
 import RatingsBar from "./ui/RatingsBar";
 import PlaceBadge from "./ui/PlaceBadge";
+import PlaceImage from "./PlaceImage";
 import { getBadges } from "@/lib/badges";
 import { useLocale } from "@/lib/i18n";
 
@@ -17,12 +16,10 @@ interface PlaceCardProps {
 }
 
 const PRICE_LABEL = ["", "$", "$$", "$$$", "$$$$"];
-const FALLBACK_PHOTO = "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80";
 
 export default function PlaceCard({ place, compact = false }: PlaceCardProps) {
   const { t } = useLocale();
   const primaryCategory = CATEGORIES.find((c) => c.id === place.categories[0]);
-  const [imgError, setImgError] = useState(false);
   const badges = getBadges(place);
 
   return (
@@ -33,22 +30,12 @@ export default function PlaceCard({ place, compact = false }: PlaceCardProps) {
       <article className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5 border border-slate-100">
         {/* Image */}
         <div className="relative aspect-[4/3] overflow-hidden">
-          {imgError ? (
-            <div className="absolute inset-0 bg-gradient-to-br from-orange-400 to-rose-500 flex items-end p-4">
-              <span className="text-white font-semibold text-lg leading-tight drop-shadow">
-                {place.name}
-              </span>
-            </div>
-          ) : (
-            <Image
-              src={place.photos[0] ?? FALLBACK_PHOTO}
-              alt={place.name}
-              fill
-              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-              className="object-cover transition-transform duration-500 group-hover:scale-105"
-              onError={() => setImgError(true)}
-            />
-          )}
+          <PlaceImage
+            place={place}
+            variant="thumb"
+            className="object-cover transition-transform duration-500 group-hover:scale-105"
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+          />
 
           {/* Category badge */}
           {primaryCategory && (

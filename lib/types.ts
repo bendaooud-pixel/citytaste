@@ -62,6 +62,18 @@ export interface Review {
   initials: string;
 }
 
+export interface PlaceImageData {
+  heroImage: string;
+  thumbnail: string;
+  gallery: string[];
+  imageAlt: string;
+  imageCredits: string;
+  imageHash: string;
+  imageSource: "unsplash" | "pexels" | "local";
+  imageVerified: boolean;
+  blurDataURL?: string;
+}
+
 export interface Place {
   id: string;
   citySlug: string;
@@ -82,6 +94,7 @@ export interface Place {
   bookingUrl?: string;
   googleMapsUrl: string;
   photos: string[];
+  imageData?: PlaceImageData;
   openingHours: Record<string, string>;
   isHalal: boolean;
   isFamilyFriendly: boolean;

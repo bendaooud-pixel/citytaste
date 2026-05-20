@@ -1,0 +1,2356 @@
+{
+  "as-du-fallafel": {
+    "heroImage": "/images/places/paris/as-du-fallafel/hero.webp",
+    "thumbnail": "/images/places/paris/as-du-fallafel/thumb.webp",
+    "gallery": [
+      "/images/places/paris/as-du-fallafel/hero.webp",
+      "/images/places/paris/as-du-fallafel/gallery-1.webp",
+      "/images/places/paris/as-du-fallafel/gallery-2.webp",
+      "/images/places/paris/as-du-fallafel/gallery-3.webp"
+    ],
+    "imageAlt": "L'As du Fallafel — paris",
+    "imageCredits": "Unsplash",
+    "imageHash": "963ac27cb2477ef366f5cfe16d2ba3c9",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAQAgCdASoQAAwABUB8JaACdAELWW2FFzNwAP7j3RwEaFbf9YMLlGZdHzNAomZM6niLijXquTQ+C0AJGfbw4ZmC4AA="
+  },
+  "cafe-de-flore": {
+    "heroImage": "/images/places/paris/cafe-de-flore/hero.webp",
+    "thumbnail": "/images/places/paris/cafe-de-flore/thumb.webp",
+    "gallery": [
+      "/images/places/paris/cafe-de-flore/hero.webp",
+      "/images/places/paris/cafe-de-flore/gallery-1.webp",
+      "/images/places/paris/cafe-de-flore/gallery-2.webp",
+      "/images/places/paris/cafe-de-flore/gallery-3.webp"
+    ],
+    "imageAlt": "Café de Flore — paris",
+    "imageCredits": "Unsplash",
+    "imageHash": "cb1252f2f68b52d2a7a0c5daa9aaffcc",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAQCdASoQAAwABUB8JYwCw7D5WkWwmAD+1hoRUeCYXGLLUeH95FZEAyzcefhOBZJ5BcDcV9jsBXaXyWfrBvH4mb0T5iWFJBWmQAAA"
+  },
+  "septime": {
+    "heroImage": "/images/places/paris/septime/hero.webp",
+    "thumbnail": "/images/places/paris/septime/thumb.webp",
+    "gallery": [
+      "/images/places/paris/septime/hero.webp",
+      "/images/places/paris/septime/gallery-1.webp",
+      "/images/places/paris/septime/gallery-2.webp",
+      "/images/places/paris/septime/gallery-3.webp"
+    ],
+    "imageAlt": "Septime — paris",
+    "imageCredits": "Unsplash",
+    "imageHash": "017331a1eb7d2b9ad4a355c3fad2a685",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAQCdASoQAAwABUB8JQBOgBm1dzeAAM2hBwdupH6YVgjgqNuy55DGfQYvPPakfFfALQ7q9Owq3mwNqIyBMTcND7tc8AAA"
+  },
+  "holybelly": {
+    "heroImage": "/images/places/paris/holybelly/hero.webp",
+    "thumbnail": "/images/places/paris/holybelly/thumb.webp",
+    "gallery": [
+      "/images/places/paris/holybelly/hero.webp",
+      "/images/places/paris/holybelly/gallery-1.webp",
+      "/images/places/paris/holybelly/gallery-2.webp",
+      "/images/places/paris/holybelly/gallery-3.webp"
+    ],
+    "imageAlt": "Holybelly — paris",
+    "imageCredits": "Unsplash",
+    "imageHash": "290b7d66f01fe31a8b9f9bfa2382dd3c",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAQAgCdASoQAAwABUB8JbACdAEDGCW3FGWgAM2+C81i2Lp4ERP9kPS/JjgIbFbzHg5kYlyBV7ydrA8M6HqL169Z3ISd0xk3z50sbkeGpUek5rENEJt81f4afoOAAA=="
+  },
+  "angelina": {
+    "heroImage": "/images/places/paris/angelina/hero.webp",
+    "thumbnail": "/images/places/paris/angelina/thumb.webp",
+    "gallery": [
+      "/images/places/paris/angelina/hero.webp",
+      "/images/places/paris/angelina/gallery-1.webp",
+      "/images/places/paris/angelina/gallery-2.webp",
+      "/images/places/paris/angelina/gallery-3.webp"
+    ],
+    "imageAlt": "Angelina — paris",
+    "imageCredits": "Unsplash",
+    "imageHash": "7fe9e67b9eff165199896fdf74ab14c8",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAwAgCdASoQAAwABUB8JZgCdAEfUrqrzGomAAD+sdgfyA0PZS1xAzrofSHBAgWL6PAUEGWSpurOncSm5PgKpPngdcsFI6D1Y7I6KOlkQd6BKaF0RnAAAA=="
+  },
+  "le-jules-verne": {
+    "heroImage": "/images/places/paris/le-jules-verne/hero.webp",
+    "thumbnail": "/images/places/paris/le-jules-verne/thumb.webp",
+    "gallery": [
+      "/images/places/paris/le-jules-verne/hero.webp",
+      "/images/places/paris/le-jules-verne/gallery-1.webp",
+      "/images/places/paris/le-jules-verne/gallery-2.webp",
+      "/images/places/paris/le-jules-verne/gallery-3.webp"
+    ],
+    "imageAlt": "Le Jules Verne — paris",
+    "imageCredits": "Unsplash",
+    "imageHash": "b357b5f4034a7e24722235e03c5b6ea7",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAADQAQCdASoQAAwABUB8JZgCdADzfIDtgAD+WpinCcl6QvM3zW+FpWJyFxChdgAA"
+  },
+  "pink-mamma": {
+    "heroImage": "/images/places/paris/pink-mamma/hero.webp",
+    "thumbnail": "/images/places/paris/pink-mamma/thumb.webp",
+    "gallery": [
+      "/images/places/paris/pink-mamma/hero.webp",
+      "/images/places/paris/pink-mamma/gallery-1.webp",
+      "/images/places/paris/pink-mamma/gallery-2.webp",
+      "/images/places/paris/pink-mamma/gallery-3.webp"
+    ],
+    "imageAlt": "Pink Mamma — paris",
+    "imageCredits": "Unsplash",
+    "imageHash": "d0cf7cccfa47adf874fabed1eb377d77",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADQAQCdASoQAAwABUB8JYwCdAEPdkbqAAD+dMbY5Xqv84jCzKIHtQ6dLeR91GQAAAA="
+  },
+  "chez-omar": {
+    "heroImage": "/images/places/paris/chez-omar/hero.webp",
+    "thumbnail": "/images/places/paris/chez-omar/thumb.webp",
+    "gallery": [
+      "/images/places/paris/chez-omar/hero.webp",
+      "/images/places/paris/chez-omar/gallery-1.webp",
+      "/images/places/paris/chez-omar/gallery-2.webp",
+      "/images/places/paris/chez-omar/gallery-3.webp"
+    ],
+    "imageAlt": "Chez Omar — paris",
+    "imageCredits": "Unsplash",
+    "imageHash": "bfc0f567245540689401ecdbcaed5fc8",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAQAgCdASoQAAwABUB8JbACdAEDw50/vMIAAP6qrNcsqGqLBaZ+rmMB8sTJCgt0Hb3aI07kxssLZbq7IJcwSuW1Ca7FHGIViBoAAA=="
+  },
+  "du-pain-et-des-idees": {
+    "heroImage": "/images/places/paris/du-pain-et-des-idees/hero.webp",
+    "thumbnail": "/images/places/paris/du-pain-et-des-idees/thumb.webp",
+    "gallery": [
+      "/images/places/paris/du-pain-et-des-idees/hero.webp",
+      "/images/places/paris/du-pain-et-des-idees/gallery-1.webp",
+      "/images/places/paris/du-pain-et-des-idees/gallery-2.webp",
+      "/images/places/paris/du-pain-et-des-idees/gallery-3.webp"
+    ],
+    "imageAlt": "Du Pain et des Idées — paris",
+    "imageCredits": "Unsplash",
+    "imageHash": "5dc136b7bb4538e03ab732b12c73ebea",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoQAAwABUB8JbAAAtukYD14AgAA/u/FZE/c47aVF16k5qltxgFiQQVbTKAVrlvOGEdEPu8671PSz/fYB340QCrj1BktEAAA"
+  },
+  "le-baratin": {
+    "heroImage": "/images/places/paris/le-baratin/hero.webp",
+    "thumbnail": "/images/places/paris/le-baratin/thumb.webp",
+    "gallery": [
+      "/images/places/paris/le-baratin/hero.webp",
+      "/images/places/paris/le-baratin/gallery-1.webp",
+      "/images/places/paris/le-baratin/gallery-2.webp",
+      "/images/places/paris/le-baratin/gallery-3.webp"
+    ],
+    "imageAlt": "Le Baratin — paris",
+    "imageCredits": "Unsplash",
+    "imageHash": "cc4f3d3e13e8524031dd09d4833e0145",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAwAgCdASoQAAwABUB8JYgCdADxMf9ixGeoAAD+wJ5/TheWmVhedl4HQx86VSgbCAzIxAqSH2Ojq98Z42aY82zU3P6g5XDDQAA="
+  },
+  "pierre-sang-boyer": {
+    "heroImage": "/images/places/paris/pierre-sang-boyer/hero.webp",
+    "thumbnail": "/images/places/paris/pierre-sang-boyer/thumb.webp",
+    "gallery": [
+      "/images/places/paris/pierre-sang-boyer/hero.webp",
+      "/images/places/paris/pierre-sang-boyer/gallery-1.webp",
+      "/images/places/paris/pierre-sang-boyer/gallery-2.webp",
+      "/images/places/paris/pierre-sang-boyer/gallery-3.webp"
+    ],
+    "imageAlt": "Pierre Sang Boyer — paris",
+    "imageCredits": "Unsplash",
+    "imageHash": "8088f086cf71f634496d86cbc4d11223",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAQCdASoQAAwABUB8JbAAAugnvi/EkAD11VxVOIyIRHyZu4yUtGFqhoLtg+B/fISt913YR2eSmqt8sYMDLihi1kNNdPweIP4ajAAA"
+  },
+  "hardware-societe": {
+    "heroImage": "/images/places/paris/hardware-societe/hero.webp",
+    "thumbnail": "/images/places/paris/hardware-societe/thumb.webp",
+    "gallery": [
+      "/images/places/paris/hardware-societe/hero.webp",
+      "/images/places/paris/hardware-societe/gallery-1.webp",
+      "/images/places/paris/hardware-societe/gallery-2.webp",
+      "/images/places/paris/hardware-societe/gallery-3.webp"
+    ],
+    "imageAlt": "Hardware Société — paris",
+    "imageCredits": "Unsplash",
+    "imageHash": "8ab14379c1ead5448656d6c8b64fec19",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAwAgCdASoQAAwABUB8JbACdAEQ/Xci2xicAAD+8rHQUOLVlUn9CRlYdxzpRhFdNBQr07wkyYY7p+8vLMpPV5ZpNyokBgPMgAA="
+  },
+  "pierre-herme": {
+    "heroImage": "/images/places/paris/pierre-herme/hero.webp",
+    "thumbnail": "/images/places/paris/pierre-herme/thumb.webp",
+    "gallery": [
+      "/images/places/paris/pierre-herme/hero.webp",
+      "/images/places/paris/pierre-herme/gallery-1.webp",
+      "/images/places/paris/pierre-herme/gallery-2.webp",
+      "/images/places/paris/pierre-herme/gallery-3.webp"
+    ],
+    "imageAlt": "Pierre Hermé — paris",
+    "imageCredits": "Unsplash",
+    "imageHash": "361c7cdf561b9e85d84a542e5b278767",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAgCdASoQAAwABUB8JbACdAEPAqNNUlCAAP7tRyW8KScjqrTNx+1nMKD9SPsjqTDvijrwfoatubisVG/AAA=="
+  },
+  "laduree": {
+    "heroImage": "/images/places/paris/laduree/hero.webp",
+    "thumbnail": "/images/places/paris/laduree/thumb.webp",
+    "gallery": [
+      "/images/places/paris/laduree/hero.webp",
+      "/images/places/paris/laduree/gallery-1.webp",
+      "/images/places/paris/laduree/gallery-2.webp",
+      "/images/places/paris/laduree/gallery-3.webp"
+    ],
+    "imageAlt": "Ladurée — paris",
+    "imageCredits": "Unsplash",
+    "imageHash": "ead2080bc66c6e8ea433b49be41db6cd",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoQAAwABUB8JbACdADv14OLlQAA3aSzvgFqn1oxd+11uPtTN2CYRzkhiqz+gUSseysHAxH1UdTU1KvhvmIgAA=="
+  },
+  "cyril-lignac": {
+    "heroImage": "/images/places/paris/cyril-lignac/hero.webp",
+    "thumbnail": "/images/places/paris/cyril-lignac/thumb.webp",
+    "gallery": [
+      "/images/places/paris/cyril-lignac/hero.webp",
+      "/images/places/paris/cyril-lignac/gallery-1.webp",
+      "/images/places/paris/cyril-lignac/gallery-2.webp",
+      "/images/places/paris/cyril-lignac/gallery-3.webp"
+    ],
+    "imageAlt": "Cyril Lignac Pâtisserie — paris",
+    "imageCredits": "Unsplash",
+    "imageHash": "7f3aa8da82024a40b33378414eed6ade",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAQAgCdASoQAAwABUB8JbACdAEXTAmb/DAAAP7c+MxRGN/WXGrVDHVhEkEYyykVgspYxn30IQwWiGDbDxyzp4D1XBB9EDofKo9MsoMSimuyDcgDK6ER+i9tc0AAAA=="
+  },
+  "stohrer": {
+    "heroImage": "/images/places/paris/stohrer/hero.webp",
+    "thumbnail": "/images/places/paris/stohrer/thumb.webp",
+    "gallery": [
+      "/images/places/paris/stohrer/hero.webp",
+      "/images/places/paris/stohrer/gallery-1.webp",
+      "/images/places/paris/stohrer/gallery-2.webp",
+      "/images/places/paris/stohrer/gallery-3.webp"
+    ],
+    "imageAlt": "Stohrer — paris",
+    "imageCredits": "Unsplash",
+    "imageHash": "14631491c3927fdb4c31e9ff10f2d02a",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoQAAwABUB8JaAC7ADSRlKRsEAA/m/IV+TBWcIe7j+GWtxY2U4g9rVfOXSk/EUcLitjXiDEFgdiKZMr0AAAAA=="
+  },
+  "tour-eiffel": {
+    "heroImage": "/images/places/paris/tour-eiffel/hero.webp",
+    "thumbnail": "/images/places/paris/tour-eiffel/thumb.webp",
+    "gallery": [
+      "/images/places/paris/tour-eiffel/hero.webp",
+      "/images/places/paris/tour-eiffel/gallery-1.webp",
+      "/images/places/paris/tour-eiffel/gallery-2.webp",
+      "/images/places/paris/tour-eiffel/gallery-3.webp"
+    ],
+    "imageAlt": "Tour Eiffel — paris",
+    "imageCredits": "Unsplash",
+    "imageHash": "e29692043b1b258ffeb39b8843929b72",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAQCdASoQAAwABUB8JQBOgBjMHFGfaAD2vrd+hsCd5ZwxaQ4drLG+09eoojfJd6sYAkxdLSh/DIh9q78z02aNmrmw+cAA"
+  },
+  "musee-du-louvre": {
+    "heroImage": "/images/places/paris/musee-du-louvre/hero.webp",
+    "thumbnail": "/images/places/paris/musee-du-louvre/thumb.webp",
+    "gallery": [
+      "/images/places/paris/musee-du-louvre/hero.webp",
+      "/images/places/paris/musee-du-louvre/gallery-1.webp",
+      "/images/places/paris/musee-du-louvre/gallery-2.webp",
+      "/images/places/paris/musee-du-louvre/gallery-3.webp"
+    ],
+    "imageAlt": "Musée du Louvre — paris",
+    "imageCredits": "Unsplash",
+    "imageHash": "cdf98d7f87253ea3f13e3e4296683c9b",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoQAAwABUB8JQBOgCHeuHXnIAAA/u6SEjE7m6h7BdgeScYH6EhF7hd4fySOwAPyFrnUV2zPbfDTPH2gyxAAAA=="
+  },
+  "arc-de-triomphe": {
+    "heroImage": "/images/places/paris/arc-de-triomphe/hero.webp",
+    "thumbnail": "/images/places/paris/arc-de-triomphe/thumb.webp",
+    "gallery": [
+      "/images/places/paris/arc-de-triomphe/hero.webp",
+      "/images/places/paris/arc-de-triomphe/gallery-1.webp",
+      "/images/places/paris/arc-de-triomphe/gallery-2.webp",
+      "/images/places/paris/arc-de-triomphe/gallery-3.webp"
+    ],
+    "imageAlt": "Arc de Triomphe — paris",
+    "imageCredits": "Unsplash",
+    "imageHash": "40ca2fb2c7fff594e30164d4e26510b5",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAAAQAgCdASoQAAwABUB8JZAC7AEOfBEQsBwAAPpecCKQQ5+0NPQiJ2a4xuTrGCtnv5oqZTughFioX91tMH4BwAAA"
+  },
+  "notre-dame-de-paris": {
+    "heroImage": "/images/places/paris/notre-dame-de-paris/hero.webp",
+    "thumbnail": "/images/places/paris/notre-dame-de-paris/thumb.webp",
+    "gallery": [
+      "/images/places/paris/notre-dame-de-paris/hero.webp",
+      "/images/places/paris/notre-dame-de-paris/gallery-1.webp",
+      "/images/places/paris/notre-dame-de-paris/gallery-2.webp",
+      "/images/places/paris/notre-dame-de-paris/gallery-3.webp"
+    ],
+    "imageAlt": "Notre-Dame de Paris — paris",
+    "imageCredits": "Unsplash",
+    "imageHash": "cef25fb8daf648a858784f027bf859ce",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAQCdASoQAAwABUB8JQBOgBSt0aHdFAD+yOci1rRt99mQJ5lWvgTUVIM01u5C1/i434ZM0paPe9/8KqxHwA1glgNM4QeHhftAAA=="
+  },
+  "bateaux-mouches": {
+    "heroImage": "/images/places/paris/bateaux-mouches/hero.webp",
+    "thumbnail": "/images/places/paris/bateaux-mouches/thumb.webp",
+    "gallery": [
+      "/images/places/paris/bateaux-mouches/hero.webp",
+      "/images/places/paris/bateaux-mouches/gallery-1.webp",
+      "/images/places/paris/bateaux-mouches/gallery-2.webp",
+      "/images/places/paris/bateaux-mouches/gallery-3.webp"
+    ],
+    "imageAlt": "Seine Cruise — Bateaux Mouches — paris",
+    "imageCredits": "Unsplash",
+    "imageHash": "c1bc90dfcbfc0ef558726388ec8ae5f4",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAACwAQCdASoQAAwABUB8JQBdgCHcYJhAAP7f1us1tv43fTCKIEn7vFcNUeC9JuACI7Jas4SJGxAAAA=="
+  },
+  "sainte-chapelle": {
+    "heroImage": "/images/places/paris/sainte-chapelle/hero.webp",
+    "thumbnail": "/images/places/paris/sainte-chapelle/thumb.webp",
+    "gallery": [
+      "/images/places/paris/sainte-chapelle/hero.webp",
+      "/images/places/paris/sainte-chapelle/gallery-1.webp",
+      "/images/places/paris/sainte-chapelle/gallery-2.webp",
+      "/images/places/paris/sainte-chapelle/gallery-3.webp"
+    ],
+    "imageAlt": "Sainte-Chapelle — paris",
+    "imageCredits": "Unsplash",
+    "imageHash": "1a61a37b84afb7de4bdf1d0ec2ef66ba",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoQAAwABUB8JYwCdADC+VLiAAD+2BJQaFUQMJMY4E1xzuVpOoPlP6m3cnZvybAwePW8FfU8O5NkHVI0gAA="
+  },
+  "wine-tasting-le-marais": {
+    "heroImage": "/images/places/paris/wine-tasting-le-marais/hero.webp",
+    "thumbnail": "/images/places/paris/wine-tasting-le-marais/thumb.webp",
+    "gallery": [
+      "/images/places/paris/wine-tasting-le-marais/hero.webp",
+      "/images/places/paris/wine-tasting-le-marais/gallery-1.webp",
+      "/images/places/paris/wine-tasting-le-marais/gallery-2.webp",
+      "/images/places/paris/wine-tasting-le-marais/gallery-3.webp"
+    ],
+    "imageAlt": "Wine Tasting Le Marais — paris",
+    "imageCredits": "Unsplash",
+    "imageHash": "e18c4d0058049284a3842ff14b47d2a1",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoQAAwABUB8JaACdADQ27fc1YAAzjMPKqJtRr2i057tWCKY65S5Q3e35XIZed9frURPYiUgP1w8G6wGm21BW0RBjvAAAA=="
+  },
+  "le-cordon-bleu": {
+    "heroImage": "/images/places/paris/le-cordon-bleu/hero.webp",
+    "thumbnail": "/images/places/paris/le-cordon-bleu/thumb.webp",
+    "gallery": [
+      "/images/places/paris/le-cordon-bleu/hero.webp",
+      "/images/places/paris/le-cordon-bleu/gallery-1.webp",
+      "/images/places/paris/le-cordon-bleu/gallery-2.webp",
+      "/images/places/paris/le-cordon-bleu/gallery-3.webp"
+    ],
+    "imageAlt": "Le Cordon Bleu — Cooking Class — paris",
+    "imageCredits": "Unsplash",
+    "imageHash": "dd7a0eaaa1df8888d8fe411697a94bdf",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAQCdASoQAAwABUB8JZwAAZggkMGAAP5O/fmIw6AcLXuN7tY+WKuDdvMdGQidVpIOOYUfUaSgqrIGf6VVJ4bsYls/VghOUx3UAAAA"
+  },
+  "bike-tour-paris": {
+    "heroImage": "/images/places/paris/bike-tour-paris/hero.webp",
+    "thumbnail": "/images/places/paris/bike-tour-paris/thumb.webp",
+    "gallery": [
+      "/images/places/paris/bike-tour-paris/hero.webp",
+      "/images/places/paris/bike-tour-paris/gallery-1.webp",
+      "/images/places/paris/bike-tour-paris/gallery-2.webp",
+      "/images/places/paris/bike-tour-paris/gallery-3.webp"
+    ],
+    "imageAlt": "Bike Tour Paris — paris",
+    "imageCredits": "Unsplash",
+    "imageHash": "fa5693a3921c7131b763ca78b8337c4c",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAQCdASoQAAwABUB8JbACdAECo6Z7AAAA/usadKqZBuA4TkMkUgwjGOSfS61Cs4KU8w1o0eSpsZWueft7pLdPBq3Ckv4SAAA="
+  },
+  "marche-des-enfants-rouges": {
+    "heroImage": "/images/places/paris/marche-des-enfants-rouges/hero.webp",
+    "thumbnail": "/images/places/paris/marche-des-enfants-rouges/thumb.webp",
+    "gallery": [
+      "/images/places/paris/marche-des-enfants-rouges/hero.webp",
+      "/images/places/paris/marche-des-enfants-rouges/gallery-1.webp",
+      "/images/places/paris/marche-des-enfants-rouges/gallery-2.webp",
+      "/images/places/paris/marche-des-enfants-rouges/gallery-3.webp"
+    ],
+    "imageAlt": "Marché des Enfants Rouges — paris",
+    "imageCredits": "Unsplash",
+    "imageHash": "e890ae0e45318be9c9b0379a3669d853",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAwAgCdASoQAAwABUB8JbACdADxMYsmPlTbAAD+rDQ7tR8lewF2NT8C5cxJlTRf9QKE3R+i6wvdZGFBoDjIQ/+C4xek+nYz+qiYOUYdJdLkN8kNNqnXzyIYAAA="
+  },
+  "fragonard-perfume-workshop": {
+    "heroImage": "/images/places/paris/fragonard-perfume-workshop/hero.webp",
+    "thumbnail": "/images/places/paris/fragonard-perfume-workshop/thumb.webp",
+    "gallery": [
+      "/images/places/paris/fragonard-perfume-workshop/hero.webp",
+      "/images/places/paris/fragonard-perfume-workshop/gallery-1.webp",
+      "/images/places/paris/fragonard-perfume-workshop/gallery-2.webp",
+      "/images/places/paris/fragonard-perfume-workshop/gallery-3.webp"
+    ],
+    "imageAlt": "Fragonard Perfume Workshop — paris",
+    "imageCredits": "Unsplash",
+    "imageHash": "292605fbf5814a23f2ad6797e9e04ed4",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoQAAwABUB8JYgCdACjHZCVLgAA/oLVg6pMHasFmOblLNIVik/ocKtKODZjj1oxrIks7IS8ShOtMBVR7dUlM6krZGOAAA=="
+  },
+  "marche-daligre": {
+    "heroImage": "/images/places/paris/marche-daligre/hero.webp",
+    "thumbnail": "/images/places/paris/marche-daligre/thumb.webp",
+    "gallery": [
+      "/images/places/paris/marche-daligre/hero.webp",
+      "/images/places/paris/marche-daligre/gallery-1.webp",
+      "/images/places/paris/marche-daligre/gallery-2.webp",
+      "/images/places/paris/marche-daligre/gallery-3.webp"
+    ],
+    "imageAlt": "Marché d'Aligre — paris",
+    "imageCredits": "Unsplash",
+    "imageHash": "64c6c3bd39c8d4fecf2284f8f3c144a3",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACwAQCdASoQAAwABUB8JYgCdAClkf0AAP6o3oJKbA0AAbv6SmuavXkIyxbAB9GjNmJ9Y/Tu1WdITSk6Or2AAA=="
+  },
+  "puces-de-saint-ouen": {
+    "heroImage": "/images/places/paris/puces-de-saint-ouen/hero.webp",
+    "thumbnail": "/images/places/paris/puces-de-saint-ouen/thumb.webp",
+    "gallery": [
+      "/images/places/paris/puces-de-saint-ouen/hero.webp",
+      "/images/places/paris/puces-de-saint-ouen/gallery-1.webp",
+      "/images/places/paris/puces-de-saint-ouen/gallery-2.webp"
+    ],
+    "imageAlt": "Puces de Saint-Ouen — paris",
+    "imageCredits": "Unsplash",
+    "imageHash": "58ff4fe48a292fada1fdc9f397a047ee",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACwAQCdASoQAAwABUB8JaACdADaxOOAAP6tgmdTK0oMmgcEuEVlPX0CgnLmZa6d/w3NMLje98Lq6SrjHthTIAAA"
+  },
+  "tickets": {
+    "heroImage": "/images/places/barcelona/tickets/hero.webp",
+    "thumbnail": "/images/places/barcelona/tickets/thumb.webp",
+    "gallery": [
+      "/images/places/barcelona/tickets/hero.webp",
+      "/images/places/barcelona/tickets/gallery-1.webp",
+      "/images/places/barcelona/tickets/gallery-2.webp",
+      "/images/places/barcelona/tickets/gallery-3.webp"
+    ],
+    "imageAlt": "Tickets — barcelona",
+    "imageCredits": "Unsplash",
+    "imageHash": "49e8f3b48f5f7e7c187274e6a0a8feb2",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAAAQAgCdASoQAAwABUB8JbACdAEPhVQoAQAAAN0hDnPblM/v5BCDqJ0BU60EF3MdHLZXjSqAAAA="
+  },
+  "el-xampanyet": {
+    "heroImage": "/images/places/barcelona/el-xampanyet/hero.webp",
+    "thumbnail": "/images/places/barcelona/el-xampanyet/thumb.webp",
+    "gallery": [
+      "/images/places/barcelona/el-xampanyet/hero.webp",
+      "/images/places/barcelona/el-xampanyet/gallery-1.webp",
+      "/images/places/barcelona/el-xampanyet/gallery-2.webp",
+      "/images/places/barcelona/el-xampanyet/gallery-3.webp"
+    ],
+    "imageAlt": "El Xampanyet — barcelona",
+    "imageCredits": "Unsplash",
+    "imageHash": "dcee9d50d50f2fe82c8988e7d4d5c6ed",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADwAQCdASoQAAwABUB8JYwAAn+yIWx9WAAA/undp7lDcFEfHNHNnrZftWcamm8T/m7EC/KP/3J8AA=="
+  },
+  "marche-bastille": {
+    "heroImage": "/images/places/paris/marche-bastille/hero.webp",
+    "thumbnail": "/images/places/paris/marche-bastille/thumb.webp",
+    "gallery": [
+      "/images/places/paris/marche-bastille/hero.webp",
+      "/images/places/paris/marche-bastille/gallery-1.webp",
+      "/images/places/paris/marche-bastille/gallery-2.webp",
+      "/images/places/paris/marche-bastille/gallery-3.webp"
+    ],
+    "imageAlt": "Marché Bastille — paris",
+    "imageCredits": "Unsplash",
+    "imageHash": "6c8c878736389f626a2b6455804b2d1f",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAACQAQCdASoQAAwABUB8JbACdABWCwAA/XBfsOr7/fVtgj8EWN83dTuThE148WyqY34vM1NZgEiVwLi8xt/K21udGI5TeU2ewwmCcjWZFMuDsjcoAAA="
+  },
+  "federal-cafe": {
+    "heroImage": "/images/places/barcelona/federal-cafe/hero.webp",
+    "thumbnail": "/images/places/barcelona/federal-cafe/thumb.webp",
+    "gallery": [
+      "/images/places/barcelona/federal-cafe/hero.webp",
+      "/images/places/barcelona/federal-cafe/gallery-1.webp",
+      "/images/places/barcelona/federal-cafe/gallery-2.webp",
+      "/images/places/barcelona/federal-cafe/gallery-3.webp"
+    ],
+    "imageAlt": "Federal Café — barcelona",
+    "imageCredits": "Unsplash",
+    "imageHash": "2fae56172163c46e985d165d6a2afcdc",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAQCdASoQAAwABUB8JbACdAED3lrwAAD+2VhkpkVigvDJ+qyNXw1aR9bjxUJbylR9O/XAR764IsNGmbzPjL3+74cLO785gAA="
+  },
+  "disfrutar": {
+    "heroImage": "/images/places/barcelona/disfrutar/hero.webp",
+    "thumbnail": "/images/places/barcelona/disfrutar/thumb.webp",
+    "gallery": [
+      "/images/places/barcelona/disfrutar/hero.webp",
+      "/images/places/barcelona/disfrutar/gallery-1.webp",
+      "/images/places/barcelona/disfrutar/gallery-2.webp",
+      "/images/places/barcelona/disfrutar/gallery-3.webp"
+    ],
+    "imageAlt": "Disfrutar — barcelona",
+    "imageCredits": "Unsplash",
+    "imageHash": "ecba65d1a714a42092b2b2c451215d08",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAQCdASoQAAwABUB8JQBOgCHcVAoMAAD+7D6vEUH/78XwEl/ks3iBR1Adz7xR3RQDaAIsNZCblAAA"
+  },
+  "bar-canete": {
+    "heroImage": "/images/places/barcelona/bar-canete/hero.webp",
+    "thumbnail": "/images/places/barcelona/bar-canete/thumb.webp",
+    "gallery": [
+      "/images/places/barcelona/bar-canete/hero.webp",
+      "/images/places/barcelona/bar-canete/gallery-1.webp",
+      "/images/places/barcelona/bar-canete/gallery-2.webp",
+      "/images/places/barcelona/bar-canete/gallery-3.webp"
+    ],
+    "imageAlt": "Bar Cañete — barcelona",
+    "imageCredits": "Unsplash",
+    "imageHash": "c5a58b430488283aa8c1ab02cce28da8",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAQCdASoQAAwABUB8JaQAAqsVTMJvF0AA/s3bvvYffrO3qFpAgW8+ZaIH+frcWxuuIw3TtvNBEeOrCj5kktpk9hXvJkBh26ymfNVY3AAAAA=="
+  },
+  "quimet-quimet": {
+    "heroImage": "/images/places/barcelona/quimet-quimet/hero.webp",
+    "thumbnail": "/images/places/barcelona/quimet-quimet/thumb.webp",
+    "gallery": [
+      "/images/places/barcelona/quimet-quimet/hero.webp",
+      "/images/places/barcelona/quimet-quimet/gallery-1.webp",
+      "/images/places/barcelona/quimet-quimet/gallery-2.webp",
+      "/images/places/barcelona/quimet-quimet/gallery-3.webp"
+    ],
+    "imageAlt": "Quimet & Quimet — barcelona",
+    "imageCredits": "Unsplash",
+    "imageHash": "2f516b89285248538f5a881f1fb7cb90",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAgCdASoQAAwABUB8JQBOgCLM3KHre7KAAOJtHhrBw/sKyjJPPJqlLfZ1OEfuymzrHQLOVjAez3Ar7TAAAA=="
+  },
+  "al-andalus": {
+    "heroImage": "/images/places/barcelona/al-andalus/hero.webp",
+    "thumbnail": "/images/places/barcelona/al-andalus/thumb.webp",
+    "gallery": [
+      "/images/places/barcelona/al-andalus/hero.webp",
+      "/images/places/barcelona/al-andalus/gallery-1.webp",
+      "/images/places/barcelona/al-andalus/gallery-2.webp",
+      "/images/places/barcelona/al-andalus/gallery-3.webp"
+    ],
+    "imageAlt": "Al-Andalus — barcelona",
+    "imageCredits": "Unsplash",
+    "imageHash": "1f18c6d5d2d5ae8fc234e49c5f0c493b",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoQAAwABUB8JbACdAEGkHB9wsAA+/3HFh9brssmwHDjBIz+eOUS46auKSrJqbBioFG5ASkehqmBuySzwZminzXYIlNvZtT5vgA="
+  },
+  "parking-pizza": {
+    "heroImage": "/images/places/barcelona/parking-pizza/hero.webp",
+    "thumbnail": "/images/places/barcelona/parking-pizza/thumb.webp",
+    "gallery": [
+      "/images/places/barcelona/parking-pizza/hero.webp",
+      "/images/places/barcelona/parking-pizza/gallery-1.webp",
+      "/images/places/barcelona/parking-pizza/gallery-2.webp",
+      "/images/places/barcelona/parking-pizza/gallery-3.webp"
+    ],
+    "imageAlt": "Parking Pizza — barcelona",
+    "imageCredits": "Unsplash",
+    "imageHash": "afb293574ac92da3738626ee44abf983",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQAgCdASoQAAwABUB8JYgCdADHsgvCnmwAAOIR7TLUmPgkk/JqA/zxm/hizWUSyHxe3B6IvY7JqENeTU+Tkgs0J20MFoNvHkRc/9xcfgAAAA=="
+  },
+  "bar-del-pla": {
+    "heroImage": "/images/places/barcelona/bar-del-pla/hero.webp",
+    "thumbnail": "/images/places/barcelona/bar-del-pla/thumb.webp",
+    "gallery": [
+      "/images/places/barcelona/bar-del-pla/hero.webp",
+      "/images/places/barcelona/bar-del-pla/gallery-1.webp",
+      "/images/places/barcelona/bar-del-pla/gallery-2.webp",
+      "/images/places/barcelona/bar-del-pla/gallery-3.webp"
+    ],
+    "imageAlt": "Bar del Pla — barcelona",
+    "imageCredits": "Unsplash",
+    "imageHash": "e9e894aca8dc77e674c260ad635a8a51",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADQAQCdASoQAAwABUB8JQBOgCIgbl/6AAD+W+SJN94R7+0awYPCheyH+hcqSuL/QTiBeDRUOH6sXwXMvYAAAA=="
+  },
+  "can-sole": {
+    "heroImage": "/images/places/barcelona/can-sole/hero.webp",
+    "thumbnail": "/images/places/barcelona/can-sole/thumb.webp",
+    "gallery": [
+      "/images/places/barcelona/can-sole/hero.webp",
+      "/images/places/barcelona/can-sole/gallery-1.webp",
+      "/images/places/barcelona/can-sole/gallery-2.webp",
+      "/images/places/barcelona/can-sole/gallery-3.webp"
+    ],
+    "imageAlt": "Can Solé — barcelona",
+    "imageCredits": "Unsplash",
+    "imageHash": "cb5b1aad6f1119a9f1bf65bd0bb5e1db",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADwAQCdASoQAAwABUB8JZwAAujbCQcNe4AA4ZI/MFmuiCwG9mDfMS5SwKy1SwJ6AZdJAxER+q9wAA=="
+  },
+  "el-nacional": {
+    "heroImage": "/images/places/barcelona/el-nacional/hero.webp",
+    "thumbnail": "/images/places/barcelona/el-nacional/thumb.webp",
+    "gallery": [
+      "/images/places/barcelona/el-nacional/hero.webp",
+      "/images/places/barcelona/el-nacional/gallery-1.webp",
+      "/images/places/barcelona/el-nacional/gallery-2.webp",
+      "/images/places/barcelona/el-nacional/gallery-3.webp"
+    ],
+    "imageAlt": "El Nacional — barcelona",
+    "imageCredits": "Unsplash",
+    "imageHash": "a5625d918bc02741e46758e5b98baf3d",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAQAgCdASoQAAwABUB8JaACdAEe4ShbCU4AAP6D6vJzoG72ZaI6z3SK8I8y8qq7jrIH5EJ9k69fuEtm2OOcTe5YlSlXpn4AAAA="
+  },
+  "bodega-sepulveda": {
+    "heroImage": "/images/places/barcelona/bodega-sepulveda/hero.webp",
+    "thumbnail": "/images/places/barcelona/bodega-sepulveda/thumb.webp",
+    "gallery": [
+      "/images/places/barcelona/bodega-sepulveda/hero.webp",
+      "/images/places/barcelona/bodega-sepulveda/gallery-1.webp",
+      "/images/places/barcelona/bodega-sepulveda/gallery-2.webp",
+      "/images/places/barcelona/bodega-sepulveda/gallery-3.webp"
+    ],
+    "imageAlt": "Bodega Sepúlveda — barcelona",
+    "imageCredits": "Unsplash",
+    "imageHash": "0eb811d1adac0871ac7cb262fb322e71",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoQAAwABUB8JYgC7AD0R8XrhwAA/oQYW3HMY5y0hwHHM7+ctirtpoa0CDv7RrnoqfB0WCjAE/9KrIM6yetKO/PX0dNLAAAA"
+  },
+  "hofmann-pastisseria": {
+    "heroImage": "/images/places/barcelona/hofmann-pastisseria/hero.webp",
+    "thumbnail": "/images/places/barcelona/hofmann-pastisseria/thumb.webp",
+    "gallery": [
+      "/images/places/barcelona/hofmann-pastisseria/hero.webp",
+      "/images/places/barcelona/hofmann-pastisseria/gallery-1.webp",
+      "/images/places/barcelona/hofmann-pastisseria/gallery-2.webp",
+      "/images/places/barcelona/hofmann-pastisseria/gallery-3.webp"
+    ],
+    "imageAlt": "Hofmann Pastisseria — barcelona",
+    "imageCredits": "Unsplash",
+    "imageHash": "c3ddad8eea06384d709cbf36f9ddf63b",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADwAQCdASoQAAwABUB8JZACdAD6PbHtWSgA/D063EddSNpcSkil3z/Lfb3WZal2G2YWch0a/CtMPkcmvoAAAA=="
+  },
+  "satans-coffee-corner": {
+    "heroImage": "/images/places/barcelona/satans-coffee-corner/hero.webp",
+    "thumbnail": "/images/places/barcelona/satans-coffee-corner/thumb.webp",
+    "gallery": [
+      "/images/places/barcelona/satans-coffee-corner/hero.webp",
+      "/images/places/barcelona/satans-coffee-corner/gallery-1.webp",
+      "/images/places/barcelona/satans-coffee-corner/gallery-2.webp",
+      "/images/places/barcelona/satans-coffee-corner/gallery-3.webp"
+    ],
+    "imageAlt": "Satan's Coffee Corner — barcelona",
+    "imageCredits": "Unsplash",
+    "imageHash": "02870df094a3c0f9bd63b36577e8d218",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAQCdASoQAAwABUB8JbACdAC639NhP4AA+/I2msxvjPdT0vXxsAr05gacHeegb10twBVevIC7uy+vc4Bln7dYeZgkQy8ghXhLNZWzRFwAAA=="
+  },
+  "escriva": {
+    "heroImage": "/images/places/barcelona/escriva/hero.webp",
+    "thumbnail": "/images/places/barcelona/escriva/thumb.webp",
+    "gallery": [
+      "/images/places/barcelona/escriva/hero.webp",
+      "/images/places/barcelona/escriva/gallery-1.webp",
+      "/images/places/barcelona/escriva/gallery-2.webp",
+      "/images/places/barcelona/escriva/gallery-3.webp"
+    ],
+    "imageAlt": "Escribà — barcelona",
+    "imageCredits": "Unsplash",
+    "imageHash": "49de20731a9484dfce7099520cc6c280",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAABwAQCdASoQAAwABUB8JQBOgAeAAAD+0Dtj5POCPVGBsA/4E2RbC3n80zUoQbJIUQwz2wSr9u7PKKIeAAA="
+  },
+  "oriol-balaguer": {
+    "heroImage": "/images/places/barcelona/oriol-balaguer/hero.webp",
+    "thumbnail": "/images/places/barcelona/oriol-balaguer/thumb.webp",
+    "gallery": [
+      "/images/places/barcelona/oriol-balaguer/hero.webp",
+      "/images/places/barcelona/oriol-balaguer/gallery-1.webp",
+      "/images/places/barcelona/oriol-balaguer/gallery-2.webp",
+      "/images/places/barcelona/oriol-balaguer/gallery-3.webp"
+    ],
+    "imageAlt": "Oriol Balaguer — barcelona",
+    "imageCredits": "Unsplash",
+    "imageHash": "2e7f1e654635a096fcb62f6bd0c36920",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAQAgCdASoQAAwABUB8JagCdAEDElDDy0dQAM38cvEP6VYBt2JimdzVgc5bKxEGELHJDA5HiFyzKAL0/YOnKvXmUAOPgAAA"
+  },
+  "la-colmena": {
+    "heroImage": "/images/places/barcelona/la-colmena/hero.webp",
+    "thumbnail": "/images/places/barcelona/la-colmena/thumb.webp",
+    "gallery": [
+      "/images/places/barcelona/la-colmena/hero.webp",
+      "/images/places/barcelona/la-colmena/gallery-1.webp",
+      "/images/places/barcelona/la-colmena/gallery-2.webp",
+      "/images/places/barcelona/la-colmena/gallery-3.webp"
+    ],
+    "imageAlt": "La Colmena — barcelona",
+    "imageCredits": "Unsplash",
+    "imageHash": "81a78475317cd18acfc87e48d6da4942",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAQCdASoQAAwABUB8JQBOgB4bUIMTXgAA/kjdEhwAf6PxQGt6PsHfzXW0Hbr8Mx/1lYXMuc82TO9/hAhxIkAA"
+  },
+  "bubo": {
+    "heroImage": "/images/places/barcelona/bubo/hero.webp",
+    "thumbnail": "/images/places/barcelona/bubo/thumb.webp",
+    "gallery": [
+      "/images/places/barcelona/bubo/hero.webp",
+      "/images/places/barcelona/bubo/gallery-1.webp",
+      "/images/places/barcelona/bubo/gallery-2.webp",
+      "/images/places/barcelona/bubo/gallery-3.webp"
+    ],
+    "imageAlt": "Bubó — barcelona",
+    "imageCredits": "Unsplash",
+    "imageHash": "83c33f58873177186cddf02a6c6473f4",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAQCdASoQAAwABUB8JZAAAmqxF6597fAA/ulZGbcMZRiEj/YfTBlmJNVnUy6omMfdFFz/bYrST00aPKLn1uaOW+J/wo6AAAA="
+  },
+  "sagrada-familia": {
+    "heroImage": "/images/places/barcelona/sagrada-familia/hero.webp",
+    "thumbnail": "/images/places/barcelona/sagrada-familia/thumb.webp",
+    "gallery": [
+      "/images/places/barcelona/sagrada-familia/hero.webp",
+      "/images/places/barcelona/sagrada-familia/gallery-1.webp",
+      "/images/places/barcelona/sagrada-familia/gallery-2.webp",
+      "/images/places/barcelona/sagrada-familia/gallery-3.webp"
+    ],
+    "imageAlt": "Sagrada Família — barcelona",
+    "imageCredits": "Unsplash",
+    "imageHash": "1ba22b270a7861602de30f7180cf93ee",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAwAgCdASoQAAwABUB8JbACdH8AGERP3J6jwAD+4Lo8kt+qFwVW62MgMKngiC/V2p9yX0bnXfc030+V0pIYbxymJAAAAA=="
+  },
+  "park-guell": {
+    "heroImage": "/images/places/barcelona/park-guell/hero.webp",
+    "thumbnail": "/images/places/barcelona/park-guell/thumb.webp",
+    "gallery": [
+      "/images/places/barcelona/park-guell/hero.webp",
+      "/images/places/barcelona/park-guell/gallery-1.webp",
+      "/images/places/barcelona/park-guell/gallery-2.webp",
+      "/images/places/barcelona/park-guell/gallery-3.webp"
+    ],
+    "imageAlt": "Park Güell — barcelona",
+    "imageCredits": "Unsplash",
+    "imageHash": "244c2c0fb1ab243106ebcf3bb6fa39cd",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACwAQCdASoQAAwABUB8JYwAML+CYEQAAPyqx/0723XZD0H+fcKk/RS9yVYkzRqaZYdO4lFTwpJZlUPXJ1InjCrU4CAAAA=="
+  },
+  "la-pedrera": {
+    "heroImage": "/images/places/barcelona/la-pedrera/hero.webp",
+    "thumbnail": "/images/places/barcelona/la-pedrera/thumb.webp",
+    "gallery": [
+      "/images/places/barcelona/la-pedrera/hero.webp",
+      "/images/places/barcelona/la-pedrera/gallery-1.webp",
+      "/images/places/barcelona/la-pedrera/gallery-2.webp",
+      "/images/places/barcelona/la-pedrera/gallery-3.webp"
+    ],
+    "imageAlt": "La Pedrera — Casa Milà — barcelona",
+    "imageCredits": "Unsplash",
+    "imageHash": "6854090d2d8aa5e7baa6223193acf172",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAQCdASoQAAwABUB8JbACdADdrxZluQAA/lvOP0ARTCnDV6ztyqHKjEnYSi97iFaU0vRz8vqtfO68+6D5/rkzZI2JOVZi+Hd0+//boYPfu8iwAAA="
+  },
+  "palau-de-la-musica": {
+    "heroImage": "/images/places/barcelona/palau-de-la-musica/hero.webp",
+    "thumbnail": "/images/places/barcelona/palau-de-la-musica/thumb.webp",
+    "gallery": [
+      "/images/places/barcelona/palau-de-la-musica/hero.webp",
+      "/images/places/barcelona/palau-de-la-musica/gallery-1.webp",
+      "/images/places/barcelona/palau-de-la-musica/gallery-2.webp",
+      "/images/places/barcelona/palau-de-la-musica/gallery-3.webp"
+    ],
+    "imageAlt": "Palau de la Música Catalana — barcelona",
+    "imageCredits": "Unsplash",
+    "imageHash": "1823e4ce14aeae47e3e1952c274950d8",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoQAAwABUB8JYgCdACDXIZZgAD+PiZheYh2O0cWtQFljRVafTgXZ5u1CQiZVAUJBdwf9ahsn5tIhBCbsDAAAA=="
+  },
+  "casa-batllo": {
+    "heroImage": "/images/places/barcelona/casa-batllo/hero.webp",
+    "thumbnail": "/images/places/barcelona/casa-batllo/thumb.webp",
+    "gallery": [
+      "/images/places/barcelona/casa-batllo/hero.webp",
+      "/images/places/barcelona/casa-batllo/gallery-1.webp",
+      "/images/places/barcelona/casa-batllo/gallery-2.webp",
+      "/images/places/barcelona/casa-batllo/gallery-3.webp"
+    ],
+    "imageAlt": "Casa Batlló — barcelona",
+    "imageCredits": "Unsplash",
+    "imageHash": "f2587b2c5eec4ded840ca64438437568",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAwAgCdASoQAAwABUB8JbACdAELzzS1zSx8AAD+YP73ZUHM3CIRnPye1vpghDBmMj4iwm+GHEGtna/7MnIFsfwFLM7bm/PMkuhGTQBpaFmbdgAA"
+  },
+  "barceloneta-beach": {
+    "heroImage": "/images/places/barcelona/barceloneta-beach/hero.webp",
+    "thumbnail": "/images/places/barcelona/barceloneta-beach/thumb.webp",
+    "gallery": [
+      "/images/places/barcelona/barceloneta-beach/hero.webp",
+      "/images/places/barcelona/barceloneta-beach/gallery-1.webp",
+      "/images/places/barcelona/barceloneta-beach/gallery-2.webp",
+      "/images/places/barcelona/barceloneta-beach/gallery-3.webp"
+    ],
+    "imageAlt": "Barceloneta Beach — barcelona",
+    "imageCredits": "Unsplash",
+    "imageHash": "e91da07f6198087734b801f6a631fcb2",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoQAAwABUB8JagCdAEO42TyAAD+6Qggi0MAO7UNejJLoUhkCPLhURjLTfpPpTUedlmmt16jqvPYVUUvVggAAA=="
+  },
+  "camp-nou": {
+    "heroImage": "/images/places/barcelona/camp-nou/hero.webp",
+    "thumbnail": "/images/places/barcelona/camp-nou/thumb.webp",
+    "gallery": [
+      "/images/places/barcelona/camp-nou/hero.webp",
+      "/images/places/barcelona/camp-nou/gallery-1.webp",
+      "/images/places/barcelona/camp-nou/gallery-2.webp",
+      "/images/places/barcelona/camp-nou/gallery-3.webp"
+    ],
+    "imageAlt": "Camp Nou Experience — barcelona",
+    "imageCredits": "Unsplash",
+    "imageHash": "d3184abdc3f2873227dcb3aadc028c51",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADwAQCdASoQAAwABUB8JZQAAxOzhfV5NQAA/uvnDlywo26BRrMMbX2VJp3/2sqCpzFhPpjem01JUalJgXUQ/4X1gAA="
+  },
+  "gothic-quarter": {
+    "heroImage": "/images/places/barcelona/gothic-quarter/hero.webp",
+    "thumbnail": "/images/places/barcelona/gothic-quarter/thumb.webp",
+    "gallery": [
+      "/images/places/barcelona/gothic-quarter/hero.webp",
+      "/images/places/barcelona/gothic-quarter/gallery-1.webp",
+      "/images/places/barcelona/gothic-quarter/gallery-2.webp",
+      "/images/places/barcelona/gothic-quarter/gallery-3.webp"
+    ],
+    "imageAlt": "Gothic Quarter — barcelona",
+    "imageCredits": "Unsplash",
+    "imageHash": "78668d0460e099352dfb2dd264fd36de",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAQAgCdASoQAAwABUB8JbACdAEe952Aj9f0AM4aE55P2ONaN9EgfDO66MrH2xkLGxlnsN/iFJzBl4P11dhg9JkKbGucakGkh9u8AWP0Cn4PXAAA"
+  },
+  "la-boqueria": {
+    "heroImage": "/images/places/barcelona/la-boqueria/hero.webp",
+    "thumbnail": "/images/places/barcelona/la-boqueria/thumb.webp",
+    "gallery": [
+      "/images/places/barcelona/la-boqueria/hero.webp",
+      "/images/places/barcelona/la-boqueria/gallery-1.webp",
+      "/images/places/barcelona/la-boqueria/gallery-2.webp",
+      "/images/places/barcelona/la-boqueria/gallery-3.webp"
+    ],
+    "imageAlt": "La Boqueria Market — barcelona",
+    "imageCredits": "Unsplash",
+    "imageHash": "8d6f677b93bc203b0c20d76b66887803",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAQCdASoQAAwABUB8JbACdACeuHvXhAAA/sB3gR8o/fTCZUqycAE6qnuiKvmhQCDKyFL9RDpsI+adsgOamz2B8HTdfvGUERJaW4rL0p58+OQVgAA="
+  },
+  "el-born-market": {
+    "heroImage": "/images/places/barcelona/el-born-market/hero.webp",
+    "thumbnail": "/images/places/barcelona/el-born-market/thumb.webp",
+    "gallery": [
+      "/images/places/barcelona/el-born-market/hero.webp",
+      "/images/places/barcelona/el-born-market/gallery-1.webp",
+      "/images/places/barcelona/el-born-market/gallery-2.webp",
+      "/images/places/barcelona/el-born-market/gallery-3.webp"
+    ],
+    "imageAlt": "El Born Market — barcelona",
+    "imageCredits": "Unsplash",
+    "imageHash": "b760d0f648e2df8cef8de9fd6ba75814",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAQCdASoQAAwABUB8JZgCdAD6iDXXAAD+rYmnsal1mjB6vLKoqpbkHOXhOwQvO+Jp1WxsZ+4quYGAOLnFra0uwSLI4Sxn+WJu21hbDAAAAA=="
+  },
+  "mercat-santa-caterina": {
+    "heroImage": "/images/places/barcelona/mercat-santa-caterina/hero.webp",
+    "thumbnail": "/images/places/barcelona/mercat-santa-caterina/thumb.webp",
+    "gallery": [
+      "/images/places/barcelona/mercat-santa-caterina/hero.webp",
+      "/images/places/barcelona/mercat-santa-caterina/gallery-1.webp",
+      "/images/places/barcelona/mercat-santa-caterina/gallery-2.webp",
+      "/images/places/barcelona/mercat-santa-caterina/gallery-3.webp"
+    ],
+    "imageAlt": "Mercat de Santa Caterina — barcelona",
+    "imageCredits": "Unsplash",
+    "imageHash": "0ac6ad46451a39eff603d3f30be7cc9d",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADwAQCdASoQAAwABUB8JbACdADQl9qW5MAA/ukGdTM2bVlE/cZ2xlFSIse6jrmu+ppZVvDJRsx+nRcmwOdGk7umxS1lYEBs1f/Ocve8jOx3djsRi2zkbAAA"
+  },
+  "encants-flea-market": {
+    "heroImage": "/images/places/barcelona/encants-flea-market/hero.webp",
+    "thumbnail": "/images/places/barcelona/encants-flea-market/thumb.webp",
+    "gallery": [
+      "/images/places/barcelona/encants-flea-market/hero.webp",
+      "/images/places/barcelona/encants-flea-market/gallery-1.webp",
+      "/images/places/barcelona/encants-flea-market/gallery-2.webp",
+      "/images/places/barcelona/encants-flea-market/gallery-3.webp"
+    ],
+    "imageAlt": "Encants Flea Market — barcelona",
+    "imageCredits": "Unsplash",
+    "imageHash": "682bf6f666080571b5f79b191c598ece",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAABQAgCdASoQAAwABUB8JaACdAEPh3h6dNwJjAAA/mv4IPd2L1ZIOzwuQHNRMySvmb7wJbukLJBCZ3uKGE9Y/YbmyJ10AAAA"
+  },
+  "mercat-abaceria": {
+    "heroImage": "/images/places/barcelona/mercat-abaceria/hero.webp",
+    "thumbnail": "/images/places/barcelona/mercat-abaceria/thumb.webp",
+    "gallery": [
+      "/images/places/barcelona/mercat-abaceria/hero.webp",
+      "/images/places/barcelona/mercat-abaceria/gallery-1.webp",
+      "/images/places/barcelona/mercat-abaceria/gallery-2.webp",
+      "/images/places/barcelona/mercat-abaceria/gallery-3.webp"
+    ],
+    "imageAlt": "Mercat de l'Abaceria — barcelona",
+    "imageCredits": "Unsplash",
+    "imageHash": "9f822cdc7bb61496ef00d5583d96e1d9",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAACQAQCdASoQAAwABUB8JbACdAA/EAAA8D0inb2ohh8jHmMP/xbV6YurEbRZS9iyGq/f/NpumhOaqeFW7+H8nZjhf6LZ4y1TKP2Bnho/njmkgMAA"
+  },
+  "la-pergola": {
+    "heroImage": "/images/places/rome/la-pergola/hero.webp",
+    "thumbnail": "/images/places/rome/la-pergola/thumb.webp",
+    "gallery": [
+      "/images/places/rome/la-pergola/hero.webp",
+      "/images/places/rome/la-pergola/gallery-1.webp",
+      "/images/places/rome/la-pergola/gallery-2.webp",
+      "/images/places/rome/la-pergola/gallery-3.webp"
+    ],
+    "imageAlt": "La Pergola — rome",
+    "imageCredits": "Unsplash",
+    "imageHash": "8e0c1cb9bd68617298f76e1975dcb48b",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoQAAwABUB8JaACdADOWX4iAAD+jXE1Tmwq7tfGOS6zdH1mENywsnsO06wIXVTarZyl9FUhcM0iqpbwCvnsAA=="
+  },
+  "roscioli": {
+    "heroImage": "/images/places/rome/roscioli/hero.webp",
+    "thumbnail": "/images/places/rome/roscioli/thumb.webp",
+    "gallery": [
+      "/images/places/rome/roscioli/hero.webp",
+      "/images/places/rome/roscioli/gallery-1.webp",
+      "/images/places/rome/roscioli/gallery-2.webp",
+      "/images/places/rome/roscioli/gallery-3.webp"
+    ],
+    "imageAlt": "Roscioli — rome",
+    "imageCredits": "Unsplash",
+    "imageHash": "e4f8da8fedbfbecbce53623fedbd1b2d",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAABQAgCdASoQAAwABUB8JYwC7AYvhwPqU4Rf5oAAzfJwttaEToo+d0/FuM2oB2kB1ofosVkWr2PUy9vxtsD9j87zSJTWRqqnJtZ8R5UEOgrrUoGPhNoBMLdQUMAAAA=="
+  },
+  "pizzarium": {
+    "heroImage": "/images/places/rome/pizzarium/hero.webp",
+    "thumbnail": "/images/places/rome/pizzarium/thumb.webp",
+    "gallery": [
+      "/images/places/rome/pizzarium/hero.webp",
+      "/images/places/rome/pizzarium/gallery-1.webp",
+      "/images/places/rome/pizzarium/gallery-2.webp",
+      "/images/places/rome/pizzarium/gallery-3.webp"
+    ],
+    "imageAlt": "Pizzarium — rome",
+    "imageCredits": "Unsplash",
+    "imageHash": "8b8ccddbfec4de28a8f8f96295aaf06f",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAQCdASoQAAwABUB8JQBOgCHQXttAAP5WATZCPAqaA+t0dijWBTfNHvEgEUBNvwqoMXAE5YRClXMMNIjZNKED3sq9Js4aLxqkWGgA"
+  },
+  "da-enzo-al-29": {
+    "heroImage": "/images/places/rome/da-enzo-al-29/hero.webp",
+    "thumbnail": "/images/places/rome/da-enzo-al-29/thumb.webp",
+    "gallery": [
+      "/images/places/rome/da-enzo-al-29/hero.webp",
+      "/images/places/rome/da-enzo-al-29/gallery-1.webp",
+      "/images/places/rome/da-enzo-al-29/gallery-2.webp",
+      "/images/places/rome/da-enzo-al-29/gallery-3.webp"
+    ],
+    "imageAlt": "Da Enzo al 29 — rome",
+    "imageCredits": "Unsplash",
+    "imageHash": "4f5e6cee63d79c048cada793a391cdac",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAQAgCdASoQAAwABUB8JQBOgBZopswl/gAAAP63I/j6Jt+A9rrAuJItkUjh7yuso3phhcFAq8pXys9pFXc40FFRl+tCtOCgAAA="
+  },
+  "suppli-roma": {
+    "heroImage": "/images/places/rome/suppli-roma/hero.webp",
+    "thumbnail": "/images/places/rome/suppli-roma/thumb.webp",
+    "gallery": [
+      "/images/places/rome/suppli-roma/hero.webp",
+      "/images/places/rome/suppli-roma/gallery-1.webp",
+      "/images/places/rome/suppli-roma/gallery-2.webp",
+      "/images/places/rome/suppli-roma/gallery-3.webp"
+    ],
+    "imageAlt": "Supplì Roma — rome",
+    "imageCredits": "Unsplash",
+    "imageHash": "6693b2d874fa21da3d1e37a86afc94c6",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAwAgCdASoQAAwABUB8JYgCdAEaIxD2k8B8AAD8/3L+4ngoqQQOBhuhn2/1Bkk+ILZtlnjvhyPRKLCbUmVbm2/8J9+XG4a20XjiTqxY6oLgKMoQHJioAA=="
+  },
+  "sant-eustachio-il-caffe": {
+    "heroImage": "/images/places/rome/sant-eustachio-il-caffe/hero.webp",
+    "thumbnail": "/images/places/rome/sant-eustachio-il-caffe/thumb.webp",
+    "gallery": [
+      "/images/places/rome/sant-eustachio-il-caffe/hero.webp",
+      "/images/places/rome/sant-eustachio-il-caffe/gallery-1.webp",
+      "/images/places/rome/sant-eustachio-il-caffe/gallery-2.webp",
+      "/images/places/rome/sant-eustachio-il-caffe/gallery-3.webp"
+    ],
+    "imageAlt": "Sant'Eustachio il Caffè — rome",
+    "imageCredits": "Unsplash",
+    "imageHash": "ebe22e24c0c281e7435b848679217f2c",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADwAQCdASoQAAwABUB8JaACdAEKYfHq0AAA/j+UzqTNcJ1kPYWLLR2p1Haamud3KvEz5AAA"
+  },
+  "caffe-greco": {
+    "heroImage": "/images/places/rome/caffe-greco/hero.webp",
+    "thumbnail": "/images/places/rome/caffe-greco/thumb.webp",
+    "gallery": [
+      "/images/places/rome/caffe-greco/hero.webp",
+      "/images/places/rome/caffe-greco/gallery-1.webp",
+      "/images/places/rome/caffe-greco/gallery-2.webp",
+      "/images/places/rome/caffe-greco/gallery-3.webp"
+    ],
+    "imageAlt": "Caffè Greco — rome",
+    "imageCredits": "Unsplash",
+    "imageHash": "7e0c6f08dce050ecbc5bdc72d7fba86f",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAQCdASoQAAwABUB8JZQAAl3Cup/KgAAA/umoBpkuMT3ibtRk6n9kJF4FFW9d3DQlwRyptLQsQA3xZdXXPBzyXSUJuKHL6BEVIy3sn9DrGTq5eAA="
+  },
+  "tazza-doro": {
+    "heroImage": "/images/places/rome/tazza-doro/hero.webp",
+    "thumbnail": "/images/places/rome/tazza-doro/thumb.webp",
+    "gallery": [
+      "/images/places/rome/tazza-doro/hero.webp",
+      "/images/places/rome/tazza-doro/gallery-1.webp",
+      "/images/places/rome/tazza-doro/gallery-2.webp",
+      "/images/places/rome/tazza-doro/gallery-3.webp"
+    ],
+    "imageAlt": "Tazza d'Oro — rome",
+    "imageCredits": "Unsplash",
+    "imageHash": "234f4e00d3f26364b748ca3c5168936c",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADwAQCdASoQAAwABUB8JaACdAEWptVUYAAA/HisZihl+1RKIcHVJumi+QFZo7u72Fki9jCUd+CeLetFJESal1FfrayHmtpDivhnl44WC4y5h5KegvhqQD+SKoAAAA=="
+  },
+  "sciascia-caffe": {
+    "heroImage": "/images/places/rome/sciascia-caffe/hero.webp",
+    "thumbnail": "/images/places/rome/sciascia-caffe/thumb.webp",
+    "gallery": [
+      "/images/places/rome/sciascia-caffe/hero.webp",
+      "/images/places/rome/sciascia-caffe/gallery-1.webp",
+      "/images/places/rome/sciascia-caffe/gallery-2.webp",
+      "/images/places/rome/sciascia-caffe/gallery-3.webp"
+    ],
+    "imageAlt": "Sciascia Caffè — rome",
+    "imageCredits": "Unsplash",
+    "imageHash": "7b56f686513306460c19cfcf461d11bc",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAABQAgCdASoQAAwABUB8JbACdAYuHdYhQ/rdrWgA+XaSk8bDjpyhg2ZLK/ttt0eBujGzUsCWI+EwJiwHCkJHt2feTOfi2fgHXO7jmPhE1zwNPT71pB0++6a/YpgbPVA4AAA="
+  },
+  "roscioli-caffe": {
+    "heroImage": "/images/places/rome/roscioli-caffe/hero.webp",
+    "thumbnail": "/images/places/rome/roscioli-caffe/thumb.webp",
+    "gallery": [
+      "/images/places/rome/roscioli-caffe/hero.webp",
+      "/images/places/rome/roscioli-caffe/gallery-1.webp",
+      "/images/places/rome/roscioli-caffe/gallery-2.webp",
+      "/images/places/rome/roscioli-caffe/gallery-3.webp"
+    ],
+    "imageAlt": "Roscioli Caffè — rome",
+    "imageCredits": "Unsplash",
+    "imageHash": "7e5fa258aa0c8b8a62501a7774d4f657",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoQAAwABUB8JbACdAECgm+HXQAA/NVz3q9UuhUms05bgGbjQOURW3HCjGwbdGZhpKRzC8D9V6smJR6y0WzuvF7ObQLNgq0swAA="
+  },
+  "pasticceria-regoli": {
+    "heroImage": "/images/places/rome/pasticceria-regoli/hero.webp",
+    "thumbnail": "/images/places/rome/pasticceria-regoli/thumb.webp",
+    "gallery": [
+      "/images/places/rome/pasticceria-regoli/hero.webp",
+      "/images/places/rome/pasticceria-regoli/gallery-1.webp",
+      "/images/places/rome/pasticceria-regoli/gallery-2.webp",
+      "/images/places/rome/pasticceria-regoli/gallery-3.webp"
+    ],
+    "imageAlt": "Pasticceria Regoli — rome",
+    "imageCredits": "Unsplash",
+    "imageHash": "9841111a634dcc8a1230db6521665818",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAQCdASoQAAwABUB8JbACdAD6jciNSwAAziehRp4OZvdmxfDHdWXCw+xgmjZWaRdY7LBK/cROyaILnMj4QMrkD3suVzI8O69DEHfI5NlAAAAA"
+  },
+  "biscottificio-innocenti": {
+    "heroImage": "/images/places/rome/biscottificio-innocenti/hero.webp",
+    "thumbnail": "/images/places/rome/biscottificio-innocenti/thumb.webp",
+    "gallery": [
+      "/images/places/rome/biscottificio-innocenti/hero.webp",
+      "/images/places/rome/biscottificio-innocenti/gallery-1.webp",
+      "/images/places/rome/biscottificio-innocenti/gallery-2.webp",
+      "/images/places/rome/biscottificio-innocenti/gallery-3.webp"
+    ],
+    "imageAlt": "Biscottificio Innocenti — rome",
+    "imageCredits": "Unsplash",
+    "imageHash": "882b551625ca87f98fef660ab6f05f84",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAwAgCdASoQAAwABUB8JYgCdADM4WneP3EQAAD44zPzqrspNt1scbqQ0N/f+Ay7lbvsZH/43nytDGdxXabiCRY3y9ALPZc/quMshKt3Z2WVRTQY1ygAAA=="
+  },
+  "pasticceria-barberini": {
+    "heroImage": "/images/places/rome/pasticceria-barberini/hero.webp",
+    "thumbnail": "/images/places/rome/pasticceria-barberini/thumb.webp",
+    "gallery": [
+      "/images/places/rome/pasticceria-barberini/hero.webp",
+      "/images/places/rome/pasticceria-barberini/gallery-1.webp",
+      "/images/places/rome/pasticceria-barberini/gallery-2.webp",
+      "/images/places/rome/pasticceria-barberini/gallery-3.webp"
+    ],
+    "imageAlt": "Pasticceria Barberini — rome",
+    "imageCredits": "Unsplash",
+    "imageHash": "5078173b52e3acc840bcacb873dc4d41",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAQAgCdASoQAAwABUB8JbACdLoAIkAN5elAAP7d8Bj5YhcsaZM3DwBl2PzcGhFYrC0ah3SMF8P2VnRfcXM1eGh0RVJJnZLOJzu0vQAIoYqdp7rAAAA="
+  },
+  "il-maritozzaro": {
+    "heroImage": "/images/places/rome/il-maritozzaro/hero.webp",
+    "thumbnail": "/images/places/rome/il-maritozzaro/thumb.webp",
+    "gallery": [
+      "/images/places/rome/il-maritozzaro/hero.webp",
+      "/images/places/rome/il-maritozzaro/gallery-1.webp",
+      "/images/places/rome/il-maritozzaro/gallery-2.webp",
+      "/images/places/rome/il-maritozzaro/gallery-3.webp"
+    ],
+    "imageAlt": "Il Maritozzaro — rome",
+    "imageCredits": "Unsplash",
+    "imageHash": "731219e209bfaf29dc8b1503ed27f66c",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAQCdASoQAAwABUB8JbACdAELTL1fyAD6nLHfyQGV93doADHAY6+m4OURY24Ujd5Qw5hJz7J0nnaMyuvp4hSifDHXrDqpGVRWwwnIxCtJo5QAAAA="
+  },
+  "colosseum": {
+    "heroImage": "/images/places/rome/colosseum/hero.webp",
+    "thumbnail": "/images/places/rome/colosseum/thumb.webp",
+    "gallery": [
+      "/images/places/rome/colosseum/hero.webp",
+      "/images/places/rome/colosseum/gallery-1.webp",
+      "/images/places/rome/colosseum/gallery-2.webp",
+      "/images/places/rome/colosseum/gallery-3.webp"
+    ],
+    "imageAlt": "Colosseum — rome",
+    "imageCredits": "Unsplash",
+    "imageHash": "50da590424ef985e98a62ca4e026eb06",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADwAQCdASoQAAwABUB8JagCdAEN5QfCrQAA/uvi4Vats4et8cQMcGQb4u7Se4AV8woiRHu5iddsAAAA"
+  },
+  "pasticceria-linari": {
+    "heroImage": "/images/places/rome/pasticceria-linari/hero.webp",
+    "thumbnail": "/images/places/rome/pasticceria-linari/thumb.webp",
+    "gallery": [
+      "/images/places/rome/pasticceria-linari/hero.webp",
+      "/images/places/rome/pasticceria-linari/gallery-1.webp",
+      "/images/places/rome/pasticceria-linari/gallery-2.webp",
+      "/images/places/rome/pasticceria-linari/gallery-3.webp"
+    ],
+    "imageAlt": "Pasticceria Linari — rome",
+    "imageCredits": "Unsplash",
+    "imageHash": "6ceda68986e6959803f6e2c8fa7e78b2",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAQCdASoQAAwABUB8JYgCdACt8JuAAP2UOP395OkCqtMDtU5hiOeN0oa4Kq2VuQNdTZE/rfHFtmL7htA+giOYy+SQJ3nVAAA="
+  },
+  "trevi-fountain": {
+    "heroImage": "/images/places/rome/trevi-fountain/hero.webp",
+    "thumbnail": "/images/places/rome/trevi-fountain/thumb.webp",
+    "gallery": [
+      "/images/places/rome/trevi-fountain/hero.webp",
+      "/images/places/rome/trevi-fountain/gallery-1.webp",
+      "/images/places/rome/trevi-fountain/gallery-2.webp",
+      "/images/places/rome/trevi-fountain/gallery-3.webp"
+    ],
+    "imageAlt": "Trevi Fountain — rome",
+    "imageCredits": "Unsplash",
+    "imageHash": "c5c9c48e342b1f4b57c15969ea7438d7",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAABQAgCdASoQAAwABUB8JZQC/OEXfpuQ+hMWDqAA/mlcyFeYaGm4XIXmq6ryawmEAT5qyWtsV5MTdyH42JhzM2kVVD/IVxAA"
+  },
+  "vatican-museums": {
+    "heroImage": "/images/places/rome/vatican-museums/hero.webp",
+    "thumbnail": "/images/places/rome/vatican-museums/thumb.webp",
+    "gallery": [
+      "/images/places/rome/vatican-museums/hero.webp",
+      "/images/places/rome/vatican-museums/gallery-1.webp",
+      "/images/places/rome/vatican-museums/gallery-2.webp",
+      "/images/places/rome/vatican-museums/gallery-3.webp"
+    ],
+    "imageAlt": "Vatican Museums & Sistine Chapel — rome",
+    "imageCredits": "Unsplash",
+    "imageHash": "328797a7be5a984a589311b6c393d397",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAQCdASoQAAwABUB8JZQAAmr0h+sJwAD9tLDHNV65bSPcgyAGsgK39YzPuOo5qqREGsc6rDLpPAFEvRLvB5XWHbJnZgCtt6gHAAAA"
+  },
+  "borghese-gallery": {
+    "heroImage": "/images/places/rome/borghese-gallery/hero.webp",
+    "thumbnail": "/images/places/rome/borghese-gallery/thumb.webp",
+    "gallery": [
+      "/images/places/rome/borghese-gallery/hero.webp",
+      "/images/places/rome/borghese-gallery/gallery-1.webp",
+      "/images/places/rome/borghese-gallery/gallery-2.webp",
+      "/images/places/rome/borghese-gallery/gallery-3.webp"
+    ],
+    "imageAlt": "Borghese Gallery — rome",
+    "imageCredits": "Unsplash",
+    "imageHash": "4c5afdf11a9d599b97b6659523dd86e3",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAQAgCdASoQAAwABUB8JbACdAC4o1p9llwAAP6DaAbBhHnFcjnxj1lY/SbOm6tjGZYiDfAr8ixgJVJ9fqOt7y7DULuRzu/PAAA="
+  },
+  "pantheon": {
+    "heroImage": "/images/places/rome/pantheon/hero.webp",
+    "thumbnail": "/images/places/rome/pantheon/thumb.webp",
+    "gallery": [
+      "/images/places/rome/pantheon/hero.webp",
+      "/images/places/rome/pantheon/gallery-1.webp",
+      "/images/places/rome/pantheon/gallery-2.webp",
+      "/images/places/rome/pantheon/gallery-3.webp"
+    ],
+    "imageAlt": "Pantheon — rome",
+    "imageCredits": "Unsplash",
+    "imageHash": "fee963d0cca84b87fa434f995157c5ff",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAQCdASoQAAwABUB8JZQC7ACItwZ1AAD+go6O4okyPrZW/dd4fWKr1hgATir6gJuaYR63uV6GPYZ5FyXpPgAA"
+  },
+  "roman-cooking-class": {
+    "heroImage": "/images/places/rome/roman-cooking-class/hero.webp",
+    "thumbnail": "/images/places/rome/roman-cooking-class/thumb.webp",
+    "gallery": [
+      "/images/places/rome/roman-cooking-class/hero.webp",
+      "/images/places/rome/roman-cooking-class/gallery-1.webp",
+      "/images/places/rome/roman-cooking-class/gallery-2.webp",
+      "/images/places/rome/roman-cooking-class/gallery-3.webp"
+    ],
+    "imageAlt": "Roman Cooking Class — rome",
+    "imageCredits": "Unsplash",
+    "imageHash": "57bddb665b922cd8fa3820a99ad22596",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoQAAwABUB8JZwC7AEDUAtncAD9PH8TR1TayPCBgsD5vWGIzsJh4zYjK6XIZsZEl6hk127RNi7dtnLjwAA="
+  },
+  "vespa-tour": {
+    "heroImage": "/images/places/rome/vespa-tour/hero.webp",
+    "thumbnail": "/images/places/rome/vespa-tour/thumb.webp",
+    "gallery": [
+      "/images/places/rome/vespa-tour/hero.webp",
+      "/images/places/rome/vespa-tour/gallery-1.webp",
+      "/images/places/rome/vespa-tour/gallery-2.webp",
+      "/images/places/rome/vespa-tour/gallery-3.webp"
+    ],
+    "imageAlt": "Vespa Tour of Rome — rome",
+    "imageCredits": "Unsplash",
+    "imageHash": "027fd18bef49e4acc90d62f0f11719c0",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAQCdASoQAAwABUB8JYwC7AC084kwAP7o9e7MoI9d1n5h0Kgr18lUQcNce6cIbB/dGWLqXqCvYZThc7Ief+MDFOtJajAA"
+  },
+  "pasta-making-class": {
+    "heroImage": "/images/places/rome/pasta-making-class/hero.webp",
+    "thumbnail": "/images/places/rome/pasta-making-class/thumb.webp",
+    "gallery": [
+      "/images/places/rome/pasta-making-class/hero.webp",
+      "/images/places/rome/pasta-making-class/gallery-1.webp",
+      "/images/places/rome/pasta-making-class/gallery-2.webp",
+      "/images/places/rome/pasta-making-class/gallery-3.webp"
+    ],
+    "imageAlt": "Pasta Making Class — rome",
+    "imageCredits": "Unsplash",
+    "imageHash": "21248995f68cdbf8fc345573e32b4072",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAQAgCdASoQAAwABUB8JQBOgBxLgCgcWgoAAPJtGJbtEciIh8WpYwr/mqykM4zycZQijZgy49a5zg6ZLXuv05MAAAA="
+  },
+  "tiber-river-cruise": {
+    "heroImage": "/images/places/rome/tiber-river-cruise/hero.webp",
+    "thumbnail": "/images/places/rome/tiber-river-cruise/thumb.webp",
+    "gallery": [
+      "/images/places/rome/tiber-river-cruise/hero.webp",
+      "/images/places/rome/tiber-river-cruise/gallery-1.webp",
+      "/images/places/rome/tiber-river-cruise/gallery-2.webp",
+      "/images/places/rome/tiber-river-cruise/gallery-3.webp"
+    ],
+    "imageAlt": "Tiber River Cruise — rome",
+    "imageCredits": "Unsplash",
+    "imageHash": "4247c16e075a8aa29b0f03df9195b6c1",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAQAgCdASoQAAwABUB8JagCdH8AGXrtQFbQAP5AtQbNIwG0mE+BnLGJkm5CSNmeXzGMtLikXIevKFg390sjqr4rQLE4KZ2AxgAAAA=="
+  },
+  "ghost-tour-rome": {
+    "heroImage": "/images/places/rome/ghost-tour-rome/hero.webp",
+    "thumbnail": "/images/places/rome/ghost-tour-rome/thumb.webp",
+    "gallery": [
+      "/images/places/rome/ghost-tour-rome/hero.webp",
+      "/images/places/rome/ghost-tour-rome/gallery-1.webp",
+      "/images/places/rome/ghost-tour-rome/gallery-2.webp",
+      "/images/places/rome/ghost-tour-rome/gallery-3.webp"
+    ],
+    "imageAlt": "Ghost Tour of Rome — rome",
+    "imageCredits": "Unsplash",
+    "imageHash": "3a3fdada7b5ccb53b2cdd863c2870a3c",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAQAgCdASoQAAwABUB8JQBYheAC49PBrKtAAPx5H1X59UyYfIbx+RdxK8Tmn8Zvm0XRaljJplha6nDe2gkYV98GiNqsmAAA"
+  },
+  "campo-de-fiori-market": {
+    "heroImage": "/images/places/rome/campo-de-fiori-market/hero.webp",
+    "thumbnail": "/images/places/rome/campo-de-fiori-market/thumb.webp",
+    "gallery": [
+      "/images/places/rome/campo-de-fiori-market/hero.webp",
+      "/images/places/rome/campo-de-fiori-market/gallery-1.webp",
+      "/images/places/rome/campo-de-fiori-market/gallery-2.webp",
+      "/images/places/rome/campo-de-fiori-market/gallery-3.webp"
+    ],
+    "imageAlt": "Campo de' Fiori Market — rome",
+    "imageCredits": "Unsplash",
+    "imageHash": "a6889bd52f57ea409aebc5b3a9d57bd4",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAQCdASoQAAwABUB8JZACdAEezAoAAAD+qbHT9HVVsUlUhE3mz0LqWcDC48sm8dWscXJsH6tuBPuX+mwoH+AzDy8rWwG3OAA="
+  },
+  "porta-portese-flea-market": {
+    "heroImage": "/images/places/rome/porta-portese-flea-market/hero.webp",
+    "thumbnail": "/images/places/rome/porta-portese-flea-market/thumb.webp",
+    "gallery": [
+      "/images/places/rome/porta-portese-flea-market/hero.webp",
+      "/images/places/rome/porta-portese-flea-market/gallery-1.webp",
+      "/images/places/rome/porta-portese-flea-market/gallery-2.webp",
+      "/images/places/rome/porta-portese-flea-market/gallery-3.webp"
+    ],
+    "imageAlt": "Porta Portese Flea Market — rome",
+    "imageCredits": "Unsplash",
+    "imageHash": "e3d78ccfcd6ccb7e10c741443443e1bb",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoQAAwABUB8JQBOgCP9EUUMAADeI5On67XmemYnoCaKxDPhyMg7wghwQErg8jzCg1H7L51bRTPlsVxqAAA="
+  },
+  "mercato-trionfale": {
+    "heroImage": "/images/places/rome/mercato-trionfale/hero.webp",
+    "thumbnail": "/images/places/rome/mercato-trionfale/thumb.webp",
+    "gallery": [
+      "/images/places/rome/mercato-trionfale/hero.webp",
+      "/images/places/rome/mercato-trionfale/gallery-1.webp",
+      "/images/places/rome/mercato-trionfale/gallery-2.webp",
+      "/images/places/rome/mercato-trionfale/gallery-3.webp"
+    ],
+    "imageAlt": "Mercato Trionfale — rome",
+    "imageCredits": "Unsplash",
+    "imageHash": "a4cab021128738810f13f29aeabb16fd",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAAAQAgCdASoQAAwABUB8JZACdH8AFc3u7sIAAP6wG79SSQuTtTyLxN3cqo5UOFmE+o4/iiX/+SeLgAAA"
+  },
+  "testaccio-market": {
+    "heroImage": "/images/places/rome/testaccio-market/hero.webp",
+    "thumbnail": "/images/places/rome/testaccio-market/thumb.webp",
+    "gallery": [
+      "/images/places/rome/testaccio-market/hero.webp",
+      "/images/places/rome/testaccio-market/gallery-1.webp",
+      "/images/places/rome/testaccio-market/gallery-2.webp",
+      "/images/places/rome/testaccio-market/gallery-3.webp"
+    ],
+    "imageAlt": "Testaccio Market — rome",
+    "imageCredits": "Unsplash",
+    "imageHash": "85b273b350236625e708bc359ac50ecb",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACwAQCdASoQAAwABUB8JQBOgMTtDBbAAPjWZorcVhNt0/09aB3M81/mAf5JhAfUEWfM+KwJtuDKKePQiHzE5RRgAAA="
+  },
+  "le-jardin": {
+    "heroImage": "/images/places/marrakech/le-jardin/hero.webp",
+    "thumbnail": "/images/places/marrakech/le-jardin/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/le-jardin/hero.webp",
+      "/images/places/marrakech/le-jardin/gallery-1.webp"
+    ],
+    "imageAlt": "Le Jardin — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "aa99caa27ce3c056243ccc3551d54652",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAwAgCdASoQAAwABUB8JbACdAYuvaOCTbH9AAD+6fjzNN/A7WrgDMz0RrXWjT/9E0TP9bz1OPzVi4ZVo3KMOzytBP4GeRee27D7QOgmf5G12kN8ACSAgR+w8S1R7AAA"
+  },
+  "dar-yacout": {
+    "heroImage": "/images/places/marrakech/dar-yacout/hero.webp",
+    "thumbnail": "/images/places/marrakech/dar-yacout/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/dar-yacout/hero.webp",
+      "/images/places/marrakech/dar-yacout/gallery-1.webp"
+    ],
+    "imageAlt": "Dar Yacout — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "6ef47385e2a3ec09bc66b3e3e8ab6016",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAQCdASoQAAwABUB8JZgCdABuu/RcAADKLSs36zVQ3sF441UAlnuZg2WxJxmLE2b/IO2UNCAikUL6tVghWK63yuKK0Z6PQAA="
+  },
+  "nomad": {
+    "heroImage": "/images/places/marrakech/nomad/hero.webp",
+    "thumbnail": "/images/places/marrakech/nomad/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/nomad/hero.webp",
+      "/images/places/marrakech/nomad/gallery-1.webp",
+      "/images/places/marrakech/nomad/gallery-2.webp",
+      "/images/places/marrakech/nomad/gallery-3.webp"
+    ],
+    "imageAlt": "Nomad — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "213d5aa7ea29836f7da0fe3eb9797f09",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAQAgCdASoQAAwABUB8JQAAX/HPNwm9z9SAANuwi/ar5S7xdu3e+kNwK/hceV06UdtVNEF81pDkDDCdQOhPEax1iNdLWmgYwz9d3qVgoBA7wtDfaeDRcAru5oAAAA=="
+  },
+  "pepe-nero": {
+    "heroImage": "/images/places/marrakech/pepe-nero/hero.webp",
+    "thumbnail": "/images/places/marrakech/pepe-nero/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/pepe-nero/hero.webp",
+      "/images/places/marrakech/pepe-nero/gallery-1.webp",
+      "/images/places/marrakech/pepe-nero/gallery-2.webp",
+      "/images/places/marrakech/pepe-nero/gallery-3.webp"
+    ],
+    "imageAlt": "Pepe Nero — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "e74ead0832238c112c94a1a317ded0ff",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACQAQCdASoQAAwABUB8JZQC06BTpAAA/uW9J2CvCFeVyXs7Z04MOvU3a+6BRXcdUBQK7yjDnDWL0cqhiwFXTRYmjt8ASPtAgEuzb1oA"
+  },
+  "al-fassia": {
+    "heroImage": "/images/places/marrakech/al-fassia/hero.webp",
+    "thumbnail": "/images/places/marrakech/al-fassia/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/al-fassia/hero.webp",
+      "/images/places/marrakech/al-fassia/gallery-1.webp",
+      "/images/places/marrakech/al-fassia/gallery-2.webp",
+      "/images/places/marrakech/al-fassia/gallery-3.webp"
+    ],
+    "imageAlt": "Al Fassia — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "a8e78fdf8249407b31da94c921fe1eb4",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoQAAwABUB8JQBdgCFEO2UhlAAA/qamU6Su3BqpP7O4AFWfk6614a92MxAVLkt5b8NIckb8N5eR95AICwAAAA=="
+  },
+  "mercato-piazza-vittorio": {
+    "heroImage": "/images/places/rome/mercato-piazza-vittorio/hero.webp",
+    "thumbnail": "/images/places/rome/mercato-piazza-vittorio/thumb.webp",
+    "gallery": [
+      "/images/places/rome/mercato-piazza-vittorio/hero.webp",
+      "/images/places/rome/mercato-piazza-vittorio/gallery-1.webp",
+      "/images/places/rome/mercato-piazza-vittorio/gallery-2.webp",
+      "/images/places/rome/mercato-piazza-vittorio/gallery-3.webp"
+    ],
+    "imageAlt": "Mercato di Piazza Vittorio — rome",
+    "imageCredits": "Unsplash",
+    "imageHash": "140900a3a5976cbae5068157c9b140e2",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAQCdASoQAAwABUB8JZACdADFJrPBQAD+F5Te/y1NyF63sXUaCpivt1lQhgs0VM+45YpC0bmBLDQA"
+  },
+  "comptoir-darna": {
+    "heroImage": "/images/places/marrakech/comptoir-darna/hero.webp",
+    "thumbnail": "/images/places/marrakech/comptoir-darna/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/comptoir-darna/hero.webp",
+      "/images/places/marrakech/comptoir-darna/gallery-1.webp",
+      "/images/places/marrakech/comptoir-darna/gallery-2.webp",
+      "/images/places/marrakech/comptoir-darna/gallery-3.webp"
+    ],
+    "imageAlt": "Comptoir Darna — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "01d66d22c9bf1ef0780c1e9531bb86b0",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADwAQCdASoQAAwABUB8JQBOgMXmZth2gYAA+TDvKAPGQlpNzqAgcyikGNlvW16tIb5pDbnF5QPqiqBtgZnOd+Yt63Jqa37p4IwNMol91859l/RUQKik8igBh4FkgAAA"
+  },
+  "hadj-mustapha": {
+    "heroImage": "/images/places/marrakech/hadj-mustapha/hero.webp",
+    "thumbnail": "/images/places/marrakech/hadj-mustapha/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/hadj-mustapha/hero.webp",
+      "/images/places/marrakech/hadj-mustapha/gallery-1.webp",
+      "/images/places/marrakech/hadj-mustapha/gallery-2.webp"
+    ],
+    "imageAlt": "Hadj Mustapha — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "ac59a1a5692d265002004bf086b7917a",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoQAAwABUB8JbACdAD8ATdZFnQA/M8OPEKRvANtbPhNRXabqHm3LzLC+UhrgwN4K079y7AWiuYwb2ShHPilyXxkKJAAAA=="
+  },
+  "cafe-des-epices": {
+    "heroImage": "/images/places/marrakech/cafe-des-epices/hero.webp",
+    "thumbnail": "/images/places/marrakech/cafe-des-epices/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/cafe-des-epices/hero.webp",
+      "/images/places/marrakech/cafe-des-epices/gallery-1.webp",
+      "/images/places/marrakech/cafe-des-epices/gallery-2.webp",
+      "/images/places/marrakech/cafe-des-epices/gallery-3.webp"
+    ],
+    "imageAlt": "Café des Épices — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "93601feac911cc5e8c6a7906c54bf8d9",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADQAQCdASoQAAwABUB8JQAAXXDh9RUzgAD9JtP6Fs9qh25FM+D7cYe2IUj+HaqUe333Q16cnwMl/anAAAA="
+  },
+  "atay-cafe": {
+    "heroImage": "/images/places/marrakech/atay-cafe/hero.webp",
+    "thumbnail": "/images/places/marrakech/atay-cafe/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/atay-cafe/hero.webp",
+      "/images/places/marrakech/atay-cafe/gallery-1.webp"
+    ],
+    "imageAlt": "Atay Café — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "923e6ae6149779c28f324dc929ef4b45",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADQAQCdASoQAAwABUB8JYwC7ADjHX5/oAD+l5cA0DBO0fXMvvLnb8Y5PJLO+GhxHGL44mw3uOLFGm+NZhXm/sAwGHMt3yZLbUSmZQjNxiu0f5et8YAAAA=="
+  },
+  "kosybar": {
+    "heroImage": "/images/places/marrakech/kosybar/hero.webp",
+    "thumbnail": "/images/places/marrakech/kosybar/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/kosybar/hero.webp",
+      "/images/places/marrakech/kosybar/gallery-1.webp"
+    ],
+    "imageAlt": "Kosybar — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "fd6340ea9b162d2cacb8c22f720283fc",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAQCdASoQAAwABUB8JZgCsACDMZCtQAD+vdeiudKczEvpB3HrEC9vZUyhD6vRTD0of7jlJ4DDpk3HIVuD3UnkCMCvk1zN0a6DhmSeY9b3rKPk5r5ifvQAAAA="
+  },
+  "cafe-arabe": {
+    "heroImage": "/images/places/marrakech/cafe-arabe/hero.webp",
+    "thumbnail": "/images/places/marrakech/cafe-arabe/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/cafe-arabe/hero.webp",
+      "/images/places/marrakech/cafe-arabe/gallery-1.webp"
+    ],
+    "imageAlt": "Café Arabe — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "33b390a2521e552cb6c3f52fa17d56c3",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAwAgCdASoQAAwABUB8JbACdAEC3sCYJpsJgAD+3h8q3D360oNRb13FzLFlp7ZhwKNATZzCgwInEaSGHQtEWn5/swhtAOi2zfGZEfWCREbCoGmsagdnjdBgAAA="
+  },
+  "grand-cafe-de-la-poste": {
+    "heroImage": "/images/places/marrakech/grand-cafe-de-la-poste/hero.webp",
+    "thumbnail": "/images/places/marrakech/grand-cafe-de-la-poste/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/grand-cafe-de-la-poste/hero.webp",
+      "/images/places/marrakech/grand-cafe-de-la-poste/gallery-1.webp",
+      "/images/places/marrakech/grand-cafe-de-la-poste/gallery-2.webp",
+      "/images/places/marrakech/grand-cafe-de-la-poste/gallery-3.webp"
+    ],
+    "imageAlt": "Grand Café de la Poste — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "a4ff341e6a9bd767dd97297d3bfdb47e",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoQAAwABUB8JbACdADy+GFWbgAA/tCinfQp7PoUdgUwUr0oej3kePZoq1cbuCuj0p/VKa9POEokjLyAQNRmJAgQ1FlJIevnAAA="
+  },
+  "saadian-tombs": {
+    "heroImage": "/images/places/marrakech/saadian-tombs/hero.webp",
+    "thumbnail": "/images/places/marrakech/saadian-tombs/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/saadian-tombs/hero.webp",
+      "/images/places/marrakech/saadian-tombs/gallery-1.webp"
+    ],
+    "imageAlt": "Saadian Tombs — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "88c4659c0edb3905c2924bb49c7501f3",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAQAgCdASoQAAwABUB8JYwCdADp4JsNQMAAAM2W9Od8NZdxspeYozWMJAf+Oz2IC+1blaq5L2KXv+5x3ubYJSx1ZKAAAA=="
+  },
+  "bahia-palace": {
+    "heroImage": "/images/places/marrakech/bahia-palace/hero.webp",
+    "thumbnail": "/images/places/marrakech/bahia-palace/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/bahia-palace/hero.webp",
+      "/images/places/marrakech/bahia-palace/gallery-1.webp"
+    ],
+    "imageAlt": "Bahia Palace — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "9c3316deb99412c6143d56c1c33d7acd",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADQAQCdASoQAAwABUB8JQBOgB6Iux+9AAD+ojg/kFU6KVcEf8EzysW3tLIyPJCv+3x3b+ZwdTEvYWPJyI64AA=="
+  },
+  "patisserie-des-princes": {
+    "heroImage": "/images/places/marrakech/patisserie-des-princes/hero.webp",
+    "thumbnail": "/images/places/marrakech/patisserie-des-princes/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/patisserie-des-princes/hero.webp",
+      "/images/places/marrakech/patisserie-des-princes/gallery-1.webp"
+    ],
+    "imageAlt": "Pâtisserie des Princes — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "7c1ff9dc6b0ef4a27dc18d16d41e6b6b",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADwAQCdASoQAAwABUB8JbACdAYu52SyiwAAzetPm+hoWpmjBk+mRBSWiB5cCMQCZhwSJAfINxNoVa9X6viauCHE4aMqdGjeaJc9vLKJOiBo9DBPVWAVUBz1v6gAAA=="
+  },
+  "majorelle-garden": {
+    "heroImage": "/images/places/marrakech/majorelle-garden/hero.webp",
+    "thumbnail": "/images/places/marrakech/majorelle-garden/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/majorelle-garden/hero.webp",
+      "/images/places/marrakech/majorelle-garden/gallery-1.webp"
+    ],
+    "imageAlt": "Majorelle Garden — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "c5b274a617bc65b02dc243e44e4395c4",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACwAQCdASoQAAwABUB8JZACdADB4HmAAP7pIHPVP3Wrz0F12qKHfYOAe8HHhBexYaWr78P1nAtkg4AA"
+  },
+  "koutoubia-mosque": {
+    "heroImage": "/images/places/marrakech/koutoubia-mosque/hero.webp",
+    "thumbnail": "/images/places/marrakech/koutoubia-mosque/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/koutoubia-mosque/hero.webp",
+      "/images/places/marrakech/koutoubia-mosque/gallery-1.webp"
+    ],
+    "imageAlt": "Koutoubia Mosque — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "1ead23a7e8a1d9b70213c52c34db1502",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoQAAwABUB8JZwAD5Gvv5q96JgA/ro49wxrHxGEgFo0akYvxeEDERPJNOFBkfhr9rJMmG+uwPLYmIBWEWUfjMa0rVfZVYwWgAA="
+  },
+  "musee-de-marrakech": {
+    "heroImage": "/images/places/marrakech/musee-de-marrakech/hero.webp",
+    "thumbnail": "/images/places/marrakech/musee-de-marrakech/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/musee-de-marrakech/hero.webp",
+      "/images/places/marrakech/musee-de-marrakech/gallery-1.webp"
+    ],
+    "imageAlt": "Musée de Marrakech — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "50c8fcd97c9589357d1da4a69a850f61",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAQAgCdASoQAAwABUB8JbACdAEQBzq+ovPAAP6YWCa2Aa5cuA5cUFDOKkWEQrgv0wC1Rf8eusBnkIL416ULGfeyhigAAA=="
+  },
+  "hammam-de-la-rose": {
+    "heroImage": "/images/places/marrakech/hammam-de-la-rose/hero.webp",
+    "thumbnail": "/images/places/marrakech/hammam-de-la-rose/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/hammam-de-la-rose/hero.webp",
+      "/images/places/marrakech/hammam-de-la-rose/gallery-1.webp"
+    ],
+    "imageAlt": "Hammam de la Rose — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "a4b9ed40c1d17604f7d163de073d3190",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAACQAQCdASoQAAwABUB8JQBOgAqdYAAA4iwHWjwqcPKMR3mciZpbbvCWot87NZOdDrBatxKgtJ8L3uiyWVzuGFSUGp98DuhAEOjuoPE+ip5yeKAA"
+  },
+  "el-badi-palace": {
+    "heroImage": "/images/places/marrakech/el-badi-palace/hero.webp",
+    "thumbnail": "/images/places/marrakech/el-badi-palace/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/el-badi-palace/hero.webp",
+      "/images/places/marrakech/el-badi-palace/gallery-1.webp",
+      "/images/places/marrakech/el-badi-palace/gallery-2.webp"
+    ],
+    "imageAlt": "El Badi Palace — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "639b966b1753f1ec6fb3145caed92c4f",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAQAgCdASoQAAwABUB8JQAB8n3cMi1EQc0wAP7n4BBJvjPy4FTR/dJPo9hVpD8M9jvRAadryWwRsKdQTX68uuHghWldxqW+41+7a+60FDfwCeV40afloAAA"
+  },
+  "cooking-class-maison-arabe": {
+    "heroImage": "/images/places/marrakech/cooking-class-maison-arabe/hero.webp",
+    "thumbnail": "/images/places/marrakech/cooking-class-maison-arabe/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/cooking-class-maison-arabe/hero.webp",
+      "/images/places/marrakech/cooking-class-maison-arabe/gallery-1.webp"
+    ],
+    "imageAlt": "Cooking Class at La Maison Arabe — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "39e35a344e2d2e07b700b75cc79a03a9",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADwAQCdASoQAAwABUB8JbACdAECoYHC6AAA+PADMIoFkW505UODRnOxsWReG8ur22qsNvn/Y1k2cPmy7iDE2NP5NPY0jWyDlE+B6BvFi72kDhMTN2XU0XYgZwAAAA=="
+  },
+  "atlas-mountains-trip": {
+    "heroImage": "/images/places/marrakech/atlas-mountains-trip/hero.webp",
+    "thumbnail": "/images/places/marrakech/atlas-mountains-trip/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/atlas-mountains-trip/hero.webp",
+      "/images/places/marrakech/atlas-mountains-trip/gallery-1.webp"
+    ],
+    "imageAlt": "Atlas Mountains Day Trip — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "291e7870286b8de1044baae29107dcd0",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACQAQCdASoQAAwABUB8JQAAWNDvWgAA+TzXMfVkaaaWfilm1pvtAXgXaylmFKwr3rCNJKqEVVN4d7HF6kB4AA=="
+  },
+  "hot-air-balloon": {
+    "heroImage": "/images/places/marrakech/hot-air-balloon/hero.webp",
+    "thumbnail": "/images/places/marrakech/hot-air-balloon/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/hot-air-balloon/hero.webp",
+      "/images/places/marrakech/hot-air-balloon/gallery-1.webp"
+    ],
+    "imageAlt": "Hot Air Balloon over Marrakech — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "39cad6e09fa12294beac32e055ed3120",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAQCdASoQAAwABUB8JYgCdADZ+OeIAAD+VHhzbsO3XVQZF+VDyZfQRHpF5RgsRP0d9eH6kUIxyhfm0YlHStAA"
+  },
+  "souk-semmarine": {
+    "heroImage": "/images/places/marrakech/souk-semmarine/hero.webp",
+    "thumbnail": "/images/places/marrakech/souk-semmarine/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/souk-semmarine/hero.webp",
+      "/images/places/marrakech/souk-semmarine/gallery-1.webp",
+      "/images/places/marrakech/souk-semmarine/gallery-2.webp"
+    ],
+    "imageAlt": "Souk Semmarine — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "4f5963772e30dc73e40a2e1da547f161",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAwAgCdASoQAAwABUB8JbACdAED/vXaCpo3AAD+dOvivybhE6Kj4fpA8wMcOknqEGW2iXo84dAN3FzdR1oQoJpRXyF1pjbqWasMIkklqwgAAA=="
+  },
+  "mellah-market": {
+    "heroImage": "/images/places/marrakech/mellah-market/hero.webp",
+    "thumbnail": "/images/places/marrakech/mellah-market/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/mellah-market/hero.webp",
+      "/images/places/marrakech/mellah-market/gallery-1.webp"
+    ],
+    "imageAlt": "Mellah Market — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "25218845bcf3118f382519cf6f5d3914",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAQAgCdASoQAAwABUB8JbACdAEXVqIY2YCgAP7gpjqe5C79UVXflIoJ1nvdb/X2tMsvHlf9mV4XiLfs3qJyJhcKf+BRnyYpltwiAAAA"
+  },
+  "rahba-lakdima": {
+    "heroImage": "/images/places/marrakech/rahba-lakdima/hero.webp",
+    "thumbnail": "/images/places/marrakech/rahba-lakdima/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/rahba-lakdima/hero.webp",
+      "/images/places/marrakech/rahba-lakdima/gallery-1.webp"
+    ],
+    "imageAlt": "Rahba Lakdima Spice Market — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "58cb84e674280ebf8255ce10cdfd7757",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADwAQCdASoQAAwABUB8JagCdAD0q/bs8AAA/o03pj0HhqCKVtO9Lp/UJg43gmGsMnXxtM4oAAA="
+  },
+  "sunday-souk": {
+    "heroImage": "/images/places/marrakech/sunday-souk/hero.webp",
+    "thumbnail": "/images/places/marrakech/sunday-souk/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/sunday-souk/hero.webp",
+      "/images/places/marrakech/sunday-souk/gallery-1.webp"
+    ],
+    "imageAlt": "Sunday Souk — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "21944ec11e4dab05af6f03a397b04e99",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAQAgCdASoQAAwABUB8JaACdAD5+5WCCk+AAP60F2NnHKswz9BVAKn9A4Is7Uf+CTMA2AtO910nzBh9A89QIzVDU+YFg1eC8Ke4caEuMe5BtAAA"
+  },
+  "riad-farnatchi": {
+    "heroImage": "/images/places/marrakech/riad-farnatchi/hero.webp",
+    "thumbnail": "/images/places/marrakech/riad-farnatchi/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/riad-farnatchi/hero.webp",
+      "/images/places/marrakech/riad-farnatchi/gallery-1.webp"
+    ],
+    "imageAlt": "Riad Farnatchi — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "231116a621461a0cf19a90dbf5cfb15a",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAQCdASoQAAwABUB8JZQC06Dwcpq+wAD+5b0nYK8IVoUhwEJYkqDspzPVX2RTgl49HckkZ0mwqvXE5SQFyp5+mycHBR1dm53MyYAA"
+  },
+  "sky-bar-es-saadi": {
+    "heroImage": "/images/places/marrakech/sky-bar-es-saadi/hero.webp",
+    "thumbnail": "/images/places/marrakech/sky-bar-es-saadi/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/sky-bar-es-saadi/hero.webp",
+      "/images/places/marrakech/sky-bar-es-saadi/gallery-1.webp"
+    ],
+    "imageAlt": "Sky Bar at Es Saadi — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "6e9c6278cc134238ac27cfee46be65f7",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAwAgCdASoQAAwABUB8JbACsAELyERRkE5/5AD+6cRSNu6sQ+zL65bhO2c+MyHM8KebvrNJW1GFS6BhooA5kheic9dKPeDCfwbsT5m6uv1CAAAA"
+  },
+  "beige-rooftop": {
+    "heroImage": "/images/places/marrakech/beige-rooftop/hero.webp",
+    "thumbnail": "/images/places/marrakech/beige-rooftop/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/beige-rooftop/hero.webp",
+      "/images/places/marrakech/beige-rooftop/gallery-1.webp",
+      "/images/places/marrakech/beige-rooftop/gallery-2.webp"
+    ],
+    "imageAlt": "Beige Rooftop — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "2264114cf33e5c7e5143443e14dd7de8",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAQAgCdASoQAAwABUB8JbACdADcOHpqK1JAAP2+sLPsvDjHa3tCssBFvJlxX8os0xA3qngnpKoUfZ+O0HQM5nYLv1RHnLU+6vwGMzQtE5hnmygT7cAAAA=="
+  },
+  "brunch-le-jardin": {
+    "heroImage": "/images/places/marrakech/brunch-le-jardin/hero.webp",
+    "thumbnail": "/images/places/marrakech/brunch-le-jardin/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/brunch-le-jardin/hero.webp",
+      "/images/places/marrakech/brunch-le-jardin/gallery-1.webp"
+    ],
+    "imageAlt": "Brunch at Le Jardin — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "2ed3e4468f01b8685fc017b6d53d0f74",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAQCdASoQAAwABUB8JQBOgCB8gf++4AD8sV86nHx6ETDu2yiNx80dpcEFaLO4uIlVHxlzv3mPG3/IbhGmxQU+I8k3rlT2Mt+wkHoPUsnjbsiAYAA="
+  },
+  "terrasse-des-epices": {
+    "heroImage": "/images/places/marrakech/terrasse-des-epices/hero.webp",
+    "thumbnail": "/images/places/marrakech/terrasse-des-epices/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/terrasse-des-epices/hero.webp",
+      "/images/places/marrakech/terrasse-des-epices/gallery-1.webp",
+      "/images/places/marrakech/terrasse-des-epices/gallery-2.webp",
+      "/images/places/marrakech/terrasse-des-epices/gallery-3.webp"
+    ],
+    "imageAlt": "Terrasse des Épices — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "644290bcb805bb675c140b45115b6dc6",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADwAQCdASoQAAwABUB8JQAB8n0oGZ3/NAAA97znxhEo1a32m8auXL2k0Cvms8a6I+z6+/Bf4UmRAvjSmrYXWPvZhG1H7RztkfVK6jRhqDfbvf6f2KZlLrUQAOypW4AA"
+  },
+  "le-salama": {
+    "heroImage": "/images/places/marrakech/le-salama/hero.webp",
+    "thumbnail": "/images/places/marrakech/le-salama/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/le-salama/hero.webp",
+      "/images/places/marrakech/le-salama/gallery-1.webp",
+      "/images/places/marrakech/le-salama/gallery-2.webp",
+      "/images/places/marrakech/le-salama/gallery-3.webp"
+    ],
+    "imageAlt": "Le Salama — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "44565b5ce3bfa23789c98b855da8649e",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAADwAQCdASoQAAwABUB8JagCdAYsss/j26AA9l93/qGacEk+SjyuhwQKSTkobtSZzhWFVASDx3zlr2S0/3xiWBbfccz9SwjTE135ImK0T46h4OR7NUWnVlbMJiMaU3CBJmx7j5/1RYAmPW+gAAA="
+  },
+  "riad-kniza-restaurant": {
+    "heroImage": "/images/places/marrakech/riad-kniza-restaurant/hero.webp",
+    "thumbnail": "/images/places/marrakech/riad-kniza-restaurant/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/riad-kniza-restaurant/hero.webp",
+      "/images/places/marrakech/riad-kniza-restaurant/gallery-1.webp",
+      "/images/places/marrakech/riad-kniza-restaurant/gallery-2.webp"
+    ],
+    "imageAlt": "Riad Kniza Restaurant — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "0a2daf8c83b465864017d4d5c4e263a6",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAABwAQCdASoQAAwABUB8JZQC/OCLAAD+5b0nYMl9g2cxE2chGC6QlNl66BQt94+GFIDQpDA4pInRhlR5BJKjjTIIIc2oSJF4A2vk1FQ6YAA="
+  },
+  "cafe-clock": {
+    "heroImage": "/images/places/marrakech/cafe-clock/hero.webp",
+    "thumbnail": "/images/places/marrakech/cafe-clock/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/cafe-clock/hero.webp",
+      "/images/places/marrakech/cafe-clock/gallery-1.webp",
+      "/images/places/marrakech/cafe-clock/gallery-2.webp"
+    ],
+    "imageAlt": "Café Clock — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "880fdd546304dc8bbfb1cae7a8e4b109",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAwAgCdASoQAAwABUB8JaACsAYv1gGDLqyWUAD+vdeOguHyg6ug1E+EU85XC+9fOx7QkYGfk2jcLy1sixSBfaq4GPH/y0+tG0WoWa1CNRSfqcXjFu8df+UAAAA="
+  },
+  "bacha-coffee": {
+    "heroImage": "/images/places/marrakech/bacha-coffee/hero.webp",
+    "thumbnail": "/images/places/marrakech/bacha-coffee/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/bacha-coffee/hero.webp",
+      "/images/places/marrakech/bacha-coffee/gallery-1.webp",
+      "/images/places/marrakech/bacha-coffee/gallery-2.webp",
+      "/images/places/marrakech/bacha-coffee/gallery-3.webp"
+    ],
+    "imageAlt": "Bacha Coffee — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "a76a274dc64c930071ad690c671165ad",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQAgCdASoQAAwABUB8JYwAAvxT8NRk/GAAAP4lNSBnZm+MSPEkfAyWHCxoaT+E2+KsPI0UsXFuAhHlbFMMjDCkL1foTaWnCh3kVXtAAAA="
+  },
+  "medersa-ben-youssef": {
+    "heroImage": "/images/places/marrakech/medersa-ben-youssef/hero.webp",
+    "thumbnail": "/images/places/marrakech/medersa-ben-youssef/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/medersa-ben-youssef/hero.webp",
+      "/images/places/marrakech/medersa-ben-youssef/gallery-1.webp",
+      "/images/places/marrakech/medersa-ben-youssef/gallery-2.webp",
+      "/images/places/marrakech/medersa-ben-youssef/gallery-3.webp"
+    ],
+    "imageAlt": "Medersa Ben Youssef — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "4f022ea7c19e7b7e4926dd637ff8565f",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAQCdASoQAAwABUB8JaQAApOTkrCSAAD2auiGKh9tiKn1deWCae1wL8uJscAtVQKrHw2y9KoCnp6b5xo+qm78CMHEDDf3IKIMHku/6fvIX2MWwFgQEQWlSAA="
+  },
+  "souk-shopping-tour": {
+    "heroImage": "/images/places/marrakech/souk-shopping-tour/hero.webp",
+    "thumbnail": "/images/places/marrakech/souk-shopping-tour/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/souk-shopping-tour/hero.webp",
+      "/images/places/marrakech/souk-shopping-tour/gallery-1.webp",
+      "/images/places/marrakech/souk-shopping-tour/gallery-2.webp",
+      "/images/places/marrakech/souk-shopping-tour/gallery-3.webp"
+    ],
+    "imageAlt": "Souk Shopping Tour — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "8b541c81275b40cd87b0836b7c5e4748",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADQAQCdASoQAAwABUB8JQBdgCBvTi9K4AD5YSHcR63V53p6h6om5GJuFYj1i3RRSsDTM21OJFI1cw+R2JAAAA=="
+  },
+  "quad-biking-palmeraie": {
+    "heroImage": "/images/places/marrakech/quad-biking-palmeraie/hero.webp",
+    "thumbnail": "/images/places/marrakech/quad-biking-palmeraie/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/quad-biking-palmeraie/hero.webp",
+      "/images/places/marrakech/quad-biking-palmeraie/gallery-1.webp",
+      "/images/places/marrakech/quad-biking-palmeraie/gallery-2.webp"
+    ],
+    "imageAlt": "Quad Biking in Palmeraie — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "1f060f32bc1e68646bea02297bc11f0b",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoQAAwABUB8JYwCdADp8VrYitAA8OxnY4hI7OrOgXKq2MoSj2mNs9CHgxK6DYBxDNTYEFDQBxKYMo3gzYAAAA=="
+  },
+  "marrakech-food-tour": {
+    "heroImage": "/images/places/marrakech/marrakech-food-tour/hero.webp",
+    "thumbnail": "/images/places/marrakech/marrakech-food-tour/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/marrakech-food-tour/hero.webp",
+      "/images/places/marrakech/marrakech-food-tour/gallery-1.webp",
+      "/images/places/marrakech/marrakech-food-tour/gallery-2.webp"
+    ],
+    "imageAlt": "Marrakech Food Tour — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "bd99a7d33c436362d4709b9e17bb89b6",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAwAgCdASoQAAwABUB8JbACdAEfnLIdr/v28AD49AS7I+7H+/7UWIJwab5kBa5jW3+4/dW5mMBzQi5y6NG8MFXr400FdG8bconnhq80XpbAuDw+kRovlCPdOzgAAA=="
+  },
+  "spa-royal-mansour": {
+    "heroImage": "/images/places/marrakech/spa-royal-mansour/hero.webp",
+    "thumbnail": "/images/places/marrakech/spa-royal-mansour/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/spa-royal-mansour/hero.webp",
+      "/images/places/marrakech/spa-royal-mansour/gallery-1.webp",
+      "/images/places/marrakech/spa-royal-mansour/gallery-2.webp"
+    ],
+    "imageAlt": "Spa at Royal Mansour — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "bda5dcdccc1243119140e9333172ca16",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAQCdASoQAAwABUB8JYgCsACXlKrGkAAAzgmlRGqHN2vnnJcawNiA/SIi6hDJLQrZt0gcEaRx4h3iOxmZhbYvt4XvG3wZduczW5nQR2dgnjxsAAA="
+  },
+  "marche-central": {
+    "heroImage": "/images/places/marrakech/marche-central/hero.webp",
+    "thumbnail": "/images/places/marrakech/marche-central/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/marche-central/hero.webp",
+      "/images/places/marrakech/marche-central/gallery-1.webp",
+      "/images/places/marrakech/marche-central/gallery-2.webp",
+      "/images/places/marrakech/marche-central/gallery-3.webp"
+    ],
+    "imageAlt": "Marché Central — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "a4592bce20f2d08507869bfe1858b4fb",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQAgCdASoQAAwABUB8JbACdAEK1YbrjRIAAPjlyruZe7sSKlX5/lNWd/IFEhnEF3IS9CjZsfttJt6A0Q9qf0g1OSGxUueahlKW5QhBs0bn2M0g1aDGLVQAAAA="
+  },
+  "souk-el-khemis": {
+    "heroImage": "/images/places/marrakech/souk-el-khemis/hero.webp",
+    "thumbnail": "/images/places/marrakech/souk-el-khemis/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/souk-el-khemis/hero.webp",
+      "/images/places/marrakech/souk-el-khemis/gallery-1.webp",
+      "/images/places/marrakech/souk-el-khemis/gallery-2.webp",
+      "/images/places/marrakech/souk-el-khemis/gallery-3.webp"
+    ],
+    "imageAlt": "Souk el Khemis — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "687da18e6ea714f26616a86bea64357f",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAQCdASoQAAwABUB8JbACdAED5nb1KAAA/nTr6TMQPa3bP5f5E3XyKRm2Uh2QZavC5N82zLti+cp0VQthRJVpSlPIVhPuPTGEx3T8hyAAAA=="
+  },
+  "la-mamounia": {
+    "heroImage": "/images/places/marrakech/la-mamounia/hero.webp",
+    "thumbnail": "/images/places/marrakech/la-mamounia/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/la-mamounia/hero.webp",
+      "/images/places/marrakech/la-mamounia/gallery-1.webp",
+      "/images/places/marrakech/la-mamounia/gallery-2.webp"
+    ],
+    "imageAlt": "La Mamounia — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "644290bcb805bb675c140b45115b6dc6",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADwAQCdASoQAAwABUB8JQAB8n0oGZ3/NAAA97znxhEo1a32m8auXL2k0Cvms8a6I+z6+/Bf4UmRAvjSmrYXWPvZhG1H7RztkfVK6jRhqDfbvf6f2KZlLrUQAOypW4AA"
+  },
+  "royal-mansour": {
+    "heroImage": "/images/places/marrakech/royal-mansour/hero.webp",
+    "thumbnail": "/images/places/marrakech/royal-mansour/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/royal-mansour/hero.webp",
+      "/images/places/marrakech/royal-mansour/gallery-1.webp",
+      "/images/places/marrakech/royal-mansour/gallery-2.webp",
+      "/images/places/marrakech/royal-mansour/gallery-3.webp"
+    ],
+    "imageAlt": "Royal Mansour — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "33913e09719eb059a5fec63ed6c1b4db",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAQCdASoQAAwABUB8JQBOgBLyrNaxAAD+1P85wsCUEbboiGUrmn6NISrzljPzbPbN+48KP9o4ZYmKylAqeIOTocrU6g6Q4AA="
+  },
+  "riad-kniza": {
+    "heroImage": "/images/places/marrakech/riad-kniza/hero.webp",
+    "thumbnail": "/images/places/marrakech/riad-kniza/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/riad-kniza/hero.webp",
+      "/images/places/marrakech/riad-kniza/gallery-1.webp",
+      "/images/places/marrakech/riad-kniza/gallery-2.webp",
+      "/images/places/marrakech/riad-kniza/gallery-3.webp"
+    ],
+    "imageAlt": "Riad Kniza — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "d97945236afb9c04f7d5a03e7c9c845d",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACQAQCdASoQAAwABUB8JQAALoNxrHgA/qZnSwjIBi7tQJ4bPeYKjv/4PEMam73/XlPr123uaA4l57h+SPjMfgAA"
+  },
+  "dar-rhizlane": {
+    "heroImage": "/images/places/marrakech/dar-rhizlane/hero.webp",
+    "thumbnail": "/images/places/marrakech/dar-rhizlane/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/dar-rhizlane/hero.webp",
+      "/images/places/marrakech/dar-rhizlane/gallery-1.webp",
+      "/images/places/marrakech/dar-rhizlane/gallery-2.webp",
+      "/images/places/marrakech/dar-rhizlane/gallery-3.webp"
+    ],
+    "imageAlt": "Dar Rhizlane — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "ec56009e1c3cd906889be38f504c797c",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADwAQCdASoQAAwABUB8JZACdAYvNnGh/IwA4ldLANJstkeNlIEIrRlKVBmCHTuXVierzbR3Sv3hSgChGzDg5K7UaYKeBm611fLTyDTWJQ9CrYnJL+ADSQCwAAA="
+  },
+  "riad-be": {
+    "heroImage": "/images/places/marrakech/riad-be/hero.webp",
+    "thumbnail": "/images/places/marrakech/riad-be/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/riad-be/hero.webp",
+      "/images/places/marrakech/riad-be/gallery-1.webp",
+      "/images/places/marrakech/riad-be/gallery-2.webp"
+    ],
+    "imageAlt": "Riad BE Marrakech — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "6c7646b4c0e7c8317f246aed2f8da2bb",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoQAAwABUB8JbACdAD7TLB3GwIA/M+Wqxenae4L+IiWU+9924slVQcmyj6Fno7FHm+FtJloCfXQqhtlL4AftV37IdBoAA=="
+  },
+  "kabana-rooftop": {
+    "heroImage": "/images/places/marrakech/kabana-rooftop/hero.webp",
+    "thumbnail": "/images/places/marrakech/kabana-rooftop/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/kabana-rooftop/hero.webp",
+      "/images/places/marrakech/kabana-rooftop/gallery-1.webp",
+      "/images/places/marrakech/kabana-rooftop/gallery-2.webp"
+    ],
+    "imageAlt": "Kabana Rooftop — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "f3fcbf5ce461f60e82063450a8b86a58",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQAgCdASoQAAwABUB8JbACsACqrpPRR+gAAP7o8ONF38Qph6UuT3lYJIZYvY9zYgAHGhzP+AwV0LsV21BoY2hQsKUNgxbhr9t7FsCBDyAAAA=="
+  },
+  "cafe-du-livre-rooftop": {
+    "heroImage": "/images/places/marrakech/cafe-du-livre-rooftop/hero.webp",
+    "thumbnail": "/images/places/marrakech/cafe-du-livre-rooftop/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/cafe-du-livre-rooftop/hero.webp",
+      "/images/places/marrakech/cafe-du-livre-rooftop/gallery-1.webp",
+      "/images/places/marrakech/cafe-du-livre-rooftop/gallery-2.webp",
+      "/images/places/marrakech/cafe-du-livre-rooftop/gallery-3.webp"
+    ],
+    "imageAlt": "Café du Livre Rooftop — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "ce20c766336906fa3152dacc3de88582",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoQAAwABUB8JQBOgCB8wwyasAD+3OnDY7Nmvpz3nSLmmpbqtvcYsQdcai/rkTaOwVYt6bqGVqea5PDAAAA="
+  },
+  "rooftop-nomad": {
+    "heroImage": "/images/places/marrakech/rooftop-nomad/hero.webp",
+    "thumbnail": "/images/places/marrakech/rooftop-nomad/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/rooftop-nomad/hero.webp",
+      "/images/places/marrakech/rooftop-nomad/gallery-1.webp",
+      "/images/places/marrakech/rooftop-nomad/gallery-2.webp"
+    ],
+    "imageAlt": "Rooftop at Nomad — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "c4fc8fa99e609d679a97d8ee159ffbd5",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADwAQCdASoQAAwABUB8JbACdADbOLJyXOAA/b6wsyOiO2pjUSnYsP1yM1vWj1LWTD7CoKkbeLsaMH9vhhHZsG4OgTEY6PmfffHm05TX3jUTl3ZZ6KVer0NAAAA="
+  },
+  "hammam-mouassine": {
+    "heroImage": "/images/places/marrakech/hammam-mouassine/hero.webp",
+    "thumbnail": "/images/places/marrakech/hammam-mouassine/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/hammam-mouassine/hero.webp",
+      "/images/places/marrakech/hammam-mouassine/gallery-1.webp",
+      "/images/places/marrakech/hammam-mouassine/gallery-2.webp"
+    ],
+    "imageAlt": "Hammam Mouassine — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "bd99a7d33c436362d4709b9e17bb89b6",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAwAgCdASoQAAwABUB8JbACdAEfnLIdr/v28AD49AS7I+7H+/7UWIJwab5kBa5jW3+4/dW5mMBzQi5y6NG8MFXr400FdG8bconnhq80XpbAuDw+kRovlCPdOzgAAA=="
+  },
+  "les-bains-de-marrakech": {
+    "heroImage": "/images/places/marrakech/les-bains-de-marrakech/hero.webp",
+    "thumbnail": "/images/places/marrakech/les-bains-de-marrakech/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/les-bains-de-marrakech/hero.webp",
+      "/images/places/marrakech/les-bains-de-marrakech/gallery-1.webp",
+      "/images/places/marrakech/les-bains-de-marrakech/gallery-2.webp"
+    ],
+    "imageAlt": "Les Bains de Marrakech — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "bda5dcdccc1243119140e9333172ca16",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAQCdASoQAAwABUB8JYgCsACXlKrGkAAAzgmlRGqHN2vnnJcawNiA/SIi6hDJLQrZt0gcEaRx4h3iOxmZhbYvt4XvG3wZduczW5nQR2dgnjxsAAA="
+  },
+  "hammam-dar-el-bacha": {
+    "heroImage": "/images/places/marrakech/hammam-dar-el-bacha/hero.webp",
+    "thumbnail": "/images/places/marrakech/hammam-dar-el-bacha/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/hammam-dar-el-bacha/hero.webp",
+      "/images/places/marrakech/hammam-dar-el-bacha/gallery-1.webp",
+      "/images/places/marrakech/hammam-dar-el-bacha/gallery-2.webp"
+    ],
+    "imageAlt": "Hammam Dar el Bacha — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "8b541c81275b40cd87b0836b7c5e4748",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADQAQCdASoQAAwABUB8JQBdgCBvTi9K4AD5YSHcR63V53p6h6om5GJuFYj1i3RRSsDTM21OJFI1cw+R2JAAAA=="
+  },
+  "hammam-ziani": {
+    "heroImage": "/images/places/marrakech/hammam-ziani/hero.webp",
+    "thumbnail": "/images/places/marrakech/hammam-ziani/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/hammam-ziani/hero.webp",
+      "/images/places/marrakech/hammam-ziani/gallery-1.webp",
+      "/images/places/marrakech/hammam-ziani/gallery-2.webp"
+    ],
+    "imageAlt": "Hammam Ziani — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "bd99a7d33c436362d4709b9e17bb89b6",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAwAgCdASoQAAwABUB8JbACdAEfnLIdr/v28AD49AS7I+7H+/7UWIJwab5kBa5jW3+4/dW5mMBzQi5y6NG8MFXr400FdG8bconnhq80XpbAuDw+kRovlCPdOzgAAA=="
+  },
+  "brunch-la-mamounia": {
+    "heroImage": "/images/places/marrakech/brunch-la-mamounia/hero.webp",
+    "thumbnail": "/images/places/marrakech/brunch-la-mamounia/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/brunch-la-mamounia/hero.webp",
+      "/images/places/marrakech/brunch-la-mamounia/gallery-1.webp",
+      "/images/places/marrakech/brunch-la-mamounia/gallery-2.webp",
+      "/images/places/marrakech/brunch-la-mamounia/gallery-3.webp"
+    ],
+    "imageAlt": "Brunch at La Mamounia — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "644290bcb805bb675c140b45115b6dc6",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADwAQCdASoQAAwABUB8JQAB8n0oGZ3/NAAA97znxhEo1a32m8auXL2k0Cvms8a6I+z6+/Bf4UmRAvjSmrYXWPvZhG1H7RztkfVK6jRhqDfbvf6f2KZlLrUQAOypW4AA"
+  },
+  "brunch-nomad": {
+    "heroImage": "/images/places/marrakech/brunch-nomad/hero.webp",
+    "thumbnail": "/images/places/marrakech/brunch-nomad/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/brunch-nomad/hero.webp",
+      "/images/places/marrakech/brunch-nomad/gallery-1.webp",
+      "/images/places/marrakech/brunch-nomad/gallery-2.webp"
+    ],
+    "imageAlt": "Brunch at Nomad — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "cfaac2f71c93e1e83dc42847c04dd5a8",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAQCdASoQAAwABUB8JaACdABwfpxwAADKLTQtf15rN7BdyxFsLxAFAQip8NM/fhUnvqizARSKF9QLJairfmCxa0g7vtAAAAA="
+  },
+  "brunch-bacha-coffee": {
+    "heroImage": "/images/places/marrakech/brunch-bacha-coffee/hero.webp",
+    "thumbnail": "/images/places/marrakech/brunch-bacha-coffee/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/brunch-bacha-coffee/hero.webp",
+      "/images/places/marrakech/brunch-bacha-coffee/gallery-1.webp",
+      "/images/places/marrakech/brunch-bacha-coffee/gallery-2.webp",
+      "/images/places/marrakech/brunch-bacha-coffee/gallery-3.webp"
+    ],
+    "imageAlt": "Bacha Coffee Brunch — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "8f8547e41c3131fac8596e0890fedff5",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAACQAQCdASoQAAwABUB8JQAANL1jeEAA/hfVr8g4rQnjzkDgtfYltjwsKjws0ZWlJkYPvAyXdBoAAA=="
+  },
+  "brunch-cafe-clock": {
+    "heroImage": "/images/places/marrakech/brunch-cafe-clock/hero.webp",
+    "thumbnail": "/images/places/marrakech/brunch-cafe-clock/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/brunch-cafe-clock/hero.webp",
+      "/images/places/marrakech/brunch-cafe-clock/gallery-1.webp",
+      "/images/places/marrakech/brunch-cafe-clock/gallery-2.webp"
+    ],
+    "imageAlt": "Brunch at Café Clock — marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "880fdd546304dc8bbfb1cae7a8e4b109",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAwAgCdASoQAAwABUB8JaACsAYv1gGDLqyWUAD+vdeOguHyg6ug1E+EU85XC+9fOx7QkYGfk2jcLy1sixSBfaq4GPH/y0+tG0WoWa1CNRSfqcXjFu8df+UAAAA="
+  },
+  "jemaa-el-fna": {
+    "heroImage": "/images/places/marrakech/jemaa-el-fna/hero.webp",
+    "thumbnail": "/images/places/marrakech/jemaa-el-fna/thumb.webp",
+    "gallery": [
+      "/images/places/marrakech/jemaa-el-fna/hero.webp",
+      "/images/places/marrakech/jemaa-el-fna/gallery-1.webp",
+      "/images/places/marrakech/jemaa-el-fna/gallery-2.webp",
+      "/images/places/marrakech/jemaa-el-fna/gallery-3.webp"
+    ],
+    "imageAlt": "Jemaa el-Fna — Marrakech",
+    "imageCredits": "Unsplash",
+    "imageHash": "644290bcb805bb675c140b45115b6dc6",
+    "imageSource": "unsplash",
+    "imageVerified": true,
+    "blurDataURL": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADwAQCdASoQAAwABUB8JQAB8n0oGZ3/NAAA97znxhEo1a32m8auXL2k0Cvms8a6I+z6+/Bf4UmRAvjSmrYXWPvZhG1H7RztkfVK6jRhqDfbvf6f2KZlLrUQAOypW4AA"
+  }
+}
