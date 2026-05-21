@@ -1869,6 +1869,66 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "placeSlug": undefined
       }
     ]
+  },
+  {
+    "title": "Best Crêperies in Paris",
+    "slug": "creperies-paris",
+    "city": "Paris",
+    "citySlug": "paris",
+    "category": "Street Food",
+    "coverImage": "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=1200&q=80",
+    "publishedAt": "2026-05-21",
+    "readingTime": 8,
+    "metaDescription": "Where to eat the best crêpes and galettes in Paris — five real spots tested by a local, from Montparnasse classics to Breton hideouts.",
+    "intro": "Walk out of Gare Montparnasse and the smell hits you before you see anything — buckwheat batter on hot cast iron, butter going brown, a whisper of cider. Paris has been Brittany's southern outpost since the 1960s, when Breton families moved here for work and brought their crêperies with them. This guide is for travelers who want the real thing — proper galettes with crispy edges, not the soggy Nutella discs sold near the Eiffel Tower. Five places, all tested, all worth the métro ride.",
+    "body": "## Why Paris for crêperies\n\nMost of the city's best crêperies cluster around Montparnasse, where Breton immigrants settled near the train line from Quimper. Expect to pay €10-16 for a savory galette and €7-12 for a sweet crêpe, with a bowl of cider adding €4-6. Lunch service (12-2pm) is calmer than dinner, and the cider tastes better in autumn when the new pressing arrives.\n\n| Place | Price | Best For | Vibe |\n|-------|-------|----------|------|\n| Breizh Café | €€€ | Modern galettes | Polished, busy |\n| Crêperie Josselin | €€ | Classic Breton | Wood-panelled, loud |\n| Little Breizh | €€ | Quality ingredients | Tiny, warm |\n| Au P'tit Grec | € | Street crêpes | Stand-and-eat |\n| West Country Girl | €€ | Date night | Cozy, dim |\n\n## Detailed Reviews\n\n### 1. Breizh Café\n\nBertrand Larcher trained in Tokyo before opening this in the Marais, and it shows — the galettes are precise, the buckwheat is organic, and the menu credits the farmers. Order the **Complète** with smoked herring and you'll understand why people queue. The downside: it's expensive for what is, structurally, a pancake, and the Marais branch gets packed by 12:30 with no walk-ins after that.\n\n**Best for:** First-timers who want to taste what a galette can actually be\n**Local tip:** Book the Odéon location instead of the Marais one — same kitchen, half the wait.\n\n### 2. Crêperie Josselin\n\nRue du Montparnasse is wall-to-wall crêperies and most are tourist traps, but Josselin is the one Bretons themselves point to. The dining room is dark wood, the servers are brisk to the point of brusque, and the galettes arrive enormous and properly lacy at the edges. Get the **galette complète** (ham, egg, cheese) with a bowl — yes, a ceramic bowl — of dry cider from Fouesnant.\n\n**Best for:** The full old-school Breton experience\n**Local tip:** They don't take reservations and close Mondays. Show up at 12:15 sharp or after 2pm.\n\n### 3. Little Breizh\n\nTucked on a quiet street near Saint-Germain, this one is run by a young couple who source flour from a specific mill in Finistère. The space holds maybe 25 people and feels like a friend's kitchen. Try the **Saint-Yves** — andouille sausage, mustard, and emmental — which sounds wrong and tastes right.\n\n**Best for:** Travelers who care about provenance and don't mind sitting elbow-to-elbow\n**Local tip:** Closed Sunday and Monday. Lunch slots vanish first; call rather than email.\n\n### 4. Au P'tit Grec\n\nNot technically a crêperie and not technically Breton — it's a Greek-run takeaway window on Rue Mouffetard that makes the city's best street crêpes. The crêpes are huge, folded into a cone, and stuffed with whatever you want. Get the **goat cheese, honey and walnut** for €7 and eat it walking down the market street.\n\n**Best for:** Budget travelers and late-night cravings\n**Local tip:** The queue at 1pm Saturday is brutal. Go Tuesday evening when Mouffetard is quieter.\n\n### 5. West Country Girl\n\nA small spot near Oberkampf with checkered tablecloths, candlelight, and a chef from Quimper who takes the cider list seriously — there are eight by the glass. The galettes lean traditional but the sweet crêpes get creative; the **salted butter caramel** with a scoop of Bordier ice cream is the one to order. It feels like a date restaurant without trying to be one.\n\n**Best for:** Couples, or anyone who wants a proper sit-down dinner\n**Local tip:** Sunday brunch is underrated and easier to book than dinner.\n\n## Local Tips for crêperies in Paris\n\n- Galette means buckwheat and savory; crêpe means wheat and sweet. Order one of each — that's how Bretons actually eat.\n- Cider is served in ceramic bowls, not glasses, and you drink it through the meal, not before. Dry (brut) pairs better than sweet (doux).\n- Avoid any crêperie within 300 meters of the Eiffel Tower or Sacré-Cœur. The batter is pre-made and the prices are double.\n- Combine a Montparnasse crêpe lunch with a walk through Cimetière du Montparnasse and a coffee at La Rotonde afterwards.\n\n## FAQ\n\n### Q: What's the difference between a crêpe and a galette in Paris?\nA: A galette is made with buckwheat flour, is always savory, and comes from Brittany's tradition of using buckwheat because wheat didn't grow well there. A crêpe uses wheat flour and is sweet. A real Breton meal is one galette followed by one crêpe.\n\n### Q: Do I need to book a crêperie in Paris?\nA: For Breizh Café, Little Breizh and West Country Girl — yes, especially Friday and Saturday nights. Josselin doesn't take bookings, and Au P'tit Grec is a takeaway window. Lunch is generally easier than dinner across the board.\n\n### Q: Where's the best crêperie for families with kids?\nA: Crêperie Josselin handles families well — the room is loud enough that nobody minds, portions are huge and easy to split, and kids love the cider bowls (filled with water or juice for them). Au P'tit Grec is also great for picky eaters who just want Nutella.\n\n## The Verdict\n\n**Best for couples:** West Country Girl — candlelight, good cider, and dessert that justifies a second bottle.\n**Best for budget:** Au P'tit Grec — a proper meal for under €10, eaten on the move.\n**Best for first-timers:** Breizh Café — the cleanest introduction to what a modern galette tastes like.\n**Best for locals (or feeling like one):** Crêperie Josselin — no frills, no reservations, just the way it's been done for fifty years.",
+    "places": [
+      {
+        "name": "Breizh Café",
+        "description": "A polished, slightly self-serious crêperie in the Marais where every ingredient is traced back to a specific Breton farm. The galettes are precise and the cider list is the deepest in Paris, with rare bottles from small Normandy producers. It's pricier than it has any right to be and the queues at lunch can wreck your afternoon plans.",
+        "address": "109 Rue Vieille du Temple, 75003 Paris",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1565299543923-37dd37887442?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Crêperie Josselin",
+        "description": "The Montparnasse institution Bretons themselves recommend, with dark wood walls and servers who've been there for decades. Galettes arrive massive, properly crisp at the edges, and the dry cider comes in ceramic bowls as tradition demands. No reservations, closed Mondays, and the noise level at 8pm is not for quiet conversations.",
+        "address": "67 Rue du Montparnasse, 75014 Paris",
+        "rating": 4.4,
+        "image": "https://images.unsplash.com/photo-1607330289024-1535c6b4e1c1?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Little Breizh",
+        "description": "A tiny Saint-Germain crêperie run by a young couple obsessive about their Finistère flour supplier. The room seats around 25 and feels like eating in someone's kitchen, with the chef visible through the pass. Closed two days a week and bookings disappear fast — don't show up hoping for a walk-in.",
+        "address": "11 Rue Grégoire de Tours, 75006 Paris",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Au P'tit Grec",
+        "description": "A Greek-run takeaway window on Rue Mouffetard that, against all logic, makes the best street crêpes in Paris. The crêpes are enormous, folded into a cone, and stuffed generously for under €10. The queue on weekend afternoons is genuinely painful — go on a weeknight or accept your fate.",
+        "address": "68 Rue Mouffetard, 75005 Paris",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1554503885-d80df3b53963?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "West Country Girl",
+        "description": "A candlelit spot off Oberkampf with checkered tablecloths and a chef from Quimper who curates eight ciders by the glass. The savory galettes stay traditional but desserts get playful — the salted butter caramel crêpe with Bordier ice cream is the reason to come. It's small, so weekend dinners book out a week ahead.",
+        "address": "6 Passage Saint-Ambroise, 75011 Paris",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1521305916504-4a1121188589?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      }
+    ]
   }
 ];
 
