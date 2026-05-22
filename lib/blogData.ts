@@ -1929,6 +1929,66 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "placeSlug": undefined
       }
     ]
+  },
+  {
+    "title": "Most Instagrammable Restaurants in Paris",
+    "slug": "instagrammable-restaurants-paris",
+    "city": "Paris",
+    "citySlug": "paris",
+    "category": "Restaurants",
+    "coverImage": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=1200&q=80",
+    "publishedAt": "2026-05-22",
+    "readingTime": 8,
+    "metaDescription": "Five Paris restaurants that actually look as good as they taste — from a pink tearoom in Saint-Germain to a glass garden in the Marais.",
+    "intro": "Paris has a strange relationship with photogenic restaurants. The most photographed rooms are sometimes the worst plates, and the prettiest courtyards often hide a €38 club sandwich. This guide is for travelers who want both — somewhere worth posting and somewhere worth eating — across five neighborhoods you can actually walk between.",
+    "body": "## Why Paris for instagrammable restaurants paris\n\nParis built its café culture in the 19th century and never really stopped renovating it. Expect to spend €25–€60 a head at the places below, more if you order wine. Spring and early autumn are kindest to the terraces; January and August are when half the city closes.\n\n| Place | Price | Best For | Vibe |\n|-------|-------|----------|------|\n| Café de Flore | €€€ | Coffee + people-watching | Wood-paneled classic |\n| Carette | €€ | Pastries with a view | Trocadéro elegance |\n| Girafe | €€€€ | Sunset dinner | Art deco glamour |\n| Le Tout-Paris | €€€€ | Brunch with a Seine view | Penthouse drama |\n| Ladurée Royale | €€ | Tea and macarons | Versailles-meets-boudoir |\n\n## Detailed Reviews\n\n### 1. Café de Flore\n\nThe green-and-white awning on Boulevard Saint-Germain has been photographed roughly a billion times, and yet the room inside still works — red leather banquettes, brass railings, waiters in long white aprons who genuinely don't care if you're famous. Sit upstairs if you actually want to hear the person across from you. The **omelette au fromage** is €17 and surprisingly good; the hot chocolate is the real reason to come.\n\n**Best for:** solo travelers, writers, anyone romanticizing their life\n**Local tip:** Go on a weekday around 3pm — mornings are tourist-packed, evenings get loud, and that mid-afternoon window is when regulars reclaim the place.\n\n### 2. Carette\n\nThe Trocadéro location has the view — direct sightline to the Eiffel Tower from the terrace, which is exactly why it's full by 10am on weekends. Inside, it's all marble tables, mirrored walls, and pastel macarons stacked in the window. Service can be brisk to the point of rude if you don't speak French, but the **millefeuille** is one of the better ones in the city.\n\n**Best for:** first-time visitors who want the Eiffel shot without the crowds of Trocadéro plaza\n**Local tip:** Skip the brunch (overpriced at €42) and come for afternoon tea instead. The Place des Vosges branch is quieter if Trocadéro feels too touristed.\n\n### 3. Girafe\n\nInside the Palais de Chaillot, with a terrace that frames the Eiffel Tower like a postcard. The dining room is a 1930s fantasy — emerald banquettes, brass detailing, low lighting that flatters everyone. It's a seafood restaurant first, scene second, and the **plateau de fruits de mer** is genuinely excellent, though you'll pay €90+ for it.\n\n**Best for:** anniversaries, proposals, anyone trying to impress\n**Local tip:** Book the 7pm seating in summer to catch golden hour on the terrace. Lunch is significantly cheaper than dinner and gets the same view.\n\n### 4. Le Tout-Paris\n\nOn the seventh floor of Cheval Blanc Paris, overlooking the Pont Neuf and the Seine. The room is done in cream and gold with curved banquettes and enormous windows — daylight does most of the work, photographically. The food is solid bistro standards dressed up; the **œufs mimosa** are charming and the steak frites is fine but you're paying for the view.\n\n**Best for:** brunch with someone you want to surprise\n**Local tip:** Sunday brunch books out three weeks ahead. Reserve a table by the window or don't bother — the interior tables miss the entire point.\n\n### 5. Ladurée Royale\n\nThe original 1862 tearoom on rue Royale is still the prettiest of all the Ladurée locations — frescoed ceilings, gold leaf, that specific shade of pistachio green that defined the brand. The salon upstairs feels like eating inside a jewelry box. The macarons are exactly what they are; the **Saint-Honoré rose-framboise** is the move if you're actually hungry.\n\n**Best for:** an afternoon break between Place de la Concorde and the Madeleine\n**Local tip:** The Champs-Élysées branch gets the tourists; this one gets the actual Parisians shopping nearby. Tuesday and Wednesday afternoons are calmest.\n\n## Local Tips for instagrammable restaurants paris\n\n- Book online two to three weeks ahead for Girafe and Le Tout-Paris — walk-ins almost never work at either.\n- Natural light peaks between 10am and 2pm in most Paris dining rooms; if photos matter, aim for lunch over dinner.\n- Order a coffee and a pastry rather than a full meal at the famous cafés — you'll save €30 and get the same atmosphere.\n- Combine Carette with a walk down Avenue Kléber, or Girafe with the Cité de l'Architecture museum next door — both are 10 minutes from the Eiffel Tower without the chaos.\n\n## FAQ\n\n### Q: Do I need to reserve at these Paris restaurants in advance?\nA: Girafe and Le Tout-Paris yes, two to three weeks ahead minimum, especially for weekends. Café de Flore, Carette and Ladurée don't take reservations for the café areas — just show up and expect a short wait at peak hours.\n\n### Q: How much should I budget per person at these spots?\nA: A coffee and pastry at Café de Flore or Ladurée runs €12–€18. Lunch at Carette is €25–€35. Dinner at Girafe or Le Tout-Paris realistically lands at €80–€120 per person with one glass of wine.\n\n### Q: Which one is best for a solo traveler who wants to take photos without feeling awkward?\nA: Café de Flore, easily. Solo diners are normal there, the staff don't rush you, and the upstairs room has good light all afternoon. Bring a book and you'll blend in completely.\n\n## The Verdict\n\nFor couples, **Girafe** is hard to beat — the view, the room, the slow pace of dinner all work together. Budget travelers should head to **Café de Flore** for an afternoon coffee or **Ladurée Royale** for tea and a single pastry. First-timers get the most out of **Carette** for the Eiffel proximity, and locals quietly keep going back to **Le Tout-Paris** for Sunday brunch when someone else is paying.",
+    "places": [
+      {
+        "name": "Café de Flore",
+        "description": "A wood-paneled Saint-Germain institution with red leather banquettes and waiters in long white aprons. The upstairs room is quieter and gets soft afternoon light through the tall windows. Be warned: the ground floor terrace is a tourist gauntlet, and prices reflect the postcard more than the plate.",
+        "address": "172 Boulevard Saint-Germain, 75006 Paris",
+        "rating": 4.4,
+        "image": "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Carette Trocadéro",
+        "description": "Marble tables, mirrored walls and a terrace pointed straight at the Eiffel Tower. The pastry case in the window is the most photographed in the 16th arrondissement, and the millefeuille earns it. Service can feel hurried, especially if you arrive without a reservation on a Saturday.",
+        "address": "4 Place du Trocadéro et du 11 Novembre, 75116 Paris",
+        "rating": 4.3,
+        "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Girafe",
+        "description": "A 1930s-styled seafood restaurant inside the Palais de Chaillot with emerald banquettes and a terrace that frames the Eiffel Tower. The plateau de fruits de mer is genuinely excellent, though dinner climbs past €100 a head quickly. Reservations open a month ahead and the prime terrace tables vanish first.",
+        "address": "1 Place du Trocadéro et du 11 Novembre, 75116 Paris",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Le Tout-Paris",
+        "description": "On the seventh floor of Cheval Blanc with curved cream banquettes and enormous windows facing the Pont Neuf and the Seine. Daylight does most of the heavy lifting, and the bistro menu is competent rather than memorable. You're paying for the view — accept that and you'll have a great time.",
+        "address": "8 Quai du Louvre, 75001 Paris",
+        "rating": 4.4,
+        "image": "https://images.unsplash.com/photo-1592861956120-e524fc739696?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Ladurée Rue Royale",
+        "description": "The original 1862 salon with frescoed ceilings, gold leaf, and that signature pistachio green throughout. Upstairs feels like eating inside a jewelry box, and Parisians actually still come here between errands. The macarons are what they are — the Saint-Honoré rose-framboise is the better order if you want something memorable.",
+        "address": "16 Rue Royale, 75008 Paris",
+        "rating": 4.4,
+        "image": "https://images.unsplash.com/photo-1464195244916-405fa0a82545?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      }
+    ]
   }
 ];
 
