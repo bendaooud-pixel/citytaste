@@ -1989,6 +1989,66 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "placeSlug": undefined
       }
     ]
+  },
+  {
+    "title": "Best Lebanese Food in Paris",
+    "slug": "lebanese-food-paris",
+    "city": "Paris",
+    "citySlug": "paris",
+    "category": "Restaurants",
+    "coverImage": "https://images.unsplash.com/photo-1542367592-8849eb950fd8?w=1200&q=80",
+    "publishedAt": "2026-05-23",
+    "readingTime": 8,
+    "metaDescription": "Where to eat real Lebanese food in Paris: 5 tested spots from cheap shawarma to white-tablecloth mezze, with prices and local tips.",
+    "intro": "Walk down Rue de Bretagne on a Saturday afternoon and you'll smell the garlic toum and charcoal before you see the queue. Paris has had a serious Lebanese community since the 1970s, and the city's mezze scene now runs from €8 takeaway sandwiches in the 9th to candle-lit kibbeh tastings in the Marais. This guide is for anyone who wants the real thing — proper labneh, smoky baba ghanoush, lamb that pulls apart — without paying tourist tax. Budget anywhere from €12 for lunch to €60 for a proper sit-down feast.",
+    "body": "## Why Paris for lebanese food paris\n\nLebanese food landed in Paris with the civil war exodus and never left, settling mostly around the 8th, 9th and the Marais. The best places are family-run, second generation now, and they cook the way Beirut cooked before the city's restaurants got fancy. Lunch is the smart move — most spots do a €15-20 formule that would cost €35 at dinner.\n\n| Place | Price | Best For | Vibe |\n|-------|-------|----------|------|\n| Liza | €€€ | Date night | Beirut-chic dining room |\n| Chez Marianne | €€ | First-timers | Bustling Marais corner |\n| Al Dar | €€€ | Sunday family lunch | Classic white-tablecloth |\n| Noura | €€ | Quick proper meal | Polished brasserie |\n| Comptoir Libanais | € | Cheap and fast | Counter and stools |\n\n## Detailed Reviews\n\n### 1. Liza\n\nLiza Soughayar opened this place in 2005 and it still feels like the most thought-out Lebanese room in Paris — geometric tiles, low lighting, a crowd that's half Beiruti expats and half Parisians on a third date. The food is modern but rooted: try the **kafta bel kerez**, lamb meatballs in sour cherry sauce, which sounds wrong and tastes incredible. Service can drift when it's full on a Friday, so book the early seating.\n\n**Best for:** couples, anniversary dinners\n**Local tip:** the weekday lunch menu at €29 is the same kitchen for half the dinner price.\n\n### 2. Chez Marianne\n\nThe corner of Rue des Hospitalières-Saint-Gervais has been Chez Marianne since 1978, and yes it's technically a Jewish-Middle Eastern hybrid, but the Lebanese mezze platter is what people queue for. You pick **between 4 and 12 items** from the counter — get the hummus, the houmous au cumin, the spicy carrots, the falafel. Sit inside if it's cold; the terrace is great but the waiters forget you exist.\n\n**Best for:** first-time visitors who want variety on one plate\n**Local tip:** skip the dinner rush — go at 3pm when the tourists clear and the falafel is still being fried fresh.\n\n### 3. Al Dar\n\nAl Dar has two locations but the one on Rue Frédéric Sauton near Notre-Dame is the original, running since 1987. This is where Lebanese families come for a proper Sunday lunch — three generations at one table, ten little plates, no rush. Order the **mezze découverte for two** (€58) and the grilled lamb chops; the raw kibbeh nayyeh is exceptional if you eat that sort of thing.\n\n**Best for:** a long lunch, groups of four or more\n**Local tip:** reservations are essential on Sundays after 1pm. The traiteur next door does the same food to take away for half the price.\n\n### 4. Noura\n\nNoura is the polished one — five locations across Paris, the Avenue Marceau flagship being the most serious. It's not cool, it's not buzzy, but the cooking is rock-solid and consistent in a way the trendier places aren't. The **chicken shish taouk** with garlic toum is the benchmark; their fattoush is properly sour with sumac.\n\n**Best for:** business lunch, reliable dinner when you don't want surprises\n**Local tip:** the Marceau branch has a takeaway counter at the front — same kitchen, sandwiches around €9, eat them on a bench at Place de l'Alma.\n\n### 5. Comptoir Libanais\n\nNot to be confused with the UK chain — this is a small counter spot on Rue Saint-Marc in the 2nd, run by a Lebanese couple who do everything themselves. Lunch is built around **manakish** (the Lebanese flatbread) topped with za'atar, cheese, or spiced lamb, plus a few mezze of the day. There are maybe twelve seats and no atmosphere to speak of, but a manakish + labneh + mint tea lunch comes in under €15.\n\n**Best for:** solo lunch, budget eating, takeaway\n**Local tip:** go before 12:30 or after 2pm — the office crowd from nearby Bourse fills it solid for an hour.\n\n## Local Tips for lebanese food paris\n\n- Order **arak** with mezze, not wine — it's the proper pairing and most places have a decent house version for €6 a glass.\n- Friday and Saturday dinners need booking at Liza and Al Dar at least three days ahead; Chez Marianne doesn't take reservations so go early or late.\n- Skip the main courses at mezze-focused places and order more small plates instead — that's how Lebanese people actually eat.\n- Combine Chez Marianne with a walk through the Marais and a stop at Rue des Rosiers; Al Dar pairs naturally with a Notre-Dame and Île Saint-Louis afternoon.\n\n## FAQ\n\n### Q: What's the best neighborhood in Paris for Lebanese food?\nA: The Marais (4th arrondissement) has the highest concentration of casual spots, while the 8th and 16th hold the more upscale restaurants like Noura and Liza. For cheap and authentic, look around Rue Saint-Marc and the lower 9th.\n\n### Q: How much does a Lebanese meal in Paris cost?\nA: A counter-style lunch with manakish or a shawarma sandwich runs €10-15. A proper sit-down mezze dinner for two with drinks lands between €70 and €120 depending on the place. Liza and Al Dar are the priciest of the five here.\n\n### Q: Which Lebanese restaurant in Paris is best for vegetarians?\nA: Chez Marianne, easily — the mezze platter lets you pick 8-12 vegetarian items, all made in-house. Liza also has a strong vegetarian mezze selection, and most Lebanese restaurants will happily build a meat-free spread if you ask.\n\n## The Verdict\n\nFor couples, **Liza** wins on atmosphere and modern cooking. Budget travelers should head straight to **Comptoir Libanais** for a €15 manakish lunch. First-timers get the most variety at **Chez Marianne**, and locals who know what they want book a Sunday table at **Al Dar**.",
+    "places": [
+      {
+        "name": "Liza",
+        "description": "A design-forward Beirut-in-Paris room with geometric tiles, low lighting and a mixed crowd of Lebanese expats and Parisian regulars. The kitchen does modern Lebanese without losing the soul — the kafta bel kerez, lamb in sour cherry sauce, is the dish to order. Service slows noticeably during the Friday rush, so the early seating is the smarter pick.",
+        "address": "14 Rue de la Banque, 75002 Paris",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Chez Marianne",
+        "description": "A Marais corner institution since 1978, half Jewish deli and half Lebanese mezze counter, always busy and slightly chaotic. The draw is the build-your-own platter of 4 to 12 items — the hummus, cumin chickpeas and spicy carrots are the standouts. The terrace looks great but the inside service is faster and warmer.",
+        "address": "2 Rue des Hospitalières-Saint-Gervais, 75004 Paris",
+        "rating": 4.3,
+        "image": "https://images.unsplash.com/photo-1540914124281-342587941389?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Al Dar",
+        "description": "Old-school white-tablecloth Lebanese cooking near Notre-Dame, running since 1987 and still pulling in three-generation Lebanese family lunches. The mezze découverte for two is the move, and the raw kibbeh nayyeh is some of the best in the city. The dining room is dated in a comforting way, not a stylish one.",
+        "address": "8-10 Rue Frédéric Sauton, 75005 Paris",
+        "rating": 4.4,
+        "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Noura",
+        "description": "The polished, reliable choice — a small chain whose Avenue Marceau flagship serves consistently excellent Lebanese classics without much surprise or flair. The shish taouk with garlic toum is benchmark-good and the fattoush is properly tangy with sumac. The room is corporate-elegant rather than charming, which suits a business lunch.",
+        "address": "21 Avenue Marceau, 75116 Paris",
+        "rating": 4.2,
+        "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Comptoir Libanais",
+        "description": "A tiny owner-run counter spot in the 2nd with maybe twelve seats and zero pretension. The focus is manakish — Lebanese flatbreads topped with za'atar, cheese or spiced lamb — plus a rotating handful of mezze. There's no atmosphere to speak of, but a full lunch with mint tea comes in under €15, which in central Paris is borderline miraculous.",
+        "address": "12 Rue Saint-Marc, 75002 Paris",
+        "rating": 4.4,
+        "image": "https://images.unsplash.com/photo-1561651823-34feb02250e4?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      }
+    ]
   }
 ];
 
