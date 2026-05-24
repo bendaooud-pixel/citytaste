@@ -2049,6 +2049,66 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "placeSlug": undefined
       }
     ]
+  },
+  {
+    "title": "Top Boulangeries in Paris Ranked 2025",
+    "slug": "best-boulangeries-paris",
+    "city": "Paris",
+    "citySlug": "paris",
+    "category": "Bakeries",
+    "coverImage": "https://images.unsplash.com/photo-1568254183919-78a4f43a2877?w=1200&q=80",
+    "publishedAt": "2026-05-24",
+    "readingTime": 8,
+    "metaDescription": "The 5 best boulangeries in Paris in 2025 — where locals actually queue, what to order, and which baguettes are worth the detour.",
+    "intro": "It's 7:45am on a Tuesday in the 11th and there's already a line of seven people, none of them tourists, all waiting for bread that won't be out of the oven for another six minutes. That's Paris in a nutshell — the city takes its loaves personally. This guide is for travelers who'd rather skip the Instagram bakery with the pink awning and eat what neighbors eat. Five boulangeries, real addresses, honest notes on what's worth the queue.",
+    "body": "## Why Paris for best boulangeries paris\n\nParis runs an annual competition for the city's best baguette — the winner supplies the Élysée Palace for a year, which tells you how seriously this is taken. Most neighborhoods have one boulangerie everyone agrees on, and locals will defend theirs against the next arrondissement over. Budget is friendly: a baguette de tradition runs €1.30–€1.60, viennoiseries €1.80–€4.50. Go early — by 1pm the good stuff is gone.\n\n| Place | Price | Best For | Vibe |\n|-------|-------|----------|------|\n| Du Pain et des Idées | €€ | Pastries, escargots | Old-school, photogenic |\n| Boulangerie Utopie | €€ | Inventive viennoiseries | Quiet, modern, 11th |\n| Poilâne | €€€ | Sourdough miche | Historic, tourist-aware |\n| Maison Landemaine | € | Daily baguette | Reliable neighborhood |\n| Tout Autour du Pain | €€ | Award-winning baguette | Marais, low-key |\n\n## Detailed Reviews\n\n### 1. Du Pain et des Idées\n\nChristophe Vasseur's bakery on Rue Yves Toudic looks like a film set — and basically is one, with the original 1889 painted ceiling still intact. The **escargot pistache-chocolat** is the calling card, a snail-shaped pastry filled with pistachio cream and chunks of chocolate. It's closed weekends, which catches a lot of visitors off guard. Expect a 10–15 minute queue around 10am on a Friday.\n\n**Best for:** pastry lovers willing to plan around weekday hours\n**Local tip:** Order the **pavé du puits d'amour** if it's on — caramelized puff pastry, harder to find than the escargots and arguably better.\n\n### 2. Boulangerie Utopie\n\nTucked on Rue Jean-Pierre Timbaud, Utopie looks more like a design studio than a bakery — black storefront, minimal signage, no fuss. They lean experimental: squid ink baguette, charcoal-bamboo brioche, a matcha financier that actually tastes like matcha. The downside is consistency — some days the **chocolat noisette** brioche is transcendent, other days slightly dry.\n\n**Best for:** travelers staying in the 11th who want something less postcard, more Paris-now\n**Local tip:** Go Saturday morning around 9:30 — Sundays the line stretches down the block.\n\n### 3. Poilâne\n\nThe Rue du Cherche-Midi shop has been turning out its signature **miche** — a 1.9kg sourdough round stamped with a cursive P — since 1932. It's not cheap (around €11 for a quarter loaf), and yes, every food writer who's ever visited Paris has written about it. But the bread genuinely keeps for a week and improves on day two. The shop also sells **punitions**, small butter cookies given free with most orders.\n\n**Best for:** first-timers who want one classic Paris bread experience\n**Local tip:** The basement wood-fired oven is visible through a window inside — ask politely and they'll usually let you peek.\n\n### 4. Maison Landemaine\n\nThere are several Landemaine locations around the city — the one on Rue de Clichy in the 9th is the easiest to combine with a Pigalle wander. It's the bakery Parisians grab on the way home from work: solid **baguette de tradition**, dependable croissants, sandwiches under €7. Nothing here will rewrite your idea of bread, but the quality is consistent in a way smaller bakeries sometimes aren't.\n\n**Best for:** budget travelers, picnic supplies, breakfast on the move\n**Local tip:** Their **flan pâtissier** is one of the best in the city for under €4 — get it cold, late afternoon.\n\n### 5. Tout Autour du Pain\n\nBenjamin Turquier won the Grand Prix de la Baguette de Tradition in 2017 and his Marais shop on Rue des Filles du Calvaire still trades on that reputation — deservedly. The crust shatters properly, the crumb has those uneven holes that signal a long fermentation. It's a working neighborhood bakery, not a destination, which is part of the appeal. Service can be brisk to the point of rude if you dither.\n\n**Best for:** baguette purists, Marais wanderers\n**Local tip:** Ask for it **bien cuite** (well-baked) — the darker crust is how locals here order it.\n\n## Local Tips for best boulangeries paris\n\n- Most boulangeries bake baguettes twice daily — morning batch around 7am, afternoon around 4pm. Hit those windows for the warmest bread.\n- Sundays are tricky: many bakeries close, and those open often run out by noon. Du Pain et des Idées is closed all weekend.\n- A **baguette de tradition** (€1.30+) is hand-shaped and uses better flour than a standard **baguette ordinaire** (€1.10). Always pay the extra 20 cents.\n- Combine Poilâne with a walk through the 6th — the Jardin du Luxembourg is a 10-minute stroll east, perfect for a bread-and-cheese bench lunch.\n\n## FAQ\n\n### Q: Which Paris bakery has won the best baguette in Paris award recently?\nA: Recent winners include Tharshan Selvarajah (2024, Rue Boursault) and Xavier Netry of Utopie (2022). The annual Grand Prix is judged each spring and winners supply the Élysée Palace.\n\n### Q: How early should I show up to avoid the queue?\nA: For Du Pain et des Idées, before 9am or after 2pm on weekdays. Most neighborhood boulangeries are quietest between 10am and 11:30am — after the commuter rush, before lunch.\n\n### Q: What's the best boulangerie in Paris for someone who only has one morning?\nA: Du Pain et des Idées if it's a weekday — it covers pastries, bread, and the most photogenic interior in one stop. If it's a weekend, swap in Poilâne or Tout Autour du Pain.\n\n## The Verdict\n\nBest for couples: **Du Pain et des Idées** for the 19th-century interior and a shared escargot on a bench by Canal Saint-Martin. Best for budget: **Maison Landemaine** — under €10 buys breakfast for two. Best for first-timers: **Poilâne**, because the miche genuinely lives up to its reputation. Best for locals (or anyone pretending to be one): **Tout Autour du Pain** for the baguette, **Boulangerie Utopie** for everything else.",
+    "places": [
+      {
+        "name": "Du Pain et des Idées",
+        "description": "A 19th-century bakery near Canal Saint-Martin with original painted ceilings and tiled walls intact. Christophe Vasseur's escargot pistache-chocolat and pavé du puits d'amour are the standouts, made with long fermentation and serious butter. Closed weekends, which means weekday mornings get crowded fast.",
+        "address": "34 Rue Yves Toudic, 75010 Paris",
+        "rating": 4.7,
+        "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Boulangerie Utopie",
+        "description": "A minimalist black-fronted bakery in the 11th that takes risks — squid ink baguettes, charcoal brioches, matcha financiers. The pastries are precise and often inventive, the kind locals show off to visiting friends. Quality varies day to day, but the highs are very high.",
+        "address": "20 Rue Jean-Pierre Timbaud, 75011 Paris",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1517433367423-c7e5b0f35086?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Poilâne",
+        "description": "A Left Bank institution since 1932, famous for its 1.9kg sourdough miche stamped with a cursive P and baked in a basement wood-fired oven. The shop hands out small butter punitions cookies with most orders, a touch that still charms after nine decades. Prices are high and the place knows its reputation, but the bread genuinely improves on day two.",
+        "address": "8 Rue du Cherche-Midi, 75006 Paris",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Maison Landemaine",
+        "description": "A dependable mini-chain Parisians grab from on the way home — solid baguettes, good croissants, sandwiches under €7. The Rue de Clichy branch is handy for anyone exploring Pigalle or the 9th. The flan pâtissier is quietly one of the best in the city for the price.",
+        "address": "26 Rue de Clichy, 75009 Paris",
+        "rating": 4.4,
+        "image": "https://images.unsplash.com/photo-1600398137711-5798c6f86c5c?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Tout Autour du Pain",
+        "description": "Benjamin Turquier's Marais bakery, where the 2017 Grand Prix de la Baguette de Tradition win still echoes through every loaf. It's a brisk neighborhood operation — no frills, no Instagram styling, just a properly shattering crust and an open crumb. Service can be curt if you're slow to order.",
+        "address": "134 Rue de Turenne, 75003 Paris",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1534620808146-d33bb39128b2?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      }
+    ]
   }
 ];
 
