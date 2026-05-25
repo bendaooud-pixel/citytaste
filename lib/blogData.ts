@@ -2109,6 +2109,66 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "placeSlug": undefined
       }
     ]
+  },
+  {
+    "title": "Best Food Markets in Paris by Neighbourhood",
+    "slug": "food-markets-paris-neighbourhood",
+    "city": "Paris",
+    "citySlug": "paris",
+    "category": "Markets",
+    "coverImage": "https://images.unsplash.com/photo-1573246123716-6b1782bfc499?w=1200&q=80",
+    "publishedAt": "2026-05-25",
+    "readingTime": 8,
+    "metaDescription": "From Marché d'Aligre to Rue Mouffetard, here's where Parisians actually shop — by neighbourhood, with prices and what to skip.",
+    "intro": "It's Sunday, 10am, and the line at the cheese stall on Rue de Bretagne is already six deep. Locals are arguing about ripeness, kids are eating croissants out of paper bags, and someone's dog is staring at a whole rotisserie chicken. This guide is for travelers who'd rather skip the Champs-Élysées and spend a morning where Parisians actually buy their dinner. Below: five markets across five neighbourhoods, what to order, and what to leave on the shelf.",
+    "body": "## Why Paris for food markets by neighbourhood\n\nParis has around 80 open-air and covered markets, and each arrondissement has its own rhythm. Most run mornings only (7am-2pm-ish) and shut Mondays — that's the single rule that trips up visitors. Budget around €15-25 for a serious picnic for two, more if you're getting oysters.\n\n| Place | Price | Best For | Vibe |\n|-------|-------|----------|------|\n| Marché d'Aligre | € | Daily shopping, cheap produce | Loud, mixed, real |\n| Marché des Enfants Rouges | €€ | Lunch on the go | Crowded, photogenic |\n| Marché Bastille | €€ | Saturday browsing | Long, sprawling, touristy in spots |\n| Rue Mouffetard | €€ | Pedestrian street market | Old Paris, sloped, charming |\n| Marché Président Wilson | €€€ | High-end ingredients | Polished, 16th arr. crowd |\n\n## Detailed Reviews\n\n### 1. Marché d'Aligre (12th)\n\nThis is the one I send friends to first. It's actually three markets in one — an outdoor produce strip on Rue d'Aligre, a covered hall (Marché Beauvau) with butchers and cheesemongers, and a flea market in the square. Prices drop sharply after 1pm when vendors start clearing stock, and the shouting gets louder.\n\nGrab a dozen oysters from **Le Baron Rouge** next door and eat them standing at a wine barrel on the pavement — €12 for six fines de claires, plus a glass of Muscadet. The downside: it gets packed on Sundays and the cobblestones are brutal in heels.\n\n**Best for:** travelers who want the real Paris market experience without the gloss\n**Local tip:** Go Sunday morning, then walk to Le Baron Rouge around noon for oysters before they sell out.\n\n### 2. Marché des Enfants Rouges (3rd)\n\nThe oldest covered market in Paris, dating to 1615, tucked behind a green gate on Rue de Bretagne. These days it's more lunch canteen than grocery run — about 70% of the stalls sell prepared food. Expect Moroccan tagines, Japanese bento, Lebanese mezze, and a famous Italian counter where the queue moves slowly.\n\n**Chez Alain Miam Miam** does the sandwich everyone Instagrams — €13, worth it once, but you'll wait 30+ minutes on a Saturday. Skip it if you're hungry; go for the Moroccan stall **Le Traiteur Marocain** instead, where a plate of couscous runs €12 with no queue.\n\n**Best for:** a relaxed Marais lunch when you don't want to commit to a restaurant\n**Local tip:** Closed Mondays. Arrive before 12:30pm or after 2pm — peak is unbearable.\n\n### 3. Marché Bastille (11th)\n\nThe biggest open-air market in Paris stretches along Boulevard Richard Lenoir from Bastille to Richard-Lenoir métro. Thursday and Sunday mornings only. It's where east-side Parisians stock up — fishmongers shouting prices, Tunisian bakeries selling warm bricks of bread, and a couple of stalls doing rotisserie chicken with potatoes cooked underneath in the chicken fat (€13 for a whole bird).\n\nThe further north you walk, the better the produce and the lower the prices. The Bastille end has more tourist-trap charcuterie at €40/kg.\n\n**Best for:** Sunday picnic supplies before walking to Place des Vosges\n**Local tip:** Look for the **rotisserie potatoes** — ask for \"les pommes de terre dessous,\" the ones under the chickens.\n\n### 4. Rue Mouffetard (5th)\n\nNot a market in the formal sense — it's a sloped pedestrian street lined with shops and a few stalls at the bottom near Saint-Médard. Hemingway wrote about it; the tourists found out; some of the magic faded. But the cheesemonger **Androuet** at no. 134 is still excellent, and the Greek place with the gyros is a Tuesday-night ritual for Sorbonne students.\n\nMornings (Tuesday-Sunday) are the only time it functions as a proper food street. By 3pm it tilts toward cheap restaurants and stag parties.\n\n**Best for:** first-time visitors who want a Paris street market without leaving the tourist zone\n**Local tip:** Skip the crêpe stands at the top. Walk down to **Le Verre à Pied** at no. 118 for a glass of wine — same crowd since 1960.\n\n### 5. Marché Président Wilson (16th)\n\nWednesday and Saturday mornings on Avenue du Président Wilson, between Trocadéro and Iéna. This is where chefs shop. Joël Robuchon used to. The legendary vegetable grower **Joël Thiébault** built his name here selling 200+ heirloom varieties to Michelin kitchens.\n\nIt's not cheap — €8 for a punnet of strawberries is normal — but the quality is on another level. The downside is the crowd: a lot of 16th-arrondissement money, a lot of elbows, and almost no English spoken.\n\n**Best for:** food obsessives, cooks renting an Airbnb with a kitchen\n**Local tip:** Saturday is busier but has more stalls. Go at 9am sharp before the chefs clear out the best produce.\n\n## Local Tips for food markets paris neighbourhood\n\n- Bring a cloth bag and small bills — many vendors hate breaking €50 notes and plastic bags cost extra\n- Almost every market is closed Mondays; Aligre and Mouffetard open Tuesday-Sunday, Bastille only runs Thursday and Sunday\n- Order by weight in grams (\"deux cents grammes\" = 200g) — pointing works fine, but learning \"une tranche\" (a slice) helps at charcuterie counters\n- Combine Marché d'Aligre with a walk through the Coulée Verte René-Dumont, the elevated park that starts five minutes away\n\n## FAQ\n\n### Q: What day should I avoid visiting Paris markets?\nA: Mondays — almost every market is closed, including Aligre, Enfants Rouges, and Mouffetard. Tuesday through Sunday mornings are safe bets, with Sunday being the busiest and most atmospheric.\n\n### Q: How much should I budget for a market picnic in Paris?\nA: For two people, €20-30 covers a baguette, cheese, charcuterie, fruit, and a bottle of wine. Add €15 if you want oysters or a rotisserie chicken. Markets like Président Wilson run 30-40% higher than Aligre.\n\n### Q: Which Paris market is best for first-time visitors?\nA: Marché des Enfants Rouges if you want lunch and Marais charm; Marché d'Aligre if you want to feel like you've stepped into how Parisians actually live. Skip Rue Mouffetard unless you're already in the 5th.\n\n## The Verdict\n\n**Best for couples:** Marché des Enfants Rouges, then a walk through the northern Marais.\n**Best for budget:** Marché d'Aligre — the cheapest serious market in central Paris.\n**Best for first-timers:** Rue Mouffetard, because it's easy to combine with the Latin Quarter.\n**Best for locals (and aspiring ones):** Marché Président Wilson on a Saturday at 9am sharp.",
+    "places": [
+      {
+        "name": "Marché d'Aligre",
+        "description": "A loud, three-part market that locals treat as their weekly pantry restock. The covered Beauvau hall handles meat and cheese while the outdoor stalls on Rue d'Aligre slash prices after 1pm. It can feel chaotic and the cobblestones are punishing, but no other Paris market feels this lived-in.",
+        "address": "Place d'Aligre, 75012 Paris",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Marché des Enfants Rouges",
+        "description": "The oldest covered market in Paris, opened in 1615, now mostly devoted to lunch counters. Moroccan, Japanese, Italian and Lebanese stalls share a tight space behind a green gate on Rue de Bretagne. Charming on a quiet Tuesday, miserable on a Saturday at 1pm.",
+        "address": "39 Rue de Bretagne, 75003 Paris",
+        "rating": 4.4,
+        "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Marché Bastille",
+        "description": "The largest open-air market in Paris, running Thursday and Sunday mornings along Boulevard Richard Lenoir. Fishmongers shout, rotisseries spin, and the north end has the better produce. The Bastille end caters more to tourists, with charcuterie prices to match.",
+        "address": "Boulevard Richard Lenoir, 75011 Paris",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1555992336-fb0d29498b13?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Rue Mouffetard",
+        "description": "A sloped pedestrian street in the 5th that functions as a market in the mornings (Tuesday-Sunday) and a cheap restaurant strip at night. The shops at the top are tourist bait, but Androuet's cheese counter and Le Verre à Pied still feel like 1960. Go early or skip it.",
+        "address": "Rue Mouffetard, 75005 Paris",
+        "rating": 4.3,
+        "image": "https://images.unsplash.com/photo-1534723452862-4c874018d66d?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Marché Président Wilson",
+        "description": "The market where Michelin chefs shop on Wednesday and Saturday mornings near Trocadéro. Joël Thiébault's heirloom vegetable stall is the headline draw, with rare varieties you won't find elsewhere in Paris. Prices reflect the 16th-arrondissement address, and English is rarely spoken.",
+        "address": "Avenue du Président Wilson, 75116 Paris",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1506617420156-8e4536971650?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      }
+    ]
   }
 ];
 
