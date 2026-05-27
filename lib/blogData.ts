@@ -2229,6 +2229,66 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "placeSlug": undefined
       }
     ]
+  },
+  {
+    "title": "Best Sushi in Paris 2025",
+    "slug": "best-sushi-paris",
+    "city": "Paris",
+    "citySlug": "paris",
+    "category": "Restaurants",
+    "coverImage": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=1200&q=80",
+    "publishedAt": "2026-05-27",
+    "readingTime": 8,
+    "metaDescription": "Where to eat real sushi in Paris in 2025: five honest picks from a 12-seat omakase counter to a reliable Rue Sainte-Anne lunch.",
+    "intro": "Paris doesn't have Tokyo's fish market, and most of the city's sushi is bad — sad supermarket trays and conveyor-belt chains pretending to be Japanese. But a small group of chefs, mostly trained in Japan, are quietly doing serious work between Opéra and the Marais. This guide is for travelers who'd rather skip the tourist-trap maki and spend their euros on a proper edomae counter, or at least a clean, well-sourced lunch set.",
+    "body": "## Why Paris for best sushi paris\n\nThe heart of Japanese Paris sits around **Rue Sainte-Anne** in the 2nd arrondissement, a five-minute walk from the Palais Royal. Expect to spend anywhere from €25 for a solid lunch chirashi to €280 for a full omakase. Spring and autumn are easiest for walk-ins; December books out weeks ahead.\n\n| Place | Price | Best For | Vibe |\n|-------|-------|----------|------|\n| Jin | €180–€280 | Special-occasion omakase | Hushed, formal counter |\n| Sushi B | €120–€200 | Refined date night | Tiny, eight-seat |\n| Blueprint by Yamamoto | €90–€150 | Modern edomae | Bright, design-forward |\n| Aki | €25–€45 | Quick reliable lunch | Casual, busy |\n| Kinugawa Vendôme | €70–€140 | Business dinner | Polished, old-school |\n\n## Detailed Reviews\n\n### 1. Jin\n\nThis is the closest Paris gets to a Ginza counter, and it has the Michelin star to match. Chef Takuya Watanabe flies fish in from Toyosu twice a week, and the rice — seasoned with red vinegar — is the real reason to come. Service is so quiet you can hear the knife.\n\nThe room only seats fourteen, and the staff occasionally tip into stiffness, especially if you arrive late. Order the **otoro nigiri** and the **steamed abalone** if it's on that night's menu.\n\n**Best for:** anniversaries, sushi obsessives, anyone who's been to Sukiyabashi Jiro and wants the Paris equivalent\n**Local tip:** Lunch omakase is roughly €180 vs €280 at dinner — same chef, same fish, smaller course count. Book three weeks out.\n\n### 2. Sushi B\n\nTucked on a quiet corner near Square Louvois, Sushi B feels like a secret even though it's also Michelin-starred. Eight seats, one chef, a counter of pale hinoki wood. The pacing is slow on purpose.\n\nThe **kohada** (gizzard shad) here is some of the best outside Japan — properly cured, not just sliced raw. Wines by the glass are limited, so commit to the sake pairing or bring cash for the bottle list.\n\n**Best for:** couples who want intimacy without theatrics\n**Local tip:** Request a corner seat when booking — the middle two stools get crowded elbows on a full night.\n\n### 3. Blueprint by Yamamoto\n\nChef Kenta Yamamoto opened this place after years at the more traditional Sushi Yoshinaga, and it shows in the looser format. There's a tasting menu, but you can also order à la carte at the counter, which most omakase places won't let you do.\n\nThe room is brighter and younger than Jin or Sushi B, with a small natural-wine list that actually works with the food. Try the **aji nigiri with grated ginger and chive** — a signature.\n\n**Best for:** a first proper sushi dinner in Paris, or anyone tired of stiff service\n**Local tip:** Tuesday and Wednesday nights are noticeably calmer; Fridays the room gets loud fast.\n\n### 4. Aki\n\nAki is the lunch spot every Japanese expat in Paris already knows. It's not a destination omakase — it's a packed canteen on Rue Sainte-Anne that does honest sushi sets for under €30. There's almost always a line by 12:15.\n\nGo for the **chirashi don** with salmon, tuna and yellowtail, or the grilled mackerel set if you want something hot. Skip the California rolls — they exist on the menu, but no one who eats here orders them.\n\n**Best for:** solo travelers, budget lunches, jet-lagged arrivals\n**Local tip:** Arrive before 12 or after 2. Cash speeds things up, though they take cards now.\n\n### 5. Kinugawa Vendôme\n\nKinugawa has been around since the 80s, which in Paris sushi terms makes it ancient. The Vendôme branch was redesigned a few years back and now looks more like a quiet hotel restaurant than a sushi-ya. The fish is consistent rather than thrilling.\n\nWhat you're paying for is reliability and the address — five minutes from Place Vendôme, easy for a pre-theatre dinner. The **black cod miso** is the dish to get; the nigiri selection is fine but not the strength.\n\n**Best for:** business dinners, older relatives, anyone who wants a tablecloth\n**Local tip:** Lunch bento sets at €48 are the smart-value move. Avoid the cocktail menu — overpriced and forgettable.\n\n## Local Tips for best sushi paris\n\n- Book the serious counters (Jin, Sushi B) at least two weeks ahead — they release tables on a rolling basis, often on Mondays.\n- Mondays many Japanese restaurants in Paris are closed; Aki opens, most of the omakase spots do not.\n- If you're spending real money, do lunch instead of dinner — same chef, often 30–40% cheaper.\n- Combine a Rue Sainte-Anne meal with a walk through the **Galerie Vivienne** passage and an espresso at **Café Kitsuné** in the Palais Royal gardens.\n\n## FAQ\n\n### Q: Is sushi in Paris worth it or should I wait until Tokyo?\nA: For everyday sushi, wait. For omakase at Jin or Sushi B, Paris is genuinely competitive — both chefs trained in Japan and source from Toyosu. You'll pay 20–30% more than Tokyo for similar quality.\n\n### Q: How far in advance do I need to book the top spots?\nA: Jin and Sushi B want two to three weeks for weekend dinners, less for weekday lunches. Blueprint and Kinugawa usually have tables within a few days. Aki doesn't take reservations.\n\n### Q: Where should I go for sushi if I'm vegetarian?\nA: None of these are great for strict vegetarians — sushi in Paris leans hard on fish. Blueprint is the most flexible and will build a vegetable-focused counter menu if you ask when booking.\n\n## The Verdict\n\n**Best for couples:** Sushi B, for the eight-seat quiet and the kohada.\n**Best for budget:** Aki — a €28 chirashi that beats most €60 sushi sets in town.\n**Best for first-timers:** Blueprint by Yamamoto, modern enough not to feel intimidating, serious enough to remember.\n**Best for locals:** Jin at lunch, when the regulars come in and the chef talks more.",
+    "places": [
+      {
+        "name": "Jin",
+        "description": "A hushed fourteen-seat counter behind a discreet door near the Tuileries, Jin holds one of only a handful of Michelin stars given to sushi in Europe. Chef Watanabe's red-vinegar rice and twice-weekly Toyosu shipments are the draw, especially the otoro nigiri. Service can verge on chilly if you arrive late, and the bill climbs fast at dinner.",
+        "address": "6 Rue de la Sourdière, 75001 Paris",
+        "rating": 4.8,
+        "image": "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Sushi B",
+        "description": "An eight-seat hinoki counter on a quiet corner near Square Louvois, Sushi B trades theatrics for precision and slow pacing. The kohada here rivals anything outside Japan, and the room feels like a secret even with a Michelin star. The wine-by-glass list is thin — go sake or bottle.",
+        "address": "5 Rue Rameau, 75002 Paris",
+        "rating": 4.7,
+        "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Blueprint by Yamamoto",
+        "description": "A bright, design-forward sushi-ya from chef Kenta Yamamoto with a looser format than most Paris omakase rooms. You can order à la carte at the counter, and the natural-wine list actually pairs with the food. The aji nigiri with ginger and chive is the signature; Tuesday nights are the calmest.",
+        "address": "10 Rue Saint-Marc, 75002 Paris",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Aki",
+        "description": "The packed Rue Sainte-Anne canteen every Japanese expat in Paris already knows about, with a line out the door by 12:15. Honest sushi sets and a chirashi don under €30, plus hot dishes like grilled mackerel for cold days. The California rolls on the menu are not why anyone comes.",
+        "address": "11 bis Rue Sainte-Anne, 75001 Paris",
+        "rating": 4.4,
+        "image": "https://images.unsplash.com/photo-1607301405390-d831c242f59b?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Kinugawa Vendôme",
+        "description": "A Paris institution since the 80s, now redesigned to feel more like a hotel restaurant than a sushi counter. Five minutes from Place Vendôme, it's the reliable pick for business dinners and tablecloth nights rather than thrilling fish. The black cod miso is the dish to order; the €48 lunch bento is the smart-value move.",
+        "address": "9 Rue du Mont Thabor, 75001 Paris",
+        "rating": 4.3,
+        "image": "https://images.unsplash.com/photo-1564489563601-c53cfc451e93?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      }
+    ]
   }
 ];
 
