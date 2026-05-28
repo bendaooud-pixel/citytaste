@@ -2289,6 +2289,66 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "placeSlug": undefined
       }
     ]
+  },
+  {
+    "title": "Top Cocktail Bars in Paris",
+    "slug": "cocktail-bars-paris",
+    "city": "Paris",
+    "citySlug": "paris",
+    "category": "Bars",
+    "coverImage": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=1200&q=80",
+    "publishedAt": "2026-05-28",
+    "readingTime": 8,
+    "metaDescription": "Five Paris cocktail bars worth your evening — from speakeasies in Pigalle to riverside terraces. Real prices, honest tips, no fluff.",
+    "intro": "It's a Tuesday at 9pm in Pigalle, and there's already a line outside an unmarked door on Rue Frochot. Paris doesn't do cocktail bars like London or New York — they're smaller, quieter, and the bartenders usually have opinions. This guide is for travelers who'd rather skip the Champs-Élysées tourist traps and drink where the industry crowd actually goes after their shifts. Expect to pay €14–22 per drink, and yes, that's worth it when the bar is doing it right.",
+    "body": "## Why Paris for cocktail bars paris\n\nParis quietly built one of Europe's best cocktail scenes over the last fifteen years, mostly concentrated around Pigalle, the 11th, and pockets of the Marais. Most bars open around 6pm and get serious after 10. Budget €15–20 per drink at the good places, and book ahead on weekends — these rooms are small.\n\n| Place | Price | Best For | Vibe |\n|-------|-------|----------|------|\n| Little Red Door | €18 | Concept cocktails | Dark, intimate |\n| Candelaria | €14 | After-work crowd | Hidden speakeasy |\n| Bisou | €16 | No-menu experience | Cozy, conversational |\n| Le Syndicat | €15 | French spirits only | Graffiti-covered dive |\n| Danico | €17 | Italian-leaning drinks | Elegant courtyard |\n\n## Detailed Reviews\n\n### 1. Little Red Door\n\nThis Haut-Marais bar has been on the World's 50 Best Bars list for years now, and the team rebuilds the menu around a fresh concept every eighteen months. The current iteration ties each drink to a French artisan — a beekeeper, a salt harvester, a cheesemaker. The room is small and low-lit, with a long banquette down one wall. It can feel a bit serious if you're just looking for a casual round.\n**Best for:** Drink nerds and curious solo travelers who want to chat with the bartender.\n**Local tip:** Go on a Monday or Tuesday around 7pm — by 10pm on a Friday you'll wait 40 minutes for a seat.\n\n### 2. Candelaria\n\nWalk into what looks like a taqueria on Rue de Saintonge, push through the back door, and you're in one of the original Paris speakeasies. It opened in 2011 and still pulls a sharp crowd of locals, expats, and off-duty bartenders. The mezcal list is genuinely good, and the **Guêpe Verte** (tequila, agave, cucumber, coriander, chili) has been on the menu since day one for good reason.\n**Best for:** A first proper cocktail in Paris, especially if you're staying in the Marais.\n**Local tip:** Order tacos from the front taqueria and bring them to the bar — staff are fine with it and you'll need food by drink three.\n\n### 3. Bisou\n\nNo menu. You tell the bartender what you like — spirits, flavors, mood — and they build something. It sounds gimmicky until you're sitting at the bar in this tiny Boulevard des Filles du Calvaire room watching them work with fresh herbs and fruit pulled from baskets behind the counter.\n**Best for:** Couples and anyone tired of reading 30-page cocktail menus.\n**Local tip:** Be specific. \"Something refreshing\" gets you a generic answer; \"gin, floral, not too sweet, a little bitter\" gets you something memorable.\n\n### 4. Le Syndicat\n\nThe storefront is covered in flyposters and looks closed — that's intentional. Inside, the rule is strict: only French spirits. Calvados, Cognac, Armagnac, Chartreuse, lesser-known stuff from Brittany and the Jura. The bartenders are good at translating that into drinks that don't feel like a chemistry experiment.\n**Best for:** Drinkers who already know their negroni and want something new.\n**Local tip:** The bar is in a sketchy stretch of the 10th near Strasbourg-Saint-Denis — take a cab back if you stay past midnight.\n\n### 5. Danico\n\nTucked inside the Galerie Vivienne passage, Danico has the prettiest setting of the five — a green-tiled bar, a glass-roofed courtyard, and Italian-influenced drinks from Nico de Soto's team. Order the **Mary Pickford** or anything involving their house-made cordials. It draws a more dressed-up crowd than the Marais bars, leaning fashion and finance.\n**Best for:** A date night or a drink before dinner in the 2nd.\n**Local tip:** The covered passage closes around 10pm, so enter from the Rue des Petits-Champs side after that.\n\n## Local Tips for cocktail bars paris\n\n- Book ahead for Friday and Saturday — Little Red Door and Bisou take reservations through their websites, and walk-ins after 9pm rarely work.\n- Tipping isn't required but rounding up €1–2 per drink is normal and noticed.\n- Skip the \"signature\" cocktails at hotel bars on the Champs-Élysées — you'll pay €25 for something worse than what Candelaria charges €14 for.\n- Combine Little Red Door and Candelaria in one night — they're a seven-minute walk apart in the Marais.\n- Most bars don't serve real food, just snacks. Eat dinner first or you'll regret it.\n\n## FAQ\n\n### Q: How much does a cocktail cost in Paris?\nA: Expect €14–18 at a good cocktail bar, €20–22 at the high end like Little Red Door's seasonal menu. Hotel bars and tourist areas charge €22–28 for comparable or worse drinks. Tap water comes free with any order — just ask for une carafe d'eau.\n\n### Q: Do Paris cocktail bars require reservations?\nA: Most don't strictly require them, but the well-known ones fill up fast on Thursday through Saturday. Little Red Door, Bisou, and Danico all take online bookings and it's worth doing 2–3 days ahead. Le Syndicat and Candelaria are walk-in only — arrive before 8pm if you want a seat.\n\n### Q: What's the best cocktail bar in Paris for first-time visitors?\nA: Candelaria is the easiest entry point — central Marais location, no dress code, English-speaking staff, and you can grab tacos before or during. If you want something more polished and you're already comfortable with cocktail bars, go to Little Red Door instead.\n\n## The Verdict\n\nFor couples, **Bisou** wins — the no-menu format gets people talking, and the room is small enough to feel like your own. Budget travelers should aim for **Candelaria**, where €14 buys you a drink that holds up against anywhere in the city. First-timers should start at **Little Red Door** for the concept menu, then walk over to **Candelaria** to keep the night going. And if you want to drink where Paris bartenders drink on their nights off, that's **Le Syndicat**, no question.",
+    "places": [
+      {
+        "name": "Little Red Door",
+        "description": "A dimly lit Haut-Marais bar that consistently ranks among the world's best, with a small banquette-lined room that feels more like a private apartment than a cocktail destination. The team reinvents the entire menu every eighteen months around a single theme — recent iterations have spotlighted French artisans and natural raw materials. Service can lean serious, so it's not the place for a loud catch-up with friends.",
+        "address": "60 Rue Charlot, 75003 Paris",
+        "rating": 4.7,
+        "image": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Candelaria",
+        "description": "Push through the back door of an unassuming taqueria on Rue de Saintonge and you'll find one of Paris's original speakeasy-style cocktail bars, open since 2011. The mezcal and tequila lineup is unusually deep for Paris, and the Guêpe Verte has been on the menu since opening for good reason. It gets loud and packed after 10pm on weekends — go early if you want to actually talk.",
+        "address": "52 Rue de Saintonge, 75003 Paris",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Bisou",
+        "description": "A tiny room on Boulevard des Filles du Calvaire with no menu — you tell the bartender what you want and they build it from fresh herbs, fruits, and a deep back bar. The bartenders are genuinely skilled at turning vague descriptions into precise drinks, which makes this feel more collaborative than most cocktail experiences. The flip side: if you can't articulate what you like, you might end up with something generic.",
+        "address": "15 Boulevard du Temple, 75003 Paris",
+        "rating": 4.7,
+        "image": "https://images.unsplash.com/photo-1572116469696-31de0f17cc34?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Le Syndicat",
+        "description": "The flypostered facade looks abandoned — that's the point. Inside, the rule is strict French spirits only: Calvados, Cognac, Armagnac, Chartreuse, and obscure regional eaux-de-vie turned into seriously good cocktails. The location near Strasbourg-Saint-Denis is rough at night, so plan your way home before you sit down.",
+        "address": "51 Rue du Faubourg Saint-Denis, 75010 Paris",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1543007630-9710e4a00a20?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Danico",
+        "description": "Hidden inside the 19th-century Galerie Vivienne, Danico has the most beautiful setting of any cocktail bar in central Paris, with a green-tiled bar and glass-roofed courtyard. The menu leans Italian thanks to founder Nico de Soto, with house-made cordials and refined twists on classics like the Mary Pickford. It draws a more polished, dressed-up crowd than the Marais bars.",
+        "address": "6 Rue Vivienne, 75002 Paris",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1525268323446-0505b6fe7778?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      }
+    ]
   }
 ];
 
