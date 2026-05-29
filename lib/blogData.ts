@@ -2349,6 +2349,66 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "placeSlug": undefined
       }
     ]
+  },
+  {
+    "title": "Best Vietnamese Food in Paris",
+    "slug": "vietnamese-food-paris",
+    "city": "Paris",
+    "citySlug": "paris",
+    "category": "Restaurants",
+    "coverImage": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=1200&q=80",
+    "publishedAt": "2026-05-29",
+    "readingTime": 8,
+    "metaDescription": "Where Parisians actually eat pho, bun bo hue and banh mi — five Vietnamese spots from the 13th to Belleville, tested and ranked.",
+    "intro": "It's 12:45 on a Tuesday and there's already a queue down Avenue d'Ivry, mostly people who've been coming since the 80s. Paris has one of the largest Vietnamese diasporas in Europe, and the food shows it — from steamy pho counters in the 13th to chef-driven rooms in the Marais. This guide is for travelers who want the real stuff: where the broth simmers overnight, where the banh mi baguette actually crackles. No tourist traps, no fusion gimmicks.",
+    "body": "## Why Paris for Vietnamese food\n\nParis got its Vietnamese restaurant scene after 1975, when families settled mostly around Place d'Italie and Belleville. Expect to pay €12–16 for a bowl of pho at a casual spot, €25–40 at a sit-down place. Lunch is the move — most kitchens are sharpest between 12:30 and 2pm.\n\n| Place | Price | Best For | Vibe |\n|-------|-------|----------|------|\n| Pho 14 | €12–15 | Classic pho | Loud, fast, no-frills |\n| Le Cambodge | €18–25 | Bo bun lunch | Casual, always packed |\n| Saigon Saigon | €30–45 | Date night | Quiet, refined |\n| Bánh Mì Bo Bun | €8–12 | Quick banh mi | Counter-only |\n| Pho Tai | €13–17 | Northern-style pho | Bright, family-run |\n\n## Detailed Reviews\n\n### 1. Pho 14\n\nThe queue outside this 13th arrondissement institution is part of the experience — usually 20 minutes around 1pm, less if you come at 11:45 sharp. The dining room is fluorescent and a bit chaotic, with shared tables and waiters who don't waste words. Order the **pho spécial maison** (€14) with rare beef, brisket and tendon; the broth has that long-simmered depth you can't fake. Skip the spring rolls — they're fine but nothing more.\n\n**Best for:** First-timers who want the canonical Paris pho experience.\n**Local tip:** Cash is faster than card here, and they turn tables quickly — don't expect to linger.\n\n### 2. Le Cambodge\n\nDespite the name, this Canal Saint-Martin spot serves mostly Vietnamese-Cambodian crossover food, and the lunch crowd is fiercely loyal. You can't reserve for under four people — you write your name on a clipboard outside and wait at the bar across the street. The **bo bun** (€16) is the order: vermicelli, grilled beef, nem, peanuts, a sharp nuoc cham. Dinner gets crowded and loud; lunch on a weekday is more pleasant.\n\n**Best for:** A long lunch after walking the canal.\n**Local tip:** Put your name down, then grab a glass of wine at Chez Prune two doors down while you wait.\n\n### 3. Saigon Saigon\n\nThis is the grown-up option — white tablecloths, considered wine list, dishes that take real technique. It's in the 9th, near Rue des Martyrs, and the room is small enough that booking is essential, especially on Friday and Saturday. The **cá kho tộ** (caramelized clay-pot fish) is the standout, rich and smoky with a long finish. Prices are higher than the 13th but the cooking justifies it.\n\n**Best for:** A date or a slower meal where you actually want to talk.\n**Local tip:** Ask for table 4 by the window — it's the only spot that doesn't feel cramped on a busy night.\n\n### 4. Bánh Mì Bo Bun\n\nA tiny counter on Rue Volta in the 3rd, run by a couple who bake their own baguettes every morning — which is the whole point. The bread is the difference: shatteringly crisp, slightly chewy inside, the way a real banh mi should be. Get the **classic pork banh mi** (€8.50) with pâté, pickled carrot and coriander. There's nowhere to sit, so plan to eat it walking toward the Marais.\n\n**Best for:** Lunch on the go between sightseeing stops.\n**Local tip:** They sell out of baguettes by 2pm on weekends — go before 1pm or skip Sunday entirely.\n\n### 5. Pho Tai\n\nA small, bright family-run place in the 13th that does a northern Hanoi-style pho — clearer broth, less sweet than the southern version at Pho 14. The **pho ga** (chicken pho, €13) is what regulars order, with poached chicken and a side of ginger-fish sauce. Service is warm in a way that's rare in busy Vietnamese spots — the owner often comes out to check on you. The room is small, maybe 25 seats, so weekends fill up by noon.\n\n**Best for:** Travelers who've had pho before and want to taste the regional difference.\n**Local tip:** Closed Wednesdays. Order the **bún chả** if it's on the daily specials board — it's not always available.\n\n## Local Tips for Vietnamese food in Paris\n\n- The 13th arrondissement around Avenue d'Ivry and Avenue de Choisy is the densest Vietnamese neighborhood — wander there hungry and you can't go wrong.\n- Most Vietnamese restaurants don't take reservations for groups under four; show up at 12:15 or 7:15 to beat the rush.\n- Order pho with **rare beef on the side** if you want to control how it cooks in the broth.\n- Combine a 13th-arrondissement lunch with a walk through Parc de Choisy or a stop at Tang Frères, the massive Asian supermarket on Avenue d'Ivry.\n\n## FAQ\n\n### Q: What's the best Vietnamese neighborhood in Paris?\nA: The 13th arrondissement, specifically the triangle between Place d'Italie, Porte de Choisy and Tolbiac. It has the highest concentration of Vietnamese restaurants, bakeries and grocers in Europe, and prices are lower than central Paris.\n\n### Q: Do I need to book a Vietnamese restaurant in Paris?\nA: For casual pho places like Pho 14 or Pho Tai, no — just expect a wait at peak times. For sit-down restaurants like Saigon Saigon or dinner at Le Cambodge with a group, book at least two days ahead, especially for weekends.\n\n### Q: Where's the best Vietnamese food for a first-time visitor?\nA: Start with Pho 14 for the classic experience — it's loud, fast and the broth is genuinely excellent. If you only have one meal, that's the safest bet. For something more refined, Saigon Saigon delivers without feeling touristy.\n\n## The Verdict\n\nFor couples, **Saigon Saigon** is the obvious pick — quiet enough to talk, food worth slowing down for. Budget travelers should head to **Bánh Mì Bo Bun** or **Pho 14**, where €15 buys a serious meal. First-timers get the full Paris-Vietnamese experience at **Pho 14**, while locals and repeat visitors quietly prefer **Pho Tai** for its northern-style broth and the owner who remembers your order.",
+    "places": [
+      {
+        "name": "Pho 14",
+        "description": "Fluorescent-lit, fast-paced and packed at lunch with a queue that moves quicker than it looks. The pho spécial maison with rare beef, brisket and tendon has a depth of broth that explains the 40-year-old reputation. The room is loud and turnover is brisk — this isn't a place to linger over conversation.",
+        "address": "129 Avenue de Choisy, 75013 Paris",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1569562211093-4ed0d0758f12?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Le Cambodge",
+        "description": "A Canal Saint-Martin favorite where the no-reservation policy creates a clipboard queue outside every night. The bo bun is the order — vermicelli, grilled beef, fresh herbs and a sharp nuoc cham that locals have been chasing for two decades. Tables are tight and dinner gets loud; lunch is the gentler experience.",
+        "address": "10 Avenue Richerand, 75010 Paris",
+        "rating": 4.4,
+        "image": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Saigon Saigon",
+        "description": "A small, considered room in the 9th with white tablecloths and a real wine list — the grown-up Vietnamese option in Paris. The caramelized clay-pot fish is the dish to remember, smoky and rich with proper technique behind it. Prices run higher than the 13th, but bookings fill up Friday and Saturday for a reason.",
+        "address": "8 Rue de la Tour d'Auvergne, 75009 Paris",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Bánh Mì Bo Bun",
+        "description": "A counter-only spot on Rue Volta where the owners bake their own baguettes each morning — and the difference is obvious from the first bite. The classic pork banh mi has the shattering crust and pickled-carrot crunch that imported bread can't match. There's nowhere to sit, so plan to eat walking through the Marais.",
+        "address": "16 Rue Volta, 75003 Paris",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1600891964092-4316c288032e?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Pho Tai",
+        "description": "A bright, family-run room in the 13th serving northern Hanoi-style pho — clearer broth, less sweet, more aromatic than the southern version. The pho ga with poached chicken and a side of ginger-fish sauce is what the regulars come for. Service is unusually warm for a busy Vietnamese spot, but closed Wednesdays and tight on weekends.",
+        "address": "13 Rue Philibert Lucot, 75013 Paris",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1576577445504-6af96477db52?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      }
+    ]
   }
 ];
 
