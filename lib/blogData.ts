@@ -2409,6 +2409,66 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "placeSlug": undefined
       }
     ]
+  },
+  {
+    "title": "Hidden Rooftop Bars in Paris",
+    "slug": "hidden-rooftop-bars-paris",
+    "city": "Paris",
+    "citySlug": "paris",
+    "category": "Bars",
+    "coverImage": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=1200&q=80",
+    "publishedAt": "2026-05-30",
+    "readingTime": 8,
+    "metaDescription": "Five lesser-known Paris rooftop bars with real addresses, honest prices, and tips on when to go — from Belleville to the 1st arrondissement.",
+    "intro": "Paris isn't built for rooftops. Zoning laws, zinc roofs and seven-story Haussmann caps mean most bars stay at street level — which is exactly why the ones that exist feel like a small victory. The five places below aren't the Instagram-bait terraces on top of department stores. They're the spots locals actually go to when someone visiting from Lyon asks for a view, and they range from a €9 spritz in Belleville to a €22 cocktail near the Louvre.",
+    "body": "## Why Paris for hidden rooftop bars paris\n\nMost Paris rooftops are private or tucked behind hotel reception desks that don't advertise the bar upstairs. The good ones cluster in the 1st, 11th, 19th and 20th arrondissements — neighborhoods with either old industrial buildings or hills that cheat the height limit. Expect to spend €10–14 on a cocktail in the east, €16–22 in the center. May through early October is the only realistic window; almost everything closes or moves indoors by mid-November.\n\n| Place | Price | Best For | Vibe |\n|-------|-------|----------|------|\n| Le Perchoir Ménilmontant | €12–15 | Sunset drinks | Crowded, east Paris skyline |\n| Le Tout-Paris | €18–22 | A dressed-up night | Polished, Seine views |\n| Bar Botaniste at Shangri-La | €25+ | A splurge | Quiet, Eiffel Tower view |\n| Rosa Bonheur sur Seine | €9–12 | Casual afternoons | Loud, barge not roof |\n| Créatures at Galeries Lafayette | €14–17 | Lunch with a view | Touristy but the view delivers |\n\n## Detailed Reviews\n\n### 1. Le Perchoir Ménilmontant\n\nThe original Perchoir, opened in 2013, sits on top of a former garment factory in the 11th. The view sweeps west toward Sacré-Cœur and the rooftops glow pink around 9:30pm in June. It's painfully popular — expect a 45-minute wait on Friday and Saturday after 7pm — but Tuesday and Wednesday evenings are genuinely pleasant.\n\nThe **mezcal-grapefruit cocktail** is the one to order; the food menu is overpriced and skippable.\n\n**Best for:** Travelers in their 20s and 30s who want the classic Paris rooftop experience.\n**Local tip:** Go on a Tuesday at 6:30pm, take the stairs (the elevator queue is the bottleneck), and eat dinner somewhere else after.\n\n### 2. Le Tout-Paris\n\nOn the 7th floor of Cheval Blanc, the LVMH hotel facing the Pont Neuf, this restaurant-bar opened in 2021 and has the best Seine view of any bar in the city. The terrace is small, reservations are non-negotiable, and the dress code is enforced (no sneakers, no shorts). A negroni runs €22 and arrives perfectly cold.\n\nIt feels expensive because it is, but the view of Île de la Cité at dusk is the kind of thing that justifies one drink, once.\n\n**Best for:** Couples celebrating something, or anyone wanting one knockout night.\n**Local tip:** Book the bar terrace, not the restaurant — minimum spend is lower and you get the same view.\n\n### 3. Bar Botaniste at Shangri-La\n\nThis one isn't technically a rooftop, but the second-floor terrace looks straight at the Eiffel Tower and almost no one outside hotel guests knows about it. The bar leans botanical — gin, herbs, weird tinctures — and the **Jardin de Curé** with chartreuse and thyme is the standout. Service is slow in the polite, Parisian way.\n\nThe Eiffel Tower sparkles every hour on the hour from 9pm; aim for an 8:45 arrival.\n\n**Best for:** A splurge night when you want quiet, not a scene.\n**Local tip:** Walk in confidently past reception — they don't check, and the bar opens at 5pm.\n\n### 4. Rosa Bonheur sur Seine\n\nHonest disclaimer: this is a barge moored at the Port des Invalides, not a roof. But the upper deck functions as one, and at sunset in July it's the most relaxed drink in the 7th. Plastic cups, €9 spritzes, a DJ on Sundays, dogs everywhere.\n\nThe pizza is mediocre — eat before — and the bathroom line is brutal after 9pm.\n\n**Best for:** A casual, no-reservation afternoon with friends.\n**Local tip:** Sunday around 5pm is peak; arrive at 3 if you want a table on the top deck.\n\n### 5. Créatures at Galeries Lafayette\n\nYes, it's on top of a department store, and yes, it's full of tourists. But the 7th-floor terrace gives you a 360-degree view that includes the Opéra Garnier from above, which almost nothing else in Paris does. Lunch is the move — a glass of Sancerre and a goat cheese salad runs about €28 and you can usually walk in without a reservation before 12:30pm.\n\nThe evening cocktail scene is forgettable and the service rushes you.\n\n**Best for:** First-timers who want a view in daylight without committing to dinner.\n**Local tip:** Take the elevator to the 6th, then the escalator to the 7th — faster than the direct lift, which queues.\n\n## Local Tips for hidden rooftop bars paris\n\n- Rooftops in Paris close earlier than you'd think — most stop seating by 11pm, even in summer. Aim to arrive by 8pm if you want unhurried drinks.\n- Reservations are essential at Le Perchoir, Le Tout-Paris and Créatures on weekends. Use their websites, not third-party apps — direct bookings get priority.\n- Skip the food menus at almost every rooftop. Markups are 40–60% above what you'd pay at a normal bistro. Eat first.\n- Combine Le Perchoir with a walk down Rue de Ménilmontant — there are good wine bars on the way back to Père Lachaise.\n\n## FAQ\n\n### Q: Do you need a reservation for Paris rooftop bars?\nA: For Le Perchoir, Le Tout-Paris and Créatures, yes — especially Thursday through Saturday. Bar Botaniste and Rosa Bonheur are walk-in, though Rosa Bonheur gets packed by 6pm on sunny weekends.\n\n### Q: How much does a cocktail cost at a Paris rooftop bar?\nA: Budget €10–14 in the east (Belleville, Ménilmontant), €16–22 in the central arrondissements, and €25+ at hotel bars like Shangri-La or Cheval Blanc. Beer and wine by the glass are typically €3–5 cheaper.\n\n### Q: Which Paris rooftop bar is best for a first visit?\nA: Le Perchoir Ménilmontant — it has the most Parisian feel, a sweeping view that includes Sacré-Cœur, and prices that won't shock you. Go on a weekday evening to skip the queue.\n\n## The Verdict\n\n**Best for couples:** Le Tout-Paris for the Seine view, Bar Botaniste if you'd rather have quiet than a scene.\n**Best for budget:** Rosa Bonheur sur Seine — €9 spritzes and no entry fee.\n**Best for first-timers:** Le Perchoir Ménilmontant nails the postcard Paris rooftop experience.\n**Best for locals (or people who want to feel like one):** Bar Botaniste — most Parisians don't even know it's open to non-guests.",
+    "places": [
+      {
+        "name": "Le Perchoir Ménilmontant",
+        "description": "A converted factory rooftop in the 11th with low couches, string lights and a long bar facing west. The mezcal-grapefruit cocktail and the sunset view toward Sacré-Cœur are why people climb seven floors of stairs. It's the most famous rooftop in eastern Paris, which means weekend queues are genuinely annoying.",
+        "address": "14 Rue Crespin du Gast, 75011 Paris",
+        "rating": 4.4,
+        "image": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Le Tout-Paris",
+        "description": "The 7th-floor restaurant-bar inside Cheval Blanc Paris, with a small terrace looking directly down the Seine toward the Louvre. The negronis are €22 and the view at dusk genuinely earns the price. Dress code is enforced and the reservation system is unforgiving — book two weeks ahead.",
+        "address": "8 Quai du Louvre, 75001 Paris",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1551024601-bec78aea704b?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Bar Botaniste at Shangri-La",
+        "description": "A botanical cocktail bar on the second floor of the Shangri-La hotel in the 16th, with a small outdoor terrace facing the Eiffel Tower. The Jardin de Curé with chartreuse and thyme is the standout drink, and service has the slow, formal rhythm of an old-school hotel bar. Almost no one outside the hotel knows you can walk in.",
+        "address": "10 Avenue d'Iéna, 75116 Paris",
+        "rating": 4.7,
+        "image": "https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Rosa Bonheur sur Seine",
+        "description": "A barge moored at Port des Invalides with an open upper deck that functions as a floating rooftop. Plastic cups, €9 spritzes, a Sunday DJ and a friendly crowd that includes plenty of dogs and strollers. The food is forgettable and the bathroom queue after 9pm is its own form of suffering.",
+        "address": "Port des Invalides, 75007 Paris",
+        "rating": 4.1,
+        "image": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Créatures at Galeries Lafayette",
+        "description": "A glassy restaurant-bar on the 7th floor of Galeries Lafayette Haussmann, with a wraparound terrace that looks down on the Opéra Garnier's green roof. Lunch with a glass of Sancerre is the smart play — evenings get touristy and rushed. The view is genuinely one of the best central Paris offers.",
+        "address": "40 Boulevard Haussmann, 75009 Paris",
+        "rating": 4.2,
+        "image": "https://images.unsplash.com/photo-1572116469696-31de0f17cc34?w=800&q=80",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      }
+    ]
   }
 ];
 
