@@ -2469,6 +2469,66 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "placeSlug": undefined
       }
     ]
+  },
+  {
+    "title": "Best Pintxos Bars in Barcelona",
+    "slug": "pintxos-bars-barcelona",
+    "city": "Barcelona",
+    "citySlug": "barcelona",
+    "category": "Tapas",
+    "coverImage": "https://images.unsplash.com/photo-1515443961218-a51367888e4b?w=1200&q=80",
+    "publishedAt": "2026-05-31",
+    "readingTime": 8,
+    "metaDescription": "Where to eat pintxos in Barcelona: 5 honest picks across Gràcia, El Born and the Gothic Quarter, with prices, dishes and timing tips.",
+    "intro": "Pintxos aren't really Catalan — they're Basque — but Barcelona has spent the last thirty years making them its own. You walk in, you grab a plate, you point at the toothpick-spiked snacks lined up along the bar, and at the end someone counts the sticks. This guide is for travelers who want to eat well without the Las Ramblas tourist tax, and who'd rather stand at a marble counter than sit through a three-course meal.",
+    "body": "## Why Barcelona for pintxos bars barcelona\n\nThe scene clusters around Gràcia, El Born and the lower Gothic Quarter, where Basque expats opened bars in the 1990s and never left. Expect to pay €1.80 to €2.80 per pintxo, plus a small beer (caña) for around €2.50. Evenings between 7 and 9 are when the fresh batches hit the bar — earlier and you're eating leftovers from lunch.\n\n| Place | Price | Best For | Vibe |\n|-------|-------|----------|------|\n| Euskal Etxea | €€ | First-timers | Busy, proper Basque |\n| Sagardi BCN Gòtic | €€ | Groups | Loud, polished |\n| Txapela | € | Quick bites | Touristy but solid |\n| Irati Taverna Basca | €€ | Date night | Warm, woody |\n| Casa Lolea | €€€ | Sangria + snacks | Designed, photogenic |\n\n## Detailed Reviews\n\n### 1. Euskal Etxea\n\nThis is the one Basque people send you to. It's attached to the actual Basque cultural center in El Born, and the pintxos rotate constantly — get there between 7:30 and 8:30pm for the second wave. The dining room behind the bar is decent but skip it; the point is to stand, eat three or four sticks, and move on.\n\nThe **tortilla de bacalao** (salt cod omelette on bread) is the one to try, and they do a proper Rioja by the glass for €3.50.\n\n**Best for:** anyone eating pintxos in Barcelona for the first time\n**Local tip:** keep your toothpicks on the plate — that's how they bill you. Lose one and you'll get a confused look, not a free pintxo.\n\n### 2. Sagardi BCN Gòtic\n\nSagardi is a chain, which sounds like a knock but isn't — the Gothic Quarter branch on Carrer de l'Argenteria has the best turnover, which means fresher pintxos. The wood-beamed back room grills txuleta (Basque ribeye) over coals, and the smell hits you at the door.\n\nIt's more polished than a San Sebastián original, and the prices reflect that. The **morcilla con pimiento** is worth the €2.60.\n\n**Best for:** groups of four or more who want pintxos plus a sit-down meat course\n**Local tip:** Sundays at 1:30pm are calmer than weekday evenings — same food, half the elbows.\n\n### 3. Txapela\n\nOn Passeig de Gràcia, which means yes, tourists, but also yes, convenience if you're shopping or walking up to Casa Batlló. Txapela uses a picture menu with numbered pintxos — slightly embarrassing but genuinely useful if your Spanish is rough.\n\nThe pintxos sit closer to €1.95 each, cheaper than most, and there are around 50 options. Quality drops on the more elaborate ones; stick to the simple combinations.\n\n**Best for:** a fast lunch when you don't want to think\n**Local tip:** order the **#15 (anchovy, pepper, olive)** and the **#28 (jamón with quail egg)** and skip anything involving mayonnaise sculptures.\n\n### 4. Irati Taverna Basca\n\nTucked on Carrer del Cardenal Casañas, just off La Rambla but somehow shielded from it. The front bar is hot, narrow and exactly what you want — pintxos lined up, txakoli being poured from a height into wide glasses.\n\nThe back restaurant is a real Basque sit-down spot if you decide to commit. Two people can stand at the bar, eat six pintxos and drink two glasses of txakoli for around €35.\n\n**Best for:** a low-key date that could go longer if it's going well\n**Local tip:** ask for the **gilda** — three bites of anchovy, olive and guindilla pepper, the original pintxo, and Irati's version is properly briny.\n\n### 5. Casa Lolea\n\nNot strictly a pintxos bar — more of a tapas-and-sangria spot — but the small plates at the bar are essentially the same format, and the room is gorgeous. Polka-dot walls, marble counter, the kind of place that ends up on Pinterest.\n\nThe sangria is the headline (they bottle it commercially), which means you're paying a small design tax. The **anchovies from L'Escala on toasted bread** are €4.50 and worth every cent.\n\n**Best for:** travelers who want pintxos energy in a prettier room\n**Local tip:** book a counter seat, not a table — the bar is where the action is, and tables get slow service on weekends.\n\n## Local Tips for pintxos bars barcelona\n\n- Eat standing at the bar. Sitting at a table often triggers a service charge and slower kitchen attention.\n- Aim for 7:30–8:30pm on weekdays. The fresh trays come out, locals start arriving, and you'll beat the 9:30pm dinner rush.\n- Don't pile your plate. Take two or three, eat them, go back. The bar staff respect this; tourists who load up ten at once get side-eye.\n- After eating in El Born, walk five minutes to Carrer del Rec for a digestif at one of the cocktail bars — it's the natural next step locals make.\n\n## FAQ\n\n### Q: How much do pintxos cost in Barcelona?\nA: Most pintxos run €1.80 to €2.80 each, with premium ones (foie, seafood) hitting €4 to €5. A reasonable meal of five pintxos and two drinks lands around €25 per person.\n\n### Q: Do I need to reserve a table at pintxos bars?\nA: No — the whole point is the bar counter, which is first-come-first-served. If you want a sit-down table at places like Sagardi or Irati's back room, reserve a day ahead for weekends.\n\n### Q: What's the best pintxos bar in Barcelona for solo travelers?\nA: Euskal Etxea, hands down. Standing at the bar is normal there, the staff speak English when needed, and you can eat well in 20 minutes without anyone making you feel awkward about being alone.\n\n## The Verdict\n\n**Best for couples:** Irati Taverna Basca — warm, slightly hidden, easy to linger. **Best for budget:** Txapela, with €1.95 pintxos and no surprises on the bill. **Best for first-timers:** Euskal Etxea, the most genuinely Basque room in the city. **Best for locals (and design lovers):** Casa Lolea for the room, Sagardi BCN Gòtic for the late Sunday lunch.",
+    "places": [
+      {
+        "name": "Euskal Etxea",
+        "description": "A proper Basque bar attached to the cultural center, packed nightly with locals leaning over the marble counter. The pintxos rotate constantly, and the tortilla de bacalao is consistently one of the best in the city. It gets uncomfortably crowded after 9pm, so go early or wait it out with a glass of Rioja.",
+        "address": "Plaçeta de Montcada, 1-3, 08003 Barcelona",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Sagardi BCN Gòtic",
+        "description": "A polished Basque cider house with a wood-beamed back room and a long pintxos bar at the front. The grilled txuleta and morcilla pintxos justify the slight chain-restaurant feel, and turnover keeps everything fresh. Prices are higher than independent spots, but the quality at peak hours is hard to beat.",
+        "address": "Carrer de l'Argenteria, 62, 08003 Barcelona",
+        "rating": 4.4,
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Txapela",
+        "description": "A pintxos spot on Passeig de Gràcia with a numbered picture menu and around 50 options. It leans touristy, but the simple combinations are reliable and the bill rarely surprises you. Skip the elaborate creations and stick to anchovy, jamón and pepper-based pintxos.",
+        "address": "Passeig de Gràcia, 8-10, 08007 Barcelona",
+        "rating": 4.2,
+        "image": "https://images.unsplash.com/photo-1567337710282-00832b415979?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Irati Taverna Basca",
+        "description": "A narrow Basque taverna just off La Rambla with a hot, lively front bar and a calmer restaurant in the back. The gilda pintxo here is properly briny, and the txakoli is poured the traditional way from a height. It's tourist-adjacent but the food holds up, especially in the evening.",
+        "address": "Carrer del Cardenal Casañas, 17, 08002 Barcelona",
+        "rating": 4.3,
+        "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Casa Lolea",
+        "description": "A polka-dot-walled spot near Sant Pere known for its bottled sangria and bar-counter tapas. The room is built for photos, which means you pay a design premium, but the L'Escala anchovies on toast are genuinely excellent. Book a counter seat — table service slows down noticeably on weekends.",
+        "address": "Carrer de Sant Pere Més Alt, 49, 08003 Barcelona",
+        "rating": 4.4,
+        "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      }
+    ]
   }
 ];
 
