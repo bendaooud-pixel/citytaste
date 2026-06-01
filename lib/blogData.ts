@@ -2529,6 +2529,66 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "placeSlug": undefined
       }
     ]
+  },
+  {
+    "title": "Top Vermouth Bars in Barcelona",
+    "slug": "vermouth-bars-barcelona",
+    "city": "Barcelona",
+    "citySlug": "barcelona",
+    "category": "Bars",
+    "coverImage": "https://images.unsplash.com/photo-1568644396922-5c3bfae12521?w=1200&q=80",
+    "publishedAt": "2026-06-01",
+    "readingTime": 8,
+    "metaDescription": "Where Barcelona locals actually go for vermouth: 5 honest picks across Gràcia, El Born and Poble-sec, with prices, dishes and timing tips.",
+    "intro": "Sunday around 1pm in Barcelona has a sound: the hiss of a soda siphon and the scrape of chairs onto the pavement. Vermouth here isn't a cocktail — it's a ritual called fer el vermut, the hour before lunch when you drink something bitter, eat something salty, and argue about football. This guide is for travelers who want to skip the Instagram traps on Passeig de Gràcia and drink where the neighbors drink. Expect to spend €3–5 per glass, more if you sit outside.",
+    "body": "## Why Barcelona for vermouth bars barcelona\n\nVermouth almost died in the 1980s — younger Catalans drank gin and tonics instead. The revival started around 2010 in Gràcia and Poble-sec, and now even the old bodegas with sawdust floors have a queue. Late spring and early autumn are best: terraces open, no August heat, no closed-for-vacation signs.\n\n| Place | Price | Best For | Vibe |\n|-------|-------|----------|------|\n| Bodega Quimet | €3.50/glass | Old-school ritual | Sawdust and grandfathers |\n| Casa Mariol | €3/glass | Budget Sunday | Loud, young, no frills |\n| Bar Calders | €4/glass | Long terrace lunch | Plaça-side bohemian |\n| Senyor Vermut | €4.50/glass | Sampling flights | Tiny, modern, focused |\n| Bodega Maestrazgo | €4/glass | Wine-shop drinking | Crates as tables |\n\n## Detailed Reviews\n\n### 1. Bodega Quimet\n\nThis Gràcia institution has been pouring from the same wooden barrels since 1914, and it shows in the best way — chipped tiles, a marble counter slick from a century of elbows. The vermouth is house-made and served with a green olive and an orange slice, no debate. It gets uncomfortably packed on Sundays after 1pm; come at 12:30 or stand outside with your glass.\n\nOrder the **bombas** — fried potato balls with aioli and spicy sauce — they're €2.50 and they're the point.\n\n**Best for:** travelers who want the real, unrenovated thing\n**Local tip:** they close in August. Check before you trek up to Gràcia.\n\n### 2. Casa Mariol\n\nA Terra Alta winery's outpost in Eixample, more canteen than bar. The vermouth comes from their own vines and costs €3 — one of the few places left where a glass and a tapa still leaves you change from a five. Music is loud, lighting is harsh, and on a good Sunday you can't hear yourself think.\n\nThe **anchovies from L'Escala** with butter on toast are non-negotiable.\n\n**Best for:** budget travelers, groups under 30\n**Local tip:** they do a €12 vermouth-and-three-tapas menu only at lunch. Ask for it — it's not on the chalkboard.\n\n### 3. Bar Calders\n\nThe terrace on Carrer del Parlament is Poble-sec's living room on weekends. Calders does a proper Reus vermouth on tap and gets the small things right — cold glass, fat olives stuffed with anchovy, ice that doesn't water it down by sip three.\n\nThe inside is dim and tiny; if you don't get a terrace table by 1pm Saturday, you'll eat standing up.\n\n**Best for:** a long, lazy lunch with friends\n**Local tip:** the **truita de patates** (Spanish omelet) sells out by 2pm. Order it the second you sit.\n\n### 4. Senyor Vermut\n\nA narrow, modern bar in Eixample that takes the drink seriously without being precious. They pour around 30 vermouths from across Catalonia and Italy, and the staff will steer you toward something dry, something orange-peel-heavy, whatever you want.\n\nNot a place for a big group — there are maybe 20 seats — and the prices creep up if you start ordering the rarer bottles.\n\n**Best for:** curious drinkers who want to actually learn something\n**Local tip:** ask for the **Yzaguirre Rosé** with a Gilda on the side. Skip the cheese board; it's overpriced.\n\n### 5. Bodega Maestrazgo\n\nHalf wine shop, half bar, tucked on a quiet street in El Born. You drink standing at upturned wine crates surrounded by floor-to-ceiling bottles, which sounds gimmicky but works. The house vermouth is a blend they make themselves, served with house-cured boquerones.\n\nThursdays they do a free tasting around 7pm — locals know, so get there early.\n\n**Best for:** combining a drink with picking up a bottle to take home\n**Local tip:** they ship wine internationally, paperwork included. Useful if you fall in love with something.\n\n## Local Tips for vermouth bars barcelona\n\n- Vermouth hour is roughly 12 to 2pm. Order one after 4pm and you'll get looks — switch to a caña (small beer) instead.\n- Sundays book up. If a place takes reservations (Bar Calders does), use them; if not, arrive at opening.\n- The classic order is \"un vermut amb sifó\" — vermouth with a splash of soda. It cuts the sweetness and is what most locals actually drink.\n- Combine Poble-sec stops (Calders, plus the Carrer Blai pintxo street nearby) into one afternoon — they're three minutes apart on foot.\n\n## FAQ\n\n### Q: What time do people drink vermouth in Barcelona?\nA: Between roughly noon and 2pm, before Sunday lunch especially. It's an aperitivo, not a nightcap — bars often stop pouring vermouth heavily by mid-afternoon and shift to beer and wine.\n\n### Q: How much does a glass of vermouth cost in Barcelona?\nA: €3 to €5 at honest neighborhood bars, €6 to €8 at fancier spots in El Born or Eixample. A glass plus one tapa usually runs €6–8 total at places like Casa Mariol or Quimet.\n\n### Q: Which vermouth bar is best for a first-time visitor?\nA: Bar Calders in Poble-sec — the terrace is easy to find, the menu is approachable, and you can walk straight to Carrer Blai afterward for pintxos. Bodega Quimet is more authentic but can feel intimidating if you don't speak Spanish or Catalan.\n\n## The Verdict\n\nFor couples, go to **Senyor Vermut** — small, focused, romantic in a non-cheesy way. Budget travelers should head to **Casa Mariol** for the €12 lunch menu. First-timers will have the easiest, happiest afternoon at **Bar Calders**, while **Bodega Quimet** is where you'll see what locals have actually been doing for a hundred years.",
+    "places": [
+      {
+        "name": "Bodega Quimet",
+        "description": "A 1914 Gràcia bodega with marble counters and barrels still in use behind the bar. House-made vermouth served with an orange slice and a fat green olive, alongside €2.50 bombas that are worth the trip alone. It's cramped, often shouty, and closed all of August — plan accordingly.",
+        "address": "Carrer de Vic, 23, 08006 Barcelona",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Casa Mariol",
+        "description": "A Terra Alta winery's Eixample outpost where the vermouth comes from their own vineyards and still costs €3. The vibe is closer to a student canteen than a wine bar, which is part of the charm. Skip if you want quiet; the acoustics are brutal on a full Sunday.",
+        "address": "Carrer de Bailèn, 86, 08009 Barcelona",
+        "rating": 4.4,
+        "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Bar Calders",
+        "description": "Poble-sec's de facto living room, with one of the best small terraces in the city on Carrer del Parlament. Vermouth on tap from Reus, served properly cold with anchovy-stuffed olives. The inside is tiny and the kitchen runs out of the good stuff by 2pm on weekends.",
+        "address": "Carrer del Parlament, 25, 08015 Barcelona",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1572116469696-31de0f17cc34?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Senyor Vermut",
+        "description": "A focused little bar with around 30 different vermouths from across Catalonia and Italy. The staff actually know the list and will walk you through dry versus sweet, orange-forward versus herbal. Seats only 20-ish people and prices climb fast once you order the rarer bottles.",
+        "address": "Carrer de Provença, 85, 08029 Barcelona",
+        "rating": 4.7,
+        "image": "https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Bodega Maestrazgo",
+        "description": "Part bottle shop, part standing bar in El Born, where wine crates double as tables and the walls are stacked with bottles to the ceiling. The house vermouth is a custom blend served with their own cured boquerones. Thursday evening tastings are free and worth planning around.",
+        "address": "Carrer de Sant Pere Més Baix, 90, 08003 Barcelona",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      }
+    ]
   }
 ];
 
