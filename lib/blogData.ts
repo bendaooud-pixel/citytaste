@@ -2589,6 +2589,66 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "placeSlug": undefined
       }
     ]
+  },
+  {
+    "title": "Best Paella Restaurants in Barcelona",
+    "slug": "paella-restaurants-barcelona",
+    "city": "Barcelona",
+    "citySlug": "barcelona",
+    "category": "Restaurants",
+    "coverImage": "https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=1200&q=80",
+    "publishedAt": "2026-06-02",
+    "readingTime": 8,
+    "metaDescription": "Five paella restaurants in Barcelona locals actually trust — from Barceloneta classics to seafood spots worth the wait. Honest prices, real tips.",
+    "intro": "Here's the truth: most paella in Barcelona is mediocre. The good stuff sits along Barceloneta and a few stubborn spots inland, where rice is treated like religion and the socarrat — that crusty bottom layer — is non-negotiable. This guide is for travelers who want to skip the frozen-pan tourist traps near Las Ramblas and eat where Catalans actually book a table for Sunday lunch. Expect to spend €25–45 per person for rice done right.",
+    "body": "## Why Barcelona for paella restaurants barcelona\n\nPaella is technically Valencian, but Barcelona claims the seafood version — arròs a la marinera, fideuà, arròs negre. The best places cluster in Barceloneta, the old fishermen's quarter, where lunch is the main event and dinner is almost an afterthought. Plan for €30 per head minimum at a serious spot, and always book ahead on weekends.\n\n| Place | Price | Best For | Vibe |\n|-------|-------|----------|------|\n| Can Solé | €€€ | Classic seafood paella | Old-school tablecloths |\n| La Mar Salada | €€ | Modern rice dishes | Bright, casual |\n| 7 Portes | €€€ | Tradition + history | Formal, touristy but real |\n| Xiringuito Escribà | €€ | Beachfront lunch | Loud, sandy feet welcome |\n| Arume | €€ | Galician-style rice | Tiny, neighborhood feel |\n\n## Detailed Reviews\n\n### 1. Can Solé\n\nOpen since 1903 and still run by the same family, Can Solé feels like stepping into a black-and-white photograph — tiled floors, signed portraits of bullfighters and politicians on the walls. The **arròs caldós de bogavante** (soupy lobster rice) is what regulars order, and it arrives genuinely soupy, not the gloopy compromise some places serve. Service can drift into stiff when they're full, and the wine markup is steep.\n**Best for:** A long, traditional Sunday lunch\n**Local tip:** Skip dinner — go for the 2pm lunch sitting on a weekday, and ask for a table in the back room.\n\n### 2. La Mar Salada\n\nThis one sits right on Passeig Joan de Borbó, which usually screams tourist trap, but La Mar Salada earned a Bib Gourmand and the locals kept coming. The kitchen does a tighter, more contemporary version of marinera — less oily, more clean fish flavor. Try the **arròs de gambes vermelles** (red prawn rice) if it's on; the prawns come from Palamós when in season.\n**Best for:** Travelers who want quality without the museum-piece formality\n**Local tip:** The €24 weekday lunch menu includes a rice course and is one of the best deals in Barceloneta. Avoid weekends if you hate crowds.\n\n### 3. 7 Portes\n\nYes, it's full of tourists. Yes, the staff have seen it all. But 7 Portes has been serving paella since 1836, and the **Paella Parellada** — named after a 19th-century customer who wanted everything shelled and boned — is genuinely good. The vaulted dining room near the port still has piano music most nights.\n**Best for:** First-timers who want history with their rice\n**Local tip:** Book the early sitting (1pm or 8:30pm). They don't take reservations for the bar area, where you can eat the same food for less fuss.\n\n### 4. Xiringuito Escribà\n\nDirectly on Bogatell beach, this is where Barcelona families come on Sundays after a swim. It's loud, the floors are gritty with sand, and you'll wait even with a reservation — but the **fideuà negra** (squid-ink noodle paella) with aioli is excellent and the seafood is genuinely fresh. Drinks are overpriced; the rice makes up for it.\n\n**Best for:** A beach day that turns into a three-hour lunch\n**Local tip:** Reserve a terrace table at least a week ahead for weekends. Tuesday and Wednesday lunches are calmer and the kitchen has more time.\n\n### 5. Arume\n\nA small Galician-leaning spot in Raval, run by chef Manuel Núñez. The rices here lean north — think **arroz con bogavante** with a deeper, smokier base — and the room only holds about 30 people, so it feels like eating at someone's house. The wine list punches above its weight on Galician whites.\n**Best for:** Couples or solo diners who want quiet\n**Local tip:** Their Tuesday and Wednesday dinners are easiest to book. Order the pulpo a la gallega before the rice — it's the second reason to come.\n\n## Local Tips for paella restaurants barcelona\n\n- Real paella takes 25–40 minutes to cook from order. If it arrives in 10, walk out — it was pre-made.\n- Most serious paella restaurants require a minimum of two people per rice order. Solo travelers should head to Arume or sit at the bar at 7 Portes.\n- Order arròs a la marinera or arròs negre over the touristy mixed paella (Valencians don't recognize the mixed version anyway).\n- Combine lunch in Barceloneta with a walk along Passeig Marítim to Bogatell beach — about 25 minutes and the best way to digest a heavy rice.\n\n## FAQ\n\n### Q: What's the difference between paella and fideuà?\nA: Paella uses short-grain rice (typically bomba or senia), while fideuà uses short, thin noodles. Both are cooked in the same wide pan with seafood stock, and fideuà is often served with a side of garlicky aioli.\n\n### Q: How much should I expect to pay for a good paella in Barcelona?\nA: Plan on €25–35 per person at a solid spot like La Mar Salada, and €35–50 at Can Solé or 7 Portes. Anywhere advertising paella for €12 with photos on the menu is almost certainly reheated.\n\n### Q: Do I need to book in advance?\nA: For lunch on Saturdays and Sundays, yes — a week ahead for Can Solé and Xiringuito Escribà. Weekday lunches are usually fine if you arrive by 1:30pm, but evenings book up quickly at the smaller places like Arume.\n\n## The Verdict\n\nFor couples: Arume, hands down — quiet, intimate, and the wine list rewards lingering. For budget travelers: La Mar Salada's weekday lunch menu is the best value in the city for proper rice. For first-timers: 7 Portes gives you history, atmosphere and a benchmark paella in one sitting. For locals' choice: Can Solé on a Sunday at 2pm — the most authentic Barceloneta meal you'll have.",
+    "places": [
+      {
+        "name": "Can Solé",
+        "description": "A 1903 Barceloneta institution with tiled floors and signed portraits crowding the walls. The arròs caldós de bogavante arrives properly soupy and tastes of actual sea, not bouillon — it's why three generations of Catalan politicians have eaten here. Service can turn stiff when the room is full and the wine list runs expensive for what it is.",
+        "address": "Carrer de Sant Carles 4, 08003 Barcelona",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1605522861436-d68fa3a51687?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "La Mar Salada",
+        "description": "Bright, modern dining room on the main Barceloneta strip with a Bib Gourmand and a loyal local following. The kitchen leans contemporary — cleaner flavors, less oil — and the arròs de gambes vermelles with Palamós prawns is the dish to order in season. The terrace gets noisy at peak lunch hours and turnover is fast.",
+        "address": "Passeig Joan de Borbó 58, 08003 Barcelona",
+        "rating": 4.4,
+        "image": "https://images.unsplash.com/photo-1515443961218-a51367888e4b?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "7 Portes",
+        "description": "Open since 1836 near the port, with vaulted ceilings, piano music most evenings and waiters in white jackets. The Paella Parellada — everything shelled and boned, named after a fussy 19th-century regular — is genuinely well-executed despite the tourist crowds. Reservations are essential and the prices reflect the address.",
+        "address": "Passeig d'Isabel II 14, 08003 Barcelona",
+        "rating": 4.3,
+        "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Xiringuito Escribà",
+        "description": "A beachfront paella house on Bogatell where Barcelona families spend Sunday afternoons. The fideuà negra with aioli is the standout, and the seafood is genuinely fresh from the morning market. Drinks are overpriced, the service can be chaotic, and you'll wait even with a booking — but the rice is worth it.",
+        "address": "Ronda Litoral 42, 08005 Barcelona",
+        "rating": 4.2,
+        "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Arume",
+        "description": "A small, Galician-leaning rice specialist tucked into Raval with maybe 30 seats and a chef-owner who works the pass. The arroz con bogavante runs deeper and smokier than the Barceloneta versions, and the Galician white wine list is unusually good. The neighborhood around the door can feel rough at night.",
+        "address": "Carrer dels Botella 11, 08001 Barcelona",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      }
+    ]
   }
 ];
 
