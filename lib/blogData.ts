@@ -2709,6 +2709,66 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "placeSlug": undefined
       }
     ]
+  },
+  {
+    "title": "Best Vegetarian Restaurants in Barcelona",
+    "slug": "vegetarian-restaurants-barcelona",
+    "city": "Barcelona",
+    "citySlug": "barcelona",
+    "category": "Restaurants",
+    "coverImage": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=1200&q=80",
+    "publishedAt": "2026-06-04",
+    "readingTime": 8,
+    "metaDescription": "Where to eat well as a vegetarian in Barcelona — five honest picks from a tasting menu in Gràcia to a €12 lunch in El Raval.",
+    "intro": "Barcelona used to be a tough city for vegetarians — a lot of patatas bravas, a lot of shrugs when you asked about the broth. That changed fast. Between Gràcia, El Born and Sant Antoni, there's now a serious roster of plant-focused kitchens that locals actually book. This guide is for travelers who want real meals, not sad salads, and won't waste a night on a place that's only Instagram-pretty.",
+    "body": "## Why Barcelona for vegetarian restaurants\n\nBarcelona's vegetarian scene leans Mediterranean rather than vegan-junk-food, so expect a lot of seasonal vegetables, smoked things, ferments and rice dishes. Prices run from €12 set lunches in El Raval to €60 tasting menus in Gràcia. Spring and early autumn are the sweet spots — markets are loaded and terraces are usable.\n\n| Place | Price | Best For | Vibe |\n|-------|-------|----------|------|\n| Teresa Carles | €€ | First-timers | Big, bustling, central |\n| Rasoterra | €€€ | Slow dinner | Candlelit, Slow Food |\n| Flax & Kale | €€ | Brunch crowd | Bright, healthy, busy |\n| Aguaribay | €€ | Neighborhood meal | Tiny, warm, Poblenou |\n| Xavier Pellicer | €€€€ | Special occasion | Plant-forward fine dining |\n\n## Detailed Reviews\n\n### 1. Teresa Carles\nThis is the gateway drug for most visiting vegetarians — a wide, low-lit dining room a block off Plaça Catalunya that's been running since 1979. The menu is long enough to please picky friends, with everything from spinach cannelloni to a proper wild mushroom risotto. It gets loud and the turnover is real, so don't expect a lingering dinner.\n\nOrder the **Lasaña Rossini** with seitan and porcini — it's the dish locals quietly come back for.\n\n**Best for:** Mixed groups where not everyone is vegetarian\n**Local tip:** Walk in before 1:30pm or after 3pm; the 2pm rush is brutal and they don't take small-table reservations at lunch.\n\n### 2. Rasoterra\nA Slow Food–certified bistro tucked on a quiet street in the Gothic Quarter, with maybe twenty seats and a chalkboard menu that changes monthly. The kitchen does things like smoked beetroot tartare and a homemade ricotta gnudi that's worth the trip alone. Service is gentle and unhurried — the opposite of central Barcelona's usual pace.\n\nThey're closed Mondays and Tuesdays, which trips up a lot of travelers.\n\n**Best for:** A real date night without the meat-heavy clichés\n**Local tip:** Book the corner two-top by the window and ask about the natural wine pairing — it's €22 and punches above that.\n\n### 3. Flax & Kale\nA former bakery in El Raval converted into a 200-seat glass-roofed canteen, and yes, it does feel a bit Pinterest. But the food holds up: cold-pressed juices, a respectable poke bowl, and pizzas on activated-charcoal dough that aren't a gimmick. Breakfast is the strongest meal here.\n\nThe queue on weekend mornings is the price of admission — go at 9:30am sharp.\n\n**Best for:** A solid brunch that won't wreck your day\n**Local tip:** Skip the dessert counter (overpriced for what it is) and order the **shakshuka with sourdough** instead.\n\n### 4. Aguaribay\nA narrow, family-run spot in Poblenou with maybe twelve tables and a daily-changing menu del día for around €15. The owner often explains the dishes herself, and there's a clear Argentinian-Catalan crossover — empanadas one week, escalivada the next. Nothing flashy, just careful cooking.\n\nIt's a fifteen-minute walk from Bogatell beach, which makes it a smart post-swim lunch.\n\n**Best for:** Travelers who want to eat where neighbors eat\n**Local tip:** Cash still gets a friendlier reception than card here, and the homemade alfajor at the end is non-negotiable.\n\n### 5. Xavier Pellicer\nNamed best vegetable restaurant in the world a few years back, and the chef has the Michelin pedigree to back it up. The room in Eixample is calm and grown-up, with a focus on biodynamic Catalan produce — think charcoal-grilled leeks with romesco or a celeriac main that eats like meat. There are three menu lengths; the middle one (around €70) is the smart play.\n\nThis is fine dining, so dress accordingly and budget for wine.\n\n**Best for:** Anniversaries, parents in town, anyone wanting to be quietly impressed\n**Local tip:** The bar seats (\"Espai Wine\") let you order à la carte at half the commitment — book those if you're solo or just curious.\n\n## Local Tips for vegetarian restaurants Barcelona\n- Always ask if the rice or soup is made with caldo de carne — many \"vegetable\" dishes in non-veg places aren't actually vegetarian.\n- Reserve Rasoterra and Xavier Pellicer at least a week ahead for weekends; the others usually take walk-ins outside peak hours.\n- The Catalan word to know is **\"vegetarià\"** — saying it gets warmer service than defaulting to English.\n- Pair a Gràcia dinner (Rasoterra is close enough) with a walk up Carrer Verdi for natural wine bars afterwards.\n\n## FAQ\n\n### Q: Is Barcelona good for vegans, not just vegetarians?\nA: Yes, increasingly. Flax & Kale and Teresa Carles both have clearly marked vegan options, and Rasoterra can adapt most dishes if you ask when booking. Xavier Pellicer is essentially vegetable-forward by design.\n\n### Q: How much should I budget for a vegetarian dinner in Barcelona?\nA: A casual sit-down dinner runs €25–35 per person with a glass of wine. Mid-range places like Rasoterra are closer to €45, and a tasting menu at Xavier Pellicer with pairings will land near €120.\n\n### Q: What's the best vegetarian restaurant for a first-time visitor?\nA: Teresa Carles, without much debate. It's central, the menu is broad, prices are fair, and it's the easiest place to bring non-vegetarian friends without anyone sulking.\n\n## The Verdict\nFor couples, **Rasoterra** is the quiet, candlelit win. On a budget, **Aguaribay's** lunch menu in Poblenou is the smartest €15 you'll spend. First-timers should start at **Teresa Carles** and work outward from there. And locals quietly save **Xavier Pellicer** for the nights that actually matter.",
+    "places": [
+      {
+        "name": "Teresa Carles",
+        "description": "A roomy, low-lit dining room a block from Plaça Catalunya that's been feeding Barcelona's vegetarians since 1979. The kitchen turns out a properly built wild mushroom risotto and a Rossini lasagna with seitan and porcini that has genuine staying power. It's loud at peak hours and the tables turn fast — not the place for a three-hour dinner.",
+        "address": "Carrer de Jovellanos, 2, 08001 Barcelona",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1543339308-43e59d6b73a6?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Rasoterra",
+        "description": "A twenty-seat Slow Food bistro on a quiet Gothic Quarter street, with a chalkboard menu that changes monthly. Expect dishes like smoked beetroot tartare and homemade ricotta gnudi, paired with a thoughtful natural wine list. Closed Monday and Tuesday, which catches a lot of travelers off guard.",
+        "address": "Carrer del Palau, 5, 08002 Barcelona",
+        "rating": 4.7,
+        "image": "https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Flax & Kale",
+        "description": "A 200-seat glass-roofed canteen in El Raval that leans hard into the healthy-canteen aesthetic but mostly delivers. Cold-pressed juices, a decent poke bowl and charcoal-dough pizzas anchor the menu, with brunch as the strongest meal. Weekend queues are real — show up by 9:30am or wait an hour.",
+        "address": "Carrer dels Tallers, 74B, 08001 Barcelona",
+        "rating": 4.3,
+        "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Aguaribay",
+        "description": "A narrow, family-run spot in Poblenou with a dozen tables and a daily-changing menu del día around €15. The cooking blends Catalan staples like escalivada with Argentinian touches — empanadas, homemade alfajores — and the owner often walks you through the dishes herself. It rewards walking in, not researching.",
+        "address": "Carrer del Ramon Turró, 175, 08005 Barcelona",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Xavier Pellicer",
+        "description": "A calm, grown-up Eixample dining room run by a chef who's been named best vegetable restaurant in the world. The menu pulls from biodynamic Catalan produce — charcoal-grilled leeks with romesco, a celeriac main that eats like meat — across three menu lengths. It's fine dining, so factor in wine and the dress code.",
+        "address": "Carrer de Provença, 310, 08037 Barcelona",
+        "rating": 4.8,
+        "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      }
+    ]
   }
 ];
 
