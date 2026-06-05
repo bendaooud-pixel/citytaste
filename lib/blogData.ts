@@ -2769,6 +2769,66 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "placeSlug": undefined
       }
     ]
+  },
+  {
+    "title": "Top Gelato Spots in Barcelona",
+    "slug": "gelato-spots-barcelona",
+    "city": "Barcelona",
+    "citySlug": "barcelona",
+    "category": "Desserts",
+    "coverImage": "https://images.unsplash.com/photo-1567206563064-6f60f40a2b57?w=1200&q=80",
+    "publishedAt": "2026-06-05",
+    "readingTime": 8,
+    "metaDescription": "Where to eat real gelato in Barcelona — five tested spots from El Born to Gràcia, with prices, dish picks and the queues to skip.",
+    "intro": "It's 9pm in July and the line outside a tiny shop on Carrer del Rec wraps past three doorways. Welcome to Barcelona's gelato scene, which has quietly outgrown the bright-pink tourist scoops on Las Ramblas. The good stuff hides in El Born, Gràcia and the Gòtic, made by people who actually trained in Bologna or Sicily. This guide is for travelers who don't want to waste 5€ on artificially colored fluff.\n\n",
+    "body": "## Why Barcelona for gelato spots barcelona\n\nBarcelona isn't Italy, but it took the lesson seriously — most of the city's best gelaterias are run by Italian expats who moved here in the 2010s. Expect to pay 3.50€ to 5.50€ for two scoops, with the sweet spot being late spring through early October. The densest cluster sits between El Born and the Gòtic, walkable in 15 minutes.\n\n| Place | Price | Best For | Vibe |\n|-------|-------|----------|------|\n| DelaCrem | 4€ | Purists | Tiny, no-frills |\n| Gocce di Latte | 4.50€ | Classic Italian | Sicilian charm |\n| Paolo Gelateria | 3.80€ | Quick stop | Counter service |\n| Sirvent | 3.50€ | Tradition | Old-school Catalan |\n| Oggi Gelato | 4.50€ | Creative flavors | Modern, bright |\n\n## Detailed Reviews\n\n### 1. DelaCrem\n\nA shoebox shop in the Eixample run by an Italian-Catalan couple who source pistachios from Bronte and hazelnuts from Piedmont. The flavor list is short — usually 12 options — and rotates with what's actually in season. The pistachio is the move: dense, earthy, no green food coloring in sight. Annoying part: there's almost nowhere to sit, and the queue spills onto Carrer Enric Granados on weekend evenings.\n\n**Best for:** Travelers who care more about ingredients than Instagram backdrops.\n**Local tip:** Go on a Tuesday afternoon and you'll walk straight in. Skip the chocolate — go for the ricotta and fig when it appears in late summer.\n\n### 2. Gocce di Latte\n\nTucked on Carrer del Rec in El Born, this place feels like it was airlifted from Catania. The owner makes a granita di mandorla that locals queue for in August, and the cannoli are filled to order. Two scoops in a cone run 4.50€, and the cones themselves are house-made — you can smell them baking.\n\n**Best for:** Anyone homesick for southern Italy.\n**Local tip:** The pistachio-stracciatella combo is the local order. Avoid Saturday nights after dinner unless you have patience for a 20-minute wait.\n\n### 3. Paolo Gelateria\n\nA newer spot on Carrer de la Princesa, closer to the Picasso Museum. Paolo himself is usually behind the counter, and prices are slightly lower than the El Born average. The texture leans softer and creamier than DelaCrem — closer to soft-serve, which some purists side-eye.\n\n**Best for:** A walking break between Born sightseeing.\n**Local tip:** The salted caramel is genuinely good. The fruit sorbets, less so — stick to the dairy flavors.\n\n### 4. Sirvent\n\nNot strictly gelato — this is a Catalan turronería that's been making **gelats** and **orxata** since 1926. The Parallel location is the original, all marble counters and zero pretension. A single scoop is 3.50€, which feels like 2010 pricing.\n\n**Best for:** Travelers who want a slice of pre-tourist-boom Barcelona.\n**Local tip:** Order the turrón flavor — it's their signature, made from the same nougat they sell at Christmas. Pair it with a glass of orxata de xufa for the full local experience.\n\n### 5. Oggi Gelato\n\nThe Gràcia outpost on Carrer de Verdi is the most ambitious of the bunch — think basil-lemon, gorgonzola-walnut, and a rotating olive oil flavor. The shop is bright and modern, popular with the design-school crowd from nearby Plaça del Sol. Not every experiment lands; the gorgonzola is divisive for a reason.\n\n**Best for:** Adventurous eaters bored of vanilla and chocolate.\n**Local tip:** Combine with a walk down Carrer de Verdi — there's an indie cinema two blocks down and good natural wine bars for after.\n\n## Local Tips for gelato spots barcelona\n\n- Avoid any shop on La Rambla or near the Cathedral with mountains of fluorescent gelato piled high — that's a tell for industrial paste, not real mantecato.\n- Most serious gelaterias open around 1pm and close by midnight in summer; don't show up at 11am expecting service.\n- Ask for **tarrina** (cup) instead of **cono** if you want to actually taste the gelato without cone interference.\n- DelaCrem and Gocce di Latte are a 12-minute walk apart — you can easily do both in one evening as a tasting crawl through El Born.\n\n## FAQ\n\n### Q: What's the difference between gelato and Spanish helado?\nA: Gelato is made with more milk than cream and churned slowly, giving it a denser texture and stronger flavor. Spanish helado is usually closer to ice cream — fluffier, more air, less intense. Most of the spots above serve actual Italian-style gelato.\n\n### Q: How much should I expect to pay for gelato in Barcelona?\nA: A small cup or cone with two scoops runs 3.50€ to 5.50€ at quality shops. If you're paying more than 6€ for two scoops near a major tourist site, you're being overcharged for mediocre product.\n\n### Q: Where should I go for gelato if I'm traveling with kids?\nA: Sirvent on Parallel is the easiest — there's space to sit, prices are low, and the turrón flavor is a hit with kids who find pistachio too grown-up. Paolo Gelateria also works for a quick stop without a long queue.\n\n## The Verdict\n\nFor couples, **Gocce di Latte** wins on atmosphere and that late-night El Born walk afterward. Budget travelers should head straight to **Sirvent** — old-school prices, no compromise on quality. First-timers will get the cleanest introduction at **DelaCrem**, where the short menu makes choosing easy. And locals? They're at **Oggi Gelato** in Gràcia, arguing about whether the olive oil flavor works.",
+    "places": [
+      {
+        "name": "DelaCrem",
+        "description": "A narrow Eixample shop with marble counters and a queue that builds fast on summer evenings. The owners import nuts directly from Italy and rotate flavors weekly based on what's actually in season — no shortcuts, no industrial pastes. The downside is real: barely any space to stand, and forget about sitting down.",
+        "address": "Carrer d'Enric Granados, 15, 08007 Barcelona",
+        "rating": 4.7,
+        "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Gocce di Latte",
+        "description": "An Sicilian-run gelateria on a quiet El Born street with house-made cones and proper granita. The almond granita and ricotta gelato are why people travel across town to get here in August. Weekend nights mean queues — there's no way around it.",
+        "address": "Carrer del Rec, 35, 08003 Barcelona",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1488900128323-21503983a07e?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Paolo Gelateria",
+        "description": "A small counter-service spot near the Picasso Museum where the owner usually serves you himself. Prices undercut the El Born average and the salted caramel is genuinely worth ordering. The fruit sorbets are weaker than the dairy flavors — stick to creamy options.",
+        "address": "Carrer de la Princesa, 39, 08003 Barcelona",
+        "rating": 4.4,
+        "image": "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Sirvent",
+        "description": "A 1926 Catalan turronería on Parallel with marble counters and zero tourist polish. The turrón-flavored gelat and house-made orxata are the orders — both go back generations in the same family. It's not glamorous, and that's exactly the appeal.",
+        "address": "Ronda de Sant Pau, 3, 08015 Barcelona",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1576506295286-5cda18df43e7?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Oggi Gelato",
+        "description": "A bright Gràcia shop where the flavor list reads like a chef's tasting menu — basil-lemon, gorgonzola-walnut, olive oil. Half the experiments work brilliantly, half divide opinion at the counter. Worth the trip up Carrer de Verdi if you're done with vanilla forever.",
+        "address": "Carrer de Verdi, 56, 08012 Barcelona",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1505394033641-40c6ad1178d7?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      }
+    ]
   }
 ];
 
