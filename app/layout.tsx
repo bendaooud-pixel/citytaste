@@ -43,7 +43,7 @@ export const metadata: Metadata = {
   creator: "CityTaste",
   publisher: "CityTaste",
   verification: {
-    google: "cxQnFY883hZ0jIhErme2fPWTQdzWxTEKxDXpUL2wn-c",
+    google: "bAdWgCdwPszPBtcVYnJI04_kD_kRitX7aYsfLzpTaXw",
   },
   openGraph: {
     siteName: "CityTaste",
