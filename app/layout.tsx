@@ -73,6 +73,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${geistSans.variable} ${playfair.variable}`}>
+      <head>
+        <meta name="google-site-verification" content="bAdWgCdwPszPBtcVYnJI04_kD_kRitX7aYsfLzpTaXw" />
+      </head>
       <body className="min-h-screen flex flex-col antialiased">
           <I18nProvider>{children}</I18nProvider>
         </body>
