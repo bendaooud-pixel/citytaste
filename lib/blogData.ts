@@ -2829,6 +2829,66 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "placeSlug": undefined
       }
     ]
+  },
+  {
+    "title": "Best Breakfast Spots in Barcelona",
+    "slug": "breakfast-spots-barcelona",
+    "city": "Barcelona",
+    "citySlug": "barcelona",
+    "category": "Brunch",
+    "coverImage": "https://images.unsplash.com/photo-1551218808-94e220e084d2?w=1200&q=80",
+    "publishedAt": "2026-06-06",
+    "readingTime": 8,
+    "metaDescription": "Where locals actually eat breakfast in Barcelona — from €2 pa amb tomàquet in El Born to slow brunches in Gràcia. Honest picks, no tourist traps.",
+    "intro": "Barcelona doesn't really do breakfast the way Anglo cities do. Most locals grab a coffee and a pastry standing at the bar before 10am, then disappear until lunch. But the city has quietly built a serious morning scene over the last decade — bakery counters in El Born, Aussie-style brunch in Gràcia, and old-school granjas that haven't changed since the 70s. This guide is for travelers who want to skip the Rambla croissant traps and eat where people who live here actually go.",
+    "body": "## Why Barcelona for breakfast spots barcelona\n\nBreakfast in Barcelona splits roughly into three camps: traditional Catalan (toast with tomato, coffee, maybe a tortilla), specialty coffee brunch spots that took over post-2015, and old granjas serving thick hot chocolate. Expect to pay €4-8 for a basic local breakfast and €14-22 for a sit-down brunch. Spring and early autumn are best — terrace weather without August's closures.\n\n| Place | Price | Best For | Vibe |\n|-------|-------|----------|------|\n| Granja M. Viader | €6-10 | Hot chocolate & nostalgia | 1870s wood-panel classic |\n| Federal Café | €12-18 | Aussie brunch | Sunny, laptop-friendly |\n| Hofmann Pastisseria | €4-7 | Croissants to go | Tiny counter, no seating |\n| Caravelle | €14-20 | Long weekend brunch | Brooklyn-meets-Raval |\n| Bar del Pla | €5-9 | Bar-style local breakfast | Old-school standing room |\n\n## Detailed Reviews\n\n### 1. Granja M. Viader\n\nOpen since 1870 in a narrow alley off the Rambla, this is where Cacaolat (Barcelona's bottled chocolate milk) was invented. The room has barely changed — marble tables, tiled walls, waiters in white jackets who've worked here for decades. Order the **suís**: thick hot chocolate topped with a dense slab of whipped cream, with a side of melindros (sugar-dusted finger biscuits) for dunking. It's heavy, almost obscene, and absolutely the point.\n\n**Best for:** Travelers who want one genuinely historic morning experience.\n**Local tip:** Skip weekends after 11am — the queue stretches into the alley. Tuesday morning around 9:30 is empty.\n\n### 2. Federal Café\n\nThe Sant Antoni branch (there's also one in Gòtic) is where the Australian-style brunch movement landed in Barcelona around 2010. Bright corner space, big windows, baristas who actually know what they're doing. The **smashed avocado on sourdough with poached eggs** is €13.50 and reliably good — not revolutionary, but consistent in a city where brunch can be hit or miss.\n\n**Best for:** Anyone who needs a proper flat white and eggs before 11am.\n**Local tip:** Weekends mean a 30-minute wait. Go Wednesday or Thursday and you'll walk straight in.\n\n### 3. Hofmann Pastisseria\n\nThis is a pastry shop, not a café — there's a tiny counter and that's it. But Hofmann's **mascarpone croissant** is the best in the city, full stop. The dough has proper layers, the filling is restrained, and they come out warm around 9am.\n\n**Best for:** Picking up something exceptional and eating it on a bench in Parc de la Ciutadella ten minutes away.\n**Local tip:** They sell out of the mascarpone version by noon on Saturdays. Get there before 11.\n\n### 4. Caravelle\n\nThe Raval brunch spot that other Raval brunch spots copy. Exposed brick, communal tables, a menu that leans hard into fermented things and house-baked bread. Their **pulled pork brioche with chipotle and pickled onion** is €11.50 and has been on the menu for years for a reason.\n\n**Best for:** A slow Sunday with someone you actually want to talk to.\n**Local tip:** They don't take reservations for brunch. Arrive at opening (10am) or after 1pm to avoid the worst of the wait.\n\n### 5. Bar del Pla\n\nNot strictly a breakfast spot — it's a beloved tapas bar in El Born — but they open at 9am and the morning service is where locals go for a proper **pa amb tomàquet** with jamón and a cortado for under €6. Marble counter, no frills, the same regulars at the bar every morning.\n\n**Best for:** Eating like someone who lives in the neighborhood.\n**Local tip:** Stand at the bar — it's cheaper than the tables, and the energy is better. Closed Sundays.\n\n## Local Tips for breakfast spots barcelona\n\n- Spaniards eat breakfast in two shifts: a coffee and pastry around 8am, then a proper second breakfast (often a bocadillo) around 11am. Brunch spots opening at 10 are mostly for foreigners.\n- Skip anywhere on La Rambla advertising \"English breakfast\" with photos. Walk three streets in any direction and you'll find better food for half the price.\n- Order **pa amb tomàquet** anywhere traditional — toasted bread rubbed with ripe tomato, salt, olive oil. It's the actual local breakfast.\n- Carrer del Pi and the streets around Plaça Sant Josep Oriol in Gòtic have a cluster of good independent cafés worth wandering between.\n\n## FAQ\n\n### Q: What time do breakfast spots open in Barcelona?\nA: Traditional bars open around 7-8am for workers grabbing coffee. Brunch-style places typically open at 9:30 or 10am. Most kitchens stop serving brunch by 1pm when lunch service takes over.\n\n### Q: Do I need to book brunch in Barcelona?\nA: Most places don't take reservations for brunch — they work on walk-ins. The exception is Federal Café's larger branches on weekends. Otherwise, arrive at opening or after 1pm to skip the worst queues.\n\n### Q: What's the best breakfast spot in Barcelona for a solo traveler?\nA: Bar del Pla is ideal — standing at the bar with a cortado and pa amb tomàquet feels natural alone and costs almost nothing. Hofmann is also great if you want to grab a croissant and eat in Parc de la Ciutadella.\n\n## The Verdict\n\n**Best for couples:** Caravelle for a long, lazy Sunday brunch in Raval. **Best for budget:** Bar del Pla — under €6 for a proper breakfast with a coffee. **Best for first-timers:** Granja M. Viader for one unrepeatable historic experience. **Best for locals:** Hofmann for the croissant, eaten standing up like everyone else.",
+    "places": [
+      {
+        "name": "Granja M. Viader",
+        "description": "A 19th-century granja tucked down a side alley near the Rambla, with marble-topped tables and a waiter dress code that hasn't changed in 50 years. This is the birthplace of Cacaolat and still the city's reference point for thick hot chocolate with whipped cream. It's touristy in the worst hours and genuinely magical in the quiet ones.",
+        "address": "Carrer d'en Xuclà, 4-6, 08001 Barcelona",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1542990253-0b8be8d09e7d?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Federal Café",
+        "description": "The Sant Antoni corner café that essentially brought Australian-style brunch to Barcelona. Bright, sunny, full of laptops on weekdays and queues on weekends, with a tight menu of eggs, sourdough and properly pulled espresso. Reliably good rather than thrilling — which in this city's brunch scene counts for a lot.",
+        "address": "Carrer del Parlament, 39, 08015 Barcelona",
+        "rating": 4.4,
+        "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Hofmann Pastisseria",
+        "description": "A tiny pastry counter linked to the legendary Hofmann cooking school, with no seating and a constant queue out the door. The mascarpone-filled croissant is the headline act and deserves the hype — proper lamination, restrained sweetness. The downside: they sell out fast and there's nowhere to sit.",
+        "address": "Carrer dels Flassaders, 44, 08003 Barcelona",
+        "rating": 4.7,
+        "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Caravelle",
+        "description": "A Raval brunch institution with exposed brick, communal tables and a menu built around house-baked bread and ferments. The pulled pork brioche has been a fixture for years and still earns its place. The trade-off is no reservations and weekend waits that can stretch past an hour.",
+        "address": "Carrer del Pintor Fortuny, 31, 08001 Barcelona",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Bar del Pla",
+        "description": "A small tapas bar in El Born that opens early and serves the kind of unfussy bar breakfast locals actually eat. Marble counter, regulars on first-name terms with the staff, pa amb tomàquet done properly with good jamón. Closed Sundays, which catches a lot of visitors out.",
+        "address": "Carrer de Montcada, 2, 08003 Barcelona",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      }
+    ]
   }
 ];
 
