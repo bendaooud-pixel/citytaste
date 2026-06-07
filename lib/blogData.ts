@@ -2889,6 +2889,66 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "placeSlug": undefined
       }
     ]
+  },
+  {
+    "title": "Most Romantic Restaurants in Barcelona",
+    "slug": "romantic-restaurants-barcelona",
+    "city": "Barcelona",
+    "citySlug": "barcelona",
+    "category": "Romantic",
+    "coverImage": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1200&q=80",
+    "publishedAt": "2026-06-07",
+    "readingTime": 8,
+    "metaDescription": "Five genuinely romantic restaurants in Barcelona — from a candlelit El Born tasting menu to a Tibidabo terrace with the whole city below.",
+    "intro": "A good date in Barcelona isn't about white tablecloths — it's about the moment the waiter dims the lights on Carrer dels Banys Vells and you forget what time it is. The city does romance quietly, in stone-walled medieval rooms, rooftop terraces above the Eixample, and tiny dining rooms where the chef still walks the plates out himself. This guide is for couples who want a real night out — not the tourist-menu trap on Las Ramblas. Expect to spend between €70 and €180 per person, and to book at least two weeks ahead in spring and fall.",
+    "body": "## Why Barcelona for romantic restaurants\n\nBarcelona's romance lives in its contrasts: Gothic alleys lit by a single lamp, Modernist dining rooms with stained glass, and seafood terraces facing the Mediterranean. The best months are May, June, and late September — warm nights, no August closures. Budget around €100 a head for a proper dinner with wine; the splurge spots run closer to €200.\n\n| Place | Price | Best For | Vibe |\n|-------|-------|----------|------|\n| Lasarte | €€€€ | Anniversary blowout | Three-star, hushed |\n| Can Travi Nou | €€€ | Long candlelit dinner | 17th-century farmhouse |\n| El Xampanyet | € | First date, casual | Tile-walled cava bar |\n| La Balsa | €€€ | Sunset proposals | Tibidabo treehouse terrace |\n| Bodega 1900 | €€ | Vermouth + tapas | Adrià brothers' small bar |\n\n## Detailed Reviews\n\n### 1. Lasarte\n\nMartín Berasategui's Barcelona outpost is the only three-Michelin-starred restaurant in the city, and it earns the fuss without being stiff. The dining room sits inside the Monument Hotel on Passeig de Gràcia — dark wood, low light, a sommelier who actually listens. The langoustine with smoked eel and green apple is the dish people talk about for weeks. Honest note: the tasting menu runs about €295 before wine, and the pacing can feel slow if you're not in the mood for four hours at the table.\n**Best for:** Anniversaries, milestone birthdays\n**Local tip:** Skip the wine pairing and ask the sommelier for two glasses by the glass — you'll save €120 and drink better.\n\n### 2. Can Travi Nou\n\nA 17th-century masia tucked into the hills of Horta, with stone walls, a fireplace, and a garden that smells like rosemary in summer. It's a 20-minute taxi from the center, which is exactly why locals propose here. Order the cannelloni with truffle and the suckling lamb — both done the way someone's grandmother would have, if her grandmother had a wine cellar.\n**Best for:** Couples who want privacy and zero tourists\n**Local tip:** Ask for a table in the Sala del Pou, the small room with the old well — quieter than the main hall.\n\n### 3. El Xampanyet\n\nThis tile-covered cava bar near the Picasso Museum has been pouring since 1929, and it remains one of the most charming places to start a night in El Born. You stand at the marble counter, drink cold cava, and eat anchovies from Santoña that cost €4 a plate. It's loud, it's tight, and you'll probably end up sharing space with strangers — which is part of why it works.\n**Best for:** A casual first date or a pre-dinner stop\n**Local tip:** Go at 7:30pm on a Tuesday; weekends are unmanageable. Cash preferred.\n\n### 4. La Balsa\n\nUp in the Bonanova neighborhood near Tibidabo, La Balsa has a wooden terrace wrapped in greenery and a view that stretches over the whole city. The food is solid Catalan-Mediterranean — the grilled octopus and the salt-baked sea bass are reliable — but you're really here for the setting. The downstairs dining room is fine on rainy nights; the terrace is the reason to come.\n**Best for:** Sunset dinners, proposals\n**Local tip:** Book the terrace specifically when reserving, and aim for an 8:30pm slot in June to catch the light fading over the skyline.\n\n### 5. Bodega 1900\n\nAlbert Adrià's small vermouth bar on Carrer de Tamarit looks like a corner shop from the street, which is the point. Inside it's all marble, vintage tile, and about fifteen seats — the kind of place where you sit close and order the spherified olives, the mollete with Iberian ham, and a second vermouth before you mean to. It's not cheap for tapas (count on €70 per person), but the technique is from one of the best kitchens in Spain.\n**Best for:** Food-obsessed couples\n**Local tip:** Walk-ins only until 8pm — arrive at opening (7pm) and you'll get a seat at the bar.\n\n## Local Tips for romantic restaurants barcelona\n\n- Reserve two weeks ahead for Lasarte and Can Travi Nou; one week is fine for La Balsa on weeknights.\n- Avoid Sunday nights — many of the best kitchens close, and the ones open are running B-teams.\n- Catalans eat late: 9pm is normal, 10pm is fine. Booking at 7:30pm marks you as a tourist and gets you the worst tables.\n- Combine Bodega 1900 with a walk through Sant Antoni market, and El Xampanyet with the Picasso Museum's free Thursday evenings (6–9:30pm).\n\n## FAQ\n\n### Q: What's the most romantic neighborhood in Barcelona for dinner?\nA: El Born wins for atmosphere — narrow medieval streets, low lighting, and walking distance between small bars and serious restaurants. For views, head up to Bonanova or Tibidabo; for design-forward dining, the upper Eixample around Passeig de Gràcia.\n\n### Q: How much should I budget for a romantic dinner in Barcelona?\nA: A casual evening at a place like El Xampanyet runs €40–50 per person with cava. Mid-range romantic dinners at Can Travi Nou or La Balsa land around €80–110. The Michelin-level experience at Lasarte starts at €295 for the tasting menu before wine.\n\n### Q: Which restaurant is best for a marriage proposal?\nA: La Balsa, no contest — book the terrace for sunset and tell them in advance you're proposing. They'll seat you at the edge with the city view, and the staff handles the moment without making it awkward.\n\n## The Verdict\n\nFor couples wanting the full splurge, **Lasarte** delivers a night you'll remember for a decade. On a budget, **El Xampanyet** is the move — cava, anchovies, and zero pretension. First-timers should book **Can Travi Nou** for the storybook setting. And locals? They're at **Bodega 1900**, drinking vermouth before everyone else figures out it's open.",
+    "places": [
+      {
+        "name": "Lasarte",
+        "description": "A hushed, dark-wood dining room inside the Monument Hotel where service is precise without being cold. The langoustine with smoked eel and green apple is the signature, and the wine list runs deep into old Rioja and Priorat. The pacing is long — plan for four hours — and the bill is real, but it's the most consistent fine-dining room in the city.",
+        "address": "Carrer de Mallorca, 259, 08008 Barcelona",
+        "rating": 4.8,
+        "image": "https://images.unsplash.com/photo-1592861956120-e524fc739696?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Can Travi Nou",
+        "description": "A converted 17th-century farmhouse in the Horta hills, with stone walls, a working fireplace, and a candlelit garden in summer. The Catalan classics — cannelloni with truffle, suckling lamb, crema catalana — are done with old-school confidence. It's a 20-minute cab from the center, which keeps the tourist crowd away and the regulars happy.",
+        "address": "Carrer de Jorge Manrique, s/n, 08035 Barcelona",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "El Xampanyet",
+        "description": "A 1929 cava bar in El Born with hand-painted tiles, marble counters, and a permanent cheerful crush of regulars. The house cava is €2.50 a glass, the Santoña anchovies are exceptional, and nothing is reinvented. It's tight, it's loud, and it doesn't take reservations — which is either the charm or the dealbreaker.",
+        "address": "Carrer de Montcada, 22, 08003 Barcelona",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "La Balsa",
+        "description": "A two-level wooden terrace wrapped in vines in the Bonanova neighborhood, with one of the best skyline views in Barcelona. The kitchen turns out solid Catalan-Mediterranean cooking — grilled octopus, salt-baked sea bass, good local wines. The food is not the headline; the sunset is, and the staff are gracious about proposal requests.",
+        "address": "Carrer de la Infanta Isabel, 4, 08022 Barcelona",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Bodega 1900",
+        "description": "Albert Adrià's fifteen-seat vermouth bar on Carrer de Tamarit, styled like a 1900s neighborhood shop with marble counters and vintage tile. The spherified olives and the mollete with Iberian ham showcase elBulli technique in a casual format. Walk-ins only until 8pm, and the bill adds up faster than you'd expect for what looks like a corner bar.",
+        "address": "Carrer de Tamarit, 91, 08015 Barcelona",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      }
+    ]
   }
 ];
 
