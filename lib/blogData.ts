@@ -2949,6 +2949,65 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "placeSlug": undefined
       }
     ]
+  },
+  {
+    "title": "Best Wine Bars in Barcelona",
+    "slug": "wine-bars-barcelona",
+    "city": "Barcelona",
+    "citySlug": "barcelona",
+    "category": "Bars",
+    "coverImage": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=1200&q=80",
+    "publishedAt": "2026-06-08",
+    "readingTime": 8,
+    "metaDescription": "Five real Barcelona wine bars locals actually drink at — from natural wine in Sant Antoni to old-school vermouth counters in El Born.",
+    "intro": "It's a Tuesday night in Sant Antoni and the queue outside a tiny natural wine bar is already curling around the corner — nobody seems annoyed, because everyone knows the wait is the price of admission. Barcelona's wine scene has split in two over the last decade: the old tile-walled bodegas where your grandfather's vermouth still costs €2.50, and a newer wave of low-intervention spots run by sommeliers who quit Michelin kitchens. This guide is for travelers who want to drink well without ordering blind off a tourist menu in the Gothic Quarter. Five places, all real, all worth the cab home.\n\n## Why Barcelona for wine bars barcelona\n\nBarcelona sits an hour from the Penedès, Priorat and Empordà — three of Spain's best wine regions — which means by-the-glass lists here are deeper than in Madrid or Seville. Expect to pay €4–7 a glass at neighborhood bars and €8–14 at the natural wine spots in Sant Antoni and El Born. Spring and early autumn are the sweet spot; August empties the city of half its best bartenders.\n\n| Place | Price | Best For | Vibe |\n|-------|-------|----------|------|\n| Bar Brutal | €€€ | Natural wine geeks | Loud, packed, fun |\n| Bodega 1900 | €€€ | Vermouth + tapas | Adrià-era polish |\n| Viblioteca | €€ | Cheese pairings | Tiny, intimate |\n| Bar Salvatge | €€€ | Date night | Candlelit, mellow |\n| La Vinya del Senyor | €€ | Cava with a view | Terrace on a plaza |\n\n## Detailed Reviews\n\n### 1. Bar Brutal\n\nThe natural wine bar that made Barcelona pay attention, tucked behind a shared entrance with the bookshop-restaurant **Can Cisa**. The list runs to 500+ bottles, mostly from small Catalan and Italian producers, and the staff actually know what they're pouring. It gets uncomfortably loud after 9pm — that's not a complaint, just a fact. Order the **burrata with bottarga** and a glass of Partida Creus if it's on.\n**Best for:** wine drinkers who want to be surprised\n**Local tip:** Go at 7pm sharp on a weekday. After 8:30 you'll wait 45 minutes for a table even with a booking.\n\n### 2. Bodega 1900\n\nAlbert Adrià's love letter to the old-school vermouth bar, dressed up with better produce and a serious sherry list. The space is small and slightly theatrical — marble counter, vintage siphons, the works. Some dishes feel overpriced for what they are (the €8 olives are still olives), but the **mollete of pulled pork** and a glass of fino Manzanilla is one of the better €15 lunches in the city.\n**Best for:** travelers who want the Adrià experience without the El Barri tasting-menu price tag\n**Local tip:** Walk-ins only, and they open at 1pm. Be there at 12:55 or you're waiting an hour.\n\n### 3. Viblioteca\n\nA matchbox-sized wine and cheese bar in Gràcia run by people who clearly care more about the cheese than the décor. There are maybe 20 seats, a chalkboard list of 30 wines by the glass, and a fridge case of about 40 cheeses from across Spain and France. The vibe is quiet, almost library-like — not the place for a rowdy group.\n**Best for:** couples or solo travelers who want a real conversation\n**Local tip:** Ask for the **Garrotxa with quince paste** and a glass of Xarel·lo. Skip the cured meats — the cheese is the whole point.\n\n### 4. Bar Salvatge\n\nA newer spot on Carrer del Parlament with low lighting, a short menu, and a list that leans heavily on skin-contact and orange wines. The owners came out of the Disfrutar/Tickets orbit and it shows in the plating, but prices stayed reasonable. The **steak tartare with smoked egg yolk** is the dish to order; everything seafood is hit or miss depending on the day's market.\n**Best for:** a second-or-third date that needs to go well\n**Local tip:** The two-top in the back corner by the kitchen pass is the best seat in the house. Ask when you book.\n\n### 5. La Vinya del Senyor\n\nDirectly across from Santa Maria del Mar, with a terrace that fills up the moment the church bells finish ringing. The list is 100+ wines by the glass, heavy on cava and Priorat, and the staff will pour you a half-glass to taste before committing. Food is an afterthought — small plates of cheese, ham, anchovies — and that's fine.\n**Best for:** a 6pm glass of cava before dinner in El Born\n**Local tip:** Skip the ground-floor crush and ask to go upstairs. There's a tiny second-floor room most tourists never find.\n\n## Local Tips for wine bars barcelona\n\n- Most wine bars don't really get going until 8:30pm. Show up at 7 and you'll get a seat without a reservation.\n- Sunday nights are quietly the best — locals are out, tourists have flown home, kitchens are still open until 11.\n- Order Catalan: ask for **Xarel·lo, Garnatxa or Trepat** instead of defaulting to Rioja. The staff will warm up immediately.\n- Carrer del Parlament in Sant Antoni has four good wine bars on a single block — easy to bar-hop on foot.\n\n## FAQ\n\n### Q: Do I need to book wine bars in Barcelona?\nA: For Bar Brutal and Bar Salvatge, yes, at least three days ahead on weekends. Bodega 1900 is walk-in only. Viblioteca and La Vinya del Senyor you can usually slide into if you arrive before 8pm.\n\n### Q: How much should I budget for a night of wine bar hopping?\nA: Plan on €35–55 per person for three glasses and a few small plates across two bars. Natural wine spots run higher — a single glass of skin-contact Priorat can hit €12.\n\n### Q: Which wine bar is best if it's my first night in Barcelona?\nA: La Vinya del Senyor. The plaza setting, the cava, the view of Santa Maria del Mar — it's the most Barcelona thing you can do with a glass in your hand.\n\n## The Verdict\n\nFor couples, **Bar Salvatge** — that back corner table does most of the work. For budget, **La Vinya del Senyor** lets you drink well for under €20. First-timers should start at **Bodega 1900** for the lunch ritual, then walk to El Born for an evening at **La Vinya del Senyor**. Locals are at **Bar Brutal** on a Tuesday and **Viblioteca** on a quiet Sunday — both still feel like ours.",
+    "places": [
+      {
+        "name": "Bar Brutal",
+        "description": "Loud, crammed and run by people who genuinely care about natural wine — the bar that put Barcelona on the low-intervention map. The list runs 500+ bottles deep, mostly small Catalan and Italian producers, and the kitchen sends out sharp Italian-leaning plates like burrata with bottarga. After 9pm it gets too loud to hear your friend across the table, which is either charming or a dealbreaker.",
+        "address": "Carrer de la Princesa 14, 08003 Barcelona",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Bodega 1900",
+        "description": "Albert Adrià's polished take on the old Catalan vermouth bar — marble counter, vintage siphons, a serious sherry list. The mollete of pulled pork with a glass of fino is one of the better €15 lunches in the city. Some plates feel pricey for the portion, but the craft is undeniable and it's still cheaper than anything else in the Adrià orbit.",
+        "address": "Carrer de Tamarit 91, 08015 Barcelona",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1547595628-c61a29f496f0?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Viblioteca",
+        "description": "A matchbox-sized wine and cheese bar in Gràcia, all wood and warm light, with about 20 seats and a chalkboard list. The focus is firmly on Spanish and French cheeses — ask for the Garrotxa with quince paste and a glass of Xarel·lo. It's almost too quiet for groups; come with one person you actually want to talk to.",
+        "address": "Carrer de Vallfogona 12, 08012 Barcelona",
+        "rating": 4.7,
+        "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Bar Salvatge",
+        "description": "A candlelit Sant Antoni spot from ex-Disfrutar staff with a short menu and a list weighted toward skin-contact and orange wines. The steak tartare with smoked egg yolk is the standout; the seafood plates are inconsistent depending on the market that morning. The two-top by the kitchen pass is the best seat — request it when you book.",
+        "address": "Carrer del Parlament 51, 08015 Barcelona",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1543007630-9710e4a00a20?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "La Vinya del Senyor",
+        "description": "A wine bar facing Santa Maria del Mar with a terrace that fills the second the church empties out. The list runs 100+ wines by the glass, heavy on cava and Priorat, and staff will pour you a sample before you commit. Food is intentionally simple — cheese, ham, anchovies — and the upstairs room is the local secret tourists rarely find.",
+        "address": "Plaça de Santa Maria 5, 08003 Barcelona",
+        "rating": 4.4,
+        "image": "https://images.unsplash.com/photo-1516600164266-f3b8166ae679?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      }
+    ]
   }
 ];
 
