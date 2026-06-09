@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import Image from "next/image";
 import BlogImage from "@/components/ui/BlogImage";
 import MarkdownRenderer from "@/components/MarkdownRenderer";
 import Newsletter from "@/components/Newsletter";
@@ -134,10 +133,9 @@ export default async function BlogArticlePage({ params }: Props) {
       <main className="min-h-screen bg-[#FFF8F0]">
         {/* Hero */}
         <div className="relative h-72 md:h-96 w-full">
-          <Image
+          <BlogImage
             src={article.coverImage}
             alt={article.title}
-            fill
             priority
             className="object-cover"
             sizes="100vw"
@@ -306,10 +304,9 @@ export default async function BlogArticlePage({ params }: Props) {
                     className="group bg-white rounded-xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-md transition-shadow"
                   >
                     <div className="relative h-32 w-full">
-                      <Image
+                      <BlogImage
                         src={rel.coverImage}
                         alt={rel.title}
-                        fill
                         className="object-cover group-hover:scale-105 transition-transform duration-300"
                         sizes="(max-width: 640px) 100vw, 33vw"
                       />

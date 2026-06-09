@@ -2,7 +2,7 @@ export const dynamic = "force-dynamic";
 
 import type { Metadata } from "next";
 import Link from "next/link";
-import Image from "next/image";
+import BlogImage from "@/components/ui/BlogImage";
 import { getAllArticles } from "@/lib/blogData";
 
 const BASE = "https://www.citytaste.co";
@@ -88,10 +88,10 @@ export default function BlogPage() {
           >
             <div className="md:flex">
               <div className="relative md:w-1/2 h-64 md:h-auto min-h-[260px]">
-                <Image
+                <BlogImage
                   src={featured.coverImage}
                   alt={featured.title}
-                  fill
+                  priority
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                   sizes="(max-width: 768px) 100vw, 50vw"
                 />
@@ -143,10 +143,9 @@ export default function BlogPage() {
               className="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow flex flex-col"
             >
               <div className="relative h-48 overflow-hidden">
-                <Image
+                <BlogImage
                   src={article.coverImage}
                   alt={article.title}
-                  fill
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
