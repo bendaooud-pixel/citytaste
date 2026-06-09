@@ -40,12 +40,38 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "tapas", "rooftop-bars", "paella", "coffee",
   ];
 
-  const categoryRoutes: MetadataRoute.Sitemap = BARCELONA_SEO_PAGES.map((slug) => ({
+  const barcelonaCategoryRoutes: MetadataRoute.Sitemap = BARCELONA_SEO_PAGES.map((slug) => ({
     url: `${BASE_URL}/cities/barcelona/${slug}`,
     lastModified: new Date("2025-06-09"),
     changeFrequency: "monthly" as const,
     priority: 0.8,
   }));
 
-  return [...staticRoutes, ...cityRoutes, ...placeRoutes, ...blogRoutes, ...categoryRoutes];
+  const MARRAKECH_SEO_EN = [
+    "restaurants", "hammam", "rooftop", "things-to-do", "places",
+    "bars", "breakfast", "spa", "souks", "street-food",
+  ];
+
+  const MARRAKECH_SEO_FR = [
+    "meilleur-restaurant", "meilleurs-restaurants", "meilleur-hammam",
+    "meilleur-rooftop", "meilleure-patisserie", "meilleur-couscous",
+    "meilleur-tajine", "meilleur-riad", "meilleur-spa", "meilleur-brunch",
+  ];
+
+  const marrakechCategoryRoutes: MetadataRoute.Sitemap = [
+    ...MARRAKECH_SEO_EN.map((slug) => ({
+      url: `${BASE_URL}/cities/marrakech/${slug}`,
+      lastModified: new Date("2026-06-09"),
+      changeFrequency: "monthly" as const,
+      priority: 0.9,
+    })),
+    ...MARRAKECH_SEO_FR.map((slug) => ({
+      url: `${BASE_URL}/cities/marrakech/${slug}`,
+      lastModified: new Date("2026-06-09"),
+      changeFrequency: "monthly" as const,
+      priority: 0.9,
+    })),
+  ];
+
+  return [...staticRoutes, ...cityRoutes, ...placeRoutes, ...blogRoutes, ...barcelonaCategoryRoutes, ...marrakechCategoryRoutes];
 }

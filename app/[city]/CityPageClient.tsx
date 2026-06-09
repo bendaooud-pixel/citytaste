@@ -236,6 +236,64 @@ export default function CityPageClient({ city, places: allPlaces }: Props) {
             </div>
           </div>
         )}
+
+        {/* Marrakech SEO category links */}
+        {city.slug === "marrakech" && (
+          <div className="bg-white border-t border-slate-100 py-10">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+              <h2 className="text-xl font-bold text-slate-900 mb-6" style={{ fontFamily: "var(--font-playfair)" }}>
+                Explore Marrakech by Category
+              </h2>
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+                {[
+                  { href: "/cities/marrakech/restaurants", label: "🍽️ Restaurants" },
+                  { href: "/cities/marrakech/rooftop", label: "🌅 Rooftop Bars" },
+                  { href: "/cities/marrakech/hammam", label: "🧖 Hammams" },
+                  { href: "/cities/marrakech/spa", label: "💆 Spas" },
+                  { href: "/cities/marrakech/souks", label: "🛍️ Souks" },
+                  { href: "/cities/marrakech/street-food", label: "🥘 Street Food" },
+                  { href: "/cities/marrakech/breakfast", label: "🥞 Breakfast" },
+                  { href: "/cities/marrakech/things-to-do", label: "✨ Things to Do" },
+                  { href: "/cities/marrakech/bars", label: "🍸 Bars" },
+                  { href: "/cities/marrakech/places", label: "📍 All Places" },
+                ].map((link) => (
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    className="flex items-center gap-2 bg-[#FFF8F0] border border-slate-100 rounded-xl px-4 py-3 text-sm font-medium text-slate-700 hover:text-orange-500 hover:border-orange-200 hover:bg-orange-50 transition-colors"
+                  >
+                    {link.label}
+                  </Link>
+                ))}
+              </div>
+              <div className="mt-6">
+                <p className="text-sm text-slate-500 mb-3">Guides en français</p>
+                <div className="grid grid-cols-2 sm:grid-cols-5 gap-2">
+                  {[
+                    { href: "/cities/marrakech/meilleur-restaurant", label: "Meilleur Restaurant" },
+                    { href: "/cities/marrakech/meilleur-rooftop", label: "Meilleur Rooftop" },
+                    { href: "/cities/marrakech/meilleur-hammam", label: "Meilleur Hammam" },
+                    { href: "/cities/marrakech/meilleur-spa", label: "Meilleur Spa" },
+                    { href: "/cities/marrakech/meilleur-riad", label: "Meilleur Riad" },
+                    { href: "/cities/marrakech/meilleur-tajine", label: "Meilleur Tajine" },
+                    { href: "/cities/marrakech/meilleur-couscous", label: "Meilleur Couscous" },
+                    { href: "/cities/marrakech/meilleur-brunch", label: "Meilleur Brunch" },
+                    { href: "/cities/marrakech/meilleure-patisserie", label: "Meilleure Pâtisserie" },
+                    { href: "/cities/marrakech/meilleurs-restaurants", label: "Meilleurs Restaurants" },
+                  ].map((link) => (
+                    <Link
+                      key={link.href}
+                      href={link.href}
+                      className="text-center bg-[#FFF8F0] border border-slate-100 rounded-lg px-3 py-2 text-xs font-medium text-slate-600 hover:text-orange-500 hover:border-orange-200 hover:bg-orange-50 transition-colors"
+                    >
+                      {link.label}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
       </main>
       <Footer />
     </>
