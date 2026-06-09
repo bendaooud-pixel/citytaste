@@ -35,5 +35,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  return [...staticRoutes, ...cityRoutes, ...placeRoutes, ...blogRoutes];
+  const BARCELONA_SEO_PAGES = [
+    "bars", "breakfast", "italian-restaurants", "seafood",
+    "tapas", "rooftop-bars", "paella", "coffee",
+  ];
+
+  const categoryRoutes: MetadataRoute.Sitemap = BARCELONA_SEO_PAGES.map((slug) => ({
+    url: `${BASE_URL}/cities/barcelona/${slug}`,
+    lastModified: new Date("2025-06-09"),
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
+  }));
+
+  return [...staticRoutes, ...cityRoutes, ...placeRoutes, ...blogRoutes, ...categoryRoutes];
 }

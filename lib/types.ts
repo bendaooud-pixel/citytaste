@@ -12,7 +12,11 @@ export type Category =
   | "markets"
   | "desserts"
   | "bars"
-  | "museums";
+  | "museums"
+  | "tapas"
+  | "seafood"
+  | "italian"
+  | "rooftop";
 
 export const CATEGORIES: { id: Category; label: string; emoji: string }[] = [
   { id: "restaurants", label: "Restaurants", emoji: "🍽️" },
@@ -29,6 +33,10 @@ export const CATEGORIES: { id: Category; label: string; emoji: string }[] = [
   { id: "desserts", label: "Desserts", emoji: "🍦" },
   { id: "bars", label: "Bars & Rooftops", emoji: "🍸" },
   { id: "museums", label: "Museums", emoji: "🎨" },
+  { id: "tapas", label: "Tapas", emoji: "🫒" },
+  { id: "seafood", label: "Seafood", emoji: "🦞" },
+  { id: "italian", label: "Italian", emoji: "🍕" },
+  { id: "rooftop", label: "Rooftop", emoji: "🌆" },
 ];
 
 export const PRICE_LABEL = ["Free", "€", "€€", "€€€", "€€€€"] as const;

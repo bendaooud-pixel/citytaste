@@ -205,6 +205,37 @@ export default function CityPageClient({ city, places: allPlaces }: Props) {
             )}
           </div>
         </div>
+
+        {/* Barcelona SEO category links */}
+        {city.slug === "barcelona" && (
+          <div className="bg-white border-t border-slate-100 py-10">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+              <h2 className="text-xl font-bold text-slate-900 mb-6" style={{ fontFamily: "var(--font-playfair)" }}>
+                Explore Barcelona by Category
+              </h2>
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+                {[
+                  { href: "/cities/barcelona/bars", label: "🍸 Best Bars" },
+                  { href: "/cities/barcelona/rooftop-bars", label: "🌆 Rooftop Bars" },
+                  { href: "/cities/barcelona/tapas", label: "🫒 Tapas Bars" },
+                  { href: "/cities/barcelona/seafood", label: "🦞 Seafood" },
+                  { href: "/cities/barcelona/paella", label: "🍚 Paella" },
+                  { href: "/cities/barcelona/italian-restaurants", label: "🍕 Italian" },
+                  { href: "/cities/barcelona/breakfast", label: "🥞 Breakfast" },
+                  { href: "/cities/barcelona/coffee", label: "☕ Coffee" },
+                ].map((link) => (
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    className="flex items-center gap-2 bg-[#FFF8F0] border border-slate-100 rounded-xl px-4 py-3 text-sm font-medium text-slate-700 hover:text-orange-500 hover:border-orange-200 hover:bg-orange-50 transition-colors"
+                  >
+                    {link.label}
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </div>
+        )}
       </main>
       <Footer />
     </>
