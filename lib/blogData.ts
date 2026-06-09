@@ -3008,6 +3008,66 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "placeSlug": undefined
       }
     ]
+  },
+  {
+    "title": "Top Street Food in La Barceloneta",
+    "slug": "street-food-barceloneta",
+    "city": "Barcelona",
+    "citySlug": "barcelona",
+    "category": "Street Food",
+    "coverImage": "https://images.unsplash.com/photo-1583395145149-9e2f1b6f9f8a?w=1200&q=80",
+    "publishedAt": "2026-06-09",
+    "readingTime": 8,
+    "metaDescription": "Where to eat well in La Barceloneta without the tourist tax — 5 honest picks for tapas, bombas and seafood by the beach.",
+    "intro": "It's 1pm on a Tuesday in La Barceloneta and the air smells like fried squid and salt. The old fishermen's quarter has half-surrendered to cruise crowds, but the good food is still here if you know which doors to push. This guide is for travelers who'd rather eat standing at a tin counter than sit through a €38 paella set menu. Five places, real addresses, what to order, what to skip.",
+    "body": "## Why Barcelona for street food barceloneta\n\nLa Barceloneta was built in the 1750s to house displaced fishermen, and its narrow grid still hides counter bars where locals eat lunch in fifteen minutes flat. Expect to spend €4–6 on a beer-and-tapa, or €15–25 for a sit-down lunch with vermut. May, June and September are the sweet spots — July and August get sweaty and packed.\n\n| Place | Price | Best For | Vibe |\n|-------|-------|----------|------|\n| La Cova Fumada | €€ | The original bomba | Scruffy, no sign, cash-friendly |\n| El Vaso de Oro | €€ | Standing tapas + craft beer | Loud, brass-bar, regulars only feel |\n| Can Paixano (La Xampanyeria) | € | Cava and tiny sandwiches | Elbow-to-elbow, fast turnover |\n| Jai-Ca | €€ | Razor clams, sea snails | Old-school terrace, paper napkins |\n| Bodega La Peninsular | €€ | Sit-down vermut hour | Wood barrels, locals on Saturdays |\n\n## Detailed Reviews\n\n### 1. La Cova Fumada\n\nNo sign on the door, wooden shutters, and a queue from 12:45pm sharp. This is where the **bomba** was invented in the 1950s — a fist of mashed potato stuffed with spiced beef, fried, then crowned with brava sauce and aioli. The grilled sardines and the **garbanzos con morcilla** are equally why people come back, but service is brusque and you may share a table with strangers eating fish heads.\n\n**Best for:** food pilgrims who want the original\n**Local tip:** Go at 12:30pm Monday–Friday. Closed evenings and weekends after lunch. Cash is still preferred for small bills.\n\n### 2. El Vaso de Oro\n\nA narrow brass-railed bar that's been pouring its own unfiltered lager since 1967. The bartenders wear white jackets, work at speed, and will recommend the **solomillo** (beef tenderloin cubes seared on the plancha) or the foie mini-burger if you ask. It's not cheap for tapas — expect €25 a head with two beers — and there are no tables, just standing room and elbows.\n\n**Best for:** solo eaters and couples who like bar theatre\n**Local tip:** Avoid 2pm and 9pm peaks. Slide in at 1pm or 5pm and you might actually get served in under ten minutes.\n\n### 3. Can Paixano (La Xampanyeria)\n\nTechnically just over the Barceloneta border on Carrer de la Reina Cristina, but every local sends you here. Pink cava is €1.40 a glass, the **botifarra sandwich** is €2.50, and you order both at the back counter while being shoved gently by Italians and Catalans alike. It's a stand-up affair with zero charm beyond the chaos — and that's exactly the appeal.\n\n**Best for:** budget travelers and pre-dinner drinks\n**Local tip:** Bring small notes. They get visibly annoyed at €50 bills, and the queue moves faster if you've decided what you want before reaching the counter.\n\n### 4. Jai-Ca\n\nThe terrace on Carrer de Ginebra fills up by 1:30pm with a mix of regulars and clued-in visitors. Order the **navajas a la plancha** (razor clams with garlic and parsley), a plate of **bunyols de bacallà** and a small beer — that's the move. The owner is gruff, the napkins are paper, and the bill arrives scribbled on the same paper; somehow it still adds up correctly.\n\n**Best for:** seafood lovers on a mid-range budget\n**Local tip:** They have two locations almost facing each other. The original (number 13) has more character; the newer one (number 9) has more seating.\n\n### 5. Bodega La Peninsular\n\nA proper bodega with wood barrels, marble tables and house vermut on tap for €2.80. Lunch is the time — the **truita de patates** with caramelised onion is a quiet classic, and the **canelons** on Saturdays sell out by 2:30pm. It's calmer than the others on this list, which is either a feature or a flaw depending on your mood.\n\n**Best for:** a sit-down meal that still feels local\n**Local tip:** Saturday lunch is when neighbours show up in families. Book one day ahead if you want a table after 1:45pm.\n\n## Local Tips for street food barceloneta\n\n- Eat lunch between 1pm and 2pm, not 2:30pm — by then the best plates of the day are gone.\n- Skip anything advertising \"sangria + paella\" on a chalkboard near Passeig Joan de Borbó. It's the local equivalent of Times Square pizza.\n- Order vermut (vermouth) before the meal with olives or chips — €3 a glass and you'll fit right in.\n- Walk the **Mercat de la Barceloneta** on Plaça de la Font afterwards for fruit, or wander up to **Born** for an evening drink — it's a fifteen-minute walk and a totally different neighbourhood.\n\n## FAQ\n\n### Q: Is La Barceloneta a tourist trap for food?\nA: The seafront promenade is, yes — overpriced paella and waiters with menus in five languages. But two streets inland, on Baluard, Sant Carles and Ginebra, the bars are still mostly local at lunch.\n\n### Q: Do I need to book anywhere in La Barceloneta?\nA: Most counter bars don't take reservations and don't need them if you go off-peak (1pm or 8pm). Bodega La Peninsular is the only one on this list where a same-day call helps for Saturday lunch.\n\n### Q: What's the best stop for first-time visitors with limited time?\nA: La Cova Fumada for the bomba, then a quick cava at Can Paixano on the way back to Born. Two stops, under €25, and you've eaten where Barcelona actually eats.\n\n## The Verdict\n\nBest for couples: Bodega La Peninsular — quieter, with marble tables and a proper vermut hour. Best for budget: Can Paixano, where €6 buys you two glasses of cava and a sandwich. Best for first-timers: La Cova Fumada, because the bomba story is worth the queue. Best for locals (and those who want to eat like them): El Vaso de Oro on a slow weekday afternoon.",
+    "places": [
+      {
+        "name": "La Cova Fumada",
+        "description": "A shutter-fronted lunch-only bar with no sign, shared tables and a permanent queue at the door. This is the birthplace of the bomba, the spiced potato croquette that locals still order three at a time alongside grilled sardines. Service is famously curt and the menu changes by what came off the boat — charming if you're prepared, jarring if you're not.",
+        "address": "Carrer del Baluard, 56, 08003 Barcelona",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "El Vaso de Oro",
+        "description": "A narrow standing-only bar with a brass rail and white-jacketed bartenders who've been there for decades. The house unfiltered lager and the plancha-seared solomillo are the calling cards, served at speed with very little chat. It's pricier than it looks and getting a spot at peak hours requires patience or sharp elbows.",
+        "address": "Carrer de Balboa, 6, 08003 Barcelona",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Can Paixano (La Xampanyeria)",
+        "description": "A pink-cava and mini-sandwich institution that runs on volume, noise and tiny price tags. You stand, you shout your order, you eat a botifarra bocadillo in four bites and you're out in twenty minutes. Don't expect comfort, charm or any English — that's the point.",
+        "address": "Carrer de la Reina Cristina, 7, 08003 Barcelona",
+        "rating": 4.4,
+        "image": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Jai-Ca",
+        "description": "An old-school terrace bar where the regulars sit with a small beer and a plate of razor clams from noon. The bunyols de bacallà and the boquerones are the dishes locals signal for without looking at the menu. The original location at number 13 has more soul; the newer one a few doors down is easier for groups.",
+        "address": "Carrer de Ginebra, 13, 08003 Barcelona",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Bodega La Peninsular",
+        "description": "A traditional bodega with wood barrels, marble-top tables and house vermut for under €3. The kitchen turns out a proper truita de patates and Saturday canelons that sell out before 3pm. It's the calmest stop on this list, which suits a longer lunch but means it lacks the bar-counter buzz of the others.",
+        "address": "Carrer del Mar, 29, 08003 Barcelona",
+        "rating": 4.4,
+        "image": "https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      }
+    ]
   }
 ];
 
