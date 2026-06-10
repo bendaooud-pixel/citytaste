@@ -3069,6 +3069,66 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "placeSlug": undefined
       }
     ]
+  },
+  {
+    "title": "Best Catalan Cuisine Restaurants",
+    "slug": "catalan-cuisine-restaurants",
+    "city": "Barcelona",
+    "citySlug": "barcelona",
+    "category": "Restaurants",
+    "coverImage": "https://images.unsplash.com/photo-1539622106046-7d96cd5773e0?w=1200&q=80",
+    "publishedAt": "2026-06-10",
+    "readingTime": 8,
+    "metaDescription": "Five Barcelona restaurants where Catalan cooking still tastes like home — from El Born taverns to a 1786 Gràcia bodega. Honest prices, real addresses.",
+    "intro": "It's 2:30pm on a Tuesday in El Born and every other table has the same plate: a wobble of crema catalana being cracked open with the back of a spoon. Catalan food is stubborn — it doesn't dress up for tourists, and the best places still close on Sundays because the owner wants to see his grandkids. This guide is for travelers who'd rather skip the paella photo-op on La Rambla and eat what people in Barcelona actually order. Five restaurants, all real, all tested on weeknights with locals.",
+    "body": "## Why Barcelona for catalan cuisine restaurants\n\nCatalan cooking leans on the sea and the mountain at once — escalivada, suquet, botifarra amb mongetes — and the best examples sit in the Born, Gràcia and the Eixample, not near the cathedral. Expect to spend €25–45 per person at a proper sit-down lunch, more if you order the seafood rice. Spring and early autumn are the sweet spots: calçots are still around in March, and the heavy stews come back in October.\n\n| Place | Price | Best For | Vibe |\n|-------|-------|----------|------|\n| Can Culleretes | €30 | First-timers | Tiled, historic, loud |\n| Bar del Pla | €35 | Modern Catalan tapas | Standing-room buzz |\n| Ca l'Estevet | €40 | Long lunches | Old-school dining room |\n| La Pubilla | €28 | Market lunch | Bright, neighborhood |\n| Bodega Quimet | €25 | Vermouth + conserves | Cramped, perfect |\n\n## Detailed Reviews\n\n### 1. Can Culleretes\n\nOpened in 1786, this is the oldest restaurant in Barcelona, and yes, every guidebook says so — but the canelons de l'àvia on Thursdays are still the reason regulars come back. The dining rooms are tiled floor to ceiling with photos of Catalan singers nobody outside the region recognizes. Service can be brisk to the point of rude if you arrive at 9pm without booking. Skip the seafood platter; order the espinacs a la catalana and the wild boar stew instead.\n\n**Best for:** First-time visitors who want history without a tourist-trap menu\n**Local tip:** Go for lunch on a weekday — the €18 menú del día is one of the best deals in the Gothic Quarter.\n\n### 2. Bar del Pla\n\nA narrow standing bar near the Picasso Museum that does Catalan classics with a slightly modern hand — think oxtail ravioli and a foie with apple compote that sounds fussy but isn't. The wine list is short, all Catalan, and the staff will actually argue with you about which Priorat to pick. It gets packed by 8:30pm and they don't take reservations for the bar, only the few tables in the back.\n\n**Best for:** Couples who want tapas without queueing at El Xampanyet next door\n**Local tip:** Order the patatas bravas — they're done with two sauces and they're worth the €6.\n\n### 3. Ca l'Estevet\n\nThree generations of the same family, a dining room that hasn't changed since the 1940s, and a wall of signed photos from politicians and bullfighters. The cap i pota (slow-cooked beef head and trotter) is not for everyone, but the arròs a la cassola with rabbit and snails is what you want on a cold day. It's near the MACBA, so the lunch crowd is half art students, half lawyers.\n\n**Best for:** Travelers who want a two-hour Catalan lunch with wine\n**Local tip:** Book for 2pm on a Friday and ask for the small back room — it's quieter and the waiters give you more time.\n\n### 4. La Pubilla\n\nRight next to the Mercat de la Llibertat in Gràcia, this is where neighborhood people eat when they don't want to cook. The menu changes daily based on what chef Alexis Peñalver pulled from the market that morning, and the chalkboard is only in Catalan — your waiter will translate, patiently. Portions are generous; two starters and one main between two people is plenty.\n\n**Best for:** A real Gràcia weekday lunch away from the center\n**Local tip:** Closed Sundays and Mondays. Go Tuesday for the freshest fish, and don't skip the torrija for dessert.\n\n### 5. Bodega Quimet\n\nNot to be confused with Quimet & Quimet in Poble Sec (also great, but different) — this Gràcia bodega has been pouring vermouth since 1940 and the bottles behind the bar are dusty for a reason. Order the anchovies from L'Escala, the bombas, and a vermut de la casa with an olive and a slice of orange. Tables are tiny and shared; if you want privacy, this isn't it.\n\n**Best for:** A pre-dinner aperitivo that turns into dinner\n**Local tip:** Saturday around 1pm is peak vermut hour — locals come straight from the market with their shopping bags. Arrive at 12:45 to get a stool.\n\n## Local Tips for catalan cuisine restaurants\n\n- Lunch is the main meal — most kitchens close 4pm–8:30pm, so don't show up at 6 expecting food\n- Reservations matter for dinner on Thursday, Friday and Saturday; lunch is usually easier\n- Order pa amb tomàquet (bread rubbed with tomato) as a side with everything — it's €2 and it's the point\n- Combine Bar del Pla or Can Culleretes with a walk through Carrer de Montcada and the Picasso Museum\n\n## FAQ\n\n### Q: What's the difference between Catalan and Spanish food in Barcelona?\nA: Catalan cooking uses more seafood-meat combinations (mar i muntanya), nut-based sauces like picada, and dishes like escalivada, fideuà and crema catalana that you won't find in Madrid. Paella is Valencian — locals will eat it, but it's not the regional dish.\n\n### Q: How much should I budget for dinner at a good Catalan restaurant?\nA: Plan on €30–45 per person with wine at the places in this guide. The menú del día at lunch is usually €15–20 and includes a starter, main, dessert and a glass of wine — better value than dinner.\n\n### Q: Which restaurant is best for a solo traveler?\nA: Bodega Quimet — the bar is communal and nobody blinks if you eat alone with a vermut and a plate of anchovies. Bar del Pla works too if you grab a spot at the counter.\n\n## The Verdict\n\nFor couples, **Bar del Pla** has the right mix of dim light and real food. On a budget, **Bodega Quimet** lets you eat well for €25 and leave smelling like vermouth. First-timers should book **Can Culleretes** for the history and the canelons. And if you want to eat where Barcelona actually eats, **La Pubilla** on a Tuesday is the answer.",
+    "places": [
+      {
+        "name": "Can Culleretes",
+        "description": "The oldest restaurant in Barcelona, open since 1786, with tiled walls and a dining room that feels frozen in the 1950s. The Thursday canelons and the wild boar stew are what regulars order, not the seafood platter pushed on tourists. Service can be abrupt if you walk in at peak hours without a booking.",
+        "address": "Carrer d'en Quintana, 5, 08002 Barcelona",
+        "rating": 4.4,
+        "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Bar del Pla",
+        "description": "A narrow, packed bar near the Picasso Museum doing modern takes on Catalan classics with a tight all-Catalan wine list. The oxtail ravioli and the patatas bravas with double sauce are the standouts. No reservations at the bar means showing up before 8:30pm or queueing.",
+        "address": "Carrer de Montcada, 2, 08003 Barcelona",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Ca l'Estevet",
+        "description": "A family-run dining room near the MACBA that hasn't redecorated in decades and doesn't need to. The arròs a la cassola with rabbit and snails is the dish to order on a cool day. Lunch service is unhurried — plan two hours minimum.",
+        "address": "Carrer de Valldonzella, 46, 08001 Barcelona",
+        "rating": 4.3,
+        "image": "https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "La Pubilla",
+        "description": "A bright neighborhood restaurant next to Mercat de la Llibertat in Gràcia, with a daily chalkboard menu written only in Catalan. Chef Alexis Peñalver cooks whatever the market gave him that morning, and portions run generous. Closed Sunday and Monday, which is half the point.",
+        "address": "Plaça de la Llibertat, 23, 08012 Barcelona",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Bodega Quimet",
+        "description": "A tiny Gràcia bodega pouring vermouth since 1940, with dusty bottles behind the bar and shared tables that fill up by 1pm on Saturdays. Order the L'Escala anchovies, the bombas and a vermut de la casa. There's no privacy and that's the appeal.",
+        "address": "Carrer de Vic, 23, 08006 Barcelona",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      }
+    ]
   }
 ];
 
