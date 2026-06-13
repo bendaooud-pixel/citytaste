@@ -3129,6 +3129,66 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "placeSlug": undefined
       }
     ]
+  },
+  {
+    "title": "Hidden Cafés in Gràcia Barcelona",
+    "slug": "hidden-cafes-gracia",
+    "city": "Barcelona",
+    "citySlug": "barcelona",
+    "category": "Cafés",
+    "coverImage": "https://images.unsplash.com/photo-1511920170033-f8396924c348?w=1200&q=80",
+    "publishedAt": "2026-06-13",
+    "readingTime": 8,
+    "metaDescription": "Five quiet cafés in Gràcia, Barcelona where locals actually drink coffee — specialty roasts, slow mornings, real addresses and what to order.",
+    "intro": "Gràcia still wakes up slowly. You'll hear shutters rolling up around 9am, smell coffee before you see the café, and find old men reading La Vanguardia at the same table they've used for thirty years. This guide is for travelers who want to skip the Passeig de Gràcia crowds and drink their flat white where neighborhood kids do their homework after school.",
+    "body": "## Why Barcelona for hidden cafes gracia\n\nGràcia was its own village until 1897, and it still acts like one — narrow streets, tiny squares, almost no cars. Coffee here runs €1.50 for a cortado at an old-school bar and €4.20 for a single-origin pour-over at a specialty roaster. Spring and early autumn are best; August is dead because half the neighborhood leaves for the coast.\n\n| Place | Price | Best For | Vibe |\n|-------|-------|----------|------|\n| Syra Coffee | €3-5 | Specialty espresso | Tiny, standing room |\n| Cafè Salambó | €4-9 | Long mornings | Wood-paneled, literary |\n| Onna Coffee | €3-6 | Single-origin nerds | Bright, minimalist |\n| La Cafetera de Gràcia | €2-6 | Old-school cortado | Worn tiles, locals only |\n| Slow Mov | €3-7 | Brunch + filter coffee | Plant-filled, calm |\n\n## Detailed Reviews\n\n### 1. Syra Coffee\n\nThis is the original Syra — a closet-sized space on Carrer de Martínez de la Rosa where the queue spills onto the sidewalk by 10:30am on Saturdays. The espresso is pulled from their own roastery in Poblenou and the cortado costs €2.20, which is fair for the quality. There's nowhere to sit, which is either the point or the problem depending on your mood.\n\n**Best for:** Coffee drinkers who want quality over comfort\n**Local tip:** Go on a weekday before 10am and ask for the guest roast filter — it changes every two weeks.\n\n### 2. Cafè Salambó\n\nUpstairs has pool tables and the downstairs room feels like a 1990s Barcelona film set, all dark wood and yellow lamplight. It's been on Carrer de Torrijos since 1993 and the same waiters have been there nearly as long. Coffee is fine, not special — you come for the atmosphere and the brunch plates, especially the tostada with sobrassada and honey.\n\n**Best for:** Rainy afternoons and long conversations\n**Local tip:** Sundays around 1pm fill up fast with the post-vermut crowd; aim for Tuesday or Thursday late morning instead.\n\n### 3. Onna Coffee\n\nOnna roasts their own beans from a farm they part-own in Honduras, which they'll tell you about if you ask and sometimes if you don't. The space on Carrer de Santa Teresa is small but you can actually sit, and the V60 is the move here. Service can be slow when it's busy because they're making everything to order.\n\n**Best for:** Filter coffee fans and a quiet work hour\n**Local tip:** Order the Geisha if it's on the board — it's pricier (€6) but it's why people come back.\n\n### 4. La Cafetera de Gràcia\n\nThis is the unglamorous one — a corner bar on Plaça de la Revolució where the cortado is €1.50 and nobody is doing latte art. Pensioners read the paper at the window tables and the owner shouts orders across the room. The croissant is industrial, the coffee is solid Cafés El Magnífico, and you'll feel like you're somewhere real.\n\n**Best for:** Cheap, fast, no-nonsense mornings\n**Local tip:** Sit at the bar, not the terrace — the terrace adds €0.50 to everything and the view is just parked scooters.\n\n### 5. Slow Mov\n\nSlow Mov sits on Carrer de Luis Antúnez, just off the Passeig de Sant Joan, and it's the prettiest of the bunch — white walls, plants, big windows. They roast in-house and the brunch menu (avocado on sourdough, granola bowls) runs €9-12. It's also the most Instagrammed, so weekend mornings get a wait.\n\n**Best for:** Brunch with good coffee, not just bad coffee with good brunch\n**Local tip:** The cold brew tonic in summer is better than it sounds; skip the pancakes, they're the weakest plate.\n\n## Local Tips for hidden cafes gracia\n\n- Most Gràcia cafés don't open until 9am, and many close between 3pm and 5pm — plan around it or you'll be standing on Carrer Verdi reading shutters.\n- If you want a table at Salambó or Slow Mov on a weekend, arrive before 11am or after 2pm. No reservations for two people at most spots.\n- A \"café con leche\" is the default Spanish order; if you want something closer to a flat white, ask for a cortado at old-school places and a flat white only at the specialty ones.\n- Combine a morning here with a walk down Carrer Verdi to Plaça del Sol or the Mercat de la Llibertat for produce and a vermut after.\n\n## FAQ\n\n### Q: Which Gràcia café is best for working on a laptop?\nA: Onna Coffee and Slow Mov both tolerate laptops on weekday mornings, with reliable Wi-Fi and seats with outlets. Avoid weekends — the tables turn over for brunch and staff will (politely) want you to wrap up.\n\n### Q: Are these cafés expensive compared to the rest of Barcelona?\nA: Specialty spots like Syra and Onna charge €3-4 for an espresso drink, similar to El Born or Eixample. Traditional bars like La Cafetera de Gràcia stay under €2, which is hard to find in more central neighborhoods now.\n\n### Q: I'm visiting with kids — which place works best?\nA: Cafè Salambó has space, a relaxed pace, and food beyond pastries, so it handles families well. The specialty cafés are tiny and not really set up for strollers or restless toddlers.\n\n## The Verdict\n\nFor couples, **Cafè Salambó** wins on atmosphere — dim light, wood, no rush. Budget travelers should head straight to **La Cafetera de Gràcia** for a €1.50 cortado that tastes better than it has any right to. First-timers get the best snapshot of modern Gràcia at **Slow Mov**, while locals and coffee obsessives keep coming back to **Syra** and **Onna** for the actual cup.",
+    "places": [
+      {
+        "name": "Syra Coffee",
+        "description": "A standing-room espresso bar tucked into a narrow Gràcia street, usually with a small queue out front by mid-morning. The beans come from their own Poblenou roastery and the cortado at €2.20 is one of the best deals in the neighborhood. There's genuinely nowhere to sit, so it's not the place for a long catch-up.",
+        "address": "Carrer de Martínez de la Rosa, 25, 08012 Barcelona",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1559496417-e7f25cb247f3?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Cafè Salambó",
+        "description": "A two-floor wood-paneled café that's been on Carrer de Torrijos since 1993, with pool tables upstairs and a film-set feel downstairs. The kitchen does a good tostada with sobrassada and honey, and the coffee is decent rather than remarkable. Sundays after vermut hour are packed and slow.",
+        "address": "Carrer de Torrijos, 51, 08012 Barcelona",
+        "rating": 4.4,
+        "image": "https://images.unsplash.com/photo-1453614512568-c4024d13c247?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Onna Coffee",
+        "description": "A small, bright specialty café roasting beans from a farm they part-own in Honduras. The V60 is the order here, and the Geisha — when it's on — is worth the €6. Service slows when it's busy because everything is made to order, so don't come if you're in a rush.",
+        "address": "Carrer de Santa Teresa, 1, 08012 Barcelona",
+        "rating": 4.7,
+        "image": "https://images.unsplash.com/photo-1442975631115-c4f7b05b8a2c?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "La Cafetera de Gràcia",
+        "description": "An unfussy corner bar on Plaça de la Revolució where pensioners read the paper and the cortado costs €1.50. They pour Cafés El Magnífico, which is solid, and the croissants are nothing special. Sit at the bar to skip the terrace surcharge.",
+        "address": "Plaça de la Revolució de Setembre de 1868, 9, 08012 Barcelona",
+        "rating": 4.2,
+        "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Slow Mov",
+        "description": "The prettiest café on this list, with white walls, big windows and a generous plant collection just off Passeig de Sant Joan. They roast their own beans and the brunch plates land between €9 and €12, with the cold brew tonic a summer favorite. Weekend mornings draw an Instagram crowd and a wait.",
+        "address": "Carrer de Luis Antúnez, 18, 08006 Barcelona",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1525480122447-64809d765a07?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      }
+    ]
   }
 ];
 
