@@ -3189,6 +3189,66 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "placeSlug": undefined
       }
     ]
+  },
+  {
+    "title": "Best Burger Restaurants in Barcelona",
+    "slug": "burger-restaurants-barcelona",
+    "city": "Barcelona",
+    "citySlug": "barcelona",
+    "category": "Restaurants",
+    "coverImage": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1200&q=80",
+    "publishedAt": "2026-06-14",
+    "readingTime": 8,
+    "metaDescription": "Where to eat the best burgers in Barcelona — from smash patties in Gràcia to dry-aged beef in Eixample, with prices, addresses and local tips.",
+    "intro": "Barcelona isn't a burger city in the way New York or Berlin is, but in the last decade something clicked. A wave of small spots — some run by ex-fine-dining chefs, some by stubborn American expats — started taking the beef seriously. This guide is for travelers who've had enough tapas for one week and want to know where locals actually queue for a smash patty.",
+    "body": "## Why Barcelona for burger restaurants\n\nThe scene is concentrated in Gràcia, Sant Antoni and Eixample, with a few outliers in El Born. Expect to pay €11–€18 for a serious burger, more if you're going dry-aged. Most spots don't take reservations, so go early or be ready to wait — Thursday and Sunday nights are the worst.\n\n| Place | Price | Best For | Vibe |\n|-------|-------|----------|------|\n| Bacoa Kiosko | €10–€13 | Quick lunch | Casual counter |\n| Bel Mondo | €14–€17 | Smash burger fans | Tiny, loud, fun |\n| Vermuteria del Tano | €12–€15 | Burger + vermouth | Old-school bar |\n| The Fitzgerald | €13–€18 | Date night | Dim, cocktail-led |\n| Pim Pam Burger | €9–€12 | Budget, late night | Takeaway-friendly |\n\n## Detailed Reviews\n\n### 1. Bacoa Kiosko\n\nThe Born original of a small local chain that helped start the whole movement back in 2010. Order at the counter, grab a stool by the window, and the burger lands in five minutes flat. The **Bacoa** with caramelized onion and goat cheese is the one to get — beef is from Girona, ground in-house daily.\n\nThe space is cramped and the music is too loud for conversation, but nobody comes here to linger. Lunch is calmer than dinner.\n\n**Best for:** solo travelers and quick midday meals\n**Local tip:** skip the fries (frozen) and add an extra patty for €3 instead.\n\n### 2. Bel Mondo\n\nA shoebox in Gràcia run by two friends obsessed with American diner culture. They do one thing — double smash burgers on potato buns — and they do it about as well as anyone in the city. The **Bel Classic** with American cheese, pickles and house sauce is €14 and worth every cent.\n\nThere are maybe twelve seats. Come at 1pm sharp on a weekday or accept a 40-minute wait on weekends. Cash and card both fine.\n\n**Best for:** smash burger purists\n**Local tip:** they sell out by 10pm on Fridays — if you're going late, call ahead to check.\n\n### 3. Vermuteria del Tano\n\nNot a burger joint at all, technically — it's a 1940s vermouth bar in Gràcia where the owner started grilling burgers a few years ago because his son wouldn't eat anchovies. The **hamburguesa de la casa** comes on a soft pa de pagès roll with manchego and grilled peppers, €12.50.\n\nThe place is gloriously stuck in time: marble tables, tiled walls, a cat that sleeps on the bar. Service can be slow if Tano is in a mood. Pair it with a vermut de la casa from the barrel.\n\n**Best for:** travelers who want one meal that feels uniquely Barcelona\n**Local tip:** they close Sundays and most of August. Don't trust Google's hours — call.\n\n### 4. The Fitzgerald\n\nDarker, more grown-up, with a proper cocktail list and dry-aged beef from a small producer in Lleida. Tables are tight but the lighting flatters everyone. The **Truffle Fitz** at €17 is excessive in the best way — Comté, black truffle, a brioche bun that holds together until the last bite.\n\nReservations are taken and recommended for dinner. Lunch menu Tuesday to Friday includes a smaller burger plus a drink for around €15, which is a steal for the quality.\n\n**Best for:** dinner with someone you want to impress\n**Local tip:** ask for table 6 by the window in the back room — quietest spot in the place.\n\n### 5. Pim Pam Burger\n\nA Barcelona institution since 1999, long before anyone called it a scene. Three locations now; the **Carrer Sabateret** original in El Born is still the best. Burgers are smaller and softer than the new wave — more Spanish than American in style — but at €9 for the classic with bacon, you stop complaining.\n\nOpen until 1am most nights, which makes it a default after-drinks stop in the old town. The fries are actually good here. Don't order the salads.\n\n**Best for:** late nights and tight budgets\n**Local tip:** the chicken burger is genuinely better than the beef. Trust me on this.\n\n## Local Tips for burger restaurants Barcelona\n\n- Most kitchens close 4pm–8pm. If you're hungry at 5pm, Pim Pam and Bacoa are the only reliable options.\n- Reservations only matter at The Fitzgerald. Everywhere else, just show up early.\n- \"Poco hecho\" means rare, \"al punto\" means medium. Spanish kitchens tend to overcook by default — ask for one level less than you want.\n- Combine Bel Mondo with a walk up Carrer Verdi afterwards — it's the most interesting street in Gràcia for indie shops and a coffee at Syra.\n\n## FAQ\n\n### Q: Are burgers expensive in Barcelona compared to tapas?\nA: Yes, slightly. A proper burger meal runs €15–€22 with a drink, while a casual tapas lunch can come in under €15. The trade-off is portion size — a burger fills you up where tapas often don't.\n\n### Q: Do I need to book ahead?\nA: Only at The Fitzgerald for dinner. The other four work on walk-ins, but arrive before 1:30pm for lunch or before 8:30pm for dinner to avoid queues, especially on weekends.\n\n### Q: Which is best for vegetarians?\nA: Bacoa Kiosko has the most serious veggie option — a portobello and halloumi burger that isn't an afterthought. Bel Mondo and Pim Pam offer veggie patties but they're clearly the B-team on the menu.\n\n## The Verdict\n\nFor couples, **The Fitzgerald** wins on atmosphere and that dry-aged beef. Budget travelers should head straight to **Pim Pam Burger** in El Born — €9 and open late. First-timers wanting the most photogenic, satisfying meal should book **Bel Mondo**. And if you want to eat where actual Barcelona locals eat, **Vermuteria del Tano** is the answer, no contest.",
+    "places": [
+      {
+        "name": "Bacoa Kiosko",
+        "description": "A counter-service spot in El Born that helped kick off Barcelona's serious burger scene back in 2010. Beef is sourced from Girona and ground daily, with the signature Bacoa burger layering caramelized onion and goat cheese on a soft bun. The space is cramped and loud, and the frozen fries are a letdown — but the burger itself holds up.",
+        "address": "Plaça Comercial, 1, 08003 Barcelona",
+        "rating": 4.4,
+        "image": "https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Bel Mondo",
+        "description": "A twelve-seat Gràcia shoebox doing American-style double smash burgers on potato buns. The Bel Classic at €14 — American cheese, pickles, house sauce — is among the best smash burgers in the city. Waits hit 40 minutes on weekends and they sometimes sell out by 10pm Friday.",
+        "address": "Carrer de Bonavista, 8, 08012 Barcelona",
+        "rating": 4.7,
+        "image": "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Vermuteria del Tano",
+        "description": "A 1940s vermouth bar in Gràcia with marble tables, tiled walls and a sleeping cat on the counter. The house burger arrives on pa de pagès with manchego and grilled peppers, paired ideally with a vermut from the barrel. Service runs slow when Tano is in a mood, and they close Sundays plus most of August.",
+        "address": "Carrer de Joan Blanques, 17, 08012 Barcelona",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1606131731446-5568d87113aa?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "The Fitzgerald",
+        "description": "Dim, cocktail-led and the most grown-up burger room in Barcelona, with dry-aged beef from a small Lleida producer. The €17 Truffle Fitz with Comté and black truffle on brioche is excessive in the best possible way. Tables are tight, so request table 6 in the back room when you book.",
+        "address": "Carrer de Berga, 14, 08012 Barcelona",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1610614819513-58e34989848b?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Pim Pam Burger",
+        "description": "A Barcelona institution since 1999, with the original Carrer Sabateret location in El Born still the best of the three. The burgers are smaller and softer than the new wave — more Spanish than American — but at €9 you stop complaining. Open until 1am, which makes it the default after-drinks stop in the old town.",
+        "address": "Carrer del Sabateret, 4, 08003 Barcelona",
+        "rating": 4.3,
+        "image": "https://images.unsplash.com/photo-1550317138-10000687a72b?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      }
+    ]
   }
 ];
 
