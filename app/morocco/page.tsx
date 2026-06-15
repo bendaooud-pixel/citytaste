@@ -29,12 +29,12 @@ export const metadata: Metadata = {
 };
 
 const CITIES = [
-  { slug: "marrakech", href: "/marrakech", name: "Marrakech", image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80", tagline: "Medina, souks & rooftops" },
-  { slug: "fes", href: "/morocco", name: "Fès", image: "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=600&q=80", tagline: "Tanneries, medersas & food" },
-  { slug: "chefchaouen", href: "/morocco", name: "Chefchaouen", image: "https://images.unsplash.com/photo-1573455494060-c5595004fb6c?w=600&q=80", tagline: "The blue pearl" },
-  { slug: "essaouira", href: "/morocco", name: "Essaouira", image: "https://images.unsplash.com/photo-1569383746724-6f1b882b8f46?w=600&q=80", tagline: "Atlantic coast & winds" },
-  { slug: "rabat", href: "/morocco", name: "Rabat", image: "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=600&q=80", tagline: "Capital & kasbah" },
-  { slug: "merzouga", href: "/morocco", name: "Sahara Desert", image: "https://images.unsplash.com/photo-1509023464722-18d996393ca8?w=600&q=80", tagline: "Dunes & starry nights" },
+  { slug: "marrakech", name: "Marrakech", image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80", tagline: "Medina, souks & rooftops" },
+  { slug: "fes", name: "Fès", image: "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=600&q=80", tagline: "Tanneries, medersas & food" },
+  { slug: "chefchaouen", name: "Chefchaouen", image: "https://images.unsplash.com/photo-1573455494060-c5595004fb6c?w=600&q=80", tagline: "The blue pearl" },
+  { slug: "essaouira", name: "Essaouira", image: "https://images.unsplash.com/photo-1569383746724-6f1b882b8f46?w=600&q=80", tagline: "Atlantic coast & winds" },
+  { slug: "rabat", name: "Rabat", image: "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=600&q=80", tagline: "Capital & kasbah" },
+  { slug: "merzouga", name: "Sahara Desert", image: "https://images.unsplash.com/photo-1509023464722-18d996393ca8?w=600&q=80", tagline: "Dunes & starry nights" },
 ];
 
 export default function MoroccoHubPage() {
@@ -75,7 +75,7 @@ export default function MoroccoHubPage() {
             {CITIES.map((city) => (
               <Link
                 key={city.slug}
-                href={city.href}
+                href={`/morocco/${city.slug}`}
                 className="group relative h-48 rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow"
               >
                 <Image src={city.image} alt={city.name} fill className="object-cover group-hover:scale-105 transition-transform duration-500" sizes="(max-width: 768px) 50vw, 33vw" />

@@ -51,6 +51,10 @@ export function getGuideBySlug(slugParts: string[], locale: MoroccoLocale): Guid
   return guides.find((g) => g.frontmatter.slug === slug);
 }
 
+export function getGuidesByCity(citySlug: string, locale?: MoroccoLocale): Guide[] {
+  return getAllGuides(locale).filter((g) => g.frontmatter.citySlug === citySlug);
+}
+
 export function getAllTours(locale?: MoroccoLocale): Tour[] {
   const dir = locale
     ? path.join(CONTENT_DIR, "tours", locale)
@@ -68,14 +72,14 @@ export function getTourBySlug(slug: string, locale: MoroccoLocale): Tour | undef
 
 export function getGuideAlternates(guide: Guide): Record<MoroccoLocale, string | null> {
   const result: Record<string, string | null> = { en: null, fr: null, it: null, es: null };
-  const currentSlug = guide.frontmatter.slug;
+  const { slug: currentSlug, hreflangGroup, primaryKeyword } = guide.frontmatter;
 
   for (const loc of ["en", "fr", "it", "es"] as MoroccoLocale[]) {
     const guides = getAllGuides(loc);
-    const match = guides.find(
-      (g) =>
-        g.frontmatter.primaryKeyword === guide.frontmatter.primaryKeyword ||
-        g.frontmatter.slug === currentSlug
+    const match = guides.find((g) =>
+      (hreflangGroup && g.frontmatter.hreflangGroup === hreflangGroup) ||
+      g.frontmatter.primaryKeyword === primaryKeyword ||
+      g.frontmatter.slug === currentSlug
     );
     if (match) {
       const prefix = loc === "en" ? "/morocco" : `/morocco/${loc}`;

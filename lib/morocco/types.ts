@@ -15,6 +15,7 @@ export interface GuideFrontmatter {
   type: GuideType;
   relatedTours: string[];
   relatedGuides: string[];
+  hreflangGroup?: string;
   faq: { q: string; a: string }[];
   publishedAt: string;
   updatedAt?: string;

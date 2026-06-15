@@ -74,7 +74,7 @@ export default function MoroccoFrHubPage() {
             {CITIES.map((city) => (
               <Link
                 key={city.slug}
-                href={city.slug === "marrakech" ? "/marrakech" : `/morocco/fr`}
+                href={`/morocco/fr/${city.slug}`}
                 className="group relative h-48 rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow"
               >
                 <Image src={city.image} alt={city.name} fill className="object-cover group-hover:scale-105 transition-transform duration-500" sizes="(max-width: 768px) 50vw, 33vw" />

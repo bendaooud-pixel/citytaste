@@ -1,21 +1,64 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { getGuideBySlug, getAllGuides, getGuideAlternates } from "@/lib/morocco/content";
-import { BASE_URL } from "@/lib/morocco/types";
+import { getGuideBySlug, getAllGuides, getGuideAlternates, getGuidesByCity } from "@/lib/morocco/content";
+import { BASE_URL, MOROCCO_CITIES } from "@/lib/morocco/types";
 import GuideTemplate from "@/components/morocco/GuideTemplate";
+import CityHubTemplate from "@/components/morocco/CityHubTemplate";
+
+const CITY_IMAGES: Record<string, string> = {
+  marrakech: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1200&q=80",
+  fes: "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=1200&q=80",
+  chefchaouen: "https://images.unsplash.com/photo-1573455494060-c5595004fb6c?w=1200&q=80",
+  essaouira: "https://images.unsplash.com/photo-1569383746724-6f1b882b8f46?w=1200&q=80",
+  rabat: "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=1200&q=80",
+  merzouga: "https://images.unsplash.com/photo-1509023464722-18d996393ca8?w=1200&q=80",
+};
+
+const CITY_DESCRIPTIONS: Record<string, string> = {
+  marrakech: "From the souks and rooftops of the medina to the serenity of Majorelle Garden — your complete guide to Marrakech.",
+  fes: "The spiritual and cultural capital of Morocco. Ancient medina, master craftsmen, and the best food in the country.",
+  chefchaouen: "The famous blue pearl of the Rif Mountains. Hiking, photography, and a pace of life that makes you forget your phone.",
+  essaouira: "Atlantic winds, fresh seafood, and a laid-back medina. The perfect escape from Marrakech's heat.",
+  rabat: "Morocco's capital. Clean, calm, and full of hidden gems most tourists miss entirely.",
+  merzouga: "Gateway to Erg Chebbi and the Sahara. Dunes, starry nights, and camel treks into the golden desert.",
+};
+
+const YEAR = new Date().getFullYear();
 
 interface Props {
   params: Promise<{ slug: string[] }>;
 }
 
 export async function generateStaticParams() {
-  return getAllGuides("en").map((g) => ({
+  const guideParams = getAllGuides("en").map((g) => ({
     slug: g.frontmatter.slug.split("/"),
   }));
+
+  const cityParams = MOROCCO_CITIES
+    .filter((c) => getGuidesByCity(c.slug, "en").length > 0 || getGuidesByCity(c.slug).length > 0)
+    .map((c) => ({ slug: [c.slug] }));
+
+  return [...guideParams, ...cityParams];
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
+
+  if (slug.length === 1) {
+    const citySlug = slug[0];
+    const city = MOROCCO_CITIES.find((c) => c.slug === citySlug);
+    if (city) {
+      return {
+        title: `Things to Do in ${city.name.en} ${YEAR} — Morocco Guide | CityTaste`,
+        description: CITY_DESCRIPTIONS[citySlug] || `Discover the best of ${city.name.en} with our curated travel guides.`,
+        alternates: {
+          canonical: `${BASE_URL}/morocco/${citySlug}`,
+          languages: { fr: `${BASE_URL}/morocco/fr/${citySlug}` },
+        },
+      };
+    }
+  }
+
   const guide = getGuideBySlug(slug, "en");
   if (!guide) return {};
 
@@ -41,8 +84,27 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-export default async function MoroccoGuidePage({ params }: Props) {
+export default async function MoroccoPage({ params }: Props) {
   const { slug } = await params;
+
+  if (slug.length === 1) {
+    const citySlug = slug[0];
+    const city = MOROCCO_CITIES.find((c) => c.slug === citySlug);
+    if (city) {
+      const guides = getGuidesByCity(citySlug, "en");
+      return (
+        <CityHubTemplate
+          citySlug={citySlug}
+          cityName={city.name.en}
+          locale="en"
+          guides={guides}
+          heroImage={CITY_IMAGES[citySlug] || CITY_IMAGES.marrakech}
+          description={CITY_DESCRIPTIONS[citySlug] || `Explore the best of ${city.name.en}.`}
+        />
+      );
+    }
+  }
+
   const guide = getGuideBySlug(slug, "en");
   if (!guide) notFound();
 
