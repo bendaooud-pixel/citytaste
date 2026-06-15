@@ -29,12 +29,12 @@ export const metadata: Metadata = {
 };
 
 const CITIES = [
-  { slug: "marrakech", name: "Marrakech", image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80", tagline: "Medina, souks & rooftops" },
-  { slug: "fes", name: "Fès", image: "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=600&q=80", tagline: "Tanneries, medersas & food" },
-  { slug: "chefchaouen", name: "Chefchaouen", image: "https://images.unsplash.com/photo-1573455494060-c5595004fb6c?w=600&q=80", tagline: "The blue pearl" },
-  { slug: "essaouira", name: "Essaouira", image: "https://images.unsplash.com/photo-1569383746724-6f1b882b8f46?w=600&q=80", tagline: "Atlantic coast & winds" },
-  { slug: "rabat", name: "Rabat", image: "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=600&q=80", tagline: "Capital & kasbah" },
-  { slug: "merzouga", name: "Sahara Desert", image: "https://images.unsplash.com/photo-1509023464722-18d996393ca8?w=600&q=80", tagline: "Dunes & starry nights" },
+  { slug: "marrakech", name: "Marrakech", image: "/images/morocco/marrakech.jpg", tagline: "Medina, souks & rooftops" },
+  { slug: "fes", name: "Fès", image: "/images/morocco/fes.jpg", tagline: "Tanneries, medersas & food" },
+  { slug: "chefchaouen", name: "Chefchaouen", image: "/images/morocco/chefchaouen.jpg", tagline: "The blue pearl" },
+  { slug: "essaouira", name: "Essaouira", image: "/images/morocco/essaouira.jpg", tagline: "Atlantic coast & winds" },
+  { slug: "rabat", name: "Rabat", image: "/images/morocco/rabat.jpg", tagline: "Capital & kasbah" },
+  { slug: "merzouga", name: "Sahara Desert", image: "/images/morocco/sahara-desert.jpg", tagline: "Dunes & starry nights" },
 ];
 
 export default function MoroccoHubPage() {
@@ -47,7 +47,7 @@ export default function MoroccoHubPage() {
         {/* Hero */}
         <div className="relative h-80 md:h-[440px] overflow-hidden">
           <Image
-            src="https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?w=1400&q=80"
+            src="/images/morocco/morocco-hero.jpg"
             alt="Morocco travel guide"
             fill
             priority

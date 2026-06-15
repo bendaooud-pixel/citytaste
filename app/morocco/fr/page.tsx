@@ -28,12 +28,12 @@ export const metadata: Metadata = {
 };
 
 const CITIES = [
-  { slug: "marrakech", name: "Marrakech", image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80", tagline: "Médina, souks & rooftops" },
-  { slug: "fes", name: "Fès", image: "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=600&q=80", tagline: "Tanneries, médersas & cuisine" },
-  { slug: "chefchaouen", name: "Chefchaouen", image: "https://images.unsplash.com/photo-1573455494060-c5595004fb6c?w=600&q=80", tagline: "La perle bleue" },
-  { slug: "essaouira", name: "Essaouira", image: "https://images.unsplash.com/photo-1569383746724-6f1b882b8f46?w=600&q=80", tagline: "Côte atlantique & alizés" },
-  { slug: "rabat", name: "Rabat", image: "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=600&q=80", tagline: "Capitale & kasbah" },
-  { slug: "merzouga", name: "Désert du Sahara", image: "https://images.unsplash.com/photo-1509023464722-18d996393ca8?w=600&q=80", tagline: "Dunes & nuits étoilées" },
+  { slug: "marrakech", name: "Marrakech", image: "/images/morocco/marrakech.jpg", tagline: "Médina, souks & rooftops" },
+  { slug: "fes", name: "Fès", image: "/images/morocco/fes.jpg", tagline: "Tanneries, médersas & cuisine" },
+  { slug: "chefchaouen", name: "Chefchaouen", image: "/images/morocco/chefchaouen.jpg", tagline: "La perle bleue" },
+  { slug: "essaouira", name: "Essaouira", image: "/images/morocco/essaouira.jpg", tagline: "Côte atlantique & alizés" },
+  { slug: "rabat", name: "Rabat", image: "/images/morocco/rabat.jpg", tagline: "Capitale & kasbah" },
+  { slug: "merzouga", name: "Désert du Sahara", image: "/images/morocco/sahara-desert.jpg", tagline: "Dunes & nuits étoilées" },
 ];
 
 export default function MoroccoFrHubPage() {
@@ -46,7 +46,7 @@ export default function MoroccoFrHubPage() {
         {/* Hero */}
         <div className="relative h-80 md:h-[440px] overflow-hidden">
           <Image
-            src="https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?w=1400&q=80"
+            src="/images/morocco/morocco-hero.jpg"
             alt="Guide voyage Maroc"
             fill
             priority

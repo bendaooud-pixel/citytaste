@@ -6,12 +6,12 @@ import GuideTemplate from "@/components/morocco/GuideTemplate";
 import CityHubTemplate from "@/components/morocco/CityHubTemplate";
 
 const CITY_IMAGES: Record<string, string> = {
-  marrakech: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1200&q=80",
-  fes: "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=1200&q=80",
-  chefchaouen: "https://images.unsplash.com/photo-1573455494060-c5595004fb6c?w=1200&q=80",
-  essaouira: "https://images.unsplash.com/photo-1569383746724-6f1b882b8f46?w=1200&q=80",
-  rabat: "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=1200&q=80",
-  merzouga: "https://images.unsplash.com/photo-1509023464722-18d996393ca8?w=1200&q=80",
+  marrakech: "/images/morocco/marrakech.jpg",
+  fes: "/images/morocco/fes.jpg",
+  chefchaouen: "/images/morocco/chefchaouen.jpg",
+  essaouira: "/images/morocco/essaouira.jpg",
+  rabat: "/images/morocco/rabat.jpg",
+  merzouga: "/images/morocco/sahara-desert.jpg",
 };
 
 const CITY_DESCRIPTIONS: Record<string, string> = {
