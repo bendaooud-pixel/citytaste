@@ -4,7 +4,7 @@ import MarkdownRenderer from "@/components/MarkdownRenderer";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import type { Guide } from "@/lib/morocco/types";
-import { BASE_URL } from "@/lib/morocco/types";
+import { getAllGuides } from "@/lib/morocco/content";
 
 interface Props {
   guide: Guide;
@@ -19,13 +19,11 @@ export default function GuideTemplate({ guide, alternates }: Props) {
     { name: fm.locale === "fr" ? "Accueil" : "Home", href: "/" },
     { name: fm.locale === "fr" ? "Maroc" : "Morocco", href: localePrefix },
   ];
-  if (fm.citySlug) {
-    breadcrumbItems.push({
-      name: fm.citySlug.charAt(0).toUpperCase() + fm.citySlug.slice(1),
-      href: `${localePrefix}/${fm.citySlug}`,
-    });
-  }
   breadcrumbItems.push({ name: fm.h1.split("—")[0].trim(), href: "" });
+
+  const existingGuides = getAllGuides(fm.locale);
+  const existingSlugs = new Set(existingGuides.map((g) => g.frontmatter.slug));
+  const validRelatedGuides = fm.relatedGuides.filter((slug) => existingSlugs.has(slug));
 
   return (
     <>
@@ -94,39 +92,14 @@ export default function GuideTemplate({ guide, alternates }: Props) {
             </section>
           )}
 
-          {/* Related Tours CTA */}
-          {fm.relatedTours.length > 0 && (
-            <section className="bg-gradient-to-r from-orange-50 to-amber-50 border border-orange-100 rounded-2xl p-8 mb-10">
-              <h2 className="text-lg font-bold text-slate-900 mb-2" style={{ fontFamily: "var(--font-playfair)" }}>
-                {fm.locale === "fr" ? "Circuits associés" : "Related Tours"}
-              </h2>
-              <p className="text-slate-600 text-sm mb-4">
-                {fm.locale === "fr"
-                  ? "Envie de vivre cette expérience ? Découvrez nos circuits organisés."
-                  : "Want to experience this? Check out our organized tours."}
-              </p>
-              <div className="flex flex-wrap gap-3">
-                {fm.relatedTours.map((tourSlug) => (
-                  <Link
-                    key={tourSlug}
-                    href={`${fm.locale === "fr" ? "/morocco/fr/circuits" : "/morocco/tours"}/${tourSlug}`}
-                    className="inline-flex items-center gap-2 bg-[#F97316] hover:bg-orange-600 text-white font-semibold px-5 py-2.5 rounded-xl transition-colors text-sm"
-                  >
-                    {fm.locale === "fr" ? "Voir le circuit" : "View tour"} &rarr;
-                  </Link>
-                ))}
-              </div>
-            </section>
-          )}
-
-          {/* Related Guides */}
-          {fm.relatedGuides.length > 0 && (
+          {/* Related Guides — only show links to guides that actually exist */}
+          {validRelatedGuides.length > 0 && (
             <section className="bg-slate-50 rounded-2xl p-6 mb-10 border border-slate-100">
               <h3 className="font-semibold text-slate-800 mb-4">
                 {fm.locale === "fr" ? "Guides associés" : "Related Guides"}
               </h3>
               <div className="flex flex-wrap gap-3">
-                {fm.relatedGuides.map((guideSlug) => (
+                {validRelatedGuides.map((guideSlug) => (
                   <Link
                     key={guideSlug}
                     href={`${localePrefix}/${guideSlug}`}
@@ -136,6 +109,26 @@ export default function GuideTemplate({ guide, alternates }: Props) {
                   </Link>
                 ))}
               </div>
+            </section>
+          )}
+
+          {/* Explore Marrakech CTA */}
+          {fm.citySlug === "marrakech" && (
+            <section className="bg-gradient-to-r from-orange-50 to-amber-50 border border-orange-100 rounded-2xl p-8 mb-10">
+              <h2 className="text-lg font-bold text-slate-900 mb-2" style={{ fontFamily: "var(--font-playfair)" }}>
+                {fm.locale === "fr" ? "Explorer Marrakech" : "Explore Marrakech"}
+              </h2>
+              <p className="text-slate-600 text-sm mb-4">
+                {fm.locale === "fr"
+                  ? "Découvrez tous nos restaurants, hammams et bonnes adresses à Marrakech."
+                  : "Discover all our curated restaurants, hammams and hidden gems in Marrakech."}
+              </p>
+              <Link
+                href="/marrakech"
+                className="inline-flex items-center gap-2 bg-[#F97316] hover:bg-orange-600 text-white font-semibold px-5 py-2.5 rounded-xl transition-colors text-sm"
+              >
+                {fm.locale === "fr" ? "Voir Marrakech" : "Explore Marrakech"} &rarr;
+              </Link>
             </section>
           )}
 
