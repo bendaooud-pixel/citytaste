@@ -3249,6 +3249,66 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "placeSlug": undefined
       }
     ]
+  },
+  {
+    "title": "Top Cocktail Bars in Barcelona",
+    "slug": "cocktail-bars-barcelona",
+    "city": "Barcelona",
+    "citySlug": "barcelona",
+    "category": "Bars",
+    "coverImage": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=1200&q=80",
+    "publishedAt": "2026-06-15",
+    "readingTime": 8,
+    "metaDescription": "Where to drink seriously good cocktails in Barcelona — from Eixample speakeasies to El Born classics, with prices, tips and what to actually order.",
+    "intro": "Barcelona's cocktail scene didn't appear overnight — the city has been mixing drinks at a high level since the 1930s, when Boadas opened on Rambles and started shaking Daiquiris for Hemingway types. Today you'll find everything from white-jacketed old guard to mezcal-obsessed newcomers behind unmarked doors. This guide is for travelers who care more about a properly stirred Negroni than Instagram lighting. Expect to spend €12–€18 a drink at the good places, and book ahead for anywhere with fewer than 30 seats.",
+    "body": "## Why Barcelona for cocktail bars\n\nBarcelona punches well above its weight for cocktails — partly because rent in the Old Town still allows small, owner-run bars to survive, and partly because Spanish drinking culture rewards lingering. The best spots cluster in Eixample, El Born and the upper edges of the Gothic Quarter. Go between Tuesday and Thursday if you can; weekends in El Born get rowdy and tables disappear by 9pm.\n\n| Place | Price | Best For | Vibe |\n|-------|-------|----------|------|\n| Dr. Stravinsky | €14 | Adventurous drinkers | Apothecary, candlelit |\n| Paradiso | €16 | Special occasion | Speakeasy theatre |\n| Boadas | €10 | Classic cocktails | 1933 standing bar |\n| Sips | €18 | Cocktail nerds | Minimalist, world-ranked |\n| Caribbean Club | €11 | Late-night rum | Tiny, nautical, gruff |\n\n## Detailed Reviews\n\n### 1. Dr. Stravinsky\nTucked on a narrow El Born street, this place looks like a 1920s pharmacy crossed with a botanist's study — dried herbs hang from the ceiling, and most of the infusions are made in-house. The bartenders ferment, distill and pickle their own ingredients, which sounds insufferable until you taste the **Lacto-Fermented Strawberry Daiquiri**. Service can be slow when it's full, and it's almost always full.\n**Best for:** drinkers who want something they've never had before\n**Local tip:** Walk in right at 6pm opening for a seat at the bar — by 8pm there's a wait list outside.\n\n### 2. Paradiso\nYou enter through a fridge door at the back of a pastrami shop, which is now famous enough that there's usually a queue on Carrer de Rera Palau by 7:30pm. Once inside, it's all curved wood, smoke domes and theatrical garnishes — Paradiso has topped the World's 50 Best Bars list more than once, and they know it. The signature **Supercool**, served in a frozen glass with edible bubble, is genuinely good despite the spectacle.\n**Best for:** a memorable first night in Barcelona\n**Local tip:** Reserve online a week ahead; walk-ins after 10pm are nearly impossible on weekends.\n\n### 3. Boadas\nOpen since 1933 and barely changed, Boadas is a triangular standing bar near the top of La Rambla where white-jacketed bartenders flip drinks with the speed of people who've done this for 40 years. Don't ask for a menu — tell them what spirits you like and let them build it. The **Daiquiri** is the move, served short and ice-cold, and it costs less than a craft beer in El Born.\n**Best for:** classic cocktails done without ceremony\n**Local tip:** Closes Sunday and shuts at 2am other nights — go early evening when the regulars are in.\n\n### 4. Sips\nRanked the #1 bar in the world in 2023, Sips sits on a quiet stretch of Muntaner in Eixample and feels more like a tasting-menu restaurant than a cocktail bar. There's no menu; you sit, talk to your bartender, and drinks arrive in custom glassware that sometimes requires instructions. Worth it once — the **Tomato in Tomato** is unforgettable — but the prices and pacing aren't for casual nights out.\n**Best for:** people who'd happily spend two hours on three drinks\n**Local tip:** Book the early 6:30pm slot to actually get a seat and the bartenders' full attention.\n\n### 5. Caribbean Club\nA tiny rum bar behind an unmarked wooden door on Carrer de Sitges, just off La Rambla — easy to walk past three times. Inside it's dark, nautical and about 25 seats, run by people who take rum very seriously and small talk less so. Order the **Mai Tai** or ask for anything with their aged Caribbean rums; expect a cocktail under €12, which is rare in this part of town.\n**Best for:** a late, low-key second stop\n**Local tip:** Cash is preferred and they close Sundays — don't show up before 8pm or you'll find it shut.\n\n## Local Tips for cocktail bars barcelona\n\n- Tip your bartender €1–€2 per drink at the better places — not expected, but remembered\n- Reservations matter at Paradiso and Sips; for the others, arriving at opening time is the real hack\n- Skip cocktails on La Rambla itself — the bars one or two streets back are half the price and twice as good\n- Combine Dr. Stravinsky with dinner at **Bar del Pla** or **Cal Pep** nearby — both within five minutes' walk\n\n## FAQ\n\n### Q: What's the average price of a cocktail in Barcelona?\nA: At a proper cocktail bar, expect €11–€14 for classics and €14–€18 for signature drinks. Hotel bars and Paradiso-tier places push toward €18–€22. Boadas remains the bargain at around €10.\n\n### Q: Do I need to book cocktail bars in Barcelona?\nA: For Paradiso and Sips, yes — at least 3–7 days ahead, especially Thursday through Saturday. Dr. Stravinsky takes reservations for groups but walk-ins work if you arrive at opening. Boadas and Caribbean Club don't take bookings at all.\n\n### Q: Which Barcelona cocktail bar is best for a date?\nA: Dr. Stravinsky wins for atmosphere — candlelight, narrow tables, and drinks that give you something to talk about. Paradiso is more dramatic but louder; better for celebrating something specific than for real conversation.\n\n## The Verdict\n\n**Best for couples:** Dr. Stravinsky — the lighting and pace are made for it. **Best for budget:** Boadas, where €10 buys you a 90-year-old Daiquiri tradition. **Best for first-timers:** Paradiso, because the theatre is worth seeing once. **Best for locals:** Sips on a Tuesday, or Caribbean Club at midnight when the tourists have gone back to their hotels.",
+    "places": [
+      {
+        "name": "Dr. Stravinsky",
+        "description": "A candlelit El Born bar styled like a 19th-century apothecary, with dried botanicals overhead and infusion jars on every shelf. The team ferments and distills most ingredients in-house — the Lacto-Fermented Strawberry Daiquiri is a standout. It fills up fast and service slows once every seat is taken.",
+        "address": "Carrer dels Mirallers 5, 08003 Barcelona",
+        "rating": 4.7,
+        "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Paradiso",
+        "description": "Entered through a fridge door at the back of a pastrami shop, this El Born speakeasy has been ranked among the World's 50 Best Bars repeatedly. Expect curved wood interiors, smoke domes and signatures like the Supercool served with edible bubbles. The queues and theatre divide opinion, but the drinks hold up.",
+        "address": "Carrer de Rera Palau 4, 08003 Barcelona",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Boadas",
+        "description": "Barcelona's oldest cocktail bar, open since 1933, a triangular standing-room spot just off La Rambla. White-jacketed bartenders work without menus and flip drinks with practiced economy — the short, icy Daiquiri is the order. Tight space and brusque service are part of the charm, not a flaw.",
+        "address": "Carrer dels Tallers 1, 08001 Barcelona",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1525268323446-0505b6fe7778?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Sips",
+        "description": "A minimalist Eixample bar that took the #1 spot on the World's 50 Best Bars list in 2023. There's no written menu; you describe what you like and bartenders build drinks in custom glassware, sometimes with instructions. Prices and pacing make it a once-a-trip occasion rather than a regular hang.",
+        "address": "Carrer de Muntaner 108, 08036 Barcelona",
+        "rating": 4.8,
+        "image": "https://images.unsplash.com/photo-1572116469696-31de0f17cc34?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Caribbean Club",
+        "description": "A tiny, dark rum bar tucked behind an unmarked wooden door near La Rambla, easy to miss entirely. About 25 seats, a deep aged-rum selection and a Mai Tai under €12 — rare in this neighborhood. Service is gruff and they prefer cash, but regulars wouldn't have it any other way.",
+        "address": "Carrer de Sitges 5, 08001 Barcelona",
+        "rating": 4.4,
+        "image": "https://images.unsplash.com/photo-1536935338788-846bb9981813?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      }
+    ]
   }
 ];
 
