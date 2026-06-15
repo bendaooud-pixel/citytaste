@@ -7,9 +7,10 @@ import Footer from "@/components/Footer";
 
 const BASE = "https://www.citytaste.co";
 const CANONICAL = `${BASE}/cities/marrakech/meilleur-hammam`;
+const YEAR = new Date().getFullYear();
 
 export const metadata: Metadata = {
-  title: "Meilleur Hammam à Marrakech 2025 — Guide Complet",
+  title: `Meilleur Hammam à Marrakech ${YEAR} — Guide Complet`,
   description:
     "Les meilleurs hammams de Marrakech : bains publics traditionnels et spas de luxe. Prix, conseils et avis honnêtes.",
   alternates: {
@@ -17,7 +18,7 @@ export const metadata: Metadata = {
     languages: { en: `${BASE}/cities/marrakech/hammam` },
   },
   openGraph: {
-    title: "Meilleur Hammam à Marrakech 2025 — Guide Complet",
+    title: `Meilleur Hammam à Marrakech ${YEAR} — Guide Complet`,
     description: "Les meilleurs hammams de Marrakech : bains publics traditionnels et spas de luxe.",
     type: "website",
     url: CANONICAL,
@@ -90,7 +91,7 @@ export default function MeilleurHammamMarrakechPage() {
               <span className="text-white/80">Meilleur Hammam</span>
             </nav>
             <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4" style={{ fontFamily: "var(--font-playfair)" }}>
-              Meilleur Hammam &agrave; Marrakech 2025 — Guide Complet
+              Meilleur Hammam &agrave; Marrakech {YEAR} — Guide Complet
             </h1>
             <p className="text-slate-300 text-lg max-w-3xl">
               Le hammam est un rituel incontournable &agrave; Marrakech. Du bain public &agrave; 50 dirhams au spa priv&eacute; &agrave; 2000 dirhams au Royal Mansour, voici les meilleures adresses.

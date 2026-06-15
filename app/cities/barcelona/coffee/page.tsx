@@ -7,14 +7,15 @@ import Footer from "@/components/Footer";
 
 const BASE = "https://www.citytaste.co";
 const CANONICAL = `${BASE}/cities/barcelona/coffee`;
+const YEAR = new Date().getFullYear();
 
 export const metadata: Metadata = {
-  title: "Best Coffee Shops in Barcelona — From Espresso to Flat White (2025)",
-  description: "The best coffee shops in Barcelona — from traditional espresso at marble bars to specialty flat whites in El Born and Eixample. Updated 2025 local guide.",
+  title: `Best Coffee Shops in Barcelona — From Espresso to Flat White (${YEAR})`,
+  description: `The best coffee shops in Barcelona — from traditional espresso at marble bars to specialty flat whites in El Born and Eixample. Updated ${YEAR} local guide.`,
   alternates: { canonical: CANONICAL },
   openGraph: {
-    title: "Best Coffee Shops in Barcelona — From Espresso to Flat White (2025)",
-    description: "The best coffee shops in Barcelona — from traditional espresso at marble bars to specialty flat whites in El Born and Eixample. Updated 2025 local guide.",
+    title: `Best Coffee Shops in Barcelona — From Espresso to Flat White (${YEAR})`,
+    description: `The best coffee shops in Barcelona — from traditional espresso at marble bars to specialty flat whites in El Born and Eixample. Updated ${YEAR} local guide.`,
     type: "website",
     url: CANONICAL,
   },
@@ -76,7 +77,7 @@ export default function BarcelonaCoffeePage() {
               <span className="text-white/80">Coffee</span>
             </nav>
             <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4" style={{ fontFamily: "var(--font-playfair)" }}>
-              Best Coffee Shops in Barcelona — From Espresso to Flat White (2025)
+              Best Coffee Shops in Barcelona — From Espresso to Flat White ({YEAR})
             </h1>
             <p className="text-slate-300 text-lg max-w-3xl">
               Barcelona&apos;s coffee scene exists on two parallel tracks. The traditional track is the espresso at the marble bar for €1.20. The specialty track is the Australian-influenced flat white culture that arrived in the 2010s. Both are excellent — this guide covers the best of each.

@@ -7,9 +7,10 @@ import Footer from "@/components/Footer";
 
 const BASE = "https://www.citytaste.co";
 const CANONICAL = `${BASE}/cities/marrakech/spa`;
+const YEAR = new Date().getFullYear();
 
 export const metadata: Metadata = {
-  title: "Best Spas in Marrakech 2025 — Hammams & Luxury Wellness",
+  title: `Best Spas in Marrakech ${YEAR} — Hammams & Luxury Wellness`,
   description:
     "The best spas and hammams in Marrakech from traditional public baths to five-star wellness retreats. Prices, tips and honest reviews.",
   alternates: {
@@ -17,7 +18,7 @@ export const metadata: Metadata = {
     languages: { fr: `${BASE}/cities/marrakech/meilleur-spa` },
   },
   openGraph: {
-    title: "Best Spas in Marrakech 2025 — Hammams & Luxury Wellness",
+    title: `Best Spas in Marrakech ${YEAR} — Hammams & Luxury Wellness`,
     description: "The best spas and hammams in Marrakech from traditional public baths to five-star wellness retreats.",
     type: "website",
     url: CANONICAL,
@@ -79,7 +80,7 @@ export default function MarrakechSpaPage() {
               <span className="text-white/80">Spas</span>
             </nav>
             <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4" style={{ fontFamily: "var(--font-playfair)" }}>
-              Best Spas in Marrakech 2025 — Hammams &amp; Luxury Wellness
+              Best Spas in Marrakech {YEAR} — Hammams &amp; Luxury Wellness
             </h1>
             <p className="text-slate-300 text-lg max-w-3xl">
               From the ancient rituals of a traditional hammam to the marble-clad sanctuaries of five-star palaces, Marrakech is one of the world&apos;s great wellness destinations.

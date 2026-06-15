@@ -7,14 +7,15 @@ import Footer from "@/components/Footer";
 
 const BASE = "https://www.citytaste.co";
 const CANONICAL = `${BASE}/cities/marrakech/meilleur-tajine`;
+const YEAR = new Date().getFullYear();
 
 export const metadata: Metadata = {
-  title: "Meilleur Tajine à Marrakech 2025 — Guide Local",
+  title: `Meilleur Tajine à Marrakech ${YEAR} — Guide Local`,
   description:
     "Où manger le meilleur tajine à Marrakech ? Agneau aux pruneaux, poulet au citron confit, kefta — les vraies bonnes adresses.",
   alternates: { canonical: CANONICAL },
   openGraph: {
-    title: "Meilleur Tajine à Marrakech 2025 — Guide Local",
+    title: `Meilleur Tajine à Marrakech ${YEAR} — Guide Local`,
     description: "Où manger le meilleur tajine à Marrakech ? Les vraies bonnes adresses testées par des locaux.",
     type: "website",
     url: CANONICAL,
@@ -85,7 +86,7 @@ export default function MeilleurTajineMarrakechPage() {
               <span className="text-white/80">Meilleur Tajine</span>
             </nav>
             <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4" style={{ fontFamily: "var(--font-playfair)" }}>
-              Meilleur Tajine &agrave; Marrakech 2025 — Guide Local
+              Meilleur Tajine &agrave; Marrakech {YEAR} — Guide Local
             </h1>
             <p className="text-slate-300 text-lg max-w-3xl">
               Le tajine est l&apos;&acirc;me de la cuisine marocaine. Cuit lentement dans son plat en terre, chaque tajine raconte une histoire de saveurs — agneau aux pruneaux, poulet au citron confit, kefta aux &oelig;ufs.

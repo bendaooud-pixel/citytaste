@@ -7,14 +7,15 @@ import Footer from "@/components/Footer";
 
 const BASE = "https://www.citytaste.co";
 const CANONICAL = `${BASE}/cities/barcelona/bars`;
+const YEAR = new Date().getFullYear();
 
 export const metadata: Metadata = {
-  title: "Best Bars in Barcelona — Where Locals Actually Drink (2025)",
-  description: "Discover the best bars in Barcelona from vermouth bars in El Born to rooftop cocktail bars in Eixample. Updated 2025 local guide.",
+  title: `Best Bars in Barcelona — Where Locals Actually Drink (${YEAR})`,
+  description: `Discover the best bars in Barcelona from vermouth bars in El Born to rooftop cocktail bars in Eixample. Updated ${YEAR} local guide.`,
   alternates: { canonical: CANONICAL },
   openGraph: {
-    title: "Best Bars in Barcelona — Where Locals Actually Drink (2025)",
-    description: "Discover the best bars in Barcelona from vermouth bars in El Born to rooftop cocktail bars in Eixample. Updated 2025 local guide.",
+    title: `Best Bars in Barcelona — Where Locals Actually Drink (${YEAR})`,
+    description: `Discover the best bars in Barcelona from vermouth bars in El Born to rooftop cocktail bars in Eixample. Updated ${YEAR} local guide.`,
     type: "website",
     url: CANONICAL,
   },
@@ -76,7 +77,7 @@ export default function BarcelonaBarPage() {
               <span className="text-white/80">Bars</span>
             </nav>
             <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4" style={{ fontFamily: "var(--font-playfair)" }}>
-              Best Bars in Barcelona — Where Locals Actually Drink (2025)
+              Best Bars in Barcelona — Where Locals Actually Drink ({YEAR})
             </h1>
             <p className="text-slate-300 text-lg max-w-3xl">
               Barcelona&apos;s bar scene operates on its own timezone — nobody orders a drink before 9pm and the best conversations happen after midnight. From absinthe rituals at Bar Marsella to theatrical cocktails at Paradiso, a night out here is unlike anywhere in Europe.

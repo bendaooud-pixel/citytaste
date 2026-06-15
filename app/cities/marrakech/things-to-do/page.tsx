@@ -7,16 +7,17 @@ import Footer from "@/components/Footer";
 
 const BASE = "https://www.citytaste.co";
 const CANONICAL = `${BASE}/cities/marrakech/things-to-do`;
+const YEAR = new Date().getFullYear();
 
 export const metadata: Metadata = {
-  title: "Best Things to Do in Marrakech 2025 — Complete Guide",
+  title: `Best Things to Do in Marrakech ${YEAR} — Complete Guide`,
   description:
-    "From hot air balloons to souk tours — the best things to do in Marrakech for every type of traveler in 2025.",
+    `From hot air balloons to souk tours — the best things to do in Marrakech for every type of traveler in ${YEAR}.`,
   alternates: { canonical: CANONICAL },
   openGraph: {
-    title: "Best Things to Do in Marrakech 2025 — Complete Guide",
+    title: `Best Things to Do in Marrakech ${YEAR} — Complete Guide`,
     description:
-      "From hot air balloons to souk tours — the best things to do in Marrakech for every type of traveler in 2025.",
+      `From hot air balloons to souk tours — the best things to do in Marrakech for every type of traveler in ${YEAR}.`,
     type: "website",
     url: CANONICAL,
   },
@@ -110,7 +111,7 @@ export default function MarrakechThingsToDoPage() {
               className="text-4xl md:text-5xl font-bold leading-tight mb-4"
               style={{ fontFamily: "var(--font-playfair)" }}
             >
-              Best Things to Do in Marrakech 2025 — Complete Guide
+              Best Things to Do in Marrakech {YEAR} — Complete Guide
             </h1>
             <p className="text-slate-300 text-lg max-w-3xl">
               Marrakech hits differently than most cities — the medina walls, the

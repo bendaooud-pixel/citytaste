@@ -7,9 +7,10 @@ import Footer from "@/components/Footer";
 
 const BASE = "https://www.citytaste.co";
 const CANONICAL = `${BASE}/cities/marrakech/meilleur-brunch`;
+const YEAR = new Date().getFullYear();
 
 export const metadata: Metadata = {
-  title: "Meilleur Brunch à Marrakech 2025 — Petit-Déjeuner & Brunch",
+  title: `Meilleur Brunch à Marrakech ${YEAR} — Petit-Déjeuner & Brunch`,
   description:
     "Les meilleurs brunchs de Marrakech : terrasses de riads, palaces et cafés branchés. Guide local avec prix et conseils.",
   alternates: {
@@ -17,7 +18,7 @@ export const metadata: Metadata = {
     languages: { en: `${BASE}/cities/marrakech/breakfast` },
   },
   openGraph: {
-    title: "Meilleur Brunch à Marrakech 2025 — Petit-Déjeuner & Brunch",
+    title: `Meilleur Brunch à Marrakech ${YEAR} — Petit-Déjeuner & Brunch`,
     description: "Les meilleurs brunchs de Marrakech : terrasses de riads, palaces et cafés branchés.",
     type: "website",
     url: CANONICAL,
@@ -89,7 +90,7 @@ export default function MeilleurBrunchMarrakechPage() {
               <span className="text-white/80">Meilleur Brunch</span>
             </nav>
             <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4" style={{ fontFamily: "var(--font-playfair)" }}>
-              Meilleur Brunch &agrave; Marrakech 2025 — Guide Local
+              Meilleur Brunch &agrave; Marrakech {YEAR} — Guide Local
             </h1>
             <p className="text-slate-300 text-lg max-w-3xl">
               Le petit-d&eacute;jeuner marocain est un art : msemen, amlou, th&eacute; &agrave; la menthe et olives dispos&eacute;s sur une terrasse de riad ensoleill&eacute;e. Voici o&ugrave; bruncher &agrave; Marrakech.

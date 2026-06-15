@@ -7,9 +7,10 @@ import Footer from "@/components/Footer";
 
 const BASE = "https://www.citytaste.co";
 const CANONICAL = `${BASE}/cities/marrakech/hammam`;
+const YEAR = new Date().getFullYear();
 
 export const metadata: Metadata = {
-  title: "Best Hammams in Marrakech 2025 — Complete Guide",
+  title: `Best Hammams in Marrakech ${YEAR} — Complete Guide`,
   description:
     "Find the best hammams in Marrakech from traditional public baths to luxury spa experiences. Prices and honest tips.",
   alternates: {
@@ -17,7 +18,7 @@ export const metadata: Metadata = {
     languages: { fr: `${BASE}/cities/marrakech/meilleur-hammam` },
   },
   openGraph: {
-    title: "Best Hammams in Marrakech 2025 — Complete Guide",
+    title: `Best Hammams in Marrakech ${YEAR} — Complete Guide`,
     description:
       "Find the best hammams in Marrakech from traditional public baths to luxury spa experiences. Prices and honest tips.",
     type: "website",
@@ -112,7 +113,7 @@ export default function MarrakechHammamPage() {
               className="text-4xl md:text-5xl font-bold leading-tight mb-4"
               style={{ fontFamily: "var(--font-playfair)" }}
             >
-              Best Hammams in Marrakech 2025 — Complete Guide
+              Best Hammams in Marrakech {YEAR} — Complete Guide
             </h1>
             <p className="text-slate-300 text-lg max-w-3xl">
               The hammam is the most Moroccan experience you&apos;ll have in

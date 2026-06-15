@@ -7,19 +7,20 @@ import Footer from "@/components/Footer";
 
 const BASE = "https://www.citytaste.co";
 const CANONICAL = `${BASE}/cities/marrakech/restaurants`;
+const YEAR = new Date().getFullYear();
 
 export const metadata: Metadata = {
-  title: "Best Restaurants in Marrakech 2025 — Local Guide",
+  title: `Best Restaurants in Marrakech ${YEAR} — Local Guide`,
   description:
-    "Discover the best restaurants in Marrakech from rooftop dining to hidden medina gems. Honest local guide updated 2025.",
+    `Discover the best restaurants in Marrakech from rooftop dining to hidden medina gems. Honest local guide updated ${YEAR}.`,
   alternates: {
     canonical: CANONICAL,
     languages: { fr: `${BASE}/cities/marrakech/meilleur-restaurant` },
   },
   openGraph: {
-    title: "Best Restaurants in Marrakech 2025 — Local Guide",
+    title: `Best Restaurants in Marrakech ${YEAR} — Local Guide`,
     description:
-      "Discover the best restaurants in Marrakech from rooftop dining to hidden medina gems. Honest local guide updated 2025.",
+      `Discover the best restaurants in Marrakech from rooftop dining to hidden medina gems. Honest local guide updated ${YEAR}.`,
     type: "website",
     url: CANONICAL,
   },
@@ -110,7 +111,7 @@ export default function MarrakechRestaurantsPage() {
               className="text-4xl md:text-5xl font-bold leading-tight mb-4"
               style={{ fontFamily: "var(--font-playfair)" }}
             >
-              Best Restaurants in Marrakech 2025 — Local Guide
+              Best Restaurants in Marrakech {YEAR} — Local Guide
             </h1>
             <p className="text-slate-300 text-lg max-w-3xl">
               Eating in Marrakech is an assault on the senses in the best way.

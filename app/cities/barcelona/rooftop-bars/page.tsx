@@ -7,14 +7,15 @@ import Footer from "@/components/Footer";
 
 const BASE = "https://www.citytaste.co";
 const CANONICAL = `${BASE}/cities/barcelona/rooftop-bars`;
+const YEAR = new Date().getFullYear();
 
 export const metadata: Metadata = {
-  title: "Best Rooftop Bars in Barcelona — Sunset Views & Cocktails (2025)",
-  description: "The best rooftop bars in Barcelona for sunset cocktails — from the W hotel's Eclipse Bar to Mirablau on Tibidabo. Updated 2025 local guide.",
+  title: `Best Rooftop Bars in Barcelona — Sunset Views & Cocktails (${YEAR})`,
+  description: `The best rooftop bars in Barcelona for sunset cocktails — from the W hotel's Eclipse Bar to Mirablau on Tibidabo. Updated ${YEAR} local guide.`,
   alternates: { canonical: CANONICAL },
   openGraph: {
-    title: "Best Rooftop Bars in Barcelona — Sunset Views & Cocktails (2025)",
-    description: "The best rooftop bars in Barcelona for sunset cocktails — from the W hotel's Eclipse Bar to Mirablau on Tibidabo. Updated 2025 local guide.",
+    title: `Best Rooftop Bars in Barcelona — Sunset Views & Cocktails (${YEAR})`,
+    description: `The best rooftop bars in Barcelona for sunset cocktails — from the W hotel's Eclipse Bar to Mirablau on Tibidabo. Updated ${YEAR} local guide.`,
     type: "website",
     url: CANONICAL,
   },
@@ -76,7 +77,7 @@ export default function BarcelonaRooftopPage() {
               <span className="text-white/80">Rooftop Bars</span>
             </nav>
             <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4" style={{ fontFamily: "var(--font-playfair)" }}>
-              Best Rooftop Bars in Barcelona — Sunset Views &amp; Cocktails (2025)
+              Best Rooftop Bars in Barcelona — Sunset Views &amp; Cocktails ({YEAR})
             </h1>
             <p className="text-slate-300 text-lg max-w-3xl">
               Barcelona is a rooftop city — the Eixample grid, Montjuïc, the sea, the distant outline of the Pyrenees — all of it visible from the right terrace. The golden rule: come at sunset (8:30–9:30pm in summer) and book ahead.

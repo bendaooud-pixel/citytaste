@@ -7,19 +7,20 @@ import Footer from "@/components/Footer";
 
 const BASE = "https://www.citytaste.co";
 const CANONICAL = `${BASE}/cities/marrakech/meilleur-restaurant`;
+const YEAR = new Date().getFullYear();
 
 export const metadata: Metadata = {
-  title: "Meilleur Restaurant à Marrakech 2025 — Guide Local",
+  title: `Meilleur Restaurant à Marrakech ${YEAR} — Guide Local`,
   description:
-    "Découvrez les meilleurs restaurants de Marrakech, de la médina aux palaces luxueux. Guide honnête mis à jour 2025.",
+    `Découvrez les meilleurs restaurants de Marrakech, de la médina aux palaces luxueux. Guide honnête mis à jour ${YEAR}.`,
   alternates: {
     canonical: CANONICAL,
     languages: { en: `${BASE}/cities/marrakech/restaurants` },
   },
   openGraph: {
-    title: "Meilleur Restaurant à Marrakech 2025 — Guide Local",
+    title: `Meilleur Restaurant à Marrakech ${YEAR} — Guide Local`,
     description:
-      "Découvrez les meilleurs restaurants de Marrakech, de la médina aux palaces luxueux. Guide honnête mis à jour 2025.",
+      `Découvrez les meilleurs restaurants de Marrakech, de la médina aux palaces luxueux. Guide honnête mis à jour ${YEAR}.`,
     type: "website",
     url: CANONICAL,
   },
@@ -153,7 +154,7 @@ export default function MeilleurRestaurantMarrakechPage() {
               className="text-4xl md:text-5xl font-bold leading-tight mb-4"
               style={{ fontFamily: "var(--font-playfair)" }}
             >
-              Meilleur Restaurant &agrave; Marrakech 2025 — Guide Local
+              Meilleur Restaurant &agrave; Marrakech {YEAR} — Guide Local
             </h1>
             <p className="text-slate-300 text-lg max-w-3xl">
               Manger &agrave; Marrakech, c&apos;est une aventure sensorielle

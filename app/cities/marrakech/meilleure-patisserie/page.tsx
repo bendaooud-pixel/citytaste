@@ -7,14 +7,15 @@ import Footer from "@/components/Footer";
 
 const BASE = "https://www.citytaste.co";
 const CANONICAL = `${BASE}/cities/marrakech/meilleure-patisserie`;
+const YEAR = new Date().getFullYear();
 
 export const metadata: Metadata = {
-  title: "Meilleure Pâtisserie à Marrakech 2025 — Guide Gourmand",
+  title: `Meilleure Pâtisserie à Marrakech ${YEAR} — Guide Gourmand`,
   description:
     "Les meilleures pâtisseries de Marrakech : cornes de gazelle, chebakia, pastilla sucrée et pâtisseries françaises. Guide local.",
   alternates: { canonical: CANONICAL },
   openGraph: {
-    title: "Meilleure Pâtisserie à Marrakech 2025 — Guide Gourmand",
+    title: `Meilleure Pâtisserie à Marrakech ${YEAR} — Guide Gourmand`,
     description: "Les meilleures pâtisseries de Marrakech : cornes de gazelle, chebakia et pâtisseries françaises.",
     type: "website",
     url: CANONICAL,
@@ -85,7 +86,7 @@ export default function MeilleurePatisserieMarrakechPage() {
               <span className="text-white/80">Meilleure P&acirc;tisserie</span>
             </nav>
             <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4" style={{ fontFamily: "var(--font-playfair)" }}>
-              Meilleure P&acirc;tisserie &agrave; Marrakech 2025 — Guide Gourmand
+              Meilleure P&acirc;tisserie &agrave; Marrakech {YEAR} — Guide Gourmand
             </h1>
             <p className="text-slate-300 text-lg max-w-3xl">
               La p&acirc;tisserie marocaine est un art ancestral — cornes de gazelle, chebakia au miel, briouates aux amandes. &Agrave; Marrakech, ces d&eacute;lices c&ocirc;toient les meilleures p&acirc;tisseries fran&ccedil;aises.

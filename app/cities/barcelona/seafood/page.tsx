@@ -7,14 +7,15 @@ import Footer from "@/components/Footer";
 
 const BASE = "https://www.citytaste.co";
 const CANONICAL = `${BASE}/cities/barcelona/seafood`;
+const YEAR = new Date().getFullYear();
 
 export const metadata: Metadata = {
-  title: "Best Seafood Restaurants in Barcelona — Fresh from the Port (2025)",
-  description: "The best seafood restaurants in Barcelona — arroz negro, fideuà and the freshest fish from the port. Updated 2025 local guide.",
+  title: `Best Seafood Restaurants in Barcelona — Fresh from the Port (${YEAR})`,
+  description: `The best seafood restaurants in Barcelona — arroz negro, fideuà and the freshest fish from the port. Updated ${YEAR} local guide.`,
   alternates: { canonical: CANONICAL },
   openGraph: {
-    title: "Best Seafood Restaurants in Barcelona — Fresh from the Port (2025)",
-    description: "The best seafood restaurants in Barcelona — arroz negro, fideuà and the freshest fish from the port. Updated 2025 local guide.",
+    title: `Best Seafood Restaurants in Barcelona — Fresh from the Port (${YEAR})`,
+    description: `The best seafood restaurants in Barcelona — arroz negro, fideuà and the freshest fish from the port. Updated ${YEAR} local guide.`,
     type: "website",
     url: CANONICAL,
   },
@@ -76,7 +77,7 @@ export default function BarcelonaSeafoodPage() {
               <span className="text-white/80">Seafood</span>
             </nav>
             <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4" style={{ fontFamily: "var(--font-playfair)" }}>
-              Best Seafood Restaurants in Barcelona — Fresh from the Port (2025)
+              Best Seafood Restaurants in Barcelona — Fresh from the Port ({YEAR})
             </h1>
             <p className="text-slate-300 text-lg max-w-3xl">
               Barcelona is 20 minutes from the Mediterranean and the fishing boats still come in at the port every morning. The city&apos;s seafood restaurants range from legendary dining rooms serving arroz negro since 1836, to no-sign counter bars where the razor clams were alive an hour ago.

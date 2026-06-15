@@ -7,14 +7,15 @@ import Footer from "@/components/Footer";
 
 const BASE = "https://www.citytaste.co";
 const CANONICAL = `${BASE}/cities/barcelona/italian-restaurants`;
+const YEAR = new Date().getFullYear();
 
 export const metadata: Metadata = {
-  title: "Best Italian Restaurants in Barcelona — Tested & Approved (2025)",
-  description: "The best Italian restaurants in Barcelona — from fresh pasta in Eixample to Neapolitan pizza in Gràcia. Updated 2025 local guide.",
+  title: `Best Italian Restaurants in Barcelona — Tested & Approved (${YEAR})`,
+  description: `The best Italian restaurants in Barcelona — from fresh pasta in Eixample to Neapolitan pizza in Gràcia. Updated ${YEAR} local guide.`,
   alternates: { canonical: CANONICAL },
   openGraph: {
-    title: "Best Italian Restaurants in Barcelona — Tested & Approved (2025)",
-    description: "The best Italian restaurants in Barcelona — from fresh pasta in Eixample to Neapolitan pizza in Gràcia. Updated 2025 local guide.",
+    title: `Best Italian Restaurants in Barcelona — Tested & Approved (${YEAR})`,
+    description: `The best Italian restaurants in Barcelona — from fresh pasta in Eixample to Neapolitan pizza in Gràcia. Updated ${YEAR} local guide.`,
     type: "website",
     url: CANONICAL,
   },
@@ -76,7 +77,7 @@ export default function BarcelonaItalianPage() {
               <span className="text-white/80">Italian Restaurants</span>
             </nav>
             <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4" style={{ fontFamily: "var(--font-playfair)" }}>
-              Best Italian Restaurants in Barcelona — Tested &amp; Approved (2025)
+              Best Italian Restaurants in Barcelona — Tested &amp; Approved ({YEAR})
             </h1>
             <p className="text-slate-300 text-lg max-w-3xl">
               Barcelona has a long Italian immigrant history going back to the 19th century, and the city&apos;s Italian restaurant scene is more serious than most visitors expect. The best pasta is homemade fresh daily and a few spots are regularly visited by Italian expats — the highest endorsement possible.

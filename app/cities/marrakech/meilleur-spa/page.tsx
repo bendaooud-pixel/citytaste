@@ -7,9 +7,10 @@ import Footer from "@/components/Footer";
 
 const BASE = "https://www.citytaste.co";
 const CANONICAL = `${BASE}/cities/marrakech/meilleur-spa`;
+const YEAR = new Date().getFullYear();
 
 export const metadata: Metadata = {
-  title: "Meilleur Spa à Marrakech 2025 — Hammams & Bien-Être de Luxe",
+  title: `Meilleur Spa à Marrakech ${YEAR} — Hammams & Bien-Être de Luxe`,
   description:
     "Les meilleurs spas de Marrakech : hammams traditionnels et centres de bien-être cinq étoiles. Prix, conseils et avis.",
   alternates: {
@@ -17,7 +18,7 @@ export const metadata: Metadata = {
     languages: { en: `${BASE}/cities/marrakech/spa` },
   },
   openGraph: {
-    title: "Meilleur Spa à Marrakech 2025 — Hammams & Bien-Être de Luxe",
+    title: `Meilleur Spa à Marrakech ${YEAR} — Hammams & Bien-Être de Luxe`,
     description: "Les meilleurs spas de Marrakech : hammams traditionnels et centres de bien-être cinq étoiles.",
     type: "website",
     url: CANONICAL,
@@ -89,7 +90,7 @@ export default function MeilleurSpaMarrakechPage() {
               <span className="text-white/80">Meilleur Spa</span>
             </nav>
             <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4" style={{ fontFamily: "var(--font-playfair)" }}>
-              Meilleur Spa &agrave; Marrakech 2025 — Hammams &amp; Bien-&Ecirc;tre
+              Meilleur Spa &agrave; Marrakech {YEAR} — Hammams &amp; Bien-&Ecirc;tre
             </h1>
             <p className="text-slate-300 text-lg max-w-3xl">
               Des rituels ancestraux du hammam traditionnel aux sanctuaires de marbre des palaces cinq &eacute;toiles, Marrakech est l&apos;une des grandes destinations bien-&ecirc;tre au monde.

@@ -5,7 +5,7 @@ import { getAllArticles } from "@/lib/blogData";
 const BASE_URL = "https://www.citytaste.co";
 
 // Static pages last modified date — bump this when design changes
-const SITE_UPDATED = new Date("2025-05-01");
+const SITE_UPDATED = new Date("2026-06-15");
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes: MetadataRoute.Sitemap = [
@@ -42,7 +42,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const barcelonaCategoryRoutes: MetadataRoute.Sitemap = BARCELONA_SEO_PAGES.map((slug) => ({
     url: `${BASE_URL}/cities/barcelona/${slug}`,
-    lastModified: new Date("2025-06-09"),
+    lastModified: new Date("2026-06-15"),
     changeFrequency: "monthly" as const,
     priority: 0.8,
   }));

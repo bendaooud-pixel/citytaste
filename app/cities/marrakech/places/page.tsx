@@ -7,14 +7,15 @@ import Footer from "@/components/Footer";
 
 const BASE = "https://www.citytaste.co";
 const CANONICAL = `${BASE}/cities/marrakech/places`;
+const YEAR = new Date().getFullYear();
 
 export const metadata: Metadata = {
-  title: "Best Places in Marrakech 2025 — Hidden Gems & Classics",
+  title: `Best Places in Marrakech ${YEAR} — Hidden Gems & Classics`,
   description:
     "The best places to visit in Marrakech from the iconic Jemaa el-Fna to hidden medina gems locals love.",
   alternates: { canonical: CANONICAL },
   openGraph: {
-    title: "Best Places in Marrakech 2025 — Hidden Gems & Classics",
+    title: `Best Places in Marrakech ${YEAR} — Hidden Gems & Classics`,
     description:
       "The best places to visit in Marrakech from the iconic Jemaa el-Fna to hidden medina gems locals love.",
     type: "website",
@@ -111,7 +112,7 @@ export default function MarrakechPlacesPage() {
               className="text-4xl md:text-5xl font-bold leading-tight mb-4"
               style={{ fontFamily: "var(--font-playfair)" }}
             >
-              Best Places in Marrakech 2025 — Hidden Gems &amp; Classics
+              Best Places in Marrakech {YEAR} — Hidden Gems &amp; Classics
             </h1>
             <p className="text-slate-300 text-lg max-w-3xl">
               Marrakech is a city of layers — behind every unmarked door,

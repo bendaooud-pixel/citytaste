@@ -7,14 +7,15 @@ import Footer from "@/components/Footer";
 
 const BASE = "https://www.citytaste.co";
 const CANONICAL = `${BASE}/cities/marrakech/meilleur-riad`;
+const YEAR = new Date().getFullYear();
 
 export const metadata: Metadata = {
-  title: "Meilleur Riad à Marrakech 2025 — Hébergements de Charme",
+  title: `Meilleur Riad à Marrakech ${YEAR} — Hébergements de Charme`,
   description:
     "Les meilleurs riads de Marrakech : de la maison d'hôtes intimiste au palace. Sélection honnête avec prix et quartiers.",
   alternates: { canonical: CANONICAL },
   openGraph: {
-    title: "Meilleur Riad à Marrakech 2025 — Hébergements de Charme",
+    title: `Meilleur Riad à Marrakech ${YEAR} — Hébergements de Charme`,
     description: "Les meilleurs riads de Marrakech : de la maison d'hôtes intimiste au palace.",
     type: "website",
     url: CANONICAL,
@@ -87,7 +88,7 @@ export default function MeilleurRiadMarrakechPage() {
               <span className="text-white/80">Meilleur Riad</span>
             </nav>
             <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4" style={{ fontFamily: "var(--font-playfair)" }}>
-              Meilleur Riad &agrave; Marrakech 2025 — H&eacute;bergements de Charme
+              Meilleur Riad &agrave; Marrakech {YEAR} — H&eacute;bergements de Charme
             </h1>
             <p className="text-slate-300 text-lg max-w-3xl">
               Dormir dans un riad, c&apos;est vivre Marrakech de l&apos;int&eacute;rieur — cours int&eacute;rieures plant&eacute;es d&apos;orangers, fontaines en zellige, terrasses avec vue sur l&apos;Atlas. Voici les meilleurs.

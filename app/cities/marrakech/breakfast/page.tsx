@@ -7,9 +7,10 @@ import Footer from "@/components/Footer";
 
 const BASE = "https://www.citytaste.co";
 const CANONICAL = `${BASE}/cities/marrakech/breakfast`;
+const YEAR = new Date().getFullYear();
 
 export const metadata: Metadata = {
-  title: "Best Breakfast & Brunch in Marrakech 2025 — Local Guide",
+  title: `Best Breakfast & Brunch in Marrakech ${YEAR} — Local Guide`,
   description:
     "The best breakfast and brunch spots in Marrakech from rooftop terraces to hidden riad courtyards. Honest prices and local tips.",
   alternates: {
@@ -17,7 +18,7 @@ export const metadata: Metadata = {
     languages: { fr: `${BASE}/cities/marrakech/meilleur-brunch` },
   },
   openGraph: {
-    title: "Best Breakfast & Brunch in Marrakech 2025 — Local Guide",
+    title: `Best Breakfast & Brunch in Marrakech ${YEAR} — Local Guide`,
     description:
       "The best breakfast and brunch spots in Marrakech from rooftop terraces to hidden riad courtyards.",
     type: "website",
@@ -80,7 +81,7 @@ export default function MarrakechBreakfastPage() {
               <span className="text-white/80">Breakfast</span>
             </nav>
             <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4" style={{ fontFamily: "var(--font-playfair)" }}>
-              Best Breakfast &amp; Brunch in Marrakech 2025 — Local Guide
+              Best Breakfast &amp; Brunch in Marrakech {YEAR} — Local Guide
             </h1>
             <p className="text-slate-300 text-lg max-w-3xl">
               Moroccan breakfast is an art form — freshly baked msemen, amlou dip, mint tea, and olives laid out on a sunlit riad terrace. Skip the hotel buffet and eat where Marrakchis do.

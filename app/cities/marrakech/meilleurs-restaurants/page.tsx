@@ -7,9 +7,10 @@ import Footer from "@/components/Footer";
 
 const BASE = "https://www.citytaste.co";
 const CANONICAL = `${BASE}/cities/marrakech/meilleurs-restaurants`;
+const YEAR = new Date().getFullYear();
 
 export const metadata: Metadata = {
-  title: "Meilleurs Restaurants à Marrakech 2025 — Sélection CityTaste",
+  title: `Meilleurs Restaurants à Marrakech ${YEAR} — Sélection CityTaste`,
   description:
     "Notre sélection des meilleurs restaurants de Marrakech testés et approuvés. De la street food aux tables gastronomiques.",
   alternates: {
@@ -17,7 +18,7 @@ export const metadata: Metadata = {
     languages: { en: `${BASE}/cities/marrakech/restaurants` },
   },
   openGraph: {
-    title: "Meilleurs Restaurants à Marrakech 2025 — Sélection CityTaste",
+    title: `Meilleurs Restaurants à Marrakech ${YEAR} — Sélection CityTaste`,
     description:
       "Notre sélection des meilleurs restaurants de Marrakech testés et approuvés. De la street food aux tables gastronomiques.",
     type: "website",
@@ -153,7 +154,7 @@ export default function MeilleursRestaurantsMarrakechPage() {
               className="text-4xl md:text-5xl font-bold leading-tight mb-4"
               style={{ fontFamily: "var(--font-playfair)" }}
             >
-              Meilleurs Restaurants &agrave; Marrakech 2025 — S&eacute;lection
+              Meilleurs Restaurants &agrave; Marrakech {YEAR} — S&eacute;lection
               CityTaste
             </h1>
             <p className="text-slate-300 text-lg max-w-3xl">

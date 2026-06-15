@@ -7,14 +7,15 @@ import Footer from "@/components/Footer";
 
 const BASE = "https://www.citytaste.co";
 const CANONICAL = `${BASE}/cities/marrakech/meilleur-couscous`;
+const YEAR = new Date().getFullYear();
 
 export const metadata: Metadata = {
-  title: "Meilleur Couscous à Marrakech 2025 — Guide Local",
+  title: `Meilleur Couscous à Marrakech ${YEAR} — Guide Local`,
   description:
     "Où manger le meilleur couscous à Marrakech ? Des adresses authentiques du vendredi aux restaurants gastronomiques. Guide honnête.",
   alternates: { canonical: CANONICAL },
   openGraph: {
-    title: "Meilleur Couscous à Marrakech 2025 — Guide Local",
+    title: `Meilleur Couscous à Marrakech ${YEAR} — Guide Local`,
     description: "Où manger le meilleur couscous à Marrakech ? Des adresses authentiques du vendredi aux restaurants gastronomiques.",
     type: "website",
     url: CANONICAL,
@@ -85,7 +86,7 @@ export default function MeilleurCouscousMarrakechPage() {
               <span className="text-white/80">Meilleur Couscous</span>
             </nav>
             <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4" style={{ fontFamily: "var(--font-playfair)" }}>
-              Meilleur Couscous &agrave; Marrakech 2025 — Guide Local
+              Meilleur Couscous &agrave; Marrakech {YEAR} — Guide Local
             </h1>
             <p className="text-slate-300 text-lg max-w-3xl">
               Le couscous du vendredi est une institution au Maroc. &Agrave; Marrakech, ce plat sacr&eacute; se d&eacute;cline du couscous familial g&eacute;n&eacute;reux au couscous royal dress&eacute; dans un riad palatial.

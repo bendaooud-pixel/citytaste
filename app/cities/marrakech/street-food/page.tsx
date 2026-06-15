@@ -7,14 +7,15 @@ import Footer from "@/components/Footer";
 
 const BASE = "https://www.citytaste.co";
 const CANONICAL = `${BASE}/cities/marrakech/street-food`;
+const YEAR = new Date().getFullYear();
 
 export const metadata: Metadata = {
-  title: "Best Street Food in Marrakech 2025 — Cheap Eats Guide",
+  title: `Best Street Food in Marrakech ${YEAR} — Cheap Eats Guide`,
   description:
     "The best street food in Marrakech from Jemaa el-Fna stalls to hidden medina gems. What to eat, where to find it, and how much to pay.",
   alternates: { canonical: CANONICAL },
   openGraph: {
-    title: "Best Street Food in Marrakech 2025 — Cheap Eats Guide",
+    title: `Best Street Food in Marrakech ${YEAR} — Cheap Eats Guide`,
     description: "The best street food in Marrakech from Jemaa el-Fna stalls to hidden medina gems.",
     type: "website",
     url: CANONICAL,
@@ -74,7 +75,7 @@ export default function MarrakechStreetFoodPage() {
               <span className="text-white/80">Street Food</span>
             </nav>
             <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4" style={{ fontFamily: "var(--font-playfair)" }}>
-              Best Street Food in Marrakech 2025 — Cheap Eats Guide
+              Best Street Food in Marrakech {YEAR} — Cheap Eats Guide
             </h1>
             <p className="text-slate-300 text-lg max-w-3xl">
               Marrakech&apos;s street food scene is legendary — from the smoky grills of Jemaa el-Fna to the hole-in-the-wall tangia specialists in the medina. Eat like a local for under &euro;5.

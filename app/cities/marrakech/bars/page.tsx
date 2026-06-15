@@ -7,16 +7,17 @@ import Footer from "@/components/Footer";
 
 const BASE = "https://www.citytaste.co";
 const CANONICAL = `${BASE}/cities/marrakech/bars`;
+const YEAR = new Date().getFullYear();
 
 export const metadata: Metadata = {
-  title: "Best Bars in Marrakech 2025 — Where to Drink",
+  title: `Best Bars in Marrakech ${YEAR} — Where to Drink`,
   description:
-    "The best bars in Marrakech from rooftop cocktail lounges to atmospheric riad bars. Our honest guide for 2025.",
+    `The best bars in Marrakech from rooftop cocktail lounges to atmospheric riad bars. Our honest guide for ${YEAR}.`,
   alternates: { canonical: CANONICAL },
   openGraph: {
-    title: "Best Bars in Marrakech 2025 — Where to Drink",
+    title: `Best Bars in Marrakech ${YEAR} — Where to Drink`,
     description:
-      "The best bars in Marrakech from rooftop cocktail lounges to atmospheric riad bars. Our honest guide for 2025.",
+      `The best bars in Marrakech from rooftop cocktail lounges to atmospheric riad bars. Our honest guide for ${YEAR}.`,
     type: "website",
     url: CANONICAL,
   },
@@ -107,7 +108,7 @@ export default function MarrakechBarsPage() {
               className="text-4xl md:text-5xl font-bold leading-tight mb-4"
               style={{ fontFamily: "var(--font-playfair)" }}
             >
-              Best Bars in Marrakech 2025 — Where to Drink
+              Best Bars in Marrakech {YEAR} — Where to Drink
             </h1>
             <p className="text-slate-300 text-lg max-w-3xl">
               Drinking in Marrakech is different from any other city — Morocco is

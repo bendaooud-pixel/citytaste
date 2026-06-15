@@ -7,14 +7,15 @@ import Footer from "@/components/Footer";
 
 const BASE = "https://www.citytaste.co";
 const CANONICAL = `${BASE}/cities/marrakech/souks`;
+const YEAR = new Date().getFullYear();
 
 export const metadata: Metadata = {
-  title: "Best Souks in Marrakech 2025 — Markets & Shopping Guide",
+  title: `Best Souks in Marrakech ${YEAR} — Markets & Shopping Guide`,
   description:
     "Navigate the best souks and markets in Marrakech like a local. From Souk Semmarine to the Mellah spice market — honest guide with bargaining tips.",
   alternates: { canonical: CANONICAL },
   openGraph: {
-    title: "Best Souks in Marrakech 2025 — Markets & Shopping Guide",
+    title: `Best Souks in Marrakech ${YEAR} — Markets & Shopping Guide`,
     description: "Navigate the best souks and markets in Marrakech like a local.",
     type: "website",
     url: CANONICAL,
@@ -74,7 +75,7 @@ export default function MarrakechSouksPage() {
               <span className="text-white/80">Souks</span>
             </nav>
             <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4" style={{ fontFamily: "var(--font-playfair)" }}>
-              Best Souks in Marrakech 2025 — Markets &amp; Shopping Guide
+              Best Souks in Marrakech {YEAR} — Markets &amp; Shopping Guide
             </h1>
             <p className="text-slate-300 text-lg max-w-3xl">
               The souks of Marrakech are a sensory labyrinth — leather, spices, metalwork, and textiles stacked in narrow alleyways that haven&apos;t changed in centuries. The trick is knowing which ones are worth your time.

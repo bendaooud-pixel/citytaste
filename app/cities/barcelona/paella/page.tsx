@@ -7,14 +7,15 @@ import Footer from "@/components/Footer";
 
 const BASE = "https://www.citytaste.co";
 const CANONICAL = `${BASE}/cities/barcelona/paella`;
+const YEAR = new Date().getFullYear();
 
 export const metadata: Metadata = {
-  title: "Best Paella in Barcelona — Where to Eat the Real Thing (2025)",
-  description: "Where to eat the best paella in Barcelona — with socarrat, bomba rice and no tourist traps. Updated 2025 local guide.",
+  title: `Best Paella in Barcelona — Where to Eat the Real Thing (${YEAR})`,
+  description: `Where to eat the best paella in Barcelona — with socarrat, bomba rice and no tourist traps. Updated ${YEAR} local guide.`,
   alternates: { canonical: CANONICAL },
   openGraph: {
-    title: "Best Paella in Barcelona — Where to Eat the Real Thing (2025)",
-    description: "Where to eat the best paella in Barcelona — with socarrat, bomba rice and no tourist traps. Updated 2025 local guide.",
+    title: `Best Paella in Barcelona — Where to Eat the Real Thing (${YEAR})`,
+    description: `Where to eat the best paella in Barcelona — with socarrat, bomba rice and no tourist traps. Updated ${YEAR} local guide.`,
     type: "website",
     url: CANONICAL,
   },
@@ -76,7 +77,7 @@ export default function BarcelonaPaellaPage() {
               <span className="text-white/80">Paella</span>
             </nav>
             <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4" style={{ fontFamily: "var(--font-playfair)" }}>
-              Best Paella in Barcelona — Where to Eat the Real Thing (2025)
+              Best Paella in Barcelona — Where to Eat the Real Thing ({YEAR})
             </h1>
             <p className="text-slate-300 text-lg max-w-3xl">
               Paella divides Barcelona. The tourist version is watery, under-seasoned rice with frozen prawns. The real version has socarrat, uses bomba rice and takes 45 minutes to cook properly. Finding the real thing requires knowing where not to go.

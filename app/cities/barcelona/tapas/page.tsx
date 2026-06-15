@@ -7,14 +7,15 @@ import Footer from "@/components/Footer";
 
 const BASE = "https://www.citytaste.co";
 const CANONICAL = `${BASE}/cities/barcelona/tapas`;
+const YEAR = new Date().getFullYear();
 
 export const metadata: Metadata = {
-  title: "Best Tapas Bars in Barcelona — A Local's Guide (2025)",
-  description: "The best tapas bars in Barcelona — from standing bars in El Born to century-old bodegas in Poble Sec. Updated 2025 local guide.",
+  title: `Best Tapas Bars in Barcelona — A Local's Guide (${YEAR})`,
+  description: `The best tapas bars in Barcelona — from standing bars in El Born to century-old bodegas in Poble Sec. Updated ${YEAR} local guide.`,
   alternates: { canonical: CANONICAL },
   openGraph: {
-    title: "Best Tapas Bars in Barcelona — A Local's Guide (2025)",
-    description: "The best tapas bars in Barcelona — from standing bars in El Born to century-old bodegas in Poble Sec. Updated 2025 local guide.",
+    title: `Best Tapas Bars in Barcelona — A Local's Guide (${YEAR})`,
+    description: `The best tapas bars in Barcelona — from standing bars in El Born to century-old bodegas in Poble Sec. Updated ${YEAR} local guide.`,
     type: "website",
     url: CANONICAL,
   },
@@ -76,7 +77,7 @@ export default function BarcelonaTapasPage() {
               <span className="text-white/80">Tapas</span>
             </nav>
             <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4" style={{ fontFamily: "var(--font-playfair)" }}>
-              Best Tapas Bars in Barcelona — A Local&apos;s Guide (2025)
+              Best Tapas Bars in Barcelona — A Local&apos;s Guide ({YEAR})
             </h1>
             <p className="text-slate-300 text-lg max-w-3xl">
               Tapas in Barcelona is not what most visitors expect. This is Catalonia, not Andalusia — what you will find are standing bars where you eat from the counter, century-old bodegas pouring house wine from the barrel, and legendary spots that have been feeding the neighbourhood since before the tourists arrived.

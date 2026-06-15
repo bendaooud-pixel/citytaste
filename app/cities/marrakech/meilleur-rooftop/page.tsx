@@ -7,9 +7,10 @@ import Footer from "@/components/Footer";
 
 const BASE = "https://www.citytaste.co";
 const CANONICAL = `${BASE}/cities/marrakech/meilleur-rooftop`;
+const YEAR = new Date().getFullYear();
 
 export const metadata: Metadata = {
-  title: "Meilleur Rooftop à Marrakech 2025 — Bars & Terrasses",
+  title: `Meilleur Rooftop à Marrakech ${YEAR} — Bars & Terrasses`,
   description:
     "Les meilleurs rooftops de Marrakech avec vue sur l'Atlas et la Koutoubia. Cocktails, couchers de soleil et ambiance — guide local.",
   alternates: {
@@ -17,7 +18,7 @@ export const metadata: Metadata = {
     languages: { en: `${BASE}/cities/marrakech/rooftop` },
   },
   openGraph: {
-    title: "Meilleur Rooftop à Marrakech 2025 — Bars & Terrasses",
+    title: `Meilleur Rooftop à Marrakech ${YEAR} — Bars & Terrasses`,
     description: "Les meilleurs rooftops de Marrakech avec vue sur l'Atlas et la Koutoubia.",
     type: "website",
     url: CANONICAL,
@@ -89,7 +90,7 @@ export default function MeilleurRooftopMarrakechPage() {
               <span className="text-white/80">Meilleur Rooftop</span>
             </nav>
             <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4" style={{ fontFamily: "var(--font-playfair)" }}>
-              Meilleur Rooftop &agrave; Marrakech 2025 — Bars &amp; Terrasses
+              Meilleur Rooftop &agrave; Marrakech {YEAR} — Bars &amp; Terrasses
             </h1>
             <p className="text-slate-300 text-lg max-w-3xl">
               Marrakech se vit d&apos;en haut. Cocktail &agrave; la main, vue sur la Koutoubia et les montagnes de l&apos;Atlas au coucher du soleil — voici les rooftops qui valent vraiment le d&eacute;tour.

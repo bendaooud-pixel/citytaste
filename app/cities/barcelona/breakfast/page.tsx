@@ -7,14 +7,15 @@ import Footer from "@/components/Footer";
 
 const BASE = "https://www.citytaste.co";
 const CANONICAL = `${BASE}/cities/barcelona/breakfast`;
+const YEAR = new Date().getFullYear();
 
 export const metadata: Metadata = {
-  title: "Best Breakfast in Barcelona — 10 Spots Locals Love (2025)",
-  description: "The best breakfast spots in Barcelona from traditional pa amb tomàquet to brunch cafés in Sant Antoni and El Born. Updated 2025 local guide.",
+  title: `Best Breakfast in Barcelona — 10 Spots Locals Love (${YEAR})`,
+  description: `The best breakfast spots in Barcelona from traditional pa amb tomàquet to brunch cafés in Sant Antoni and El Born. Updated ${YEAR} local guide.`,
   alternates: { canonical: CANONICAL },
   openGraph: {
-    title: "Best Breakfast in Barcelona — 10 Spots Locals Love (2025)",
-    description: "The best breakfast spots in Barcelona from traditional pa amb tomàquet to brunch cafés in Sant Antoni and El Born. Updated 2025 local guide.",
+    title: `Best Breakfast in Barcelona — 10 Spots Locals Love (${YEAR})`,
+    description: `The best breakfast spots in Barcelona from traditional pa amb tomàquet to brunch cafés in Sant Antoni and El Born. Updated ${YEAR} local guide.`,
     type: "website",
     url: CANONICAL,
   },
@@ -76,7 +77,7 @@ export default function BarcelonaBreakfastPage() {
               <span className="text-white/80">Breakfast</span>
             </nav>
             <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4" style={{ fontFamily: "var(--font-playfair)" }}>
-              Best Breakfast in Barcelona — 10 Spots Locals Love (2025)
+              Best Breakfast in Barcelona — 10 Spots Locals Love ({YEAR})
             </h1>
             <p className="text-slate-300 text-lg max-w-3xl">
               Breakfast in Barcelona means two completely different things depending on who you ask. The Catalan version is a tostada with tomato bread for €2.50. The international version is a brunch spread with avocado toast that takes an hour. Both are good — this guide covers the best of each.

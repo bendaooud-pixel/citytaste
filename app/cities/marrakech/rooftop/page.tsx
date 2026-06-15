@@ -7,19 +7,20 @@ import Footer from "@/components/Footer";
 
 const BASE = "https://www.citytaste.co";
 const CANONICAL = `${BASE}/cities/marrakech/rooftop`;
+const YEAR = new Date().getFullYear();
 
 export const metadata: Metadata = {
-  title: "Best Rooftop Bars in Marrakech 2025 — Sunset Views",
+  title: `Best Rooftop Bars in Marrakech ${YEAR} — Sunset Views`,
   description:
-    "The best rooftop bars in Marrakech with Atlas Mountain views and stunning sunset cocktails. Our top picks 2025.",
+    `The best rooftop bars in Marrakech with Atlas Mountain views and stunning sunset cocktails. Our top picks ${YEAR}.`,
   alternates: {
     canonical: CANONICAL,
     languages: { fr: `${BASE}/cities/marrakech/meilleur-rooftop` },
   },
   openGraph: {
-    title: "Best Rooftop Bars in Marrakech 2025 — Sunset Views",
+    title: `Best Rooftop Bars in Marrakech ${YEAR} — Sunset Views`,
     description:
-      "The best rooftop bars in Marrakech with Atlas Mountain views and stunning sunset cocktails. Our top picks 2025.",
+      `The best rooftop bars in Marrakech with Atlas Mountain views and stunning sunset cocktails. Our top picks ${YEAR}.`,
     type: "website",
     url: CANONICAL,
   },
@@ -110,7 +111,7 @@ export default function MarrakechRooftopPage() {
               className="text-4xl md:text-5xl font-bold leading-tight mb-4"
               style={{ fontFamily: "var(--font-playfair)" }}
             >
-              Best Rooftop Bars in Marrakech 2025 — Sunset Views
+              Best Rooftop Bars in Marrakech {YEAR} — Sunset Views
             </h1>
             <p className="text-slate-300 text-lg max-w-3xl">
               Marrakech at sunset from a rooftop is one of the great travel
