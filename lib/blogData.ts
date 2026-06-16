@@ -3309,6 +3309,66 @@ For sunset, arrive 30 minutes before the projected sunset time. The golden light
         "placeSlug": undefined
       }
     ]
+  },
+  {
+    "title": "Best Lebanese Food in Barcelona",
+    "slug": "lebanese-food-barcelona",
+    "city": "Barcelona",
+    "citySlug": "barcelona",
+    "category": "Restaurants",
+    "coverImage": "https://images.unsplash.com/photo-1542367592-8849eb950fd8?w=1200&q=80",
+    "publishedAt": "2026-06-16",
+    "readingTime": 8,
+    "metaDescription": "Where to eat real Lebanese food in Barcelona — five honest picks from Raval to Gràcia, with prices, dishes to order and what to skip.",
+    "intro": "Barcelona's Lebanese scene is small but serious, mostly run by families who arrived in the 80s and 90s and never left. You'll find proper charcoal mangals, real tahini that doesn't taste like chalk, and warm pita that arrives still puffed. This guide is for anyone tired of tapas overload — whether you want a quick falafel between sights or a long mezze dinner with arak. Expect to spend €12 for a fast lunch or €30-45 a head for a full sit-down spread.\n\n",
+    "body": "## Why Barcelona for lebanese food barcelona\n\nThe Lebanese community here is concentrated around Raval, Eixample and Gràcia, with most kitchens still cooking from family recipes rather than chasing trends. Prices are gentle compared to French or Japanese imports — a generous mezze for two rarely tops €60. Go in spring or early autumn when the terraces open and you can eat tabbouleh without sweating into it.\n\n| Place | Price | Best For | Vibe |\n|-------|-------|----------|------|\n| Bar Salam | €€ | Long mezze dinners | Family-run, busy |\n| Hummus Barcelona | € | Quick lunch | Bright, casual |\n| Beirut Restaurant | €€ | Group dinners | Classic, slightly kitsch |\n| Mesopotamia | €€ | Date night | Cosy, candlelit |\n| Falafel Beirut | € | Cheap eats | Counter, no frills |\n\n## Detailed Reviews\n\n### 1. Bar Salam\n\nRun by the same Lebanese-Syrian family for over a decade, Salam in Gràcia is where you go when you actually want to sit for two hours. The room is loud, the lighting is unflattering, and the food is the best of its kind in the city. Order the **muhammara** and the **kibbeh nayyeh** if it's on — they grind the lamb to order.\n\nThe waiters can seem brusque on a busy Friday, but it's not personal, they're just slammed. Cash still gets a warmer welcome than card.\n\n**Best for:** A proper sit-down mezze night with four or more people.\n**Local tip:** Skip the dessert here and walk five minutes to Plaça del Sol for a coffee instead.\n\n### 2. Hummus Barcelona\n\nThis tiny place near Passeig de Sant Joan does one thing very well: hummus, in about eight variations, served warm in shallow clay bowls. The **hummus with slow-cooked lamb and pine nuts** is the one to order — it's €11 and easily a full meal with the bread basket.\n\nIt fills up fast at lunch and they don't take bookings for parties under four. Service is friendly but the turnover is brisk, so don't expect to linger.\n\n**Best for:** A solo lunch or a fast pre-dinner bite.\n**Local tip:** Go before 1pm on weekdays or after 3pm — the 1.30 rush is brutal.\n\n### 3. Beirut Restaurant\n\nA Raval institution that's been feeding homesick Lebanese students and curious locals since the 90s. The décor is dated — think gold-framed mirrors and plastic vines — but the **mixed grill for two** with chicken taouk, kafta and lamb is genuinely excellent and lands at around €38. The bread comes from their own oven in the back.\n\nThe house wine is forgettable; spend a few euros more on the Lebanese Ksara if it's available.\n\n**Best for:** Groups who want a lot of food without overthinking the menu.\n**Local tip:** Tuesday nights are quietest — Fridays you'll wait 40 minutes even with a reservation.\n\n### 4. Mesopotamia\n\nTucked on a small Gràcia side street, Mesopotamia leans more Iraqi-Lebanese but the mezze tradition holds. It's candlelit, intimate, and one of the few places in town where you can hear yourself talk. The **mansaf** (lamb with yogurt and rice) is the standout, and the homemade arak is poured with a heavy hand.\n\nReservations are essentially required after 8.30pm, especially on weekends. Portions are smaller than at Salam, so order one extra dish than you think you need.\n\n**Best for:** A second or third date that you want to go well.\n**Local tip:** Ask for table number 4 in the back corner if you want privacy.\n\n### 5. Falafel Beirut\n\nA counter spot near the Boqueria with maybe six stools and a queue that moves quickly. Falafel wraps are €5.50 and they fry to order, so don't expect a 30-second turnaround. The **chicken shawarma** is sliced from a real spit, not pre-cooked, and the garlic toum is dangerously good.\n\nIt's not somewhere to sit and relax — take it to go and eat on the steps near MACBA. Cash only under €10.\n\n**Best for:** A €7 lunch between museums.\n**Local tip:** Ask for extra pickled turnips — they don't add them by default but they have them.\n\n## Local Tips for lebanese food barcelona\n\n- Book ahead for Salam and Mesopotamia on weekends — same-day is rarely possible after Thursday.\n- Lebanese restaurants in Barcelona run on slightly later hours than Spanish ones; most kitchens go until 11.30pm.\n- Order one or two more cold mezze than hot — the kitchen sends them faster and they're usually the strongest dishes.\n- Combine a Gràcia dinner with a walk down Carrer Verdi for a film at the old cinema afterwards.\n\n## FAQ\n\n### Q: Is Lebanese food in Barcelona authentic or adapted for Spanish tastes?\nA: Most of the places listed here are run by Lebanese or Syrian families and cook the real thing — proper tahini, charcoal grills, and traditional mezze. Tourist-zone spots near Las Ramblas, however, tend to dial down spice and serve dry falafel. Stick to Gràcia and Eixample for the real stuff.\n\n### Q: How much should I budget for a Lebanese dinner in Barcelona?\nA: A full mezze dinner with wine runs €30-45 per person at places like Salam or Beirut. A quick lunch at Hummus Barcelona or Falafel Beirut is €8-13. Tipping is appreciated but not expected — round up or leave 5-10%.\n\n### Q: What's the best Lebanese restaurant in Barcelona for vegetarians?\nA: Hummus Barcelona is the easiest call — most of the menu is meat-free and the hummus variations are genuinely interesting. Salam also has strong vegetarian mezze: the muhammara, baba ganoush and warak enab (stuffed vine leaves) are all excellent.\n\n## The Verdict\n\nFor couples, **Mesopotamia** wins on atmosphere and quiet corners. Budget travelers should head straight to **Falafel Beirut** or **Hummus Barcelona** for under €12. First-timers will get the fullest picture at **Bar Salam**, while locals tend to default to **Beirut Restaurant** when they want a big, easy group dinner without surprises.",
+    "places": [
+      {
+        "name": "Bar Salam",
+        "description": "A loud, family-run room in Gràcia where the mezze keeps coming and dinners stretch past midnight. The kibbeh nayyeh is ground to order and the muhammara is the best in the city. Service can be sharp when it's busy, but the food more than makes up for it.",
+        "address": "Carrer de Bonavista, 6, 08012 Barcelona",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1561651823-34feb02250e4?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Hummus Barcelona",
+        "description": "A small, bright spot near Passeig de Sant Joan focused almost entirely on hummus — about eight versions served warm in clay bowls. The lamb and pine nut hummus at €11 is essentially a full meal with bread. Turnover is fast and the 1.30pm lunch rush is brutal.",
+        "address": "Carrer de Bailèn, 32, 08010 Barcelona",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1593001874117-c99c800e3eb7?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Beirut Restaurant",
+        "description": "A Raval veteran with dated décor and excellent food that's been feeding the Lebanese community here since the 90s. The mixed grill for two lands around €38 and the bread is baked in-house. The house wine is skippable — pay a little more for the Ksara.",
+        "address": "Carrer de Sant Pau, 75, 08001 Barcelona",
+        "rating": 4.4,
+        "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Mesopotamia",
+        "description": "A candlelit, Iraqi-Lebanese spot on a quiet Gràcia side street where you can actually hear your dinner companion. The mansaf is the dish to order and the homemade arak is poured generously. Portions run smaller than its rivals, so order one extra dish.",
+        "address": "Carrer de Verdi, 65, 08012 Barcelona",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Falafel Beirut",
+        "description": "A six-stool counter near the Boqueria with €5.50 wraps and a queue that moves. They fry the falafel to order and slice shawarma from a real spit, not pre-cooked stacks. It's not a sit-down place — take it away and eat on the MACBA steps.",
+        "address": "Carrer del Carme, 35, 08001 Barcelona",
+        "rating": 4.3,
+        "image": "https://images.unsplash.com/photo-1559054663-e8d23213f55c?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      }
+    ]
   }
 ];
 
