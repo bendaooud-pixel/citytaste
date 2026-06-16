@@ -6,8 +6,12 @@ function inlineFormat(text: string): string {
     .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
     .replace(/\*([^*]+?)\*/g, "<em>$1</em>")
     .replace(
-      /\[([^\]]+)\]\((https?:\/\/[^\)]+)\)/g,
-      '<a href="$2" class="text-orange-500 hover:underline font-medium" target="_blank" rel="noopener noreferrer">$1</a>'
+      /\[([^\]]+)\]\(([^\)]+)\)/g,
+      (_match, label: string, href: string) => {
+        const isExternal = href.startsWith("http");
+        const attrs = isExternal ? ' target="_blank" rel="noopener noreferrer"' : "";
+        return `<a href="${href}" class="text-orange-500 hover:underline font-medium"${attrs}>${label}</a>`;
+      }
     );
 }
 

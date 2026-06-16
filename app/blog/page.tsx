@@ -6,6 +6,10 @@ import BlogImage from "@/components/ui/BlogImage";
 import { getAllArticles } from "@/lib/blogData";
 
 const BASE = "https://www.citytaste.co";
+const YEAR = new Date().getFullYear();
+function injectYear(s: string): string {
+  return s.replace(/\{year\}/g, String(YEAR)).replace(/\b20\d{2}\b/, String(YEAR));
+}
 
 export const metadata: Metadata = {
   title: "Food Guides & City Stories — CityTaste Blog",
@@ -49,7 +53,7 @@ export default function BlogPage() {
     url: `${BASE}/blog`,
     hasPart: articles.slice(0, 10).map((a) => ({
       "@type": "Article",
-      headline: a.title,
+      headline: injectYear(a.title),
       url: `${BASE}/blog/${a.slug}`,
       datePublished: a.publishedAt,
       image: a.coverImage,
@@ -114,7 +118,7 @@ export default function BlogPage() {
                   className="text-2xl md:text-3xl font-bold text-slate-900 mb-3 group-hover:text-orange-500 transition-colors"
                   style={{ fontFamily: "var(--font-playfair)" }}
                 >
-                  {featured.title}
+                  {injectYear(featured.title)}
                 </h2>
                 <p className="text-slate-600 text-sm leading-relaxed mb-4 line-clamp-3">
                   {featured.intro}
@@ -166,7 +170,7 @@ export default function BlogPage() {
                   className="text-lg font-bold text-slate-900 mb-2 group-hover:text-orange-500 transition-colors leading-snug"
                   style={{ fontFamily: "var(--font-playfair)" }}
                 >
-                  {article.title}
+                  {injectYear(article.title)}
                 </h3>
                 <p className="text-slate-500 text-sm leading-relaxed line-clamp-2 flex-1">
                   {article.intro}

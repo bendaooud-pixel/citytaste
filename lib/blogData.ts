@@ -21,28 +21,32 @@ export interface BlogArticle {
   body: string;
   places: BlogPlace[];
   metaDescription: string;
+  primaryKeyword?: string;
 }
 
 const articles: BlogArticle[] = [
   {
-    title: "Best Cafés in Paris 2025",
+    title: "Best Cafés in Paris {year}",
     slug: "best-cafes-paris",
     city: "Paris",
     citySlug: "paris",
     category: "Cafés",
+    primaryKeyword: "best cafes in Paris",
     coverImage:
       "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=80",
     publishedAt: "2025-03-10",
     readingTime: 6,
     metaDescription:
-      "Discover the best cafés in Paris for 2025 — from classic zinc-counter espresso bars in Saint-Germain to specialty third-wave roasters in the 10th arrondissement.",
+      "Discover the best cafés in Paris — from classic zinc-counter espresso bars in Saint-Germain to specialty third-wave roasters in the 10th arrondissement.",
     intro:
       "Paris has been the world capital of café culture since the 18th century, and in 2025 the scene has never been more exciting. Whether you're after a slow morning croissant and café crème, a laptop-friendly afternoon corner, or a natural-wine aperitif by dusk, these are the addresses every coffee lover should know.",
     body: `Paris cafés are not merely places to drink coffee — they are institutions. The word *café* entered the French language in the 1680s when the first coffeehouses opened near the Palais-Royal, and ever since the city has perfected the art of lingering over a small cup.
 
 Today the scene spans three distinct generations. The traditional *bistrot-café* — zinc counter, mirrored walls, a single espresso machine — remains the soul of neighbourhood life. Then came the Australian-influenced specialty-coffee wave of the early 2010s, bringing single-origin pour-overs and flat whites. Most recently, a new guard of Parisian roasters has emerged that does everything in-house, sourcing directly from farms in Ethiopia, Colombia, and Guatemala.
 
-What unites all three is the French insistence on taking your time. Unlike the grab-and-go culture that dominates London or New York, a Parisian café seat is yours for as long as you need it. Order once, stay all afternoon — no one will hurry you out.`,
+What unites all three is the French insistence on taking your time. Unlike the grab-and-go culture that dominates London or New York, a Parisian café seat is yours for as long as you need it. Order once, stay all afternoon — no one will hurry you out.
+
+If you're pairing your café stop with pastries, check our guide to the [best patisseries in Paris](/blog/best-patisseries-paris). And if budget is a concern, our [cheap eats guide](/blog/cheap-eats-paris) covers where to eat well for under €15 — including the best-value cafés in town. For a wider look at the city, head to our [Paris page](/paris).`,
     places: [
       {
         name: "Café de Flore",
@@ -107,11 +111,12 @@ What unites all three is the French insistence on taking your time. Unlike the g
     ],
   },
   {
-    title: "Best Halal Restaurants in Paris",
+    title: "Best Halal Restaurants in Paris {year}",
     slug: "best-halal-restaurants-paris",
     city: "Paris",
     citySlug: "paris",
     category: "Halal",
+    primaryKeyword: "best halal restaurants Paris",
     coverImage:
       "https://images.unsplash.com/photo-1544025162-d76694265947?w=1200&q=80",
     publishedAt: "2025-04-02",
@@ -124,7 +129,9 @@ What unites all three is the French insistence on taking your time. Unlike the g
 
 The 18th and 19th arrondissements remain the heartland of traditional Algerian, Moroccan, and Tunisian cooking, with family-run restaurants serving harira, mechoui, and bastilla that rival anything you'd find in Marrakech or Algiers. Meanwhile, the 11th and the Marais have become home to a new generation of halal bistros where the menu might read coq au vin (with halal poulet fermier) followed by makroud with salted caramel.
 
-Look for the official ARGML or AVS certification logos displayed at the entrance — these are the two most rigorous certification bodies in France.`,
+Look for the official ARGML or AVS certification logos displayed at the entrance — these are the two most rigorous certification bodies in France.
+
+Many halal restaurants in Paris are also great for [budget dining](/blog/cheap-eats-paris) — generous portions at fair prices. For a date night that's also halal-friendly, see our [romantic restaurants guide](/blog/romantic-restaurants-paris). Browse all our picks on the [Paris page](/paris).`,
     places: [
       {
         name: "Le Souk",
@@ -189,24 +196,49 @@ Look for the official ARGML or AVS certification logos displayed at the entrance
     ],
   },
   {
-    title: "Best Brunch Spots in Barcelona",
+    title: "Best Brunch Spots in Barcelona {year}",
     slug: "best-brunch-barcelona",
     city: "Barcelona",
     citySlug: "barcelona",
     category: "Brunch",
+    primaryKeyword: "best brunch Barcelona",
     coverImage:
       "https://images.unsplash.com/photo-1543352634-a1c51d9f1fa7?w=1200&q=80",
     publishedAt: "2025-04-15",
     readingTime: 5,
     metaDescription:
-      "The best brunch in Barcelona in 2025 — late-morning patatas bravas, avocado toast with Catalan olive oil, and bottomless mimosas in the Gothic Quarter and Gràcia.",
+      "The best brunch in Barcelona — late-morning patatas bravas, avocado toast with Catalan olive oil, and bottomless mimosas in the Gothic Quarter and Gràcia.",
     intro:
       "Barcelona has enthusiastically adopted brunch culture without abandoning its own traditions. The result is a wonderfully hybrid meal: you might find pan con tomate alongside eggs Benedict, or a glass of cava in place of prosecco. These are the spots doing it best.",
     body: `Barcelona's relationship with late-morning eating is complex. Traditional Catalan culture revolves around a light breakfast and a heavy midday lunch, but the influx of international residents and a thriving hospitality scene has produced a new class of brunch-centric restaurants that are entirely their own thing — neither Anglo-American nor Spanish, but something genuinely Barcelonan.
 
 The best brunch spots in the city share a few qualities: natural light (Barcelona's architects seem constitutionally incapable of building a dark room), local ingredients from the Boqueria or the Mercat de Santa Caterina, and a relaxed pace that respects the city's unhurried rhythms. Tables turn slowly here — a feature, not a bug.
 
-Expect to queue on weekends at any of the addresses below. Go early (10:00–11:00) or late (13:30+) to avoid the longest waits.`,
+Expect to queue on weekends at any of the addresses below. Go early (10:00–11:00) or late (13:30+) to avoid the longest waits.
+
+## Best Neighbourhoods for Brunch in Barcelona
+
+**Gràcia** is the epicentre — narrow streets lined with independent cafés, mostly under €15. **El Born** leans more international, with a younger crowd and higher prices. **Sant Antoni** has emerged as the new contender: the 2018 market renovation brought a wave of coffee shops and all-day kitchens that feel more local than touristy. **Eixample** offers the most options per block but also the most tourist traps — stick to the addresses below.
+
+## Tips for Brunch in Barcelona
+
+- **Book ahead** on Saturday and Sunday — the best places fill up by 11:00. Instagram DMs work faster than phone calls here.
+- **Order pa amb tomàquet** as your side instead of toast. It costs the same and tastes ten times better.
+- **Don't skip the vermouth.** Several brunch spots offer a *vermut del mediodía* alongside the regular menu — it's the most Barcelonan way to start a late morning.
+- **Check the Google Maps queue** before heading out. Most places don't take reservations for weekend brunch.
+
+## FAQ
+
+### Q: What time is brunch in Barcelona?
+A: Most brunch spots serve from 09:00 to 14:00 on weekends. Weekday brunch is usually 09:00–12:00. Arrive before 10:30 or after 13:00 to avoid the peak wait.
+
+### Q: How much does brunch cost in Barcelona?
+A: Budget €12–18 per person at most spots on this list. A full brunch with coffee and a drink comes to €15–22. The tourist-oriented places in Las Ramblas charge €25+ for less food.
+
+### Q: Is brunch a thing for locals in Barcelona?
+A: Increasingly yes, especially in Gràcia and Sant Antoni. Traditional Catalans prefer a late *almuerzo* (second breakfast around 10:30), but younger Barcelonans have embraced weekend brunch wholeheartedly.
+
+If you're hitting the rooftops after brunch, don't miss our guide to the [best rooftop bars in Barcelona](/blog/rooftop-bars-barcelona). For a full city overview, see our [Barcelona page](/barcelona).`,
     places: [
       {
         name: "Federal Café",
@@ -271,11 +303,12 @@ Expect to queue on weekends at any of the addresses below. Go early (10:00–11:
     ],
   },
   {
-    title: "Cheap Eats in Paris: The Budget Food Guide",
+    title: "Cheap Eats in Paris: The Budget Food Guide {year}",
     slug: "cheap-eats-paris",
     city: "Paris",
     citySlug: "paris",
     category: "Budget",
+    primaryKeyword: "cheap eats Paris",
     coverImage:
       "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=1200&q=80",
     publishedAt: "2025-02-20",
@@ -290,7 +323,9 @@ A few principles to keep in mind. The boulangerie is your best friend — a fres
 
 For sit-down meals, the formule (set menu) at lunch is the great French equaliser. Many restaurants that charge €40+ in the evening offer a two-course lunch for €14–17, and the quality is identical — the kitchen is the same kitchen.
 
-Finally: the 10th, 11th, 13th, and 18th arrondissements consistently offer the best value. The 6th and 8th are generally the most expensive.`,
+Finally: the 10th, 11th, 13th, and 18th arrondissements consistently offer the best value. The 6th and 8th are generally the most expensive.
+
+For halal options at friendly prices, see our [halal restaurants guide](/blog/best-halal-restaurants-paris). After a budget lunch, reward yourself with the city's finest sweets — our [patisseries guide](/blog/best-patisseries-paris) has the full list. Or browse all our [Paris picks](/paris).`,
     places: [
       {
         name: "L'As du Fallafel",
@@ -365,24 +400,27 @@ Finally: the 10th, 11th, 13th, and 18th arrondissements consistently offer the b
     ],
   },
   {
-    title: "Romantic Restaurants in Paris for 2025",
+    title: "Romantic Restaurants in Paris {year}",
     slug: "romantic-restaurants-paris",
     city: "Paris",
     citySlug: "paris",
     category: "Romantic",
+    primaryKeyword: "romantic restaurants Paris",
     coverImage:
       "https://images.unsplash.com/photo-1442512595132-0d0bdf1b4f4f?w=1200&q=80",
     publishedAt: "2025-01-28",
     readingTime: 6,
     metaDescription:
-      "The most romantic restaurants in Paris for a special dinner in 2025 — candlelit bistros, Seine-side terraces, and discreet corners in Saint-Germain.",
+      "The most romantic restaurants in Paris — candlelit bistros, Seine-side terraces, and discreet corners in Saint-Germain for a special dinner.",
     intro:
       "Paris didn't become the world's most romantic city by accident. The soft light, the narrow streets, the food — everything conspires toward intimacy. These are the restaurants that do it best.",
     body: `Romance in a Paris restaurant is about more than candlelight and red roses (though both help). It's about pace: a meal that unfolds across three hours, with conversation between each course and no pressure to vacate the table. It's about the quality of attention — a waiter who remembers your wine preference halfway through the meal. And it's about the food itself, which should be good enough to warrant genuine silence between bites.
 
 The restaurants below range from grand occasions requiring weeks of advance booking to neighbourhood bistros you might wander into on a whim. What they share is that quality of intimacy that Paris, at its best, always delivers.
 
-A note on booking: for any special occasion at the top addresses, book at least three weeks in advance. For the more casual options, same-week reservations are usually possible on weekdays.`,
+A note on booking: for any special occasion at the top addresses, book at least three weeks in advance. For the more casual options, same-week reservations are usually possible on weekdays.
+
+End the evening at one of the city's best [cafés](/blog/best-cafes-paris) for a last coffee — some stay open until midnight. If you're combining a date with sightseeing, our [monuments guide](/blog/monuments-paris) pairs landmarks with dining. See all our restaurant picks on the [Paris page](/paris).`,
     places: [
       {
         name: "Le Grand Véfour",
@@ -447,24 +485,46 @@ A note on booking: for any special occasion at the top addresses, book at least 
     ],
   },
   {
-    title: "Best Patisseries in Paris: The 2025 Guide",
+    title: "Best Patisseries in Paris: A Complete Bakery Guide {year}",
     slug: "best-patisseries-paris",
     city: "Paris",
     citySlug: "paris",
     category: "Patisseries",
+    primaryKeyword: "best patisseries in Paris",
     coverImage:
       "https://images.unsplash.com/photo-1478391679764-b2d8b3cd1e94?w=1200&q=80",
     publishedAt: "2025-03-25",
     readingTime: 7,
     metaDescription:
-      "The best patisseries in Paris for 2025 — from Pierre Hermé's iconic ispahan to the next generation of pastry chefs reinventing the mille-feuille.",
+      "The best patisseries in Paris — from Pierre Hermé's iconic ispahan to the next generation of pastry chefs reinventing the mille-feuille and croissant.",
     intro:
       "French patisserie is arguably the most technically demanding culinary discipline in the world, and Paris is where it reaches its highest expression. These are the addresses — from legendary maisons to exciting newcomers — that every pastry lover needs to visit.",
     body: `The French pastry tradition rests on a paradox: the product must look effortlessly perfect while concealing enormous technical labour. A well-made croissant involves three days of work — laminating, resting, folding — before it reaches the oven. A Pierre Hermé macaron contains eleven separate components. The casual beauty of a Paris patisserie window is, in fact, the result of hundreds of hours of practice and refinement.
 
 In 2025, the scene is split between the great maisons — Ladurée, Fauchon, Pierre Hermé — that have been defining French pastry for decades, and a new generation of pâtissiers who trained under these masters and are now opening their own shops. The newcomers tend to be less sweet, more seasonal, and more personal: you'll find flavours that reference their childhoods in Vietnam, Morocco, or Martinique.
 
-What to try if you can only order one thing: the croissant is the acid test of any boulangerie or patisserie. It should be deeply golden (almost mahogany at the tips), flaky in the outer layers and honeycomb-soft inside, with a pronounced butteriness that doesn't tip into greasiness.`,
+What to try if you can only order one thing: the croissant is the acid test of any boulangerie or patisserie. It should be deeply golden (almost mahogany at the tips), flaky in the outer layers and honeycomb-soft inside, with a pronounced butteriness that doesn't tip into greasiness.
+
+## Patisserie Types: What to Know
+
+Not all Parisian pastry shops are the same. A **pâtisserie** specialises in elaborate desserts — éclairs, tartes, entremets. A **boulangerie-pâtisserie** combines bread and pastry, and often has the best croissants and pains au chocolat. A **salon de thé** lets you eat your pastries on-site with coffee or tea. The addresses below span all three categories.
+
+## Best Patisseries by Arrondissement
+
+The **6th and 7th** (Saint-Germain, Invalides) have the highest concentration of top-tier patisseries. The **11th** has the most exciting newcomers. The **1st** (around Rue de Rivoli) has Angelina and several Ladurée addresses. The **Marais (3rd–4th)** has both classic salons and a new wave of Japanese-French fusion pastry.
+
+## FAQ
+
+### Q: Which patisserie in Paris has the best croissant?
+A: Cédric Grolet Opéra and Du Pain et des Idées are consistently ranked among the best. But the Grand Prix de la Meilleure Baguette de Paris changes yearly, and many winners also make exceptional croissants — check the current year's list.
+
+### Q: Are Paris patisseries expensive?
+A: Individual pastries run €4–8 at the top addresses. Croissants are €1.50–3 everywhere. A full assortment of 6 pastries to share will cost €25–40. Compared to London or Tokyo, Paris is actually good value for this level of quality.
+
+### Q: When is the best time to visit a patisserie in Paris?
+A: Morning (08:00–10:00) for croissants and viennoiseries — they come out fresh between 07:00 and 09:00. Afternoon (14:00–16:00) for éclairs and entremets. Avoid Mondays, when many close.
+
+Pair your pastry tour with our [best cafés guide](/blog/best-cafes-paris) — several cafés on that list serve pastries from the shops below. For a budget-friendly food crawl, see [cheap eats in Paris](/blog/cheap-eats-paris). Browse all our Paris recommendations on the [Paris page](/paris).`,
     places: [
       {
         name: "Pierre Hermé",
@@ -529,24 +589,27 @@ What to try if you can only order one thing: the croissant is the acid test of a
     ],
   },
   {
-    title: "Unmissable Monuments in Paris: A Foodie's Guide",
+    title: "Monuments in Paris: A Foodie's Guide {year}",
     slug: "monuments-paris",
     city: "Paris",
     citySlug: "paris",
     category: "Sightseeing",
+    primaryKeyword: "monuments Paris food guide",
     coverImage:
       "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800&q=80",
     publishedAt: "2025-02-05",
     readingTime: 6,
     metaDescription:
-      "Paris's greatest monuments — and the best places to eat near each one. Visit the Eiffel Tower, the Louvre, Notre-Dame, and Sainte-Chapelle with a meal plan in hand.",
+      "Paris's greatest monuments — and the best places to eat near each one. Eiffel Tower, Louvre, Notre-Dame and Sainte-Chapelle with a meal plan.",
     intro:
       "The monuments of Paris are the reason most visitors come — but the meals you eat near them can be just as memorable. We've paired each of the city's great landmarks with a nearby restaurant, café, or boulangerie worth going out of your way for.",
     body: `The great mistake tourists make in Paris is treating monuments and food as separate categories of experience. In reality, the city's geography means that every great building is within a short walk of excellent food. The challenge is knowing where to go.
 
 This guide is arranged as a loose walking itinerary, moving from the Île de la Cité westward. You could cover all five monuments in a single long day if you start early, or spread them across two or three days with more leisurely meal breaks.
 
-One practical note: the tourist density around Paris's top monuments is real, and restaurants immediately adjacent to them often depend on foot traffic rather than quality to fill their tables. The addresses we recommend are all within a short walk but positioned away from the tourist corridors.`,
+One practical note: the tourist density around Paris's top monuments is real, and restaurants immediately adjacent to them often depend on foot traffic rather than quality to fill their tables. The addresses we recommend are all within a short walk but positioned away from the tourist corridors.
+
+If you're after a sweet stop between monuments, our [patisseries guide](/blog/best-patisseries-paris) has the best addresses by arrondissement. Planning a [romantic dinner](/blog/romantic-restaurants-paris) after a day of sightseeing? Several of those restaurants are within walking distance of the spots below. See all our picks on the [Paris page](/paris).`,
     places: [
       {
         name: "Tour Eiffel — Café de l'Homme",
@@ -601,24 +664,27 @@ One practical note: the tourist density around Paris's top monuments is real, an
     ],
   },
   {
-    title: "Best Rooftop Bars in Barcelona",
+    title: "Best Rooftop Bars in Barcelona {year}",
     slug: "rooftop-bars-barcelona",
     city: "Barcelona",
     citySlug: "barcelona",
     category: "Bars",
+    primaryKeyword: "best rooftop bars Barcelona",
     coverImage:
       "https://images.unsplash.com/photo-1583422409516-2895a77efded?w=1200&q=80",
     publishedAt: "2025-05-01",
     readingTime: 5,
     metaDescription:
-      "The best rooftop bars in Barcelona for 2025 — 360° views of the city and the Mediterranean, sunset aperitivos, and cold cava above the Eixample skyline.",
+      "The best rooftop bars in Barcelona — 360° views of the city and the Mediterranean, sunset aperitivos, and cold cava above the Eixample skyline.",
     intro:
       "Barcelona's skyline — a dense patchwork of modernista towers and flat roofs, with the mountains behind and the sea ahead — is one of the most beautiful in Europe. These rooftop bars make the most of it.",
     body: `Barcelona's rooftop bar scene has exploded in the last decade, driven by the city's long warm season (evenings are pleasant from April through October) and an increasingly sophisticated hospitality industry. The best addresses offer not just views but genuinely good drinks programmes — proper vermut hour (from 12:00–14:00, the sacred Barcelona aperitivo ritual), craft cocktails, and an expanding selection of natural Catalan wines.
 
 The key distinction to make is between hotel rooftops and standalone bars. Hotel rooftops (W, Grand Hotel Central, Ohla) generally offer the most polished service and the most spectacular views, but at a price premium and a dress code that can feel restrictive. Standalone rooftops in the Eixample and Poblenou tend to be less polished but more authentically Barcelonan — cheaper, louder, and with a local crowd rather than a tourist one.
 
-For sunset, arrive 30 minutes before the projected sunset time. The golden light on Gaudí's city is extraordinary, and tables with direct western views fill fast.`,
+For sunset, arrive 30 minutes before the projected sunset time. The golden light on Gaudí's city is extraordinary, and tables with direct western views fill fast.
+
+Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's best spots, then head to the roof for sunset. For a full overview of the city, see our [Barcelona page](/barcelona).`,
     places: [
       {
         name: "Eclipse Bar — Hotel W Barcelona",

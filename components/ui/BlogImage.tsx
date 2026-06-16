@@ -2,9 +2,6 @@
 import { useState } from "react";
 import Image from "next/image";
 
-const FALLBACK =
-  "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80";
-
 interface BlogImageProps {
   src: string;
   alt: string;
@@ -22,7 +19,15 @@ export default function BlogImage({
   priority = false,
   blurDataURL,
 }: BlogImageProps) {
-  const [imgSrc, setImgSrc] = useState(src || FALLBACK);
+  const [failed, setFailed] = useState(false);
+
+  if (failed || !src) {
+    return (
+      <div className="absolute inset-0 bg-gradient-to-br from-slate-200 to-slate-300 flex items-center justify-center">
+        <span className="text-slate-400 text-sm font-medium">CityTaste</span>
+      </div>
+    );
+  }
 
   const blurProps = blurDataURL
     ? { placeholder: "blur" as const, blurDataURL }
@@ -30,13 +35,13 @@ export default function BlogImage({
 
   return (
     <Image
-      src={imgSrc}
+      src={src}
       alt={alt}
       fill
       className={className}
       sizes={sizes ?? "(max-width: 640px) 100vw, 192px"}
       priority={priority}
-      onError={() => setImgSrc(FALLBACK)}
+      onError={() => setFailed(true)}
       {...blurProps}
     />
   );

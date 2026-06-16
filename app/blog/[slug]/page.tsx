@@ -7,6 +7,7 @@ import Newsletter from "@/components/Newsletter";
 import { getAllArticles, getArticleBySlug } from "@/lib/blogData";
 
 const BASE = "https://www.citytaste.co";
+const YEAR = new Date().getFullYear();
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -18,28 +19,35 @@ export async function generateStaticParams() {
   return getAllArticles().map((a) => ({ slug: a.slug }));
 }
 
+function injectYear(s: string): string {
+  return s.replace(/\{year\}/g, String(YEAR)).replace(/\b20\d{2}\b/, String(YEAR));
+}
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const article = getArticleBySlug(slug);
   if (!article) return {};
+  const title = injectYear(article.title);
+  const description = injectYear(article.metaDescription);
+  const canonical = `${BASE}/blog/${article.slug}`;
   return {
-    title: article.title,
-    description: article.metaDescription,
-    alternates: { canonical: `${BASE}/blog/${article.slug}` },
+    title,
+    description,
+    alternates: { canonical },
     openGraph: {
-      title: article.title,
-      description: article.metaDescription,
+      title,
+      description,
       type: "article",
-      url: `${BASE}/blog/${article.slug}`,
+      url: canonical,
       publishedTime: article.publishedAt,
       authors: ["CityTaste"],
       tags: [article.category, article.city, "food guide", "travel"],
-      images: [{ url: article.coverImage, width: 1200, height: 630, alt: article.title }],
+      images: [{ url: article.coverImage, width: 1200, height: 630, alt: title }],
     },
     twitter: {
       card: "summary_large_image",
-      title: article.title,
-      description: article.metaDescription,
+      title,
+      description,
       images: [article.coverImage],
     },
   };
@@ -47,19 +55,34 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 // Extract FAQ Q&A pairs from article body for FAQPage schema
 function extractFAQ(body: string): Array<{ question: string; answer: string }> {
-  const faqSection = body.match(/## (?:FAQ|Frequently Asked Questions)([\s\S]*?)(?:##|$)/i)?.[1] ?? "";
+  const faqSection = body.match(/## (?:FAQ|Frequently Asked Questions)([\s\S]*?)(?=\n## |\n\\n## |$)/i)?.[1] ?? "";
   if (!faqSection) return [];
 
   const pairs: Array<{ question: string; answer: string }> = [];
-  const qPattern = /###?\s*(?:Q:|Question:)?\s*(.+?)\n+A:\s*([\s\S]+?)(?=###?|$)/gi;
+
+  // Match ### Q: ... \nA: ... pattern
+  const qPattern = /###?\s*(?:Q:|Question:)?\s*(.+?)[\n\\n]+A:\s*([\s\S]+?)(?=###|$)/gi;
   let match;
   while ((match = qPattern.exec(faqSection)) !== null) {
     pairs.push({
       question: match[1].replace(/\*\*/g, "").trim(),
-      answer: match[2].replace(/\*\*/g, "").trim().slice(0, 400),
+      answer: match[2].replace(/\*\*/g, "").trim().split(/\n\n|\n###/)[0].slice(0, 400),
     });
     if (pairs.length >= 5) break;
   }
+
+  // Also match **Question?**\nAnswer pattern (used in some generated articles)
+  if (pairs.length === 0) {
+    const boldPattern = /\*\*([^*]+\??)\*\*\s*\n+([\s\S]+?)(?=\*\*[^*]+\*\*|\n## |$)/g;
+    while ((match = boldPattern.exec(faqSection)) !== null) {
+      pairs.push({
+        question: match[1].trim(),
+        answer: match[2].trim().slice(0, 400),
+      });
+      if (pairs.length >= 5) break;
+    }
+  }
+
   return pairs;
 }
 
@@ -74,12 +97,13 @@ export default async function BlogArticlePage({ params }: Props) {
     .slice(0, 3);
 
   const faqItems = extractFAQ(article.body);
+  const displayTitle = injectYear(article.title);
 
   const articleJsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: article.title,
-    description: article.metaDescription,
+    headline: displayTitle,
+    description: injectYear(article.metaDescription),
     image: article.coverImage,
     datePublished: article.publishedAt,
     dateModified: article.publishedAt,
@@ -106,7 +130,7 @@ export default async function BlogArticlePage({ params }: Props) {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home",    item: BASE },
       { "@type": "ListItem", position: 2, name: "Blog",    item: `${BASE}/blog` },
-      { "@type": "ListItem", position: 3, name: article.title, item: `${BASE}/blog/${article.slug}` },
+      { "@type": "ListItem", position: 3, name: displayTitle, item: `${BASE}/blog/${article.slug}` },
     ],
   };
 
@@ -147,7 +171,7 @@ export default async function BlogArticlePage({ params }: Props) {
               <span aria-hidden="true">›</span>
               <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
               <span aria-hidden="true">›</span>
-              <span className="text-white/80 truncate max-w-[200px]" aria-current="page">{article.title}</span>
+              <span className="text-white/80 truncate max-w-[200px]" aria-current="page">{displayTitle}</span>
             </nav>
             <div className="flex items-center gap-3 mb-3">
               <span className="bg-[#F97316] text-white text-xs font-semibold px-3 py-1 rounded-full">
@@ -159,7 +183,7 @@ export default async function BlogArticlePage({ params }: Props) {
               className="text-3xl md:text-4xl font-bold text-white leading-tight"
               style={{ fontFamily: "var(--font-playfair)" }}
             >
-              {article.title}
+              {displayTitle}
             </h1>
           </div>
         </div>

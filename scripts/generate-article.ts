@@ -1,11 +1,16 @@
 #!/usr/bin/env tsx
 /**
- * Generates a new blog article using the Anthropic API and appends it to
- * lib/blogData.ts. Tracks used topics in scripts/used-topics.json so no
- * topic is ever repeated. When all 60+ predefined topics are exhausted,
- * Claude invents fresh ones automatically.
+ * SEO-driven article generator for CityTaste.
  *
- * Usage: npx tsx scripts/generate-article.ts
+ * Consumes the next queued keyword from content/keyword-queue.json,
+ * checks for cannibalization against existing content, generates a
+ * rank-ready article via Claude, injects internal links, and appends
+ * it to lib/blogData.ts.
+ *
+ * Usage:
+ *   npx tsx scripts/generate-article.ts                # next from queue
+ *   npx tsx scripts/generate-article.ts --keyword "best pizza rome"  # specific keyword
+ *
  * Requires: ANTHROPIC_API_KEY env var
  */
 
@@ -13,230 +18,313 @@ import Anthropic from "@anthropic-ai/sdk";
 import { readFileSync, writeFileSync, existsSync } from "fs";
 import { join } from "path";
 
-// ─── Topic pool (60 topics) ──────────────────────────────────────────────────
+// ─── Paths ──────────────────────────────────────────────────────────────────
 
-const TOPICS = [
-  // ── Paris (20) ──
-  { slug: "hidden-bistros-marais-paris",       city: "Paris",     citySlug: "paris",     category: "Restaurants", title: "Best Hidden Bistros in Le Marais Paris" },
-  { slug: "natural-wine-bars-paris",           city: "Paris",     citySlug: "paris",     category: "Bars",        title: "Top 5 Natural Wine Bars in Paris 2025" },
-  { slug: "street-food-paris-under-5",         city: "Paris",     citySlug: "paris",     category: "Street Food", title: "Best Street Food in Paris Under €5" },
-  { slug: "cafe-terraces-paris",               city: "Paris",     citySlug: "paris",     category: "Cafés",       title: "Most Beautiful Café Terraces in Paris" },
-  { slug: "japanese-restaurants-paris",        city: "Paris",     citySlug: "paris",     category: "Restaurants", title: "Best Japanese Restaurants in Paris" },
-  { slug: "vegan-restaurants-paris",           city: "Paris",     citySlug: "paris",     category: "Restaurants", title: "Top Vegan Restaurants in Paris 2025" },
-  { slug: "late-night-food-paris",             city: "Paris",     citySlug: "paris",     category: "Nightlife",   title: "Best Late Night Food in Paris" },
-  { slug: "montmartre-food-hidden-gems",       city: "Paris",     citySlug: "paris",     category: "Restaurants", title: "Hidden Gems in Montmartre Food Scene" },
-  { slug: "african-restaurants-paris",         city: "Paris",     citySlug: "paris",     category: "Restaurants", title: "Best African Restaurants in Paris" },
-  { slug: "cheese-shops-paris",                city: "Paris",     citySlug: "paris",     category: "Markets",     title: "Top Cheese Shops in Paris" },
-  { slug: "creperies-paris",                   city: "Paris",     citySlug: "paris",     category: "Street Food", title: "Best Crêperies in Paris" },
-  { slug: "instagrammable-restaurants-paris",  city: "Paris",     citySlug: "paris",     category: "Restaurants", title: "Most Instagrammable Restaurants in Paris" },
-  { slug: "lebanese-food-paris",               city: "Paris",     citySlug: "paris",     category: "Restaurants", title: "Best Lebanese Food in Paris" },
-  { slug: "best-boulangeries-paris",           city: "Paris",     citySlug: "paris",     category: "Bakeries",    title: "Top Boulangeries in Paris Ranked 2025" },
-  { slug: "food-markets-paris-neighbourhood",  city: "Paris",     citySlug: "paris",     category: "Markets",     title: "Best Food Markets in Paris by Neighbourhood" },
-  { slug: "michelin-paris-worth-it",           city: "Paris",     citySlug: "paris",     category: "Fine Dining", title: "Michelin Star Restaurants in Paris Worth It" },
-  { slug: "best-sushi-paris",                  city: "Paris",     citySlug: "paris",     category: "Restaurants", title: "Best Sushi in Paris 2025" },
-  { slug: "cocktail-bars-paris",               city: "Paris",     citySlug: "paris",     category: "Bars",        title: "Top Cocktail Bars in Paris" },
-  { slug: "vietnamese-food-paris",             city: "Paris",     citySlug: "paris",     category: "Restaurants", title: "Best Vietnamese Food in Paris" },
-  { slug: "hidden-rooftop-bars-paris",         city: "Paris",     citySlug: "paris",     category: "Bars",        title: "Hidden Rooftop Bars in Paris" },
+const ROOT = process.cwd();
+const DATA_PATH = join(ROOT, "lib", "blogData.ts");
+const QUEUE_PATH = join(ROOT, "content", "keyword-queue.json");
+const TRACKER_PATH = join(ROOT, "scripts", "used-topics.json");
 
-  // ── Barcelona (20) ──
-  { slug: "pintxos-bars-barcelona",            city: "Barcelona", citySlug: "barcelona", category: "Tapas",       title: "Best Pintxos Bars in Barcelona" },
-  { slug: "vermouth-bars-barcelona",           city: "Barcelona", citySlug: "barcelona", category: "Bars",        title: "Top Vermouth Bars in Barcelona" },
-  { slug: "paella-restaurants-barcelona",      city: "Barcelona", citySlug: "barcelona", category: "Restaurants", title: "Best Paella Restaurants in Barcelona" },
-  { slug: "hidden-restaurants-el-born",        city: "Barcelona", citySlug: "barcelona", category: "Restaurants", title: "Hidden Restaurants in El Born Barcelona" },
-  { slug: "vegetarian-restaurants-barcelona",  city: "Barcelona", citySlug: "barcelona", category: "Restaurants", title: "Best Vegetarian Restaurants in Barcelona" },
-  { slug: "gelato-spots-barcelona",            city: "Barcelona", citySlug: "barcelona", category: "Desserts",    title: "Top Gelato Spots in Barcelona" },
-  { slug: "breakfast-spots-barcelona",         city: "Barcelona", citySlug: "barcelona", category: "Brunch",      title: "Best Breakfast Spots in Barcelona" },
-  { slug: "romantic-restaurants-barcelona",    city: "Barcelona", citySlug: "barcelona", category: "Romantic",    title: "Most Romantic Restaurants in Barcelona" },
-  { slug: "wine-bars-barcelona",               city: "Barcelona", citySlug: "barcelona", category: "Bars",        title: "Best Wine Bars in Barcelona" },
-  { slug: "street-food-barceloneta",           city: "Barcelona", citySlug: "barcelona", category: "Street Food", title: "Top Street Food in La Barceloneta" },
-  { slug: "catalan-cuisine-restaurants",       city: "Barcelona", citySlug: "barcelona", category: "Restaurants", title: "Best Catalan Cuisine Restaurants" },
-  { slug: "hidden-cafes-gracia",               city: "Barcelona", citySlug: "barcelona", category: "Cafés",       title: "Hidden Cafés in Gràcia Barcelona" },
-  { slug: "burger-restaurants-barcelona",      city: "Barcelona", citySlug: "barcelona", category: "Restaurants", title: "Best Burger Restaurants in Barcelona" },
-  { slug: "cocktail-bars-barcelona",           city: "Barcelona", citySlug: "barcelona", category: "Bars",        title: "Top Cocktail Bars in Barcelona" },
-  { slug: "lebanese-food-barcelona",           city: "Barcelona", citySlug: "barcelona", category: "Restaurants", title: "Best Lebanese Food in Barcelona" },
-  { slug: "beautiful-restaurant-interiors-bcn",city: "Barcelona", citySlug: "barcelona", category: "Restaurants", title: "Most Beautiful Restaurant Interiors in Barcelona" },
-  { slug: "best-sushi-barcelona",              city: "Barcelona", citySlug: "barcelona", category: "Restaurants", title: "Best Sushi in Barcelona 2025" },
-  { slug: "natural-wine-bars-barcelona",       city: "Barcelona", citySlug: "barcelona", category: "Bars",        title: "Top Natural Wine Bars in Barcelona" },
-  { slug: "brunch-spots-eixample",             city: "Barcelona", citySlug: "barcelona", category: "Brunch",      title: "Best Brunch Spots in Eixample Barcelona" },
-  { slug: "hidden-gems-poble-sec",             city: "Barcelona", citySlug: "barcelona", category: "Restaurants", title: "Hidden Gems in Poble Sec Food Scene" },
+const YEAR = new Date().getFullYear();
 
-  // ── Rome (20) ──
-  { slug: "best-gelato-rome",                  city: "Rome",      citySlug: "rome",      category: "Desserts",    title: "Best Gelato in Rome Ranked 2025" },
-  { slug: "pizza-al-taglio-rome",              city: "Rome",      citySlug: "rome",      category: "Street Food", title: "Top Pizza al Taglio Spots in Rome" },
-  { slug: "aperitivo-bars-rome",               city: "Rome",      citySlug: "rome",      category: "Bars",        title: "Best Aperitivo Bars in Rome" },
-  { slug: "hidden-trattorias-trastevere",      city: "Rome",      citySlug: "rome",      category: "Restaurants", title: "Hidden Trattorias in Trastevere Rome" },
-  { slug: "best-carbonara-rome",               city: "Rome",      citySlug: "rome",      category: "Restaurants", title: "Best Carbonara in Rome 2025" },
-  { slug: "street-food-rome",                  city: "Rome",      citySlug: "rome",      category: "Street Food", title: "Top Street Food in Rome" },
-  { slug: "jewish-cuisine-rome-ghetto",        city: "Rome",      citySlug: "rome",      category: "Restaurants", title: "Best Jewish Cuisine in Rome's Ghetto" },
-  { slug: "romantic-restaurants-rome",         city: "Rome",      citySlug: "rome",      category: "Romantic",    title: "Most Romantic Restaurants in Rome" },
-  { slug: "coffee-bars-rome",                  city: "Rome",      citySlug: "rome",      category: "Cafés",       title: "Best Coffee Bars in Rome Ranked" },
-  { slug: "wine-bars-rome",                    city: "Rome",      citySlug: "rome",      category: "Bars",        title: "Top Wine Bars in Rome" },
-  { slug: "best-cacio-e-pepe-rome",            city: "Rome",      citySlug: "rome",      category: "Restaurants", title: "Best Cacio e Pepe Restaurants in Rome" },
-  { slug: "restaurants-near-vatican",          city: "Rome",      citySlug: "rome",      category: "Restaurants", title: "Hidden Restaurants Near the Vatican Rome" },
-  { slug: "best-seafood-rome",                 city: "Rome",      citySlug: "rome",      category: "Restaurants", title: "Best Seafood in Rome" },
-  { slug: "rooftop-bars-rome",                 city: "Rome",      citySlug: "rome",      category: "Bars",        title: "Top Rooftop Bars in Rome" },
-  { slug: "best-breakfast-rome",               city: "Rome",      citySlug: "rome",      category: "Cafés",       title: "Best Breakfast in Rome" },
-  { slug: "beautiful-trattorias-rome",         city: "Rome",      citySlug: "rome",      category: "Restaurants", title: "Most Beautiful Trattorias in Rome" },
-  { slug: "food-markets-rome",                 city: "Rome",      citySlug: "rome",      category: "Markets",     title: "Best Markets for Food Lovers in Rome" },
-  { slug: "lebanese-food-rome",                city: "Rome",      citySlug: "rome",      category: "Restaurants", title: "Top Lebanese Food in Rome" },
-  { slug: "vegetarian-restaurants-rome",       city: "Rome",      citySlug: "rome",      category: "Restaurants", title: "Best Vegetarian Restaurants in Rome" },
-  { slug: "hidden-gems-pigneto-rome",          city: "Rome",      citySlug: "rome",      category: "Restaurants", title: "Hidden Gems in Pigneto Neighbourhood Rome" },
+// ─── Types ──────────────────────────────────────────────────────────────────
 
-  // ── Marrakech (10) ──
-  { slug: "best-riads-eat-marrakech",          city: "Marrakech", citySlug: "marrakech", category: "Restaurants", title: "Best Riads to Eat in Marrakech" },
-  { slug: "top-rooftop-bars-marrakech",        city: "Marrakech", citySlug: "marrakech", category: "Bars",        title: "Top Rooftop Bars in Marrakech" },
-  { slug: "best-hammam-marrakech",             city: "Marrakech", citySlug: "marrakech", category: "Activities",  title: "Best Hammam Experiences in Marrakech" },
-  { slug: "hidden-restaurants-medina",         city: "Marrakech", citySlug: "marrakech", category: "Restaurants", title: "Hidden Restaurants in Marrakech Medina" },
-  { slug: "best-street-food-jemaa-el-fna",     city: "Marrakech", citySlug: "marrakech", category: "Street Food", title: "Best Street Food in Jemaa el-Fna" },
-  { slug: "marrakech-cafes-mint-tea",          city: "Marrakech", citySlug: "marrakech", category: "Cafés",       title: "Best Cafés for Mint Tea in Marrakech" },
-  { slug: "moroccan-cooking-classes",          city: "Marrakech", citySlug: "marrakech", category: "Activities",  title: "Best Moroccan Cooking Classes in Marrakech" },
-  { slug: "romantic-restaurants-marrakech",    city: "Marrakech", citySlug: "marrakech", category: "Romantic",    title: "Most Romantic Restaurants in Marrakech" },
-  { slug: "marrakech-souks-food-shopping",     city: "Marrakech", citySlug: "marrakech", category: "Markets",     title: "Best Souks for Food Shopping in Marrakech" },
-  { slug: "brunch-marrakech-best-spots",       city: "Marrakech", citySlug: "marrakech", category: "Brunch",      title: "Best Brunch Spots in Marrakech" },
-];
+interface QueueEntry {
+  keyword: string;
+  secondaryKeywords: string[];
+  city: string;
+  citySlug: string;
+  locale: string;
+  intent: string;
+  suggestedSlug: string;
+  suggestedTitle: string;
+  category: string;
+  status: "queued" | "published" | "skip";
+  notes?: string;
+}
 
-type Topic = typeof TOPICS[0];
+// ─── Helpers ────────────────────────────────────────────────────────────────
 
-// ─── Used-topics tracker ─────────────────────────────────────────────────────
+function getExistingSlugs(): string[] {
+  const content = readFileSync(DATA_PATH, "utf-8");
+  return [...content.matchAll(/^\s+slug:\s+"([^"]+)"/gm)].map((m) => m[1]);
+}
 
-function getUsedSlugs(trackerPath: string): string[] {
-  if (!existsSync(trackerPath)) return [];
+function getExistingTitles(): string[] {
+  const content = readFileSync(DATA_PATH, "utf-8");
+  return [...content.matchAll(/^\s+title:\s+"([^"]+)"/gm)].map((m) => m[1].toLowerCase());
+}
+
+function getExistingKeywords(): string[] {
+  const content = readFileSync(DATA_PATH, "utf-8");
+  return [...content.matchAll(/^\s+primaryKeyword:\s+"([^"]+)"/gm)].map((m) => m[1].toLowerCase());
+}
+
+function getUsedSlugs(): string[] {
+  if (!existsSync(TRACKER_PATH)) return [];
   try {
-    return JSON.parse(readFileSync(trackerPath, "utf-8")) as string[];
+    return JSON.parse(readFileSync(TRACKER_PATH, "utf-8")) as string[];
   } catch {
     return [];
   }
 }
 
-function markSlugUsed(trackerPath: string, slug: string): void {
-  const used = getUsedSlugs(trackerPath);
+function markSlugUsed(slug: string): void {
+  const used = getUsedSlugs();
   if (!used.includes(slug)) used.push(slug);
-  writeFileSync(trackerPath, JSON.stringify(used, null, 2), "utf-8");
+  writeFileSync(TRACKER_PATH, JSON.stringify(used, null, 2), "utf-8");
 }
 
-// ─── Topic selection ─────────────────────────────────────────────────────────
-
-function getExistingSlugs(filePath: string): string[] {
-  const content = readFileSync(filePath, "utf-8");
-  return [...content.matchAll(/^\s+slug:\s+"([^"]+)"/gm)].map((m) => m[1]);
+function readQueue(): QueueEntry[] {
+  if (!existsSync(QUEUE_PATH)) return [];
+  return JSON.parse(readFileSync(QUEUE_PATH, "utf-8")) as QueueEntry[];
 }
 
-function pickTopic(existingSlugs: string[], usedSlugs: string[]): Topic | null {
+function writeQueue(queue: QueueEntry[]): void {
+  writeFileSync(QUEUE_PATH, JSON.stringify(queue, null, 2), "utf-8");
+}
+
+// ─── Anti-cannibalization check ─────────────────────────────────────────────
+
+function normalizeKeyword(kw: string): string {
+  return kw.toLowerCase().replace(/[^a-z0-9àâäéèêëïîôùûüÿçœæ ]/g, "").trim();
+}
+
+function keywordOverlaps(newKeyword: string, existing: string[]): string | null {
+  const normalized = normalizeKeyword(newKeyword);
+  const newWords = new Set(normalized.split(/\s+/));
+
+  for (const ex of existing) {
+    const exNorm = normalizeKeyword(ex);
+    const exWords = new Set(exNorm.split(/\s+/));
+    const overlap = [...newWords].filter((w) => exWords.has(w) && w.length > 2);
+    if (overlap.length >= 3 || exNorm === normalized) {
+      return ex;
+    }
+  }
+  return null;
+}
+
+function checkCannibalization(keyword: string, slug: string): string | null {
+  const existingSlugs = getExistingSlugs();
+  if (existingSlugs.includes(slug)) {
+    return `Slug "${slug}" already exists in blogData.ts`;
+  }
+
+  const existingKeywords = getExistingKeywords();
+  const overlap = keywordOverlaps(keyword, existingKeywords);
+  if (overlap) {
+    return `Keyword "${keyword}" overlaps with existing keyword "${overlap}"`;
+  }
+
+  const existingTitles = getExistingTitles();
+  const titleOverlap = keywordOverlaps(keyword, existingTitles);
+  if (titleOverlap) {
+    return `Keyword "${keyword}" overlaps with existing title "${titleOverlap}"`;
+  }
+
+  return null;
+}
+
+// ─── Internal link builder ──────────────────────────────────────────────────
+
+function buildInternalLinks(citySlug: string, currentSlug: string): string {
+  const existingSlugs = getExistingSlugs();
+  const content = readFileSync(DATA_PATH, "utf-8");
+
+  const sameCityArticles = existingSlugs
+    .filter((s) => s !== currentSlug)
+    .filter((s) => {
+      const re = new RegExp(`slug:\\s+"${s}"[\\s\\S]{0,300}citySlug:\\s+"${citySlug}"`);
+      return re.test(content);
+    })
+    .slice(0, 4);
+
+  const otherCityArticles = existingSlugs
+    .filter((s) => s !== currentSlug && !sameCityArticles.includes(s))
+    .slice(0, 2);
+
+  const links = [
+    ...sameCityArticles.map((s) => `/blog/${s}`),
+    ...otherCityArticles.map((s) => `/blog/${s}`),
+    `/${citySlug}`,
+  ];
+
+  return JSON.stringify(links);
+}
+
+// ─── Topic selection ────────────────────────────────────────────────────────
+
+// Legacy topic pool — used as fallback when keyword queue is empty
+const LEGACY_TOPICS = [
+  { slug: "lebanese-food-barcelona", city: "Barcelona", citySlug: "barcelona", category: "Restaurants", title: "Best Lebanese Food in Barcelona" },
+  { slug: "beautiful-restaurant-interiors-bcn", city: "Barcelona", citySlug: "barcelona", category: "Restaurants", title: "Most Beautiful Restaurant Interiors in Barcelona" },
+  { slug: "best-sushi-barcelona", city: "Barcelona", citySlug: "barcelona", category: "Restaurants", title: "Best Sushi in Barcelona" },
+  { slug: "natural-wine-bars-barcelona", city: "Barcelona", citySlug: "barcelona", category: "Bars", title: "Top Natural Wine Bars in Barcelona" },
+  { slug: "brunch-spots-eixample", city: "Barcelona", citySlug: "barcelona", category: "Brunch", title: "Best Brunch Spots in Eixample Barcelona" },
+  { slug: "hidden-gems-poble-sec", city: "Barcelona", citySlug: "barcelona", category: "Restaurants", title: "Hidden Gems in Poble Sec Food Scene" },
+  { slug: "best-gelato-rome", city: "Rome", citySlug: "rome", category: "Desserts", title: "Best Gelato in Rome" },
+  { slug: "pizza-al-taglio-rome", city: "Rome", citySlug: "rome", category: "Street Food", title: "Top Pizza al Taglio Spots in Rome" },
+  { slug: "aperitivo-bars-rome", city: "Rome", citySlug: "rome", category: "Bars", title: "Best Aperitivo Bars in Rome" },
+  { slug: "hidden-trattorias-trastevere", city: "Rome", citySlug: "rome", category: "Restaurants", title: "Hidden Trattorias in Trastevere Rome" },
+  { slug: "best-carbonara-rome", city: "Rome", citySlug: "rome", category: "Restaurants", title: "Best Carbonara in Rome" },
+  { slug: "street-food-rome", city: "Rome", citySlug: "rome", category: "Street Food", title: "Top Street Food in Rome" },
+  { slug: "jewish-cuisine-rome-ghetto", city: "Rome", citySlug: "rome", category: "Restaurants", title: "Best Jewish Cuisine in Rome's Ghetto" },
+  { slug: "romantic-restaurants-rome", city: "Rome", citySlug: "rome", category: "Romantic", title: "Most Romantic Restaurants in Rome" },
+  { slug: "coffee-bars-rome", city: "Rome", citySlug: "rome", category: "Cafés", title: "Best Coffee Bars in Rome" },
+  { slug: "wine-bars-rome", city: "Rome", citySlug: "rome", category: "Bars", title: "Top Wine Bars in Rome" },
+  { slug: "best-cacio-e-pepe-rome", city: "Rome", citySlug: "rome", category: "Restaurants", title: "Best Cacio e Pepe Restaurants in Rome" },
+  { slug: "restaurants-near-vatican", city: "Rome", citySlug: "rome", category: "Restaurants", title: "Hidden Restaurants Near the Vatican Rome" },
+  { slug: "best-seafood-rome", city: "Rome", citySlug: "rome", category: "Restaurants", title: "Best Seafood in Rome" },
+  { slug: "rooftop-bars-rome", city: "Rome", citySlug: "rome", category: "Bars", title: "Top Rooftop Bars in Rome" },
+  { slug: "best-riads-eat-marrakech", city: "Marrakech", citySlug: "marrakech", category: "Restaurants", title: "Best Riads to Eat in Marrakech" },
+  { slug: "top-rooftop-bars-marrakech", city: "Marrakech", citySlug: "marrakech", category: "Bars", title: "Top Rooftop Bars in Marrakech" },
+  { slug: "best-hammam-marrakech", city: "Marrakech", citySlug: "marrakech", category: "Activities", title: "Best Hammam Experiences in Marrakech" },
+  { slug: "hidden-restaurants-medina", city: "Marrakech", citySlug: "marrakech", category: "Restaurants", title: "Hidden Restaurants in Marrakech Medina" },
+];
+
+interface TopicInput {
+  slug: string;
+  city: string;
+  citySlug: string;
+  category: string;
+  title: string;
+  primaryKeyword: string;
+  secondaryKeywords: string[];
+  locale: string;
+}
+
+function pickFromQueue(): { topic: TopicInput; queueIndex: number } | null {
+  const queue = readQueue();
+  const existingSlugs = getExistingSlugs();
+  const usedSlugs = getUsedSlugs();
   const already = new Set([...existingSlugs, ...usedSlugs]);
-  return TOPICS.find((t) => !already.has(t.slug)) ?? null;
+
+  for (let i = 0; i < queue.length; i++) {
+    const entry = queue[i];
+    if (entry.status !== "queued") continue;
+    if (already.has(entry.suggestedSlug)) continue;
+
+    const cannibal = checkCannibalization(entry.keyword, entry.suggestedSlug);
+    if (cannibal) {
+      console.log(`⚠ Skipping "${entry.keyword}": ${cannibal}`);
+      continue;
+    }
+
+    return {
+      topic: {
+        slug: entry.suggestedSlug,
+        city: entry.city,
+        citySlug: entry.citySlug,
+        category: entry.category,
+        title: entry.suggestedTitle.replace("{year}", String(YEAR)),
+        primaryKeyword: entry.keyword,
+        secondaryKeywords: entry.secondaryKeywords,
+        locale: entry.locale,
+      },
+      queueIndex: i,
+    };
+  }
+  return null;
 }
 
-// ─── AI-invented fallback topic ──────────────────────────────────────────────
+function pickFromLegacy(): TopicInput | null {
+  const existingSlugs = getExistingSlugs();
+  const usedSlugs = getUsedSlugs();
+  const already = new Set([...existingSlugs, ...usedSlugs]);
 
-async function inventNewTopic(client: Anthropic, existingSlugs: string[]): Promise<Topic> {
-  console.log("All predefined topics exhausted — asking Claude to invent a new one...");
-  const cities = ["Paris", "Barcelona", "Rome"];
-  const city = cities[existingSlugs.length % 3];
-  const citySlug = city.toLowerCase();
+  const topic = LEGACY_TOPICS.find((t) => !already.has(t.slug));
+  if (!topic) return null;
 
-  const res = await client.messages.create({
-    model: "claude-opus-4-7",
-    max_tokens: 256,
-    messages: [{
-      role: "user",
-      content: `You are a content strategist for CityTaste, a food & travel guide covering ${city}.
-Return ONLY a JSON object (no markdown) with a brand-new, unique food/travel article topic for ${city} that has NOT been covered by any of these slugs: ${existingSlugs.join(", ")}.
-
-{
-  "slug": "kebab-shops-${citySlug}",
-  "title": "Best Kebab Shops in ${city}",
-  "category": "Street Food"
-}
-
-Rules: slug must be lowercase-hyphenated, unique, never in the list above. Return pure JSON only.`,
-    }],
-  });
-
-  const raw = res.content[0].type === "text" ? res.content[0].text : "{}";
-  const parsed = JSON.parse(raw.replace(/^```(?:json)?\n?/m, "").replace(/\n?```$/m, "").trim());
   return {
-    slug: parsed.slug,
-    city,
-    citySlug,
-    category: parsed.category ?? "Restaurants",
-    title: parsed.title,
+    ...topic,
+    title: topic.title.replace(/\b20\d{2}\b/, String(YEAR)),
+    primaryKeyword: topic.title.toLowerCase().replace(/^(best|top|most|hidden)\s+/i, ""),
+    secondaryKeywords: [],
+    locale: "en",
   };
 }
 
-// ─── Article generation ──────────────────────────────────────────────────────
+// ─── Article generation ─────────────────────────────────────────────────────
 
-async function generateArticle(client: Anthropic, topic: Topic): Promise<string> {
+async function generateArticle(client: Anthropic, topic: TopicInput): Promise<string> {
   const today = new Date().toISOString().split("T")[0];
+  const internalLinks = buildInternalLinks(topic.citySlug, topic.slug);
 
-  const prompt = `You are a senior travel writer for CityTaste, a premium food and city guide covering Paris, Barcelona and Rome.
+  const keywordBlock = topic.secondaryKeywords.length > 0
+    ? `Secondary keywords to work in naturally: ${topic.secondaryKeywords.join(", ")}`
+    : "";
 
-MISSION: Write a deeply useful, human-sounding article that ranks on Google, gets shared on Pinterest and actually helps travelers eat well.
+  const prompt = `You are a senior travel writer for CityTaste, a premium food and city guide.
+
+MISSION: Write a deeply useful, SEO-optimized article targeting the keyword "${topic.primaryKeyword}" for ${topic.city}.
+
+━━ SEO REQUIREMENTS ━━
+- Primary keyword: "${topic.primaryKeyword}" — use it in the first paragraph, at least one H2, and naturally 3-5 more times
+- ${keywordBlock}
+- The title must contain the primary keyword
+- Every H2 should address a search intent related to this keyword
+
+━━ INTERNAL LINKS (CRITICAL FOR SEO) ━━
+You MUST include 3-6 internal links in the body using markdown format: [anchor text](/path)
+Available internal pages to link to: ${internalLinks}
+Also link to the city hub: [Explore ${topic.city}](/${topic.citySlug})
+Place links where they add context — within paragraphs, not as a separate section.
 
 ━━ WRITING RULES ━━
-- Sound like a local friend who lives there — not a tourist brochure
+- Sound like a local friend — not a tourist brochure
 - Short paragraphs (2-3 sentences max)
-- Vary sentence length and structure
-- Never use: "amazing", "must-visit", "hidden gem", "culinary journey", "vibrant"
-- Add real friction: mention what's annoying, what's overpriced, what's worth it anyway
-- One concrete detail per place (a dish name, a price, a specific table, the day to go)
-- No filler phrases like "situated in the heart of" or "boasts an impressive"
-
-━━ QUALITY CHECKS (self-review before submitting) ━━
-- Every place name is real and exists in ${topic.city}
-- Every address is real and correctly formatted
-- No two paragraphs start the same way
-- No repeated adjectives within 200 words of each other
-- Body is 900-1100 words
+- Vary sentence length. Never use: "amazing", "must-visit", "hidden gem", "culinary journey", "vibrant"
+- Add real friction: what's annoying, what's overpriced, what's worth it
+- One concrete detail per place (a dish name, a price, a specific table)
 
 ━━ BODY MARKDOWN FORMAT ━━
-Use these exact markdown formats — they render directly on the website:
-- ## Heading (H2 section title — used for major sections)
-- ### Sub-heading (H3 — used for each place name or sub-section)
-- **bold text** (for place names, dish names, key terms)
-- - bullet point (for list items)
-- | col | col | table format
+- ## Heading (H2) — use primary keyword in at least one H2
+- ### Sub-heading (H3) — for each place or sub-section
+- **bold** for place names, dish names
+- - bullet points for lists
+- | col | col | for tables
+- [link text](/path) for internal links
 
 ━━ REQUIRED BODY STRUCTURE ━━
-The body field must follow this EXACT structure in order:
-
-## Why ${topic.city} for ${topic.slug.replace(/-/g, " ")}
-(2-3 sentences giving context — neighborhood, history, budget range, best season)
+## Why ${topic.city} for ${topic.primaryKeyword.replace(/\b(best|top|most)\s+/i, "")}
+(2-3 sentences — context, budget range, best season. Include 1 internal link.)
 
 | Place | Price | Best For | Vibe |
 |-------|-------|----------|------|
-(comparison table with all 5 places — one row each)
+(comparison table with all 5 places)
 
 ## Detailed Reviews
 
 ### 1. [Place Name]
-(3-4 sentences: what makes it special, atmosphere, an honest observation, one specific dish or detail)
-**Best for:** [type of visitor]
-**Local tip:** [one insider detail — a specific dish, a day to visit, what to avoid]
+(3-4 sentences with honest observations. Include an internal link in at least 2 of the 5 reviews.)
+**Best for:** [type]
+**Local tip:** [specific insider detail]
 
-(repeat ### for all 5 places)
+(repeat for all 5 places)
 
-## Local Tips for ${topic.slug.replace(/-/g, " ")}
+## Tips for ${topic.primaryKeyword}
 - [Tip 1 — specific, actionable]
-- [Tip 2 — timing or reservation advice]
-- [Tip 3 — what to order or avoid]
-- [Tip 4 — nearby street or attraction worth combining]
+- [Tip 2 — timing/reservation]
+- [Tip 3 — what to order/avoid]
+- [Tip 4 — nearby attraction worth combining. Include an internal link.]
 
 ## FAQ
 
-### Q: [Specific question a traveler would Google about this topic]
-A: [2-3 sentence answer — specific and useful, not generic]
+### Q: [Question a traveler would Google]
+A: [2-3 sentence specific answer]
 
-### Q: [Second question — practical, e.g. about price, hours, booking]
+### Q: [Practical question about price/hours/booking]
 A: [Answer]
 
-### Q: [Third question — e.g. about the best option for a specific type of traveler]
+### Q: [Best option for a specific type of traveler]
 A: [Answer]
 
 ## The Verdict
-(1-2 sentences for each: best for couples, best for budget, best for first-timers, best for locals — recommend specific places by name)
+(Best for couples, budget, first-timers, locals — name specific places)
 
 ━━ OUTPUT FORMAT ━━
-Return ONLY valid JSON (no markdown fences, no text outside the JSON):
+Return ONLY valid JSON (no markdown fences):
 
 {
   "title": "${topic.title}",
@@ -244,19 +332,20 @@ Return ONLY valid JSON (no markdown fences, no text outside the JSON):
   "city": "${topic.city}",
   "citySlug": "${topic.citySlug}",
   "category": "${topic.category}",
-  "coverImage": "https://images.unsplash.com/photo-XXXXXXXXXXX?w=1200&q=80",
+  "coverImage": "/images/blog/${topic.slug}.jpg",
   "publishedAt": "${today}",
   "readingTime": 8,
-  "metaDescription": "<compelling, specific SEO description under 155 chars — mention city + specific benefit>",
-  "intro": "<3-4 sentence hook: open with a scene or a surprising fact, describe the neighborhood vibe, state clearly who this guide is for and what they'll find>",
-  "body": "<full article body using the structure above — 900-1100 words — use \\n\\n between sections>",
+  "primaryKeyword": "${topic.primaryKeyword}",
+  "metaDescription": "<SEO description under 155 chars with primary keyword and city, compelling click-through>",
+  "intro": "<3-4 sentence hook with the primary keyword in the first sentence>",
+  "body": "<full article, 900-1100 words, includes 3-6 internal links as [text](/path)>",
   "places": [
     {
-      "name": "<exact real place name>",
-      "description": "<3 sentences: 1) atmosphere/vibe, 2) what makes it special with a specific detail, 3) honest observation — not purely positive>",
-      "address": "<real complete street address including street number>",
+      "name": "<real place name>",
+      "description": "<3 sentences: atmosphere, what's special, honest observation>",
+      "address": "<real street address>",
       "rating": 4.7,
-      "image": "https://images.unsplash.com/photo-XXXXXXXXXXX?w=800&q=80",
+      "image": "/images/blog/${topic.slug}.jpg",
       "citySlug": "${topic.citySlug}",
       "placeSlug": null
     }
@@ -264,33 +353,33 @@ Return ONLY valid JSON (no markdown fences, no text outside the JSON):
 }
 
 STRICT RULES:
-- Exactly 5 places — real, well-known, with real addresses in ${topic.city}
-- Every Unsplash photo ID must be DIFFERENT across cover image + all 5 places (6 unique IDs total)
-- Replace XXXXXXXXXXX with real Unsplash photo IDs in format: DIGITS-ALPHANUMERIC (e.g. 1583354608715-177553a4035e)
-- metaDescription: under 155 characters, specific, includes city name
-- Body must include the FAQ section with Q: / A: format — this powers rich snippets in Google
-- Return pure JSON only — no text before or after`;
+- 5 real places with real addresses in ${topic.city}
+- Use "/images/blog/${topic.slug}.jpg" for coverImage and all place images (we'll replace with real images later)
+- metaDescription under 155 characters, includes primary keyword
+- Body MUST include the FAQ section
+- Body MUST include 3-6 internal links using [text](/path) format
+- Return pure JSON only`;
 
-  console.log(`  → model: claude-opus-4-7, max_tokens: 8000`);
+  console.log(`  → model: claude-sonnet-4-6, max_tokens: 8000`);
   const message = await client.messages.create({
-    model: "claude-opus-4-7",
+    model: "claude-sonnet-4-6",
     max_tokens: 8000,
     messages: [{ role: "user", content: prompt }],
   });
   console.log(`  → stop_reason: ${message.stop_reason}, usage: ${JSON.stringify(message.usage)}`);
 
   if (message.stop_reason === "max_tokens") {
-    throw new Error("Response truncated (max_tokens reached) — article too long to fit in one pass");
+    throw new Error("Response truncated — article too long");
   }
 
   const text = message.content[0].type === "text" ? message.content[0].text : "";
   return text.replace(/^```(?:json)?\n?/m, "").replace(/\n?```$/m, "").trim();
 }
 
-// ─── Inject into blogData.ts ──────────────────────────────────────────────────
+// ─── Inject into blogData.ts ────────────────────────────────────────────────
 
-function injectArticle(filePath: string, articleJson: string): void {
-  const content = readFileSync(filePath, "utf-8");
+function injectArticle(articleJson: string): void {
+  const content = readFileSync(DATA_PATH, "utf-8");
 
   const insertionMarker = "\n];\n\nexport function getAllArticles";
   const insertionIndex = content.indexOf(insertionMarker);
@@ -300,7 +389,6 @@ function injectArticle(filePath: string, articleJson: string): void {
 
   const parsed = JSON.parse(articleJson);
 
-  // Strip extra place fields not in BlogPlace type
   const PLACE_KEYS = new Set(["name", "description", "address", "rating", "image", "citySlug", "placeSlug"]);
   if (Array.isArray(parsed.places)) {
     parsed.places = parsed.places.map((p: Record<string, unknown>) =>
@@ -308,7 +396,16 @@ function injectArticle(filePath: string, articleJson: string): void {
     );
   }
 
-  const formatted = JSON.stringify(parsed, null, 2)
+  const ARTICLE_KEYS = new Set([
+    "title", "slug", "city", "citySlug", "category", "coverImage",
+    "publishedAt", "readingTime", "intro", "body", "places",
+    "metaDescription", "primaryKeyword",
+  ]);
+  const cleaned = Object.fromEntries(
+    Object.entries(parsed).filter(([k]) => ARTICLE_KEYS.has(k))
+  );
+
+  const formatted = JSON.stringify(cleaned, null, 2)
     .replace(/"placeSlug": null/g, '"placeSlug": undefined')
     .split("\n")
     .map((line) => "  " + line)
@@ -317,52 +414,112 @@ function injectArticle(filePath: string, articleJson: string): void {
   const before = content.slice(0, insertionIndex).replace(/,\s*$/, "");
   const updated = before + ",\n" + formatted + content.slice(insertionIndex);
 
-  writeFileSync(filePath, updated, "utf-8");
+  writeFileSync(DATA_PATH, updated, "utf-8");
 }
 
-// ─── Main ────────────────────────────────────────────────────────────────────
+// ─── Main ───────────────────────────────────────────────────────────────────
 
 async function main() {
-  console.log("=== generate-article.ts starting ===");
-  console.log(`Node version: ${process.version}`);
-  console.log(`Working directory: ${process.cwd()}`);
+  console.log("=== generate-article.ts (SEO-driven) ===");
+  console.log(`Working directory: ${ROOT}`);
   console.log(`ANTHROPIC_API_KEY set: ${!!process.env.ANTHROPIC_API_KEY}`);
 
-  const dataPath    = join(process.cwd(), "lib", "blogData.ts");
-  const trackerPath = join(process.cwd(), "scripts", "used-topics.json");
+  const existingSlugs = getExistingSlugs();
+  console.log(`\nExisting articles: ${existingSlugs.length}`);
 
-  const existingSlugs = getExistingSlugs(dataPath);
-  const usedSlugs     = getUsedSlugs(trackerPath);
-  console.log(`\nExisting articles in blogData: ${existingSlugs.length}`);
-  console.log(`Tracked used slugs: ${usedSlugs.length}`);
+  // Check for --keyword override
+  const kwArg = process.argv.indexOf("--keyword");
+  let topic: TopicInput;
+  let queueIndex = -1;
 
-  const client = new Anthropic();
-
-  let topic = pickTopic(existingSlugs, usedSlugs);
-  if (!topic) {
-    topic = await inventNewTopic(client, existingSlugs);
+  if (kwArg !== -1 && process.argv[kwArg + 1]) {
+    const kw = process.argv[kwArg + 1];
+    const queue = readQueue();
+    const match = queue.findIndex((e) => e.keyword.toLowerCase() === kw.toLowerCase());
+    if (match === -1) {
+      console.error(`Keyword "${kw}" not found in queue. Add it first.`);
+      process.exit(1);
+    }
+    const entry = queue[match];
+    const cannibal = checkCannibalization(entry.keyword, entry.suggestedSlug);
+    if (cannibal) {
+      console.error(`⚠ CANNIBALIZATION BLOCKED: ${cannibal}`);
+      console.error("Update the existing article instead, or remove the conflicting entry.");
+      process.exit(1);
+    }
+    topic = {
+      slug: entry.suggestedSlug,
+      city: entry.city,
+      citySlug: entry.citySlug,
+      category: entry.category,
+      title: entry.suggestedTitle.replace("{year}", String(YEAR)),
+      primaryKeyword: entry.keyword,
+      secondaryKeywords: entry.secondaryKeywords,
+      locale: entry.locale,
+    };
+    queueIndex = match;
+  } else {
+    // Try keyword queue first, then fall back to legacy topics
+    const fromQueue = pickFromQueue();
+    if (fromQueue) {
+      topic = fromQueue.topic;
+      queueIndex = fromQueue.queueIndex;
+      console.log(`📋 Using keyword queue entry #${queueIndex}`);
+    } else {
+      const legacy = pickFromLegacy();
+      if (!legacy) {
+        console.log("No available topics in queue or legacy pool. Add more keywords to content/keyword-queue.json");
+        process.exit(0);
+      }
+      topic = legacy;
+      console.log("📋 Using legacy topic (keyword queue empty/exhausted)");
+    }
   }
 
-  console.log(`\nSelected topic: "${topic.title}" (${topic.slug})`);
-  console.log(`City: ${topic.city} | Category: ${topic.category}`);
+  console.log(`\n🎯 Target keyword: "${topic.primaryKeyword}"`);
+  console.log(`   Title: "${topic.title}"`);
+  console.log(`   Slug: ${topic.slug}`);
+  console.log(`   City: ${topic.city} | Category: ${topic.category} | Locale: ${topic.locale}`);
 
+  // Anti-cannibalization final check
+  const cannibal = checkCannibalization(topic.primaryKeyword, topic.slug);
+  if (cannibal) {
+    console.error(`\n⚠ CANNIBALIZATION BLOCKED: ${cannibal}`);
+    process.exit(1);
+  }
+  console.log("✓ Anti-cannibalization check passed");
+
+  const client = new Anthropic();
   console.log("\nCalling Anthropic API...");
   const raw = await generateArticle(client, topic);
   console.log(`API response received (${raw.length} chars)`);
-  console.log(`Response preview: ${raw.slice(0, 200)}...`);
 
-  console.log("\nParsing JSON response...");
   const parsed = JSON.parse(raw);
-  console.log(`Parsed article title: ${parsed.title}`);
-  console.log(`Places count: ${parsed.places?.length ?? 0}`);
-  console.log(`Cover image: ${parsed.coverImage}`);
+  console.log(`Title: ${parsed.title}`);
+  console.log(`Places: ${parsed.places?.length ?? 0}`);
+  console.log(`Primary keyword: ${parsed.primaryKeyword}`);
+
+  // Validate internal links exist in body
+  const linkCount = (parsed.body?.match(/\[([^\]]+)\]\(\/[^\)]+\)/g) || []).length;
+  console.log(`Internal links in body: ${linkCount}`);
+  if (linkCount < 2) {
+    console.warn("⚠ Fewer than 2 internal links — article may underperform on SEO");
+  }
 
   console.log("\nInjecting into blogData.ts...");
-  injectArticle(dataPath, raw);
-  console.log(`✓ Article "${topic.title}" injected into lib/blogData.ts`);
+  injectArticle(raw);
+  console.log(`✓ Article "${topic.slug}" injected`);
 
-  markSlugUsed(trackerPath, topic.slug);
-  console.log(`✓ Slug "${topic.slug}" recorded in used-topics.json`);
+  markSlugUsed(topic.slug);
+
+  // Update queue status
+  if (queueIndex >= 0) {
+    const queue = readQueue();
+    queue[queueIndex].status = "published";
+    writeQueue(queue);
+    console.log(`✓ Queue entry #${queueIndex} marked as published`);
+  }
+
   console.log("=== Done ===");
 }
 

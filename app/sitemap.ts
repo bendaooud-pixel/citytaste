@@ -33,8 +33,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const blogRoutes: MetadataRoute.Sitemap = getAllArticles().map((article) => ({
     url: `${BASE_URL}/blog/${article.slug}`,
     lastModified: new Date(article.publishedAt),
-    changeFrequency: "monthly" as const,
-    priority: 0.6,
+    changeFrequency: "weekly" as const,
+    priority: 0.8,
   }));
 
   const BARCELONA_SEO_PAGES = [
