@@ -16,6 +16,8 @@ export interface GuideFrontmatter {
   relatedTours: string[];
   relatedGuides: string[];
   hreflangGroup?: string;
+  gygLocationId?: string;
+  gygActivityIds?: string[];
   faq: { q: string; a: string }[];
   publishedAt: string;
   updatedAt?: string;

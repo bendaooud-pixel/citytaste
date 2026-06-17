@@ -9,7 +9,9 @@ function inlineFormat(text: string): string {
       /\[([^\]]+)\]\(([^\)]+)\)/g,
       (_match, label: string, href: string) => {
         const isExternal = href.startsWith("http");
-        const attrs = isExternal ? ' target="_blank" rel="noopener noreferrer"' : "";
+        const isAffiliate = href.includes("getyourguide.com");
+        const rel = isAffiliate ? "sponsored nofollow" : isExternal ? "noopener noreferrer" : "";
+        const attrs = isExternal ? ` target="_blank" rel="${rel}"` : "";
         return `<a href="${href}" class="text-orange-500 hover:underline font-medium"${attrs}>${label}</a>`;
       }
     );

@@ -3,6 +3,9 @@ import Image from "next/image";
 import MarkdownRenderer from "@/components/MarkdownRenderer";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import GygWidget from "@/components/affiliate/GygWidget";
+import GygButton from "@/components/affiliate/GygButton";
+import AffiliateDisclosure from "@/components/affiliate/AffiliateDisclosure";
 import type { Guide } from "@/lib/morocco/types";
 import { getAllGuides } from "@/lib/morocco/content";
 
@@ -74,6 +77,29 @@ export default function GuideTemplate({ guide, alternates }: Props) {
           <article>
             <MarkdownRenderer body={content} className="mb-12" />
           </article>
+
+          {/* GetYourGuide Activities */}
+          {fm.citySlug && (
+            <section className="bg-white rounded-2xl p-8 mb-10 shadow-sm border border-slate-100">
+              <h2 className="text-xl font-bold text-slate-900 mb-2" style={{ fontFamily: "var(--font-playfair)" }}>
+                {fm.locale === "fr" ? "Activités & expériences" : "Activities & Experiences"}
+              </h2>
+              <p className="text-slate-500 text-sm mb-5">
+                {fm.locale === "fr"
+                  ? "Réservez des visites guidées, des excursions et des expériences locales."
+                  : "Book guided tours, day trips and local experiences."}
+              </p>
+              <GygWidget
+                citySlug={fm.citySlug}
+                locale={fm.locale}
+                query={fm.gygLocationId}
+                numberOfItems={3}
+                className="mb-4"
+              />
+              <GygButton citySlug={fm.citySlug} locale={fm.locale} />
+              <AffiliateDisclosure locale={fm.locale} className="mt-4" />
+            </section>
+          )}
 
           {/* FAQ */}
           {fm.faq && fm.faq.length > 0 && (

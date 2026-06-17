@@ -4,6 +4,9 @@ import Link from "next/link";
 import BlogImage from "@/components/ui/BlogImage";
 import MarkdownRenderer from "@/components/MarkdownRenderer";
 import Newsletter from "@/components/Newsletter";
+import GygWidget from "@/components/affiliate/GygWidget";
+import GygButton from "@/components/affiliate/GygButton";
+import AffiliateDisclosure from "@/components/affiliate/AffiliateDisclosure";
 import { getAllArticles, getArticleBySlug } from "@/lib/blogData";
 
 const BASE = "https://www.citytaste.co";
@@ -305,6 +308,22 @@ export default async function BlogArticlePage({ params }: Props) {
               </svg>
             </Link>
           </div>
+
+          {/* GetYourGuide Activities */}
+          <section className="bg-white rounded-2xl p-8 mb-10 shadow-sm border border-slate-100">
+            <h2
+              className="text-xl font-bold text-slate-900 mb-2"
+              style={{ fontFamily: "var(--font-playfair)" }}
+            >
+              Activities & Experiences in {article.city}
+            </h2>
+            <p className="text-slate-500 text-sm mb-5">
+              Book guided tours, day trips and local experiences.
+            </p>
+            <GygWidget citySlug={article.citySlug} className="mb-4" />
+            <GygButton citySlug={article.citySlug} />
+            <AffiliateDisclosure className="mt-4" />
+          </section>
 
           {/* Newsletter full */}
           <div className="mb-10">

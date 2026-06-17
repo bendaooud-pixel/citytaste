@@ -14,6 +14,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: BASE_URL,              lastModified: SITE_UPDATED, changeFrequency: "daily",   priority: 1   },
     { url: `${BASE_URL}/blog`,    lastModified: new Date(getAllArticles()[0]?.publishedAt ?? SITE_UPDATED), changeFrequency: "daily", priority: 0.9 },
     { url: `${BASE_URL}/privacy`, lastModified: SITE_UPDATED, changeFrequency: "yearly",  priority: 0.2 },
+    { url: `${BASE_URL}/affiliate-disclosure`, lastModified: SITE_UPDATED, changeFrequency: "yearly", priority: 0.2 },
   ];
 
   const cityRoutes: MetadataRoute.Sitemap = cities.map((city) => ({

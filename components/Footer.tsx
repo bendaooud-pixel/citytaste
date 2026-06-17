@@ -48,8 +48,23 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/admin" className="hover:text-white transition-colors">
-                  Admin Dashboard
+                <Link href="/blog" className="hover:text-white transition-colors">
+                  Blog
+                </Link>
+              </li>
+              <li>
+                <Link href="/morocco" className="hover:text-white transition-colors">
+                  Morocco Guides
+                </Link>
+              </li>
+              <li>
+                <Link href="/affiliate-disclosure" className="hover:text-white transition-colors">
+                  Affiliate Disclosure
+                </Link>
+              </li>
+              <li>
+                <Link href="/privacy" className="hover:text-white transition-colors">
+                  Privacy Policy
                 </Link>
               </li>
             </ul>
@@ -57,7 +72,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-10 pt-6 border-t border-slate-700 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
-          <p>© 2025 CityTaste. Built with ♥ for food lovers everywhere.</p>
+          <p>© {new Date().getFullYear()} CityTaste. Built with ♥ for food lovers everywhere.</p>
           <p>Powered by Next.js · Tailwind CSS · Supabase · Google Places</p>
         </div>
       </div>
