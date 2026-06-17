@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import GygWidget from "@/components/affiliate/GygWidget";
 import GygButton from "@/components/affiliate/GygButton";
 import AffiliateDisclosure from "@/components/affiliate/AffiliateDisclosure";
+import AffiliateOffers from "@/components/affiliate/AffiliateOffers";
 import type { Guide } from "@/lib/morocco/types";
 import { getAllGuides } from "@/lib/morocco/content";
 
@@ -99,6 +100,11 @@ export default function GuideTemplate({ guide, alternates }: Props) {
               <GygButton citySlug={fm.citySlug} locale={fm.locale} />
               <AffiliateDisclosure locale={fm.locale} className="mt-4" />
             </section>
+          )}
+
+          {/* Affiliate Offers (Viator etc.) */}
+          {fm.citySlug && (
+            <AffiliateOffers citySlug={fm.citySlug} locale={fm.locale} className="mb-10" />
           )}
 
           {/* FAQ */}

@@ -68,6 +68,7 @@ export default function AffiliateDisclosurePage() {
               <h2 className="text-lg font-bold text-slate-900 mb-3">Partners</h2>
               <ul className="list-disc list-inside space-y-2 text-sm">
                 <li><strong>GetYourGuide</strong> — tours, activities, and experiences worldwide.</li>
+                <li><strong>Viator</strong> — guided tours, day trips, workshops, and local experiences.</li>
               </ul>
             </section>
 
