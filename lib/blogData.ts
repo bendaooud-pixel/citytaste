@@ -3435,6 +3435,67 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "placeSlug": undefined
       }
     ]
+  },
+  {
+    "title": "Late Night Restaurants in Paris: Where to Eat After Midnight (2026)",
+    "slug": "late-night-restaurants-paris",
+    "city": "Paris",
+    "citySlug": "paris",
+    "category": "Restaurants",
+    "coverImage": "/images/blog/late-night-restaurants-paris.jpg",
+    "publishedAt": "2026-06-17",
+    "readingTime": 8,
+    "primaryKeyword": "late night restaurants Paris",
+    "metaDescription": "Best late night restaurants Paris 2026. Eat after midnight without settling for kebabs. Real picks, honest prices, local tips.",
+    "intro": "Finding good late night restaurants in Paris is harder than the city's reputation suggests — most bistros wrap up by 10:30pm and the lights go out fast. But if you know where to look, Paris after midnight food can be genuinely excellent, not just emergency calories. This guide covers five places that actually stay open late, serve real food, and won't make you feel like an afterthought. Budget roughly €15–€45 per person depending on how deep you go into the wine list.",
+    "body": "## Why Late Night Restaurants Paris Deserve More Credit\n\nParis has a reputation for dining late, but the reality is that 'late' here often means 9pm, not midnight. The city's restaurant culture runs earlier than most visitors expect, which makes knowing where to eat late in Paris genuinely useful knowledge — not just a nice-to-have. Summer is the best season for late dining since terraces stay open longer and the city feels alive past 1am; winter narrows your options considerably. If you're still building your broader Paris food map, [Explore Paris](/paris) is a good place to start.\n\n| Place | Price | Best For | Vibe |\n|-------|-------|----------|------|\n| Le Tambour | €15–€25 | Classic French after midnight | Loud, nostalgic, no-frills |\n| Chez Gladines | €12–€20 | Generous portions on a budget | Crowded, convivial, cash-preferred |\n| La Gueuze | €10–€18 | Beer and solid bar food | Belgian pub, dark wood, relaxed |\n| Le Relais de l'Entrecôte | €28–€38 | Steak frites done one way | Polished, efficient, queue-worthy |\n| Café de Flore | €14–€28 | Late-night people-watching | Iconic, touristy, but open till 2am |\n\n## Detailed Reviews\n\n### 1. Le Tambour\n\n**Le Tambour** on Rue Montmartre is the kind of place that looks chaotic but somehow runs like clockwork at 1am. The walls are covered in salvaged metro signs, the tables are packed close, and the server will not ask if you're still deciding — you're deciding now. Order the **œufs mayonnaise** to start and the **tête de veau** if you want to commit fully to the old Paris experience. It's not refined, but for Paris after midnight food, it's hard to beat the energy.\n\n**Best for:** Night owls who want something properly French without the theatre\n**Local tip:** Sit near the back to avoid the full blast of noise from the door\n\n### 2. Chez Gladines\n\n**Chez Gladines** in the 13th is a Basque institution that stays open late and charges prices that feel almost suspicious given how much food arrives. The **salade landaise** is roughly the size of a small satellite dish and costs around €13. Late night dining Paris on a real budget starts here — though be prepared to share a table with strangers and wait if you show up after 11pm on a weekend. It's cash-preferred, so come prepared.\n\n**Best for:** Groups, students, anyone watching their spend\n**Local tip:** The duck dishes are the move — skip the fish\n\nIf Chez Gladines is full, our guide to [cheap eats in Paris](/blog/cheap-eats-paris) has solid backup options that won't drain your wallet.\n\n### 3. La Gueuze\n\n**La Gueuze** near Odéon is technically a Belgian beer bar, but the kitchen turns out proper food until late — think **croque monsieur**, **carbonnade flamande**, and decent moules when they're in season. It's not the most exciting meal you'll have in Paris, but it's consistent, the beer list is long, and the staff aren't trying to rush you out. For restaurants ouverts tard Paris, this one genuinely earns the description — they serve food until at least 1am most nights.\n\n**Best for:** Solo diners, couples who want something low-key\n**Local tip:** The upstairs room is quieter if you want to actually have a conversation\n\n### 4. Le Relais de l'Entrecôte\n\n**Le Relais de l'Entrecôte** is famous for doing exactly one thing: steak frites with their secret walnut-herb sauce, served in two rounds. There's no menu, no deliberation — you just state how you want your steak cooked and it arrives. It costs around €28 for the full formula, and yes, the queue outside the Saint-Germain location can run 30 minutes even at 11pm. Worth it? For the sauce alone, yes. This is one of the better late night restaurants Paris has for a proper sit-down meal that feels like an occasion.\n\n**Best for:** Couples, first-timers who want a classic Paris experience\n**Local tip:** The Ternes location (17th) has shorter queues than Saint-Germain\n\nIf you're making a full evening of it with someone, check out our picks for [romantic restaurants in Paris](/blog/romantic-restaurants-paris) for earlier dinner options before heading here late.\n\n### 5. Café de Flore\n\n**Café de Flore** on Boulevard Saint-Germain is genuinely open until 2am and serves food throughout — the **club sandwich** at midnight is a rite of passage that costs about €22 and tastes exactly as it should. Yes, it's a tourist landmark. Yes, the coffee is overpriced. But there's something about sitting on that terrace at 1am with a glass of Burgundy that justifies the premium at least once. Where to eat late in Paris when you want atmosphere over value: this is the honest answer.\n\n**Best for:** First-timers, anyone who wants the full Paris-at-night feeling\n**Local tip:** The interior seats near the bar are warmer in winter and slightly less exposed to the street\n\n## Tips for Late Night Restaurants Paris\n\n- **Arrive before 11pm if you can.** Most late night restaurants Paris closes their kitchen between midnight and 1am — 'open late' rarely means 2am food service, just 2am drinks.\n- **Don't assume reservations aren't needed.** Places like Le Relais de l'Entrecôte don't take bookings, but many late-night spots do — call ahead or book via their website if you're going on a Friday or Saturday.\n- **Stick to the classics late at night.** Ambitious tasting menus at 11pm are a gamble — kitchens are winding down and prep quality drops. Steak, eggs, salads, and grilled meats hold up better at that hour.\n- **Combine dinner with a night walk through Saint-Germain or the Marais.** Both neighbourhoods have late options clustered together, so you're not wasting time in taxis. For the best [cafés in Paris](/blog/best-cafes-paris) to start your evening before dinner, we've got a full guide.\n\n## FAQ\n\n### Q: What time do restaurants actually stop serving food in Paris?\nA: Most traditional bistros stop taking orders by 10:30pm. True late night dining Paris — meaning food after midnight — is limited to maybe 20–30 places across the city. The spots in this guide are genuine exceptions, not the rule.\n\n### Q: Are late night restaurants in Paris expensive?\nA: Not necessarily. Places like Chez Gladines and La Gueuze keep prices reasonable (€12–€20 per person). The more 'classic Paris' the experience, the more you'll pay — Café de Flore and Le Relais de l'Entrecôte sit in the €25–€40 range once you add drinks.\n\n### Q: Where should I eat late in Paris if I'm with a group?\nA: Chez Gladines in the 13th is the strongest group option — big portions, low prices, shared tables that make the noise feel intentional rather than accidental. Le Tambour works well too if your group doesn't mind a tighter squeeze and a louder room.\n\n## The Verdict\n\nFor **couples**, Le Relais de l'Entrecôte delivers a proper experience without requiring a full evening's planning. For **budget travellers**, Chez Gladines is the clear answer — nothing else comes close on value. **First-timers** should do Café de Flore at least once, overpriced coffee and all. And if you're a **local or repeat visitor** who just needs somewhere reliable after a show or a long evening out, Le Tambour remains one of the most honest late night restaurants Paris has kept going for decades.",
+    "places": [
+      {
+        "name": "Le Tambour",
+        "description": "A raucous, clock-never-stops bistro on Rue Montmartre that serves proper French food until 3am. The walls are plastered with old metro signs and the menu leans hard into retro classics like tête de veau and œufs mayonnaise. It's loud, cramped, and completely unpretentious — exactly what Paris after midnight food should feel like.",
+        "address": "41 Rue Montmartre, 75002 Paris",
+        "rating": 4.4,
+        "image": "/images/blog/late-night-restaurants-paris.jpg",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Chez Gladines",
+        "description": "A beloved Basque canteen in the 13th that somehow keeps prices low and portions enormous well into the night. The salade landaise is a meal in itself and the duck confit is reliably good. Cash-preferred, occasionally chaotic, and one of the best budget options for late night dining Paris.",
+        "address": "30 Rue des Cinq Diamants, 75013 Paris",
+        "rating": 4.3,
+        "image": "/images/blog/late-night-restaurants-paris.jpg",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "La Gueuze",
+        "description": "A Belgian beer bar near Odéon that serves honest bar food — croquemonsieur, carbonnade, moules — until well past midnight. The atmosphere is dark wood and low-key, with a beer list long enough to keep you busy while the kitchen finishes up. One of the more reliable restaurants ouverts tard Paris near the Left Bank.",
+        "address": "19 Rue Soufflot, 75005 Paris",
+        "rating": 4.2,
+        "image": "/images/blog/late-night-restaurants-paris.jpg",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Le Relais de l'Entrecôte",
+        "description": "No menu, no choices — just steak frites with a secret walnut-herb sauce served in two generous rounds. It costs around €28 for the full formula and the Saint-Germain location draws queues even at 11pm, which tells you everything about how good the sauce actually is. A polished, efficient late night restaurant Paris keeps sending people back to year after year.",
+        "address": "20 Rue Saint-Benoît, 75006 Paris",
+        "rating": 4.6,
+        "image": "/images/blog/late-night-restaurants-paris.jpg",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Café de Flore",
+        "description": "One of Saint-Germain's most iconic addresses, open until 2am and serving food throughout — including a €22 club sandwich that has become a late-night Paris institution in its own right. It's overpriced, tourist-heavy, and completely worth doing once for the atmosphere alone. The terrace at 1am with a glass of red wine is one of those Paris moments that actually lives up to the image.",
+        "address": "172 Boulevard Saint-Germain, 75006 Paris",
+        "rating": 4.5,
+        "image": "/images/blog/late-night-restaurants-paris.jpg",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      }
+    ]
   }
 ];
 
