@@ -6,7 +6,6 @@ import MarkdownRenderer from "@/components/MarkdownRenderer";
 import Newsletter from "@/components/Newsletter";
 import GygWidget from "@/components/affiliate/GygWidget";
 import GygButton from "@/components/affiliate/GygButton";
-import AffiliateDisclosure from "@/components/affiliate/AffiliateDisclosure";
 import { getAllArticles, getArticleBySlug } from "@/lib/blogData";
 
 const BASE = "https://www.citytaste.co";
@@ -322,7 +321,6 @@ export default async function BlogArticlePage({ params }: Props) {
             </p>
             <GygWidget citySlug={article.citySlug} className="mb-4" />
             <GygButton citySlug={article.citySlug} />
-            <AffiliateDisclosure className="mt-4" />
           </section>
 
           {/* Newsletter full */}

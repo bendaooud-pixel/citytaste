@@ -4,7 +4,6 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import GygWidget from "@/components/affiliate/GygWidget";
 import GygButton from "@/components/affiliate/GygButton";
-import AffiliateDisclosure from "@/components/affiliate/AffiliateDisclosure";
 import AffiliateOffers from "@/components/affiliate/AffiliateOffers";
 import type { Guide, MoroccoLocale } from "@/lib/morocco/types";
 
@@ -122,7 +121,6 @@ export default function CityHubTemplate({ citySlug, cityName, locale, guides, he
               className="mb-4"
             />
             <GygButton citySlug={citySlug} locale={locale} />
-            <AffiliateDisclosure locale={locale} className="mt-4" />
           </section>
 
           {/* Viator Offers */}

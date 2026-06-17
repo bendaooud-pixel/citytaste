@@ -3,7 +3,6 @@
 import { useState } from "react";
 import Image from "next/image";
 import { getOffersByCity } from "@/lib/affiliate/offers";
-import AffiliateDisclosure from "./AffiliateDisclosure";
 
 const CATEGORY_LABELS: Record<string, Record<string, string>> = {
   en: {
@@ -137,7 +136,6 @@ export default function AffiliateOffers({
         ))}
       </div>
 
-      <AffiliateDisclosure locale={locale} className="mt-4" />
     </section>
   );
 }
