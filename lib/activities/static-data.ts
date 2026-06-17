@@ -28,6 +28,7 @@ export const ACTIVITIES: Activity[] = [
   {
     id: "viator-fes-115777P9",
     cityId: "ci-fes",
+    slug: "fez-to-marrakech-merzouga-desert-tour",
     title: "Best Fez to Marrakech via Merzouga Desert Dunes, 3 Days Tour",
     titleI18n: {},
     descI18n: {},
@@ -43,6 +44,7 @@ export const ACTIVITIES: Activity[] = [
   {
     id: "viator-fes-463193P2",
     cityId: "ci-fes",
+    slug: "fez-medina-walking-tour",
     title: "Exclusive Fez Medina Walking Tour with Private Guide",
     titleI18n: {},
     descI18n: {},
@@ -58,6 +60,7 @@ export const ACTIVITIES: Activity[] = [
   {
     id: "viator-fes-459799P6",
     cityId: "ci-fes",
+    slug: "fez-pottery-mosaic-workshop",
     title: "Pottery and Mosaic Workshop in Fes Led by Local Artisans",
     titleI18n: {},
     descI18n: {},

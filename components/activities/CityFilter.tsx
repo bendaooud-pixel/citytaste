@@ -23,9 +23,10 @@ interface Props {
   cities: City[];
   activities: Activity[];
   locale: string;
+  countrySlug: string;
 }
 
-export default function CityFilter({ cities, activities, locale }: Props) {
+export default function CityFilter({ cities, activities, locale, countrySlug }: Props) {
   const [selectedCity, setSelectedCity] = useState<string | null>(null);
 
   const filtered = useMemo(
@@ -40,6 +41,13 @@ export default function CityFilter({ cities, activities, locale }: Props) {
     const ids = new Set(activities.map((a) => a.cityId));
     return cities.filter((c) => ids.has(c.id));
   }, [cities, activities]);
+
+  const cityById = useMemo(
+    () => Object.fromEntries(cities.map((c) => [c.id, c])),
+    [cities]
+  );
+
+  const localePrefix = locale === "en" ? "" : `/${locale}`;
 
   return (
     <>
@@ -71,9 +79,15 @@ export default function CityFilter({ cities, activities, locale }: Props) {
 
       {filtered.length > 0 ? (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filtered.map((activity) => (
-            <ActivityCard key={activity.id} activity={activity} locale={locale} />
-          ))}
+          {filtered.map((activity) => {
+            const citySlug = cityById[activity.cityId]?.slug;
+            const articleUrl = activity.slug && citySlug
+              ? `/${countrySlug}${localePrefix}/${citySlug}/experiences/${activity.slug}`
+              : undefined;
+            return (
+              <ActivityCard key={activity.id} activity={activity} locale={locale} articleUrl={articleUrl} />
+            );
+          })}
         </div>
       ) : (
         <div className="text-center py-16">

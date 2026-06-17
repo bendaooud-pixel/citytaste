@@ -64,3 +64,39 @@ export function getCityBySlug(
     (c) => c.countryId === country.id && c.slug === citySlug
   );
 }
+
+export function getActivityBySlug(
+  countrySlug: string,
+  citySlug: string,
+  activitySlug: string
+): Activity | undefined {
+  const country = COUNTRIES.find((c) => c.slug === countrySlug);
+  if (!country) return undefined;
+  const city = CITIES.find(
+    (c) => c.countryId === country.id && c.slug === citySlug
+  );
+  if (!city) return undefined;
+  return ACTIVITIES.find((a) => a.cityId === city.id && a.slug === activitySlug);
+}
+
+export function getCityById(cityId: string): City | undefined {
+  return CITIES.find((c) => c.id === cityId);
+}
+
+export function getCountryByCityId(cityId: string): Country | undefined {
+  const city = CITIES.find((c) => c.id === cityId);
+  if (!city) return undefined;
+  return COUNTRIES.find((co) => co.id === city.countryId);
+}
+
+export function getAllActivitiesWithSlugs(): Array<{
+  activity: Activity;
+  citySlug: string;
+  countrySlug: string;
+}> {
+  return ACTIVITIES.filter((a) => a.slug).map((a) => {
+    const city = CITIES.find((c) => c.id === a.cityId)!;
+    const country = COUNTRIES.find((co) => co.id === city.countryId)!;
+    return { activity: a, citySlug: city.slug, countrySlug: country.slug };
+  });
+}

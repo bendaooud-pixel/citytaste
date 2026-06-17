@@ -44,6 +44,7 @@ CREATE INDEX idx_activity_cities_country ON activity_cities(country_id);
 CREATE TABLE IF NOT EXISTS activities (
   id            uuid PRIMARY KEY DEFAULT gen_random_uuid(),
   city_id       uuid NOT NULL REFERENCES activity_cities(id) ON DELETE CASCADE,
+  slug          text,                         -- URL-friendly slug, unique per city
   title         text NOT NULL,               -- English default
   title_i18n    jsonb DEFAULT '{}'::jsonb,    -- {"fr":"...","es":"..."}
   description   text,
@@ -58,7 +59,8 @@ CREATE TABLE IF NOT EXISTS activities (
   rating        numeric,
   priority      int NOT NULL DEFAULT 1,
   active        boolean NOT NULL DEFAULT true,
-  created_at    timestamptz NOT NULL DEFAULT now()
+  created_at    timestamptz NOT NULL DEFAULT now(),
+  UNIQUE (city_id, slug)
 );
 
 CREATE INDEX idx_activities_city    ON activities(city_id);
@@ -118,8 +120,9 @@ WITH fes_city AS (
   JOIN countries c ON c.id = ac.country_id
   WHERE c.slug = 'morocco' AND ac.slug = 'fes'
 )
-INSERT INTO activities (city_id, title, category, platform, affiliate_url, image_url, price_from, currency, duration, priority) VALUES
+INSERT INTO activities (city_id, slug, title, category, platform, affiliate_url, image_url, price_from, currency, duration, priority) VALUES
   ((SELECT id FROM fes_city),
+   'fez-to-marrakech-merzouga-desert-tour',
    'Best Fez to Marrakech via Merzouga Desert Dunes, 3 Days Tour',
    'day-trip', 'viator',
    'https://www.viator.com/Fez/d22151-ttd/p-115777P9?pid=P00306218&mcid=42383&medium=link&medium_version=selector&campaign=citytaste-mer&source=shortlink&localeSwitch=1',
@@ -127,6 +130,7 @@ INSERT INTO activities (city_id, title, category, platform, affiliate_url, image
    244, 'USD', '3 days', 1),
 
   ((SELECT id FROM fes_city),
+   'fez-medina-walking-tour',
    'Exclusive Fez Medina Walking Tour with Private Guide',
    'medina-tour', 'viator',
    'https://www.viator.com/Fez/d22151-ttd/p-463193P2?pid=P00306218&mcid=42383&medium=link&medium_version=selector&campaign=citytaste-dbgh&source=shortlink&localeSwitch=1',
@@ -134,6 +138,7 @@ INSERT INTO activities (city_id, title, category, platform, affiliate_url, image
    36, 'USD', '4 hours', 1),
 
   ((SELECT id FROM fes_city),
+   'fez-pottery-mosaic-workshop',
    'Pottery and Mosaic Workshop in Fes Led by Local Artisans',
    'activity', 'viator',
    'https://www.viator.com/Fez/d22151-ttd/p-459799P6?pid=P00306218&mcid=42383&medium=link&medium_version=selector&campaign=citytaste-tin&source=shortlink&localeSwitch=1',

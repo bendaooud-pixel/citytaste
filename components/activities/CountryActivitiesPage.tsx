@@ -66,12 +66,18 @@ export default function CountryActivitiesPage({ country, cities, activities, loc
     "@type": "ItemList",
     name: heading,
     numberOfItems: activities.length,
-    itemListElement: activities.map((a, i) => ({
-      "@type": "ListItem",
-      position: i + 1,
-      name: localized(a.title, a.titleI18n, locale),
-      url: a.affiliateUrl,
-    })),
+    itemListElement: activities.map((a, i) => {
+      const city = cities.find((c) => c.id === a.cityId);
+      const articlePath = a.slug && city
+        ? `${BASE_URL}/${country.slug}${localePrefix}/${city.slug}/experiences/${a.slug}`
+        : a.affiliateUrl;
+      return {
+        "@type": "ListItem",
+        position: i + 1,
+        name: localized(a.title, a.titleI18n, locale),
+        url: articlePath,
+      };
+    }),
   } : null;
 
   return (
@@ -109,7 +115,7 @@ export default function CountryActivitiesPage({ country, cities, activities, loc
 
         {/* Content */}
         <div className="max-w-5xl mx-auto px-4 py-10">
-          <CityFilter cities={cities} activities={activities} locale={locale} />
+          <CityFilter cities={cities} activities={activities} locale={locale} countrySlug={country.slug} />
         </div>
       </main>
       <Footer />

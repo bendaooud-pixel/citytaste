@@ -40,43 +40,81 @@ function CardImage({ src, alt }: { src: string; alt: string }) {
   );
 }
 
+const READ_MORE_LABELS: Record<string, string> = {
+  en: "Read more",
+  fr: "En savoir plus",
+  es: "Leer más",
+  it: "Scopri di più",
+};
+
 interface Props {
   activity: Activity;
   locale?: string;
+  articleUrl?: string;
 }
 
-export default function ActivityCard({ activity, locale = "en" }: Props) {
+export default function ActivityCard({ activity, locale = "en", articleUrl }: Props) {
   const title = localized(activity.title, activity.titleI18n, locale);
   const labels = CATEGORY_LABELS[locale] ?? CATEGORY_LABELS.en;
   const cta = CTA_LABELS[locale] ?? CTA_LABELS.en;
+  const readMore = READ_MORE_LABELS[locale] ?? READ_MORE_LABELS.en;
+
+  const Wrapper = articleUrl ? "div" : "a";
+  const wrapperProps = articleUrl
+    ? {}
+    : { href: activity.affiliateUrl, target: "_blank" as const, rel: "sponsored nofollow noopener" };
 
   return (
-    <a
-      href={activity.affiliateUrl}
-      target="_blank"
-      rel="sponsored nofollow noopener"
+    <Wrapper
+      {...wrapperProps}
       className="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow border border-slate-100 flex flex-col"
     >
-      <div className="relative h-48 overflow-hidden">
-        <CardImage src={activity.imageUrl ?? ""} alt={title} />
-        <div className="absolute top-3 left-3">
-          <span className="text-xs font-semibold text-white bg-black/50 backdrop-blur-sm px-2.5 py-1 rounded-full">
-            {labels[activity.category] ?? activity.category}
-          </span>
-        </div>
-        {activity.platform && (
-          <div className="absolute top-3 right-3">
-            <span className="text-[10px] font-medium text-white/80 bg-black/40 backdrop-blur-sm px-2 py-0.5 rounded-full capitalize">
-              {activity.platform}
+      {articleUrl ? (
+        <a href={articleUrl} className="relative h-48 overflow-hidden block">
+          <CardImage src={activity.imageUrl ?? ""} alt={title} />
+          <div className="absolute top-3 left-3">
+            <span className="text-xs font-semibold text-white bg-black/50 backdrop-blur-sm px-2.5 py-1 rounded-full">
+              {labels[activity.category] ?? activity.category}
             </span>
           </div>
-        )}
-      </div>
+          {activity.platform && (
+            <div className="absolute top-3 right-3">
+              <span className="text-[10px] font-medium text-white/80 bg-black/40 backdrop-blur-sm px-2 py-0.5 rounded-full capitalize">
+                {activity.platform}
+              </span>
+            </div>
+          )}
+        </a>
+      ) : (
+        <div className="relative h-48 overflow-hidden">
+          <CardImage src={activity.imageUrl ?? ""} alt={title} />
+          <div className="absolute top-3 left-3">
+            <span className="text-xs font-semibold text-white bg-black/50 backdrop-blur-sm px-2.5 py-1 rounded-full">
+              {labels[activity.category] ?? activity.category}
+            </span>
+          </div>
+          {activity.platform && (
+            <div className="absolute top-3 right-3">
+              <span className="text-[10px] font-medium text-white/80 bg-black/40 backdrop-blur-sm px-2 py-0.5 rounded-full capitalize">
+                {activity.platform}
+              </span>
+            </div>
+          )}
+        </div>
+      )}
 
       <div className="p-5 flex flex-col flex-1">
-        <h3 className="text-sm font-bold text-slate-900 leading-snug group-hover:text-orange-500 transition-colors mb-2 flex-1 line-clamp-2">
-          {title}
-        </h3>
+        {articleUrl ? (
+          <a href={articleUrl}>
+            <h3 className="text-sm font-bold text-slate-900 leading-snug group-hover:text-orange-500 transition-colors mb-2 flex-1 line-clamp-2">
+              {title}
+            </h3>
+          </a>
+        ) : (
+          <h3 className="text-sm font-bold text-slate-900 leading-snug group-hover:text-orange-500 transition-colors mb-2 flex-1 line-clamp-2">
+            {title}
+          </h3>
+        )}
 
         {activity.duration && (
           <p className="text-xs text-slate-400 mb-3 flex items-center gap-1">
@@ -100,14 +138,30 @@ export default function ActivityCard({ activity, locale = "en" }: Props) {
               </>
             )}
           </div>
-          <span className="inline-flex items-center gap-1.5 bg-[#F97316] text-white text-xs font-semibold px-3.5 py-2 rounded-lg group-hover:bg-orange-600 transition-colors whitespace-nowrap">
-            {cta}
-            <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-            </svg>
-          </span>
+          <div className="flex items-center gap-2">
+            {articleUrl && (
+              <a
+                href={articleUrl}
+                className="text-xs font-medium text-orange-500 hover:text-orange-600 transition-colors whitespace-nowrap"
+              >
+                {readMore}
+              </a>
+            )}
+            <a
+              href={activity.affiliateUrl}
+              target="_blank"
+              rel="sponsored nofollow noopener"
+              className="inline-flex items-center gap-1.5 bg-[#F97316] text-white text-xs font-semibold px-3.5 py-2 rounded-lg hover:bg-orange-600 transition-colors whitespace-nowrap"
+              onClick={articleUrl ? (e: React.MouseEvent) => e.stopPropagation() : undefined}
+            >
+              {cta}
+              <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+            </a>
+          </div>
         </div>
       </div>
-    </a>
+    </Wrapper>
   );
 }

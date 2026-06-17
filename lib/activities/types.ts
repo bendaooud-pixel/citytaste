@@ -21,6 +21,7 @@ export interface City {
 export interface Activity {
   id: string;
   cityId: string;
+  slug?: string;
   title: string;
   titleI18n: Record<string, string>;
   description?: string;
@@ -34,6 +35,14 @@ export interface Activity {
   duration?: string;
   rating?: number;
   priority: number;
+}
+
+export interface ActivityArticle {
+  body: string;
+  faq: { q: string; a: string }[];
+  metaTitle: string;
+  metaDescription: string;
+  h1: string;
 }
 
 export type ActivityCategory =

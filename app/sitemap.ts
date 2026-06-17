@@ -3,6 +3,7 @@ import { cities, places } from "@/lib/data";
 import { getAllArticles } from "@/lib/blogData";
 import { getAllGuides, getGuidesByCity } from "@/lib/morocco/content";
 import { MOROCCO_CITIES } from "@/lib/morocco/types";
+import { getAllActivitiesWithSlugs } from "@/lib/activities/db";
 
 const BASE_URL = "https://www.citytaste.co";
 
@@ -111,5 +112,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     };
   });
 
-  return [...staticRoutes, ...cityRoutes, ...placeRoutes, ...blogRoutes, ...barcelonaCategoryRoutes, ...marrakechCategoryRoutes, ...moroccoHubRoutes, ...moroccoActivitiesRoutes, ...moroccoCityHubRoutes, ...moroccoGuideRoutes];
+  const activityArticleRoutes: MetadataRoute.Sitemap = getAllActivitiesWithSlugs().flatMap(({ activity, citySlug, countrySlug }) =>
+    ["", "/fr", "/es", "/it"].map((localePrefix) => ({
+      url: `${BASE_URL}/${countrySlug}${localePrefix}/${citySlug}/experiences/${activity.slug}`,
+      lastModified: SITE_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    }))
+  );
+
+  return [...staticRoutes, ...cityRoutes, ...placeRoutes, ...blogRoutes, ...barcelonaCategoryRoutes, ...marrakechCategoryRoutes, ...moroccoHubRoutes, ...moroccoActivitiesRoutes, ...moroccoCityHubRoutes, ...moroccoGuideRoutes, ...activityArticleRoutes];
 }
