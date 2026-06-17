@@ -81,6 +81,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/morocco/fr`, lastModified: SITE_UPDATED, changeFrequency: "weekly", priority: 0.9 },
   ];
 
+  const moroccoActivitiesRoutes: MetadataRoute.Sitemap = [
+    { url: `${BASE_URL}/morocco/activities`, lastModified: SITE_UPDATED, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${BASE_URL}/morocco/fr/activities`, lastModified: SITE_UPDATED, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${BASE_URL}/morocco/es/activities`, lastModified: SITE_UPDATED, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${BASE_URL}/morocco/it/activities`, lastModified: SITE_UPDATED, changeFrequency: "weekly", priority: 0.8 },
+  ];
+
   const moroccoCityHubRoutes: MetadataRoute.Sitemap = MOROCCO_CITIES
     .filter((c) => getGuidesByCity(c.slug, "en").length > 0 || getGuidesByCity(c.slug, "fr").length > 0)
     .flatMap((c) => {
@@ -104,5 +111,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     };
   });
 
-  return [...staticRoutes, ...cityRoutes, ...placeRoutes, ...blogRoutes, ...barcelonaCategoryRoutes, ...marrakechCategoryRoutes, ...moroccoHubRoutes, ...moroccoCityHubRoutes, ...moroccoGuideRoutes];
+  return [...staticRoutes, ...cityRoutes, ...placeRoutes, ...blogRoutes, ...barcelonaCategoryRoutes, ...marrakechCategoryRoutes, ...moroccoHubRoutes, ...moroccoActivitiesRoutes, ...moroccoCityHubRoutes, ...moroccoGuideRoutes];
 }
