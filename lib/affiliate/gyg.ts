@@ -2,7 +2,7 @@ const PARTNER_ID = process.env.NEXT_PUBLIC_GYG_PARTNER_ID ?? "";
 
 const GYG_CITY_QUERIES: Record<string, string> = {
   marrakech: "Marrakech",
-  fes: "Fes Morocco",
+  fes: "Fes",
   chefchaouen: "Chefchaouen",
   casablanca: "Casablanca",
   rabat: "Rabat",

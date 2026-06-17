@@ -5,6 +5,7 @@ export interface AffiliateOffer {
   title: string;
   platform: string;
   affiliateUrl: string;
+  imageUrl: string;
   city: string;
   category: string;
   priceFrom: number;

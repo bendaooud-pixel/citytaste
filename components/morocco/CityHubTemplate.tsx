@@ -2,6 +2,10 @@ import Link from "next/link";
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import GygWidget from "@/components/affiliate/GygWidget";
+import GygButton from "@/components/affiliate/GygButton";
+import AffiliateDisclosure from "@/components/affiliate/AffiliateDisclosure";
+import AffiliateOffers from "@/components/affiliate/AffiliateOffers";
 import type { Guide, MoroccoLocale } from "@/lib/morocco/types";
 
 interface Props {
@@ -98,6 +102,31 @@ export default function CityHubTemplate({ citySlug, cityName, locale, guides, he
               {isFr ? "Guides bientôt disponibles." : "Guides coming soon."}
             </p>
           )}
+
+          {/* GetYourGuide Activities */}
+          <section className="bg-white rounded-2xl p-8 mb-10 shadow-sm border border-slate-100">
+            <h2 className="text-xl font-bold text-slate-900 mb-2" style={{ fontFamily: "var(--font-playfair)" }}>
+              {isFr
+                ? `Tours & expériences recommandés à ${cityName}`
+                : `Recommended Tours & Experiences in ${cityName}`}
+            </h2>
+            <p className="text-slate-500 text-sm mb-5">
+              {isFr
+                ? "Réservez des visites guidées, des excursions et des expériences locales."
+                : "Book guided tours, day trips and local experiences."}
+            </p>
+            <GygWidget
+              citySlug={citySlug}
+              locale={locale}
+              numberOfItems={3}
+              className="mb-4"
+            />
+            <GygButton citySlug={citySlug} locale={locale} />
+            <AffiliateDisclosure locale={locale} className="mt-4" />
+          </section>
+
+          {/* Viator Offers */}
+          <AffiliateOffers citySlug={citySlug} locale={locale} className="mb-10" />
 
           {/* Link to main city page if Marrakech */}
           {citySlug === "marrakech" && (

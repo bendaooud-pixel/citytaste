@@ -83,7 +83,9 @@ export default function GuideTemplate({ guide, alternates }: Props) {
           {fm.citySlug && (
             <section className="bg-white rounded-2xl p-8 mb-10 shadow-sm border border-slate-100">
               <h2 className="text-xl font-bold text-slate-900 mb-2" style={{ fontFamily: "var(--font-playfair)" }}>
-                {fm.locale === "fr" ? "Activités & expériences" : "Activities & Experiences"}
+                {fm.locale === "fr"
+                  ? `Tours & expériences recommandés à ${fm.citySlug === "fes" ? "Fès" : fm.citySlug.charAt(0).toUpperCase() + fm.citySlug.slice(1)}`
+                  : `Recommended Tours & Experiences in ${fm.citySlug === "fes" ? "Fès" : fm.citySlug.charAt(0).toUpperCase() + fm.citySlug.slice(1)}`}
               </h2>
               <p className="text-slate-500 text-sm mb-5">
                 {fm.locale === "fr"
