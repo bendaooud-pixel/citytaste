@@ -171,13 +171,19 @@ export default function HomePage() {
           {/* Near Me secondary CTA */}
           <NearMe />
 
-          {/* Plan My Trip CTA */}
-          <div className="flex justify-center mt-3">
+          {/* Secondary CTAs */}
+          <div className="flex flex-wrap justify-center gap-3 mt-3">
             <Link
               href="/plan"
               className="flex items-center gap-2 text-white/90 hover:text-white text-sm font-semibold py-2.5 px-6 rounded-xl border border-white/30 hover:border-white/60 bg-white/10 hover:bg-white/20 backdrop-blur-sm transition-all active:scale-[0.98]"
             >
               ✨ {t("buttons.planTrip")}
+            </Link>
+            <Link
+              href="/morocco/activities"
+              className="flex items-center gap-2 text-white/90 hover:text-white text-sm font-semibold py-2.5 px-6 rounded-xl border border-white/30 hover:border-white/60 bg-white/10 hover:bg-white/20 backdrop-blur-sm transition-all active:scale-[0.98]"
+            >
+              🎒 {t("buttons.bookActivities")}
             </Link>
           </div>
         </div>
@@ -352,6 +358,13 @@ export default function HomePage() {
                 style={{ borderColor: RED, color: RED }}
               >
                 {t("home.exploreMarrakech")}
+              </Link>
+              <Link
+                href="/morocco/activities"
+                style={{ backgroundColor: RED }}
+                className="text-white font-bold px-6 py-3 rounded-xl text-sm hover:opacity-90 transition-opacity flex items-center gap-2"
+              >
+                🎒 {t("buttons.bookActivities")}
               </Link>
             </div>
           </div>
