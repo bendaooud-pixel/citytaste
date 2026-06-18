@@ -16,6 +16,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/blog`,    lastModified: new Date(getAllArticles()[0]?.publishedAt ?? SITE_UPDATED), changeFrequency: "daily", priority: 0.9 },
     { url: `${BASE_URL}/privacy`, lastModified: SITE_UPDATED, changeFrequency: "yearly",  priority: 0.2 },
     { url: `${BASE_URL}/affiliate-disclosure`, lastModified: SITE_UPDATED, changeFrequency: "yearly", priority: 0.2 },
+    { url: `${BASE_URL}/near-me`,   lastModified: SITE_UPDATED, changeFrequency: "daily",   priority: 0.7 },
+    { url: `${BASE_URL}/plan`,      lastModified: SITE_UPDATED, changeFrequency: "weekly",  priority: 0.7 },
+    { url: `${BASE_URL}/favorites`, lastModified: SITE_UPDATED, changeFrequency: "weekly",  priority: 0.5 },
   ];
 
   const cityRoutes: MetadataRoute.Sitemap = cities.map((city) => ({
@@ -32,12 +35,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  const blogRoutes: MetadataRoute.Sitemap = getAllArticles().map((article) => ({
-    url: `${BASE_URL}/blog/${article.slug}`,
-    lastModified: new Date(article.publishedAt),
-    changeFrequency: "weekly" as const,
-    priority: 0.8,
-  }));
+  const seenSlugs = new Set<string>();
+  const blogRoutes: MetadataRoute.Sitemap = getAllArticles()
+    .filter((article) => {
+      if (seenSlugs.has(article.slug)) return false;
+      seenSlugs.add(article.slug);
+      return true;
+    })
+    .map((article) => ({
+      url: `${BASE_URL}/blog/${article.slug}`,
+      lastModified: new Date(article.publishedAt),
+      changeFrequency: "weekly" as const,
+      priority: 0.8,
+    }));
 
   const BARCELONA_SEO_PAGES = [
     "bars", "breakfast", "italian-restaurants", "seafood",
