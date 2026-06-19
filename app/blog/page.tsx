@@ -39,6 +39,8 @@ const CATEGORY_COLORS: Record<string, string> = {
   Patisseries: "bg-purple-100 text-purple-800",
   Sightseeing: "bg-slate-100 text-slate-700",
   Bars: "bg-orange-100 text-orange-800",
+  Recettes: "bg-emerald-100 text-emerald-800",
+  "Food Guide": "bg-teal-100 text-teal-800",
 };
 
 export default function BlogPage() {

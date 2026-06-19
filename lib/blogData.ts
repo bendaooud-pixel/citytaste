@@ -3206,7 +3206,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
     "slug": "pinsa-belag",
     "city": "Rome",
     "citySlug": "rome",
-    "category": "Food Guide",
+    "category": "Recettes",
     "primaryKeyword": "pinsa belag",
     "coverImage": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=1200&q=80",
     "publishedAt": "2026-06-19",
@@ -3252,6 +3252,144 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "placeSlug": undefined
       }
     ]
+  },
+  {
+    "title": "Recette Tajine Poulet Citron Confit — Authentique Marrakech",
+    "slug": "recette-tajine-poulet-citron-confit",
+    "city": "Marrakech",
+    "citySlug": "marrakech",
+    "category": "Recettes",
+    "primaryKeyword": "recette tajine poulet citron confit",
+    "coverImage": "https://images.unsplash.com/photo-1541518763669-27fef04b14ea?w=1200&q=80",
+    "publishedAt": "2026-06-19",
+    "readingTime": 8,
+    "metaDescription": "Recette authentique du tajine de poulet au citron confit et olives, directement des cuisines de Marrakech. Ingrédients, étapes et conseils d'une cuisinière locale.",
+    "intro": "Le tajine de poulet au citron confit est le plat signature du Maroc — celui que chaque famille prépare à sa façon, celui qui parfume les ruelles de la médina de Marrakech à l'heure du déjeuner. Cette recette vient directement d'un cours de cuisine dans la médina, avec les proportions exactes et les astuces que les livres de cuisine oublient toujours.",
+    "body": "## Les Ingrédients\n\n| Ingrédient | Quantité | Notes |\n|------------|----------|-------|\n| Cuisses de poulet | 6 pièces | Avec os et peau — jamais de blanc |\n| Citrons confits | 2 | Maison ou du souk, coupés en quartiers |\n| Olives vertes | 150 g | Olives cassées marocaines, dénoyautées |\n| Oignon | 2 gros | Râpés finement |\n| Ail | 4 gousses | Écrasé |\n| Gingembre frais | 1 c. à soupe | Râpé |\n| Curcuma | 1 c. à café | |\n| Safran | 1 pincée | Infusé dans 2 c. à soupe d'eau chaude |\n| Huile d'olive | 4 c. à soupe | Extra vierge marocaine |\n| Coriandre fraîche | 1 bouquet | Feuilles et tiges séparées |\n| Persil plat | 1 bouquet | Feuilles et tiges séparées |\n| Sel, poivre | | À ajuster |\n\n## La Préparation — Étape par Étape\n\n### 1. La marinade (la veille ou 2h avant)\n\nMélangez le curcuma, le gingembre râpé, l'ail écrasé, le safran infusé, le sel, le poivre et 2 cuillères d'huile d'olive. Enrobez chaque cuisse de poulet de cette marinade. L'idéal est de laisser mariner une nuit au réfrigérateur — au minimum 2 heures.\n\n### 2. La base aromatique\n\nDans le tajine (ou une cocotte à fond épais), faites chauffer 2 cuillères d'huile d'olive à feu moyen. Ajoutez les oignons râpés et les tiges de coriandre et persil hachées. Laissez fondre 10 minutes sans colorer — les oignons doivent devenir translucides et former une compote.\n\n### 3. La cuisson du poulet\n\nDisposez les cuisses marinées sur le lit d'oignons. Ajoutez un verre d'eau (environ 200 ml). Couvrez et laissez mijoter à feu doux pendant 45 minutes. Ne soulevez pas le couvercle pendant les 30 premières minutes — la vapeur fait tout le travail.\n\n### 4. Les citrons confits et les olives\n\nAprès 45 minutes, ajoutez les quartiers de citron confit (pulpe retirée, uniquement l'écorce) et les olives vertes. Poursuivez la cuisson à découvert pendant 15 minutes pour que la sauce réduise et devienne onctueuse.\n\n### 5. La finition\n\nParsemez de feuilles de coriandre et de persil frais. Servez directement dans le tajine avec du pain marocain (khobz) pour saucer.\n\n## Les Secrets des Cuisinières de Marrakech\n\n- **Les oignons râpés, pas coupés.** C'est la différence fondamentale. Les oignons râpés fondent complètement dans la sauce et créent cette texture soyeuse caractéristique. Des oignons coupés en morceaux donnent un résultat totalement différent.\n- **Jamais de blanc de poulet.** Les cuisses avec os et peau apportent le gras et la gélatine nécessaires à la sauce. Le blanc sèche et ne pardonne pas la cuisson longue.\n- **Le citron confit : uniquement l'écorce.** La pulpe du citron confit est trop salée et amère. On ne garde que l'écorce, rincée rapidement sous l'eau.\n- **Le safran fait la couleur, le curcuma fait le fond.** Les deux sont indispensables. Le safran seul ne suffit pas, et le curcuma seul donne un goût plat.\n- **Feu doux, toujours.** Un tajine ne se cuisine jamais à feu vif. La magie vient de la cuisson lente qui permet aux saveurs de se concentrer sans jamais accrocher.\n\nPour découvrir les meilleurs restaurants de tajine à Marrakech, consultez notre guide [Que faire à Marrakech](/marrakech). Et si vous voulez apprendre cette recette sur place avec un chef local, découvrez nos [activités culinaires au Maroc](/morocco/activities).\n\n## FAQ\n\n**Peut-on faire un tajine sans tajine en terre cuite ?**\nOui. Une cocotte en fonte (Le Creuset, Staub) fonctionne parfaitement. L'important est un fond épais pour une diffusion douce de la chaleur et un couvercle hermétique pour la vapeur.\n\n**Comment faire ses propres citrons confits ?**\nCoupez des citrons en quartiers sans les séparer complètement, remplissez-les de gros sel et tassez-les dans un bocal stérilisé. Couvrez de jus de citron, fermez et attendez 3 à 4 semaines à température ambiante. Ils se conservent un an.\n\n**Ce tajine est-il épicé ?**\nNon. Le tajine au citron confit n'est pas un plat épicé — il est parfumé. Le gingembre et le safran apportent de la chaleur aromatique, pas du piquant. C'est un plat adapté à tous les palais.\n\n**Quel vin ou boisson servir avec ?**\nUn gris de Boulaouane (vin gris marocain) ou un rosé sec. Sinon, du thé à la menthe servi après le repas, comme à Marrakech.",
+    "places": [
+      {
+        "name": "La Maison Arabe — Cours de Cuisine",
+        "description": "L'atelier de cuisine le plus réputé de Marrakech, installé dans un riad du XVIe siècle. Le cours de tajine de 3 heures vous apprend la recette traditionnelle du poulet au citron confit avec visite du marché et déjeuner de votre préparation.",
+        "address": "1 Derb Assehbe, Bab Doukkala, 40000 Marrakech",
+        "rating": 4.8,
+        "image": "https://images.unsplash.com/photo-1466637574441-749b8f19452f?w=800&q=80",
+        "citySlug": "marrakech",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Café Clock",
+        "description": "Connu pour son burger au chameau, mais le tajine du jour est un secret bien gardé — préparé chaque matin par les cuisinières de la médina selon les recettes familiales. Le tajine au citron confit du mercredi est le meilleur de la semaine.",
+        "address": "7 Derb el Magana, Kasbah, 40000 Marrakech",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
+        "citySlug": "marrakech",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Al Fassia",
+        "description": "Restaurant entièrement géré par des femmes, servant une cuisine marocaine d'une finesse rare. Leur tajine de poulet au citron confit est considéré comme l'un des meilleurs de la ville — sauce soyeuse, épices dosées avec précision.",
+        "address": "55 Boulevard Mohammed Zerktouni, Guéliz, 40000 Marrakech",
+        "rating": 4.7,
+        "image": "https://images.unsplash.com/photo-1547592180-85f173990554?w=800&q=80",
+        "citySlug": "marrakech",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Dar Yacout",
+        "description": "Dîner dans un palais : Dar Yacout est l'une des tables les plus somptueuses de Marrakech, avec un menu fixe qui inclut toujours un tajine au citron confit magistral. L'ambiance aux chandelles sur la terrasse vaut le prix élevé.",
+        "address": "79 Sidi Ahmed Soussi, 40000 Marrakech",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
+        "citySlug": "marrakech",
+        "placeSlug": undefined
+      }
+    ]
+  },
+  {
+    "title": "Recette Carbonara Originale — La Vraie Recette Romaine",
+    "slug": "recette-carbonara-originale",
+    "city": "Rome",
+    "citySlug": "rome",
+    "category": "Recettes",
+    "primaryKeyword": "recette carbonara originale",
+    "coverImage": "https://images.unsplash.com/photo-1612874742237-6526221588e3?w=1200&q=80",
+    "publishedAt": "2026-06-18",
+    "readingTime": 6,
+    "metaDescription": "La vraie recette de la carbonara romaine — sans crème, sans lardons, sans compromis. Guanciale, pecorino, jaunes d'œufs et poivre noir : les 4 ingrédients sacrés.",
+    "intro": "La carbonara est le plat le plus imité et le plus maltraité de la cuisine italienne. Crème fraîche, lardons, parmesan, oignon — tout ce que vous avez probablement appris est faux. La vraie recette romaine n'utilise que quatre ingrédients : du guanciale, du pecorino romano, des jaunes d'œufs et du poivre noir. Voici comment la préparer exactement comme dans les trattorias de Testaccio.",
+    "body": "## Les Ingrédients (pour 4 personnes)\n\n| Ingrédient | Quantité | Notes |\n|------------|----------|-------|\n| Rigatoni ou spaghetti | 400 g | Bronze die, séchage lent |\n| Guanciale | 200 g | Jamais de pancetta, jamais de lardons |\n| Pecorino Romano DOP | 150 g | Finement râpé, jamais de parmesan |\n| Jaunes d'œufs | 6 | + 1 œuf entier |\n| Poivre noir | | Fraîchement moulu, généreusement |\n| Sel | | Uniquement pour l'eau de cuisson |\n\n## La Méthode — Pas à Pas\n\n### 1. Le guanciale\n\nCoupez le guanciale en bâtonnets d'environ 1 cm d'épaisseur. Dans une poêle froide (oui, froide), disposez les morceaux et allumez à feu moyen-doux. Le gras doit fondre lentement, et la viande doit devenir translucide puis dorée et croustillante — environ 8 à 10 minutes. Ne précipitez jamais cette étape. Retirez du feu et réservez.\n\n### 2. La crème d'œufs\n\nDans un bol, mélangez les 6 jaunes d'œufs et l'œuf entier avec le pecorino râpé et une quantité généreuse de poivre noir fraîchement moulu. Vous obtenez une crème épaisse et granuleuse — c'est normal. Ne salez pas ce mélange : le pecorino et le guanciale apportent suffisamment de sel.\n\n### 3. Les pâtes\n\nCuisez les rigatoni dans une grande quantité d'eau bien salée. L'eau doit avoir le goût de la mer. Gardez impérativement une louche d'eau de cuisson avant d'égoutter — c'est votre liant magique.\n\n### 4. La mantecatura (l'émulsion)\n\nVoici le moment critique. Égouttez les pâtes et transférez-les dans la poêle avec le guanciale (feu éteint depuis au moins 2 minutes). Mélangez pour enrober. Puis versez la crème d'œufs et pecorino. Remuez vigoureusement en ajoutant l'eau de cuisson cuillère par cuillère. La chaleur résiduelle des pâtes cuit les œufs doucement — jamais de feu direct à ce stade, sinon vous obtenez des œufs brouillés.\n\nLe résultat doit être une sauce crémeuse, brillante et onctueuse qui nappe chaque rigatoni. Si c'est trop épais, ajoutez de l'eau de cuisson. Si c'est trop liquide, remuez encore — le pecorino va épaissir en refroidissant légèrement.\n\n### 5. Service\n\nServez immédiatement avec un tour de moulin à poivre et une pluie de pecorino râpé. La carbonara n'attend pas — elle doit arriver à table dans les 30 secondes.\n\n## Les Erreurs Fatales à Éviter\n\n- **La crème fraîche.** Il n'y a pas de crème dans une carbonara. Jamais. La crémosité vient de l'émulsion œufs-pecorino-eau de cuisson.\n- **Les lardons ou la pancetta.** Le guanciale (joue de porc séchée) a un gras fondant et un goût incomparable. La pancetta est un compromis acceptable hors d'Italie, les lardons fumés sont un sacrilège.\n- **Le parmesan.** Le Pecorino Romano est le seul fromage autorisé. Son goût salé et piquant est irremplaçable. Le parmesan est trop doux.\n- **Cuire les œufs.** Si votre carbonara ressemble à des œufs brouillés avec des pâtes, le feu était trop fort. Retirez toujours la poêle du feu avant d'ajouter la crème d'œufs.\n\nPour goûter les meilleures carbonaras de Rome, lisez notre guide des [meilleurs restaurants de pâtes à Rome](/blog/best-pasta-rome). Et pour une immersion totale dans la cuisine romaine, [explorez Rome sur CityTaste](/rome).\n\n## FAQ\n\n**Pourquoi du guanciale et pas de la pancetta ?**\nLe guanciale est la joue de porc séchée — son gras fond à basse température en créant une texture soyeuse impossible à obtenir avec la pancetta (ventre de porc). C'est aussi une question de tradition : la carbonara est née avec le guanciale.\n\n**Combien de jaunes d'œufs par personne ?**\nLa règle romaine est 1,5 jaune par personne plus un œuf entier pour le liant. Pour 4 personnes : 6 jaunes + 1 œuf entier. Certains chefs montent à 2 jaunes par personne pour une version plus riche.\n\n**Peut-on utiliser des spaghetti au lieu des rigatoni ?**\nOui. Les spaghetti et les rigatoni sont tous deux traditionnels. Les rigatoni retiennent plus de sauce dans leurs rainures, les spaghetti offrent une bouchée plus élégante. Les deux sont corrects.\n\n**La carbonara se réchauffe-t-elle ?**\nNon. Une carbonara réchauffée est une omelette aux pâtes. Ce plat se mange immédiatement après préparation — c'est non négociable.",
+    "places": [
+      {
+        "name": "Roscioli",
+        "description": "La carbonara la plus célèbre de Rome — faite avec trois types de pecorino et un guanciale affiné 24 mois. Le comptoir en marbre et la cave à vins en font une expérience complète. Réservation indispensable, au moins deux semaines à l'avance.",
+        "address": "Via dei Giubbonari, 21, 00186 Roma RM",
+        "rating": 4.7,
+        "image": "https://images.unsplash.com/photo-1516100882582-96c3a05fe590?w=800&q=80",
+        "citySlug": "rome",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Da Enzo al 29",
+        "description": "Minuscule trattoria de Trastevere où la carbonara arrive fumante et brillante — les jaunes d'œufs encore tremblants, le guanciale croustillant. File d'attente garantie, mais chaque minute vaut le coup.",
+        "address": "Via dei Vascellari, 29, 00153 Roma RM",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
+        "citySlug": "rome",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Felice a Testaccio",
+        "description": "Institution de Testaccio depuis 1936, célèbre pour son tonnarelli cacio e pepe préparé en salle. La carbonara est tout aussi magistrale — le quartier historique de la cuisine romaine populaire.",
+        "address": "Via Mastro Giorgio, 29, 00153 Roma RM",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=800&q=80",
+        "citySlug": "rome",
+        "placeSlug": undefined
+      }
+    ]
+  },
+  {
+    "title": "Recette Crème Catalane — Le Dessert Emblématique de Barcelone",
+    "slug": "recette-creme-catalane",
+    "city": "Barcelona",
+    "citySlug": "barcelona",
+    "category": "Recettes",
+    "primaryKeyword": "recette crème catalane",
+    "coverImage": "https://images.unsplash.com/photo-1587314168485-3236d6710814?w=1200&q=80",
+    "publishedAt": "2026-06-17",
+    "readingTime": 5,
+    "metaDescription": "Recette authentique de la crème catalane (crema catalana) — le dessert traditionnel de Barcelone avec sa croûte de sucre caramélisé. Simple, rapide, irrésistible.",
+    "intro": "La crème catalane n'est pas une crème brûlée — et les Catalans vous le rappelleront avec passion. Plus ancienne de plusieurs siècles, parfumée à la cannelle et au zeste de citron (jamais à la vanille), avec une texture plus légère grâce à la maïzena plutôt qu'à la cuisson au bain-marie. C'est le dessert que chaque grand-mère catalane prépare les yeux fermés, et que les restaurants de Barcelone servent encore avec fierté.",
+    "body": "## Les Ingrédients (pour 6 personnes)\n\n| Ingrédient | Quantité | Notes |\n|------------|----------|-------|\n| Lait entier | 1 litre | Jamais demi-écrémé |\n| Jaunes d'œufs | 8 | À température ambiante |\n| Sucre | 200 g | + 6 c. à soupe pour le caramel |\n| Maïzena | 40 g | La clé de la texture catalane |\n| Zeste de citron | 1 citron | En larges bandes, sans le blanc |\n| Bâton de cannelle | 1 | Entier |\n\n## La Préparation\n\n### 1. Infuser le lait\n\nDans une casserole, chauffez le lait avec le zeste de citron et le bâton de cannelle. Portez juste au frémissement — jamais à ébullition. Retirez du feu, couvrez et laissez infuser 15 minutes. Le lait doit être parfumé mais pas cuit.\n\n### 2. La crème\n\nDans un grand bol, fouettez les jaunes d'œufs avec le sucre jusqu'à ce que le mélange blanchisse et double de volume — environ 3 minutes au fouet à main. Ajoutez la maïzena tamisée et mélangez.\n\nFiltrez le lait infusé (retirez le zeste et la cannelle) et versez-le progressivement sur le mélange œufs-sucre en fouettant constamment. Remettez le tout dans la casserole.\n\n### 3. La cuisson\n\nCuisez à feu moyen en remuant sans arrêt avec une cuillère en bois. La crème va épaissir progressivement — comptez 5 à 8 minutes. Elle est prête quand elle nappe le dos de la cuillère et qu'un trait tracé au doigt reste net.\n\nVersez dans des ramequins individuels en terre cuite (les traditionnels *cassoles*). Laissez refroidir à température ambiante, puis réfrigérez au moins 3 heures.\n\n### 4. Le caramélisé\n\nJuste avant de servir, saupoudrez chaque ramequin d'une cuillère à soupe de sucre et caramélisez au chalumeau de cuisine ou sous le gril du four en position maximale (2 minutes, en surveillant). La croûte doit être dorée et craquante.\n\n## La Différence avec la Crème Brûlée\n\n| | Crème Catalane | Crème Brûlée |\n|--|----------------|---------------|\n| Épaississant | Maïzena | Cuisson au bain-marie |\n| Arômes | Citron + cannelle | Vanille |\n| Texture | Légère, presque mousseuse | Dense, riche |\n| Origine | Catalogne, XIVe siècle | France, XVIIe siècle |\n| Cuisson | Casserole sur le feu | Four au bain-marie |\n\nLa crème catalane est traditionnellement servie le jour de la Saint-Joseph (19 mars) à Barcelone, mais on la trouve toute l'année dans les restaurants du Barri Gòtic et de l'Eixample.\n\nPour découvrir les meilleurs desserts de Barcelone au-delà de la crème catalane, consultez notre [guide de Barcelone](/barcelona). Et pour les amateurs de brunch sucré, notre guide des [meilleurs brunchs de Barcelone](/blog/best-brunch-barcelona) inclut plusieurs adresses qui servent une crème catalane exceptionnelle.\n\n## FAQ\n\n**Peut-on préparer la crème catalane la veille ?**\nOui, c'est même recommandé. Préparez la crème et réfrigérez-la la veille. Ne caramélisez le sucre qu'au moment de servir — sinon la croûte ramollit.\n\n**Pourquoi de la maïzena et pas du bain-marie ?**\nC'est ce qui distingue la crème catalane de la crème brûlée. La maïzena donne une texture plus légère et aérienne, et la préparation est plus rapide. C'est la méthode traditionnelle catalane depuis le Moyen Âge.\n\n**Faut-il un chalumeau de cuisine ?**\nPas obligatoirement. Le gril du four en position maximale fonctionne — placez les ramequins le plus près possible de la résistance pendant 1 à 2 minutes. Surveillez attentivement car le passage de doré à brûlé est rapide.\n\n**Quelle est la meilleure saison pour la crème catalane ?**\nToute l'année, mais traditionnellement c'est le dessert de la Saint-Joseph (19 mars). En été, certains restaurants la servent glacée — une variante délicieuse.",
+    "places": [
+      {
+        "name": "Can Culleretes",
+        "description": "Le plus ancien restaurant de Barcelone (1786), servant une crème catalane préparée selon une recette inchangée depuis des générations. Le cadre historique avec ses murs couverts de carreaux peints ajoute à l'expérience.",
+        "address": "Carrer d'en Quintana, 5, 08002 Barcelona",
+        "rating": 4.4,
+        "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Els Quatre Gats",
+        "description": "Café historique fréquenté par Picasso au début du XXe siècle. Leur crème catalane est servie dans les cassoles en terre cuite traditionnelles, caramélisée au dernier moment. L'ambiance modernista vaut le détour.",
+        "address": "Carrer de Montsió, 3, 08002 Barcelona",
+        "rating": 4.3,
+        "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "La Pepita",
+        "description": "Petit bar à tapas du quartier de Gràcia où la crème catalane arrive en fin de repas comme cadeau de la maison — crémeuse, parfumée au citron, avec une croûte de caramel qui craque sous la cuillère.",
+        "address": "Carrer de Còrsega, 343, 08037 Barcelona",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1510627489930-0c1b0bfb6785?w=800&q=80",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      }
+    ]
   }
 ];
 
@@ -3267,4 +3405,10 @@ export function getArticleBySlug(slug: string): BlogArticle | undefined {
 
 export function getArticlesByCity(citySlug: string): BlogArticle[] {
   return articles.filter((a) => a.citySlug === citySlug);
+}
+
+export function getArticlesByCategory(category: string): BlogArticle[] {
+  return articles
+    .filter((a) => a.category === category)
+    .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
 }

@@ -84,6 +84,17 @@ export default function Navbar() {
             </Link>
 
             <Link
+              href="/recettes"
+              className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
+                isActive("/recettes")
+                  ? "bg-[#E63946] text-white"
+                  : "text-slate-600 hover:text-slate-900 hover:bg-slate-100"
+              }`}
+            >
+              🍳 {t("recettes")}
+            </Link>
+
+            <Link
               href="/plan"
               className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
                 isActive("/plan")
@@ -211,6 +222,16 @@ export default function Navbar() {
             }`}
           >
             {t("blog")}
+          </Link>
+
+          <Link
+            href="/recettes"
+            onClick={() => setMobileOpen(false)}
+            className={`block px-4 py-2.5 rounded-lg text-sm font-medium transition-colors ${
+              isActive("/recettes") ? "bg-[#E63946] text-white" : "text-slate-600 hover:bg-slate-50"
+            }`}
+          >
+            🍳 {t("recettes")}
           </Link>
 
           <Link

@@ -16,6 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/blog`,    lastModified: new Date(getAllArticles()[0]?.publishedAt ?? SITE_UPDATED), changeFrequency: "daily", priority: 0.9 },
     { url: `${BASE_URL}/privacy`, lastModified: SITE_UPDATED, changeFrequency: "yearly",  priority: 0.2 },
     { url: `${BASE_URL}/affiliate-disclosure`, lastModified: SITE_UPDATED, changeFrequency: "yearly", priority: 0.2 },
+    { url: `${BASE_URL}/recettes`,  lastModified: SITE_UPDATED, changeFrequency: "weekly",  priority: 0.8 },
     { url: `${BASE_URL}/near-me`,   lastModified: SITE_UPDATED, changeFrequency: "daily",   priority: 0.7 },
     { url: `${BASE_URL}/plan`,      lastModified: SITE_UPDATED, changeFrequency: "weekly",  priority: 0.7 },
     { url: `${BASE_URL}/favorites`, lastModified: SITE_UPDATED, changeFrequency: "weekly",  priority: 0.5 },
