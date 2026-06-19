@@ -3200,6 +3200,58 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "placeSlug": undefined
       }
     ]
+  },
+  {
+    "title": "Pinsa Belag — Die besten Beläge für römische Pinsa {year}",
+    "slug": "pinsa-belag",
+    "city": "Rome",
+    "citySlug": "rome",
+    "category": "Food Guide",
+    "primaryKeyword": "pinsa belag",
+    "coverImage": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=1200&q=80",
+    "publishedAt": "2026-06-19",
+    "readingTime": 7,
+    "metaDescription": "Die besten Pinsa Belag Ideen — von klassisch römisch bis kreativ vegetarisch. Entdecke 4 Pinserie in Rom mit authentischen Rezepten und Tipps für den perfekten Belag.",
+    "intro": "Pinsa Romana ist nicht einfach eine andere Pizza — sie ist leichter, knuspriger und durch ihre lange Teigruhe von 48 bis 72 Stunden wesentlich bekömmlicher. Doch der eigentliche Star jeder Pinsa ist der Belag. In Rom, wo die Pinsa vor über 2.000 Jahren ihren Ursprung hat, wird der Belag zur Kunstform — von puristisch mit Fior di Latte und frischem Basilikum bis hin zu kreativen Kombinationen mit Burrata, Mortadella und Pistaziencrème. Dieser Guide zeigt die besten Pinsa Belag Varianten und wo man sie in der Ewigen Stadt probieren kann.",
+    "body": "## Was macht den perfekten Pinsa Belag aus?\n\nDer Unterschied zwischen einer guten und einer großartigen Pinsa liegt im Belag — und in der Philosophie dahinter. Anders als bei einer klassischen Pizza wird der Pinsa Belag oft in zwei Phasen aufgetragen: eine leichte Basis vor dem Backen und frische, hochwertige Zutaten danach. Dieses Prinzip sorgt dafür, dass der Teig seine charakteristische Leichtigkeit behält und der Belag seine Aromen voll entfaltet.\n\nDie Grundregel römischer Pizzaioli lautet: weniger ist mehr. Ein überladener Belag beschwert den Teig und zerstört die knusprig-luftige Textur, die eine echte Pinsa Romana auszeichnet. Die besten Pinserie in Rom arbeiten mit drei bis fünf Zutaten pro Pinsa — aber jede davon in bestmöglicher Qualität.\n\n## Klassische Pinsa Belag Kombinationen\n\n### 1. Margherita Romana\n\nDer Klassiker unter den Pinsa Belägen: San-Marzano-Tomatensoße, Fior di Latte aus Kampanien, frisches Basilikum und ein Faden natives Olivenöl extra. Die Einfachheit dieses Belags verlangt makellose Zutaten — billiger Mozzarella oder Dosentomaten fallen hier sofort auf. In den besten Pinserie wird die Tomatensoße roh aufgetragen und erst im Ofen eingekocht, was eine intensivere Frische bewahrt.\n\n### 2. Cacio e Pepe Pinsa\n\nEine genial römische Adaption: Pecorino Romano, schwarzer Pfeffer und Fior di Latte. Manche Pinserie fügen ein Cacio-e-Pepe-Crème als Basis hinzu, die aus Pasta-Kochwasser und geriebenem Pecorino emulgiert wird — dieselbe Technik wie beim berühmten Pastagericht. Der Belag kommt nach dem Backen drauf, damit der Pecorino seine Schärfe behält.\n\n### 3. Mortadella e Pistacchio\n\nDer Trendbelag der letzten Jahre: hauchdünn geschnittene Mortadella di Bologna IGP, Stracciatella-Käse (das cremige Innere der Burrata) und Pistaziencrème aus Bronte. Die Mortadella wird immer nach dem Backen aufgelegt — Hitze würde ihr feines Aroma zerstören. Ein Belag, der das Gleichgewicht zwischen Salz, Fett und nussiger Süße perfekt trifft.\n\n### 4. Vegetarische Pinsa — Zucchini e Fiori\n\nFür vegetarische Pinsa Belag Ideen ist diese Kombination ein Muss: gegrillte Zucchini, Zucchiniblüten, Ricotta und Minze. Die Blüten werden kurz frittiert und nach dem Backen auf die Pinsa gelegt. Das Ergebnis ist ein sommerlicher, leichter Belag, der zeigt, wie gut Gemüse auf Pinsa funktioniert.\n\n### 5. Burrata e Prosciutto Crudo\n\nDie Premium-Variante: eine ganze Burrata aus Andria wird in der Mitte der heißen Pinsa aufgeschnitten, sodass die cremige Stracciatella über den Teig fließt. Dazu kommen hauchdünne Scheiben Prosciutto di Parma (mindestens 24 Monate gereift) und ein paar Blätter Rucola. Der Belag wird ausschließlich nach dem Backen aufgelegt.\n\n## Tipps für den perfekten Pinsa Belag zu Hause\n\n- **Qualität vor Quantität:** Lieber drei erstklassige Zutaten als sechs mittelmäßige. Frischer Mozzarella schlägt immer geriebenen Käse aus der Tüte.\n- **Zwei-Phasen-Prinzip:** Tomatensoße und schmelzende Käsesorten vor dem Backen, alles andere danach — Prosciutto, Burrata, frische Kräuter, Rucola.\n- **Olivenöl als Finish:** Ein gutes natives Olivenöl extra nach dem Backen rundet jeden Belag ab. In Rom verwendet man oft Öl aus dem Latium — fruchtig, leicht bitter, perfekt.\n- **Saisonale Zutaten:** Im Frühling Artischocken und Fave, im Sommer Tomaten und Basilikum, im Herbst Kürbis und Pilze, im Winter Radicchio und Walnüsse.\n\nFür noch mehr kreative Pinsa Belag Inspiration lohnt sich ein Blick auf [Pinsa Belag auf Pinterest](https://www.pinterest.com/pinsabelag11/) — dort finden sich zahlreiche Ideen von klassisch bis experimentell, visuell aufbereitet.\n\n## Wo probiert man Pinsa in Rom?\n\nDie Pinsa-Szene in Rom ist in den letzten Jahren explodiert. Während die traditionelle Pinsa Romana fast in Vergessenheit geraten war, haben eine Handvoll Pioniere das Rezept wiederbelebt und verfeinert. Die unten aufgeführten vier Adressen bieten die authentischsten Pinsa Belag Varianten der Stadt — von streng traditionell bis kreativ-modern.\n\nWer neben Pinsa auch die klassische römische Küche erkunden möchte, findet in unserem [Pasta-Guide für Rom](/blog/best-pasta-rome) die besten Adressen für Carbonara, Cacio e Pepe und Co.\n\n## FAQ\n\n**Was ist der Unterschied zwischen Pizza Belag und Pinsa Belag?**\nPinsa Belag wird sparsamer aufgetragen als bei Pizza, weil der leichtere, luftigere Teig weniger Gewicht verträgt. Außerdem werden viele Zutaten erst nach dem Backen aufgelegt, um ihre Frische und Textur zu bewahren.\n\n**Welcher Pinsa Belag ist der beliebteste in Rom?**\nDie Margherita bleibt Nummer eins, aber der Trend geht klar zu Mortadella e Pistacchio — dieser Belag hat sich in den letzten drei Jahren zum modernen Klassiker entwickelt.\n\n**Kann man Pinsa Belag auch vegan gestalten?**\nJa. Beliebte vegane Kombinationen sind gegrilltes Gemüse mit Olivenöl und Oregano, oder Kirschtomaten mit Kapern und Taggiasca-Oliven. Einige Pinserie in Rom bieten auch veganen Käse auf Cashew-Basis an.\n\n**Wie viel Belag gehört auf eine Pinsa?**\nDie Faustregel: maximal 150–180 Gramm Belag auf eine Pinsa. Mehr beschwert den Teig und verhindert, dass er beim Backen richtig aufgeht. Qualität und Balance sind wichtiger als Menge.",
+    "places": [
+      {
+        "name": "Pinsa Re",
+        "description": "Eine der besten Pinserie Roms, bekannt für den besonders leichten, 72-Stunden-geruhten Teig und kreative Beläge wie Burrata mit 'Nduja und karamellisierten Zwiebeln. Die Pinsa Margherita hier ist ein Maßstab für die Stadt — perfekt knusprig, mit San-Marzano-Tomaten und Fior di Latte aus Agerola.",
+        "address": "Via Giovanni Paisiello, 34, 00198 Roma RM",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
+        "citySlug": "rome",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Pinsere Roma",
+        "description": "Minimalistisch und qualitätsbewusst — bei Pinsere gibt es nur eine Handvoll Pinsa-Varianten pro Tag, alle mit saisonalen Zutaten. Der Teig ruht mindestens 48 Stunden und wird mit drei verschiedenen Mehlsorten hergestellt. Die Pinsa mit Zucchiniblüten und Ricotta im Sommer ist legendär.",
+        "address": "Via Flavia, 98, 00187 Roma RM",
+        "rating": 4.7,
+        "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=800&q=80",
+        "citySlug": "rome",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Otaleg!",
+        "description": "Das Konzept von Otaleg! dreht sich um Premium-Beläge: 36 Monate gereifter Prosciutto di Parma, handgemachte Burrata aus Andria, Pistazien aus Bronte. Jede Pinsa wird mit höchstens vier Zutaten belegt — das Ergebnis ist beeindruckend fokussiert und aromatisch.",
+        "address": "Via dei Salumi, 36, 00153 Roma RM",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?w=800&q=80",
+        "citySlug": "rome",
+        "placeSlug": undefined
+      },
+      {
+        "name": "La Pratolina",
+        "description": "In Prati gelegen und bei Einheimischen beliebt — La Pratolina bietet eine der längsten Pinsa-Karten Roms, von klassisch bis experimentell. Der Cacio-e-Pepe-Belag mit Pecorino-Crème und frisch gemahlenem Pfeffer ist ein Highlight, ebenso wie die Pinsa mit Mortadella und Pistaziencrème.",
+        "address": "Via degli Scipioni, 248, 00192 Roma RM",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1590947132387-155cc02f3212?w=800&q=80",
+        "citySlug": "rome",
+        "placeSlug": undefined
+      }
+    ]
   }
 ];
 
