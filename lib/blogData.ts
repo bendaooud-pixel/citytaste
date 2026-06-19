@@ -3390,6 +3390,67 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "placeSlug": undefined
       }
     ]
+  },
+  {
+    "title": "Street Food Marrakech Guide: What to Eat at the Souks (2026)",
+    "slug": "street-food-marrakech",
+    "city": "Marrakech",
+    "citySlug": "marrakech",
+    "category": "Street Food",
+    "coverImage": "/images/blog/street-food-marrakech.jpg",
+    "publishedAt": "2026-06-19",
+    "readingTime": 8,
+    "primaryKeyword": "street food Marrakech",
+    "metaDescription": "Your honest guide to street food Marrakech: best stalls, what to eat, what to skip, and real prices at Jemaa el-Fna and beyond.",
+    "intro": "Street food Marrakech is one of the most rewarding — and occasionally chaotic — eating experiences in North Africa. For somewhere between 15 and 60 dirhams a head, you can eat better than most sit-down restaurants in the city. The key is knowing which stalls are worth your stomach lining and which ones are essentially tourist theatre with a side of food poisoning. This guide cuts through the noise.",
+    "body": "## Why Marrakech for Street Food Marrakech\n\nMarrakech has been feeding travellers on its streets for centuries, and it shows. The density of good, cheap food here — from slow-cooked offal to freshly fried sfenj — is genuinely hard to match anywhere in the Mediterranean. [Explore Marrakech](/marrakech) properly and you'll realise the street stalls aren't a sideshow; they are the main event. Budget roughly 50–150 MAD for a full street meal, and come between October and April when the heat won't make a bowl of harira feel like a punishment.\n\n| Place | Price | Best For | Vibe |\n|-------|-------|----------|------|\n| Jemaa el-Fna Food Stalls | 40–80 MAD | First-timers, atmosphere | Loud, theatrical, tourist-heavy |\n| Café des Épices Area Stalls | 15–40 MAD | Budget eaters, locals | Relaxed, souk-adjacent |\n| Rahba Kedima Spice Market Stalls | 10–25 MAD | Snackers, explorers | Cramped, authentic |\n| Bab Doukkala Street Vendors | 10–30 MAD | Early risers, offal fans | Neighbourhood, no fuss |\n| Mellah Market Food Corner | 20–50 MAD | Lunch crowds, produce lovers | Busy, working-class |\n\n## Detailed Reviews\n\n### 1. Jemaa el-Fna Food Stalls\n\nThe Jemaa el-Fna food guide everyone writes about is real — but it needs context. By night, around 100 numbered stalls fire up grills serving **merguez**, **lamb brochettes**, and **sheep's head** (yes, the whole thing, at around 60 MAD). The aggressive touting is genuinely exhausting, and stall No. 1 near the main entrance charges more than stalls further back for identical food. Go to stalls in the 14–20 range, sit down before agreeing to anything, and check the price list posted at every stand — they're legally required to display it. As part of your broader Marrakech food stalls research, this is the reference point, but not the destination.\n\n**Best for:** First-timers who want the full sensory hit\n**Local tip:** Come at 8pm when the grills are hottest and the touts are slightly less desperate\n\n### 2. Café des Épices Area Stalls\n\nThe lanes around **Café des Épices** on Place Rahba Kedima hide a handful of low-key Marrakech food stalls that locals actually use during the working day. A small cart near the northern entrance sells **bissara** — a thick fava bean soup with olive oil and cumin — for 8 MAD a bowl, with bread included. It's not pretty, it's not Instagrammable, and it is one of the best things you will eat in the city. If you're planning a wider North Africa food trip, our guide to [best halal restaurants in Paris](/blog/best-halal-restaurants-paris) shows how Maghrebi flavours translate to a European context — useful for understanding what's authentic versus adapted.\n\n**Best for:** Budget travellers and anyone who wants to eat like a souk worker\n**Local tip:** The bissara cart packs up by 11am. Don't sleep in.\n\n### 3. Rahba Kedima Spice Market Stalls\n\n**Rahba Kedima** is primarily a spice and herb market, but wedged between the dried rose petals and the argan oil hawkers are a few vendors selling roasted nuts and dried fruit by the 100g. The **spiced almonds** here — fried with cumin and salt — cost around 15 MAD for a generous bag and are the ideal thing to eat while navigating the souks. Don't buy the pre-packaged tourist tins. Ask for them loose from the sacks at the back of the stall. It's a small distinction that saves you 30 MAD and tastes better.\n\n**Best for:** Snackers and anyone who needs fuel between souk stops\n**Local tip:** Bring small change — vendors here rarely have change for a 200 MAD note\n\n### 4. Bab Doukkala Street Vendors\n\nThe area around **Bab Doukkala** gate, in the northwest of the medina, is where what to eat in Marrakech becomes a more honest question. This neighbourhood feeds itself, not tourists. The **mrouzia** (a lamb and honey tagine sold as a takeaway portion) and the **kefta sandwiches** from the carts near the bus station cost 12–20 MAD and are made fresh through the morning. The pavement is uneven, there's no seating, and someone will probably stare at you. It's worth every bit of awkwardness. For comparison, [Explore Marrakech](/marrakech) has a full neighbourhood breakdown if you want to understand how Bab Doukkala sits in the city's geography.\n\n**Best for:** Travellers who want zero tourist infrastructure\n**Local tip:** Friday mornings are quieter here — most vendors take the afternoon off after prayers\n\n### 5. Mellah Market Food Corner\n\nThe **Mellah**, Marrakech's historic Jewish quarter, has a covered market at its centre that most visitors skip entirely. Inside, there's a small cluster of food stalls near the produce section selling **harira** (the tomato and lentil soup that breaks the Ramadan fast) for 10 MAD a bowl, and **chebakia** (sesame honey pastries) by the piece. The soup is thicker and more deeply spiced than what you'll find near Jemaa el-Fna. The market is busy between 10am and 1pm, and the food corner gets crowded fast — arrive early or you'll be standing.\n\n**Best for:** Lunch crowds and anyone doing a full medina day\n**Local tip:** Pair the harira with a piece of msemen (layered flatbread) from the stall next door — it costs 2 MAD and is the correct way to eat it\n\n## Tips for Street Food Marrakech\n\n- **Eat where the queue is longest.** On the streets around Jemaa el-Fna and Bab Doukkala, a four-person queue at 8am means the food is fresh. An empty stall at noon is a warning sign, not an opportunity.\n- **Timing matters more than location.** Most street food Marrakech vendors start winding down by 1pm and the best stuff — bissara, harira, sfenj — is gone by mid-morning. Set an alarm.\n- **Avoid the fresh juice stalls at Jemaa el-Fna after sunset.** The orange juice is genuinely good in the morning (4 MAD a glass, squeezed in front of you). At night, the same stalls water it down and charge 20 MAD. The avocado smoothies at any hour are overpriced tourist bait.\n- **Combine your street food walk with the Medersa Ben Youssef**, a 10-minute walk from Rahba Kedima. Eat early at the souk stalls, then visit the medersa before the tour groups arrive around 10am. [Explore Marrakech](/marrakech) has opening hours and entry prices listed.\n\n## FAQ\n\n### Q: Is street food in Marrakech safe to eat?\nA: Generally yes, with some caveats. Stick to stalls with high turnover and food cooked in front of you — grilled meats, fried dough, freshly made soups. Avoid anything that's been sitting uncovered in the heat for an unclear amount of time. Your stomach will adjust after a day or two; the first day is when most people have trouble.\n\n### Q: How much should I budget for street food Marrakech per day?\nA: A serious street food day — breakfast bissara, mid-morning snacks, a full lunch of brochettes and bread — will cost you 80–150 MAD (roughly €7–13). The Jemaa el-Fna food guide numbers look cheap on paper but add up quickly if you order multiple dishes per stall. Budget 100 MAD and you'll eat extremely well.\n\n### Q: What's the best street food option for solo female travellers?\nA: The covered market stalls — Mellah Market and the Rahba Kedima area — are more comfortable than the open Jemaa el-Fna setup after dark. Daytime street eating anywhere in the medina is fine; the nighttime food circus at Jemaa el-Fna involves a lot of physical steering by touts that some travellers find unpleasant. Go with purpose, pick a stall quickly, and you'll be fine.\n\n## The Verdict\n\nFor first-timers, start at **Jemaa el-Fna** — just go in with your eyes open and your prices checked. For couples who want atmosphere without the chaos, the **Mellah Market food corner** at lunch is quieter and just as good. Budget travellers should make **Bab Doukkala** their base; nothing in the medina comes cheaper or more honest. And if you only have one morning, the **bissara cart near Café des Épices** is the single best 8 MAD you will spend in Marrakech.",
+    "places": [
+      {
+        "name": "Jemaa el-Fna Food Stalls",
+        "description": "The most theatrical eating experience in Marrakech, with around 100 numbered grill stalls firing up nightly from around 7pm. Merguez, lamb brochettes, and whole sheep's head are the headline acts. Prices are fair if you check the posted list; ignore the touts and walk past stall No. 1.",
+        "address": "Place Jemaa el-Fna, Medina, Marrakech 40000",
+        "rating": 4.3,
+        "image": "/images/blog/street-food-marrakech.jpg",
+        "citySlug": "marrakech",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Café des Épices Area Stalls",
+        "description": "A cluster of working-day food carts in the lanes around Place Rahba Kedima, primarily serving the souk workers who don't have time for a sit-down meal. The bissara here is thick, cheap, and exactly what street food should be. Arrive before 11am or you'll miss the best of it.",
+        "address": "Place Rahba Kedima, Medina, Marrakech 40000",
+        "rating": 4.6,
+        "image": "/images/blog/street-food-marrakech.jpg",
+        "citySlug": "marrakech",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Rahba Kedima Spice Market Stalls",
+        "description": "Primarily a spice and herb market, but the roasted nut vendors tucked between the stalls are some of the best-value snacking in the medina. Spiced almonds sold loose from sacks are 15 MAD for a generous bag. Skip the tourist packaging and buy directly from the source.",
+        "address": "Souk Rahba Kedima, Medina, Marrakech 40000",
+        "rating": 4.4,
+        "image": "/images/blog/street-food-marrakech.jpg",
+        "citySlug": "marrakech",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Bab Doukkala Street Vendors",
+        "description": "The most authentic street eating in Marrakech, in a neighbourhood that has no particular interest in being discovered by tourists. Kefta sandwiches and takeaway tagine portions are the staples, running 12–20 MAD. There is no seating, no English signage, and the food is excellent.",
+        "address": "Bab Doukkala, Medina, Marrakech 40000",
+        "rating": 4.7,
+        "image": "/images/blog/street-food-marrakech.jpg",
+        "citySlug": "marrakech",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Mellah Market Food Corner",
+        "description": "A small cluster of food stalls inside the covered Mellah market, serving harira and chebakia to the local lunch crowd. The soup is darker and more complex than anything near Jemaa el-Fna, and the price — 10 MAD a bowl — reflects that this place exists for the neighbourhood, not for visitors. Busy between 10am and 1pm; arrive early.",
+        "address": "Mellah Market, Rue Bab Mellah, Marrakech 40000",
+        "rating": 4.5,
+        "image": "/images/blog/street-food-marrakech.jpg",
+        "citySlug": "marrakech",
+        "placeSlug": undefined
+      }
+    ]
   }
 ];
 
