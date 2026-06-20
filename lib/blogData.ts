@@ -3451,6 +3451,67 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "placeSlug": undefined
       }
     ]
+  },
+  {
+    "title": "Best Tapas Bars in Barcelona's Gothic Quarter (2026)",
+    "slug": "best-tapas-gothic-quarter-barcelona",
+    "city": "Barcelona",
+    "citySlug": "barcelona",
+    "category": "Restaurants",
+    "coverImage": "/images/blog/best-tapas-gothic-quarter-barcelona.jpg",
+    "publishedAt": "2026-06-20",
+    "readingTime": 8,
+    "primaryKeyword": "tapas Barcelona Gothic Quarter",
+    "metaDescription": "The best tapas Barcelona Gothic Quarter has to offer — 5 real bars, honest reviews, prices & local tips. Updated 2026.",
+    "intro": "If you're hunting for tapas in Barcelona's Gothic Quarter, you already know the neighbourhood eats tourists for breakfast — overpriced sangria, laminated menus, someone outside waving a flyer at you. But the Barri Gòtic also hides some of the city's most serious tapas bars, tucked down alleys that dead-end at Roman walls. You just need to know which doors to push open. This guide skips the tourist traps and gets straight to the places worth your time and euros.",
+    "body": "## Why the Gothic Quarter Is Still Worth It for Tapas Barcelona Gothic Quarter\n\nThe Barri Gòtic gets a bad reputation among locals — and honestly, some of it is earned. But it remains one of the few neighbourhoods in Barcelona where you can eat pintxos at noon, sit on a medieval square, and be at your hotel in four minutes. Budget realistically: a proper round of tapas with drinks runs €20–35 per person at decent spots, and closer to €15 if you stick to standing bars. Spring and autumn are the sweet spots — summer turns the narrow streets into a slow-moving crowd, and January is when half the good places close for holidays. For a broader look at what the city offers beyond food, [Explore Barcelona](/barcelona) is a good starting point.\n\n| Place | Price | Best For | Vibe |\n|-------|-------|----------|------|\n| El Xampanyet | €€ | Cava and anchovies | Old-school, elbow-to-elbow |\n| Bar del Pla | €€ | Modern Catalan bites | Neighbourhood local |\n| La Plata | € | No-frills fish tapas | Tiny, loud, honest |\n| Espai Mescladís | €€ | Daytime tapas with a cause | Calm, socially conscious |\n| Bodega Sepúlveda (Barri Gòtic branch) | €€ | Wine-bar tapas | Candlelit, slow-paced |\n\n## Detailed Reviews of the Best Tapas Bars Barri Gòtic\n\n### 1. El Xampanyet\n\n**El Xampanyet** is the place people mean when they say they want a \"classic Barcelona tapas bar\" — except they don't know the name yet. It's been pouring its house cava since 1929, and the anchovies from the tin (€4.50 a plate) are better than anything you'll get at a restaurant charging three times the price. It's small, it gets packed by 7:30 pm on weekends, and there's no reservation system — you just show up and hope for a corner of the bar. The one honest warning: the staff are efficient, not warm. That's fine. This isn't a place to linger over feelings; it's a place to drink cava and eat well.\n\n**Best for:** Couples, solo eaters, anyone who wants the real thing fast\n**Local tip:** Go at 7 pm sharp when it opens — the crowd doubles in 20 minutes\n\n**Address:** Carrer de Montcada, 22, 08003 Barcelona\n\n---\n\n### 2. Bar del Pla\n\n**Bar del Pla** sits just outside the densest tourist zone, which is exactly why it still has regulars. The croquetes de pernil (€2.20 each) are textbook: thin crust, molten interior, not greasy. It's the kind of place where you could feasibly eat three rounds and a glass of house white for under €20 and feel like you did something right. It can get noisy at lunch — the acoustics of a tiled room and twenty conversations don't mix quietly. But if you want somewhere that bridges the gap between tapas bars Barcelona old town tourists find and what locals actually eat, this is a reliable answer.\n\n**Best for:** First-timers who want quality without theatre\n**Local tip:** The bacallà (salt cod) dish changes weekly — ask what's on before you order\n\n**Address:** Carrer de la Montcada, 2, 08003 Barcelona\n\n---\n\n### 3. La Plata\n\n**La Plata** has been operating since 1945 and the menu has barely changed — which is either charming or limiting, depending on your mood. There are four things to eat: fresh anchovies, sardines, tomato salad, and sausage. That's it. A full order of everything for two people costs around €14, and you eat standing at a tiny counter facing the street. It's the most no-nonsense place on this list and probably the most underrated answer to where to eat tapas Barcelona visitors ask about. The fried anchovies are crispy, light, and gone in ninety seconds.\n\n**Best for:** Budget eaters, anyone tired of long menus\n**Local tip:** Come at lunch — they sometimes run out of anchovies by early evening\n\n**Address:** Carrer de la Mercè, 28, 08002 Barcelona\n\n---\n\n### 4. Espai Mescladís\n\n**Espai Mescladís** is a social enterprise that trains people facing employment barriers — and the food is genuinely good, not \"good for what it is.\" The tapas here lean toward creative Catalan: think grilled vegetables with romesco, or mini-montaditos with goat cheese and honey (around €2.50 each). It's calmer than most spots in the area, with a small courtyard that's rare for the Gothic Quarter. If you're combining a morning at the Picasso Museum with lunch, this is your best bridge between the two. It also pairs well with a read through our [best brunch Barcelona](/blog/best-brunch-barcelona) guide if you're planning a full food day.\n\n**Best for:** Daytime eating, conscious travellers, groups with varied tastes\n**Local tip:** The set lunch menu (€12.50) is better value than ordering à la carte\n\n**Address:** Carrer dels Carders, 35, 08003 Barcelona\n\n---\n\n### 5. Bodega Sepúlveda (Barri Gòtic branch)\n\n**Bodega Sepúlveda** is where you go when you want tapas to slow down into an actual evening. The wine list is serious for the price point — natural wines from small Catalan producers starting at €4 a glass — and the kitchen turns out solid jamón, cheese boards, and the occasional more ambitious plate. It's candlelit without trying too hard, and the staff actually know the wine. The one gripe: the tables are small and cramped, which is fine for two but awkward for four. If you're planning a full evening out and want to add rooftop drinks afterward, check our [rooftop bars Barcelona](/blog/rooftop-bars-barcelona) guide for what's worth the climb.\n\n**Best for:** Couples, wine-focused evenings, anyone who wants to slow down\n**Local tip:** Ask for the off-menu cheese selection — it's usually better than what's written down\n\n**Address:** Carrer de la Boqueria, 24, 08002 Barcelona\n\n---\n\n## Tips for Tapas Barcelona Gothic Quarter\n\n- **Eat at the bar, not a table** — prices are sometimes the same, but you get served faster and the energy is better\n- **Avoid anywhere with photos on the menu and a person outside recruiting you** — this is not a coincidence, it's a business model\n- **Order the house cava over beer** — in the Gothic Quarter specifically, cava is almost always cheaper and better quality than the draught options\n- **Time it right: 1–3 pm for lunch tapas, 7–9 pm for evening rounds** — anything outside those windows and you're eating tourist hours\n- **Pair your tapas crawl with nearby sights** — the Picasso Museum and Basílica de Santa Maria del Mar are both a short walk from most of these bars; read our [Explore Barcelona](/barcelona) city guide to plan the full day\n\n---\n\n## FAQ\n\n### Q: Are tapas in Barcelona's Gothic Quarter expensive compared to the rest of the city?\nA: Generally yes — you'll pay 15–20% more for the same dish in the Gothic Quarter versus Gràcia or Poble Sec. That said, places like La Plata and El Xampanyet are priced fairly because they've been there long enough not to care about tourist margins. Avoid anywhere with an English menu displayed outside and you'll usually be fine.\n\n### Q: Do I need to book a table at tapas bars in the Barri Gòtic?\nA: For most traditional tapas bars, no — they're standing-only or first-come. Bar del Pla and Bodega Sepúlveda do have seated areas and can fill up on weekends, so a reservation for those (via their websites or phone) is worth making if you're going Friday or Saturday after 8 pm.\n\n### Q: What's the best tapas option in the Gothic Quarter for someone who doesn't eat meat?\nA: Espai Mescladís is the most flexible — their menu rotates and they always have strong vegetable-forward options. La Plata is also worth knowing: it's all fish, so it works for pescatarians, and there's nothing to navigate around.\n\n---\n\n## The Verdict\n\nFor **couples** on an evening out, Bodega Sepúlveda sets the right tone — wine, small plates, no rush. **Budget travellers** should head straight to La Plata and order everything on the menu for under €15. **First-timers** who want the full best tapas Barri Gòtic experience without stress should start at El Xampanyet at 7 pm and move on to Bar del Pla an hour later. And if you're building a full food day, Espai Mescladís handles lunch so you arrive at the evening bars hungry and ready. The Gothic Quarter rewards the people who do their homework — and now you have.",
+    "places": [
+      {
+        "name": "El Xampanyet",
+        "description": "A Barcelona institution since 1929, El Xampanyet pours its own house cava and serves tinned anchovies that embarrass restaurants charging twice the price. It's cramped, loud, and opens only in the evenings — which means the line at the door is always there for a reason. No frills, no reservations, and absolutely worth it.",
+        "address": "Carrer de Montcada, 22, 08003 Barcelona",
+        "rating": 4.7,
+        "image": "/images/blog/best-tapas-gothic-quarter-barcelona.jpg",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Bar del Pla",
+        "description": "Bar del Pla sits just far enough from the tourist centre to retain a regular crowd of locals who eat here weekly. The croquetes de pernil are the benchmark dish — crispy shell, perfectly seasoned filling, never greasy. It bridges the gap between old-school tapas and modern Catalan cooking without trying too hard.",
+        "address": "Carrer de la Montcada, 2, 08003 Barcelona",
+        "rating": 4.5,
+        "image": "/images/blog/best-tapas-gothic-quarter-barcelona.jpg",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "La Plata",
+        "description": "La Plata has been here since 1945 and operates on a four-item menu that has never needed expanding. Fried anchovies, sardines, tomato salad, sausage — that's the whole offer, and every one of them is done well. It's a standing bar, it's tiny, and a full order for two costs about €14.",
+        "address": "Carrer de la Mercè, 28, 08002 Barcelona",
+        "rating": 4.4,
+        "image": "/images/blog/best-tapas-gothic-quarter-barcelona.jpg",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Espai Mescladís",
+        "description": "A social enterprise with a small courtyard and a rotating menu of creative Catalan tapas — the kind of place that doesn't feel like it belongs in the Gothic Quarter, which is partly why it's good. The set lunch at €12.50 is one of the better-value meals in the neighbourhood. Staff are genuinely knowledgeable and the pace is calm compared to everywhere nearby.",
+        "address": "Carrer dels Carders, 35, 08003 Barcelona",
+        "rating": 4.6,
+        "image": "/images/blog/best-tapas-gothic-quarter-barcelona.jpg",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Bodega Sepúlveda",
+        "description": "Candlelit, wine-forward, and unhurried — Bodega Sepúlveda is where tapas become an actual evening rather than a quick stop. The natural wine selection from Catalan producers is strong, starting at €4 a glass, and the staff can talk you through it. Tables are small and the space fills up on weekends, so booking ahead makes sense.",
+        "address": "Carrer de la Boqueria, 24, 08002 Barcelona",
+        "rating": 4.5,
+        "image": "/images/blog/best-tapas-gothic-quarter-barcelona.jpg",
+        "citySlug": "barcelona",
+        "placeSlug": undefined
+      }
+    ]
   }
 ];
 
