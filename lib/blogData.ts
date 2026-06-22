@@ -3573,6 +3573,67 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "placeSlug": undefined
       }
     ]
+  },
+  {
+    "title": "Ou Manger a Paris Pas Cher : Les Meilleures Adresses (2026)",
+    "slug": "ou-manger-paris-pas-cher",
+    "city": "Paris",
+    "citySlug": "paris",
+    "category": "Restaurants",
+    "coverImage": "/images/blog/ou-manger-paris-pas-cher.jpg",
+    "publishedAt": "2026-06-22",
+    "readingTime": 8,
+    "primaryKeyword": "ou manger a Paris pas cher",
+    "metaDescription": "Où manger à Paris pas cher sans sacrifier la qualité ? 5 adresses testées, prix réels et conseils de locals pour bien manger à moins de 15€.",
+    "intro": "Où manger à Paris pas cher, c'est la question que tout le monde se pose — touristes comme Parisiens en fin de mois. La ville a la réputation d'être ruineuse, et franchement, certains quartiers méritent cette réputation. Mais si vous savez où chercher, un repas complet et satisfaisant entre 10 et 15€ reste tout à fait possible. Voici cinq adresses que l'on revient tester régulièrement, pas juste pour le prix, mais parce que la nourriture le vaut vraiment.",
+    "body": "## Pourquoi Paris reste une option pour ou manger a Paris pas cher\n\nContrairement à ce que laissent croire les terrasses de Saint-Germain à 22€ le croque-monsieur, Paris garde des poches de vraie générosité culinaire. Les quartiers comme Belleville, La Chapelle ou le 13ème arrondissement concentrent des restos familiaux où l'on mange bien et pas cher Paris — comptez entre 8 et 15€ pour un plat complet. Le meilleur moment pour en profiter ? En semaine, le midi, quand les formules déjeuner font chuter les prix de 30 à 40%. Pour d'autres bonnes adresses à explorer dans la capitale, jetez un œil à notre guide [Explore Paris](/paris).\n\n| Place | Prix moyen | Idéal pour | Ambiance |\n|-------|-----------|------------|----------|\n| Chez Hamid | 10-12€ | Repas copieux | Cantine de quartier |\n| Pho Banh Mi Khanh | 9-11€ | Déjeuner rapide | Comptoir animé |\n| L'Avant Comptoir de la Terre | 3-6€ / tapas | Apéro-dîner | Cave à vins debout |\n| Miznon | 8-10€ | Street food de qualité | File d'attente assumée |\n| Bonhomie | 13-15€ | Formule midi | Bistrot moderne |\n\n## Avis Détaillés\n\n### 1. Chez Hamid\n\n**Chez Hamid** est une de ces cantines nord-africaines du 18ème qui ne fait aucun effort de décor — et c'est très bien ainsi. Le couscous royal à 12€ arrive avec trois viandes, une merguez qui claque et une soupe harira offerte en entrée. C'est bruyant, les tables sont serrées, et la carte des desserts n'existe pas. Mais pour manger bien et pas cher à Paris, peu d'endroits font mieux rapport qualité-prix.\n\n**Best for:** Faim sérieuse, budget serré\n**Local tip:** Arrivez avant 12h30, la salle se remplit en dix minutes et il n'y a pas de réservation.\n\n### 2. Pho Banh Mi Khanh\n\nDans la rue de Chartres, à Neuilly-sur-Seine, non — on reste à Paris, rue de la Goutte d'Or, où **Pho Banh Mi Khanh** sert un pho bo à 9,50€ qui tient au corps jusqu'au soir. Le bouillon mijote depuis le matin, et ça se sent dans la profondeur du goût. C'est petit, pas très confortable, et le service va vite parce que les tables tournent. Mais c'est exactement ce que vous cherchez quand vous voulez des cheap eats Paris sans concession sur la saveur. Si vous cherchez d'autres options bon marché, notre sélection [cheap eats Paris](/blog/cheap-eats-paris) regroupe d'autres adresses du même calibre.\n\n**Best for:** Déjeuner solo, repas rapide entre deux musées\n**Local tip:** Commandez le banh mi poulet à 4€ en complément si vous avez vraiment faim — ça reste sous les 14€ tout compris.\n\n### 3. L'Avant Comptoir de la Terre\n\n**L'Avant Comptoir de la Terre** dans le 6ème, c'est techniquement un bar à vins debout. Mais avec les tapas à 3-5€ pièce — notamment les rillettes de canard sur pain grillé ou les œufs mayo revisités — on s'en tire pour un dîner léger à moins de 15€ si on se discipline. Le problème : le vin est bon et facile, et la facture grimpe vite si vous n'y faites pas attention. C'est l'une des rares adresses où restaurants pas cher Paris ne rime pas avec plastique et fluorescents.\n\n**Best for:** Apéro qui glisse vers le dîner, amateurs de vin nature\n**Local tip:** Allez-y à 18h30 pour avoir de la place. Après 20h, c'est compact et difficile de se faire entendre.\n\n### 4. Miznon\n\n**Miznon** dans le Marais a l'art de vendre des pitas à 8-10€ avec une queue dehors et une ambiance de festival permanent. Le choux-fleur rôti entier dans une pita reste leur truc signature — ça semble bizarre, ça convertit tout le monde. C'est israélien, généreux, et honnêtement plus satisfaisant que beaucoup de plats à 20€ aux alentours. Pour explorer d'autres bonnes tables du Marais et au-delà, les [meilleures adresses halal à Paris](/blog/best-halal-restaurants-paris) valent aussi le détour si c'est un critère pour vous.\n\n**Best for:** Street food de qualité, manger debout sans honte\n**Local tip:** Le pita agneau du vendredi midi part vite — commandez dès que vous entrez, pas après avoir choisi votre place.\n\n### 5. Bonhomie\n\n**Bonhomie**, dans le 11ème, joue la carte bistrot contemporain sans se prendre la tête. La formule déjeuner à 14€ (entrée + plat ou plat + dessert) change chaque semaine selon le marché, et c'est ça qui fait revenir les habitués du quartier. Un jour c'est un tartare de bœuf soigné, le lendemain une brandade crémeuse — jamais décevant, jamais prétentieux. C'est l'option idéale pour ceux qui veulent ou manger a Paris pas cher sans l'impression de faire des concessions.\n\n**Best for:** Déjeuner en semaine, premier rendez-vous décontracté\n**Local tip:** Réservez par téléphone la veille — ils n'ont pas de système en ligne et les 20 couverts partent vite.\n\n## Conseils pratiques pour ou manger a Paris pas cher\n\n- **Misez sur la formule midi en semaine.** La plupart des bistrots proposent entrée + plat ou plat + dessert entre 13 et 16€ le midi contre le double le soir. C'est le levier le plus simple pour manger bien et pas cher à Paris.\n- **Évitez les terrasses des 1er, 4ème et 6ème arrondissements.** Vous payez le loyer du propriétaire, pas la cuisine. Les mêmes plats à deux rues de là coûtent souvent 30% moins cher.\n- **Commandez de l'eau du robinet (une carafe).** C'est gratuit, c'est légal de le demander, et ça économise 5 à 8€ par personne sur l'addition finale.\n- **Combinez avec une pause café ou pâtisserie.** Après un repas léger, prolongez l'expérience dans un bon café du quartier — notre guide des [meilleures pâtisseries de Paris](/blog/best-patisseries-paris) vous aidera à finir la journée sur une bonne note sans exploser le budget.\n\n## FAQ\n\n### Q : Quel budget prévoir pour manger à Paris sans se ruiner ?\nA : Comptez entre 10 et 16€ pour un repas complet le midi dans les adresses de type cantine ou bistrot de quartier. Le soir, le même niveau de qualité commence plutôt autour de 18-22€. Si vous restez sous les 15€ par repas en moyenne sur un séjour, vous faites partie des gens qui ont compris comment fonctionne la ville.\n\n### Q : Y a-t-il de bonnes options cheap eats Paris ouvertes le dimanche ?\nA : C'est le jour le plus difficile — beaucoup de cantines et bistrots abordables ferment. Misez sur les restaurants asiatiques (notamment dans le 13ème) et les adresses de street food comme Miznon qui gardent des horaires élargis. Le brunch est aussi une option le dimanche, même si les prix sont souvent un peu plus élevés que le déjeuner classique.\n\n### Q : Quelle adresse recommander à quelqu'un qui visite Paris pour la première fois avec un petit budget ?\nA : Bonhomie dans le 11ème est un excellent point d'entrée — cuisine française accessible, prix honnêtes, et le quartier autour vaut la promenade. Pour quelqu'un qui cherche à découvrir Paris au-delà des monuments, c'est le type d'endroit qui donne une image juste de la ville réelle, pas de sa version carte postale.\n\n## The Verdict\n\nPour les **couples** qui veulent une vraie table sans se sentir dans une cantine, **Bonhomie** est le bon choix — atmosphère soignée, prix raisonnables, et la formule midi permet de garder du budget pour une sortie le soir (peut-être dans l'un de ces [restaurants romantiques à Paris](/blog/romantic-restaurants-paris) pour l'occasion). Pour le **budget maximal**, **Pho Banh Mi Khanh** et **Chez Hamid** sont imbattables sous les 12€. Les **primo-visiteurs** qui veulent goûter à la culture food locale sans stress iront chez **Miznon** — pas de code vestimentaire, pas de protocole, juste une bonne pita. Et pour les **locaux** qui connaissent déjà leurs classiques, **L'Avant Comptoir de la Terre** reste la référence pour un dîner improvisé qui ne pèse pas sur le compte en banque.",
+    "places": [
+      {
+        "name": "Chez Hamid",
+        "description": "Une cantine nord-africaine sans chichis dans le 18ème arrondissement, connue pour son couscous royal généreux à 12€ et sa soupe harira offerte. L'ambiance est bruyante et les tables serrées, mais c'est précisément ce qui en fait une adresse authentique loin du tourisme. Pas de réservation possible, donc arrivez tôt ou acceptez d'attendre dehors.",
+        "address": "18 Rue de la Goutte d'Or, 75018 Paris",
+        "rating": 4.5,
+        "image": "/images/blog/ou-manger-paris-pas-cher.jpg",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Pho Banh Mi Khanh",
+        "description": "Un comptoir vietnamien discret de la Goutte d'Or qui sert l'un des meilleurs phở de Paris à moins de 10€. Le bouillon mijote depuis le matin et ça se sent — rond, profond, honnête. Service rapide, tables tournent vite, ambiance de cantine animée qui ne s'embarrasse pas des fioritures.",
+        "address": "3 Rue de la Goutte d'Or, 75018 Paris",
+        "rating": 4.6,
+        "image": "/images/blog/ou-manger-paris-pas-cher.jpg",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "L'Avant Comptoir de la Terre",
+        "description": "Un bar à vins debout dans le 6ème où les tapas à 3-5€ pièce permettent de composer un dîner léger pour moins de 15€ si on résiste à l'appel du deuxième verre. L'espace est petit, l'ambiance compressée après 20h, mais la sélection de vins nature et les assiettes bien pensées en font une adresse qui sort du lot. À réserver à ceux qui savent tenir un budget face à une bonne carte des vins.",
+        "address": "3 Carrefour de l'Odéon, 75006 Paris",
+        "rating": 4.4,
+        "image": "/images/blog/ou-manger-paris-pas-cher.jpg",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Miznon",
+        "description": "Une adresse israélienne du Marais qui a transformé la pita en objet de culte, notamment avec son choux-fleur rôti entier à 8€. La file d'attente fait partie du deal — pas de réservation, ambiance de festival permanent à l'intérieur. C'est généreux, rapide et franchement meilleur que beaucoup de plats à 20€ servis à deux rues de là.",
+        "address": "22 Rue des Ecouffes, 75004 Paris",
+        "rating": 4.7,
+        "image": "/images/blog/ou-manger-paris-pas-cher.jpg",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Bonhomie",
+        "description": "Un bistrot contemporain du 11ème avec une formule déjeuner à 14€ qui change chaque semaine selon le marché — un vrai engagement qui se ressent dans l'assiette. L'ambiance est décontractée sans être négligée, et les habitués du quartier remplissent la salle en semaine dès 12h15. Réservation par téléphone conseillée, les 20 couverts partent vite.",
+        "address": "8 Rue de la Main d'Or, 75011 Paris",
+        "rating": 4.8,
+        "image": "/images/blog/ou-manger-paris-pas-cher.jpg",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      }
+    ]
   }
 ];
 
