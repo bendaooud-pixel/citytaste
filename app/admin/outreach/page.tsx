@@ -1,0 +1,15 @@
+import type { Metadata } from "next";
+import { loadOutreachData } from "@/lib/outreach";
+import { OutreachDashboard } from "./OutreachDashboard";
+
+export const metadata: Metadata = {
+  title: "Outreach — CityTaste Admin",
+  robots: { index: false, follow: false },
+};
+
+export const dynamic = "force-dynamic";
+
+export default function OutreachPage() {
+  const data = loadOutreachData();
+  return <OutreachDashboard initialData={data} />;
+}
