@@ -26,6 +26,11 @@ const nextConfig: NextConfig = {
         destination: "/blog/best-brunch-barcelona",
         permanent: true,
       },
+      {
+        source: "/morocco/marrakech/things-to-do",
+        destination: "/cities/marrakech/things-to-do",
+        permanent: true,
+      },
     ];
   },
 };
