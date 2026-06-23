@@ -314,16 +314,12 @@ export default function MarrakechHammamPage() {
             </h3>
             <div className="flex flex-wrap gap-3">
               {[
+                { href: "/cities/marrakech/things-to-do", label: "Things to Do" },
                 { href: "/cities/marrakech/spa", label: "Spas" },
-                {
-                  href: "/cities/marrakech/restaurants",
-                  label: "Restaurants",
-                },
-                {
-                  href: "/cities/marrakech/things-to-do",
-                  label: "Things to Do",
-                },
-                { href: "/cities/marrakech/places", label: "Places" },
+                { href: "/cities/marrakech/restaurants", label: "Restaurants" },
+                { href: "/cities/marrakech/rooftop", label: "Rooftop Bars" },
+                { href: "/cities/marrakech/day-trips", label: "Day Trips" },
+                { href: "/cities/marrakech/souks", label: "Souks" },
               ].map((link) => (
                 <Link
                   key={link.href}

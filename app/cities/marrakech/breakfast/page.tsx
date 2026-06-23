@@ -166,10 +166,12 @@ export default function MarrakechBreakfastPage() {
             <h3 className="font-semibold text-slate-800 mb-4">Explore more Marrakech guides</h3>
             <div className="flex flex-wrap gap-3">
               {[
+                { href: "/cities/marrakech/things-to-do", label: "Things to Do" },
                 { href: "/cities/marrakech/restaurants", label: "Restaurants" },
                 { href: "/cities/marrakech/street-food", label: "Street Food" },
                 { href: "/cities/marrakech/rooftop", label: "Rooftop Bars" },
-                { href: "/marrakech", label: "All Marrakech Places" },
+                { href: "/cities/marrakech/day-trips", label: "Day Trips" },
+                { href: "/blog/48-hours-food-guide-marrakech", label: "48h Food Guide" },
               ].map((link) => (
                 <Link key={link.href} href={link.href} className="text-sm bg-white border border-slate-200 rounded-full px-4 py-2 text-slate-700 hover:text-orange-500 hover:border-orange-200 transition-colors">{link.label}</Link>
               ))}

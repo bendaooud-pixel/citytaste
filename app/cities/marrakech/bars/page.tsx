@@ -308,19 +308,12 @@ export default function MarrakechBarsPage() {
             </h3>
             <div className="flex flex-wrap gap-3">
               {[
-                {
-                  href: "/cities/marrakech/rooftop",
-                  label: "Rooftop Bars",
-                },
-                {
-                  href: "/cities/marrakech/restaurants",
-                  label: "Restaurants",
-                },
-                {
-                  href: "/cities/marrakech/things-to-do",
-                  label: "Things to Do",
-                },
-                { href: "/cities/marrakech/places", label: "Places" },
+                { href: "/cities/marrakech/things-to-do", label: "Things to Do" },
+                { href: "/cities/marrakech/rooftop", label: "Rooftop Bars" },
+                { href: "/cities/marrakech/day-trips", label: "Day Trips" },
+                { href: "/cities/marrakech/restaurants", label: "Restaurants" },
+                { href: "/cities/marrakech/hammam", label: "Hammams" },
+                { href: "/blog/best-sunset-terraces-marrakech", label: "Sunset Terraces" },
               ].map((link) => (
                 <Link
                   key={link.href}
