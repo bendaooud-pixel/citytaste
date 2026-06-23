@@ -21,6 +21,11 @@ const nextConfig: NextConfig = {
         destination: "/:city/:place",
         permanent: true,
       },
+      {
+        source: "/blog/breakfast-spots-barcelona",
+        destination: "/blog/best-brunch-barcelona",
+        permanent: true,
+      },
     ];
   },
 };
