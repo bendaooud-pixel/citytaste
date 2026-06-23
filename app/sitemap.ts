@@ -64,7 +64,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const MARRAKECH_SEO_EN = [
     "restaurants", "hammam", "rooftop", "things-to-do", "places",
-    "bars", "breakfast", "spa", "souks", "street-food",
+    "bars", "breakfast", "spa", "souks", "street-food", "day-trips",
   ];
 
   const MARRAKECH_SEO_FR = [
