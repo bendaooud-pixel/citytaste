@@ -3634,6 +3634,67 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "placeSlug": undefined
       }
     ]
+  },
+  {
+    "title": "Best Pizza in Rome: Pizzerias Locals Actually Go To (2026)",
+    "slug": "best-pizza-rome",
+    "city": "Rome",
+    "citySlug": "rome",
+    "category": "Restaurants",
+    "coverImage": "/images/blog/best-pizza-rome.jpg",
+    "publishedAt": "2026-06-23",
+    "readingTime": 8,
+    "primaryKeyword": "best pizza Rome",
+    "metaDescription": "Searching for the best pizza Rome has to offer? Skip the tourist traps. Here are 5 pizzerias locals actually queue for in 2026.",
+    "intro": "Finding the best pizza Rome offers sounds easy until you're standing in a piazza surrounded by laminated menus and fluorescent lighting. Rome's pizza culture is distinct, fiercely local, and split between two traditions: the thin, crispy round pizza served in sit-down pizzerias, and pizza al taglio Rome is rightly famous for — sold by weight from trays. Get it right and you'll spend €3 on something better than a €25 margherita back home. Here's where to actually go.",
+    "body": "## Why Rome Is a City Worth Taking Seriously for Pizza\n\nRome doesn't get the same pizza press as Naples, and that's partly why it's still good. The Roman style — thin base, light on cheese, high heat — rewards restraint in a way that thick-crust versions never do. Budget anywhere from €3 for a solid slice of pizza al taglio Rome-style to €12–16 for a sit-down pie at a proper pizzeria. Spring and autumn are the best times to visit; summer means longer queues, tourist-season pricing, and the occasional pizzeria that shuts for August. For a fuller picture of what the city offers beyond pizza, [Explore Rome](/rome) before you book anything.\n\n| Place | Price | Best For | Vibe |\n|-------|-------|----------|------|\n| Pizzarium | €5–10 | Pizza al taglio, quick lunch | Standing room, local crowd |\n| Da Remo | €8–14 | Classic Roman round pizza | Loud, neighbourhood trattoria |\n| Bonci Pizzarium (Prati) | €5–12 | Creative toppings, quality ingredients | Casual, no seats |\n| Seu Pizza Illuminati | €10–16 | Contemporary Roman pizza | Trendy, worth booking |\n| Pizzeria Osteria Fernanda | €10–15 | Craft approach, interesting combos | Neighbourhood, unhurried |\n\n## Detailed Reviews of the Best Pizza Rome Has to Offer\n\n### 1. Pizzarium\n\n**Pizzarium** on Via della Meloria is the place that made Gabriele Bonci a name outside Italy, and the queue at lunch still wraps around the corner most days. The pizza bianca here — just olive oil, salt, and rosemary — costs around €2.50 for a decent slab and is as good as flatbread gets. It's standing room only, the staff move fast, and you point at what you want. Annoying if you can't decide quickly; ideal if you know what you're doing.\n\n**Best for:** A fast, quality lunch with zero ceremony\n**Local tip:** Go just before 12:30 — by 1pm the best trays are picked over\n\n### 2. Da Remo\n\n**Da Remo** in Testaccio is the kind of place that gets recommended by every Roman when you ask where to eat pizza in Rome, and for once the consensus is right. The pizza is thin enough to fold, slightly charred at the edges, and the **diavola** (spicy salami, fior di latte) runs about €9. It's cash-only, always packed on weekends, and the waiters have zero interest in making you feel welcome — which is somehow part of the charm. Book ahead or arrive before 8pm.\n\n**Best for:** The full Roman pizzeria experience\n**Local tip:** Sit upstairs if you want a slightly calmer table; the ground floor is chaos\n\n### 3. Bonci — Via del Governo Vecchio\n\nThis is the second Bonci location, smaller and more central than Pizzarium, tucked into the old city near Campo de' Fiori. **Bonci** operates the same model — pizza al taglio by weight — but the toppings here lean more seasonal and experimental. A portion of **potato, smoked provola, and black pepper** runs about €4–5 and is genuinely filling. The space is tight, lines happen, and there's no place to sit, but the quality-to-price ratio is hard to argue with. If you're already exploring this part of Rome, it's a natural stop — much like building a day around good food and good neighbourhoods, which is exactly what a [Rome travel guide](/rome) helps you plan.\n\n**Best for:** Creative pizza al taglio in a central location\n**Local tip:** Portions are weighed and priced per 100g — ask for less than you think you need first\n\n### 4. Seu Pizza Illuminati\n\n**Seu Pizza Illuminati** in Trastevere is the best pizzeria Rome has produced in the last decade that doesn't rely on tradition as a crutch. Chef Pier Daniele Seu uses quality-sourced ingredients and a long cold-ferment dough that results in a base that's light even when loaded. The **mortadella and pistachio** pizza is €13 and worth every cent. It's popular, it fills up fast on Friday and Saturday, and online booking is genuinely necessary — not just suggested.\n\n**Best for:** A proper sit-down dinner with interesting flavour combinations\n**Local tip:** The fried starters are not optional — the **suppli al telefono** here are better than most dedicated supplì spots\n\n### 5. Pizzeria Osteria Fernanda\n\n**Pizzeria Osteria Fernanda** in Monteverde Vecchio sits in a neighbourhood that most tourists never reach, which is exactly why the crowd here is almost entirely local. The pizza style bridges Roman and Neapolitan — more dough than a typical Roman pie, but not the soupy centre you get in Naples. The **nduja, burrata, and honey** option is around €12 and balances heat and fat well. Service is genuinely warm, pacing is relaxed, and the wine list doesn't insult your intelligence. Worth the 20-minute tram ride from the centre.\n\n**Best for:** A neighbourhood dinner without the tourist markup\n**Local tip:** Booking a few days ahead for weekends is necessary; weeknights are usually walkable\n\n## Tips for Finding the Best Pizza Rome Offers\n\n- **Avoid any pizzeria with photos on the menu in the historic centre** — it's not a rule without exceptions, but it's a useful filter for eliminating the worst offenders\n- **For pizza al taglio Rome-style**, the best trays come out between 12:00–13:00 and again around 19:00; anything else is reheated\n- **Don't default to margherita** — Roman pizzerias do interesting things with bianca bases, cured meats, and seasonal vegetables; ask what's good that day\n- **Pair pizza with a neighbourhood walk** — Testaccio (Da Remo) and Trastevere (Seu) are both worth exploring on foot before or after dinner; [Explore Rome](/rome) for neighbourhood-by-neighbourhood suggestions\n\n## FAQ\n\n### Q: What makes Roman pizza different from Neapolitan pizza?\nA: Roman pizza is thinner, crispier, and baked at a slightly lower temperature than Neapolitan. It holds its shape when you pick it up and doesn't have the raised, chewy crust (cornicione) that defines the Neapolitan style. Neither is better — they're just different things.\n\n### Q: How much does pizza cost in Rome?\nA: Pizza al taglio typically costs €3–8 depending on the topping and portion size. A full round pizza at a sit-down best pizzeria Rome-style runs €8–16. Anything significantly above that in a tourist area is charging for the postcode, not the product.\n\n### Q: Where should first-time visitors eat pizza in Rome?\nA: Da Remo in Testaccio is the most reliable answer for a first-time visitor who wants the full sit-down experience. For pizza al taglio, Pizzarium near the Vatican is worth the short detour. Both give you an accurate sense of what good Roman pizza actually tastes like without requiring a reservation weeks in advance.\n\n## The Verdict\n\nFor **couples** looking for a proper dinner, Seu Pizza Illuminati is the call — book ahead and don't skip the starters. **Budget travellers** will get the most out of Pizzarium or the Bonci on Via del Governo Vecchio; spend €6 and eat better than you will at most restaurants twice the price. **First-timers** should start at Da Remo in Testaccio for the full Roman experience — loud room, good pizza, and zero concessions to tourism. And if you want to eat where actual Romans eat on a Tuesday night, Osteria Fernanda in Monteverde is as close to the real thing as this city gets.",
+    "places": [
+      {
+        "name": "Pizzarium",
+        "description": "Gabriele Bonci's original pizza al taglio spot near the Vatican, widely credited with elevating Roman street pizza into something people fly in for. The bianca with olive oil and rosemary is the purest thing on the menu. It's crowded, there's nowhere to sit, and the staff don't slow down for anyone — which is to say it works exactly as intended.",
+        "address": "Via della Meloria, 43, 00136 Roma RM, Italy",
+        "rating": 4.7,
+        "image": "/images/blog/best-pizza-rome.jpg",
+        "citySlug": "rome",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Da Remo",
+        "description": "A Testaccio institution that has been serving thin, charred Roman pizza to locals since 1968, and hasn't softened its edges for tourists since. The diavola is the standard order, the atmosphere is loud and cash-only, and weekend queues are real if you don't book. It's the closest thing Rome has to a neighbourhood pizzeria that everyone in the neighbourhood actually uses.",
+        "address": "Piazza di Santa Maria Liberatrice, 44, 00153 Roma RM, Italy",
+        "rating": 4.6,
+        "image": "/images/blog/best-pizza-rome.jpg",
+        "citySlug": "rome",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Bonci — Via del Governo Vecchio",
+        "description": "The more central of the two Bonci locations, operating the same by-weight pizza al taglio model with a rotating menu of seasonal, ingredient-led toppings. The space is small and there's no seating, but the product is consistent and the prices are honest for this part of the city. A good option if you're already in the Campo de' Fiori area and don't want to compromise on quality.",
+        "address": "Via del Governo Vecchio, 7, 00186 Roma RM, Italy",
+        "rating": 4.5,
+        "image": "/images/blog/best-pizza-rome.jpg",
+        "citySlug": "rome",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Seu Pizza Illuminati",
+        "description": "The most forward-thinking pizzeria in Rome right now, with chef Pier Daniele Seu applying serious technique to a long-fermented Roman-style dough and topping combinations that feel considered rather than gimmicky. The room in Trastevere is lively without being chaotic, and the suppli starters are better than most places that specialize in them. Booking is essential on weekends — this isn't a walk-in situation.",
+        "address": "Via Angelo Bargoni, 10, 00153 Roma RM, Italy",
+        "rating": 4.8,
+        "image": "/images/blog/best-pizza-rome.jpg",
+        "citySlug": "rome",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Pizzeria Osteria Fernanda",
+        "description": "A Monteverde Vecchio restaurant that bridges the gap between pizzeria and proper osteria, with a pizza style that's slightly more substantial than typical Roman thin-crust but never heavy. The crowd is local, the pacing is unhurried, and the nduja and burrata pizza is one of the better things you'll eat in the city at that price point. The 20-minute tram from the centre is a feature, not a bug.",
+        "address": "Via Crescenzo del Monte, 18, 00153 Roma RM, Italy",
+        "rating": 4.6,
+        "image": "/images/blog/best-pizza-rome.jpg",
+        "citySlug": "rome",
+        "placeSlug": undefined
+      }
+    ]
   }
 ];
 
