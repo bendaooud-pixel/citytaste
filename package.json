@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "outreach": "tsx scripts/outreach/prepare-guest-post.ts",
+    "outreach:status": "tsx scripts/outreach/status.ts",
+    "outreach:mark": "tsx scripts/outreach/mark-status.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.105.1",
