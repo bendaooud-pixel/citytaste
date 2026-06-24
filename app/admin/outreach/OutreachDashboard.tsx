@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useTransition } from "react";
+import { useState } from "react";
 import { useRouter } from "next/navigation";
 import type { OutreachPageData, EnrichedTarget } from "@/lib/outreach";
 import { updateStatusAction, generateDraftAction } from "./actions";
@@ -65,9 +65,9 @@ export function OutreachDashboard({
   initialData: OutreachPageData;
 }) {
   const router = useRouter();
-  const [isPending, startTransition] = useTransition();
   const [toast, setToast] = useState<string | null>(null);
   const [generating, setGenerating] = useState<string | null>(null);
+  const [updating, setUpdating] = useState<string | null>(null);
   const [expandedDrafts, setExpandedDrafts] = useState<Set<string>>(
     () => new Set(initialData.todaysSites),
   );
@@ -90,16 +90,19 @@ export function OutreachDashboard({
     setTimeout(() => setToast(null), 3000);
   };
 
-  const handleStatus = (site: string, status: string) =>
-    startTransition(async () => {
-      try {
-        await updateStatusAction(site, status);
-        flash(`${site} → ${status}`);
-        router.refresh();
-      } catch (e: unknown) {
-        flash(`Error: ${e instanceof Error ? e.message : e}`);
-      }
-    });
+  const handleStatus = async (site: string, status: string) => {
+    setUpdating(`${site}:${status}`);
+    try {
+      await updateStatusAction(site, status);
+      flash(`${site} → ${status}`);
+      router.refresh();
+    } catch (e: unknown) {
+      console.error("Status update failed:", e);
+      flash(`Error: ${e instanceof Error ? e.message : String(e)}`);
+    } finally {
+      setUpdating(null);
+    }
+  };
 
   const handleGenerate = async (site: string) => {
     setGenerating(site);
@@ -108,7 +111,8 @@ export function OutreachDashboard({
       flash(`Draft generated for ${site}`);
       router.refresh();
     } catch (e: unknown) {
-      flash(`Error: ${e instanceof Error ? e.message : e}`);
+      console.error("Generate failed:", e);
+      flash(`Error: ${e instanceof Error ? e.message : String(e)}`);
     } finally {
       setGenerating(null);
     }
@@ -128,6 +132,8 @@ export function OutreachDashboard({
       next.has(site) ? next.delete(site) : next.add(site);
       return next;
     });
+
+  const busy = !!updating;
 
   return (
     <main className="flex-1 bg-slate-50 min-h-screen">
@@ -213,7 +219,6 @@ export function OutreachDashboard({
                 <TargetCard
                   key={t.site}
                   target={t}
-                  isToday
                   draftOpen={expandedDrafts.has(t.site)}
                   pitchOpen={expandedPitches.has(t.site)}
                   onToggleDraft={() => toggle(setExpandedDrafts, t.site)}
@@ -222,7 +227,7 @@ export function OutreachDashboard({
                   onGenerate={handleGenerate}
                   onCopy={handleCopy}
                   isGenerating={generating === t.site}
-                  isPending={isPending}
+                  isBusy={busy}
                 />
               ))}
             </div>
@@ -292,7 +297,7 @@ export function OutreachDashboard({
                           </span>
                         ) : (
                           <span className="text-xs text-slate-400">
-                            &mdash;
+                            —
                           </span>
                         )}
                       </td>
@@ -303,6 +308,7 @@ export function OutreachDashboard({
                         <div className="flex items-center justify-end gap-1">
                           {!t.draft && (
                             <button
+                              type="button"
                               onClick={() => handleGenerate(t.site)}
                               disabled={generating === t.site}
                               className="text-xs bg-orange-50 hover:bg-orange-100 text-orange-600 px-2 py-1 rounded-lg font-medium disabled:opacity-50 transition-colors"
@@ -315,8 +321,9 @@ export function OutreachDashboard({
                           ) &&
                             t.draft && (
                               <button
+                                type="button"
                                 onClick={() => handleStatus(t.site, "sent")}
-                                disabled={isPending}
+                                disabled={busy}
                                 className="text-xs bg-amber-50 hover:bg-amber-100 text-amber-700 px-2 py-1 rounded-lg font-medium disabled:opacity-50 transition-colors"
                               >
                                 Mark sent
@@ -356,7 +363,6 @@ function Dot({ color, label }: { color: string; label: string }) {
 
 function TargetCard({
   target,
-  isToday: _isToday,
   draftOpen,
   pitchOpen,
   onToggleDraft,
@@ -365,10 +371,9 @@ function TargetCard({
   onGenerate,
   onCopy,
   isGenerating,
-  isPending,
+  isBusy,
 }: {
   target: EnrichedTarget;
-  isToday: boolean;
   draftOpen: boolean;
   pitchOpen: boolean;
   onToggleDraft: () => void;
@@ -377,10 +382,9 @@ function TargetCard({
   onGenerate: (site: string) => void;
   onCopy: (text: string, label: string) => void;
   isGenerating: boolean;
-  isPending: boolean;
+  isBusy: boolean;
 }) {
   const ctLink = target.draft?.citytasteLink || target.guide.url;
-  void _isToday;
 
   return (
     <div className="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
@@ -429,6 +433,7 @@ function TargetCard({
             </a>
           </div>
           <button
+            type="button"
             onClick={() => onCopy(ctLink, "Link")}
             className="text-xs bg-white hover:bg-slate-100 text-slate-600 px-3 py-1.5 rounded-lg border border-slate-200 font-medium flex-shrink-0 transition-colors"
           >
@@ -446,32 +451,32 @@ function TargetCard({
       <div className="border-b border-slate-100">
         {target.draft ? (
           <>
-            <button
-              onClick={onToggleDraft}
-              className="w-full flex items-center justify-between px-5 py-3 hover:bg-slate-50 transition-colors text-left"
-            >
-              <span className="text-sm font-semibold text-slate-700 flex items-center gap-2">
+            <div className="flex items-center justify-between px-5 py-3 hover:bg-slate-50 transition-colors">
+              <button
+                type="button"
+                onClick={onToggleDraft}
+                className="text-sm font-semibold text-slate-700 flex items-center gap-2 text-left flex-1 min-w-0"
+              >
                 <span
                   className={`transition-transform inline-block ${draftOpen ? "rotate-90" : ""}`}
                 >
                   &#9654;
                 </span>
-                Draft &mdash; &ldquo;{target.draft.title}&rdquo;
-                <span className="font-normal text-slate-400">
+                <span className="truncate">
+                  Draft &mdash; &ldquo;{target.draft.title}&rdquo;
+                </span>
+                <span className="font-normal text-slate-400 flex-shrink-0">
                   ({target.draft.wordCount} words)
                 </span>
-              </span>
-              <span
-                role="button"
-                onClick={(e) => {
-                  e.stopPropagation();
-                  onCopy(target.draft!.content, "Draft");
-                }}
-                className="text-xs bg-slate-100 hover:bg-slate-200 text-slate-600 px-3 py-1.5 rounded-lg font-medium transition-colors"
+              </button>
+              <button
+                type="button"
+                onClick={() => onCopy(target.draft!.content, "Draft")}
+                className="text-xs bg-slate-100 hover:bg-slate-200 text-slate-600 px-3 py-1.5 rounded-lg font-medium transition-colors ml-3 flex-shrink-0"
               >
                 Copy draft
-              </span>
-            </button>
+              </button>
+            </div>
             {draftOpen && (
               <div className="px-5 pb-4">
                 <div
@@ -487,6 +492,7 @@ function TargetCard({
           <div className="px-5 py-4 flex items-center justify-between">
             <span className="text-sm text-slate-400">No draft yet</span>
             <button
+              type="button"
               onClick={() => onGenerate(target.site)}
               disabled={isGenerating}
               className="text-sm bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-xl font-medium transition-colors disabled:opacity-50"
@@ -501,29 +507,27 @@ function TargetCard({
       <div className="border-b border-slate-100">
         {target.pitch ? (
           <>
-            <button
-              onClick={onTogglePitch}
-              className="w-full flex items-center justify-between px-5 py-3 hover:bg-slate-50 transition-colors text-left"
-            >
-              <span className="text-sm font-semibold text-slate-700 flex items-center gap-2">
+            <div className="flex items-center justify-between px-5 py-3 hover:bg-slate-50 transition-colors">
+              <button
+                type="button"
+                onClick={onTogglePitch}
+                className="text-sm font-semibold text-slate-700 flex items-center gap-2 text-left"
+              >
                 <span
                   className={`transition-transform inline-block ${pitchOpen ? "rotate-90" : ""}`}
                 >
                   &#9654;
                 </span>
                 Pitch email
-              </span>
-              <span
-                role="button"
-                onClick={(e) => {
-                  e.stopPropagation();
-                  onCopy(target.pitch!.content, "Pitch");
-                }}
-                className="text-xs bg-slate-100 hover:bg-slate-200 text-slate-600 px-3 py-1.5 rounded-lg font-medium transition-colors"
+              </button>
+              <button
+                type="button"
+                onClick={() => onCopy(target.pitch!.content, "Pitch")}
+                className="text-xs bg-slate-100 hover:bg-slate-200 text-slate-600 px-3 py-1.5 rounded-lg font-medium transition-colors ml-3"
               >
                 Copy pitch
-              </span>
-            </button>
+              </button>
+            </div>
             {pitchOpen && (
               <div className="px-5 pb-4">
                 <div className="bg-slate-50 rounded-xl p-4 text-sm text-slate-700 leading-relaxed whitespace-pre-wrap">
@@ -546,9 +550,10 @@ function TargetCard({
           const active = target.status.toLowerCase() === s;
           return (
             <button
+              type="button"
               key={s}
-              onClick={() => !active && onStatus(target.site, s)}
-              disabled={isPending || active}
+              onClick={() => onStatus(target.site, s)}
+              disabled={isBusy || active}
               className={`text-xs px-3 py-1.5 rounded-lg border font-medium capitalize transition-colors ${
                 active
                   ? `${statusStyle(s)} border-transparent cursor-default`
