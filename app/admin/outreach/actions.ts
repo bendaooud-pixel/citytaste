@@ -167,7 +167,7 @@ OUTPUT FORMAT:
 Return ONLY the article in markdown. Start with a compelling title as an H1 (# Title). Do not include any meta-commentary or notes.`;
 
   const draftResponse = await client.messages.create({
-    model: "claude-sonnet-4-20250514",
+    model: "claude-sonnet-4-6",
     max_tokens: 4000,
     messages: [{ role: "user", content: draftPrompt }],
   });
@@ -201,7 +201,7 @@ RULES:
 OUTPUT: Return ONLY the email text, nothing else.`;
 
   const pitchResponse = await client.messages.create({
-    model: "claude-sonnet-4-20250514",
+    model: "claude-sonnet-4-6",
     max_tokens: 500,
     messages: [{ role: "user", content: pitchPrompt }],
   });
