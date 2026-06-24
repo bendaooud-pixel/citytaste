@@ -279,21 +279,32 @@ export function updateTargetStatus(
 
 // ─── Composite loader ──────────────────────────────────────────────────────
 
+const EMPTY_DATA: OutreachPageData = {
+  targets: [],
+  todaysSites: [],
+  progress: { total: 0, sent: 0, published: 0, rejected: 0, draftReady: 0, remaining: 0 },
+};
+
 export function loadOutreachData(): OutreachPageData {
-  const raw = parseTargets();
-  const sorted = sortByPriority(raw);
-  const todays = getTodaysTargets(raw);
+  try {
+    const raw = parseTargets();
+    if (!raw.length) return EMPTY_DATA;
+    const sorted = sortByPriority(raw);
+    const todays = getTodaysTargets(raw);
 
-  const targets: EnrichedTarget[] = sorted.map((t) => ({
-    ...t,
-    draft: getDraft(t.site),
-    pitch: getPitch(t.site),
-    guide: pickBestGuide(t.niche),
-  }));
+    const targets: EnrichedTarget[] = sorted.map((t) => ({
+      ...t,
+      draft: getDraft(t.site),
+      pitch: getPitch(t.site),
+      guide: pickBestGuide(t.niche),
+    }));
 
-  return {
-    targets,
-    todaysSites: todays.map((t) => t.site),
-    progress: getProgress(raw),
-  };
+    return {
+      targets,
+      todaysSites: todays.map((t) => t.site),
+      progress: getProgress(raw),
+    };
+  } catch {
+    return EMPTY_DATA;
+  }
 }

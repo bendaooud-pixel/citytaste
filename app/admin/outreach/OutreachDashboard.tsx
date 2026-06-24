@@ -158,6 +158,19 @@ export function OutreachDashboard({
           </p>
         </div>
 
+        {/* No data — running on Vercel or CSV missing */}
+        {progress.total === 0 && (
+          <div className="bg-amber-50 border border-amber-200 rounded-2xl p-6 mb-8 text-center">
+            <p className="text-amber-800 font-medium">
+              No outreach data found.
+            </p>
+            <p className="text-amber-600 text-sm mt-1">
+              This dashboard reads local files and only works with{" "}
+              <code className="bg-amber-100 px-1.5 py-0.5 rounded text-xs">npm run dev</code> on your machine.
+            </p>
+          </div>
+        )}
+
         {/* Progress bar */}
         <div className="bg-white rounded-2xl border border-slate-200 shadow-sm p-5 mb-8">
           <div className="flex items-center justify-between mb-3 flex-wrap gap-y-2">
