@@ -3895,6 +3895,67 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "placeSlug": undefined
       }
     ]
+  },
+  {
+    "title": "Marrakech Food Guide: What to Eat and Where (2026)",
+    "slug": "marrakech-food-guide",
+    "city": "Marrakech",
+    "citySlug": "marrakech",
+    "category": "Guides",
+    "coverImage": "/images/blog/marrakech-food-guide.jpg",
+    "publishedAt": "2026-06-24",
+    "readingTime": 8,
+    "primaryKeyword": "Marrakech food guide",
+    "metaDescription": "Your honest Marrakech food guide: where locals eat, what to order, what to skip, and real prices. Updated 2026.",
+    "intro": "This Marrakech food guide cuts through the tourist noise and gets straight to the plates worth eating. Marrakech cuisine sits at a crossroads — Berber spice markets, Andalusian influences, and French colonial leftovers all show up on the same table. Expect to spend anywhere from 30 MAD for a street bowl of harira to 600 MAD for a sit-down dinner in the medina. The best time to eat your way through the city is October to April, when the heat doesn't turn a slow lunch into an ordeal.",
+    "body": "## Why Marrakech Deserves a Serious Marrakech Food Guide\n\nMarrakech is not just couscous and tagine — though both, done right, are genuinely worth the trip. The medina's street food scene rewards people who are willing to eat standing up and order without a menu. For a broader sense of what the city offers beyond Morocco, [Explore Marrakech](/marrakech) for context on neighborhoods, timing, and logistics before you dive into the food.\n\nBudget-wise, you can eat extraordinarily well for under 100 MAD a meal if you stay off Jemaa el-Fna's tourist perimeter. Go beyond that square and prices drop fast.\n\n| Place | Price | Best For | Vibe |\n|-------|-------|----------|------|\n| **Café des Épices** | 60–120 MAD | Rooftop lunch, light bites | Relaxed, local-ish |\n| **Nomad** | 150–250 MAD | Modern Moroccan, date nights | Polished, airy |\n| **Haj Brik** | 20–40 MAD | Street merguez sandwiches | Zero frills, all flavor |\n| **Le Jardin** | 180–300 MAD | Long lunches, garden setting | Quiet, touristy but good |\n| **Chez Lamine Hadj Mustapha** | 80–120 MAD | Mechoui lamb, no-nonsense | Loud, local, brilliant |\n\n## Detailed Reviews\n\n### 1. Café des Épices\n\n**Café des Épices** sits on Place Rahba Kedima, two minutes from the spice souk, and the rooftop terrace is one of the few spots in the medina where you can sit without someone trying to sell you something. The **kefta brochettes** (around 55 MAD) are solid, the fresh juices are honest, and the staff don't rush you. The Wi-Fi is unreliable and the service can be slow on busy afternoons — go before 12:30 or after 14:30.\n\n**Best for:** Tourists who want a breather without going full-resort\n**Local tip:** Order the **zaalouk** as a side — roasted eggplant and tomato that punches above its price point\n\n### 2. Nomad\n\n**Nomad** is the restaurant that launched a hundred Instagram posts, and somehow it still earns its reputation. It sits on Derb Aajane in the northern medina, and the **lamb shoulder with preserved lemon** (around 195 MAD) is the dish that justifies the slight premium. The space is designed within an inch of its life, which can feel more Shoreditch than Marrakech — but the food stays rooted in what to eat in Marrakech rather than chasing trends. Book ahead on weekends; walk-ins after 19:00 are usually turned away.\n\n**Best for:** Couples, food-focused travelers, first-timers who want quality without chaos\n**Local tip:** The lunch set (130 MAD for two courses) is far better value than the à la carte dinner\n\n### 3. Haj Brik\n\nThere is no sign, no menu, and no chairs. **Haj Brik** operates from a narrow stall near Bab Doukkala and has been grilling **merguez sandwiches** — spiced lamb sausage stuffed into a khobz roll with harissa — for decades. One sandwich costs around 15–20 MAD. It's the kind of place that disappears from Moroccan food Marrakech coverage because it's too simple to photograph well, which is exactly why it's worth finding. Go at lunch, not at night when the crowd gets three people deep.\n\n**Best for:** Budget travelers, street food obsessives, anyone who finds 200 MAD dinners exhausting\n**Local tip:** Point at the merguez, hold up two fingers, and say \"shukran\" — that's all the Arabic you need\n\n### 4. Le Jardin\n\n**Le Jardin** on Rue Mouassine is prettier than it needs to be — a restored riad with a working garden courtyard and birds overhead. The **chicken pastilla** (185 MAD) is well-executed: flaky warqa pastry, cinnamon-dusted, slightly sweet in that old Fassi way. It skews tourist — you'll hear more French and English than Darija — but the kitchen is consistent, which matters when you're choosing between five places claiming to do traditional Moroccan food Marrakech right. If you've been reading about the contrast between Marrakech's medina dining and, say, [the best halal restaurants in Paris](/blog/best-halal-restaurants-paris), Le Jardin sits closer to the polished end of that spectrum.\n\n**Best for:** Groups, travelers who want atmosphere with their food\n**Local tip:** The shaded corner table near the fig tree is quieter — ask for it when you book\n\n### 5. Chez Lamine Hadj Mustapha\n\n**Chez Lamine Hadj Mustapha** is a Marrakech institution tucked into the souks near the Mellah, and it exists entirely for one purpose: **mechoui lamb**. Whole lambs are slow-roasted in underground clay ovens since early morning and sold by weight (roughly 100 MAD per portion) until they run out — which happens by 13:30 most days. The meat falls off with a fork, seasoned with nothing but cumin and salt, and it's the single dish in this entire Marrakech food guide that most justifies showing up early and eating standing up. No reservations, no printed menu, cash only.\n\n**Best for:** Anyone serious about Moroccan food, lunch crowds who plan ahead\n**Local tip:** Pair with a 5 MAD khobz from the baker two doors down — don't buy the bread they offer inside\n\n## Tips for This Marrakech Food Guide\n\n- **Eat lunch, not dinner, for the best value.** Most Moroccan restaurants drop prices significantly at midday, and the kitchen is fresher early.\n- **Avoid Jemaa el-Fna's sit-down restaurants at night.** The food is theatrical but overpriced and often reheated. The snail soup stalls (10 MAD a cup) are worth it; the tagine tables are not.\n- **Order harira to start anything.** The chickpea-and-tomato soup costs 10–15 MAD everywhere and tells you immediately how much the kitchen cares.\n- **Combine a meal at Chez Lamine with a walk through the Mellah.** The old Jewish quarter is five minutes away and largely unwalked by tourists. If you're building a full itinerary, [Explore Marrakech](/marrakech) has neighborhood breakdowns that make combining food and sightseeing much easier.\n\n## FAQ\n\n### Q: What are the best dishes to eat in Marrakech?\nA: Start with **mechoui lamb**, **chicken pastilla**, and **harira soup** — those are the dishes most rooted in Marrakech's specific food culture rather than generic Moroccan cooking. **Merguez sandwiches** from street stalls and **zaalouk** as a side dish are worth eating every day. Avoid the overproduced tourist tagines near Jemaa el-Fna; they're cooked in bulk and it shows.\n\n### Q: How much does food cost in Marrakech?\nA: Street food runs 10–40 MAD per item. A solid sit-down lunch at a good medina restaurant costs 80–150 MAD per person. Dinner at a polished spot like Nomad runs 200–300 MAD per person without wine (alcohol availability is limited in the medina). Upscale riad dinners can hit 500–700 MAD. You do not need to spend big to eat well here.\n\n### Q: Is Marrakech good for vegetarians?\nA: Better than you'd expect. **Zaalouk**, **taktouka** (roasted pepper salad), **bissara** (fava bean soup), and **msemen** flatbreads are all naturally vegetarian and easy to find. The challenge is that many soups and tagine bases use meat stock, so it's worth asking. The Marrakech cuisine guide answer is: stick to salads, soups, and egg dishes and you'll eat well without much effort.\n\n## The Verdict\n\nFor **first-timers**, start at **Nomad** for one dinner to understand what modern Moroccan cooking looks like, then spend the rest of the trip eating cheaper and better. **Couples** should book the lunch set at Nomad or a quiet corner at **Le Jardin**. **Budget travelers** will find everything they need between **Haj Brik** and **Chez Lamine Hadj Mustapha** — two places that cost almost nothing and outperform restaurants charging ten times as much. **Food obsessives** should anchor their whole schedule around the mechoui at Chez Lamine and build outward from there.",
+    "places": [
+      {
+        "name": "Café des Épices",
+        "description": "A rooftop café on Place Rahba Kedima that manages to feel relaxed despite its central location in the spice souk area. The kefta brochettes and fresh juices are reliable, and the terrace gives you a rare moment to sit without being hustled. Service is slow during peak hours — factor that in.",
+        "address": "75 Rahba Kedima, Marrakech Medina, 40000 Marrakech, Morocco",
+        "rating": 4.3,
+        "image": "/images/blog/marrakech-food-guide.jpg",
+        "citySlug": "marrakech",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Nomad",
+        "description": "Nomad sits in the northern medina and serves the most consistently well-executed modern Moroccan food in the city at its price point. The lamb shoulder with preserved lemon is the dish to order, and the airy multi-level space keeps things comfortable even when full. It leans design-forward, but the kitchen earns the reputation.",
+        "address": "1 Derb Aajane, Rahba Lakdima, 40000 Marrakech, Morocco",
+        "rating": 4.6,
+        "image": "/images/blog/marrakech-food-guide.jpg",
+        "citySlug": "marrakech",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Haj Brik",
+        "description": "A no-sign street stall near Bab Doukkala that has been making merguez sandwiches — spiced lamb sausage in khobz with harissa — for longer than most restaurants in the medina have existed. No seats, no menu, cash only, and genuinely one of the best 20 MAD you will spend in Morocco. Arrive at lunch before the queue builds.",
+        "address": "Near Bab Doukkala, Marrakech Medina, 40000 Marrakech, Morocco",
+        "rating": 4.5,
+        "image": "/images/blog/marrakech-food-guide.jpg",
+        "citySlug": "marrakech",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Le Jardin",
+        "description": "A restored riad restaurant on Rue Mouassine with a working garden courtyard that makes it one of the more pleasant settings for a long lunch in the medina. The chicken pastilla is well-made and the kitchen is consistent, which is more than most competitors at this price point can claim. The clientele skews heavily tourist, but the food doesn't suffer for it.",
+        "address": "32 Souk Jeld, Sidi Abdelaziz, 40000 Marrakech, Morocco",
+        "rating": 4.4,
+        "image": "/images/blog/marrakech-food-guide.jpg",
+        "citySlug": "marrakech",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Chez Lamine Hadj Mustapha",
+        "description": "The single best argument for eating lunch over dinner in Marrakech: slow-roasted mechoui lamb from underground clay ovens, sold by weight until it runs out around 13:30. The space is cramped and loud, the seasoning is nothing but cumin and salt, and it is extraordinary. Cash only, no reservations, and absolutely worth rearranging your day for.",
+        "address": "Rue Bab Agnaou, near Mellah, 40000 Marrakech, Morocco",
+        "rating": 4.8,
+        "image": "/images/blog/marrakech-food-guide.jpg",
+        "citySlug": "marrakech",
+        "placeSlug": undefined
+      }
+    ]
   }
 ];
 
