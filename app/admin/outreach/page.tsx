@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export const dynamic = "force-dynamic";
 
-export default function OutreachPage() {
-  const data = loadOutreachData();
+export default async function OutreachPage() {
+  const data = await loadOutreachData();
   return <OutreachDashboard initialData={data} />;
 }
