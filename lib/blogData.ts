@@ -3956,6 +3956,67 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "placeSlug": undefined
       }
     ]
+  },
+  {
+    "title": "Best Coffee Shops in Paris: Specialty Coffee Guide (2026)",
+    "slug": "best-coffee-shops-paris",
+    "city": "Paris",
+    "citySlug": "paris",
+    "category": "Cafes",
+    "coverImage": "/images/blog/best-coffee-shops-paris.jpg",
+    "publishedAt": "2026-06-25",
+    "readingTime": 8,
+    "primaryKeyword": "best coffee shops Paris",
+    "metaDescription": "Discover the best coffee shops Paris has to offer in 2026 — from third wave roasters to cozy neighborhood spots worth your time.",
+    "intro": "Finding the best coffee shops Paris actually delivers requires skipping a lot of tourist traps and overpriced café crèmes served with a side of indifference. The city's specialty coffee scene has grown fast since 2015, and it now holds its own against London or Melbourne. You just need to know which arrondissement to wander into. This guide cuts through the noise and gives you five places worth building your morning around.",
+    "body": "## Why Paris Is Worth Your Attention for Coffee Shops\n\nParis took its time warming up to third wave coffee Paris — for years, the espresso here was bitter, fast, and served without apology. That's changed. A new generation of roasters and baristas has rewritten the script, and you can now find exceptional single-origin pour-overs and flat whites that rival anything in Shoreditch. Budget roughly €4–6 for a specialty espresso drink; expect to pay €7–9 for filter coffee with a pastry pairing. If you want to pair your coffee crawl with something sweet, check out our guide to the [best patisseries in Paris](/blog/best-patisseries-paris) — several of the cafés below sit within a short walk of a world-class bakery.\n\nSpring and autumn are the best seasons to café-hop on foot, when terrasse season is alive but not unbearably crowded.\n\n| Place | Price | Best For | Vibe |\n|-------|-------|----------|------|\n| Café Oberkampf | €4–6 | Serious espresso | Neighbourhood, low-key |\n| Telescope | €4–7 | Filter coffee nerds | Tiny, focused, no-nonsense |\n| Strada Café | €3.50–6 | Quick, quality flat white | Compact, fast-paced |\n| Coutume Café | €4–8 | Long stays, brunch crowd | Airy, design-forward |\n| Honor Café | €4–7 | People-watching + pour-over | Chic, Palais-Royal adjacent |\n\n## Detailed Reviews of the Best Coffee Shops Paris Has Right Now\n\n### 1. Café Oberkampf\n\n**Café Oberkampf** sits on a corner in the 11th that feels genuinely Parisian — not the postcard version, but the one where locals read actual newspapers. The espresso is sourced from small roasters and changes seasonally; the **double ristretto** at €3.80 is one of the best-value shots in the city. The main annoyance: seating is limited, and the staff can be slow to acknowledge you during the morning rush. Worth it anyway.\n\n**Best for:** Solo coffee drinkers who want quality without ceremony\n**Local tip:** Go Tuesday to Thursday before 9am — it's half as crowded and the pastries from the nearby boulangerie are still fresh\n\n### 2. Telescope\n\n**Telescope** is small — genuinely small, maybe ten seats — and it has been one of the anchors of specialty coffee Paris since it opened near the Palais-Royal. The **Kenya Kiambu filter** (when available, around €5.50) is clean and floral in a way that makes you slow down. Don't come here expecting to set up a laptop; there's no real space and the vibe politely discourages it. For a broader picture of the neighbourhood, [Explore Paris](/paris) to plan what to pair with your visit.\n\n**Best for:** Filter coffee purists\n**Local tip:** They sell beans to take home — the house espresso blend travels well\n\n### 3. Strada Café\n\n**Strada Café** near the Opéra is the place you go when you need a genuinely good flat white in under five minutes. It's a standing-room-mostly operation, which is not a criticism — it does exactly what it sets out to do. The **flat white** runs €4.20 and uses milk that's actually steamed properly, which sounds basic but isn't always guaranteed in Paris. Lines form fast between 8–9am, so adjust your timing accordingly.\n\n**Best for:** Commuters, people with a museum booking to get to\n**Local tip:** The cold brew in summer is understated but excellent — ask for it without syrup\n\n### 4. Coutume Café\n\n**Coutume Café** in Saint-Germain-des-Prés is where the meilleur cafe Paris conversation often lands, and the space earns it — high ceilings, natural light, and an open roasting setup that makes the whole room smell like a good idea. The **brunch menu** skews a little pricey (€18–22 for a full plate), but the coffee program is serious enough that you're paying for both. If you're spending a full morning here, it pairs well with a walk through the 6th; the [best cafés in Paris](/blog/best-cafes-paris) guide covers more of this neighbourhood in depth.\n\n**Best for:** Long weekend mornings, remote workers, brunch dates\n**Local tip:** The window bar on the left side has the best light for the first two hours after opening\n\n### 5. Honor Café\n\n**Honor Café** sits inside a Palais-Royal courtyard passage and attracts a crowd that is effortlessly well-dressed, which can feel slightly performative — but the coffee is too good to hold that against it. The **V60 pour-over** changes weekly and is explained on a small chalkboard with more detail than most Paris cafés bother with. Service is attentive without being hovering. If you're planning a romantic morning in the area, the [romantic restaurants in Paris](/blog/romantic-restaurants-paris) guide is a natural follow-up for the evening.\n\n**Best for:** Couples, anyone who wants beauty with their caffeine\n**Local tip:** The courtyard tables fill by 10am on weekends — arrive early or accept standing at the bar\n\n## Tips for Finding the Best Coffee Shops Paris Offers\n\n- **Skip the boulevard cafés.** Any café with a laminated English menu on the terrace of a major street is serving mediocre espresso at a 40% location surcharge. Walk one block back.\n- **Tuesday–Thursday mornings are golden.** Weekend lines at specialty spots can stretch out the door by 9:30am. Weekday mornings move faster and baristas have more time.\n- **Order the filter, not just the espresso.** Third wave coffee Paris really shines in its filter offerings — pour-overs and batch brews often showcase the sourcing story better than an espresso can.\n- **Combine your coffee crawl with a food stop.** The 11th and the 6th are both dense with good options. If you're watching your budget, the [cheap eats in Paris](/blog/cheap-eats-paris) guide has solid picks within walking distance of most of these cafés.\n\n## FAQ\n\n### Q: What makes Paris specialty coffee different from a regular French café?\nA: A traditional French café serves a fast, dark-roasted espresso — functional, sometimes excellent, often not. Specialty coffee Paris shops source single-origin beans, use lighter roasts, and train baristas to dial in extraction properly. You'll notice the difference in sweetness and clarity of flavour immediately.\n\n### Q: How much should I expect to pay at the best coffee shops Paris has?\nA: A straight espresso runs €2.50–4 at most specialty spots. Filter coffee sits around €4.50–6. Milk-based drinks like flat whites or cortados land at €4–5.50. Nothing on this list requires a reservation, but some spots are cash-preferred — bring coins for the smaller counters.\n\n### Q: Which of these coffee shops is best for someone working remotely?\nA: **Coutume Café** is the clear choice — it has the most space, good wifi, and a culture of people spending a few hours. **Café Oberkampf** works for shorter sessions. Avoid **Telescope** if you need a table; it's simply not built for it.\n\n## The Verdict\n\nFor couples who want atmosphere with their espresso, **Honor Café** is the pick. Budget-conscious travellers get the best value at **Café Oberkampf** or **Strada Café**. First-timers to the Paris specialty coffee scene should start at **Coutume Café** — it's the most approachable introduction to what third wave coffee Paris actually means. And if you're a serious coffee drinker who wants to taste what the city's best baristas are doing with filter, **Telescope** is worth rearranging your morning for.",
+    "places": [
+      {
+        "name": "Café Oberkampf",
+        "description": "A corner café in the 11th that skips the scenery and focuses on the cup. The rotating single-origin espresso program is one of the most consistent in the city, and prices stay honest. Seating is tight and service during peak hours tests your patience.",
+        "address": "3 Rue Neuve Popincourt, 75011 Paris, France",
+        "rating": 4.6,
+        "image": "/images/blog/best-coffee-shops-paris.jpg",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Telescope",
+        "description": "One of the original specialty coffee Paris addresses, tucked near the Palais-Royal with room for barely a dozen people. The filter coffee menu changes with the season and is explained with genuine expertise. Laptop workers will need to look elsewhere — there simply isn't room.",
+        "address": "5 Rue Villedo, 75001 Paris, France",
+        "rating": 4.8,
+        "image": "/images/blog/best-coffee-shops-paris.jpg",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Strada Café",
+        "description": "A compact, standing-friendly counter near the Opéra that produces a reliably excellent flat white without any fuss. It's built for speed and quality, not lingering. The morning rush is real — show up before 8am or after 9:30am.",
+        "address": "24 Rue Daunou, 75002 Paris, France",
+        "rating": 4.5,
+        "image": "/images/blog/best-coffee-shops-paris.jpg",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Coutume Café",
+        "description": "The benchmark for third wave coffee Paris in Saint-Germain — high ceilings, an open roaster, and a brunch menu that costs more than it perhaps should. The coffee program is serious and the space is one of the most comfortable in the city for a long sit. Weekend mornings attract a crowd that arrives with a plan.",
+        "address": "47 Rue de Babylone, 75007 Paris, France",
+        "rating": 4.7,
+        "image": "/images/blog/best-coffee-shops-paris.jpg",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Honor Café",
+        "description": "Set inside the arcades of the Palais-Royal, Honor combines a genuinely beautiful setting with a pour-over program that changes weekly and is taken seriously. The crowd skews fashionable in a way that's more Parisian than pretentious. Outdoor courtyard seating disappears fast on weekends.",
+        "address": "54 Rue du Faubourg Saint-Honoré, 75008 Paris, France",
+        "rating": 4.7,
+        "image": "/images/blog/best-coffee-shops-paris.jpg",
+        "citySlug": "paris",
+        "placeSlug": undefined
+      }
+    ]
   }
 ];
 
