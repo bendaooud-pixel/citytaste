@@ -332,7 +332,7 @@ Return ONLY valid JSON (no markdown fences):
   "city": "${topic.city}",
   "citySlug": "${topic.citySlug}",
   "category": "${topic.category}",
-  "coverImage": "/images/blog/${topic.slug}.jpg",
+  "coverImage": "<Unsplash URL — a wide landscape/food photo matching the article topic>",
   "publishedAt": "${today}",
   "readingTime": 8,
   "primaryKeyword": "${topic.primaryKeyword}",
@@ -345,7 +345,7 @@ Return ONLY valid JSON (no markdown fences):
       "description": "<3 sentences: atmosphere, what's special, honest observation>",
       "address": "<real street address>",
       "rating": 4.7,
-      "image": "/images/blog/${topic.slug}.jpg",
+      "image": "<Unsplash URL — a DIFFERENT photo per place, matching the place type (cafe, restaurant, bar, etc)>",
       "citySlug": "${topic.citySlug}",
       "placeSlug": null
     }
@@ -354,7 +354,7 @@ Return ONLY valid JSON (no markdown fences):
 
 STRICT RULES:
 - 5 real places with real addresses in ${topic.city}
-- Use "/images/blog/${topic.slug}.jpg" for coverImage and all place images (we'll replace with real images later)
+- coverImage and each place image MUST be a real Unsplash URL in format: https://images.unsplash.com/photo-XXXX?w=800&q=80 (use w=1200 for coverImage). Each place MUST have a DIFFERENT image URL.
 - metaDescription under 155 characters, includes primary keyword
 - Body MUST include the FAQ section
 - Body MUST include 3-6 internal links using [text](/path) format
@@ -498,6 +498,33 @@ async function main() {
   console.log(`Title: ${parsed.title}`);
   console.log(`Places: ${parsed.places?.length ?? 0}`);
   console.log(`Primary keyword: ${parsed.primaryKeyword}`);
+
+  // Ensure all images are valid Unsplash URLs, not local placeholders
+  const FALLBACK_COVERS: Record<string, string> = {
+    paris: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=1200&q=80",
+    barcelona: "https://images.unsplash.com/photo-1583422409516-2895a77efded?w=1200&q=80",
+    rome: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=1200&q=80",
+    marrakech: "https://images.unsplash.com/photo-1539020140153-e479b8c22e70?w=1200&q=80",
+  };
+  const FALLBACK_PLACES = [
+    "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+    "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80",
+    "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?w=800&q=80",
+    "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
+    "https://images.unsplash.com/photo-1476224203421-9ac39bcb3b42?w=800&q=80",
+  ];
+  if (!parsed.coverImage?.startsWith("https://")) {
+    parsed.coverImage = FALLBACK_COVERS[topic.citySlug] ?? FALLBACK_COVERS.paris;
+    console.log("⚠ coverImage was not a valid URL — replaced with fallback");
+  }
+  if (Array.isArray(parsed.places)) {
+    parsed.places.forEach((p: Record<string, unknown>, i: number) => {
+      if (!p.image || typeof p.image !== "string" || !p.image.startsWith("https://")) {
+        p.image = FALLBACK_PLACES[i % FALLBACK_PLACES.length];
+        console.log(`⚠ Place #${i + 1} image was not a valid URL — replaced with fallback`);
+      }
+    });
+  }
 
   // Validate internal links exist in body
   const linkCount = (parsed.body?.match(/\[([^\]]+)\]\(\/[^\)]+\)/g) || []).length;

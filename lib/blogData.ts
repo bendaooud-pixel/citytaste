@@ -3285,7 +3285,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
     "city": "Paris",
     "citySlug": "paris",
     "category": "Restaurants",
-    "coverImage": "/images/blog/late-night-restaurants-paris.jpg",
+    "coverImage": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=1200&q=80",
     "publishedAt": "2026-06-17",
     "readingTime": 8,
     "primaryKeyword": "late night restaurants Paris",
@@ -3298,7 +3298,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "A raucous, clock-never-stops bistro on Rue Montmartre that serves proper French food until 3am. The walls are plastered with old metro signs and the menu leans hard into retro classics like tête de veau and œufs mayonnaise. It's loud, cramped, and completely unpretentious — exactly what Paris after midnight food should feel like.",
         "address": "41 Rue Montmartre, 75002 Paris",
         "rating": 4.4,
-        "image": "/images/blog/late-night-restaurants-paris.jpg",
+        "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
         "citySlug": "paris",
         "placeSlug": undefined
       },
@@ -3307,7 +3307,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "A beloved Basque canteen in the 13th that somehow keeps prices low and portions enormous well into the night. The salade landaise is a meal in itself and the duck confit is reliably good. Cash-preferred, occasionally chaotic, and one of the best budget options for late night dining Paris.",
         "address": "30 Rue des Cinq Diamants, 75013 Paris",
         "rating": 4.3,
-        "image": "/images/blog/late-night-restaurants-paris.jpg",
+        "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80",
         "citySlug": "paris",
         "placeSlug": undefined
       },
@@ -3316,7 +3316,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "A Belgian beer bar near Odéon that serves honest bar food — croquemonsieur, carbonnade, moules — until well past midnight. The atmosphere is dark wood and low-key, with a beer list long enough to keep you busy while the kitchen finishes up. One of the more reliable restaurants ouverts tard Paris near the Left Bank.",
         "address": "19 Rue Soufflot, 75005 Paris",
         "rating": 4.2,
-        "image": "/images/blog/late-night-restaurants-paris.jpg",
+        "image": "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?w=800&q=80",
         "citySlug": "paris",
         "placeSlug": undefined
       },
@@ -3325,7 +3325,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "No menu, no choices — just steak frites with a secret walnut-herb sauce served in two generous rounds. It costs around €28 for the full formula and the Saint-Germain location draws queues even at 11pm, which tells you everything about how good the sauce actually is. A polished, efficient late night restaurant Paris keeps sending people back to year after year.",
         "address": "20 Rue Saint-Benoît, 75006 Paris",
         "rating": 4.6,
-        "image": "/images/blog/late-night-restaurants-paris.jpg",
+        "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
         "citySlug": "paris",
         "placeSlug": undefined
       },
@@ -3334,7 +3334,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "One of Saint-Germain's most iconic addresses, open until 2am and serving food throughout — including a €22 club sandwich that has become a late-night Paris institution in its own right. It's overpriced, tourist-heavy, and completely worth doing once for the atmosphere alone. The terrace at 1am with a glass of red wine is one of those Paris moments that actually lives up to the image.",
         "address": "172 Boulevard Saint-Germain, 75006 Paris",
         "rating": 4.5,
-        "image": "/images/blog/late-night-restaurants-paris.jpg",
+        "image": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=800&q=80",
         "citySlug": "paris",
         "placeSlug": undefined
       }
@@ -3346,7 +3346,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
     "city": "Rome",
     "citySlug": "rome",
     "category": "Restaurants",
-    "coverImage": "/images/blog/best-restaurants-trastevere-rome.jpg",
+    "coverImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=1200&q=80",
     "publishedAt": "2026-06-18",
     "readingTime": 8,
     "primaryKeyword": "best restaurants Rome Trastevere",
@@ -3359,7 +3359,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "A tiny, no-frills trattoria on Via dei Vascellari that has been serving Roman classics for decades without flinching. The rigatoni con pajata is the benchmark dish — rich, offal-forward, and deeply local. Tables are tight and reservations fill fast, especially on weekends.",
         "address": "Via dei Vascellari, 29, 00153 Rome, Italy",
         "rating": 4.8,
-        "image": "/images/blog/best-restaurants-trastevere-rome.jpg",
+        "image": "https://images.unsplash.com/photo-1498579150354-977475b7ea0b?w=800&q=80",
         "citySlug": "rome",
         "placeSlug": undefined
       },
@@ -3368,7 +3368,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "One of the more reliably good large trattorias in Trastevere, with communal tables and a menu anchored by solid cacio e pepe and carbonara. The noise level is high and the wine is unremarkable, but the food delivers on what it promises. Good for groups who don't want to gamble on a walk-in.",
         "address": "Via della Paglia, 1, 00153 Rome, Italy",
         "rating": 4.5,
-        "image": "/images/blog/best-restaurants-trastevere-rome.jpg",
+        "image": "https://images.unsplash.com/photo-1515443961218-a51367888e4b?w=800&q=80",
         "citySlug": "rome",
         "placeSlug": undefined
       },
@@ -3377,7 +3377,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "A small, intimate osteria tucked away from the main tourist circuit in Trastevere, seating around 25 guests in a room that actually feels like someone's home. The baccalà is the standout dish — understated and precise. It's the kind of place that doesn't advertise and doesn't need to.",
         "address": "Via della Scala, 3, 00153 Rome, Italy",
         "rating": 4.7,
-        "image": "/images/blog/best-restaurants-trastevere-rome.jpg",
+        "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=800&q=80",
         "citySlug": "rome",
         "placeSlug": undefined
       },
@@ -3386,7 +3386,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "A counter-service spot that does one thing — supplì al telefono — and does it better than most. The rice balls are fried to order, cost under €3 each, and the mozzarella pull justifies every cliché ever written about Roman street food. No seats, no menu, no fuss.",
         "address": "Via di San Francesco a Ripa, 137, 00153 Rome, Italy",
         "rating": 4.6,
-        "image": "/images/blog/best-restaurants-trastevere-rome.jpg",
+        "image": "https://images.unsplash.com/photo-1476224203421-9ac39bcb3b42?w=800&q=80",
         "citySlug": "rome",
         "placeSlug": undefined
       },
@@ -3395,7 +3395,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "The most polished option in this Trastevere food guide, with a wine list that takes itself seriously and a kitchen that executes traditional Roman secondi with real care. The abbacchio alla romana is slow, rich, and worth the higher price point. It's a quieter room than most in the neighborhood — a genuine rarity.",
         "address": "Piazza di Sant'Apollonia, 11, 00153 Rome, Italy",
         "rating": 4.7,
-        "image": "/images/blog/best-restaurants-trastevere-rome.jpg",
+        "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
         "citySlug": "rome",
         "placeSlug": undefined
       }
@@ -3597,7 +3597,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
     "city": "Marrakech",
     "citySlug": "marrakech",
     "category": "Street Food",
-    "coverImage": "/images/blog/street-food-marrakech.jpg",
+    "coverImage": "https://images.unsplash.com/photo-1539020140153-e479b8c22e70?w=1200&q=80",
     "publishedAt": "2026-06-19",
     "readingTime": 8,
     "primaryKeyword": "street food Marrakech",
@@ -3610,7 +3610,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "The most theatrical eating experience in Marrakech, with around 100 numbered grill stalls firing up nightly from around 7pm. Merguez, lamb brochettes, and whole sheep's head are the headline acts. Prices are fair if you check the posted list; ignore the touts and walk past stall No. 1.",
         "address": "Place Jemaa el-Fna, Medina, Marrakech 40000",
         "rating": 4.3,
-        "image": "/images/blog/street-food-marrakech.jpg",
+        "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
         "citySlug": "marrakech",
         "placeSlug": undefined
       },
@@ -3619,7 +3619,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "A cluster of working-day food carts in the lanes around Place Rahba Kedima, primarily serving the souk workers who don't have time for a sit-down meal. The bissara here is thick, cheap, and exactly what street food should be. Arrive before 11am or you'll miss the best of it.",
         "address": "Place Rahba Kedima, Medina, Marrakech 40000",
         "rating": 4.6,
-        "image": "/images/blog/street-food-marrakech.jpg",
+        "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
         "citySlug": "marrakech",
         "placeSlug": undefined
       },
@@ -3628,7 +3628,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "Primarily a spice and herb market, but the roasted nut vendors tucked between the stalls are some of the best-value snacking in the medina. Spiced almonds sold loose from sacks are 15 MAD for a generous bag. Skip the tourist packaging and buy directly from the source.",
         "address": "Souk Rahba Kedima, Medina, Marrakech 40000",
         "rating": 4.4,
-        "image": "/images/blog/street-food-marrakech.jpg",
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
         "citySlug": "marrakech",
         "placeSlug": undefined
       },
@@ -3637,7 +3637,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "The most authentic street eating in Marrakech, in a neighbourhood that has no particular interest in being discovered by tourists. Kefta sandwiches and takeaway tagine portions are the staples, running 12–20 MAD. There is no seating, no English signage, and the food is excellent.",
         "address": "Bab Doukkala, Medina, Marrakech 40000",
         "rating": 4.7,
-        "image": "/images/blog/street-food-marrakech.jpg",
+        "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
         "citySlug": "marrakech",
         "placeSlug": undefined
       },
@@ -3646,7 +3646,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "A small cluster of food stalls inside the covered Mellah market, serving harira and chebakia to the local lunch crowd. The soup is darker and more complex than anything near Jemaa el-Fna, and the price — 10 MAD a bowl — reflects that this place exists for the neighbourhood, not for visitors. Busy between 10am and 1pm; arrive early.",
         "address": "Mellah Market, Rue Bab Mellah, Marrakech 40000",
         "rating": 4.5,
-        "image": "/images/blog/street-food-marrakech.jpg",
+        "image": "https://images.unsplash.com/photo-1542367592-8849eb950fd8?w=800&q=80",
         "citySlug": "marrakech",
         "placeSlug": undefined
       }
@@ -3658,7 +3658,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
     "city": "Barcelona",
     "citySlug": "barcelona",
     "category": "Restaurants",
-    "coverImage": "/images/blog/best-tapas-gothic-quarter-barcelona.jpg",
+    "coverImage": "https://images.unsplash.com/photo-1515443961218-a51367888e4b?w=1200&q=80",
     "publishedAt": "2026-06-20",
     "readingTime": 8,
     "primaryKeyword": "tapas Barcelona Gothic Quarter",
@@ -3671,7 +3671,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "A Barcelona institution since 1929, El Xampanyet pours its own house cava and serves tinned anchovies that embarrass restaurants charging twice the price. It's cramped, loud, and opens only in the evenings — which means the line at the door is always there for a reason. No frills, no reservations, and absolutely worth it.",
         "address": "Carrer de Montcada, 22, 08003 Barcelona",
         "rating": 4.7,
-        "image": "/images/blog/best-tapas-gothic-quarter-barcelona.jpg",
+        "image": "https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=800&q=80",
         "citySlug": "barcelona",
         "placeSlug": undefined
       },
@@ -3680,7 +3680,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "Bar del Pla sits just far enough from the tourist centre to retain a regular crowd of locals who eat here weekly. The croquetes de pernil are the benchmark dish — crispy shell, perfectly seasoned filling, never greasy. It bridges the gap between old-school tapas and modern Catalan cooking without trying too hard.",
         "address": "Carrer de la Montcada, 2, 08003 Barcelona",
         "rating": 4.5,
-        "image": "/images/blog/best-tapas-gothic-quarter-barcelona.jpg",
+        "image": "https://images.unsplash.com/photo-1555992336-fb0d29498b13?w=800&q=80",
         "citySlug": "barcelona",
         "placeSlug": undefined
       },
@@ -3689,7 +3689,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "La Plata has been here since 1945 and operates on a four-item menu that has never needed expanding. Fried anchovies, sardines, tomato salad, sausage — that's the whole offer, and every one of them is done well. It's a standing bar, it's tiny, and a full order for two costs about €14.",
         "address": "Carrer de la Mercè, 28, 08002 Barcelona",
         "rating": 4.4,
-        "image": "/images/blog/best-tapas-gothic-quarter-barcelona.jpg",
+        "image": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&q=80",
         "citySlug": "barcelona",
         "placeSlug": undefined
       },
@@ -3698,7 +3698,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "A social enterprise with a small courtyard and a rotating menu of creative Catalan tapas — the kind of place that doesn't feel like it belongs in the Gothic Quarter, which is partly why it's good. The set lunch at €12.50 is one of the better-value meals in the neighbourhood. Staff are genuinely knowledgeable and the pace is calm compared to everywhere nearby.",
         "address": "Carrer dels Carders, 35, 08003 Barcelona",
         "rating": 4.6,
-        "image": "/images/blog/best-tapas-gothic-quarter-barcelona.jpg",
+        "image": "https://images.unsplash.com/photo-1547398847-19d7560a6257?w=800&q=80",
         "citySlug": "barcelona",
         "placeSlug": undefined
       },
@@ -3707,7 +3707,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "Candlelit, wine-forward, and unhurried — Bodega Sepúlveda is where tapas become an actual evening rather than a quick stop. The natural wine selection from Catalan producers is strong, starting at €4 a glass, and the staff can talk you through it. Tables are small and the space fills up on weekends, so booking ahead makes sense.",
         "address": "Carrer de la Boqueria, 24, 08002 Barcelona",
         "rating": 4.5,
-        "image": "/images/blog/best-tapas-gothic-quarter-barcelona.jpg",
+        "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
         "citySlug": "barcelona",
         "placeSlug": undefined
       }
@@ -3719,7 +3719,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
     "city": "Rome",
     "citySlug": "rome",
     "category": "Experiences",
-    "coverImage": "/images/blog/best-food-tours-rome.jpg",
+    "coverImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=1200&q=80",
     "publishedAt": "2026-06-21",
     "readingTime": 8,
     "primaryKeyword": "food tour Rome",
@@ -3732,7 +3732,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "One of Rome's most established food tour operators, running structured Testaccio market routes since 2011. Their guides combine food knowledge with neighborhood history without making it feel like a lecture. Groups stay small enough to actually move through the market without becoming a spectacle.",
         "address": "Piazza di Testaccio, 00153 Rome, Italy",
         "rating": 4.8,
-        "image": "/images/blog/best-food-tours-rome.jpg",
+        "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
         "citySlug": "rome",
         "placeSlug": undefined
       },
@@ -3741,7 +3741,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "A history-forward food tour that works best for travelers who want context with their cacio e pepe. The Campo de' Fiori and Jewish Ghetto route is well-worn but executed with care. Wine pours are modest, so don't come expecting an afternoon buzz.",
         "address": "Via dei Baullari, 7, 00186 Rome, Italy",
         "rating": 4.6,
-        "image": "/images/blog/best-food-tours-rome.jpg",
+        "image": "https://images.unsplash.com/photo-1571167366136-b57e07761625?w=800&q=80",
         "citySlug": "rome",
         "placeSlug": undefined
       },
@@ -3750,7 +3750,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "A no-frills, neighborhood-rooted tour run by guides who grew up in Testaccio and aren't interested in softening Roman food culture for squeamish visitors. The covered market stops are the real draw — particularly the older vendors who've been there for decades. Not polished, but genuinely authentic in a way few tours manage.",
         "address": "Via Galvani, 37, 00153 Rome, Italy",
         "rating": 4.7,
-        "image": "/images/blog/best-food-tours-rome.jpg",
+        "image": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=800&q=80",
         "citySlug": "rome",
         "placeSlug": undefined
       },
@@ -3759,7 +3759,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "An evening food tour through Trastevere and the Jewish Ghetto that makes smart use of Rome's atmosphere after dark. The carciofi alla giudia stop is a consistent highlight, and the wine pours are more generous than most competitors at a similar price. Guides lean theatrical, which works better on some nights than others.",
         "address": "Piazza Santa Maria in Trastevere, 00153 Rome, Italy",
         "rating": 4.7,
-        "image": "/images/blog/best-food-tours-rome.jpg",
+        "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
         "citySlug": "rome",
         "placeSlug": undefined
       },
@@ -3768,7 +3768,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "The most wine-serious option on this list, with proper Lazio regional pours and a pecorino tasting that actually teaches you something. Groups cap at eight people, and the guide's depth of knowledge rewards curious travelers willing to pay the premium. Best suited to repeat Rome visitors who've already done the standard food walk circuit.",
         "address": "Via dei Coronari, 23, 00186 Rome, Italy",
         "rating": 4.9,
-        "image": "/images/blog/best-food-tours-rome.jpg",
+        "image": "https://images.unsplash.com/photo-1498579150354-977475b7ea0b?w=800&q=80",
         "citySlug": "rome",
         "placeSlug": undefined
       }
@@ -3780,7 +3780,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
     "city": "Paris",
     "citySlug": "paris",
     "category": "Restaurants",
-    "coverImage": "/images/blog/ou-manger-paris-pas-cher.jpg",
+    "coverImage": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=1200&q=80",
     "publishedAt": "2026-06-22",
     "readingTime": 8,
     "primaryKeyword": "ou manger a Paris pas cher",
@@ -3793,7 +3793,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "Une cantine nord-africaine sans chichis dans le 18ème arrondissement, connue pour son couscous royal généreux à 12€ et sa soupe harira offerte. L'ambiance est bruyante et les tables serrées, mais c'est précisément ce qui en fait une adresse authentique loin du tourisme. Pas de réservation possible, donc arrivez tôt ou acceptez d'attendre dehors.",
         "address": "18 Rue de la Goutte d'Or, 75018 Paris",
         "rating": 4.5,
-        "image": "/images/blog/ou-manger-paris-pas-cher.jpg",
+        "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
         "citySlug": "paris",
         "placeSlug": undefined
       },
@@ -3802,7 +3802,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "Un comptoir vietnamien discret de la Goutte d'Or qui sert l'un des meilleurs phở de Paris à moins de 10€. Le bouillon mijote depuis le matin et ça se sent — rond, profond, honnête. Service rapide, tables tournent vite, ambiance de cantine animée qui ne s'embarrasse pas des fioritures.",
         "address": "3 Rue de la Goutte d'Or, 75018 Paris",
         "rating": 4.6,
-        "image": "/images/blog/ou-manger-paris-pas-cher.jpg",
+        "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
         "citySlug": "paris",
         "placeSlug": undefined
       },
@@ -3811,7 +3811,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "Un bar à vins debout dans le 6ème où les tapas à 3-5€ pièce permettent de composer un dîner léger pour moins de 15€ si on résiste à l'appel du deuxième verre. L'espace est petit, l'ambiance compressée après 20h, mais la sélection de vins nature et les assiettes bien pensées en font une adresse qui sort du lot. À réserver à ceux qui savent tenir un budget face à une bonne carte des vins.",
         "address": "3 Carrefour de l'Odéon, 75006 Paris",
         "rating": 4.4,
-        "image": "/images/blog/ou-manger-paris-pas-cher.jpg",
+        "image": "https://images.unsplash.com/photo-1476224203421-9ac39bcb3b42?w=800&q=80",
         "citySlug": "paris",
         "placeSlug": undefined
       },
@@ -3820,7 +3820,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "Une adresse israélienne du Marais qui a transformé la pita en objet de culte, notamment avec son choux-fleur rôti entier à 8€. La file d'attente fait partie du deal — pas de réservation, ambiance de festival permanent à l'intérieur. C'est généreux, rapide et franchement meilleur que beaucoup de plats à 20€ servis à deux rues de là.",
         "address": "22 Rue des Ecouffes, 75004 Paris",
         "rating": 4.7,
-        "image": "/images/blog/ou-manger-paris-pas-cher.jpg",
+        "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=800&q=80",
         "citySlug": "paris",
         "placeSlug": undefined
       },
@@ -3829,7 +3829,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "Un bistrot contemporain du 11ème avec une formule déjeuner à 14€ qui change chaque semaine selon le marché — un vrai engagement qui se ressent dans l'assiette. L'ambiance est décontractée sans être négligée, et les habitués du quartier remplissent la salle en semaine dès 12h15. Réservation par téléphone conseillée, les 20 couverts partent vite.",
         "address": "8 Rue de la Main d'Or, 75011 Paris",
         "rating": 4.8,
-        "image": "/images/blog/ou-manger-paris-pas-cher.jpg",
+        "image": "https://images.unsplash.com/photo-1428550443830-190057dc8098?w=800&q=80",
         "citySlug": "paris",
         "placeSlug": undefined
       }
@@ -3841,7 +3841,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
     "city": "Rome",
     "citySlug": "rome",
     "category": "Restaurants",
-    "coverImage": "/images/blog/best-pizza-rome.jpg",
+    "coverImage": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=1200&q=80",
     "publishedAt": "2026-06-23",
     "readingTime": 8,
     "primaryKeyword": "best pizza Rome",
@@ -3854,7 +3854,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "Gabriele Bonci's original pizza al taglio spot near the Vatican, widely credited with elevating Roman street pizza into something people fly in for. The bianca with olive oil and rosemary is the purest thing on the menu. It's crowded, there's nowhere to sit, and the staff don't slow down for anyone — which is to say it works exactly as intended.",
         "address": "Via della Meloria, 43, 00136 Roma RM, Italy",
         "rating": 4.7,
-        "image": "/images/blog/best-pizza-rome.jpg",
+        "image": "https://images.unsplash.com/photo-1571167366136-b57e07761625?w=800&q=80",
         "citySlug": "rome",
         "placeSlug": undefined
       },
@@ -3863,7 +3863,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "A Testaccio institution that has been serving thin, charred Roman pizza to locals since 1968, and hasn't softened its edges for tourists since. The diavola is the standard order, the atmosphere is loud and cash-only, and weekend queues are real if you don't book. It's the closest thing Rome has to a neighbourhood pizzeria that everyone in the neighbourhood actually uses.",
         "address": "Piazza di Santa Maria Liberatrice, 44, 00153 Roma RM, Italy",
         "rating": 4.6,
-        "image": "/images/blog/best-pizza-rome.jpg",
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
         "citySlug": "rome",
         "placeSlug": undefined
       },
@@ -3872,7 +3872,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "The more central of the two Bonci locations, operating the same by-weight pizza al taglio model with a rotating menu of seasonal, ingredient-led toppings. The space is small and there's no seating, but the product is consistent and the prices are honest for this part of the city. A good option if you're already in the Campo de' Fiori area and don't want to compromise on quality.",
         "address": "Via del Governo Vecchio, 7, 00186 Roma RM, Italy",
         "rating": 4.5,
-        "image": "/images/blog/best-pizza-rome.jpg",
+        "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=800&q=80",
         "citySlug": "rome",
         "placeSlug": undefined
       },
@@ -3881,7 +3881,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "The most forward-thinking pizzeria in Rome right now, with chef Pier Daniele Seu applying serious technique to a long-fermented Roman-style dough and topping combinations that feel considered rather than gimmicky. The room in Trastevere is lively without being chaotic, and the suppli starters are better than most places that specialize in them. Booking is essential on weekends — this isn't a walk-in situation.",
         "address": "Via Angelo Bargoni, 10, 00153 Roma RM, Italy",
         "rating": 4.8,
-        "image": "/images/blog/best-pizza-rome.jpg",
+        "image": "https://images.unsplash.com/photo-1588315029754-2dd089d39a1a?w=800&q=80",
         "citySlug": "rome",
         "placeSlug": undefined
       },
@@ -3890,7 +3890,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "A Monteverde Vecchio restaurant that bridges the gap between pizzeria and proper osteria, with a pizza style that's slightly more substantial than typical Roman thin-crust but never heavy. The crowd is local, the pacing is unhurried, and the nduja and burrata pizza is one of the better things you'll eat in the city at that price point. The 20-minute tram from the centre is a feature, not a bug.",
         "address": "Via Crescenzo del Monte, 18, 00153 Roma RM, Italy",
         "rating": 4.6,
-        "image": "/images/blog/best-pizza-rome.jpg",
+        "image": "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?w=800&q=80",
         "citySlug": "rome",
         "placeSlug": undefined
       }
@@ -3902,7 +3902,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
     "city": "Marrakech",
     "citySlug": "marrakech",
     "category": "Guides",
-    "coverImage": "/images/blog/marrakech-food-guide.jpg",
+    "coverImage": "https://images.unsplash.com/photo-1539020140153-e479b8c22e70?w=1200&q=80",
     "publishedAt": "2026-06-24",
     "readingTime": 8,
     "primaryKeyword": "Marrakech food guide",
@@ -3915,7 +3915,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "A rooftop café on Place Rahba Kedima that manages to feel relaxed despite its central location in the spice souk area. The kefta brochettes and fresh juices are reliable, and the terrace gives you a rare moment to sit without being hustled. Service is slow during peak hours — factor that in.",
         "address": "75 Rahba Kedima, Marrakech Medina, 40000 Marrakech, Morocco",
         "rating": 4.3,
-        "image": "/images/blog/marrakech-food-guide.jpg",
+        "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
         "citySlug": "marrakech",
         "placeSlug": undefined
       },
@@ -3924,7 +3924,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "Nomad sits in the northern medina and serves the most consistently well-executed modern Moroccan food in the city at its price point. The lamb shoulder with preserved lemon is the dish to order, and the airy multi-level space keeps things comfortable even when full. It leans design-forward, but the kitchen earns the reputation.",
         "address": "1 Derb Aajane, Rahba Lakdima, 40000 Marrakech, Morocco",
         "rating": 4.6,
-        "image": "/images/blog/marrakech-food-guide.jpg",
+        "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
         "citySlug": "marrakech",
         "placeSlug": undefined
       },
@@ -3933,7 +3933,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "A no-sign street stall near Bab Doukkala that has been making merguez sandwiches — spiced lamb sausage in khobz with harissa — for longer than most restaurants in the medina have existed. No seats, no menu, cash only, and genuinely one of the best 20 MAD you will spend in Morocco. Arrive at lunch before the queue builds.",
         "address": "Near Bab Doukkala, Marrakech Medina, 40000 Marrakech, Morocco",
         "rating": 4.5,
-        "image": "/images/blog/marrakech-food-guide.jpg",
+        "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
         "citySlug": "marrakech",
         "placeSlug": undefined
       },
@@ -3942,7 +3942,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "A restored riad restaurant on Rue Mouassine with a working garden courtyard that makes it one of the more pleasant settings for a long lunch in the medina. The chicken pastilla is well-made and the kitchen is consistent, which is more than most competitors at this price point can claim. The clientele skews heavily tourist, but the food doesn't suffer for it.",
         "address": "32 Souk Jeld, Sidi Abdelaziz, 40000 Marrakech, Morocco",
         "rating": 4.4,
-        "image": "/images/blog/marrakech-food-guide.jpg",
+        "image": "https://images.unsplash.com/photo-1542367592-8849eb950fd8?w=800&q=80",
         "citySlug": "marrakech",
         "placeSlug": undefined
       },
@@ -3951,7 +3951,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "The single best argument for eating lunch over dinner in Marrakech: slow-roasted mechoui lamb from underground clay ovens, sold by weight until it runs out around 13:30. The space is cramped and loud, the seasoning is nothing but cumin and salt, and it is extraordinary. Cash only, no reservations, and absolutely worth rearranging your day for.",
         "address": "Rue Bab Agnaou, near Mellah, 40000 Marrakech, Morocco",
         "rating": 4.8,
-        "image": "/images/blog/marrakech-food-guide.jpg",
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
         "citySlug": "marrakech",
         "placeSlug": undefined
       }
