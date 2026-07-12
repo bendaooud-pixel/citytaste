@@ -8,6 +8,7 @@ import FavoriteButton from "@/components/FavoriteButton";
 import StarRating from "@/components/StarRating";
 import Navbar from "@/components/Navbar";
 import NearMe from "@/components/NearMe";
+import HomepageExperiences from "@/components/HomepageExperiences";
 import { useLocale } from "@/lib/i18n";
 
 const RED = "#E63946";
@@ -450,6 +451,9 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* ── Top Experiences ── */}
+      <HomepageExperiences />
 
       {/* ── Partner Cities ── */}
       <section className="border-t border-b border-gray-100 bg-gray-50 py-10 px-4">
