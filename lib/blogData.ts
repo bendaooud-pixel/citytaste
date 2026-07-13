@@ -3963,7 +3963,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
     "city": "Paris",
     "citySlug": "paris",
     "category": "Cafes",
-    "coverImage": "/images/blog/best-coffee-shops-paris.jpg",
+    "coverImage": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=1200&q=80",
     "publishedAt": "2026-06-25",
     "readingTime": 8,
     "primaryKeyword": "best coffee shops Paris",
@@ -3976,7 +3976,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "A corner café in the 11th that skips the scenery and focuses on the cup. The rotating single-origin espresso program is one of the most consistent in the city, and prices stay honest. Seating is tight and service during peak hours tests your patience.",
         "address": "3 Rue Neuve Popincourt, 75011 Paris, France",
         "rating": 4.6,
-        "image": "/images/blog/best-coffee-shops-paris.jpg",
+        "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&q=80",
         "citySlug": "paris",
         "placeSlug": undefined
       },
@@ -3985,7 +3985,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "One of the original specialty coffee Paris addresses, tucked near the Palais-Royal with room for barely a dozen people. The filter coffee menu changes with the season and is explained with genuine expertise. Laptop workers will need to look elsewhere — there simply isn't room.",
         "address": "5 Rue Villedo, 75001 Paris, France",
         "rating": 4.8,
-        "image": "/images/blog/best-coffee-shops-paris.jpg",
+        "image": "https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=800&q=80",
         "citySlug": "paris",
         "placeSlug": undefined
       },
@@ -3994,7 +3994,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "A compact, standing-friendly counter near the Opéra that produces a reliably excellent flat white without any fuss. It's built for speed and quality, not lingering. The morning rush is real — show up before 8am or after 9:30am.",
         "address": "24 Rue Daunou, 75002 Paris, France",
         "rating": 4.5,
-        "image": "/images/blog/best-coffee-shops-paris.jpg",
+        "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=800&q=80",
         "citySlug": "paris",
         "placeSlug": undefined
       },
@@ -4003,7 +4003,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "The benchmark for third wave coffee Paris in Saint-Germain — high ceilings, an open roaster, and a brunch menu that costs more than it perhaps should. The coffee program is serious and the space is one of the most comfortable in the city for a long sit. Weekend mornings attract a crowd that arrives with a plan.",
         "address": "47 Rue de Babylone, 75007 Paris, France",
         "rating": 4.7,
-        "image": "/images/blog/best-coffee-shops-paris.jpg",
+        "image": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=800&q=80",
         "citySlug": "paris",
         "placeSlug": undefined
       },
@@ -4012,7 +4012,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "Set inside the arcades of the Palais-Royal, Honor combines a genuinely beautiful setting with a pour-over program that changes weekly and is taken seriously. The crowd skews fashionable in a way that's more Parisian than pretentious. Outdoor courtyard seating disappears fast on weekends.",
         "address": "54 Rue du Faubourg Saint-Honoré, 75008 Paris, France",
         "rating": 4.7,
-        "image": "/images/blog/best-coffee-shops-paris.jpg",
+        "image": "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?w=800&q=80",
         "citySlug": "paris",
         "placeSlug": undefined
       }
@@ -4024,7 +4024,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
     "city": "Barcelona",
     "citySlug": "barcelona",
     "category": "Markets",
-    "coverImage": "/images/blog/food-markets-barcelona.jpg",
+    "coverImage": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=1200&q=80",
     "publishedAt": "2026-06-26",
     "readingTime": 8,
     "primaryKeyword": "Barcelona food market",
@@ -4037,7 +4037,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "The world's most famous Barcelona food market is equal parts spectacle and trap — the tourist stalls near the entrance are overpriced, but the inner sections remain genuinely impressive. Bar Pinotxo at the counter serves some of the best value cooking in the city. Go before 9am on a weekday or it becomes a crowd-management exercise.",
         "address": "La Rambla, 91, 08001 Barcelona",
         "rating": 4.2,
-        "image": "/images/blog/food-markets-barcelona.jpg",
+        "image": "https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=800&q=80",
         "citySlug": "barcelona",
         "placeSlug": undefined
       },
@@ -4046,7 +4046,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "Designed by Enric Miralles with a mosaic roof that stops people mid-stride, Santa Caterina is the best all-around Barcelona food market for serious shoppers and curious visitors alike. The fish section is exceptional and the market bar runs a rotating daily special for around €8. Crowds are a fraction of Boqueria, even on weekends.",
         "address": "Av. de Francesc Cambó, 16, 08003 Barcelona",
         "rating": 4.6,
-        "image": "/images/blog/food-markets-barcelona.jpg",
+        "image": "https://images.unsplash.com/photo-1555992336-fb0d29498b13?w=800&q=80",
         "citySlug": "barcelona",
         "placeSlug": undefined
       },
@@ -4055,7 +4055,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "Part produce market, part flea market, entirely unpolished — Abaceria in Gràcia is one of the few Barcelona markets that hasn't been renovated into something Instagram-friendly. The fruit prices are honest and the Saturday antique section draws real collectors. It's chaotic in the best way.",
         "address": "Travessera de Gràcia, 186, 08012 Barcelona",
         "rating": 4.1,
-        "image": "/images/blog/food-markets-barcelona.jpg",
+        "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80",
         "citySlug": "barcelona",
         "placeSlug": undefined
       },
@@ -4064,7 +4064,7 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "Tucked into one of Barcelona's quietest residential neighbourhoods, Sarrià market runs at a pace that feels like a different city entirely. Quality is consistently high — the cheese counter and free-range poultry stalls are standouts — and vendors here actually have time to talk. Closed Monday mornings.",
         "address": "Passeig de la Reina Elisenda de Montcada, 8, 08034 Barcelona",
         "rating": 4.5,
-        "image": "/images/blog/food-markets-barcelona.jpg",
+        "image": "https://images.unsplash.com/photo-1488477181210-6ef054d3fb1d?w=800&q=80",
         "citySlug": "barcelona",
         "placeSlug": undefined
       },
@@ -4073,8 +4073,114 @@ Start the day with [brunch](/blog/best-brunch-barcelona) at one of Barcelona's b
         "description": "Barcelona's main flea market under a mirrored canopy near Glòries is not a traditional food market, but the street food perimeter has quietly become one of the better eating spots in the Eixample fringe. Peruvian, Moroccan, and Spanish stalls all worth trying. The estate auctions on Monday and Friday mornings are free to watch and completely absorbing.",
         "address": "Carrer de los Castillejos, 158, 08013 Barcelona",
         "rating": 4.4,
-        "image": "/images/blog/food-markets-barcelona.jpg",
+        "image": "https://images.unsplash.com/photo-1547398847-19d7560a6257?w=800&q=80",
         "citySlug": "barcelona",
+        "placeSlug": undefined
+      }
+    ]
+  },
+  {
+    "title": "Best Rooftop Bars in Marrakech {year} — Sunset Drinks & Medina Views",
+    "slug": "best-rooftop-marrakech",
+    "city": "Marrakech",
+    "citySlug": "marrakech",
+    "category": "Bars",
+    "coverImage": "https://images.unsplash.com/photo-1539020140153-e479b8c22e70?w=1200&q=80",
+    "publishedAt": "2026-07-13",
+    "readingTime": 9,
+    "primaryKeyword": "rooftop marrakech",
+    "metaDescription": "Best rooftop bars in Marrakech {year}. 10 terraces tested: sunset views, cocktail prices, Koutoubia panoramas. Honest guide with local tips.",
+    "intro": "The best rooftop Marrakech has to offer is not what the Instagram algorithm sells you. Half the terraces in the medina are mediocre hotel bars with a tripod-friendly angle and a 120 MAD cocktail that tastes like syrup. But the other half — the ones locals actually drink at — combine genuine views of the Koutoubia and Atlas Mountains with drinks worth ordering twice. This guide covers 10 rooftop bars in Marrakech that earned their spot, with real prices, honest notes on what's overrated, and the exact time to show up for the best light. Budget roughly 80–250 MAD per person for drinks and a small plate.",
+    "body": "## Why Rooftop Marrakech Is a Category of Its Own\n\nMarrakech was built for rooftop drinking. The medina's low, dense architecture means almost every riad and restaurant has access to a terrace, and the climate delivers 300+ days of sunshine a year. The golden hour here — roughly 6:30pm in summer, 5pm in winter — paints the Koutoubia minaret and the snow-capped Atlas Mountains in colours that make even a mediocre drink feel special.\n\nThe trick is knowing which rooftops deliver on more than the view. Some terraces are noisy hotel pools masquerading as bars. Others are overpriced and indifferent because they know you'll come once, post the photo, and never return. The places below have regulars — a good sign in any city. For a broader view of what to do in the city, start with our [Marrakech city guide](/marrakech) or the full [things to do in Marrakech](/cities/marrakech/things-to-do).\n\n| Place | Area | Price Range | Best For | Sunset View |\n|-------|------|-------------|----------|-------------|\n| Nomad | Rahba Kedima | 80–150 MAD | Food + view combo | ★★★★☆ |\n| El Fenn | Bab el Ksour | 120–250 MAD | Boutique luxury | ★★★★★ |\n| Terrasse des Épices | Place des Épices | 60–120 MAD | Casual all-day | ★★★★☆ |\n| Kosybar | Mellah | 90–180 MAD | Storks + cocktails | ★★★★☆ |\n| Café des Épices | Place des Épices | 30–70 MAD | Budget terrace | ★★★☆☆ |\n| Le Salama | Jemaa el-Fna | 100–200 MAD | Square views | ★★★★★ |\n| Kabana Rooftop | Derb Jedid | 90–160 MAD | Koutoubia panorama | ★★★★★ |\n| Dar Anika | Kasbah | 80–150 MAD | Quiet escape | ★★★☆☆ |\n| La Sultana | Kasbah | 150–300 MAD | Splurge-worthy | ★★★★☆ |\n| Baromètre | Guéliz | 70–140 MAD | New town alternative | ★★☆☆☆ |\n\n## Detailed Reviews\n\n### 1. Nomad\n\n**Nomad** on Rahba Kedima is the rooftop Marrakech locals and tourists both agree on. Three floors up from the spice square, the terrace looks across a jumble of medina rooftops to the Atlas Mountains beyond. The **harissa prawns** (95 MAD) are the best thing on the menu. Cocktails run 80–120 MAD and are properly made — the rosemary gin is the house signature. The catch: it gets packed after 6pm and doesn't take rooftop reservations, so arrive by 5:30 or wait.\n\n**Best for:** Couples, food-focused travellers who want lunch and sunset in one sitting\n**Local tip:** The ground floor is air-conditioned and serves the same menu — useful in July when the terrace hits 42°C\n\n### 2. El Fenn\n\n**El Fenn** in Bab el Ksour is the most stylish rooftop Marrakech has, and it knows it. The riad belongs to Vanessa Branson and the terrace wraps around a pool with uninterrupted views of the Koutoubia. Cocktails start at 120 MAD and the wine list is genuinely curated — not the usual three Moroccan reds. The vibe is quiet, the crowd is well-dressed, and the staff remember what you ordered last time. It's expensive for Marrakech, but this is the terrace where the view, the drink, and the setting all align.\n\n**Best for:** Splurge evening, date night, anyone who wants the best view without a crowd\n**Local tip:** The poolside menu has a **pulled lamb briouate** (85 MAD) that's better than most full meals in the medina\n\n### 3. Terrasse des Épices\n\n**Terrasse des Épices** sits above the Place des Épices and draws a mixed crowd of locals, expats, and in-the-know visitors. It's more relaxed than Nomad and cheaper — fresh juices are 35 MAD, a tajine is 80 MAD. The rooftop is large enough that you'll almost always find a seat, even at peak sunset. The view is rooftops-and-minarets rather than Koutoubia-direct, but the atmosphere more than compensates. Open all day, which makes it good for a late morning coffee that turns into an accidental lunch.\n\n**Best for:** All-day hanging, groups, anyone who wants to avoid the pressure of a fancy terrace\n**Local tip:** Sit on the side facing the Medersa Ben Youssef for the best angle. The **avocado toast** (55 MAD) is surprisingly good.\n\n### 4. Kosybar\n\n**Kosybar** in the Mellah overlooks the stork nests on the ruins of El Badi Palace — a view that's genuinely unique in the city. The resident storks are absurdly photogenic at sunset, and the bar itself has a moody, art-filled interior for when the wind picks up. Cocktails are 90–140 MAD, and the **sushi** is decent (unusual for the medina). The downside: service can be slow when it's busy, and the food is uneven beyond the sushi and the mezze platter. Come for the view and the drinks, not a full dinner.\n\n**Best for:** Photographers, couples, anyone who likes their sunset with wildlife\n**Local tip:** The second-floor bar is cosier than the open rooftop if the evening cools down\n\nIf you're exploring the Mellah area, our [Marrakech street food guide](/blog/street-food-marrakech) covers the best bites within walking distance.\n\n### 5. Café des Épices\n\n**Café des Épices** on Place des Épices is the budget rooftop Marrakech that everyone starts with — and for good reason. A mint tea costs 20 MAD, a fresh orange juice is 25 MAD, and the terrace has a direct view of the spice square below. It's not a cocktail bar; it's a daytime spot where you nurse a coffee and watch the souk operate. The food is basic (sandwiches, salads) but honest. No pretension, no pressure to spend.\n\n**Best for:** Budget travellers, solo visitors, morning people who want a quiet start\n**Local tip:** Go before 10am for an empty terrace and the best light on the square\n\n### 6. Le Salama\n\n**Le Salama** sits right on Jemaa el-Fna and has arguably the most dramatic rooftop Marrakech offers — the entire square unfolds beneath you as the food stalls light up at dusk. Cocktails are 100–160 MAD and the **Moroccan tapas platter** (130 MAD) is generous. The restaurant downstairs is fine but forgettable; the terrace is the reason to come. Expect a 15–20 minute wait for a table at sunset unless you arrive before 6pm.\n\n**Best for:** First-timers who want the Jemaa el-Fna experience from above\n**Local tip:** Skip the main courses — the tapas and cocktails are the strong suit\n\n### 7. Kabana Rooftop\n\n**Kabana** in Derb Jedid has the cleanest Koutoubia panorama of any bar in the city. The terrace is small — maybe 30 seats — which keeps it intimate. Cocktails run 90–130 MAD and lean tropical: the passion fruit mojito is the popular order. The food menu is short but the **chicken pastilla** (75 MAD) is excellent. Service is attentive without being hovering. If you want one perfect sunset photo of the Koutoubia with a drink in hand, this is the terrace.\n\n**Best for:** Photographers, couples, anyone prioritising the Koutoubia view\n**Local tip:** The westward corner table seats two and has the unobstructed money shot — ask for it specifically\n\n### 8. Dar Anika\n\n**Dar Anika** in the Kasbah quarter is a boutique riad whose rooftop bar is open to non-guests. It's quieter than the medina rooftops — the Kasbah sits south of the main tourist circuit — and the terrace looks over the royal palace walls toward the Agdal Gardens. Cocktails are 80–120 MAD. It's the kind of place where you can read a book at 4pm and still be there for sunset without anyone rushing you.\n\n**Best for:** Introverts, couples who want calm, readers\n**Local tip:** Combine it with a visit to the nearby [Saadian Tombs](/cities/marrakech/things-to-do) — they close at 5pm, so tombs first, then terrace\n\n### 9. La Sultana\n\n**La Sultana** is the five-star option. The rooftop pool and bar occupy one of the most commanding positions in the Kasbah, and the service matches the setting — you'll be offered a cold towel and a menu within 60 seconds of sitting down. Cocktails start at 150 MAD and the **tuna tartare** (140 MAD) is probably the best small plate on any rooftop in the city. It's expensive, undeniably, but the infinity pool reflecting the Koutoubia at golden hour is something most Marrakech rooftops can't compete with.\n\n**Best for:** Special occasions, luxury travellers, honeymooners\n**Local tip:** Non-guests can use the pool for 350 MAD (redeemable against food/drink) — actually good value for a half-day of swimming and sunset\n\n### 10. Baromètre (Guéliz)\n\n**Baromètre** in Guéliz is the new-town alternative for anyone who wants a rooftop Marrakech experience without navigating the medina. The vibe is modern — exposed concrete, neon accents, a DJ on weekends — and the crowd is mostly young Moroccans rather than tourists. Cocktails are 70–110 MAD, beer is 40 MAD. No Koutoubia view from here, but the atmosphere is livelier than most medina terraces after 10pm. If you're exploring the [bars in Marrakech](/cities/marrakech/bars), this is the Guéliz anchor.\n\n**Best for:** Night owls, younger travellers, anyone who wants a local crowd\n**Local tip:** Thursday and Friday nights have DJs — arrive before 9pm or you'll queue\n\n## Tips for Rooftop Marrakech\n\n- **Golden hour is everything.** Arrive 60–90 minutes before sunset to secure a good table. Peak sunset in summer is around 7:30pm; in winter, 5:30pm. The best rooftops fill up fast.\n- **Dress code exists in some places.** El Fenn, La Sultana, and Le Salama expect smart-casual. The rest are relaxed — shorts and sandals are fine everywhere except the five-star terraces.\n- **Wind is real.** Medina rooftops are exposed. Bring a light layer from October to March — it drops fast after the sun goes down. Kabana and Kosybar feel it most.\n- **Combine with a cooking class or day trip.** Several of our bookable [experiences in Marrakech](/morocco/activities) include late-afternoon returns, which time perfectly with a rooftop sunset. The [hot air balloon flight](/morocco/marrakech/experiences/marrakech-hot-air-balloon) finishes by noon, leaving the rest of the day free.\n\n## FAQ\n\n**What is the best rooftop bar in Marrakech?**\nFor the overall combination of view, drinks quality, and atmosphere, El Fenn is the best rooftop Marrakech has in {year}. For a more affordable option with great food, Nomad on Rahba Kedima is the strongest all-rounder.\n\n**How much do rooftop drinks cost in Marrakech?**\nCocktails range from 80–160 MAD ($8–$16) at mid-range rooftops like Nomad and Terrasse des Épices. Five-star terraces like La Sultana charge 150–300 MAD. Beer is 40–70 MAD everywhere. A mint tea or fresh juice on a budget terrace like Café des Épices costs 20–35 MAD.\n\n**Do I need to book a rooftop bar in Marrakech?**\nMost medina rooftops don't take terrace reservations — they're first come, first served. El Fenn and La Sultana accept bookings and it's worth calling ahead. For everywhere else, arriving 60 minutes before sunset is the safest strategy.\n\n**What time is sunset in Marrakech?**\nSunset in Marrakech ranges from about 5:30pm in December to 7:45pm in June. The golden hour — when the light hits the Koutoubia and Atlas Mountains — starts roughly 40 minutes before sunset. Plan to be seated by then.\n\n**Are rooftop bars in Marrakech open in winter?**\nYes, all the terraces in this guide are open year-round. Winter evenings (December–February) can drop to 8–12°C after dark, so bring a jacket. Heated terraces are rare — El Fenn and La Sultana have blankets. The upside: winter crowds are much smaller, and sunset colours are often more dramatic.\n\n## The Verdict\n\nFor the **best overall experience**, El Fenn delivers on every front — but you'll pay for it. For **food and drinks combined**, Nomad is the strongest choice and the one we send friends to first. **Budget travellers** should start at Café des Épices for morning views and move to Terrasse des Épices for sunset. **First-timers** should do Le Salama once for the Jemaa el-Fna panorama. And for the **best Koutoubia photo**, Kabana's small terrace is unbeatable. The best rooftop Marrakech has depends on what you're after — but it's hard to go wrong with any terrace on this list.",
+    "places": [
+      {
+        "name": "Nomad",
+        "description": "A three-storey medina restaurant above Rahba Kedima with Atlas Mountain views and some of the best modern Moroccan food in the city. The harissa prawns are the signature dish. Cocktails are well-made and reasonably priced. No rooftop reservations — arrive early or wait.",
+        "address": "1 Derb Aarjane, Rahba Lakdima, Marrakech",
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1542367592-8849eb950fd8?w=800&q=80",
+        "citySlug": "marrakech",
+        "placeSlug": undefined
+      },
+      {
+        "name": "El Fenn",
+        "description": "The most stylish rooftop in Marrakech with a pool and uninterrupted Koutoubia views. Curated wine list, excellent cocktails, and a pulled lamb briouate that's worth the trip alone. Expensive but justified — the setting, service, and drinks all align perfectly.",
+        "address": "2 Derb Moulay Abdullah Ben Hezzian, Bab el Ksour, Marrakech",
+        "rating": 4.8,
+        "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
+        "citySlug": "marrakech",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Terrasse des Épices",
+        "description": "A relaxed all-day terrace above Place des Épices drawing locals, expats, and visitors in equal measure. Fresh juices for 35 MAD, tajines for 80 MAD, and enough space that you'll almost always find a seat at sunset. No pretension, good value, great atmosphere.",
+        "address": "15 Souk Cherifia, Sidi Abdelaziz, Marrakech",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
+        "citySlug": "marrakech",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Kosybar",
+        "description": "An art-filled bar in the Mellah overlooking the stork nests on El Badi Palace ruins — a view unlike any other rooftop in the city. Cocktails are 90–140 MAD and the sushi is surprisingly decent. Service can lag when busy, but the sunset-with-storks experience is unique.",
+        "address": "47 Place des Ferblantiers, Mellah, Marrakech",
+        "rating": 4.4,
+        "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
+        "citySlug": "marrakech",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Café des Épices",
+        "description": "The budget rooftop Marrakech that everyone starts with — mint tea for 20 MAD and a direct view of the spice square below. No cocktails, no pretension, just a daytime terrace for watching the souk operate. Go before 10am for an empty terrace and the best light.",
+        "address": "75 Rahba Lakdima, Marrakech",
+        "rating": 4.3,
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
+        "citySlug": "marrakech",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Le Salama",
+        "description": "Perched directly above Jemaa el-Fna with the most dramatic rooftop view in the city — the entire square unfolds beneath you as the food stalls light up at dusk. Cocktails are 100–160 MAD and the Moroccan tapas platter is generous. Come for the terrace, not the restaurant.",
+        "address": "40 Rue des Banques, Jemaa el-Fna, Marrakech",
+        "rating": 4.3,
+        "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+        "citySlug": "marrakech",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Kabana Rooftop",
+        "description": "A small, intimate terrace with the cleanest Koutoubia panorama of any bar in the medina. Only about 30 seats, which keeps it special. The passion fruit mojito is the popular order and the chicken pastilla is excellent. Ask for the westward corner table for the unobstructed shot.",
+        "address": "Derb Jedid, Marrakech Medina",
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=800&q=80",
+        "citySlug": "marrakech",
+        "placeSlug": undefined
+      },
+      {
+        "name": "La Sultana",
+        "description": "The five-star option with an infinity pool reflecting the Koutoubia at golden hour. Service is impeccable, cocktails start at 150 MAD, and the tuna tartare is probably the best small plate on any rooftop in the city. Non-guests can use the pool for 350 MAD redeemable against food and drink.",
+        "address": "403 Rue de la Kasbah, Marrakech",
+        "rating": 4.7,
+        "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80",
+        "citySlug": "marrakech",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Dar Anika",
+        "description": "A quiet boutique riad rooftop in the Kasbah open to non-guests. Views over the royal palace walls toward the Agdal Gardens. Cocktails are 80–120 MAD. The kind of place where you can read a book at 4pm and still be there at sunset without anyone rushing you.",
+        "address": "Rue Riad Zitoun el Jedid, Kasbah, Marrakech",
+        "rating": 4.2,
+        "image": "https://images.unsplash.com/photo-1476224203421-9ac39bcb3b42?w=800&q=80",
+        "citySlug": "marrakech",
+        "placeSlug": undefined
+      },
+      {
+        "name": "Baromètre",
+        "description": "The new-town alternative in Guéliz for anyone who wants a rooftop without navigating the medina. Modern vibe with exposed concrete and DJs on weekends. The crowd is mostly young Moroccans. Cocktails 70–110 MAD, beer 40 MAD. Livelier than medina terraces after 10pm.",
+        "address": "Rue Mohamed el Beqal, Guéliz, Marrakech",
+        "rating": 4.1,
+        "image": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&q=80",
+        "citySlug": "marrakech",
         "placeSlug": undefined
       }
     ]
