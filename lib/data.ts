@@ -100,6 +100,8 @@ export const places: Place[] = [
     isHalal: false,
     isFamilyFriendly: false,
     hasTerrace: false,
+    metaTitle: "Septime Paris — How to Book, Menu & Is It Worth It ({year})",
+    metaDescription: "Septime is one of the hardest reservations in Paris. Here's how to actually get a table, what the tasting menu costs, and whether it lives up to the hype. Honest {year} review.",
     description:
       "One of Paris's most celebrated bistronomique restaurants. Septime blends inventive seasonal French cuisine with a warm, natural-wine-forward atmosphere. Every dish is a conversation between produce and technique.",
     reviewSummary:
@@ -165,6 +167,8 @@ export const places: Place[] = [
     isHalal: true,
     isFamilyFriendly: true,
     hasTerrace: false,
+    metaTitle: "L'As du Fallafel Paris — €7 Pita, Worth the Queue? ({year})",
+    metaDescription: "L'As du Fallafel on Rue des Rosiers serves the best falafel in Paris for under €8. Skip the sit-down — the takeaway window is faster. Hours, tips & what to order.",
     description:
       "A Parisian institution since 1979. The line stretching down Rue des Rosiers is the only address you need — their crispy, golden falafels stuffed with tahini, pickled vegetables and hummus are unmatched in the city.",
     reviewSummary:
@@ -295,6 +299,8 @@ export const places: Place[] = [
     isHalal: false,
     isFamilyFriendly: true,
     hasTerrace: false,
+    metaTitle: "Holybelly Paris — Best Brunch in the 10th? ({year} Review)",
+    metaDescription: "Holybelly's bourbon-butter pancakes are legendary, but is the 45-min queue worth it? Menu, prices, and the best time to avoid the wait. Updated {year}.",
     description:
       "The brunch spot that redefined weekend mornings in Paris. Expect fluffy pancakes with bourbon butter, exceptional filter coffee and a neighbourhood atmosphere that feels like home. Queue early — there's always a wait and it's always worth it.",
     reviewSummary:

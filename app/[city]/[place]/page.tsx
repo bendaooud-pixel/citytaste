@@ -23,6 +23,11 @@ const PRICE_LABEL = ["", "$", "$$", "$$$", "$$$$"];
 const DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 
 const BASE = "https://www.citytaste.co";
+const YEAR = new Date().getFullYear();
+
+function injectYear(s: string): string {
+  return s.replace(/\{year\}/g, String(YEAR));
+}
 
 type Props = { params: Promise<{ city: string; place: string }> };
 
@@ -33,20 +38,22 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     dbGetCityBySlug(citySlug),
   ]);
   if (!place || !city) return {};
+  const title = place.metaTitle ? injectYear(place.metaTitle) : `${place.name}, ${city.name}`;
+  const description = place.metaDescription ? injectYear(place.metaDescription) : place.description;
   return {
-    title: `${place.name}, ${city.name}`,
-    description: place.description,
+    title,
+    description,
     alternates: { canonical: `${BASE}/${citySlug}/${placeSlug}` },
     openGraph: {
-      title: `${place.name} — ${city.name} | CityTaste`,
-      description: place.description,
+      title,
+      description,
       url: `${BASE}/${citySlug}/${placeSlug}`,
       images: [{ url: place.photos[0], width: 1200, height: 630 }],
     },
     twitter: {
       card: "summary_large_image",
-      title: `${place.name} — ${city.name}`,
-      description: place.description,
+      title,
+      description,
       images: [place.photos[0]],
     },
   };

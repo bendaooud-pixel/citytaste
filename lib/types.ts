@@ -123,6 +123,8 @@ export interface Place {
   };
   theforkUrl?: string;
   getYourGuideUrl?: string;
+  metaTitle?: string;
+  metaDescription?: string;
 }
 
 export interface FilterState {

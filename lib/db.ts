@@ -24,6 +24,12 @@ const staticTheforkMap = new Map(
 const staticGygMap = new Map(
   staticPlacesData.map((p) => [`${p.citySlug}|${p.slug}`, p.getYourGuideUrl])
 );
+const staticMetaTitleMap = new Map(
+  staticPlacesData.filter((p) => p.metaTitle).map((p) => [`${p.citySlug}|${p.slug}`, p.metaTitle])
+);
+const staticMetaDescMap = new Map(
+  staticPlacesData.filter((p) => p.metaDescription).map((p) => [`${p.citySlug}|${p.slug}`, p.metaDescription])
+);
 
 // ── Row → Type mappers ───────────────────────────────────────────────────────
 
@@ -84,6 +90,8 @@ function rowToPlace(row: Record<string, unknown>): Place {
     getYourGuideUrl:
       (row.getyourguide_url as string | null) ??
       staticGygMap.get(`${row.city_slug as string}|${row.slug as string}`),
+    metaTitle: staticMetaTitleMap.get(`${row.city_slug as string}|${row.slug as string}`),
+    metaDescription: staticMetaDescMap.get(`${row.city_slug as string}|${row.slug as string}`),
   };
 }
 
