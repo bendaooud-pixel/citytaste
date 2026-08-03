@@ -10,15 +10,15 @@ const CANONICAL = `${BASE}/cities/marrakech/rooftop`;
 const YEAR = new Date().getFullYear();
 
 export const metadata: Metadata = {
-  title: `Best Rooftop Bars in Marrakech ${YEAR} — Sunset Views & Cocktails`,
-  description: `The ${YEAR} guide to rooftop bars in Marrakech: Kabana for the Koutoubia view, Sky Bar for 360° panoramas, Nomad for halal-friendly sunset drinks. Honest prices.`,
+  title: `7 Best Rooftop Bars in Marrakech — Sunset Views (${YEAR})`,
+  description: `Best rooftop bars in Marrakech ${YEAR}: Kabana for the Koutoubia view (80 MAD), Sky Bar for 360° Atlas panoramas, Nomad for halal-friendly drinks. Tested, with real prices.`,
   alternates: {
     canonical: CANONICAL,
     languages: { fr: `${BASE}/cities/marrakech/meilleur-rooftop` },
   },
   openGraph: {
-    title: `Best Rooftop Bars in Marrakech ${YEAR} — Sunset Views & Cocktails`,
-    description: `The best rooftop bars in Marrakech with Atlas Mountain views and sunset cocktails. Our top picks for ${YEAR}.`,
+    title: `7 Best Rooftop Bars in Marrakech — Sunset Views (${YEAR})`,
+    description: `Best rooftop bars in Marrakech ${YEAR}: Kabana for the Koutoubia view (80 MAD), Sky Bar for 360° Atlas panoramas, Nomad for halal-friendly drinks.`,
     type: "website",
     url: CANONICAL,
   },
@@ -171,7 +171,12 @@ export default function MarrakechRooftopPage() {
             </p>
             <p className="text-slate-600 leading-relaxed">
               {filteredPlaces.length} rooftop bars and terraces in Marrakech, all
-              tested, all worth the sunset. For the deeper ranking with detailed
+              tested, all worth the sunset. The medina&rsquo;s best rooftop cluster is at{" "}
+              <Link href="/blog/place-des-epices-marrakech" className="text-orange-500 hover:text-orange-600 font-medium">
+                Place des Épices
+              </Link>{" "}
+              — three terraces, spice stalls, and the calmest square in the souks.
+              For the deeper ranking with detailed
               reviews and honest prices, read our{" "}
               <Link href="/blog/best-sunset-terraces-marrakech" className="text-orange-500 hover:text-orange-600 font-medium">
                 sunset terraces guide
