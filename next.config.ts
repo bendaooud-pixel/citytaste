@@ -31,6 +31,11 @@ const nextConfig: NextConfig = {
         destination: "/cities/marrakech/things-to-do",
         permanent: true,
       },
+      {
+        source: "/cities/barcelona/breakfast",
+        destination: "/blog/best-brunch-barcelona",
+        permanent: true,
+      },
     ];
   },
 };
