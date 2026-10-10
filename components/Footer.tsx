@@ -16,7 +16,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-sm leading-relaxed">
-              Your curated guide to the world's best restaurants, cafés and food
+              Your curated guide to the world&apos;s best restaurants, cafés and food
               experiences. Honest, passionate, always hungry.
             </p>
           </div>
@@ -35,7 +35,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li><Link href="/rome" className="hover:text-white transition-colors">🇮🇹 Rome</Link></li>
-              <li className="text-slate-600 cursor-default">🇯🇵 Tokyo — coming soon</li>
+              <li><Link href="/marrakech" className="hover:text-white transition-colors">🇲🇦 Marrakech</Link></li>
             </ul>
           </div>
 

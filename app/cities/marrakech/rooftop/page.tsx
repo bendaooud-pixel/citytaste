@@ -9,18 +9,32 @@ const BASE = "https://www.citytaste.co";
 const CANONICAL = `${BASE}/cities/marrakech/rooftop`;
 const YEAR = new Date().getFullYear();
 
+const META_TITLE = `Best Rooftop Bars in Marrakech (${YEAR}): Sunset Views & Prices`;
+const META_DESC =
+  "Marrakech rooftop bars ranked by view, price and vibe: Kabana for the Koutoubia, Sky Bar for a 360° Atlas panorama, alcohol-free terraces, and cocktail prices in MAD.";
+const OG_IMAGE =
+  places.find((p) => p.citySlug === "marrakech" && p.slug === "kabana-rooftop")?.photos[0] ??
+  "https://images.unsplash.com/photo-1539020140153-e479b8c22e70?w=1200&q=80";
+
 export const metadata: Metadata = {
-  title: `7 Best Rooftop Bars in Marrakech — Sunset Views (${YEAR})`,
-  description: `Best rooftop bars in Marrakech ${YEAR}: Kabana for the Koutoubia view (80 MAD), Sky Bar for 360° Atlas panoramas, Nomad for halal-friendly drinks. Tested, with real prices.`,
+  title: META_TITLE,
+  description: META_DESC,
   alternates: {
     canonical: CANONICAL,
     languages: { fr: `${BASE}/cities/marrakech/meilleur-rooftop` },
   },
   openGraph: {
-    title: `7 Best Rooftop Bars in Marrakech — Sunset Views (${YEAR})`,
-    description: `Best rooftop bars in Marrakech ${YEAR}: Kabana for the Koutoubia view (80 MAD), Sky Bar for 360° Atlas panoramas, Nomad for halal-friendly drinks.`,
+    title: META_TITLE,
+    description: META_DESC,
     type: "website",
     url: CANONICAL,
+    images: [{ url: OG_IMAGE, width: 1200, height: 630, alt: "Rooftop bar in Marrakech at sunset" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: META_TITLE,
+    description: META_DESC,
+    images: [OG_IMAGE],
   },
 };
 
@@ -70,11 +84,6 @@ export default function MarrakechRooftopPage() {
         name: p.name,
         address: p.address,
         url: `${BASE}/marrakech/${p.slug}`,
-        aggregateRating: {
-          "@type": "AggregateRating",
-          ratingValue: p.rating,
-          reviewCount: p.reviewCount,
-        },
       },
     })),
   };

@@ -299,7 +299,7 @@ export const places: Place[] = [
     isHalal: false,
     isFamilyFriendly: true,
     hasTerrace: false,
-    metaTitle: "Holybelly Paris — Best Brunch in the 10th? ({year} Review)",
+    metaTitle: "Holybelly Paris: Menu, Prices & Queue Times ({year})",
     metaDescription: "Holybelly's bourbon-butter pancakes are legendary, but is the 45-min queue worth it? Menu, prices, and the best time to avoid the wait. Updated {year}.",
     description:
       "The brunch spot that redefined weekend mornings in Paris. Expect fluffy pancakes with bourbon butter, exceptional filter coffee and a neighbourhood atmosphere that feels like home. Queue early — there's always a wait and it's always worth it.",

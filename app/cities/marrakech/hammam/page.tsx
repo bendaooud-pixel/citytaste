@@ -51,11 +51,6 @@ export default function MarrakechHammamPage() {
         name: p.name,
         address: p.address,
         url: `${BASE}/marrakech/${p.slug}`,
-        aggregateRating: {
-          "@type": "AggregateRating",
-          ratingValue: p.rating,
-          reviewCount: p.reviewCount,
-        },
       },
     })),
   };

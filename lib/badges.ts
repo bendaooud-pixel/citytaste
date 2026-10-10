@@ -24,7 +24,7 @@ const DEFS: Record<BadgeId, Omit<Badge, "id">> = {
     colorClass: "bg-red-50 text-red-700 border-red-200",
   },
   "citytaste-pick": {
-    label: "CityTaste Pick 2025",
+    label: "CityTaste Pick",
     icon: "🏆",
     colorClass: "bg-amber-50 text-amber-700 border-amber-200",
   },
