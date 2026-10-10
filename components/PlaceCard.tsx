@@ -90,7 +90,7 @@ export default function PlaceCard({ place, compact = false }: PlaceCardProps) {
           <div className="mt-1.5 flex items-center gap-2 flex-wrap">
             <StarRating rating={place.rating} size="sm" />
             <span className="text-slate-500 text-xs">
-              {place.rating} ({place.reviewCount.toLocaleString()})
+              {place.rating}
             </span>
             {place.ratings && (
               <RatingsBar ratings={place.ratings} variant="compact" />

@@ -6,8 +6,6 @@ import { CATEGORIES } from "@/lib/types";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import PhotoGallery from "@/components/PhotoGallery";
-import ReviewSummary from "@/components/ReviewSummary";
-import StarRating from "@/components/StarRating";
 import FavoriteButton from "@/components/FavoriteButton";
 import PlaceCard from "@/components/PlaceCard";
 import MapClient from "@/components/MapClient";
@@ -18,6 +16,7 @@ import { getBadges } from "@/lib/badges";
 import UserReviews from "@/components/UserReviews";
 import ReviewForm from "@/components/ReviewForm";
 import { getTranslations } from "@/lib/getTranslations";
+import { isThinAttractionPlace } from "@/lib/seo";
 
 const PRICE_LABEL = ["", "$", "$$", "$$$", "$$$$"];
 const DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
@@ -44,6 +43,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title,
     description,
     alternates: { canonical: `${BASE}/${citySlug}/${placeSlug}` },
+    // Famous monuments / bookable activities: useful for visitors, but not pages
+    // we can rank with. Keep them out of the index so they don't weigh on site quality.
+    ...(isThinAttractionPlace(place.categories) && { robots: { index: false, follow: true } }),
     openGraph: {
       title,
       description,
@@ -112,19 +114,9 @@ export default async function PlaceDetailPage({ params }: Props) {
     },
     ...(place.phone && { telephone: place.phone }),
     priceRange: PRICE_RANGE[place.priceLevel],
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: place.rating,
-      bestRating: 5,
-      reviewCount: place.reviewCount,
-    },
-    review: place.reviews.map((r) => ({
-      "@type": "Review",
-      author: { "@type": "Person", name: r.author },
-      reviewRating: { "@type": "Rating", ratingValue: r.rating, bestRating: 5 },
-      reviewBody: r.text,
-      datePublished: r.date,
-    })),
+    // No AggregateRating / Review markup: the ratings and sample reviews stored in
+    // lib/data.ts are not collected from real visitors on this site, and Google's
+    // review-snippet policy forbids marking them up (risk of a manual action).
   };
 
   const breadcrumbJsonLd = {
@@ -188,12 +180,6 @@ export default async function PlaceDetailPage({ params }: Props) {
                   </h1>
 
                   <div className="flex items-center flex-wrap gap-3 mt-3">
-                    <div className="flex items-center gap-2">
-                      <StarRating rating={place.rating} size="lg" />
-                      <span className="font-bold text-slate-800">{place.rating}</span>
-                      <span className="text-slate-500 text-sm">({place.reviewCount.toLocaleString()} reviews)</span>
-                    </div>
-                    <span className="text-slate-300">·</span>
                     <span className="font-semibold text-slate-700">{PRICE_LABEL[place.priceLevel]}</span>
                     <span className="text-slate-300">·</span>
                     <span className={`text-sm font-semibold ${isOpen ? "text-emerald-600" : "text-red-500"}`}>
@@ -227,33 +213,9 @@ export default async function PlaceDetailPage({ params }: Props) {
                 <p className="text-slate-600 leading-relaxed">{place.description}</p>
               </div>
 
-              <ReviewSummary summary={place.reviewSummary} placeName={place.name} />
-
-              <div className="bg-white rounded-2xl p-6 shadow-sm border border-slate-100">
-                <h2 className="font-semibold text-slate-800 mb-5 flex items-center gap-2">
-                  {t("place.guestReviews")}
-                  <span className="text-xs bg-slate-100 text-slate-600 px-2 py-0.5 rounded-full">
-                    {place.reviewCount.toLocaleString()} total
-                  </span>
-                </h2>
-                <div className="space-y-5">
-                  {place.reviews.map((review) => (
-                    <div key={review.id} className="flex gap-4">
-                      <div className="w-10 h-10 rounded-full bg-gradient-to-br from-orange-400 to-rose-500 flex items-center justify-center text-white text-xs font-bold shrink-0">
-                        {review.initials}
-                      </div>
-                      <div className="flex-1 min-w-0">
-                        <div className="flex items-center gap-2 flex-wrap mb-1">
-                          <span className="font-semibold text-slate-800 text-sm">{review.author}</span>
-                          <StarRating rating={review.rating} size="sm" />
-                          <span className="text-slate-400 text-xs ml-auto">{review.date}</span>
-                        </div>
-                        <p className="text-slate-600 text-sm leading-relaxed">{review.text}</p>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
+              {/* Hard-coded "guest reviews", review counts and the "AI review summary"
+                  were removed (Oct 2026): they were not written by real visitors.
+                  Only reviews submitted through the form below are shown. */}
               <UserReviews placeSlug={placeSlug} />
               <ReviewForm placeSlug={placeSlug} />
             </div>

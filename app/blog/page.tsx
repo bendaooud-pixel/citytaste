@@ -1,15 +1,13 @@
 export const dynamic = "force-dynamic";
 
+import { withYear } from "@/lib/seo";
 import type { Metadata } from "next";
 import Link from "next/link";
 import BlogImage from "@/components/ui/BlogImage";
 import { getAllArticles } from "@/lib/blogData";
 
 const BASE = "https://www.citytaste.co";
-const YEAR = new Date().getFullYear();
-function injectYear(s: string): string {
-  return s.replace(/\{year\}/g, String(YEAR)).replace(/\b20\d{2}\b/, String(YEAR));
-}
+const injectYear = withYear;
 
 export const metadata: Metadata = {
   title: "Food Guides & City Stories — CityTaste Blog",
@@ -96,7 +94,7 @@ export default function BlogPage() {
               <div className="relative md:w-1/2 h-64 md:h-auto min-h-[260px]">
                 <BlogImage
                   src={featured.coverImage}
-                  alt={featured.title}
+                  alt={injectYear(featured.title)}
                   priority
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                   sizes="(max-width: 768px) 100vw, 50vw"
@@ -123,7 +121,7 @@ export default function BlogPage() {
                   {injectYear(featured.title)}
                 </h2>
                 <p className="text-slate-600 text-sm leading-relaxed mb-4 line-clamp-3">
-                  {featured.intro}
+                  {injectYear(featured.intro)}
                 </p>
                 <div className="flex items-center gap-4 text-xs text-slate-400">
                   <span>
@@ -151,7 +149,7 @@ export default function BlogPage() {
               <div className="relative h-48 overflow-hidden">
                 <BlogImage
                   src={article.coverImage}
-                  alt={article.title}
+                  alt={injectYear(article.title)}
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
@@ -175,7 +173,7 @@ export default function BlogPage() {
                   {injectYear(article.title)}
                 </h3>
                 <p className="text-slate-500 text-sm leading-relaxed line-clamp-2 flex-1">
-                  {article.intro}
+                  {injectYear(article.intro)}
                 </p>
                 <div className="flex items-center gap-3 mt-4 text-xs text-slate-400 border-t border-slate-100 pt-3">
                   <span>

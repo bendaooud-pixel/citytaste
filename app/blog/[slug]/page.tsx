@@ -7,9 +7,9 @@ import Newsletter from "@/components/Newsletter";
 import GygWidget from "@/components/affiliate/GygWidget";
 import GygButton from "@/components/affiliate/GygButton";
 import { getAllArticles, getArticleBySlug } from "@/lib/blogData";
+import { withYear, ORGANIZATION_ID } from "@/lib/seo";
 
 const BASE = "https://www.citytaste.co";
-const YEAR = new Date().getFullYear();
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -21,15 +21,16 @@ export async function generateStaticParams() {
   return getAllArticles().map((a) => ({ slug: a.slug }));
 }
 
-function injectYear(s: string): string {
-  return s.replace(/\{year\}/g, String(YEAR)).replace(/\b20\d{2}\b/, String(YEAR));
-}
+// Only the {year} token is replaced. Real years in the text ("Grand Prix 2024")
+// are facts and must not be rewritten.
+const injectYear = withYear;
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const article = getArticleBySlug(slug);
   if (!article) return {};
-  const title = injectYear(article.title);
+  // metaTitle (optional) is the <title> tuned for search; the H1 stays article.title.
+  const title = injectYear(article.metaTitle ?? article.title);
   const description = injectYear(article.metaDescription);
   const canonical = `${BASE}/blog/${article.slug}`;
   return {
@@ -98,7 +99,7 @@ export default async function BlogArticlePage({ params }: Props) {
     .filter((a) => a.slug !== article.slug && a.citySlug === article.citySlug)
     .slice(0, 3);
 
-  const faqItems = extractFAQ(article.body);
+  const faqItems = extractFAQ(injectYear(article.body));
   const displayTitle = injectYear(article.title);
 
   const articleJsonLd = {
@@ -112,16 +113,13 @@ export default async function BlogArticlePage({ params }: Props) {
     url: `${BASE}/blog/${article.slug}`,
     articleSection: article.category,
     keywords: [article.category, article.city, "food guide", "travel guide"].join(", "),
-    author: {
-      "@type": "Organization",
-      name: "CityTaste",
-      url: BASE,
-    },
+    author: { "@id": ORGANIZATION_ID },
     publisher: {
       "@type": "Organization",
+      "@id": ORGANIZATION_ID,
       name: "CityTaste",
       url: BASE,
-      logo: { "@type": "ImageObject", url: `${BASE}/favicon.ico` },
+      logo: { "@type": "ImageObject", url: `${BASE}/apple-icon` },
     },
     mainEntityOfPage: { "@type": "WebPage", "@id": `${BASE}/blog/${article.slug}` },
   };
@@ -161,7 +159,7 @@ export default async function BlogArticlePage({ params }: Props) {
         <div className="relative h-72 md:h-96 w-full">
           <BlogImage
             src={article.coverImage}
-            alt={article.title}
+            alt={displayTitle}
             priority
             className="object-cover"
             sizes="100vw"
@@ -210,11 +208,11 @@ export default async function BlogArticlePage({ params }: Props) {
 
           {/* Intro */}
           <p className="text-lg text-slate-700 leading-relaxed mb-8 font-medium">
-            {article.intro}
+            {injectYear(article.intro)}
           </p>
 
           {/* Body — properly rendered markdown */}
-          <MarkdownRenderer body={article.body} className="mb-12" />
+          <MarkdownRenderer body={injectYear(article.body)} className="mb-12" />
 
           {/* Newsletter mid-article */}
           <div className="my-10">
@@ -261,7 +259,7 @@ export default async function BlogArticlePage({ params }: Props) {
                       </svg>
                       {place.address}
                     </p>
-                    <p className="text-slate-600 text-sm leading-relaxed">{place.description}</p>
+                    <p className="text-slate-600 text-sm leading-relaxed">{injectYear(place.description)}</p>
                   </div>
                   {place.placeSlug ? (
                     <Link
@@ -347,7 +345,7 @@ export default async function BlogArticlePage({ params }: Props) {
                     <div className="relative h-32 w-full">
                       <BlogImage
                         src={rel.coverImage}
-                        alt={rel.title}
+                        alt={injectYear(rel.title)}
                         className="object-cover group-hover:scale-105 transition-transform duration-300"
                         sizes="(max-width: 640px) 100vw, 33vw"
                       />
@@ -355,7 +353,7 @@ export default async function BlogArticlePage({ params }: Props) {
                     <div className="p-3">
                       <span className="text-orange-500 text-xs font-semibold">{rel.category}</span>
                       <p className="text-slate-800 text-sm font-semibold mt-1 leading-snug line-clamp-2">
-                        {rel.title}
+                        {injectYear(rel.title)}
                       </p>
                     </div>
                   </Link>

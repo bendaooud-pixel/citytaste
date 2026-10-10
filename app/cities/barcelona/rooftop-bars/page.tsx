@@ -41,11 +41,6 @@ export default function BarcelonaRooftopPage() {
         name: p.name,
         address: p.address,
         url: `${BASE}/barcelona/${p.slug}`,
-        aggregateRating: {
-          "@type": "AggregateRating",
-          ratingValue: p.rating,
-          reviewCount: p.reviewCount,
-        },
       },
     })),
   };

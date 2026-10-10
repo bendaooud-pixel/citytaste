@@ -46,11 +46,6 @@ export default function MarrakechBarsPage() {
         name: p.name,
         address: p.address,
         url: `${BASE}/marrakech/${p.slug}`,
-        aggregateRating: {
-          "@type": "AggregateRating",
-          ratingValue: p.rating,
-          reviewCount: p.reviewCount,
-        },
       },
     })),
   };

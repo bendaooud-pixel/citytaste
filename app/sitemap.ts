@@ -4,6 +4,7 @@ import { getAllArticles } from "@/lib/blogData";
 import { getAllGuides, getGuidesByCity } from "@/lib/morocco/content";
 import { MOROCCO_CITIES } from "@/lib/morocco/types";
 import { getAllActivitiesWithSlugs } from "@/lib/activities/db";
+import { isThinAttractionPlace } from "@/lib/seo";
 
 const BASE_URL = "https://www.citytaste.co";
 
@@ -29,7 +30,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   }));
 
-  const placeRoutes: MetadataRoute.Sitemap = places.map((place) => ({
+  // noindex'd attraction pages (see lib/seo.ts) are left out of the sitemap.
+  const placeRoutes: MetadataRoute.Sitemap = places
+    .filter((place) => !isThinAttractionPlace(place.categories))
+    .map((place) => ({
     url: `${BASE_URL}/${place.citySlug}/${place.slug}`,
     lastModified: SITE_UPDATED,
     changeFrequency: "monthly",

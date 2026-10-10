@@ -80,12 +80,6 @@ export default async function CityPage({ params }: Props) {
         "@type": "Restaurant",
         name: p.name,
         url: `${BASE}/${p.citySlug}/${p.slug}`,
-        aggregateRating: {
-          "@type": "AggregateRating",
-          ratingValue: p.rating,
-          bestRating: 5,
-          reviewCount: p.reviewCount,
-        },
       },
     })),
   };

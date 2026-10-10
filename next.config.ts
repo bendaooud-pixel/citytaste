@@ -32,6 +32,12 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        // Merged into the 12-bakery guide (Oct 2026): two pages were splitting rankings.
+        source: "/blog/best-boulangeries-paris",
+        destination: "/blog/best-bakeries-paris",
+        permanent: true,
+      },
+      {
         source: "/cities/barcelona/breakfast",
         destination: "/blog/best-brunch-barcelona",
         permanent: true,
